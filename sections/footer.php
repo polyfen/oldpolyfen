@@ -1,0 +1,5 @@
+<footer>
+
+  <!-- [TBD] footer -->
+
+</footer>
