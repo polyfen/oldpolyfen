@@ -2,13 +2,13 @@
 <html lang="en">
 
 <!-- INCLUDE HEAD.PHP start -->
-  <?php include 'sections/head.php';?>
+  <?php include 'sections/head.php'?>
 <!-- INCLUDE HEAD.PHP end -->
 
   <body id="home">
 
     <!-- INCLUDE HEADER.PHP start -->
-      <?php include 'sections/header.php';?>
+      <?php include 'sections/header.php'?>
     <!-- INCLUDE HEADER.PHP end -->
 
     <section id="cover">
@@ -25,7 +25,7 @@
       </div>
     </section>
 
-    <section class="container-fluid" id="about">
+    <section class="container-fluid" id="call-to-action">
       <div class="row">
         <div class="col">
           <h2>Give your business the brand it deserves</h2>
@@ -36,7 +36,7 @@
     </section>
 
     <!-- INCLUDE FOOTER.PHP start -->
-      <?php include 'sections/footer.php';?>
+      <?php include 'sections/footer.php'?>
     <!-- INCLUDE FOOTER.PHP end -->
 
   </body>
