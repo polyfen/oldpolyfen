@@ -10,7 +10,7 @@
 
 
   <!-- META Page-Specific -->
-  <meta property="og:title" content="PolyFramework"/>
+  <meta property="og:title" content="Polyfen"/>
   <meta property="og:url" content="[TBD]"/>
   <meta name="keywords" content="[TBD]" />
   <meta name="description" property="og:description" content="[TBD]" />
