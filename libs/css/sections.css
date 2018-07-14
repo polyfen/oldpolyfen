@@ -25,7 +25,7 @@ section#about {
       max-width: 160px;
     }
 
-    section#about h2::after {
+    section#about h2:after {
       content: "";
       display: block;
       width: 139px;
@@ -46,7 +46,7 @@ section#call-to-action {
       max-width: 300px;
     }
 
-    section#call-to-action h2::after {
+    section#call-to-action h2:after {
       content: "";
       display: block;
       width: 139px;
@@ -77,6 +77,20 @@ section#call-to-action {
 
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
+
+  section#call-to-action h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  section#call-to-action h2:after {
+    margin: 25px auto;
+  }
+
+  section#call-to-action p {
+    text-align: center;
+    margin: 0 auto 30px;
+  }
 
 }
 
