@@ -20,7 +20,6 @@
         <div class="col">
           <h2>We mean business</h2>
           <p>Our small and efficient team of experts from around the world is run by four partners with backgrounds in business, design, tech, and marketing.</p>
-          <p>Our services are a solution for executives working at new and emerging businesses who need professional guidance in translating their business into a creative brand identity that will stand-out over the competition and increase revenue.</p>
         </div>
       </div>
     </section>
@@ -29,7 +28,7 @@
       <div class="row">
         <div class="col">
           <h2>Give your business the brand it deserves</h2>
-          <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
+          <p>Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
           <a class="button primary-button">Contact us</a>
         </div>
       </div>
