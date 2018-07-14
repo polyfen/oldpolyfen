@@ -1,5 +1,20 @@
 /*---------- SECTIONS start------------*/
 
+section#cover {
+  background: #191947 /* #indigo-minus-4 */ ;
+  height: 407px;
+  position: relative;
+}
+
+    section#cover h1 {
+      position: absolute;
+      bottom: 30px;
+      left: 12px;
+    }
+
+section#about {
+  background: #291b5e /* #indigo-minus-3 */ ;
+}
 
 /*---------- SECTIONS end ------------*/
 
