@@ -104,6 +104,30 @@ p a:hover, a:hover small {
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
 
+    h1 {
+      font-size: 54.5px;
+      letter-spacing: 0.2px;
+      line-height: 1.12;
+    }
+
+    h2 {
+      font-size: 45px;
+      letter-spacing: normal;
+      line-height: 1.11;
+    }
+
+    p {
+      font-size: 23px;
+      letter-spacing: 0.1px;
+      line-height: normal;
+    }
+
+    button, a.button, a small, small {
+      font-size: 23px;
+      letter-spacing: 0.4px;
+      line-height: normal;
+    }
+
 }
 
 /* Large devices (Tanblet Landscape) */
