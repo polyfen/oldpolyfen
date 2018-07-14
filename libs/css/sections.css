@@ -68,26 +68,25 @@ section#call-to-action {
 /*---------- [MEDIA QUERIES] start ------------*/
 
 
-/* Extra large devices (large desktops is default)
- No media query since the extra-large breakpoint has no upper bound on its width*/
+/* Extra-Small devices (Mobile Narrowest) are set as default */
 
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+/* Small devices (Mobile Widest) */
+@media (min-width: 576px) {
 
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+/* Medium devices (Tablet Portrait / Mobile Landscape) */
+@media (min-width: 768px) {
 
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* Large devices (Tanblet Landscape) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra-Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) {
 
 }
 
