@@ -29,6 +29,21 @@ section#about {
       margin: 25px 0;
     }
 
+section#call-to-action {
+  background: #8529e2 /* #indigo */;
+}
+
+    section#call-to-action h2::after {
+      content: "";
+      display: block;
+      width: 139px;
+      height: 5px;
+      background: #a25bea /* #indigo-plus-1 */;
+      margin: 25px 0;
+    }
+
+
+
 /*---------- SECTIONS end ------------*/
 
 

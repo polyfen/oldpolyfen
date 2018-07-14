@@ -1,18 +1,22 @@
 /*---------- BUTTONS start -----------*/
 
-a.button {
-  border: 2px solid #TBD;
+a.primary-button {
+  background: #5f23ac /* #indigo-minus-1 */;
+  border: 5px solid #461f88 /* indigo-minus-2 */;
   border-radius: 100px;
   padding: 10px 20px;
-  width: 240px;
+  width: 100%;
+  max-width: 294px;
   margin: 0 auto;
   text-align: center;
+  display: block;
 }
 
-a.button:hover {
+a.primary-button:hover {
   text-decoration: none;
-  background: #TBD;
-  color: #TBD;
+  background: #461f88 /* indigo-minus-2 */;
+  border-color: #291b5e /* indigo-minus-3 */;
+  color: #FFFFFF /* white */ !important;
 }
 
 

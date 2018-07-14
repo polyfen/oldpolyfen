@@ -20,13 +20,13 @@ body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  background: #TBD; /* Cherry */
-  color: #TBD; /* Space */
+  background: #F46666; /* Cherry */
+  color: #FFFFFF; /* Space */
 }
 
 ::selection {
-  background: #TBD; /* Cherry */
-  color: #TBD; /* Space */
+  background: #F46666; /* Cherry */
+  color: #FFFFFF; /* Space */
 }
 
 button, a {
