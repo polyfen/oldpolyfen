@@ -10,7 +10,7 @@ header {
 header img#logo {
   height: 45px;
   width: auto;
-  margin-top: 18;
+  margin-top: 18px;
   margin-left: 12px;
 }
 
@@ -35,6 +35,11 @@ header img#logo {
 
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
+
+  header img#logo {
+    margin-top: 25px;
+    margin-left: 30px;
+  }
 
 }
 
