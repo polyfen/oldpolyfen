@@ -65,7 +65,7 @@ p /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
-a.button /* (mobile) */ {
+a.button, a.small, small /* (mobile) */ {
   font-size: 21px;
   letter-spacing: 1.4px;
   line-height: normal;

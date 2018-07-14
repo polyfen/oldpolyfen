@@ -30,7 +30,7 @@
         <div class="col">
           <h2>Give your business the brand it deserves</h2>
           <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
-          <a class="primary-button">Contact us</a>
+          <a class="button primary-button">Contact us</a>
         </div>
       </div>
     </section>
