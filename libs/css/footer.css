@@ -12,6 +12,7 @@ footer {
 
   div#social-icons {
     background: #5f23ac /* #indigo-minus-1 */;
+    padding: 8px 0 2px;
   }
 
   div#social-icons ul {
@@ -34,6 +35,7 @@ footer {
 
   div#legal {
     background: #461f88 /* indigo-minus-2 */;
+    padding: 8px 0 0;
   }
 
 /*---------- FOOTER end ------------*/

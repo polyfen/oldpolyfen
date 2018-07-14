@@ -42,6 +42,10 @@ section#call-to-action {
       margin: 25px 0;
     }
 
+    section#call-to-action p {
+      margin-bottom: 30px;
+    }
+
 
 
 /*---------- SECTIONS end ------------*/
