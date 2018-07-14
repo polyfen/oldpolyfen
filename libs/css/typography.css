@@ -50,7 +50,7 @@ h2 /* (mobile) */ {
 
 p /* (mobile) */ {
   font-size: 21px;
-  letter-spacing: 0px;
+  letter-spacing: 0.1px;
   line-height: 1.38;
   text-align: left;
   font-weight: 400 /*regular*/;
