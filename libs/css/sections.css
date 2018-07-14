@@ -94,6 +94,7 @@ section#call-to-action {
 
   section#call-to-action h2:after {
     margin: 25px auto;
+    width: 243px;
   }
 
   section#call-to-action p {
