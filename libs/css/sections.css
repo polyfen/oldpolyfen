@@ -1,5 +1,9 @@
 /*---------- SECTIONS start------------*/
 
+section {
+  padding: 40px 12px;
+}
+
 section#cover {
   background: #191947 /* #indigo-minus-4 */ ;
   height: 407px;
@@ -8,13 +12,22 @@ section#cover {
 
     section#cover h1 {
       position: absolute;
-      bottom: 30px;
+      bottom: 34px;
       left: 12px;
     }
 
 section#about {
   background: #291b5e /* #indigo-minus-3 */ ;
 }
+
+    section#about h2::after {
+      content: "";
+      display: block;
+      width: 139px;
+      height: 5px;
+      background: #8529e2 /* #indigo */;
+      margin: 25px 0;
+    }
 
 /*---------- SECTIONS end ------------*/
 
