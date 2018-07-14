@@ -11,11 +11,12 @@
 
   <!-- META Page-Specific -->
   <meta property="og:title" content="Polyfen"/>
-  <meta property="og:url" content="[TBD]"/>
-  <meta name="keywords" content="[TBD]" />
-  <meta name="description" property="og:description" content="[TBD]" />
+  <meta property="og:url" content="http://polyfen.com"/>
+  <meta name="keywords" content="Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
+  <meta name="description" property="og:description" content="Polyfen is a
+  creative agency specializing in brand identity design. Our small and efficient team of experts from around the world is run by four partners with backgrounds in business, design, tech, and marketing." />
   <meta property="og:image" content="[TBD]"/>
-  <meta name="robots" content="noindex,nofollow"> <!-- [TBD] robots -->
+  <meta name="robots" content="index, follow">
 
 
   <!-- FAVICON -->
