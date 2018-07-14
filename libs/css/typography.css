@@ -1,6 +1,9 @@
 /*---------- TYPOGRAPHY start ------------*/
 
-
+@font-face {
+  font-family: 'Biotif-Bold';
+  src: url('../fonts/Biotif-Bold.ttf') format('truetype');
+}
 
 /*–––––––––––––––––––– MEDIA QUERIES  ––––––––––––––––––––*/
 
