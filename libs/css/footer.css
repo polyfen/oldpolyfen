@@ -25,6 +25,14 @@ footer {
         color: #291b5e /* #indigo-minus-3 */;
       }
 
+      div#social-icons ul li:first-child a i {
+        margin: 0 8.5px 0 0;
+      }
+
+      div#social-icons ul li:last-child a i {
+        margin: 0 0 0 8.5px;
+      }
+
       div#social-icons ul li a:hover i {
         color: #FFFFFF /* #white */;
       }
@@ -63,6 +71,11 @@ footer {
 
       div#social-icons ul li a i {
         font-size: 30.7px;
+        margin: 0 6px;
+      }
+
+      div#social-icons ul li:first-child a i {
+        margin: 0 6px 0 0;
       }
 
   div#legal {
