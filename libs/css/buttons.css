@@ -36,6 +36,10 @@ a.primary-button:hover {
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
 
+  a.primary-button {
+    max-width: 300px;
+  }
+
 }
 
 /* Large devices (Tanblet Landscape) */
