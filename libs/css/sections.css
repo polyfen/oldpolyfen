@@ -78,9 +78,18 @@ section#call-to-action {
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
 
+  section#cover h1 {
+    max-width: 680px;
+  }
+
+  section#about h2 {
+    max-width: 200px;
+  }
+
   section#call-to-action h2 {
     text-align: center;
     margin: 0 auto;
+    max-width: 450px;
   }
 
   section#call-to-action h2:after {
@@ -90,6 +99,7 @@ section#call-to-action {
   section#call-to-action p {
     text-align: center;
     margin: 0 auto 30px;
+    max-width: 500px;
   }
 
 }
