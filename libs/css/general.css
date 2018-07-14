@@ -10,15 +10,6 @@ html, body {
   overflow-x: hidden !important;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 85px; /* Margin bottom by footer height for sticky footer */
-}
-
 ::-moz-selection { /* Code for Firefox */
   background: #F46666; /* Cherry */
   color: #FFFFFF; /* Space */
