@@ -1,33 +1,108 @@
 /*---------- TYPOGRAPHY start ------------*/
 
 @font-face {
-  font-family: 'Biotif-Bold';
+  font-family: 'Biotif Bold';
   src: url('../fonts/Biotif-Bold.ttf') format('truetype');
+  font-weight: 600 /* bold */;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Biotif Bold', Helvetica, Arial, sans-serif;
+  color: #D8D8D8 /* #cloud */;
+}
+
+h1 /* (mobile) */ {
+  font-size: 35px;
+  letter-spacing: 0.3px;
+  line-height: 1.17;
+  text-align: left;
+  font-weight: 600 /* bold */;
+  font-style: normal;
+  color: #FFFFFF /* #white */;
+  font-family: 'Biotif Bold', Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+}
+
+h2 /* (mobile) */ {
+  font-size: 35px;
+  letter-spacing: 0.3px;
+  line-height: 1.17;
+  text-align: left;
+  font-weight: 600 /* bold */;
+  font-style: normal;
+  color: #FFFFFF /* #white */;
+  font-family: 'Biotif Bold', Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+}
+
+p /* (mobile) */ {
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 1.38;
+  text-align: left;
+  font-weight: 400 /*regular*/;
+  font-style: normal;
+  color: #D8D8D8 /*cloud*/;
+  font-family: 'Lora', serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+a.button /* (mobile) */ {
+  font-size: 21px;
+  letter-spacing: 1.4px;
+  line-height: normal;
+  text-align: center;
+  font-weight: 600 /*bold*/;
+  font-style: normal;
+  color: #D8D8D8 /*cloud*/;
+  font-family: 'Biotif Bold', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
 /*–––––––––––––––––––– MEDIA QUERIES  ––––––––––––––––––––*/
 
-/* Extra large devices (large desktops is default)
- No media query since the extra-large breakpoint has no upper bound on its width*/
+/* Extra-Small devices (Mobile Narrowest) are set as default */
 
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+/* Small devices (Mobile Widest) */
+@media (min-width: 576px) {
 
 }
 
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+/* Medium devices (Tablet Portrait / Mobile Landscape) */
+@media (min-width: 768px) {
 
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+/* Large devices (Tanblet Landscape) */
+@media (min-width: 992px) {
 
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* Extra-Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) {
 
 }
 
