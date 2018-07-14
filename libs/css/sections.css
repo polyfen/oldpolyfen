@@ -14,11 +14,16 @@ section#cover {
       position: absolute;
       bottom: 34px;
       left: 12px;
+      max-width: 450px;
     }
 
 section#about {
   background: #291b5e /* #indigo-minus-3 */ ;
 }
+
+    section#about h2 {
+      max-width: 160px;
+    }
 
     section#about h2::after {
       content: "";
@@ -29,9 +34,17 @@ section#about {
       margin: 25px 0;
     }
 
+    section#about p {
+      max-width: 400px;
+    }
+
 section#call-to-action {
   background: #8529e2 /* #indigo */;
 }
+
+    section#call-to-action h2 {
+      max-width: 300px;
+    }
 
     section#call-to-action h2::after {
       content: "";
@@ -44,6 +57,7 @@ section#call-to-action {
 
     section#call-to-action p {
       margin-bottom: 30px;
+      max-width: 441px;
     }
 
 
