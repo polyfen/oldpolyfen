@@ -1,5 +1,19 @@
 /*---------- HEADER start ------------*/
 
+header {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+header img#logo {
+  height: 45px;
+  width: auto;
+  margin-top: 18;
+  margin-left: 12px;
+}
+
 /*---------- HEADER end ------------*/
 
 
