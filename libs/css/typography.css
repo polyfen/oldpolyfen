@@ -65,8 +65,25 @@ p /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
-button, a.button, a small, small /* (mobile) */ {
+button, a.buttons /* (mobile) */ {
   font-size: 21px;
+  letter-spacing: 1.4px;
+  line-height: normal;
+  text-align: center;
+  font-weight: 600 /*bold*/;
+  font-style: normal;
+  color: #D8D8D8 /*cloud*/;
+  font-family: 'Biotif Bold', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+a small, small /* (mobile) */ {
+  font-size: 16px;
   letter-spacing: 1.4px;
   line-height: normal;
   text-align: center;

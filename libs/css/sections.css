@@ -46,7 +46,23 @@ section#call-to-action {
       max-width: 441px;
     }
 
+div.modal-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.85);
+}
 
+    div.modal-window {
+      height: 100%;
+      width: 100%;
+      background: #FFFFFF /* #white */;
+      padding: 12px;
+    }
 
 /*---------- SECTIONS end ------------*/
 
