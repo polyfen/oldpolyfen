@@ -139,7 +139,7 @@ p a:hover, a:hover small {
       line-height: normal;
     }
 
-    button, a.button, a small, small {
+    button, a.button {
       font-size: 23px;
       letter-spacing: 0.4px;
       line-height: normal;
