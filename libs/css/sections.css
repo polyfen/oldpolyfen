@@ -25,15 +25,6 @@ section#about {
       max-width: 160px;
     }
 
-    section#about h2:after {
-      content: "";
-      display: block;
-      width: 139px;
-      height: 5px;
-      background: #8529e2 /* #indigo */;
-      margin: 25px 0;
-    }
-
     section#about p {
       max-width: 400px;
     }
@@ -44,15 +35,6 @@ section#call-to-action {
 
     section#call-to-action h2 {
       max-width: 300px;
-    }
-
-    section#call-to-action h2:after {
-      content: "";
-      display: block;
-      width: 139px;
-      height: 5px;
-      background: #a25bea /* #indigo-plus-1 */;
-      margin: 25px 0;
     }
 
     section#call-to-action p {
@@ -97,10 +79,6 @@ section#call-to-action {
     max-width: 450px;
   }
 
-  section#call-to-action h2:after {
-    margin: 25px auto;
-    width: 243px;
-  }
 
   section#call-to-action p {
     text-align: center;

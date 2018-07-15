@@ -1,6 +1,24 @@
 
 /*---------- SEPARATORS start -----------*/
 
+section#about h2:after {
+  content: "";
+  display: block;
+  width: 139px;
+  height: 5px;
+  background: #8529e2 /* #indigo */;
+  margin: 25px 0;
+}
+
+section#call-to-action h2:after {
+  content: "";
+  display: block;
+  width: 139px;
+  height: 5px;
+  background: #a25bea /* #indigo-plus-1 */;
+  margin: 25px 0;
+}
+
 
 /*---------- SEPARATORS end -----------*/
 
@@ -17,6 +35,11 @@
 
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
+
+  section#call-to-action h2:after {
+    margin: 25px auto;
+    width: 243px;
+  }
 
 }
 
