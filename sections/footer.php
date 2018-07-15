@@ -13,6 +13,8 @@
 
 <div id="legal">
   <a><small>Privacy Policy</small></a>
+  <span style="opacity:0.2;margin:0 10px;">|</span> 
+  <a><small>Terms of Service</small></a>
 </div>
 
 </footer>
