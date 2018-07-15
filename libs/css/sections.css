@@ -5,7 +5,10 @@ section {
 }
 
 section#cover {
-  background: #191947 /* #indigo-minus-4 */ ;
+  background-color: #191947 /* #indigo-minus-4 */ ;
+  background-image: url('../../imgs/backgrounds/pattern-background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
   height: 407px;
   position: relative;
 }
