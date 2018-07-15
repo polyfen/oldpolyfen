@@ -9,6 +9,7 @@ section#cover {
   background-image: url('../../imgs/backgrounds/pattern-background.jpg');
   background-size: cover;
   background-attachment: fixed;
+  box-shadow: #00000080 0 -10px 30px inset;
   height: 407px;
   position: relative;
 }
