@@ -11,13 +11,13 @@ html, body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  background: #F46666; /* Cherry */
-  color: #FFFFFF; /* Space */
+  background: #F46666; /* #cherry */
+  color: #FFFFFF; /* #white */
 }
 
 ::selection {
-  background: #F46666; /* Cherry */
-  color: #FFFFFF; /* Space */
+  background: #F46666; /* #cherry */
+  color: #FFFFFF; /* #white */
 }
 
 button, a {
