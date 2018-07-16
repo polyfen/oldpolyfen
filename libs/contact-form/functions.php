@@ -1,7 +1,7 @@
 <?php function ifynmail($to,$toname,$subject,$fromname,$from,$body,$attach=''){
 
 
-require_once($_SERVER['DOCUMENT_ROOT'].'libs/contact-form/phpmailer/phpmailer.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/libs/contact-form/phpmailer/phpmailer.php');
 	$mail = new PHPMailer();
 	$mail->IsSMTP();
 //$mail->Mailer="sendmail";
@@ -26,7 +26,7 @@ $mail->SMTPAuth = true;
 
 	//$mail->SMTPSecure= "ssl"; //  Used instead of TLS when only POP mail is selected
 	$mail->Port = 465;        //  Used instead of 587 when only POP mail is selected
-	$mail->SetLanguage("en", $_SERVER['DOCUMENT_ROOT'].'libs/contact-form/phpmailer/language/');
+	$mail->SetLanguage("en", $_SERVER['DOCUMENT_ROOT'].'/libs/contact-form/phpmailer/language/');
 
 
 	$mail->SMTPSecure = 'ssl';
