@@ -34,7 +34,7 @@
         </div>
 
         <div class="col d-none" id="contact-form">
-          <form id="ajax-contact" method="post" action="mailer.php">
+          <form id="ajax-contact" method="post" action="libs/contact-form/mailer.php">
             <input type="text" name="name" placeholder="Your name" required>
             <input type="email" name="email" id="email" placeholder="Your email" required>
             <textarea name="message" id="message" placeholder="Your message..." required></textarea>
