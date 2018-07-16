@@ -35,6 +35,11 @@ div#contact-form button#go-back {
   border-right: 2.5px solid #461f88 /* indigo-minus-2 */;
 }
 
+div#contact-form button#go-back i.fa-chevron-left {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
 /*---------- BUTTONS end -----------*/
 
 
