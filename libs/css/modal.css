@@ -1,3 +1,5 @@
+/*---------- MODAL start ------------*/
+
 div.modal-wrapper {
   position: fixed;
   top: 0;
@@ -35,15 +37,15 @@ div.modal-wrapper {
     }
 
     div.modal-window i.fa-times {
-      right: 20px;
-      position: fixed;
+      right: 6px;
+      position: absolute;
       color: #19194799 /* indigo-minus-3 @x% */;
       border-radius: 20px;
       height: 28px;
       width: 28px;
       text-align: center;
       padding-top: 5.6px;
-      top: 20px;
+      top: 6px;
       cursor: pointer;
     }
 
@@ -55,3 +57,46 @@ div.modal-wrapper {
     div.modal-window p, div.modal-window li {
       color: #9E9281;
     }
+
+    /*---------- [MEDIA QUERIES] start ------------*/
+
+
+    /* Extra-Small devices (Mobile Narrowest) are set as default */
+
+    /* Small devices (Mobile Widest) */
+    @media (min-width: 576px) {
+
+    }
+
+    /* Medium devices (Tablet Portrait / Mobile Landscape) */
+    @media (min-width: 768px) {
+
+      div.modal-window {
+        max-width: 744px;
+        margin: 0 auto;
+      }
+
+      div.modal-window div.modal-window-header {
+        max-width: 744px;
+        padding: 14px 25px 12px;
+      }
+
+      div.modal-window div.modal-window-content {
+        padding: 90px 25px 25px;
+      }
+
+    }
+
+    /* Large devices (Tanblet Landscape) */
+    @media (min-width: 992px) {
+
+    }
+
+    /* Extra-Large devices (desktops, less than 1200px) */
+    @media (min-width: 1200px) {
+
+    }
+
+    /*---------- [MEDIA QUERIES] end ------------*/
+
+/*---------- MODAL end ------------*/
