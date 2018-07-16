@@ -17,6 +17,7 @@ footer {
 
       div#social-icons ul li {
         display: inline;
+        margin: 0;
       }
 
       div#social-icons ul li a i {

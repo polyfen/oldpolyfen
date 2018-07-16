@@ -24,11 +24,10 @@ button, a {
   cursor: pointer;
 }
 
-/*
-a, a:active, a:hover {
-  color: #TBD;
+li {
+    margin-left: 20px;
+    margin-top: 10px;
 }
-*/
 
 /*---------- GENERAL end ------------*/
 

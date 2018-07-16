@@ -39,6 +39,7 @@
   <link rel="stylesheet" href="libs/css/buttons.css" type="text/css">
   <link rel="stylesheet" href="libs/css/separators.css" type="text/css">
   <link rel="stylesheet" href="libs/css/sections.css" type="text/css">
+  <link rel="stylesheet" href="libs/css/modal.css" type="text/css">
 
   <!-- CSS Page-Specific-->
 
