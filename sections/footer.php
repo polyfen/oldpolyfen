@@ -1,3 +1,11 @@
+<!-- INCLUDE PRIVACY-POLICY.PHP start -->
+  <?php include 'sections/privacy-policy.php';?>
+<!-- INCLUDE PRIVACY-POLICY.PHP end -->
+
+<!-- INCLUDE TERMS-OF-SERVICE.PHP start -->
+  <?php include 'sections/terms-of-service.php';?>
+<!-- INCLUDE TERMS-OF-SERVICE.PHP end -->
+
 <footer>
 
 <div id="social-icons">
@@ -12,9 +20,9 @@
 </div>
 
 <div id="legal">
-  <a><small>Privacy Policy</small></a>
-  <span style="opacity:0.2;margin:0 10px;">|</span> 
-  <a><small>Terms of Service</small></a>
+  <a onclick="document.getElementById('privacy-policy').className='modal-wrapper d-block';" ><small>Privacy Policy</small></a>
+  <span style="opacity:0.2;margin:0 10px;">|</span>
+  <a onclick="document.getElementById('terms-of-service').className='modal-wrapper d-block';"><small>Terms of Service</small></a>
 </div>
 
 </footer>

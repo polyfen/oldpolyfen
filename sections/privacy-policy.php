@@ -1,5 +1,6 @@
-<div id="privacy-policy" class="modal-wrapper">
+<div id="privacy-policy" class="modal-wrapper d-none">
   <div class="modal-window">
+    <i class="fas fa-times" onclick="document.getElementById('privacy-policy').className='modal-wrapper d-none';" ></i>
     <h2>Privacy Policy</h2>
     <p>Your privacy is important to us. It is Polyfen OÜ's policy to respect your privacy regarding any information we may collect from you across our website, <a href="http://polyfen.com">http://polyfen.com</a>, and other sites we own and operate.</p>
     <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
