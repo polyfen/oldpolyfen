@@ -46,6 +46,32 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <!--
+  /**
+   * @license
+   * MyFonts Webfont Build ID 3612228, 2018-07-19T08:39:14-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   * Webfont: InteloAlt-Bold by Kastelov
+   * URL: https://www.myfonts.com/fonts/kastelov/intelo/alt-bold/
+   *
+   * Webfont: InteloAlt-SemiBold by Kastelov
+   * URL: https://www.myfonts.com/fonts/kastelov/intelo/alt-semi-bold/
+   *
+   *
+   * License: https://www.myfonts.com/viewlicense?type=web&buildid=3612228
+   * Licensed pageviews: 10,000
+   * Webfonts copyright: Copyright &#x00A9; 2016 by Galin Kastelov. All rights reserved.
+   *
+   * © 2018 MyFonts Inc
+  */
+  -->
+  <link rel="stylesheet" type="text/css" href="libs/fonts/MyFontsWebfontsKit.css">
 
 
 </head>
