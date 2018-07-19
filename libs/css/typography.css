@@ -10,7 +10,7 @@ h1 /* (mobile) */ {
   letter-spacing: 0.3px;
   line-height: 1.17;
   text-align: left;
-  font-weight: 700 /* bold */;
+  font-weight: normal /* bold */;
   font-style: normal;
   color: #FFFFFF /* #white */;
   font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
@@ -28,7 +28,7 @@ h2 /* (mobile) */ {
   letter-spacing: 0.3px;
   line-height: 1.17;
   text-align: left;
-  font-weight: 600 /* semi-bold */;
+  font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #FFFFFF /* #white */;
   font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
@@ -63,7 +63,7 @@ button, a.buttons /* (mobile) */ {
   letter-spacing: 1.4px;
   line-height: normal;
   text-align: center;
-  font-weight: 600 /* semi-bold */;
+  font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #D8D8D8 /* cloud */;
   font-family: 'InteloAlt-SemiBold', sans-serif;
@@ -80,7 +80,7 @@ a small, small /* (mobile) */ {
   letter-spacing: 1.4px;
   line-height: normal;
   text-align: center;
-  font-weight: 600 /* semi-bold */;
+  font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #D8D8D8 /* cloud */;
   font-family: 'InteloAlt-SemiBold', sans-serif;
