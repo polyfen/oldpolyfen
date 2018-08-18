@@ -51,7 +51,7 @@ div.modal-wrapper {
 
     div.modal-window i.fa-times:hover {
       color: #FFFFFF /* #white */;
-      background: #8529e2 /* #indigo */;
+      background: #7800FF /* #indigo */;
     }
 
     div.modal-window p, div.modal-window li {

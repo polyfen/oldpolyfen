@@ -1,8 +1,8 @@
 /*---------- BUTTONS start -----------*/
 
 a.primary-button {
-  background: #5f23ac /* #indigo-minus-1 */;
-  border: 5px solid #461f88 /* indigo-minus-2 */;
+  background: #5a01d1 /* #indigo-minus-1 */;
+  border: 5px solid #3C02A2 /* indigo-minus-2 */;
   border-radius: 100px;
   padding: 9px 20px;
   width: 100%;
@@ -14,8 +14,8 @@ a.primary-button {
 
 a.primary-button:hover {
   text-decoration: none;
-  background: #461f88 /* indigo-minus-2 */;
-  border-color: #291b5e /* indigo-minus-3 */;
+  background: #3C02A2 /* indigo-minus-2 */;
+  border-color: #1E0274 /* indigo-minus-3 */;
   color: #FFFFFF /* white */ !important;
 }
 

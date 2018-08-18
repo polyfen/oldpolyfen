@@ -5,10 +5,7 @@ section {
 }
 
 section#cover {
-  background-color: #191947 /* #indigo-minus-4 */ ;
-  background-image: url('../../imgs/backgrounds/pattern-background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #000345 /* #indigo-minus-4 */ ;
   box-shadow: #00000080 0 -10px 30px inset;
   height: 407px;
   position: relative;
@@ -19,10 +16,23 @@ section#cover {
       bottom: 34px;
       left: 12px;
       max-width: 450px;
+      z-index: 1;
+    }
+
+    section#cover div#pattern {
+      background-image: url('../../imgs/backgrounds/pattern-background.gif');
+      background-size: cover;
+      background-attachment: fixed;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.4;
     }
 
 section#about {
-  background: #291b5e /* #indigo-minus-3 */ ;
+  background: #24185B /* #indigo-minus-3 */ ;
 }
 
     section#about h2 {
@@ -34,7 +44,7 @@ section#about {
     }
 
 section#call-to-action {
-  background: #8529e2 /* #indigo */;
+  background: #7800FF /* #indigo */;
 }
 
     section#call-to-action h2 {

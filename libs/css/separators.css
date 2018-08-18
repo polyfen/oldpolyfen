@@ -6,7 +6,7 @@ section#about h2:after {
   display: block;
   width: 139px;
   height: 5px;
-  background: #8529e2 /* #indigo */;
+  background: #7800FF /* #indigo */;
   margin: 25px 0;
 }
 
@@ -15,7 +15,7 @@ section#call-to-action h2:after {
   display: block;
   width: 139px;
   height: 5px;
-  background: #a25bea /* #indigo-plus-1 */;
+  background: #5a01d1 /* #indigo-plus-1 */;
   margin: 25px 0;
 }
 

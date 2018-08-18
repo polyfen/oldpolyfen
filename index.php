@@ -13,6 +13,8 @@
 
     <section id="cover">
         <h1>A creative agency devoted to brand identity design.</h1>
+        <div id="pattern">
+        </div>
     </section>
 
     <section class="container-fluid" id="about">
