@@ -1,8 +1,8 @@
 /*---------- BUTTONS start -----------*/
 
-a.primary-button {
-  background: #5a01d1 /* #indigo-minus-1 */;
-  border: 5px solid #3C02A2 /* indigo-minus-2 */;
+a.primary-button, div#contact-form button {
+  background: #5f23ac /* #indigo-minus-1 */;
+  border: 5px solid #461f88 /* indigo-minus-2 */;
   border-radius: 100px;
   padding: 9px 20px;
   width: 100%;
@@ -12,13 +12,33 @@ a.primary-button {
   display: block;
 }
 
-a.primary-button:hover {
+a.primary-button:hover, div#contact-form button:hover {
   text-decoration: none;
   background: #3C02A2 /* indigo-minus-2 */;
   border-color: #1E0274 /* indigo-minus-3 */;
   color: #FFFFFF /* white */ !important;
 }
 
+div#contact-form button {
+  width:50%;
+}
+
+div#contact-form button#send {
+  float: right;
+  border-radius: 0 100px 100px 0;
+  border-left: 2.5px solid #461f88 /* indigo-minus-2 */;
+}
+
+div#contact-form button#go-back {
+  float: left;
+  border-radius: 100px 0 0 100px;
+  border-right: 2.5px solid #461f88 /* indigo-minus-2 */;
+}
+
+div#contact-form button#go-back i.fa-chevron-left {
+    font-size: 14px;
+    opacity: 0.5;
+}
 
 /*---------- BUTTONS end -----------*/
 

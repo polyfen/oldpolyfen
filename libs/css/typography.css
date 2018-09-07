@@ -58,8 +58,8 @@ p, p a, li /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
-button, a.buttons /* (mobile) */ {
-  font-size: 21px;
+button, a.button /* (mobile) */ {
+  font-size: 16px;
   letter-spacing: 1.4px;
   line-height: normal;
   text-align: center;

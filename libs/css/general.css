@@ -24,9 +24,23 @@ button, a {
   cursor: pointer;
 }
 
-li {
-    margin-left: 20px;
-    margin-top: 10px;
+input {
+  width: 100%;
+  background: none;
+  border: 3px solid #ffffff4d;
+  border-radius: 40px;
+  padding: 8px 12px;
+  margin: 0 0 10px 0;
+}
+
+textarea {
+  background: none;
+  border: 3px solid #FFFFFF4D;
+  padding: 8px 12px;
+  border-radius: 18px;
+  height: 160px;
+  width: 100%;
+  margin: 0 0 10px 0;
 }
 
 /*---------- GENERAL end ------------*/
