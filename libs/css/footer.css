@@ -23,7 +23,7 @@ footer {
       div#social-icons ul li a i {
         font-size: 28px;
         margin: 0 8.5px;
-        color: #27155F /* #indigo-minus-4 */;
+        color: #2AC6B5 /* #indigo-minus-4 */;
       }
 
       div#social-icons ul li:first-child a i {
@@ -35,11 +35,11 @@ footer {
       }
 
       div#social-icons ul li a:hover i {
-        color: #2AC6B5 /* #white */;
+        color: #FFFFFF /* #white */;
       }
 
   div#legal {
-    background: #461f88 /* indigo-minus-2 */;
+    background: #240079 /* indigo-minus-2 */;
     padding: 20px 0 25px;
   }
 
@@ -71,10 +71,15 @@ footer {
         div#social-icons ul li a i {
           font-size: 30.7px;
           margin: 0 6px;
+          color: #27155F /* #indigo-minus-4 */;
         }
 
         div#social-icons ul li:first-child a i {
           margin: 0 6px 0 0;
+        }
+
+        div#social-icons ul li a:hover i {
+          color: #2AC6B5 /* #white */;
         }
 
     div#legal {
@@ -83,6 +88,10 @@ footer {
       padding: 4px 0 0 0;
       background: none;
       text-align: right;
+    }
+
+    div#legal span {
+      color: #240079 !important;
     }
 
   }

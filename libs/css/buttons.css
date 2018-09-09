@@ -28,7 +28,7 @@ div#contact-form button {
 div#contact-form button#send {
   float: right;
   border-radius: 0 6px 6px 0;
-  border-left: 2.5px solid #219E90 /* indigo-minus-2 */;
+  border-left: 2.5px solid #1F9588 /* indigo-minus-2 */;
 }
 
 div#contact-form button#go-back {
@@ -38,7 +38,7 @@ div#contact-form button#go-back {
 
 div#contact-form button#go-back i.fa-chevron-left {
   font-size: 14px;
-  opacity: 0.2;
+  opacity: 0.25;
   float: left;
   margin-top: 9px;
   color: black;

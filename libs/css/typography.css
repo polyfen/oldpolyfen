@@ -41,6 +41,24 @@ h2 /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
 }
 
+h3 /* (mobile) */ {
+  font-size: 30px;
+  letter-spacing: 0.1px;
+  line-height: 1.24;
+  text-align: left;
+  font-weight: normal /* semi-bold */;
+  font-style: normal;
+  color: #191947b3 /* #white */;
+  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+}
+
 p, p a, li /* (mobile) */ {
   font-size: 21px;
   letter-spacing: 0.1px;
@@ -155,7 +173,11 @@ p a:hover {
       line-height: 1.11;
     }
 
-    p, p a {
+    h3 /* (mobile) */ {
+      font-size: 35px;
+    }
+
+    p, p a, li {
       font-size: 25px;
       letter-spacing: 0.15px;
       line-height: normal;

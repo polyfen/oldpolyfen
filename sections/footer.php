@@ -21,7 +21,7 @@
 
 <div id="legal">
   <a onclick="document.getElementById('privacy-policy').className='modal-wrapper d-block';" ><small>Privacy Policy</small></a>
-  <span style="opacity:0.2;margin:0 10px;">|</span>
+  <span style="margin:0 10px;color:#4500a9;">|</span>
   <a onclick="document.getElementById('terms-of-service').className='modal-wrapper d-block';"><small>Terms of Service</small></a>
 </div>
 
