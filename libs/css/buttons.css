@@ -1,22 +1,24 @@
 /*---------- BUTTONS start -----------*/
 
 a.primary-button, div#contact-form button {
-  background: #5f23ac /* #indigo-minus-1 */;
-  border: 5px solid #461f88 /* indigo-minus-2 */;
-  border-radius: 100px;
-  padding: 9px 20px;
+  background: #2AC6B5 /* #indigo-minus-1 */;
+  border-radius: 6px;
+  padding: 11px 20px;
   width: 100%;
   max-width: 424px;
   margin: 0 auto;
   text-align: center;
   display: block;
+  border: none;
+  color: #FFFFFF /* white */ !important;
+  box-shadow: 0 0 15px #2AD1A1;
 }
 
 a.primary-button:hover, div#contact-form button:hover {
   text-decoration: none;
-  background: #3C02A2 /* indigo-minus-2 */;
-  border-color: #1E0274 /* indigo-minus-3 */;
+  background: #25A9B9 /* indigo-minus-2 */;
   color: #FFFFFF /* white */ !important;
+  box-shadow: 0 0 15px #2AD1A1;
 }
 
 div#contact-form button {
@@ -25,19 +27,21 @@ div#contact-form button {
 
 div#contact-form button#send {
   float: right;
-  border-radius: 0 100px 100px 0;
-  border-left: 2.5px solid #461f88 /* indigo-minus-2 */;
+  border-radius: 0 6px 6px 0;
+  border-left: 2.5px solid #219E90 /* indigo-minus-2 */;
 }
 
 div#contact-form button#go-back {
   float: left;
-  border-radius: 100px 0 0 100px;
-  border-right: 2.5px solid #461f88 /* indigo-minus-2 */;
+  border-radius: 6px 0 0 6px;
 }
 
 div#contact-form button#go-back i.fa-chevron-left {
-    font-size: 14px;
-    opacity: 0.5;
+  font-size: 14px;
+  opacity: 0.2;
+  float: left;
+  margin-top: 9px;
+  color: black;
 }
 
 /*---------- BUTTONS end -----------*/
@@ -57,7 +61,7 @@ div#contact-form button#go-back i.fa-chevron-left {
 @media (min-width: 768px) {
 
   a.primary-button {
-    max-width: 300px;
+    max-width: 260px;
   }
 
 }

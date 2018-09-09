@@ -5,7 +5,7 @@ section {
 }
 
 section#cover {
-  background-color: #000345 /* #indigo-minus-4 */ ;
+  background-color: #231E4E /* #indigo-minus-5 */ ;
   box-shadow: #00000080 0 -10px 30px inset;
   height: 407px;
   position: relative;
@@ -20,19 +20,19 @@ section#cover {
     }
 
     section#cover div#pattern {
-      background-image: url('../../imgs/backgrounds/pattern-background.gif');
-      background-size: cover;
+      background-image: url('../../imgs/backgrounds/pattern.jpg');
+      background-size: initial;
       background-attachment: fixed;
       position: absolute;
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
-      opacity: 0.4;
+      opacity: 0.95;
     }
 
 section#about {
-  background: #24185B /* #indigo-minus-3 */ ;
+  background: #231E4E /* #indigo-minus-5 */ ;
 }
 
     section#about h2 {
@@ -100,6 +100,10 @@ div.modal-wrapper {
     padding: 80px 30px !important;
   }
 
+  section#cover {
+    height: 519px;
+  }
+
   section#cover h1 {
     max-width: 680px;
     left: 30px;
@@ -126,10 +130,18 @@ div.modal-wrapper {
 /* Large devices (Tanblet Landscape) */
 @media (min-width: 992px) {
 
+  section#cover h1 {
+    max-width: 920px;
+  }
+
 }
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
+
+  section#cover h1 {
+    max-width: 1110px;
+  }
 
 }
 

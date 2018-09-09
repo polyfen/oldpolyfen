@@ -23,7 +23,7 @@ footer {
       div#social-icons ul li a i {
         font-size: 28px;
         margin: 0 8.5px;
-        color: #291b5e /* #indigo-minus-3 */;
+        color: #27155F /* #indigo-minus-4 */;
       }
 
       div#social-icons ul li:first-child a i {
@@ -35,7 +35,7 @@ footer {
       }
 
       div#social-icons ul li a:hover i {
-        color: #FFFFFF /* #white */;
+        color: #2AC6B5 /* #white */;
       }
 
   div#legal {

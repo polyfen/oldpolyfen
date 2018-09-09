@@ -31,7 +31,7 @@ h2 /* (mobile) */ {
   font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #FFFFFF /* #white */;
-  font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
+  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -119,22 +119,39 @@ p a:hover {
 /* Extra-Small devices (Mobile Narrowest) are set as default */
 
 /* Small devices (Mobile Widest) */
+@media (min-width: 375px) {
+
+  h1 {
+    font-size: 42px;
+    line-height: 45px;
+    letter-spacing: 0.4px;
+  }
+
+}
+
+/* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
+
+  h1 {
+    font-size: 49px;
+    line-height: 52px;
+    letter-spacing: 0.4px;
+  }
 
 }
 
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
 
-    h1 {
-      font-size: 54.5px;
-      letter-spacing: 0.2px;
-      line-height: 1.12;
-    }
+  h1 {
+    font-size: 70.5px;
+    letter-spacing: 0.2px;
+    line-height: 78px;
+  }
 
     h2 {
       font-size: 45px;
-      letter-spacing: normal;
+      letter-spacing: 0.5px;
       line-height: 1.11;
     }
 
@@ -155,10 +172,18 @@ p a:hover {
 /* Large devices (Tanblet Landscape) */
 @media (min-width: 992px) {
 
+
+
 }
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
+
+  h1 {
+    font-size: 90px;
+    letter-spacing: 0.3px;
+    line-height: 100px;
+  }
 
 }
 

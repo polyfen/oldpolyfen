@@ -11,12 +11,12 @@ html, body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  background: #F46666; /* #cherry */
+  background: #DF4775; /* #cherry */
   color: #FFFFFF; /* #white */
 }
 
 ::selection {
-  background: #F46666; /* #cherry */
+  background: #DF4775; /* #cherry */
   color: #FFFFFF; /* #white */
 }
 
@@ -26,21 +26,33 @@ button, a {
 
 input {
   width: 100%;
-  background: none;
-  border: 3px solid #ffffff4d;
-  border-radius: 40px;
-  padding: 8px 12px;
-  margin: 0 0 10px 0;
+  background: #6600da;
+  border: none;
+  border-radius: 7px;
+  padding: 14px 12px 12px;
+  margin: 0 0 6px 0;
 }
 
 textarea {
-  background: none;
-  border: 3px solid #FFFFFF4D;
-  padding: 8px 12px;
-  border-radius: 18px;
+  background: #6600da;
+  border: none;
+  border-radius: 7px;
+  padding: 12px 12px 10px;
   height: 160px;
   width: 100%;
-  margin: 0 0 10px 0;
+  margin: 0 0 3px 0;
+}
+
+input:focus, textarea:focus {
+  background-color: #4500a9;
+  box-shadow: 0 0 10px 0 #4500a9;
+}
+
+div#captcha-wrapper {
+  width: 100%;
+  height: 100px;
+  background: #6600da;
+  margin-bottom: 10px;
 }
 
 /*---------- GENERAL end ------------*/
