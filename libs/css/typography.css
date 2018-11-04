@@ -30,7 +30,7 @@ h2 /* (mobile) */ {
   text-align: left;
   font-weight: normal /* semi-bold */;
   font-style: normal;
-  color: #FFFFFF /* #white */;
+  color: #36368F /* #white */;
   font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
@@ -48,8 +48,8 @@ h3 /* (mobile) */ {
   text-align: left;
   font-weight: normal /* semi-bold */;
   font-style: normal;
-  color: #191947b3 /* #white */;
-  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
+  color: #474797 /* #white */;
+  font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -59,14 +59,14 @@ h3 /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
 }
 
-p, p a, li /* (mobile) */ {
+p, p a, li, p strong /* (mobile) */ {
   font-size: 21px;
   letter-spacing: 0.1px;
   line-height: 1.38;
   text-align: left;
   font-weight: 400 /* regular */;
   font-style: normal;
-  color: #D8D8D8 /* cloud */;
+  color: #191947B2 /* cloud */;
   font-family: 'freight-text-pro', serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
@@ -121,6 +121,11 @@ a:hover small {
   text-decoration: none;
 }
 
+p strong {
+  font-style: italic;
+  color: #191947;
+}
+
 p a {
   color: #7800FF !important;
   opacity: 0.8;
@@ -168,16 +173,16 @@ p a:hover {
   }
 
     h2 {
-      font-size: 45px;
+      font-size: 52px;
       letter-spacing: 0.5px;
       line-height: 1.11;
     }
 
     h3 /* (mobile) */ {
-      font-size: 35px;
+      font-size: 52px;
     }
 
-    p, p a, li {
+    p, p a, li, p strong {
       font-size: 25px;
       letter-spacing: 0.15px;
       line-height: normal;

@@ -1,38 +1,37 @@
 /*---------- SECTIONS start------------*/
 
 section {
-  padding: 40px 12px !important;
+  padding: 40px 58px !important;
 }
 
 section#cover {
   background-color: #231E4E /* #indigo-minus-5 */ ;
   box-shadow: #00000080 0 -10px 30px inset;
-  height: 407px;
+  height: 590px;
   position: relative;
 }
 
     section#cover h1 {
       position: absolute;
-      bottom: 34px;
+      bottom: 95px;
       left: 12px;
       max-width: 450px;
       z-index: 1;
     }
 
     section#cover div#pattern {
-      background-image: url('../../imgs/backgrounds/pattern.jpg');
-      background-size: initial;
-      background-attachment: fixed;
+      background-image: url('../../imgs/backgrounds/pearls.png');
+      background-size: auto;
+      /* background-attachment: fixed; */
       position: absolute;
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
-      opacity: 0.95;
     }
 
-section#about {
-  background: #231E4E /* #indigo-minus-5 */ ;
+div#content-wrapper {
+  background: #FEF4E6 /* #cream */ ;
 }
 
     section#about h2 {
@@ -40,7 +39,7 @@ section#about {
     }
 
     section#about p {
-      max-width: 400px;
+      max-width: 480px;
     }
 
 section#call-to-action {
@@ -49,6 +48,7 @@ section#call-to-action {
 
     section#call-to-action h2 {
       max-width: 300px;
+      color: white;
     }
 
     section#call-to-action p {
@@ -97,26 +97,52 @@ div.modal-wrapper {
 @media (min-width: 768px) {
 
   section {
-    padding: 80px 30px !important;
+    padding: 80px 68px !important;
   }
 
   section#cover {
-    height: 519px;
+    height: 590px;
   }
 
   section#cover h1 {
     max-width: 680px;
-    left: 30px;
+    left: 65px;
   }
 
+  section#case-studies {
+  }
+
+  section#case-studies section.case-project {
+    padding: 0 !important;
+  }
+
+  section#case-studies section.case-project div.project-cover {
+    width: 789px;
+   height: 516px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+   background-color: #0e0c2f;
+   float: left;
+  }
+
+  section#case-studies section.case-project div.project-description {
+    float: left;
+    width: 460px;
+    margin-left: 100px;
+  }
+
+    section#case-studies section.case-project div.project-description h3 {
+      max-width: 350px;
+    }
+
   section#about h2 {
-    max-width: 200px;
+    max-width: 270px;
   }
 
   section#call-to-action h2 {
     text-align: center;
     margin: 0 auto;
-    max-width: 450px;
+    max-width: 540px;
   }
 
   section#call-to-action p {

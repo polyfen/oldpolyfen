@@ -21,6 +21,25 @@ a.primary-button:hover, div#contact-form button:hover {
   box-shadow: 0 0 15px #2AD1A1;
 }
 
+a.secondary-button {
+  width: 232px;
+  height: 54px;
+  border-radius: 27px;
+  background: #7800FF;
+  text-align: center;
+  display: block;
+  border: none;
+  color: #FFFFFF /* white */ !important;
+  padding: 9px 35px;
+  font-size: 25px;
+  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
+  opacity: 1;
+}
+
+a.secondary-button:hover {
+  opacity: 0.9;
+}
+
 div#contact-form button {
   width:50%;
 }

@@ -17,43 +17,50 @@
         </div>
     </section>
 
-    <section class="container-fluid" id="case-studies">
-      <div class="row">
-        <div class="col">
-          <h2>Case Studies</h2>
+    <div id="content-wrapper">
 
-          <section>
-            <div></div>
-            <div></div>
-            <div>
-              <h3>Developing our own brand</h3>
-              <p>Lorem ipsum dolor sit amet, lorem ipsum
-dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-              <button>View project ›</button>
-            </div>
-          </section>
+      <section class="container-fluid" id="case-studies">
+        <div class="row">
+          <div class="col">
+            <h2>Case Studies</h2>
 
+            <section class="case-project">
+              <div class="project-cover"></div>
+              <div class="project-thumbnail"></div>
+              <div class="project-description">
+                <h3>Developing our own brand</h3>
+                <p>Lorem ipsum dolor sit amet, lorem ipsum
+  dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                <a class="secondary-button">View project ›</a>
+              </div>
+            </section>
+
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="container-fluid" id="services">
-      <div class="row">
-        <div class="col">
-          <h2>Our services</h2>
+      <section class="container-fluid" id="services">
+        <div class="row">
+          <div class="col">
+            <h2>Our services</h2>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="container-fluid" id="about">
-      <div class="row">
-        <div class="col">
-          <h2>We mean business</h2>
-          <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name <strong>Polyfen</strong>.</p>
-          <p>Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
+      <section class="container-fluid" id="about">
+        <div class="row">
+          <div class="col">
+            <h2>We mean business</h2>
+            <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+            <p>Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
+          </div>
+          <div class="col">
+            <img src="imgs/illustration.svg" style="float:right;">
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+    </div>
 
     <section class="container-fluid" id="call-to-action">
       <div class="row">
