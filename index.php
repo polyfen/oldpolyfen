@@ -17,11 +17,40 @@
         </div>
     </section>
 
+    <section class="container-fluid" id="case-studies">
+      <div class="row">
+        <div class="col">
+          <h2>Case Studies</h2>
+
+          <section>
+            <div></div>
+            <div></div>
+            <div>
+              <h3>Developing our own brand</h3>
+              <p>Lorem ipsum dolor sit amet, lorem ipsum
+dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+              <button>View project ›</button>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="services">
+      <div class="row">
+        <div class="col">
+          <h2>Our services</h2>
+        </div>
+      </div>
+    </section>
+
     <section class="container-fluid" id="about">
       <div class="row">
         <div class="col">
           <h2>We mean business</h2>
-          <p>Our small and efficient team of experts from around the world is run by four partners with backgrounds in business, design, tech, and marketing.</p>
+          <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name <strong>Polyfen</strong>.</p>
+          <p>Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
         </div>
       </div>
     </section>
@@ -31,7 +60,6 @@
 
         <div class="col" id="cta-content">
           <h2>Give your business the brand it deserves</h2>
-          <p>Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
           <a class="button primary-button" onclick="document.getElementById('contact-form').className='col c-block';document.getElementById('cta-content').className='col d-none';document.getElementById('name-input').focus(); return false;">Contact us</a>
         </div>
 
