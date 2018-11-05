@@ -13,7 +13,23 @@
 
     <section id="cover">
         <h1>A creative agency devoted to brand identity design.</h1>
-        <div id="pattern">
+        <div id="curve">
+        </div>
+        <div id="background">
+          <div id="pearl-07" class="pearl-07-INACTIVE rotate">
+          </div>
+          <div id="pearl-04" class="pearl-04-INACTIVE rotate">
+          </div>
+          <div id="pearl-05"  class="pearl-05-INACTIVE rotate">
+          </div>
+          <div id="pearl-06" class="pearl-06-INACTIVE rotate">
+          </div>
+          <div id="pearl-03" class="pearl-03-INACTIVE rotate">
+          </div>
+          <div id="pearl-02" class="pearl-02-INACTIVE rotate">
+          </div>
+          <div id="pearl-01" class="pearl-01-INACTIVE rotate">
+          </div>
         </div>
     </section>
 
@@ -25,7 +41,7 @@
             <h2>Case Studies</h2>
 
             <section class="case-project">
-              <div class="project-cover"></div>
+              <div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"></div>
               <div class="project-thumbnail"></div>
               <div class="project-description">
                 <h3>Developing our own brand</h3>

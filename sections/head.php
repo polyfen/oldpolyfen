@@ -78,6 +78,143 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Source+Serif+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
+  <!-- PAGE-SPECIFIC SCRIPTS -->
+    <script type="text/javascript">
+
+      $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 0) {
+          $("#pearl-01").addClass("pearl-01-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-01").removeClass("pearl-01-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-01").addClass("pearl-01-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-01").removeClass("pearl-01-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-02").addClass("pearl-02-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-02").removeClass("pearl-02-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-02").addClass("pearl-02-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-02").removeClass("pearl-02-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-03").addClass("pearl-03-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-03").removeClass("pearl-03-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-03").addClass("pearl-03-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-03").removeClass("pearl-03-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-04").addClass("pearl-04-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-04").removeClass("pearl-04-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-04").addClass("pearl-04-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-04").removeClass("pearl-04-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-05").addClass("pearl-05-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-05").removeClass("pearl-05-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-05").addClass("pearl-05-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-05").removeClass("pearl-05-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-06").addClass("pearl-06-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-06").removeClass("pearl-06-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-06").addClass("pearl-06-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-06").removeClass("pearl-06-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-07").addClass("pearl-07-ACTIVE");
+      }
+
+      if (scroll >= 0) {
+          $("#pearl-07").removeClass("pearl-07-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-07").addClass("pearl-07-INACTIVE");
+      }
+
+      if (scroll >= 350) {
+          $("#pearl-07").removeClass("pearl-07-ACTIVE");
+      }
+
+      if (scroll >= 20) {
+          $("#polyfen-cover").addClass("polyfen-cover-ACTIVE");
+      }
+
+      if (scroll >= 20) {
+          $("polyfen-cover").removeClass("polyfen-cover-INACTIVE");
+      }
+
+      });
+    </script>
+
+    <script type="text/javascript">
+
+        $('.rotate').onLoad(function() {
+        $(this).toggleClass('rotated');
+    });
+
+    </script>
+
   <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122656172-1"></script>

@@ -9,26 +9,225 @@ section#cover {
   box-shadow: #00000080 0 -10px 30px inset;
   height: 590px;
   position: relative;
+  overflow: hidden;
 }
 
     section#cover h1 {
       position: absolute;
-      bottom: 95px;
+      bottom: 105px;
       left: 12px;
       max-width: 450px;
       z-index: 1;
     }
 
-    section#cover div#pattern {
-      background-image: url('../../imgs/backgrounds/pearls.png');
+    section#cover div#background {
+      background-image: url('../../imgs/cover/backdrop.jpg');
       background-size: auto;
-      /* background-attachment: fixed; */
+      background-attachment: fixed;
       position: absolute;
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
+      opacity: 0.85;
     }
+
+    section#cover div#curve {
+      background-image: url('../../imgs/cover/curve.png');
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 320px;
+      top: 329px;
+      left: 0;
+      z-index: 1;
+      position: absolute;
+    }
+
+    section#cover div#background div#pearl-01 {
+      background-image: url('../../imgs/cover/pearl-01.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 700px;
+      width: 700px;
+      position: absolute;
+      transform: rotate(0deg);
+    }
+
+    .pearl-01-ACTIVE {
+      top: 350px;
+      left: -400px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    .pearl-01-INACTIVE {
+      top: 400px;
+      left: -300px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    section#cover div#background div#pearl-02 {
+      background-image: url('../../imgs/cover/pearl-20.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 750px;
+      width: 750px;
+      left: 100px;
+      position: absolute;
+    }
+
+    .pearl-02-ACTIVE {
+      top: 60px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    .pearl-02-INACTIVE {
+      top: 200px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    section#cover div#background div#pearl-03 {
+      background-image: url('../../imgs/cover/pearl-03.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 600px;
+      width: 600px;
+      top: 90px;
+      left: -290px;
+      position: absolute;
+      animation:turn 1s linear;
+    }
+
+    section#cover div#background div#pearl-04 {
+      background-image: url('../../imgs/cover/pearl-21.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 520px;
+      width: 520px;
+      position: absolute;
+    }
+
+    .pearl-04-ACTIVE {
+      top: 100px;
+      left: 650px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    .pearl-04-INACTIVE {
+      top: 150px;
+      left: 630px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    section#cover div#background div#pearl-05 {
+      background-image: url('../../imgs/cover/pearl-17.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 320px;
+      width: 320px;
+      position: absolute;
+    }
+
+    .pearl-05-ACTIVE {
+      top: 80px;
+      left: 1220px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    .pearl-05-INACTIVE {
+      top: 110px;
+      left: 1160px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    section#cover div#background div#pearl-06 {
+      background-image: url('../../imgs/cover/pearl-13.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 800px;
+      width: 800px;
+      position: absolute;
+    }
+
+    .pearl-06-ACTIVE {
+      top: 280px;
+      left: 800px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    .pearl-06-INACTIVE {
+      top: 300px;
+      left: 750px;
+      -webkit-transition: all 3s; /* Safari */
+      transition: all 3s;
+    }
+
+    section#cover div#background div#pearl-07 {
+      background-image: url('../../imgs/cover/pearl-14.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 180px;
+      width: 180px;
+      position: absolute;
+    }
+
+    .pearl-07-ACTIVE {
+      top: 20px;
+      left: 1600px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    .pearl-07-INACTIVE {
+      top: 50px;
+      left: 1520px;
+      -webkit-transition: all 3s; /* Safari */
+      transition: all 3s;
+    }
+
+    @-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotate {
+  -webkit-animation: rotating 50s linear infinite !important;
+  -moz-animation: rotating 50s linear infinite !important;
+  -ms-animation: rotating 50s linear infinite !important;
+  -o-animation: rotating 50s linear infinite !important;
+  animation: rotating 50s linear infinite !important;
+}
 
 div#content-wrapper {
   background: #FEF4E6 /* #cream */ ;
@@ -123,6 +322,18 @@ div.modal-wrapper {
    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
    background-color: #0e0c2f;
    float: left;
+  }
+
+  .polyfen-cover-INACTIVE {
+    margin-top: 60px;
+    -webkit-transition: all 2s; /* Safari */
+    transition: all 2s;
+  }
+
+  .polyfen-cover-ACTIVE {
+    margin-top: 0px;
+    -webkit-transition: all 2s; /* Safari */
+    transition: all 2s;
   }
 
   section#case-studies section.case-project div.project-description {
