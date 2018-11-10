@@ -16,7 +16,7 @@
         <div id="curve">
         </div>
         <div id="background">
-          <div id="pearl-04" class="pearl-04-INACTIVE rotate-slower">
+          <div id="pearl-04" class="pearl-04-INACTIVE rotate">
           </div>
           <div id="pearl-05"  class="pearl-05-INACTIVE rotate">
           </div>
@@ -24,7 +24,7 @@
           </div>
           <div id="pearl-03" class="pearl-03-INACTIVE rotate">
           </div>
-          <div id="pearl-02" class="pearl-02-INACTIVE rotate">
+          <div id="pearl-02" class="pearl-02-INACTIVE rotate-slower">
           </div>
           <div id="pearl-01" class="pearl-01-INACTIVE rotate-slower">
           </div>

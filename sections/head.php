@@ -101,6 +101,10 @@
       }
 
       if (scroll >= 0) {
+          $("#pearl-01").removeClass("pearl-01-INACTIVE");
+      }
+
+      if (scroll >= 0) {
           $("#pearl-02").addClass("pearl-02-ACTIVE");
       }
 

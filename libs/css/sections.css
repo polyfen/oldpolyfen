@@ -53,14 +53,14 @@ section#cover {
       transform: rotate(0deg);
     }
 
-    .pearl-01-ACTIVE {
+    .pearl-01-INACTIVE {
       top: 350px;
       left: -400px;
       -webkit-transition: all 1s; /* Safari */
       transition: all 1s;
     }
 
-    .pearl-01-INACTIVE {
+    .pearl-01-ACTIVE {
       top: 400px;
       left: -300px;
       -webkit-transition: all 1s; /* Safari */
@@ -68,7 +68,7 @@ section#cover {
     }
 
     section#cover div#background div#pearl-02 {
-      background-image: url('../../imgs/cover/pearl-20.png');
+      background-image: url('../../imgs/cover/pearl-03-17-b.png');
       background-size: contain;
       background-repeat: no-repeat;
       height: 850px;
@@ -77,14 +77,14 @@ section#cover {
       position: absolute;
     }
 
-    .pearl-02-ACTIVE {
+    .pearl-02-INACTIVE {
       top: 60px;
       -webkit-transition: all 1s; /* Safari */
       transition: all 1s;
     }
 
-    .pearl-02-INACTIVE {
-      top: 200px;
+    .pearl-02-ACTIVE {
+      top: 170px;
       -webkit-transition: all 1s; /* Safari */
       transition: all 1s;
     }
@@ -95,10 +95,21 @@ section#cover {
       background-repeat: no-repeat;
       height: 700px;
       width: 700px;
-      top: 100px;
       left: -290px;
       position: absolute;
       animation:turn 1s linear;
+    }
+
+    .pearl-03-INACTIVE {
+      top: 80px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
+
+    .pearl-03-ACTIVE {
+      top: 150px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
     }
 
     section#cover div#background div#pearl-04 {
@@ -110,39 +121,39 @@ section#cover {
       position: absolute;
     }
 
-    .pearl-04-ACTIVE {
-      top: 100px;
-      left: 780px;
+    .pearl-04-INACTIVE {
+      top: 80px;
+      left: 750px;
       -webkit-transition: all 1s; /* Safari */
       transition: all 1s;
     }
 
-    .pearl-04-INACTIVE {
-      top: 150px;
-      left: 650px;
+    .pearl-04-ACTIVE {
+      top: 130px;
+      left: 670px;
       -webkit-transition: all 1s; /* Safari */
       transition: all 1s;
     }
 
     section#cover div#background div#pearl-05 {
-      background-image: url('../../imgs/cover/pearl-17.png');
+      background-image: url('../../imgs/cover/pearl-03-17-c.png');
       background-size: contain;
       background-repeat: no-repeat;
-      height: 400px;
-      width: 400px;
+      height: 380px;
+      width: 380px;
       position: absolute;
     }
 
-    .pearl-05-ACTIVE {
-      top: 80px;
-      left: 1480px;
+    .pearl-05-INACTIVE {
+      top: 260px;
+      left: 1320px;
       -webkit-transition: all 1s; /* Safari */
       transition: all 1s;
     }
 
-    .pearl-05-INACTIVE {
-      top: 40px;
-      left: 1220px;
+    .pearl-05-ACTIVE {
+      top: 230px;
+      left: 1018px;
       -webkit-transition: all 1s; /* Safari */
       transition: all 1s;
     }
@@ -156,18 +167,18 @@ section#cover {
       position: absolute;
     }
 
-    .pearl-06-ACTIVE {
+    .pearl-06-INACTIVE {
       top: 280px;
-      left: 900px;
+      left: 740px;
       -webkit-transition: all 1s; /* Safari */
       transition: all 1s;
     }
 
-    .pearl-06-INACTIVE {
-      top: 300px;
-      left: 800px;
-      -webkit-transition: all 3s; /* Safari */
-      transition: all 3s;
+    .pearl-06-ACTIVE {
+      top: 320px;
+      left: 640px;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
     }
 
     @-webkit-keyframes rotating /* Safari and Chrome */ {
