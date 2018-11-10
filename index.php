@@ -40,7 +40,7 @@
 
             <section class="case-project">
               <div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"></div>
-              <div class="project-thumbnail"></div>
+              <div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE"></div>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
                 <p>Lorem ipsum dolor sit amet, lorem ipsum
@@ -56,7 +56,7 @@
       <section class="container-fluid" id="services">
         <div class="row">
           <div class="col">
-            <h2>Our services</h2>
+            <h2 style="margin-top:80px;">Our services</h2>
           </div>
         </div>
       </section>
