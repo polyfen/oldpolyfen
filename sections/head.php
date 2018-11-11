@@ -92,11 +92,11 @@
           $("#pearl-01").removeClass("pearl-01-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-01").addClass("pearl-01-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-01").removeClass("pearl-01-ACTIVE");
       }
 
@@ -108,11 +108,11 @@
           $("#pearl-02").removeClass("pearl-02-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-02").addClass("pearl-02-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-02").removeClass("pearl-02-ACTIVE");
       }
 
@@ -124,11 +124,11 @@
           $("#pearl-03").removeClass("pearl-03-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-03").addClass("pearl-03-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-03").removeClass("pearl-03-ACTIVE");
       }
 
@@ -140,11 +140,11 @@
           $("#pearl-04").removeClass("pearl-04-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-04").addClass("pearl-04-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-04").removeClass("pearl-04-ACTIVE");
       }
 
@@ -156,11 +156,11 @@
           $("#pearl-05").removeClass("pearl-05-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-05").addClass("pearl-05-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-05").removeClass("pearl-05-ACTIVE");
       }
 
@@ -172,11 +172,11 @@
           $("#pearl-06").removeClass("pearl-06-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-06").addClass("pearl-06-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-06").removeClass("pearl-06-ACTIVE");
       }
 
@@ -188,11 +188,11 @@
           $("#pearl-07").removeClass("pearl-07-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-07").addClass("pearl-07-INACTIVE");
       }
 
-      if (scroll >= 150) {
+      if (scroll >= 500) {
           $("#pearl-07").removeClass("pearl-07-ACTIVE");
       }
 

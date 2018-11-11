@@ -43,9 +43,8 @@
               <div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE"></div>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
-                <p>Lorem ipsum dolor sit amet, lorem ipsum
-  dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <a class="secondary-button">View project ›</a>
+                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and design. <br/>A clean and professional look with a distinctive and creative flair.</p>
+                <a class="secondary-button" style="margin-top: 20px;">View project ›</a>
               </div>
             </section>
 
