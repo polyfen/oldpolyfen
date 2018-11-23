@@ -37,15 +37,15 @@
 
 
   <!-- CSS General -->
-  <link rel="stylesheet" href="libs/css/general.css" type="text/css">
-  <link rel="stylesheet" href="libs/css/typography.css" type="text/css">
-  <link rel="stylesheet" href="libs/css/header.css" type="text/css">
-  <link rel="stylesheet" href="libs/css/footer.css" type="text/css">
-  <link rel="stylesheet" href="libs/css/sections.css" type="text/css">
-  <link rel="stylesheet" href="libs/css/buttons.css" type="text/css">
-  <link rel="stylesheet" href="libs/css/separators.css" type="text/css">
-  <link rel="stylesheet" href="libs/css/sections.css" type="text/css">
-  <link rel="stylesheet" href="libs/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="app/css/general.css" type="text/css">
+  <link rel="stylesheet" href="app/css/typography.css" type="text/css">
+  <link rel="stylesheet" href="app/css/header.css" type="text/css">
+  <link rel="stylesheet" href="app/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="app/css/sections.css" type="text/css">
+  <link rel="stylesheet" href="app/css/buttons.css" type="text/css">
+  <link rel="stylesheet" href="app/css/separators.css" type="text/css">
+  <link rel="stylesheet" href="app/css/sections.css" type="text/css">
+  <link rel="stylesheet" href="app/css/modal.css" type="text/css">
 
   <!-- FONTS -->
   <!--
@@ -79,6 +79,14 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
   <!-- PAGE-SPECIFIC SCRIPTS -->
+    <script type="text/javascript">
+
+        $('.rotate').onLoad(function() {
+        $(this).toggleClass('rotated');
+    });
+
+    </script>
+
     <script type="text/javascript">
 
       $(window).scroll(function() {
@@ -213,14 +221,6 @@
       }
 
       });
-    </script>
-
-    <script type="text/javascript">
-
-        $('.rotate').onLoad(function() {
-        $(this).toggleClass('rotated');
-    });
-
     </script>
 
   <!-- Analytics -->

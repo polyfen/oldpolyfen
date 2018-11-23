@@ -18,7 +18,7 @@
         <div id="background">
           <div id="pearl-04" class="pearl-04-INACTIVE rotate">
           </div>
-          <div id="pearl-05"  class="pearl-05-INACTIVE rotate">
+          <div id="pearl-05" class="pearl-05-INACTIVE rotate">
           </div>
           <div id="pearl-06" class="pearl-06-INACTIVE rotate-slower">
           </div>
@@ -56,6 +56,84 @@
         <div class="row">
           <div class="col">
             <h2 style="margin-top:80px;">Our services</h2>
+
+            <div class="service-card">
+              <div class="service-heading">
+                <img src="">
+                <h3>Brand Research</h3>
+              </div>
+              <ul>
+                <li>Business analysis</li>
+                <li>Competitive analysis</li>
+                <li>Audience analysis</li>
+                <li>Research conclusion</li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-heading">
+                <img src="">
+                <h3>Brand Strategy</h3>
+              </div>
+              <ul>
+                <li>Keywords</li>
+                <li>Creative concept</li>
+                <li>Moodboard</li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-heading">
+                <img src="">
+                <h3>Visual Identity</h3>
+              </div>
+              <ul>
+                <li>Visual exploration</li>
+                <li>Logo system</li>
+                <li>Typeface selection</li>
+                <li>Colour scheme</li>
+                <li>Visual language</li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-heading">
+                <img src="">
+                <h3>Brand Guidelines</h3>
+              </div>
+              <p>
+                Lorem ipsum.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <div class="service-heading">
+                <img src="">
+                <h3>Brand Touchpoints</h3>
+              </div>
+              <ul>
+                <li>Email signature</li>
+                <li>Social media profiles</li>
+                <li>Business cards</li>
+                <li>Letterhead</li>
+                <li>Invoice</li>
+                <li>Presentation slides</li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-heading">
+                <img src="">
+                <h3>Web Development</h3>
+              </div>
+              <ul>
+                <li></li>
+              </ul>
+            </div>
+
           </div>
         </div>
       </section>
@@ -85,7 +163,7 @@
 
         <div class="col d-none" id="contact-form">
           <h2>Contact us</h2>
-          <form id="ajax-contact" method="post" action="libs/contact-form/mailer.php">
+          <form id="ajax-contact" method="post" action="app/contact-form/mailer.php">
             <input type="text" name="name" placeholder="Your name" id="name-input" required>
             <input type="email" name="email" id="email" placeholder="Your email" required>
             <textarea name="message" id="message" placeholder="Your message..." required></textarea>
