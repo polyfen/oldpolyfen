@@ -381,7 +381,7 @@ div.modal-wrapper {
     }
 
   section#about h2 {
-    max-width: 270px;
+    max-width: none;
   }
 
   section#call-to-action h2 {
