@@ -20,7 +20,7 @@ section#cover {
       z-index: 1;
     }
 
-    section#cover div#background {
+    section#cover div.background {
       background-image: url('../../imgs/cover/backdrop.jpg');
       background-size: auto;
       background-attachment: fixed;
@@ -43,7 +43,7 @@ section#cover {
       position: absolute;
     }
 
-    section#cover div#background div#pearl-01 {
+    section#cover div.background div#pearl-01 {
       background-image: url('../../imgs/cover/pearl-01.png');
       background-size: contain;
       background-repeat: no-repeat;
@@ -67,7 +67,7 @@ section#cover {
       transition: all 1s;
     }
 
-    section#cover div#background div#pearl-02 {
+    section#cover div.background div#pearl-02 {
       background-image: url('../../imgs/cover/pearl-03-17-b.png');
       background-size: contain;
       background-repeat: no-repeat;
@@ -89,7 +89,7 @@ section#cover {
       transition: all 1s;
     }
 
-    section#cover div#background div#pearl-03 {
+    section#cover div.background div#pearl-03 {
       background-image: url('../../imgs/cover/pearl-03.png');
       background-size: contain;
       background-repeat: no-repeat;
@@ -112,7 +112,7 @@ section#cover {
       transition: all 1s;
     }
 
-    section#cover div#background div#pearl-04 {
+    section#cover div.background div#pearl-04 {
       background-image: url('../../imgs/cover/pearl-01.png');
       background-size: contain;
       background-repeat: no-repeat;
@@ -135,7 +135,7 @@ section#cover {
       transition: all 1s;
     }
 
-    section#cover div#background div#pearl-05 {
+    section#cover div.background div#pearl-05 {
       background-image: url('../../imgs/cover/pearl-03-17-c.png');
       background-size: contain;
       background-repeat: no-repeat;
@@ -158,7 +158,7 @@ section#cover {
       transition: all 1s;
     }
 
-    section#cover div#background div#pearl-06 {
+    section#cover div.background div#pearl-06 {
       background-image: url('../../imgs/cover/pearl-13.png');
       background-size: contain;
       background-repeat: no-repeat;
@@ -249,6 +249,7 @@ section#services .service-card {
         margin-right: 20px;
         width: 400px;
         float: left;
+        border-radius: 6px;
     }
 
 section#call-to-action {
@@ -267,11 +268,98 @@ section#call-to-action {
       bottom: 275px;
       left: 0;
       position: absolute;
+      z-index: 1;
       -moz-transform: scale(1, -1);
       -webkit-transform: scale(1, -1);
       -o-transform: scale(1, -1);
       -ms-transform: scale(1, -1);
       transform: scale(1, -1);
+    }
+
+    section#call-to-action div.background {
+      background-image: url('../../imgs/cover/backdrop.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.85;
+    }
+
+    section#call-to-action div.background div#pearl-07 {
+      background-image: url('../../imgs/cover/pearl-01.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 700px;
+      width: 700px;
+      position: absolute;
+      transform: rotate(0deg);
+      bottom: 60px;
+      left: -240px;
+    }
+
+    section#call-to-action div.background div#pearl-08 {
+      background-image: url('../../imgs/cover/pearl-03-17-b.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 850px;
+      width: 850px;
+      position: absolute;
+      left: 150px;
+      bottom: 220px;
+    }
+
+    section#call-to-action div.background div#pearl-09 {
+      background-image: url('../../imgs/cover/pearl-03.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 700px;
+      width: 700px;
+      left: -290px;
+      position: absolute;
+      animation:turn 1s linear;
+      display: none;
+    }
+
+    section#call-to-action div.background div#pearl-10 {
+      background-image: url('../../imgs/cover/pearl-01.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 650px;
+      width: 650px;
+      position: absolute;
+      left: 740px;
+      bottom: 300px;
+    }
+
+    section#call-to-action div.background div#pearl-11 {
+      background-image: url('../../imgs/cover/pearl-03-17-c.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 380px;
+      width: 380px;
+      position: absolute;
+      right: 20px;
+      bottom: 275px;
+    }
+
+    section#call-to-action div.background div#pearl-12 {
+      background-image: url('../../imgs/cover/pearl-13.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 600px;
+      width: 600px;
+      position: absolute;
+      left: 1016px;
+      bottom: 312px;
+      display: none;
+    }
+
+    section#call-to-action div#cta-content {
+      margin-top: 90px;
+      z-index: 2;
     }
 
     section#call-to-action h2 {
@@ -407,6 +495,7 @@ div.modal-wrapper {
     text-align: center;
     margin: 0 auto;
     max-width: 540px;
+    margin-bottom: 16px;
   }
 
   section#call-to-action p {

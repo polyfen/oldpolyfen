@@ -3,7 +3,7 @@
 a.primary-button, div#contact-form button {
   background: #7800FF /* #indigo-minus-1 */;
   border-radius: 100px;
-  padding: 11px 20px;
+  padding: 11px 20px 10px;
   width: 100%;
   max-width: 424px;
   margin: 0 auto;

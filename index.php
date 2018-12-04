@@ -15,7 +15,7 @@
         <h1>A creative agency devoted to brand identity design.</h1>
         <div class="curve">
         </div>
-        <div id="background">
+        <div class="background">
           <div id="pearl-04" class="pearl-04-INACTIVE rotate">
           </div>
           <div id="pearl-05" class="pearl-05-INACTIVE rotate">
@@ -161,6 +161,20 @@
 
     <section class="container-fluid" id="call-to-action">
       <div class="curve">
+      </div>
+      <div class="background">
+        <div id="pearl-12" class=" rotate">
+        </div>
+        <div id="pearl-11" class=" rotate">
+        </div>
+        <div id="pearl-10" class=" rotate-slower">
+        </div>
+        <div id="pearl-09" class=" rotate">
+        </div>
+        <div id="pearl-08" class=" rotate-slower">
+        </div>
+        <div id="pearl-07" class=" rotate-slower">
+        </div>
       </div>
 
 
