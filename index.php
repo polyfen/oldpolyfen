@@ -141,7 +141,7 @@
       <section class="container-fluid" id="about">
         <div class="row">
           <div class="col">
-            <h2>We mean business</h2>
+            <h2>Linking business and creativity</h2>
             <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
             <p>Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
           </div>
