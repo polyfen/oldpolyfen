@@ -32,7 +32,7 @@ section#cover {
       opacity: 0.85;
     }
 
-    section#cover div#curve {
+    section#cover div.curve {
       background-image: url('../../imgs/cover/curve.png');
       background-repeat: no-repeat;
       width: 100%;
@@ -252,8 +252,27 @@ section#services .service-card {
     }
 
 section#call-to-action {
-  background: #7800FF /* #indigo */;
+  background-color: #231E4E /* #indigo-minus-5 */ ;
+  box-shadow: #00000080 0 -10px 30px inset;
+  height: 535px;
+  position: relative;
+  overflow: hidden;
 }
+
+    section#call-to-action div.curve {
+      background-image: url('../../imgs/cover/curve.png');
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 320px;
+      bottom: 275px;
+      left: 0;
+      position: absolute;
+      -moz-transform: scale(1, -1);
+      -webkit-transform: scale(1, -1);
+      -o-transform: scale(1, -1);
+      -ms-transform: scale(1, -1);
+      transform: scale(1, -1);
+    }
 
     section#call-to-action h2 {
       max-width: 300px;

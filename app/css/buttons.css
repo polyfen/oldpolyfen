@@ -1,8 +1,8 @@
 /*---------- BUTTONS start -----------*/
 
 a.primary-button, div#contact-form button {
-  background: #2AC6B5 /* #indigo-minus-1 */;
-  border-radius: 6px;
+  background: #7800FF /* #indigo-minus-1 */;
+  border-radius: 100px;
   padding: 11px 20px;
   width: 100%;
   max-width: 424px;
@@ -11,7 +11,7 @@ a.primary-button, div#contact-form button {
   display: block;
   border: none;
   color: #FFFFFF /* white */ !important;
-  box-shadow: 0 0 15px #2AD1A1;
+  box-shadow: 0 0 15px #7800FF;
 }
 
 a.primary-button:hover, div#contact-form button:hover {

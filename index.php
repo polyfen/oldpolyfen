@@ -13,7 +13,7 @@
 
     <section id="cover">
         <h1>A creative agency devoted to brand identity design.</h1>
-        <div id="curve">
+        <div class="curve">
         </div>
         <div id="background">
           <div id="pearl-04" class="pearl-04-INACTIVE rotate">
@@ -160,6 +160,10 @@
     </div>
 
     <section class="container-fluid" id="call-to-action">
+      <div class="curve">
+      </div>
+
+
       <div class="row">
 
         <div class="col" id="cta-content">
