@@ -79,9 +79,10 @@
                 <li>Keywords</li>
                 <li>Creative concept</li>
                 <li>Moodboard</li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Voice</li>
+                <li>Naming</li>
+                <li>Key Messages</li>
+                <li>Slogan</li>
               </ul>
             </div>
 
@@ -105,7 +106,7 @@
                 <h3>Brand Guidelines</h3>
               </div>
               <p>
-                Lorem ipsum.
+                A summary of all the strategic parameters and visual assets that make up your brand identity.
               </p>
             </div>
 
@@ -130,7 +131,12 @@
                 <h3>Web Development</h3>
               </div>
               <ul>
-                <li></li>
+                <li>UX research</li>
+                <li>Content creation</li>
+                <li>UI design</li>
+                <li>Prototyping</li>
+                <li>Programming</li>
+                <li>Deployment</li>
               </ul>
             </div>
 
