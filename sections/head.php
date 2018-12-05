@@ -41,7 +41,6 @@
   <link rel="stylesheet" href="app/css/typography.css" type="text/css">
   <link rel="stylesheet" href="app/css/header.css" type="text/css">
   <link rel="stylesheet" href="app/css/footer.css" type="text/css">
-  <link rel="stylesheet" href="app/css/sections.css" type="text/css">
   <link rel="stylesheet" href="app/css/buttons.css" type="text/css">
   <link rel="stylesheet" href="app/css/separators.css" type="text/css">
   <link rel="stylesheet" href="app/css/sections.css" type="text/css">
