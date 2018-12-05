@@ -255,11 +255,7 @@ section#services .service-card {
         border-radius: 8px;
     }
 
-    section#services .service-card div.service-heading {
-      background: #2c277b;
-      background: url('../../imgs/cover/pearl-01.png');
-      background-size: 150%;
-      background-position: center center;
+    section#services div.service-card div.service-heading {
       height: 180px;
       width: calc(100% + 40px);
       margin: -20px -20px 30px;
@@ -267,7 +263,22 @@ section#services .service-card {
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    section#services div.service-card div.service-heading img {
+      z-index: 1;
+    }
+
+    section#services div.service-card div.service-heading-background {
+      background: url('../../imgs/cover/pearl-01.png');
+      background-size: 150%;
+      background-position: center center;
+      height: 180px;
+      width: calc(100% + 40px);
+      margin: -210px -20px 30px;
+      border-radius: 8px 8px 50% 50%;
       background-attachment: fixed;
+      opacity: 0.7;
     }
 
     section#services .service-card h4 {
