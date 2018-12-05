@@ -33,11 +33,13 @@ a.secondary-button {
   padding: 9px 35px;
   font-size: 25px;
   font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
-  opacity: 1;
+  box-shadow: none;
+  -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s;
 }
 
 a.secondary-button:hover {
-  opacity: 0.9;
+  box-shadow: 0 0 10px #7800FF;
 }
 
 div#contact-form button {

@@ -59,9 +59,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="">
-                <h4>Brand Research</h4>
+                <img src="imgs/services/brand-research.svg">
               </div>
+              <h4>Brand Research</h4>
               <ul>
                 <li>Business analysis</li>
                 <li>Competitive analysis</li>
@@ -72,9 +72,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="">
-                <h4>Brand Strategy</h4>
+                <img src="imgs/services/brand-strategy.svg">
               </div>
+              <h4>Brand Strategy</h4>
               <ul>
                 <li>Keywords</li>
                 <li>Creative concept</li>
@@ -88,9 +88,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="">
-                <h4>Visual Identity</h4>
+                <img src="imgs/services/visual-identity.svg">
               </div>
+              <h4>Visual Identity</h4>
               <ul>
                 <li>Visual exploration</li>
                 <li>Logo system</li>
@@ -102,9 +102,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="">
-                <h4>Brand Guidelines</h4>
+                <img src="imgs/services/brand-guidelines.svg">
               </div>
+              <h4>Brand Guidelines</h4>
               <p>
                 A summary of all the strategic parameters and visual assets that make up your brand identity.
               </p>
@@ -112,9 +112,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="">
-                <h4>Brand Touchpoints</h4>
+                <img src="imgs/services/brand-research.svg">
               </div>
+              <h4>Brand Touchpoints</h4>
               <ul>
                 <li>Email signature</li>
                 <li>Social media profiles</li>
@@ -127,9 +127,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="">
-                <h4>Web Development</h4>
+                <img src="imgs/services/brand-research.svg">
               </div>
+              <h4>Web Development</h4>
               <ul>
                 <li>UX research</li>
                 <li>Content creation</li>
@@ -171,7 +171,7 @@
         </div>
         <div id="pearl-09" class=" rotate">
         </div>
-        <div id="pearl-08" class=" rotate-slower">
+        <div id="pearl-08" class=" rotate">
         </div>
         <div id="pearl-07" class=" rotate-slower">
         </div>
