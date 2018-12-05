@@ -244,12 +244,30 @@ section#services {
 }
 
 section#services .service-card {
-        background: white;
+        background: #0e0c2f;
         padding: 20px;
         margin-right: 20px;
         width: 400px;
         float: left;
-        border-radius: 6px;
+        border-radius: 8px;
+    }
+
+    section#services .service-card ul {
+      margin-left: 25px;
+      list-style:none;
+    }
+
+    section#services .service-card ul li, section#services .service-card p {
+      color: #ffffffb3;
+    }
+
+    section#services .service-card ul li:before {
+      font-family: 'Font Awesome 5 Free';
+      content: '\f111';
+      margin: 0 10px 0 -25px;
+      color:  #7800FF;
+      font-weight: 900;
+      font-size: 0.75rem;
     }
 
 section#call-to-action {

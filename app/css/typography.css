@@ -59,6 +59,17 @@ h3 /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
 }
 
+h4 {
+  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+}
+
 p, p a, li, p strong /* (mobile) */ {
   font-size: 21px;
   letter-spacing: 0.1px;

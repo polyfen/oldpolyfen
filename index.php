@@ -60,7 +60,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <img src="">
-                <h3>Brand Research</h3>
+                <h4>Brand Research</h4>
               </div>
               <ul>
                 <li>Business analysis</li>
@@ -73,7 +73,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <img src="">
-                <h3>Brand Strategy</h3>
+                <h4>Brand Strategy</h4>
               </div>
               <ul>
                 <li>Keywords</li>
@@ -89,7 +89,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <img src="">
-                <h3>Visual Identity</h3>
+                <h4>Visual Identity</h4>
               </div>
               <ul>
                 <li>Visual exploration</li>
@@ -103,7 +103,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <img src="">
-                <h3>Brand Guidelines</h3>
+                <h4>Brand Guidelines</h4>
               </div>
               <p>
                 A summary of all the strategic parameters and visual assets that make up your brand identity.
@@ -113,7 +113,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <img src="">
-                <h3>Brand Touchpoints</h3>
+                <h4>Brand Touchpoints</h4>
               </div>
               <ul>
                 <li>Email signature</li>
@@ -128,7 +128,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <img src="">
-                <h3>Web Development</h3>
+                <h4>Web Development</h4>
               </div>
               <ul>
                 <li>UX research</li>
