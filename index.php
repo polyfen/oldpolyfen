@@ -40,7 +40,9 @@
 
             <section class="case-project">
               <div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"></div>
-              <div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE"></div>
+              <div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE">
+                <img src="imgs/case-studies/polyfen/polyfen-ideogram-grid.gif" height="100%" width="auto" style="border-radius:8px;">
+              </div>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
                 <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and design. <br/>A clean and professional look with a distinctive and creative flair.</p>

@@ -490,7 +490,8 @@ div.modal-wrapper {
    height: 516px;
    border-radius: 8px;
    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-   background-color: #0e0c2f;
+   background: #0e0c2f url('../../imgs/case-studies/polyfen/polyfen-business-cards.jpg');
+   background-size: cover;
    float: left;
   }
 
@@ -515,7 +516,10 @@ div.modal-wrapper {
    float: left;
    position: absolute;
    left: 468px;
-   top: 450px;
+   top: 440px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
   }
 
   .polyfen-thumbnail-INACTIVE {
