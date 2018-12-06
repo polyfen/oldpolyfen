@@ -80,6 +80,7 @@ footer {
 
         div#social-icons ul li a:hover i {
           color: #2AC6B5 /* #white */;
+          opacity: 1;
         }
 
     div#legal {
