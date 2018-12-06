@@ -45,7 +45,7 @@ textarea {
 
 input:focus, textarea:focus {
   background-color: #4500a9;
-  box-shadow: 0 0 10px 0 #4500a9;
+  box-shadow: 0 0 10px 0 #25006E;
 }
 
 div#captcha-wrapper {

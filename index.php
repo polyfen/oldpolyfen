@@ -205,8 +205,6 @@
             <input type="text" name="name" placeholder="Your name" id="name-input" required>
             <input type="email" name="email" id="email" placeholder="Your email" required>
             <textarea name="message" id="message" placeholder="Your message..." required></textarea>
-            <div id="captcha-wrapper">
-            </div>
             <button type="submit" id="send">Send</button>
             <button id="form-loader" class="d-none">
               <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
