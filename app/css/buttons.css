@@ -24,7 +24,7 @@ a.primary-button:hover, div#contact-form button:hover {
 a.secondary-button {
   width: 232px;
   height: 54px;
-  margin-top: -40px;
+  margin: 20px auto -20px;
   border-radius: 27px;
   background: #7800FF;
   text-align: center;
@@ -42,6 +42,33 @@ a.secondary-button {
 a.secondary-button:hover {
   box-shadow: 0 0 10px #7800FF;
 }
+
+div.card-navigation {
+  margin: 15px auto 0;
+  text-align: center;
+}
+
+div.card-navigation div.navigation-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  margin-right: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+    div.card-navigation div.navigation-bullet:last-of-type {
+      margin-right:0;
+    }
+
+    div.card-navigation div.active-navigation-bullet {
+      background: #7a00f5 /* #indigo */;
+    }
+
+    div.card-navigation div.inactive-navigation-bullet {
+      border: 2px solid #7a00f5 /* #indigo */;
+      opacity: 0.5;
+    }
 
 div#contact-form button {
   width:50%;

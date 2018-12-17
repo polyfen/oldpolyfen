@@ -250,7 +250,7 @@ section#case-studies {
          background: #0e0c2f url('../../imgs/case-studies/developing-our-own-brand/polyfen-business-cards.jpg');
          background-size: cover;
          width: 100%;
-         height: 245px;
+         height: 150px;
          border-radius: 8px 8px 0 0;
         }
 
@@ -301,11 +301,11 @@ section#case-studies {
       width: 100%;
       background: #050032 /* #slate-4 */;
       border-radius: 0 0 8px 8px;
-      padding: 34px 12px 34px 18px;
+      padding: 25px 12px 45px 18px;
     }
 
         section#case-studies section.case-project div.project-description h3 {
-          max-width: 350px;
+          max-width: 200px;
           color: #FFFFFF /* #white */;
         }
 
@@ -320,7 +320,7 @@ section#services .service-card {
         border-radius: 8px;
         width: 392px;
         max-width: 100%;
-        height: 520px;
+        height: 424px;
     }
 
     section#services div.service-card div.service-heading {
@@ -335,19 +335,21 @@ section#services .service-card {
 
     section#services div.service-card div.service-heading img {
       z-index: 1;
-      opacity: 0.82;
+      opacity: 0.83;
+      width: 79px;
+      height: auto;
+      margin-top: -50px;
     }
 
     section#services div.service-card div.service-heading-background {
       background: url('../../imgs/cover/pearl-01.png');
       background-size: 150%;
       background-position: center center;
-      height: 180px;
+      height: 127px;
       width: calc(100% + 40px);
       margin: -210px -20px 30px;
       border-radius: 8px 8px 50% 50%;
-      background-attachment: fixed;
-      opacity: 0.7;
+      opacity: 0.95;
     }
 
     section#services .service-card h4 {
@@ -378,12 +380,26 @@ section#services .service-card {
 
 /*---------- ABOUT start ------------*/
 
+section#about {
+  padding: 20px 10px 40px;
+}
+
 section#about h2 {
   max-width: 160px;
 }
 
+section#about img {
+  width: 115%;
+  margin: 20px 0 20px 0;
+}
+
 section#about p {
   max-width: 480px;
+  color: rgba(25, 25, 71, 0.7);
+}
+
+section#about p strong {
+  color: rgba(25, 25, 71, 1);
 }
 
 /*---------- ABOUT end ------------*/

@@ -45,7 +45,7 @@
               </div>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
-                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and design. <br/>A clean and professional look with a distinctive and creative flair.</p>
+                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and design. <br/><span class="d-none d-sm-inline d-md-inline d-lg-inline d-xl-inline">A clean and professional look with a distinctive and creative flair.</span></p>
                 <a class="secondary-button">View project ›</a>
               </div>
             </section>
@@ -154,6 +154,15 @@
               </ul>
             </div>
 
+            <div class="card-navigation d-block d-sm-none d-md-none d-lg-none d-xl-none">
+              <div class="navigation-bullet active-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -161,12 +170,10 @@
       <section class="container-fluid" id="about">
         <div class="row">
           <div class="col">
-            <h2>The link between<br/>business &amp; creativity</h2>
+            <h2>We mean business</h2>
+            <img src="imgs/about/illustration.svg">
             <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
-            <p>Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
-          </div>
-          <div class="col">
-            <img src="imgs/about/illustration.svg" style="float:right;">
+            <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
           </div>
         </div>
       </section>
