@@ -1,23 +1,24 @@
-/*---------- SECTIONS start------------*/
+/*------------------- SECTIONS start---------------------*/
 
 section {
-  padding: 40px 58px !important;
+  padding: 40px 10px;
 }
 
+/*---------- COVER start ------------*/
+
 section#cover {
-  background-color: #231E4E /* #indigo-minus-5 */ ;
+  background-color: #231E4E;
   box-shadow: #00000080 0 -10px 30px inset;
-  height: 590px;
   position: relative;
   overflow: hidden;
+  height: 370px;
 }
 
     section#cover h1 {
       position: absolute;
-      bottom: 105px;
-      left: 12px;
       max-width: 450px;
       z-index: 1;
+      top: 186px;
     }
 
     section#cover div.background {
@@ -32,6 +33,190 @@ section#cover {
       opacity: 0.85;
     }
 
+        section#cover div.background div#pearl-01 {
+          background-image: url('../../imgs/cover/pearl-01.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 700px;
+          width: 700px;
+          position: absolute;
+          transform: rotate(0deg);
+        }
+
+            .pearl-01-INACTIVE {
+              top: 350px;
+              left: -400px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+            .pearl-01-ACTIVE {
+              top: 400px;
+              left: -300px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+        section#cover div.background div#pearl-02 {
+          background-image: url('../../imgs/cover/pearl-03-17-b.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 850px;
+          width: 850px;
+          left: 120px;
+          position: absolute;
+        }
+
+            .pearl-02-INACTIVE {
+              top: 60px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+            .pearl-02-ACTIVE {
+              top: 170px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+        section#cover div.background div#pearl-03 {
+          background-image: url('../../imgs/cover/pearl-03.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 700px;
+          width: 700px;
+          left: -290px;
+          position: absolute;
+          animation:turn 1s linear;
+        }
+
+            .pearl-03-INACTIVE {
+              top: 80px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+            .pearl-03-ACTIVE {
+              top: 150px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+        section#cover div.background div#pearl-04 {
+          background-image: url('../../imgs/cover/pearl-01.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 650px;
+          width: 650px;
+          position: absolute;
+        }
+
+            .pearl-04-INACTIVE {
+              top: 80px;
+              left: 750px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+            .pearl-04-ACTIVE {
+              top: 130px;
+              left: 670px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+        section#cover div.background div#pearl-05 {
+          background-image: url('../../imgs/cover/pearl-03-17-c.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 380px;
+          width: 380px;
+          position: absolute;
+        }
+
+            .pearl-05-INACTIVE {
+              top: 260px;
+              left: 1320px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+            .pearl-05-ACTIVE {
+              top: 230px;
+              left: 1018px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+        section#cover div.background div#pearl-06 {
+          background-image: url('../../imgs/cover/pearl-13.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 900px;
+          width: 900px;
+          position: absolute;
+        }
+
+            .pearl-06-INACTIVE {
+              top: 280px;
+              left: 740px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+            .pearl-06-ACTIVE {
+              top: 320px;
+              left: 640px;
+              -webkit-transition: all 1s; /* Safari */
+              transition: all 1s;
+            }
+
+        @-webkit-keyframes rotating /* Safari and Chrome */ {
+          from {
+            -webkit-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          to {
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+
+        @keyframes rotating {
+          from {
+            -ms-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          to {
+            -ms-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+
+        .rotate {
+          -webkit-animation: rotating 545s linear infinite !important;
+          -moz-animation: rotating 45s linear infinite !important;
+          -ms-animation: rotating 45s linear infinite !important;
+          -o-animation: rotating 45s linear infinite !important;
+          animation: rotating 45s linear infinite !important;
+        }
+
+        .rotate-slower {
+          -webkit-animation: rotating 70s linear infinite !important;
+          -moz-animation: rotating 70s linear infinite !important;
+          -ms-animation: rotating 70s linear infinite !important;
+          -o-animation: rotating 70s linear infinite !important;
+          animation: rotating 70s linear infinite !important;
+        }
+
     section#cover div.curve {
       background-image: url('../../imgs/cover/curve.png');
       background-repeat: no-repeat;
@@ -43,216 +228,99 @@ section#cover {
       position: absolute;
     }
 
-    section#cover div.background div#pearl-01 {
-      background-image: url('../../imgs/cover/pearl-01.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 700px;
-      width: 700px;
-      position: absolute;
-      transform: rotate(0deg);
-    }
+/*---------- COVER end ------------*/
 
-    .pearl-01-INACTIVE {
-      top: 350px;
-      left: -400px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    .pearl-01-ACTIVE {
-      top: 400px;
-      left: -300px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    section#cover div.background div#pearl-02 {
-      background-image: url('../../imgs/cover/pearl-03-17-b.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 850px;
-      width: 850px;
-      left: 120px;
-      position: absolute;
-    }
-
-    .pearl-02-INACTIVE {
-      top: 60px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    .pearl-02-ACTIVE {
-      top: 170px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    section#cover div.background div#pearl-03 {
-      background-image: url('../../imgs/cover/pearl-03.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 700px;
-      width: 700px;
-      left: -290px;
-      position: absolute;
-      animation:turn 1s linear;
-    }
-
-    .pearl-03-INACTIVE {
-      top: 80px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    .pearl-03-ACTIVE {
-      top: 150px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    section#cover div.background div#pearl-04 {
-      background-image: url('../../imgs/cover/pearl-01.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 650px;
-      width: 650px;
-      position: absolute;
-    }
-
-    .pearl-04-INACTIVE {
-      top: 80px;
-      left: 750px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    .pearl-04-ACTIVE {
-      top: 130px;
-      left: 670px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    section#cover div.background div#pearl-05 {
-      background-image: url('../../imgs/cover/pearl-03-17-c.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 380px;
-      width: 380px;
-      position: absolute;
-    }
-
-    .pearl-05-INACTIVE {
-      top: 260px;
-      left: 1320px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    .pearl-05-ACTIVE {
-      top: 230px;
-      left: 1018px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    section#cover div.background div#pearl-06 {
-      background-image: url('../../imgs/cover/pearl-13.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 900px;
-      width: 900px;
-      position: absolute;
-    }
-
-    .pearl-06-INACTIVE {
-      top: 280px;
-      left: 740px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    .pearl-06-ACTIVE {
-      top: 320px;
-      left: 640px;
-      -webkit-transition: all 1s; /* Safari */
-      transition: all 1s;
-    }
-
-    @-webkit-keyframes rotating /* Safari and Chrome */ {
-  from {
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-.rotate {
-  -webkit-animation: rotating 545s linear infinite !important;
-  -moz-animation: rotating 45s linear infinite !important;
-  -ms-animation: rotating 45s linear infinite !important;
-  -o-animation: rotating 45s linear infinite !important;
-  animation: rotating 45s linear infinite !important;
-}
-
-.rotate-slower {
-  -webkit-animation: rotating 70s linear infinite !important;
-  -moz-animation: rotating 70s linear infinite !important;
-  -ms-animation: rotating 70s linear infinite !important;
-  -o-animation: rotating 70s linear infinite !important;
-  animation: rotating 70s linear infinite !important;
-}
-
-
+/*---------- BODY CONTENT start ------------*/
 
 div#content-wrapper {
-  background: #FEF4E6 /* #cream */ ;
+  background: #FEF4E6 /* #cream */;
 }
 
-    section#about h2 {
-      max-width: 160px;
-    }
+/*---------- CASE STUDIES start ------------*/
 
-    section#about p {
-      max-width: 480px;
-    }
 
-section#services {
-  width: -moz-max-content;
-  margin-top: 40px;
-  margin-bottom: 20px;
+section#case-studies {
 }
+
+    section#case-studies section.case-project {
+      padding: 0 !important;
+    }
+
+        section#case-studies section.case-project div.project-cover {
+         background: #0e0c2f url('../../imgs/case-studies/developing-our-own-brand/polyfen-business-cards.jpg');
+         background-size: cover;
+         width: 100%;
+         height: 245px;
+         border-radius: 8px 8px 0 0;
+        }
+
+            /* .polyfen-cover-INACTIVE {
+              margin-top: 50px;
+              -webkit-transition: all 2s; Safari
+              transition: all 2s;
+            }
+
+            .polyfen-cover-ACTIVE {
+              margin-top: 0px;
+              -webkit-transition: all 2s;
+              transition: all 2s;
+            } */
+
+    section#case-studies section.case-project div.project-thumbnail {
+      display: none;
+    }
+
+    /* section#case-studies section.case-project div.project-thumbnail {
+     width: 400px;
+     height: 300px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+     background-color: #2c277b;
+     float: left;
+     position: absolute;
+     left: 468px;
+     top: 440px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    } */
+
+        /* .polyfen-thumbnail-INACTIVE {
+          margin-top: 100px;
+          -webkit-transition: all 3s;
+          transition: all 3s;
+        }
+
+        .polyfen-thumbnail-ACTIVE {
+          margin-top: 0px;
+          -webkit-transition: all 3s;
+          transition: all 3s;
+        } */
+
+    section#case-studies section.case-project div.project-description {
+      width: 100%;
+      background: #050032 /* #slate-4 */;
+      border-radius: 0 0 8px 8px;
+      padding: 34px 12px 34px 18px;
+    }
+
+        section#case-studies section.case-project div.project-description h3 {
+          max-width: 350px;
+          color: #FFFFFF /* #white */;
+        }
+
+/*---------- CASE STUDIES end ------------*/
+
+/*---------- SERVICES start ------------*/
+
 
 section#services .service-card {
         background: #0e0c2f;
         padding: 20px;
-        margin-right: 20px;
-        width: 392px;
-        height: 520px;
-        float: left;
         border-radius: 8px;
+        width: 392px;
+        max-width: 100%;
+        height: 520px;
     }
 
     section#services div.service-card div.service-heading {
@@ -267,7 +335,7 @@ section#services .service-card {
 
     section#services div.service-card div.service-heading img {
       z-index: 1;
-      opacity: 0.8;
+      opacity: 0.82;
     }
 
     section#services div.service-card div.service-heading-background {
@@ -305,6 +373,24 @@ section#services .service-card {
       background:  #7800FF;
       opacity: 0.9;
     }
+
+/*---------- SERVICES end ------------*/
+
+/*---------- ABOUT start ------------*/
+
+section#about h2 {
+  max-width: 160px;
+}
+
+section#about p {
+  max-width: 480px;
+}
+
+/*---------- ABOUT end ------------*/
+
+/*---------- BODY CONTENT end ------------*/
+
+/*---------- CTA start ------------*/
 
 section#call-to-action {
   background-color: #231E4E /* #indigo-minus-5 */ ;
@@ -433,25 +519,7 @@ section#call-to-action {
       z-index: 1;
     }
 
-div.modal-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  height: 100%;
-  width: 100%;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.85);
-}
-
-    div.modal-window {
-      height: 100%;
-      width: 100%;
-      background: #FFFFFF /* #white */;
-      padding: 12px;
-    }
-
-/*---------- SECTIONS end ------------*/
+/*---------- CTA end ------------*/
 
 
 /*---------- [MEDIA QUERIES] start ------------*/
@@ -480,71 +548,7 @@ div.modal-wrapper {
     left: 65px;
   }
 
-  section#case-studies {
-  }
 
-  section#case-studies section.case-project {
-    padding: 0 !important;
-  }
-
-  section#case-studies section.case-project div.project-cover {
-    width: 789px;
-   height: 516px;
-   border-radius: 8px;
-   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-   background: #0e0c2f url('../../imgs/case-studies/developing-our-own-brand/polyfen-business-cards.jpg');
-   background-size: cover;
-   float: left;
-  }
-
-  .polyfen-cover-INACTIVE {
-    margin-top: 50px;
-    -webkit-transition: all 2s; /* Safari */
-    transition: all 2s;
-  }
-
-  .polyfen-cover-ACTIVE {
-    margin-top: 0px;
-    -webkit-transition: all 2s; /* Safari */
-    transition: all 2s;
-  }
-
-  section#case-studies section.case-project div.project-thumbnail {
-    width: 400px;
-   height: 300px;
-   border-radius: 8px;
-   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-   background-color: #2c277b;
-   float: left;
-   position: absolute;
-   left: 468px;
-   top: 440px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-  }
-
-  .polyfen-thumbnail-INACTIVE {
-    margin-top: 100px;
-    -webkit-transition: all 3s; /* Safari */
-    transition: all 3s;
-  }
-
-  .polyfen-thumbnail-ACTIVE {
-    margin-top: 0px;
-    -webkit-transition: all 3s; /* Safari */
-    transition: all 3s;
-  }
-
-  section#case-studies section.case-project div.project-description {
-    float: left;
-    width: 460px;
-    margin-left: 100px;
-  }
-
-    section#case-studies section.case-project div.project-description h3 {
-      max-width: 350px;
-    }
 
   section#about h2 {
     max-width: none;
@@ -577,6 +581,10 @@ div.modal-wrapper {
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
 
+  section#cover {
+    height: 590px;
+  }
+
   section#cover h1 {
     max-width: 1110px;
   }
@@ -585,3 +593,5 @@ div.modal-wrapper {
 
 
 /*---------- [MEDIA QUERIES] end ------------*/
+
+/*------------------- SECTIONS end ---------------------*/

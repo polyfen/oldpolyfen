@@ -77,7 +77,7 @@ p, p a, li, p strong /* (mobile) */ {
   text-align: left;
   font-weight: 400 /* regular */;
   font-style: normal;
-  color: #191947B2 /* cloud */;
+  color: rgba(255, 255, 255, 0.7);
   font-family: 'freight-text-pro', serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
@@ -134,7 +134,7 @@ a:hover small {
 
 p strong {
   font-style: italic;
-  color: #191947;
+  color: #FFFFFF /* #white */;
 }
 
 p a {

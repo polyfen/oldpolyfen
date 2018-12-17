@@ -46,7 +46,7 @@
               <div class="project-description">
                 <h3>Developing our own brand</h3>
                 <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and design. <br/>A clean and professional look with a distinctive and creative flair.</p>
-                <a class="secondary-button" style="margin-top: 20px;">View project ›</a>
+                <a class="secondary-button">View project ›</a>
               </div>
             </section>
 
@@ -57,7 +57,7 @@
       <section class="container-fluid" id="services">
         <div class="row">
           <div class="col">
-            <h2 style="margin-top:80px;">Our services</h2>
+            <h2>Our services</h2>
 
             <div class="service-card">
               <div class="service-heading">
@@ -74,7 +74,7 @@
               </ul>
             </div>
 
-            <div class="service-card">
+            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/brand-strategy-icon.svg">
               </div>
@@ -92,7 +92,7 @@
               </ul>
             </div>
 
-            <div class="service-card">
+            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/visual-identity-icon.svg">
               </div>
@@ -108,7 +108,7 @@
               </ul>
             </div>
 
-            <div class="service-card">
+            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/brand-guidelines-icon.svg">
               </div>
@@ -120,7 +120,7 @@
               </p>
             </div>
 
-            <div class="service-card">
+            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/brand-touchpoints-icon.svg">
               </div>
@@ -137,7 +137,7 @@
               </ul>
             </div>
 
-            <div class="service-card">
+            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/web-development-icon.svg">
               </div>

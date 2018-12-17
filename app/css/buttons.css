@@ -24,6 +24,7 @@ a.primary-button:hover, div#contact-form button:hover {
 a.secondary-button {
   width: 232px;
   height: 54px;
+  margin-top: -40px;
   border-radius: 27px;
   background: #7800FF;
   text-align: center;
