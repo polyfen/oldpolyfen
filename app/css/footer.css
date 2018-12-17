@@ -1,7 +1,7 @@
 /*---------- FOOTER start ------------*/
 
 footer {
-  background: #050032 /* #indigo-minus-1 */;
+  background: #050032 /* #slate-4 */;
   text-align: center;
   width: 100%;
 }
@@ -22,7 +22,8 @@ footer {
       div#social-icons ul li a i {
         font-size: 28px;
         margin: 0 8.5px;
-        color: #2E2390 /* #indigo-minus-4 */;
+        color: #7800FF /* #indigo */;
+        opacity: 0.8;
       }
 
       div#social-icons ul li:first-child a i {
@@ -34,11 +35,12 @@ footer {
       }
 
       div#social-icons ul li a:hover i {
-        color: #FFFFFF /* #white */;
+        color: #25A9B9 /* #teal */;
+        opacity: 1;
       }
 
   div#legal {
-    background: #240079 /* indigo-minus-2 */;
+    background: #01000b;
     padding: 20px 0 25px;
   }
 

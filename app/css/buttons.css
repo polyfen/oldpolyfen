@@ -3,7 +3,7 @@
 a.primary-button, div#contact-form button {
   background: #7800FF /* #indigo-minus-1 */;
   border-radius: 100px;
-  padding: 11px 20px 10px;
+  padding: 11px 22px 12px;
   width: 100%;
   max-width: 424px;
   margin: 0 auto;
@@ -11,7 +11,9 @@ a.primary-button, div#contact-form button {
   display: block;
   border: none;
   color: #FFFFFF /* white */ !important;
-  box-shadow: 0 0 15px #7800FF;
+  box-shadow: 0 0 15px #00000080;
+  font-size: 21px;
+  letter-spacing: 0.5px;
 }
 
 a.primary-button:hover, div#contact-form button:hover {
@@ -22,25 +24,24 @@ a.primary-button:hover, div#contact-form button:hover {
 }
 
 a.secondary-button {
-  width: 232px;
-  height: 54px;
-  margin: 20px auto -20px;
+  width: 252px;
+  margin: 25px 0 -20px;
   border-radius: 27px;
-  background: #7800FF;
   text-align: center;
   display: block;
   border: none;
-  color: #FFFFFF /* white */ !important;
+  color: #FFFFFFE6 !important;
   padding: 9px 35px;
-  font-size: 25px;
-  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
-  box-shadow: none;
+  font-size: 21px;
+  font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
+  box-shadow: 0 0 10px #BA00FF;
   -webkit-transition: all 0.5s; /* Safari */
   transition: all 0.5s;
 }
 
 a.secondary-button:hover {
-  box-shadow: 0 0 10px #7800FF;
+  color: #FFFFFF !important;
+  background: #7800FF;
 }
 
 div.card-navigation {
@@ -63,6 +64,7 @@ div.card-navigation div.navigation-bullet {
 
     div.card-navigation div.active-navigation-bullet {
       background: #7a00f5 /* #indigo */;
+      box-shadow: 0 0 4px #BA00FF;
     }
 
     div.card-navigation div.inactive-navigation-bullet {
