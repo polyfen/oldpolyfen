@@ -41,7 +41,7 @@
             <section class="case-project">
               <div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"></div>
               <div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE">
-                <img src="imgs/case-studies/polyfen/polyfen-ideogram-grid.gif" height="100%" width="auto" style="border-radius:8px;">
+                <img src="imgs/case-studies/developing-our-own-brand/polyfen-ideogram-grid.gif" height="100%" width="auto" style="border-radius:8px;">
               </div>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
@@ -61,7 +61,7 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="imgs/services/brand-research.svg">
+                <img src="imgs/services/brand-research-icon.svg">
               </div>
               <div class="service-heading-background">
               </div>
@@ -77,7 +77,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <div class="icon-circle">
-                  <img src="imgs/services/brand-strategy.svg">
+                  <img src="imgs/services/brand-strategy-icon.svg">
                 </div>
               </div>
               <div class="service-heading-background">
@@ -97,7 +97,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <div class="icon-circle">
-                  <img src="imgs/services/visual-identity.svg">
+                  <img src="imgs/services/visual-identity-icon.svg">
                 </div>
               </div>
               <div class="service-heading-background">
@@ -115,7 +115,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <div class="icon-circle">
-                  <img src="imgs/services/brand-guidelines.svg">
+                  <img src="imgs/services/brand-guidelines-icon.svg">
                 </div>
               </div>
               <div class="service-heading-background">
@@ -129,7 +129,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <div class="icon-circle">
-                  <img src="imgs/services/brand-research.svg">
+                  <img src="imgs/services/brand-touchpoints-icon.svg">
                 </div>
               </div>
               <div class="service-heading-background">
@@ -148,7 +148,7 @@
             <div class="service-card">
               <div class="service-heading">
                 <div class="icon-circle">
-                  <img src="imgs/services/brand-research.svg">
+                  <img src="imgs/services/web-development-icon.svg">
                 </div>
               </div>
               <div class="service-heading-background">
