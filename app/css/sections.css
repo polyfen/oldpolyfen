@@ -82,24 +82,24 @@ section#cover {
             }
 
         section#cover div.background div#pearl-03 {
-          background-image: url('../../imgs/cover/pearl-03.png');
+          background-image: url('../../imgs/cover/pearl-03-17-b.png');
           background-size: contain;
           background-repeat: no-repeat;
-          height: 700px;
-          width: 700px;
-          left: -290px;
+          height: 800px;
+          width: 800px;
+          left: -160px;
           position: absolute;
           animation:turn 1s linear;
         }
 
             .pearl-03-INACTIVE {
-              top: 80px;
+              top: -180px;
               -webkit-transition: all 1s; /* Safari */
               transition: all 1s;
             }
 
             .pearl-03-ACTIVE {
-              top: 150px;
+              top: -180px;
               -webkit-transition: all 1s; /* Safari */
               transition: all 1s;
             }
