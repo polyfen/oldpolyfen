@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>web-development-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Service-cards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cards" transform="translate(-2344.000000, -141.000000)">
+            <g id="Card-6" transform="translate(2201.000000, 103.000000)">
+                <g id="web-development-icon" transform="translate(145.000000, 40.000000)">
+                    <circle id="Circle" stroke="#FFFFFF" stroke-width="4" cx="49.5" cy="49.5" r="49.5"></circle>
+                    <path d="M64,55 C64,55.55 63.55,56 63,56 L33,56 C32.45,56 32,55.55 32,55 L32,37 C32,36.45 32.45,36 33,36 L63,36 C63.55,36 64,36.45 64,37 L64,55 Z M63,31 L33,31 C29.69,31 27,33.69 27,37 L27,58 C27,61.31 29.69,64 33,64 L45.5,64 L45.5,68 L40.5,68 C39.12,68 38,69.12 38,70.5 C38,71.88 39.12,73 40.5,73 L55.5,73 C56.88,73 58,71.88 58,70.5 C58,69.12 56.88,68 55.5,68 L50.5,68 L50.5,64 L63,64 C66.31,64 69,61.31 69,58 L69,37 C69,33.69 66.31,31 63,31 Z" id="Fill-79" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

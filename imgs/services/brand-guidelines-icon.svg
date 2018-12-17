@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>brand-guidelines-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Service-cards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cards" transform="translate(-1512.000000, -141.000000)">
+            <g id="Card-4" transform="translate(1369.000000, 103.000000)">
+                <g id="brand-guidelines-icon" transform="translate(145.000000, 40.000000)">
+                    <circle id="Circle" stroke="#FFFFFF" stroke-width="4" cx="49.5" cy="49.5" r="49.5"></circle>
+                    <path d="M48.549756,61 C46.339756,61 44.549756,59.21 44.549756,57 C44.549756,54.79 46.339756,53 48.549756,53 C50.759756,53 52.549756,54.79 52.549756,57 C52.549756,59.21 50.759756,61 48.549756,61 Z M68.169756,43.68 L50.629756,26.84 C49.469756,25.72 47.629756,25.72 46.469756,26.84 L28.929756,43.68 C26.979756,45.55 28.299756,48.84 31.009756,48.84 L32.549756,48.84 L32.549756,69 C32.549756,71.76 34.789756,74 37.549756,74 L59.549756,74 C62.309756,74 64.549756,71.76 64.549756,69 L64.549756,48.84 L66.089756,48.84 C68.799756,48.84 70.119756,45.55 68.169756,43.68 Z" id="Fill-297" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

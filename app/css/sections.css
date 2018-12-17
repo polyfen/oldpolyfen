@@ -249,7 +249,7 @@ section#services .service-card {
         background: #0e0c2f;
         padding: 20px;
         margin-right: 20px;
-        width: 400px;
+        width: 392px;
         height: 520px;
         float: left;
         border-radius: 8px;
@@ -263,6 +263,13 @@ section#services .service-card {
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    section#services div.service-card div.service-heading div.icon-circleß {
+      height: 100px;
+      width: 100px;
+      border-radius: 100px;
+      border: solid white 4px;
     }
 
     section#services div.service-card div.service-heading img {
@@ -491,7 +498,7 @@ div.modal-wrapper {
    height: 516px;
    border-radius: 8px;
    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-   background: #0e0c2f url('../../imgs/case-studies/polyfen/polyfen-business-cards.jpg');
+   background: #0e0c2f url('../../imgs/case-studies/developing-our-own-brand/polyfen-business-cards.jpg');
    background-size: cover;
    float: left;
   }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>brand-strategy-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Service-cards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cards" transform="translate(-684.000000, -141.000000)">
+            <g id="Card-2" transform="translate(536.000000, 103.000000)">
+                <g id="brand-strategy-icon" transform="translate(150.000000, 40.000000)">
+                    <circle id="Circle" stroke="#FFFFFF" stroke-width="4" cx="49.5" cy="49.5" r="49.5"></circle>
+                    <path d="M34.5,39 C33.121,39 32,37.879 32,36.5 C32,35.122 33.121,34 34.5,34 C35.878,34 37,35.122 37,36.5 C37,37.879 35.878,39 34.5,39 Z M61.5,56 C58.236,56 55.466,58.089 54.436,61 L40.75,61 C38.407,61 36.5,59.093 36.5,56.75 C36.5,54.407 38.407,52.5 40.75,52.5 L55.25,52.5 C60.35,52.5 64.5,48.351 64.5,43.25 C64.5,38.15 60.35,34 55.25,34 L41.564,34 C40.534,31.089 37.764,29 34.5,29 C30.358,29 27,32.358 27,36.5 C27,40.642 30.358,44 34.5,44 C37.764,44 40.534,41.911 41.564,39 L55.25,39 C57.593,39 59.5,40.907 59.5,43.25 C59.5,45.593 57.593,47.5 55.25,47.5 L40.75,47.5 C35.649,47.5 31.5,51.65 31.5,56.75 C31.5,61.851 35.649,66 40.75,66 L54.436,66 C55.466,68.911 58.236,71 61.5,71 C65.642,71 69,67.642 69,63.5 C69,59.358 65.642,56 61.5,56 Z" id="Fill-296-Copy" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

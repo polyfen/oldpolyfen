@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>brand-research-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Service-cards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cards" transform="translate(-265.000000, -141.000000)">
+            <g id="Card-1" transform="translate(120.000000, 103.000000)">
+                <g id="brand-research-icon" transform="translate(147.000000, 40.000000)">
+                    <circle id="Circle" stroke="#FFFFFF" stroke-width="4" cx="49.5" cy="49.5" r="49.5"></circle>
+                    <path d="M50.4977308,50.50405 C46.6277308,50.50405 43.4977308,47.37405 43.4977308,43.50405 C43.4977308,39.63405 46.6277308,36.50405 50.4977308,36.50405 C54.3677308,36.50405 57.4977308,39.63405 57.4977308,43.50405 C57.4977308,47.37405 54.3677308,50.50405 50.4977308,50.50405 Z M49.5577308,26.02405 C41.0577308,26.47405 33.9777308,33.13405 33.0977308,41.54405 C32.6577308,45.73405 33.7277308,49.64405 35.8177308,52.84405 L48.8077308,73.08405 C49.5977308,74.31405 51.3977308,74.31405 52.1877308,73.08405 L65.1777308,52.84405 C66.9577308,50.12405 67.9977308,46.88405 67.9977308,43.40405 C67.9977308,33.48405 59.6477308,25.50405 49.5577308,26.02405 Z" id="Fill-210" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

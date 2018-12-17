@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>visual-identity-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Service-cards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cards" transform="translate(-1097.000000, -141.000000)">
+            <g id="Card-3" transform="translate(952.000000, 103.000000)">
+                <g id="visual-identity-icon" transform="translate(147.000000, 40.000000)">
+                    <circle id="Circle" stroke="#FFFFFF" stroke-width="4" cx="49.5" cy="49.5" r="49.5"></circle>
+                    <path d="M66.011,62.331 L33.881,62.331 C32.071,62.331 31.191,60.111 32.511,58.871 L44.471,47.621 C45.241,46.901 46.441,46.901 47.211,47.621 L56.281,56.151 C57.061,56.891 58.301,56.871 59.061,56.111 L60.431,54.741 C61.211,53.961 62.471,53.961 63.251,54.741 L67.431,58.921 C68.691,60.181 67.791,62.331 66.011,62.331 Z M63.841,38.331 C66.051,38.331 67.841,40.121 67.841,42.331 C67.841,44.541 66.051,46.331 63.841,46.331 C61.631,46.331 59.841,44.541 59.841,42.331 C59.841,40.121 61.631,38.331 63.841,38.331 Z M68.841,32.331 L30.841,32.331 C28.081,32.331 25.841,34.571 25.841,37.331 L25.841,63.331 C25.841,66.091 28.081,68.331 30.841,68.331 L68.841,68.331 C71.601,68.331 73.841,66.091 73.841,63.331 L73.841,37.331 C73.841,34.571 71.601,32.331 68.841,32.331 Z" id="Fill-251" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

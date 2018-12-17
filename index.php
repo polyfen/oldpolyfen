@@ -76,7 +76,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="imgs/services/brand-strategy.svg">
+                <div class="icon-circle">
+                  <img src="imgs/services/brand-strategy.svg">
+                </div>
               </div>
               <div class="service-heading-background">
               </div>
@@ -94,7 +96,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="imgs/services/visual-identity.svg">
+                <div class="icon-circle">
+                  <img src="imgs/services/visual-identity.svg">
+                </div>
               </div>
               <div class="service-heading-background">
               </div>
@@ -110,7 +114,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="imgs/services/brand-guidelines.svg">
+                <div class="icon-circle">
+                  <img src="imgs/services/brand-guidelines.svg">
+                </div>
               </div>
               <div class="service-heading-background">
               </div>
@@ -122,7 +128,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="imgs/services/brand-research.svg">
+                <div class="icon-circle">
+                  <img src="imgs/services/brand-research.svg">
+                </div>
               </div>
               <div class="service-heading-background">
               </div>
@@ -139,7 +147,9 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <img src="imgs/services/brand-research.svg">
+                <div class="icon-circle">
+                  <img src="imgs/services/brand-research.svg">
+                </div>
               </div>
               <div class="service-heading-background">
               </div>
