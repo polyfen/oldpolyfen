@@ -76,9 +76,7 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <div class="icon-circle">
-                  <img src="imgs/services/brand-strategy-icon.svg">
-                </div>
+                <img src="imgs/services/brand-strategy-icon.svg">
               </div>
               <div class="service-heading-background">
               </div>
@@ -96,9 +94,7 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <div class="icon-circle">
-                  <img src="imgs/services/visual-identity-icon.svg">
-                </div>
+                <img src="imgs/services/visual-identity-icon.svg">
               </div>
               <div class="service-heading-background">
               </div>
@@ -114,9 +110,7 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <div class="icon-circle">
-                  <img src="imgs/services/brand-guidelines-icon.svg">
-                </div>
+                <img src="imgs/services/brand-guidelines-icon.svg">
               </div>
               <div class="service-heading-background">
               </div>
@@ -128,9 +122,7 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <div class="icon-circle">
-                  <img src="imgs/services/brand-touchpoints-icon.svg">
-                </div>
+                <img src="imgs/services/brand-touchpoints-icon.svg">
               </div>
               <div class="service-heading-background">
               </div>
@@ -147,9 +139,7 @@
 
             <div class="service-card">
               <div class="service-heading">
-                <div class="icon-circle">
-                  <img src="imgs/services/web-development-icon.svg">
-                </div>
+                <img src="imgs/services/web-development-icon.svg">
               </div>
               <div class="service-heading-background">
               </div>

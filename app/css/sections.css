@@ -265,15 +265,9 @@ section#services .service-card {
       justify-content: center;
     }
 
-    section#services div.service-card div.service-heading div.icon-circleß {
-      height: 100px;
-      width: 100px;
-      border-radius: 100px;
-      border: solid white 4px;
-    }
-
     section#services div.service-card div.service-heading img {
       z-index: 1;
+      opacity: 0.8;
     }
 
     section#services div.service-card div.service-heading-background {
