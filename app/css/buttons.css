@@ -135,6 +135,38 @@ div#contact-form button#go-back:hover {
 
   a.primary-button {
     max-width: 260px;
+    margin: 0 auto;
+  }
+
+  div.desktop-card-navigation-wrapper {
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
+    position: absolute;
+    right: 0;
+    width: 100px;
+    margin-top: -424px;
+    height: 424px;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  div.desktop-card-navigation-button {
+    width: 70px;
+    margin-left: 30px;
+    height: 100%;
+    background: #474797 /* #blueberry */;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.desktop-card-navigation-wrapper:hover div.desktop-card-navigation-button {
+    background: #7800FF /* #indigo */;
+  }
+
+  div.desktop-card-navigation-button i.fa-angle-right {
+    color: rgba(25, 25, 71, 0.7);
+    font-size: 2.5rem;
   }
 
 }

@@ -181,25 +181,25 @@ p a:hover {
 @media (min-width: 768px) {
 
   h1 {
-    font-size: 70.5px;
+    font-size: 56px;
     letter-spacing: 0.2px;
-    line-height: 78px;
+    line-height: 1.09;
   }
 
     h2 {
-      font-size: 52px;
-      letter-spacing: 0.5px;
+      font-size: 45px;
       line-height: 1.11;
     }
 
-    h3 /* (mobile) */ {
-      font-size: 52px;
+    h3 {
+      font-size: 35px;
+      line-height: 1.14;
     }
 
-    p, p a, li, p strong {
-      font-size: 25px;
+    p, p a, li, p strong, p span {
+      font-size: 23px;
       letter-spacing: 0.15px;
-      line-height: normal;
+      line-height: 1.39;
     }
 
     button, a.button {
