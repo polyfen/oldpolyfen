@@ -5,8 +5,8 @@ a.primary-button, div#contact-form button {
   border-radius: 100px;
   padding: 11px 22px 12px;
   width: 100%;
-  max-width: 424px;
-  margin: 0 auto;
+  max-width: 300px;
+  margin: 0;
   text-align: center;
   display: block;
   border: none;
@@ -25,7 +25,7 @@ a.primary-button:hover, div#contact-form button:hover {
 
 a.secondary-button {
   width: 252px;
-  margin: 25px 0 -20px;
+  margin: 25px auto -15px;
   border-radius: 27px;
   text-align: center;
   display: block;
@@ -110,6 +110,23 @@ div#contact-form button#go-back:hover {
 
 /* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
+
+  a.secondary-button {
+    box-shadow: none;
+    text-align: left;
+    padding: 0;
+    color: #7800FF !important;
+    border-bottom: 2px dotted #7800FF;
+    border-radius: 0;
+    width: 132px;
+    margin: 20px 0 0 0;
+  }
+
+  a.secondary-button:hover {
+    background: none;
+    color: #7800FF !important;
+    border-bottom: 2px solid #7800FF;
+  }
 
 }
 

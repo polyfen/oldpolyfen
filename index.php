@@ -40,12 +40,12 @@
 
             <section class="case-project">
               <div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"></div>
-              <div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE">
+              <div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-block d-lg-block d-xl-block">
                 <img src="imgs/case-studies/developing-our-own-brand/polyfen-ideogram-grid.gif" height="100%" width="auto" style="border-radius:8px;">
               </div>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
-                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and design. <br/><span class="d-none d-sm-inline d-md-inline d-lg-inline d-xl-inline">A clean and professional look with a distinctive and creative flair.</span></p>
+                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and design. <br class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline"/><span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A clean and professional look with a distinctive and creative flair.</span></p>
                 <a class="secondary-button">View project ›</a>
               </div>
             </section>
@@ -74,7 +74,7 @@
               </ul>
             </div>
 
-            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
+            <div class="service-card d-none d-sm-none d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/brand-strategy-icon.svg">
               </div>
@@ -92,7 +92,7 @@
               </ul>
             </div>
 
-            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
+            <div class="service-card d-none d-sm-none d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/visual-identity-icon.svg">
               </div>
@@ -108,7 +108,7 @@
               </ul>
             </div>
 
-            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
+            <div class="service-card d-none d-sm-none d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/brand-guidelines-icon.svg">
               </div>
@@ -120,7 +120,7 @@
               </p>
             </div>
 
-            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
+            <div class="service-card d-none d-sm-none d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/brand-touchpoints-icon.svg">
               </div>
@@ -137,7 +137,7 @@
               </ul>
             </div>
 
-            <div class="service-card d-none d-sm-block d-md-block d-lg-block d-xl-block">
+            <div class="service-card d-none d-sm-none d-md-block d-lg-block d-xl-block">
               <div class="service-heading">
                 <img src="imgs/services/web-development-icon.svg">
               </div>
@@ -154,7 +154,7 @@
               </ul>
             </div>
 
-            <div class="card-navigation d-block d-sm-none d-md-none d-lg-none d-xl-none">
+            <div class="card-navigation d-block d-sm-block d-md-none d-lg-none d-xl-none">
               <div class="navigation-bullet active-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
@@ -170,7 +170,8 @@
       <section class="container-fluid" id="about">
         <div class="row">
           <div class="col">
-            <h2>We mean business</h2>
+            <h2 class="d-block d-sm-none d-md-none d-lg-none d-xl-none">We mean business</h2>
+            <h2 class="d-none d-sm-block d-md-block d-lg-block d-xl-block">The link between business &amp; design</h2>
             <img src="imgs/about/illustration.svg">
             <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
             <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>

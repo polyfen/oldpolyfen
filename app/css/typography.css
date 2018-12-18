@@ -72,7 +72,7 @@ h4 {
   font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
 }
 
-p, p a, li, p strong /* (mobile) */ {
+p, p a, li, p strong, p span /* (mobile) */ {
   font-size: 21px;
   letter-spacing: 0.1px;
   line-height: 1.3;
@@ -132,6 +132,7 @@ a small {
 a:hover small {
   opacity: 1;
   text-decoration: none;
+  border-bottom: 3px solid #7800FF;
 }
 
 p strong {
