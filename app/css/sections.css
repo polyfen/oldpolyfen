@@ -706,7 +706,7 @@ section#call-to-action {
 
   /*--- CTA start ---*/
       section#call-to-action div#cta-content {
-        width: 100%;
+        width: calc(100% - 70px);
         margin-top: 50px;
       }
 
@@ -761,6 +761,20 @@ section#call-to-action {
         margin-top: -68px;
       }
   /*--- ABOUT end ---*/
+
+  /*--- CTA start ---*/
+    section#call-to-action {
+      height: 570px;
+    }
+
+    section#call-to-action div.curve {
+      bottom: 310px;
+    }
+
+    section#call-to-action div#cta-content {
+      margin-top: 115px;
+    }
+  /*--- CTA end ---*/
 
 }
 
