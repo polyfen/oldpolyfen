@@ -781,13 +781,59 @@ section#call-to-action {
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
 
-  section#cover {
-    height: 590px;
-  }
+  /*--- COVER start ---*/
+      section#cover {
+        height: 520px;
+      }
 
-  section#cover h1 {
-    max-width: 1110px;
-  }
+      section#cover h1 {
+        top: 225px;
+        max-width: 1040px;
+      }
+
+      section#cover div.curve {
+        top: 260px;
+      }
+  /*--- COVER end ---*/
+
+  /*--- CASE STUDIES start ---*/
+      section#case-studies section.case-project div.project-cover {
+        height: 520px;
+      }
+
+      section#case-studies section.case-project div.project-thumbnail {
+         width: auto;
+         height: 224px;
+         border-radius: 8px;
+         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+         background-color: #2c277b;
+         position: absolute;
+         left: 330px;
+         margin-top: 360px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+
+      section#case-studies section.case-project div.project-description {
+        padding: 20px 0px 0px 40px;
+      }
+
+      section#case-studies section.case-project div.project-description h3 {
+        max-width: 265px;
+      }
+
+      section#case-studies section.case-project div.project-description p {
+        max-width: 400px;
+      }
+  /*--- CASE STUDIES end ---*/
+
+  /*--- SERVICES start ---*/
+      section#services div.service-card {
+          height: 485px;
+          width: 385px;
+      }
+  /*--- SERVICES end ---*/
 
 }
 
