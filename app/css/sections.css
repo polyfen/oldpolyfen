@@ -642,7 +642,7 @@ section#call-to-action {
 
   /*--- GENERAL start ---*/
       section {
-        padding: 70px 35px  !important;
+        padding: 70px 35px !important;
       }
   /*--- GENERAL end ---*/
 
@@ -715,15 +715,52 @@ section#call-to-action {
         text-align: center;
         margin: 0 auto 10px;
       }
+
+      section#case-studies section.case-project div.project-description {
+        padding: 12px 0px 0px 28px;
+      }
   /*--- CTA end ---*/
 }
 
 /* Large devices (Tanblet Landscape) */
 @media (min-width: 992px) {
 
-  section#cover h1 {
-    max-width: 920px;
-  }
+  /*--- COVER start ---*/
+      section#cover {
+        height: 480px;
+      }
+
+      section#cover h1 {
+        top: 230px;
+        max-width: 890px;
+      }
+
+      section#cover div.curve {
+        top: 220px;
+      }
+  /*--- COVER end ---*/
+
+  /*--- CASE STUDIES start ---*/
+      section#case-studies section.case-project div.project-cover {
+       height: 400px;
+      }
+  /*--- CASE STUDIES end ---*/
+
+  /*--- ABOUT start ---*/
+      section#about {
+        padding: 70px 35px 120px !important;
+      }
+
+      section#about p {
+        max-width: 445px;
+      }
+
+      section#about img {
+        max-width: 520px;
+        right: -55px;
+        margin-top: -68px;
+      }
+  /*--- ABOUT end ---*/
 
 }
 

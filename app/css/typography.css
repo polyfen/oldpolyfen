@@ -180,11 +180,11 @@ p a:hover {
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
 
-  h1 {
-    font-size: 56px;
-    letter-spacing: 0.2px;
-    line-height: 1.09;
-  }
+    h1 {
+      font-size: 56px;
+      letter-spacing: 0.2px;
+      line-height: 1.09;
+    }
 
     h2 {
       font-size: 45px;
@@ -213,7 +213,9 @@ p a:hover {
 /* Large devices (Tanblet Landscape) */
 @media (min-width: 992px) {
 
-
+  h1 {
+    font-size: 70.5px;
+  }
 
 }
 
