@@ -44,6 +44,7 @@
   <link rel="stylesheet" href="app/css/buttons.css" type="text/css">
   <link rel="stylesheet" href="app/css/separators.css" type="text/css">
   <link rel="stylesheet" href="app/css/sections.css" type="text/css">
+  <link rel="stylesheet" href="app/css/animations.css" type="text/css">
   <link rel="stylesheet" href="app/css/modal.css" type="text/css">
 
   <!-- FONTS -->

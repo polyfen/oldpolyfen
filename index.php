@@ -16,17 +16,17 @@
         <div class="curve">
         </div>
         <div class="background">
-          <div id="pearl-04" class="pearl-04-INACTIVE rotate">
+          <div id="pearl-04" class="pearl pearl-04-INACTIVE rotate">
           </div>
-          <div id="pearl-05" class="pearl-05-INACTIVE rotate">
+          <div id="pearl-05" class="pearl pearl-05-INACTIVE rotate">
           </div>
-          <div id="pearl-06" class="pearl-06-INACTIVE rotate-slower">
+          <div id="pearl-06" class="pearl pearl-06-INACTIVE rotate-slower">
           </div>
-          <div id="pearl-03" class="pearl-03-INACTIVE rotate">
+          <div id="pearl-03" class="pearl pearl-03-INACTIVE rotate">
           </div>
-          <div id="pearl-02" class="pearl-02-INACTIVE rotate-slower">
+          <div id="pearl-02" class="pearl pearl-02-INACTIVE rotate-slower">
           </div>
-          <div id="pearl-01" class="pearl-01-INACTIVE rotate-slower">
+          <div id="pearl-01" class="pearl pearl-01-INACTIVE rotate-slower">
           </div>
         </div>
     </section>
