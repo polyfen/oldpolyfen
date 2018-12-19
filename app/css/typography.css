@@ -246,4 +246,27 @@ p a:hover {
 
 }
 
+/* XXL devices (desktops, 13") */
+@media (min-width: 1440px) {
+
+}
+
+/* XXXL devices (desktops, 15") */
+@media (min-width: 1680px) {
+
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 52px;
+    margin-bottom: 12px;
+  }
+
+  h3 {
+    font-size: 44px;
+  }
+
+}
+
 /*---------- TYPOGRAPHY end------------*/

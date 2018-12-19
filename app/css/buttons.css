@@ -139,7 +139,6 @@ div#contact-form button#go-back:hover {
   }
 
   div.desktop-card-navigation-wrapper {
-    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
     position: absolute;
     right: 0;
     width: 100px;
@@ -147,17 +146,22 @@ div#contact-form button#go-back:hover {
     height: 424px;
     z-index: 1;
     cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
   }
 
   div.desktop-card-navigation-button {
     width: 70px;
-    margin-left: 30px;
-    height: 100%;
-    background: #474797 /* #blueberry */;
+    margin-left: 40px;
+    height: 100px;
+    background: #474797;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 100px 0 0 100px;
+    box-shadow: 0 0 10px 2px black;
   }
 
   div.desktop-card-navigation-wrapper:hover div.desktop-card-navigation-button {
@@ -167,6 +171,7 @@ div#contact-form button#go-back:hover {
   div.desktop-card-navigation-button i.fa-angle-right {
     color: rgba(25, 25, 71, 0.7);
     font-size: 2.5rem;
+    margin-left: 5px;
   }
 
 }
@@ -183,6 +188,32 @@ div#contact-form button#go-back:hover {
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
+
+  a.secondary-button {
+    width: 212px;
+    margin: 24px 0 0 -1px;
+    border-radius: 27px;
+    text-align: center;
+    display: block;
+    border: none;
+    color: #FFFFFF !important;
+    background: #7800FF;
+    padding: 7px 0;
+    -webkit-transition: all 0.3s; /* Safari */
+    transition: all 0.3s;
+  }
+
+  a.secondary-button:hover {
+    color: #FFFFFF !important;
+    background: #7800FF;
+    box-shadow: 0 0 10px #BA00FF;
+    border:none;
+  }
+
+  div.desktop-card-navigation-wrapper {
+    margin-top: -485px;
+    height: 485px;
+  }
 
 }
 
