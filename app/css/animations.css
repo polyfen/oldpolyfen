@@ -8,12 +8,12 @@ section#cover div.background div.pearl {
   transition: all 1s;
 }
 
-section#cover div.background div#pearl-01 {
+section#cover div.background div#pearl-01, section#call-to-action div.background div#pearl-07, section#call-to-action div.background div#pearl-09 {
   background-image: url('../../imgs/cover/pearl-01.png');
   transform: rotate(0deg);
 }
 
-section#cover div.background div#pearl-02 {
+section#cover div.background div#pearl-02, section#call-to-action div.background div#pearl-08 {
   background-image: url('../../imgs/cover/pearl-03-17-b.png');
 }
 
@@ -26,7 +26,7 @@ section#cover div.background div#pearl-04 {
   background-image: url('../../imgs/cover/pearl-01.png');
 }
 
-section#cover div.background div#pearl-05 {
+section#cover div.background div#pearl-05, section#call-to-action div.background div#pearl-10 {
   background-image: url('../../imgs/cover/pearl-03-17-c.png');
 }
 
@@ -125,7 +125,7 @@ section#cover div.background div#pearl-06 {
 /* XXXL devices (desktops, 15") */
 @media (min-width: 1680px) {
 
-  /*--- PEARLS start ---*/
+  /*--- COVER PEARLS start ---*/
 
       section#cover div.background div#pearl-01 {
         height: 700px;
@@ -216,8 +216,38 @@ section#cover div.background div#pearl-06 {
             top: 320px;
             left: 640px;
           }
+  /*--- COVER PEARLS end ---*/
 
-  /*--- PEARLS end ---*/
+  /*--- CTA PEARLS start ---*/
+      section#call-to-action div.background div#pearl-07 {
+        height: 700px;
+        width: 700px;
+        bottom: 60px;
+        left: -240px;
+      }
+
+      section#call-to-action div.background div#pearl-08 {
+        height: 850px;
+        width: 850px;
+        bottom: 220px;
+        left: 150px;
+      }
+
+      section#call-to-action div.background div#pearl-09 {
+        height: 650px;
+        width: 650px;
+        bottom: 295px;
+        left: 800px;
+      }
+
+      section#call-to-action div.background div#pearl-10 {
+        height: 380px;
+        width: 380px;
+        bottom: 208px;
+        left: 1200px;
+      }
+
+  /*--- CTA PEARLS end ---*/
 
 }
 

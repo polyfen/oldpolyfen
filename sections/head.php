@@ -92,7 +92,6 @@
           $("#pearl-04").removeClass("pearl-04-INACTIVE").addClass("pearl-04-ACTIVE");
           $("#pearl-05").removeClass("pearl-05-INACTIVE").addClass("pearl-05-ACTIVE");
           $("#pearl-06").removeClass("pearl-06-INACTIVE").addClass("pearl-06-ACTIVE");
-          $("#pearl-07").removeClass("pearl-07-INACTIVE").addClass("pearl-07-ACTIVE");
       }
 
       if (scroll <= 0) {
@@ -102,7 +101,6 @@
           $("#pearl-04").removeClass("pearl-04-ACTIVE").addClass("pearl-04-INACTIVE");
           $("#pearl-05").removeClass("pearl-05-ACTIVE").addClass("pearl-05-INACTIVE");
           $("#pearl-06").removeClass("pearl-06-ACTIVE").addClass("pearl-06-INACTIVE");
-          $("#pearl-07").removeClass("pearl-07-ACTIVE").addClass("pearl-07-INACTIVE");
       }
 
       if (scroll >= 20) {

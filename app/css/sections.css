@@ -33,7 +33,7 @@ section#cover {
       left: 0;
       opacity: 0.85;
     }
-        
+
     section#cover div.curve {
       background-image: url('../../imgs/cover/curve.png');
       background-repeat: no-repeat;
@@ -295,79 +295,6 @@ section#call-to-action {
       top: 0;
       left: 0;
       opacity: 1;
-    }
-
-    section#call-to-action div.background div#pearl-07 {
-      background-image: url('../../imgs/cover/pearl-01.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 700px;
-      width: 700px;
-      position: absolute;
-      transform: rotate(0deg);
-      bottom: 60px;
-      left: 50px;
-      display: none;
-    }
-
-    section#call-to-action div.background div#pearl-08 {
-      background-image: url('../../imgs/cover/pearl-03-17-b.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 750px;
-      width: 750px;
-      position: absolute;
-      left: -230px;
-      bottom: -160px;
-    }
-
-    section#call-to-action div.background div#pearl-09 {
-      background-image: url('../../imgs/cover/pearl-03.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 700px;
-      width: 700px;
-      position: absolute;
-      animation: turn 1s linear;
-      left: -320px;
-      bottom: 50px;
-      display: none;
-    }
-
-    section#call-to-action div.background div#pearl-10 {
-      background-image: url('../../imgs/cover/pearl-01.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 650px;
-      width: 650px;
-      position: absolute;
-      left: 800px;
-      bottom: 295px;
-      display: none;
-    }
-
-    section#call-to-action div.background div#pearl-11 {
-      background-image: url('../../imgs/cover/pearl-03-17-c.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 380px;
-      width: 380px;
-      position: absolute;
-      right: 20px;
-      bottom: 208px;
-      display: none;
-    }
-
-    section#call-to-action div.background div#pearl-12 {
-      background-image: url('../../imgs/cover/pearl-13.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 600px;
-      width: 600px;
-      position: absolute;
-      left: 1016px;
-      bottom: 312px;
-      display: none;
     }
 
 /*---------- CTA end ------------*/
