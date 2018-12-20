@@ -501,6 +501,14 @@
         bottom: 260px;
         left: 700px;
       }
+
+      section#call-to-action div.background div#pearl-10 {
+        height: 380px;
+        width: 380px;
+        bottom: 300px;
+        left: 1200px;
+        display: block;
+      }
   /*--- CTA PEARLS end ---*/
 
 }
@@ -614,11 +622,7 @@
       }
 
       section#call-to-action div.background div#pearl-10 {
-        height: 380px;
-        width: 380px;
-        bottom: 300px;
-        left: 1280px;
-        display: block;
+        left: 1320px;
       }
   /*--- CTA PEARLS end ---*/
 
