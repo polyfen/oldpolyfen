@@ -533,7 +533,7 @@
 
           .pearl-02-INACTIVE {
             top: 70px;
-            left: 110px;
+            left: 120px;
           }
 
           .pearl-02-ACTIVE {
@@ -559,7 +559,7 @@
 
           .pearl-04-INACTIVE {
             top: 140px;
-            left: 680px;
+            left: 720px;
           }
 
           .pearl-04-ACTIVE {
@@ -574,8 +574,8 @@
       }
 
           .pearl-05-INACTIVE {
-            top: 280px;
-            left: 1320px;
+            top: 310px;
+            left: 1270px;
           }
 
           .pearl-05-ACTIVE {
@@ -588,7 +588,7 @@
 
           .pearl-06-INACTIVE {
             top: 280px;
-            left: 720px;
+            left: 730px;
           }
 
           .pearl-06-ACTIVE {
@@ -617,11 +617,11 @@
         height: 380px;
         width: 380px;
         bottom: 300px;
-        left: 1250px;
+        left: 1280px;
         display: block;
       }
   /*--- CTA PEARLS end ---*/
-  
+
 }
 
 /*---------- [MEDIA QUERIES] end ------------*/
