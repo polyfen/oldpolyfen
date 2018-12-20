@@ -197,7 +197,7 @@ section#services div.service-card {
       content: '';
       height: 7px;
       width: 7px;
-      margin: 0 9px 3px -25px;
+      margin: 0 8px 3px -25px;
       border-radius: 10px;
       display: inline-block;
       background:  #7800FF;
