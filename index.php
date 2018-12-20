@@ -205,7 +205,7 @@
             <span class="sr-only">Loading...</span>
           </button>
         </form>
-        <button id="go-back" onclick="document.getElementById('cta-content').className='col c-block';document.getElementById('contact-form').className='col d-none';">
+        <button id="go-back" onclick="document.getElementById('cta-content').className='col c-block';document.getElementById('contact-form').className='col d-none';document.getElementById('call-to-action').className='';">
           <i class="fa fa-chevron-left"></i> Back
         </button>
       </div>

@@ -484,7 +484,7 @@ section#call-to-action {
       }
 
       section#call-to-action.active-call-to-action div#contact-form {
-        margin: 0 auto ;
+        margin: -12px auto 0;
       }
   /*--- CTA end ---*/
 }
@@ -532,6 +532,10 @@ section#call-to-action {
   /*--- CTA start ---*/
     section#call-to-action, section#call-to-action.active-call-to-action {
       height: 570px !important;
+    }
+
+    section#call-to-action.active-call-to-action div#contact-form {
+      margin: 0 auto;
     }
 
     section#call-to-action div.curve {
@@ -623,6 +627,12 @@ section#call-to-action {
         margin-top: -74px;
       }
   /*--- ABOUT end ---*/
+
+  /*--- CTA start ---*/
+    section#call-to-action.active-call-to-action div#contact-form {
+      margin: 25px auto 0;
+    }
+  /*--- CTA end ---*/
 }
 
 /* XXL devices (desktops, 13") */
@@ -722,7 +732,11 @@ section#call-to-action {
       section#call-to-action h2 {
         max-width: 540px;
       }
-  /*--- CTA end ---*/
+
+      section#call-to-action.active-call-to-action div#contact-form {
+        margin: 0 auto;
+      }
+      /*--- CTA end ---*/
 
 }
 
