@@ -3,7 +3,7 @@
 a.primary-button, div#contact-form button {
   background: #7800FF /* #indigo */;
   border-radius: 100px;
-  padding: 11px 22px 12px;
+  padding: 12px 22px 11px;
   width: 100%;
   max-width: 300px;
   margin: 0;
@@ -195,7 +195,7 @@ div#contact-form button#go-back:hover {
 
   a.secondary-button {
     width: 212px;
-    margin: 24px 0 0 -1px;
+    margin: 22px 0 0 -1px;
     border-radius: 27px;
     text-align: center;
     display: block;
