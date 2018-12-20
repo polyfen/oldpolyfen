@@ -195,11 +195,11 @@ section#services div.service-card {
 
     section#services div.service-card ul li:before {
       content: '';
-      height: 10px;
-      width: 10px;
+      height: 7px;
+      width: 7px;
+      margin: 0 9px 3px -25px;
       border-radius: 10px;
       display: inline-block;
-      margin: 0 9px 3px -25px;
       background:  #7800FF;
       opacity: 0.9;
     }
@@ -428,6 +428,12 @@ section#call-to-action {
           width: calc(100% + 50px);
           margin: -210px -25px 20px;
       }
+
+      section#services div.service-card ul li:before {
+        height: 8px;
+        width: 8px;
+        margin: 0 9px 3.5px -25px;
+      }
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
@@ -576,6 +582,12 @@ section#call-to-action {
       section#services div.service-card {
           height: 485px;
           width: 385px;
+      }
+
+      section#services div.service-card ul li:before {
+        height: 10px;
+        width: 10px;
+        margin: 0 9px 3px -25px;
       }
   /*--- SERVICES end ---*/
 
