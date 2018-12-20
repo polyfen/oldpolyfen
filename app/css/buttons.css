@@ -1,7 +1,7 @@
 /*---------- BUTTONS start -----------*/
 
 a.primary-button, div#contact-form button {
-  background: #7800FF /* #indigo-minus-1 */;
+  background: #7800FF /* #indigo */;
   border-radius: 100px;
   padding: 11px 22px 12px;
   width: 100%;
@@ -110,6 +110,10 @@ div#contact-form button#go-back:hover {
 
 /* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
+
+  a.primary-button {
+    box-shadow: 0 0 10px #BA00FF;
+  }
 
   a.secondary-button {
     box-shadow: none;

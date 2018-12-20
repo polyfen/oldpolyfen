@@ -1,84 +1,157 @@
 /*------------------- ANIMATIONS start---------------------*/
 
-section#cover div.background div.pearl {
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  -webkit-transition: all 1s; /* Safari */
-  transition: all 1s;
-}
+/*--- COVER PEARLS start ---*/
 
-section#cover div.background div#pearl-01, section#call-to-action div.background div#pearl-07, section#call-to-action div.background div#pearl-09 {
-  background-image: url('../../imgs/cover/pearl-01.png');
-  transform: rotate(0deg);
-}
+    div.background div.pearl {
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      -webkit-transition: all 1s; /* Safari */
+      transition: all 1s;
+    }
 
-section#cover div.background div#pearl-02, section#call-to-action div.background div#pearl-08 {
-  background-image: url('../../imgs/cover/pearl-03-17-b.png');
-}
+    section#cover div.background div#pearl-01, section#call-to-action div.background div#pearl-07, section#call-to-action div.background div#pearl-09 {
+      background-image: url('../../imgs/cover/pearl-01.png');
+      transform: rotate(0deg);
+    }
 
-section#cover div.background div#pearl-03 {
-  background-image: url('../../imgs/cover/pearl-03.png');
-  animation:turn 1s linear;
-}
+    section#cover div.background div#pearl-02, section#call-to-action div.background div#pearl-08 {
+      background-image: url('../../imgs/cover/pearl-03-17-b.png');
+    }
 
-section#cover div.background div#pearl-04 {
-  background-image: url('../../imgs/cover/pearl-01.png');
-}
+    section#cover div.background div#pearl-03 {
+      background-image: url('../../imgs/cover/pearl-03.png');
+      animation:turn 1s linear;
+    }
 
-section#cover div.background div#pearl-05, section#call-to-action div.background div#pearl-10 {
-  background-image: url('../../imgs/cover/pearl-03-17-c.png');
-}
+    section#cover div.background div#pearl-04 {
+      background-image: url('../../imgs/cover/pearl-01.png');
+    }
 
-section#cover div.background div#pearl-06 {
-  background-image: url('../../imgs/cover/pearl-13.png');
-}
+    section#cover div.background div#pearl-05, section#call-to-action div.background div#pearl-10 {
+      background-image: url('../../imgs/cover/pearl-03-17-c.png');
+    }
 
-@-webkit-keyframes rotating /* Safari and Chrome */ {
-  from {
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
+    section#cover div.background div#pearl-06 {
+      background-image: url('../../imgs/cover/pearl-13.png');
+    }
 
-@keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
+    @-webkit-keyframes rotating /* Safari and Chrome */ {
+      from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
 
-.rotate {
-  -webkit-animation: rotating 545s linear infinite !important;
-  -moz-animation: rotating 45s linear infinite !important;
-  -ms-animation: rotating 45s linear infinite !important;
-  -o-animation: rotating 45s linear infinite !important;
-  animation: rotating 45s linear infinite !important;
-}
+    @keyframes rotating {
+      from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
 
-.rotate-slower {
-  -webkit-animation: rotating 70s linear infinite !important;
-  -moz-animation: rotating 70s linear infinite !important;
-  -ms-animation: rotating 70s linear infinite !important;
-  -o-animation: rotating 70s linear infinite !important;
-  animation: rotating 70s linear infinite !important;
-}
+    .rotate {
+      -webkit-animation: rotating 545s linear infinite !important;
+      -moz-animation: rotating 45s linear infinite !important;
+      -ms-animation: rotating 45s linear infinite !important;
+      -o-animation: rotating 45s linear infinite !important;
+      animation: rotating 45s linear infinite !important;
+    }
+
+    .rotate-slower {
+      -webkit-animation: rotating 70s linear infinite !important;
+      -moz-animation: rotating 70s linear infinite !important;
+      -ms-animation: rotating 70s linear infinite !important;
+      -o-animation: rotating 70s linear infinite !important;
+      animation: rotating 70s linear infinite !important;
+    }
+
+    section#cover div.background div#pearl-01 {
+      display: none;
+    }
+
+    section#cover div.background div#pearl-02 {
+      height: 850px;
+      width: 850px;
+    }
+
+        .pearl-02-INACTIVE {
+          top: -130px;
+          left: 110px;
+        }
+
+        .pearl-02-ACTIVE {
+          top: 40px;
+          left: 15px;
+        }
+
+    section#cover div.background div#pearl-03 {
+      height: 700px;
+      width: 700px;
+    }
+
+        .pearl-03-INACTIVE {
+          top: 90px;
+          left: -330px;
+        }
+
+        .pearl-03-ACTIVE {
+          top: 140px;
+          left: -300px;
+        }
+
+    section#cover div.background div#pearl-04 {
+      display: none;
+    }
+
+    section#cover div.background div#pearl-05 {
+      display: none;
+    }
+
+    section#cover div.background div#pearl-06 {
+      display: none;
+    }
+/*--- COVER PEARLS end ---*/
+
+/*--- CTA PEARLS start ---*/
+    section#call-to-action div.background div#pearl-07 {
+      height: 700px;
+      width: 700px;
+      bottom: 100px;
+      left: -450px;
+    }
+
+    section#call-to-action div.background div#pearl-08 {
+      height: 850px;
+      width: 850px;
+      bottom: 10px;
+      left: -70px;
+    }
+
+    section#call-to-action div.background div#pearl-09 {
+      display: none;
+    }
+
+    section#call-to-action div.background div#pearl-10 {
+      display: none;
+    }
+/*--- CTA PEARLS end ---*/
 
 /*---------- [MEDIA QUERIES] start ------------*/
 
@@ -88,57 +161,20 @@ section#cover div.background div#pearl-06 {
 /* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
 
-    /*--- COVER start ---*/
-    /*--- CTA end ---*/
-
-}
-
-/* Medium devices (Tablet Portrait / Mobile Landscape) */
-@media (min-width: 768px) {
-
-
-  /*--- GENERAL start ---*/
-  /*--- CTA end ---*/
-}
-
-/* Large devices (Tanblet Landscape) */
-@media (min-width: 992px) {
-
-  /*--- COVER start ---*/
-  /*--- CTA end ---*/
-
-}
-
-/* Extra-Large devices (desktops, less than 1200px) */
-@media (min-width: 1200px) {
-
-  /*--- COVER start ---*/
-  /*--- ABOUT end ---*/
-}
-
-/* XXL devices (desktops, 13") */
-@media (min-width: 1440px) {
-
-
-}
-
-/* XXXL devices (desktops, 15") */
-@media (min-width: 1680px) {
-
   /*--- COVER PEARLS start ---*/
-
       section#cover div.background div#pearl-01 {
         height: 700px;
         width: 700px;
+        display: block;
       }
 
           .pearl-01-INACTIVE {
-            top: 350px;
-            left: -400px;
+            top: 250px;
+            left: -300px;
           }
 
           .pearl-01-ACTIVE {
-            top: 400px;
+            top: 300px;
             left: -300px;
           }
 
@@ -148,18 +184,266 @@ section#cover div.background div#pearl-06 {
       }
 
           .pearl-02-INACTIVE {
-            top: 70px;
-            left: 110px;
+            top: -80px;
+            left: 140px;
           }
 
           .pearl-02-ACTIVE {
-            top: 170px;
-            left: 120px;
+            top: 140px;
+            left: 15px;
           }
 
       section#cover div.background div#pearl-03 {
         height: 700px;
         width: 700px;
+      }
+
+          .pearl-03-INACTIVE {
+            top: 105px;
+            left: -330px;
+          }
+
+          .pearl-03-ACTIVE {
+            top: 140px;
+            left: -290px;
+          }
+
+      section#cover div.background div#pearl-04 {
+        display: none;
+      }
+
+      section#cover div.background div#pearl-05 {
+        display: none;
+      }
+
+      section#cover div.background div#pearl-06 {
+        display: none;
+      }
+  /*--- COVER PEARLS end ---*/
+
+  /*--- CTA PEARLS start ---*/
+      section#call-to-action div.background div#pearl-07 {
+        height: 700px;
+        width: 700px;
+        bottom: 120px;
+        left: -420px;
+      }
+
+      section#call-to-action div.background div#pearl-08 {
+        height: 850px;
+        width: 850px;
+        bottom: 190px;
+        left: -90px;
+      }
+
+      section#call-to-action div.background div#pearl-09 {
+        height: 650px;
+        width: 650px;
+        bottom: 10px;
+        left: 290px;
+        display: block;
+      }
+
+      section#call-to-action div.background div#pearl-10 {
+        display: none;
+      }
+  /*--- CTA PEARLS end ---*/
+
+}
+
+/* Medium devices (Tablet Portrait / Mobile Landscape) */
+@media (min-width: 768px) {
+
+  /*--- COVER PEARLS start ---*/
+      section#cover div.background div#pearl-01 {
+      }
+
+          .pearl-01-INACTIVE {
+            top: 270px;
+            left: -340px;
+          }
+
+          .pearl-01-ACTIVE {
+            top: 300px;
+            left: -300px;
+          }
+
+      section#cover div.background div#pearl-02 {
+      }
+
+          .pearl-02-INACTIVE {
+            top: 75px;
+            left: 80px;
+          }
+
+          .pearl-02-ACTIVE {
+            top: 140px;
+            left: 15px;
+          }
+
+      section#cover div.background div#pearl-03 {
+      }
+
+          .pearl-03-INACTIVE {
+            top: 100px;
+            left: -300px;
+          }
+
+          .pearl-03-ACTIVE {
+            top: 180px;
+            left: -290px;
+          }
+
+      section#cover div.background div#pearl-04 {
+        display: none;
+      }
+
+      section#cover div.background div#pearl-05 {
+        display: none;
+      }
+
+      section#cover div.background div#pearl-06 {
+        display: none;
+      }
+  /*--- COVER PEARLS end ---*/
+
+  /*--- CTA PEARLS start ---*/
+      section#call-to-action div.background div#pearl-07 {
+        bottom: 120px;
+        left: -420px;
+      }
+
+      section#call-to-action div.background div#pearl-08 {
+        bottom: 200px;
+        left: -80px;
+      }
+
+      section#call-to-action div.background div#pearl-09 {
+        bottom: 200px;
+        left: 460px;
+      }
+
+      section#call-to-action div.background div#pearl-10 {
+        display: none;
+      }
+  /*--- CTA PEARLS end ---*/
+
+}
+
+/* Large devices (Tanblet Landscape) */
+@media (min-width: 992px) {
+
+  /*--- COVER PEARLS start ---*/
+      section#cover div.background div#pearl-01 {
+      }
+
+          .pearl-01-INACTIVE {
+            top: 270px;
+            left: -340px;
+          }
+
+          .pearl-01-ACTIVE {
+            top: 330px;
+            left: -300px;
+          }
+
+      section#cover div.background div#pearl-02 {
+      }
+
+          .pearl-02-INACTIVE {
+            top: 75px;
+            left: 80px;
+          }
+
+          .pearl-02-ACTIVE {
+            top: 140px;
+            left: 15px;
+          }
+
+      section#cover div.background div#pearl-03 {
+      }
+
+          .pearl-03-INACTIVE {
+            top: 100px;
+            left: -300px;
+          }
+
+          .pearl-03-ACTIVE {
+            top: 180px;
+            left: -290px;
+          }
+
+      section#cover div.background div#pearl-04 {
+        height: 650px;
+        width: 650px;
+        display: block;
+      }
+
+          .pearl-04-INACTIVE {
+            top: 195px;
+            left: 620px;
+          }
+
+          .pearl-04-ACTIVE {
+            top: 240px;
+            left: 400px;
+          }
+  /*--- COVER PEARLS end ---*/
+
+  /*--- CTA PEARLS start ---*/
+      section#call-to-action div.background div#pearl-07 {
+        bottom: 130px;
+        left: -380px;
+      }
+
+      section#call-to-action div.background div#pearl-08 {
+        bottom: 240px;
+        left: 20px;
+      }
+
+      section#call-to-action div.background div#pearl-09 {
+        bottom: 260px;
+        left: 630px;
+      }
+
+      section#call-to-action div.background div#pearl-10 {
+        display: none;
+      }
+  /*--- CTA PEARLS end ---*/
+
+}
+
+/* Extra-Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) {
+
+  /*--- COVER PEARLS start ---*/
+      section#cover div.background div#pearl-01 {
+      }
+
+          .pearl-01-INACTIVE {
+            top: 270px;
+            left: -370px;
+          }
+
+          .pearl-01-ACTIVE {
+            top: 400px;
+            left: -300px;
+          }
+
+      section#cover div.background div#pearl-02 {
+      }
+
+          .pearl-02-INACTIVE {
+            top: 75px;
+            left: 110px;
+          }
+
+          .pearl-02-ACTIVE {
+            top: 140px;
+            left: 70px;
+          }
+
+      section#cover div.background div#pearl-03 {
       }
 
           .pearl-03-INACTIVE {
@@ -173,8 +457,104 @@ section#cover div.background div#pearl-06 {
           }
 
       section#cover div.background div#pearl-04 {
-        height: 650px;
-        width: 650px;
+      }
+
+          .pearl-04-INACTIVE {
+            top: 175px;
+            left: 580px;
+          }
+
+          .pearl-04-ACTIVE {
+            top: 240px;
+            left: 600px;
+          }
+
+      section#cover div.background div#pearl-06 {
+        height: 900px;
+        width: 900px;
+        display: block;
+      }
+
+          .pearl-06-INACTIVE {
+            top: 300px;
+            left: 650px;
+          }
+
+          .pearl-06-ACTIVE {
+            top: 380px;
+            left: 500px;
+          }
+  /*--- COVER PEARLS end ---*/
+
+  /*--- CTA PEARLS start ---*/
+      section#call-to-action div.background div#pearl-07 {
+        bottom: 130px;
+        left: -300px;
+      }
+
+      section#call-to-action div.background div#pearl-08 {
+        bottom: 240px;
+        left: 130px;
+      }
+
+      section#call-to-action div.background div#pearl-09 {
+        bottom: 260px;
+        left: 700px;
+      }
+  /*--- CTA PEARLS end ---*/
+
+}
+
+/* XXL devices (desktops, 13") */
+@media (min-width: 1440px) {
+
+
+}
+
+/* XXXL devices (desktops, 15") */
+@media (min-width: 1680px) {
+
+  /*--- COVER PEARLS start ---*/
+      section#cover div.background div#pearl-01 {
+      }
+
+          .pearl-01-INACTIVE {
+            top: 350px;
+            left: -400px;
+          }
+
+          .pearl-01-ACTIVE {
+            top: 400px;
+            left: -300px;
+          }
+
+      section#cover div.background div#pearl-02 {
+      }
+
+          .pearl-02-INACTIVE {
+            top: 70px;
+            left: 110px;
+          }
+
+          .pearl-02-ACTIVE {
+            top: 170px;
+            left: 120px;
+          }
+
+      section#cover div.background div#pearl-03 {
+      }
+
+          .pearl-03-INACTIVE {
+            top: 90px;
+            left: -290px;
+          }
+
+          .pearl-03-ACTIVE {
+            top: 180px;
+            left: -290px;
+          }
+
+      section#cover div.background div#pearl-04 {
       }
 
           .pearl-04-INACTIVE {
@@ -190,6 +570,7 @@ section#cover div.background div#pearl-06 {
       section#cover div.background div#pearl-05 {
         height: 380px;
         width: 380px;
+        display: block;
       }
 
           .pearl-05-INACTIVE {
@@ -203,13 +584,11 @@ section#cover div.background div#pearl-06 {
           }
 
       section#cover div.background div#pearl-06 {
-        height: 900px;
-        width: 900px;
       }
 
           .pearl-06-INACTIVE {
             top: 280px;
-            left: 780px;
+            left: 720px;
           }
 
           .pearl-06-ACTIVE {
@@ -220,22 +599,16 @@ section#cover div.background div#pearl-06 {
 
   /*--- CTA PEARLS start ---*/
       section#call-to-action div.background div#pearl-07 {
-        height: 700px;
-        width: 700px;
         bottom: 60px;
         left: -240px;
       }
 
       section#call-to-action div.background div#pearl-08 {
-        height: 850px;
-        width: 850px;
         bottom: 220px;
         left: 150px;
       }
 
       section#call-to-action div.background div#pearl-09 {
-        height: 650px;
-        width: 650px;
         bottom: 295px;
         left: 800px;
       }
@@ -243,14 +616,13 @@ section#cover div.background div#pearl-06 {
       section#call-to-action div.background div#pearl-10 {
         height: 380px;
         width: 380px;
-        bottom: 208px;
-        left: 1200px;
+        bottom: 300px;
+        left: 1250px;
+        display: block;
       }
-
   /*--- CTA PEARLS end ---*/
-
+  
 }
-
 
 /*---------- [MEDIA QUERIES] end ------------*/
 
