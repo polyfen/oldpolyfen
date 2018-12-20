@@ -190,7 +190,7 @@
 
       <div id="cta-content">
         <h2>Give your business the brand it deserves</h2>
-        <a class="button primary-button" onclick="document.getElementById('contact-form').className='col c-block';document.getElementById('cta-content').className='col d-none';document.getElementById('name-input').focus(); return false;">Contact us</a>
+        <a class="button primary-button" onclick="document.getElementById('contact-form').className='col c-block';document.getElementById('call-to-action').className='active-call-to-action';document.getElementById('cta-content').className='col d-none';document.getElementById('name-input').focus(); return false;">Contact us</a>
       </div>
 
       <div class="d-none" id="contact-form">

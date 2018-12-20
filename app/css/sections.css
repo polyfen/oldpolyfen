@@ -246,6 +246,19 @@ section#call-to-action {
   overflow: hidden;
 }
 
+    section#call-to-action.active-call-to-action {
+      height: 500px !important;
+      padding: 40px 0;
+    }
+
+    section#call-to-action.active-call-to-action div.curve {
+      bottom: 240px;
+    }
+
+    section#call-to-action.active-call-to-action div#contact-form {
+      margin: 35px auto 0;
+    }
+
     section#call-to-action div#cta-content {
       margin-top: 80px;
       z-index: 2;
@@ -266,7 +279,7 @@ section#call-to-action {
       text-align: center;
       max-width: 500px;
       margin: 0 auto;
-      z-index: 1;
+      z-index: 2;
     }
 
     section#call-to-action div.curve {
@@ -469,6 +482,10 @@ section#call-to-action {
       section#case-studies section.case-project div.project-description {
         padding: 12px 0px 0px 28px;
       }
+
+      section#call-to-action.active-call-to-action div#contact-form {
+        margin: 0 auto ;
+      }
   /*--- CTA end ---*/
 }
 
@@ -513,12 +530,12 @@ section#call-to-action {
   /*--- ABOUT end ---*/
 
   /*--- CTA start ---*/
-    section#call-to-action {
-      height: 570px;
+    section#call-to-action, section#call-to-action.active-call-to-action {
+      height: 570px !important;
     }
 
     section#call-to-action div.curve {
-      bottom: 310px;
+      bottom: 310px !important;
     }
 
     section#call-to-action div#cta-content {
