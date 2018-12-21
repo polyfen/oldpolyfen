@@ -86,6 +86,9 @@
                 </ul>
               </div>
 
+              <div class="separator">
+              </div>
+
               <div class="service-card">
                 <img src="imgs/services/brand-strategy-circle.svg" class="d-none d-xl-block">
                 <div id="brand-strategy" class="service-heading">
@@ -101,6 +104,9 @@
                   <li>Key Messages</li>
                   <li>Slogan</li>
                 </ul>
+              </div>
+
+              <div class="separator">
               </div>
 
               <div class="service-card">
@@ -142,6 +148,9 @@
                 </p>
               </div>
 
+              <div class="separator">
+              </div>
+
               <div class="service-card">
                 <img src="imgs/services/brand-touchpoints-circle.svg" class="d-none d-xl-block">
                 <div id="brand-touchpoints" class="service-heading">
@@ -156,6 +165,9 @@
                   <li>Invoice</li>
                   <li>Presentation slides</li>
                 </ul>
+              </div>
+
+              <div class="separator">
               </div>
 
               <div class="service-card">

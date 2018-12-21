@@ -657,8 +657,17 @@ section#call-to-action {
         max-width: 380px;
       }
 
+      section#services div.separator {
+        background: rgba(25, 25, 71, 0.02);
+        width: 3px;
+        margin: 100px 0px;
+        height: 300px;
+        display: block;
+        float: left;
+      }
+
       section#services div.horizontal-separator {
-        background: rgba(25, 25, 71, 0.04);
+        background: rgba(25, 25, 71, 0.03);
         width: calc(33% - 94px);
         margin: 0 40px;
         height: 3px;
