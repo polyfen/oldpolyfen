@@ -18,13 +18,13 @@ section#cover {
     section#cover h1 {
       position: absolute;
       max-width: 450px;
-      z-index: 1;
+      z-index: 2;
       top: 175px;
     }
 
     section#cover div.background {
       background-image: url('../../imgs/cover/backdrop.jpg');
-      background-size: auto;
+      background-size: cover;
       background-attachment: fixed;
       position: absolute;
       width: 100%;
@@ -37,17 +37,14 @@ section#cover {
     section#cover div.curve {
       background-image: url('../../imgs/cover/curve.png');
       background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom;
       width: 100%;
       height: 320px;
-      top: 110px;
+      top: 50px;
       left: 0;
       z-index: 1;
       position: absolute;
-      -moz-transform: scale(-1, 1);
-      -webkit-transform: scale(-1, 1);
-      -o-transform: scale(-1, 1);
-      -ms-transform: scale(-1, 1);
-      transform: scale(-1, 1);
     }
 
 /*---------- COVER end ------------*/
@@ -303,10 +300,12 @@ section#call-to-action {
 
     section#call-to-action div.curve {
       background-image: url('../../imgs/cover/curve.png');
+      background-size: contain;
       background-repeat: no-repeat;
+      background-position: bottom;
       width: 100%;
       height: 320px;
-      bottom: 145px;
+      bottom: 81px;
       left: 0;
       position: absolute;
       z-index: 1;
@@ -350,7 +349,7 @@ section#call-to-action {
         }
 
         section#cover div.curve {
-          top: 130px;
+          top: 70px;
         }
     /*--- COVER end ---*/
 
@@ -399,9 +398,6 @@ section#call-to-action {
     /*--- ABOUT end ---*/
 
     /*--- CTA start ---*/
-        section#call-to-action div.curve {
-          bottom: 140px;
-        }
     /*--- CTA end ---*/
 
 }
@@ -427,7 +423,7 @@ section#call-to-action {
       }
 
       section#cover div.curve {
-        top: 160px;
+        top: 100px;
       }
   /*--- COVER end ---*/
 
@@ -523,7 +519,7 @@ section#call-to-action {
       }
 
       section#cover div.curve {
-        top: 220px;
+        top: 160px;
       }
   /*--- COVER end ---*/
 
@@ -559,7 +555,7 @@ section#call-to-action {
     }
 
     section#call-to-action div.curve {
-      bottom: 310px !important;
+      bottom: 250px !important;
     }
 
     section#call-to-action div#cta-content {
@@ -583,7 +579,7 @@ section#call-to-action {
       }
 
       section#cover div.curve {
-        top: 260px;
+        top: 200px;
       }
   /*--- COVER end ---*/
 
@@ -708,14 +704,6 @@ section#call-to-action {
 /* XXL devices (desktops, 13") */
 @media (min-width: 1440px) {
 
-  section#cover div.curve {
-    -moz-transform: scale(1, 1);
-    -webkit-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-
 }
 
 /* XXXL devices (desktops, 15") */
@@ -738,7 +726,7 @@ section#call-to-action {
       }
 
       section#cover div.curve {
-        top: 325px;
+        top: 265px;
       }
   /*--- COVER end ---*/
 
