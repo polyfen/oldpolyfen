@@ -57,13 +57,27 @@
             <h2>Our services</h2>
 
             <div id="service-cards-wrapper">
+
+
+              <div style="clear:both;" class="d-none d-xl-block"></div>
+
+              <div class="horizontal-separator">
+              </div>
+
+              <div class="horizontal-separator">
+              </div>
+
+              <div class="horizontal-separator">
+              </div>
+
+              <div style="clear:both;" class="d-none d-xl-block"></div>
+
               <div class="service-card">
-                <div class="service-heading">
-                  <img src="imgs/services/brand-research-icon.svg">
+                <img src="imgs/services/brand-research-circle.svg" class="d-none d-xl-block">
+                <div id="brand-research" class="service-heading">
+                  <img src="imgs/services/brand-research-icon.svg" class="d-xl-none">
+                  <h4><span class="d-none d-xl-inline">1. </span>Brand Research</h4>
                 </div>
-                <div class="service-heading-background">
-                </div>
-                <h4>Brand Research</h4>
                 <ul>
                   <li>Business analysis</li>
                   <li>Competitive analysis</li>
@@ -73,12 +87,11 @@
               </div>
 
               <div class="service-card">
-                <div class="service-heading">
-                  <img src="imgs/services/brand-strategy-icon.svg">
+                <img src="imgs/services/brand-strategy-circle.svg" class="d-none d-xl-block">
+                <div id="brand-strategy" class="service-heading">
+                  <img src="imgs/services/brand-strategy-icon.svg" class="d-xl-none">
+                  <h4><span class="d-none d-xl-inline">2. </span>Brand Strategy</h4>
                 </div>
-                <div class="service-heading-background">
-                </div>
-                <h4>Brand Strategy</h4>
                 <ul>
                   <li>Keywords</li>
                   <li>Creative concept</li>
@@ -91,12 +104,11 @@
               </div>
 
               <div class="service-card">
-                <div class="service-heading">
-                  <img src="imgs/services/visual-identity-icon.svg">
+                <img src="imgs/services/visual-identity-circle.svg" class="d-none d-xl-block">
+                <div id="visual-identity" class="service-heading">
+                  <img src="imgs/services/visual-identity-icon.svg" class="d-xl-none">
+                  <h4><span class="d-none d-xl-inline">3. </span>Visual Identity</h4>
                 </div>
-                <div class="service-heading-background">
-                </div>
-                <h4>Visual Identity</h4>
                 <ul>
                   <li>Visual exploration</li>
                   <li>Logo system</li>
@@ -106,25 +118,36 @@
                 </ul>
               </div>
 
+              <div style="clear:both;" class="d-none d-xl-block"></div>
+
+              <div class="horizontal-separator">
+              </div>
+
+              <div class="horizontal-separator">
+              </div>
+
+              <div class="horizontal-separator">
+              </div>
+
+              <div style="clear:both;" class="d-none d-xl-block"></div>
+
               <div class="service-card">
-                <div class="service-heading">
-                  <img src="imgs/services/brand-guidelines-icon.svg">
+                <img src="imgs/services/brand-guidelines-circle.svg" class="d-none d-xl-block">
+                <div id="brand-guidelines" class="service-heading">
+                  <img src="imgs/services/brand-guidelines-icon.svg" class="d-xl-none">
+                  <h4><span class="d-none d-xl-inline">4. </span>Brand Guidelines</h4>
                 </div>
-                <div class="service-heading-background">
-                </div>
-                <h4>Brand Guidelines</h4>
                 <p>
                   A summary of all the strategic parameters and visual assets that make up your brand identity.
                 </p>
               </div>
 
               <div class="service-card">
-                <div class="service-heading">
-                  <img src="imgs/services/brand-touchpoints-icon.svg">
+                <img src="imgs/services/brand-touchpoints-circle.svg" class="d-none d-xl-block">
+                <div id="brand-touchpoints" class="service-heading">
+                  <img src="imgs/services/brand-touchpoints-icon.svg" class="d-xl-none">
+                  <h4><span class="d-none d-xl-inline">5. </span>Brand Touchpoints</h4>
                 </div>
-                <div class="service-heading-background">
-                </div>
-                <h4>Brand Touchpoints</h4>
                 <ul>
                   <li>Email signature</li>
                   <li>Social media profiles</li>
@@ -136,12 +159,11 @@
               </div>
 
               <div class="service-card">
-                <div class="service-heading">
-                  <img src="imgs/services/web-development-icon.svg">
+                <img src="imgs/services/web-development-circle.svg" class="d-none d-xl-block">
+                <div id="web-development" class="service-heading">
+                  <img src="imgs/services/web-development-icon.svg" class="d-xl-none">
+                  <h4><span class="d-none d-xl-inline">6. </span>Web Development</h4>
                 </div>
-                <div class="service-heading-background">
-                </div>
-                <h4>Web Development</h4>
                 <ul>
                   <li>UX research</li>
                   <li>Content creation</li>
@@ -152,6 +174,19 @@
                 </ul>
               </div>
             </div>
+
+            <div style="clear:both;" class="d-none d-xl-block"></div>
+
+            <div class="horizontal-separator">
+            </div>
+
+            <div class="horizontal-separator">
+            </div>
+
+            <div class="horizontal-separator">
+            </div>
+
+            <div style="clear:both;" class="d-none d-xl-block"></div>
 
             <div style="clear:both;">
             </div>

@@ -59,7 +59,7 @@ h3 /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
 }
 
-h4 {
+h4, h4 span {
   font-size: 21px;
   letter-spacing: 0.3px;
   font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
@@ -234,7 +234,7 @@ p a:hover {
     font-size: 40px;
   }
 
-  h4 {
+  h4, h4 span {
     font-size: 26px;
   }
 

@@ -152,36 +152,55 @@ section#services div.service-card {
     }
 
     section#services div.service-card div.service-heading {
-      height: 180px;
-      width: calc(100% + 40px);
-      margin: -10px -20px 20px;
-      border-radius: 8px 8px 50% 50%;
+      margin: -20px -20px 20px;
+      border-radius: 8px 8px 0 0;
+      padding: 27px 24px 10px;
       display: flex;
       align-items: center;
-      justify-content: center;
+    }
+
+    section#services div.service-card div.service-heading#brand-research {
+      background: rgb(120,0,255);
+      background: linear-gradient(-30deg, rgba(120,0,255,0.35) 30%, rgba(120,0,255,0.9) 100%);
+    }
+
+    section#services div.service-card div.service-heading#brand-strategy {
+      background: rgb(104,42,236);
+      background: linear-gradient(-30deg, rgba(104,42,236,0.35) 30%, rgba(104,42,236,1) 100%);
+    }
+
+    section#services div.service-card div.service-heading#visual-identity {
+      background: rgb(89,84,217);
+      background: linear-gradient(-30deg, rgba(89,84,217,0.35) 30%, rgba(89,84,217,1) 100%);
+    }
+
+    section#services div.service-card div.service-heading#brand-guidelines {
+      background: rgb(73,125,199);
+      background: linear-gradient(-30deg, rgba(73,125,199,0.35) 30%, rgba(73,125,199,1) 100%);
+    }
+
+    section#services div.service-card div.service-heading#brand-touchpoints {
+      background: rgb(58,167,180);
+      background: linear-gradient(-30deg, rgba(58,167,180,0.35) 30%, rgba(58,167,180,1) 100%);
+    }
+
+    section#services div.service-card div.service-heading#web-development {
+      background: rgb(42,209,161);
+      background: linear-gradient(-30deg, rgba(42,209,161,0.35) 30%, rgba(42,209,161,0.85) 100%);
     }
 
     section#services div.service-card div.service-heading img {
-      z-index: 1;
-      opacity: 1;
-      width: 79px;
-      height: auto;
-      margin-top: -72px;
-    }
-
-    section#services div.service-card div.service-heading-background {
-      background: url('../../imgs/cover/pearl-01.png');
-      background-size: 150%;
-      background-position: center center;
-      height: 127px;
-      width: calc(100% + 40px);
-      margin: -210px -20px 20px;
-      border-radius: 8px 8px 50% 50%;
-      opacity: 1;
+      height: 50px;
+      width: 50px;
+      float: left;
+      margin-top: -15px;
+      margin-left: -12px;
+      margin-right: -2px;
     }
 
     section#services div.service-card h4 {
       color: white;
+      margin-top: -1.5px;
     }
 
     section#services div.service-card ul {
@@ -437,9 +456,9 @@ section#call-to-action {
           padding: 20px 25px;
       }
 
-      section#services div.service-card div.service-heading-background {
-          width: calc(100% + 50px);
-          margin: -210px -25px 20px;
+      section#services div.service-card div.service-heading {
+        margin: -20px -25px 20px;
+        padding: 30px 24px 14px;
       }
 
       section#services div.service-card ul li:before {
@@ -600,16 +619,57 @@ section#call-to-action {
   /*--- CASE STUDIES end ---*/
 
   /*--- SERVICES start ---*/
+      section#services div#service-cards-wrapper {
+        width: 100%;
+        padding-top: 40px;
+      }
+
       section#services div.service-card {
-          height: 485px;
-          width: 385px;
+        width: calc(33% - 12px);
+        margin: 0;
+        padding: 40px 40px;
+        background: none;
+        height: 500px;
+      }
+
+      section#services div.service-card div.service-heading {
+        background: none !important;
+        padding: 0;
+        margin: 30px 0 -5px;
+      }
+
+      section#services div.service-card img {
+        height: 90px;
+        width: 90px;
+        margin-top: 0;
+        margin-left: -8px;
+      }
+
+      section#services div.service-card ul li, section#services .service-card p, section#services div.service-card h4, section#services div.service-card h4 span {
+        color: rgba(25, 25, 71, 0.7);
       }
 
       section#services div.service-card ul li:before {
-        height: 10px;
-        width: 10px;
-        margin: 0 9px 3px -25px;
+        background: #36368FBB;
       }
+
+      section#services .service-card p {
+        max-width: 380px;
+      }
+
+      section#services div.horizontal-separator {
+        background: rgba(25, 25, 71, 0.04);
+        width: calc(33% - 94px);
+        margin: 0 40px;
+        height: 3px;
+        display: block;
+        float: left;
+      }
+
+      div.desktop-card-navigation-wrapper, div.desktop-card-navigation-button {
+        display: none;
+      }
+
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
@@ -693,18 +753,6 @@ section#call-to-action {
   /*--- CASE STUDIES end ---*/
 
   /*--- SERVICES start ---*/
-  section#services div.service-card {
-    height: 495px;
-  }
-
-  section#services div.service-card div.service-heading-background {
-    height: 150px;
-    margin: -210px -25px 26px;
-  }
-
-  section#services div.service-card div.service-heading img {
-    margin-top: -52px;
-  }
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
