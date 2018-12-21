@@ -261,13 +261,13 @@
       </div>
 
       <div class="background">
-        <div id="pearl-10" class="pearl rotate">
+        <div id="pearl-10" class="pearl pearl-10-INACTIVE rotate">
         </div>
-        <div id="pearl-09" class="pearl rotate">
+        <div id="pearl-09" class="pearl pearl-09-INACTIVE rotate">
         </div>
-        <div id="pearl-08" class="pearl rotate-slower">
+        <div id="pearl-08" class="pearl pearl-08-INACTIVE rotate-slower">
         </div>
-        <div id="pearl-07" class="pearl rotate">
+        <div id="pearl-07" class="pearl pearl-07-INACTIVE rotate">
         </div>
       </div>
 

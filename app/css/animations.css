@@ -133,16 +133,32 @@
     section#call-to-action div.background div#pearl-07 {
       height: 700px;
       width: 700px;
-      bottom: 100px;
-      left: -450px;
     }
+
+        .pearl-07-INACTIVE {
+          bottom: 180px;
+          left: -500px;
+        }
+
+        .pearl-07-ACTIVE {
+          bottom: 100px;
+          left: -450px;
+        }
 
     section#call-to-action div.background div#pearl-08 {
       height: 850px;
       width: 850px;
-      bottom: 10px;
-      left: -70px;
     }
+
+        .pearl-08-INACTIVE {
+          bottom: 70px;
+          left: 150px;
+        }
+
+        .pearl-08-ACTIVE {
+          bottom: 10px;
+          left: -30px;
+        }
 
     section#call-to-action div.background div#pearl-09 {
       display: none;
@@ -223,26 +239,46 @@
 
   /*--- CTA PEARLS start ---*/
       section#call-to-action div.background div#pearl-07 {
-        height: 700px;
-        width: 700px;
-        bottom: 120px;
-        left: -420px;
       }
 
+          .pearl-07-INACTIVE {
+            bottom: 180px;
+            left: -500px;
+          }
+
+          .pearl-07-ACTIVE {
+            bottom: 120px;
+            left: -420px;
+          }
+
       section#call-to-action div.background div#pearl-08 {
-        height: 850px;
-        width: 850px;
-        bottom: 190px;
-        left: -90px;
       }
+
+          .pearl-08-INACTIVE {
+            bottom: 250px;
+            left: -90px;
+          }
+
+          .pearl-08-ACTIVE {
+            bottom: 190px;
+            left: -90px;
+          }
 
       section#call-to-action div.background div#pearl-09 {
         height: 650px;
         width: 650px;
-        bottom: 10px;
-        left: 290px;
         display: block;
       }
+
+          .pearl-09-INACTIVE {
+            bottom: 100px;
+            left: 400px;
+          }
+
+          .pearl-09-ACTIVE {
+            bottom: 10px;
+            left: 290px;
+          }
 
       section#call-to-action div.background div#pearl-10 {
         display: none;
@@ -309,19 +345,43 @@
 
   /*--- CTA PEARLS start ---*/
       section#call-to-action div.background div#pearl-07 {
-        bottom: 120px;
-        left: -420px;
       }
+
+          .pearl-07-INACTIVE {
+            bottom: 350px;
+            left: -500px;
+          }
+
+          .pearl-07-ACTIVE {
+            bottom: 120px;
+            left: -420px;
+          }
 
       section#call-to-action div.background div#pearl-08 {
-        bottom: 200px;
-        left: -80px;
       }
 
+          .pearl-08-INACTIVE {
+            bottom: 450px;
+            left: -80px;
+          }
+
+          .pearl-08-ACTIVE {
+            bottom: 200px;
+            left: -80px;
+          }
+
       section#call-to-action div.background div#pearl-09 {
-        bottom: 200px;
-        left: 460px;
       }
+
+          .pearl-09-INACTIVE {
+            bottom: 350px;
+            left: 650px;
+          }
+
+          .pearl-09-ACTIVE {
+            bottom: 200px;
+            left: 460px;
+          }
 
       section#call-to-action div.background div#pearl-10 {
         display: none;
@@ -392,19 +452,43 @@
 
   /*--- CTA PEARLS start ---*/
       section#call-to-action div.background div#pearl-07 {
-        bottom: 130px;
-        left: -380px;
       }
+
+          .pearl-07-INACTIVE {
+            bottom: 250px;
+            left: -480px;
+          }
+
+          .pearl-07-ACTIVE {
+            bottom: 130px;
+            left: -380px;
+          }
 
       section#call-to-action div.background div#pearl-08 {
-        bottom: 240px;
-        left: 20px;
       }
 
+          .pearl-08-INACTIVE {
+            bottom: 400px;
+            left: 20px;
+          }
+
+          .pearl-08-ACTIVE {
+            bottom: 240px;
+            left: 20px;
+          }
+
       section#call-to-action div.background div#pearl-09 {
-        bottom: 260px;
-        left: 630px;
       }
+
+          .pearl-09-INACTIVE {
+            bottom: 350px;
+            left: 750px;
+          }
+
+          .pearl-09-ACTIVE {
+            bottom: 260px;
+            left: 630px;
+          }
 
       section#call-to-action div.background div#pearl-10 {
         display: none;
@@ -488,27 +572,59 @@
 
   /*--- CTA PEARLS start ---*/
       section#call-to-action div.background div#pearl-07 {
-        bottom: 130px;
-        left: -300px;
       }
+
+          .pearl-07-INACTIVE {
+            bottom: 250px;
+            left: -480px;
+          }
+
+          .pearl-07-ACTIVE {
+            bottom: 130px;
+            left: -300px;
+          }
 
       section#call-to-action div.background div#pearl-08 {
-        bottom: 240px;
-        left: 130px;
       }
 
+          .pearl-08-INACTIVE {
+            bottom: 360px;
+            left: 100px;
+          }
+
+          .pearl-08-ACTIVE {
+            bottom: 240px;
+            left: 130px;
+          }
+
       section#call-to-action div.background div#pearl-09 {
-        bottom: 260px;
-        left: 700px;
       }
+
+          .pearl-09-INACTIVE {
+            bottom: 400px;
+            left: 890px;
+          }
+
+          .pearl-09-ACTIVE {
+            bottom: 260px;
+            left: 700px;
+          }
 
       section#call-to-action div.background div#pearl-10 {
         height: 380px;
         width: 380px;
-        bottom: 300px;
-        left: 1200px;
         display: block;
       }
+
+          .pearl-10-INACTIVE {
+            bottom: 500px;
+            left: 1200px;
+          }
+
+          .pearl-10-ACTIVE {
+            bottom: 300px;
+            left: 1200px;
+          }
   /*--- CTA PEARLS end ---*/
 
 }
@@ -607,23 +723,57 @@
 
   /*--- CTA PEARLS start ---*/
       section#call-to-action div.background div#pearl-07 {
-        bottom: 95px;
-        left: -260px;
       }
+
+          .pearl-07-INACTIVE {
+            bottom: 250px;
+            left: -480px;
+          }
+
+          .pearl-07-ACTIVE {
+            bottom: 95px;
+            left: -260px;
+          }
 
       section#call-to-action div.background div#pearl-08 {
-        bottom: 220px;
-        left: 150px;
       }
+
+          .pearl-08-INACTIVE {
+            bottom: 360px;
+            left: 100px;
+          }
+
+          .pearl-08-ACTIVE {
+            bottom: 220px;
+            left: 150px;
+          }
 
       section#call-to-action div.background div#pearl-09 {
-        bottom: 295px;
-        left: 800px;
       }
 
+          .pearl-09-INACTIVE {
+            bottom: 400px;
+            left: 900px;
+          }
+
+          .pearl-09-ACTIVE {
+            bottom: 295px;
+            left: 800px;
+          }
+
       section#call-to-action div.background div#pearl-10 {
-        left: 1320px;
+
       }
+
+          .pearl-10-INACTIVE {
+            bottom: 500px;
+            left: 1500px;
+          }
+
+          .pearl-10-ACTIVE {
+            bottom: 300px;
+            left: 1320px;
+          }
   /*--- CTA PEARLS end ---*/
 
 }
