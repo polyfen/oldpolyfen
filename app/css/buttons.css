@@ -146,8 +146,8 @@ div#contact-form button#go-back:hover {
     position: absolute;
     right: 0;
     width: 100px;
-    margin-top: -424px;
-    height: 424px;
+    margin-top: -360px;
+    height: 360px;
     z-index: 1;
     cursor: pointer;
     display: flex !important;
