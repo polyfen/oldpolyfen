@@ -780,6 +780,24 @@
 
 @media (min-width: 1681px) {
 
+
+  /*--- COVER PEARLS start ---*/
+        .pearl-04-INACTIVE {
+          top: 140px;
+          left: 640px;
+        }
+
+      .pearl-05-INACTIVE {
+        top: 385px;
+        left: 1365px;
+      }
+
+      .pearl-06-INACTIVE {
+          top: 280px;
+          left: 780px;
+      }
+  /*--- COVER PEARLS end ---*/
+
   /*--- CTA PEARLS start ---*/
       section#call-to-action div.background div#pearl-07 {
       }
