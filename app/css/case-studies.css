@@ -6,8 +6,26 @@ h1 {
   margin: 0 auto;
 }
 
+h2 {
+  color:#7800FF;
+}
+
 body.case-study section#call-to-action div.curve {
   display: none !important;
+}
+
+body.case-study section:after {
+  content: "";
+  display: none;
+  width: 33%;
+  margin: 0 33%;
+  height: 3px;
+  background: white;
+}
+
+section#brand-research, section#brand-strategy {
+  width: 49%;
+  float: left;
 }
 
 /*---------- CASE STUDIES end ------------*/
