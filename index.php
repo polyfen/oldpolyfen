@@ -113,7 +113,7 @@
               </div></a>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
-                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and design. <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A clean and professional look with a creative flair.</span></p>
+                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and creativity. <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A clean and professional look with a distinctive flair.</span></p>
                 <a class="secondary-button" href="developing-our-brand.php">View project ›</a>
               </div>
             </section>

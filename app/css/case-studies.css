@@ -3,6 +3,7 @@
 h1 {
   text-align: center;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 body.case-study section#call-to-action div.curve {
