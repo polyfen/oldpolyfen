@@ -1,0 +1,33 @@
+/*---------- CASE STUDIES start------------*/
+
+
+
+/*---------- CASE STUDIES end ------------*/
+
+
+/*---------- [MEDIA QUERIES] start ------------*/
+
+/* Extra-Small devices (Mobile Narrowest) are set as default */
+
+/* Small devices (Mobile Widest) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (Tablet Portrait / Mobile Landscape) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (Tanblet Landscape) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra-Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) {
+
+}
+
+
+/*---------- [MEDIA QUERIES] end ------------*/

@@ -24,6 +24,10 @@ button, a {
   cursor: pointer;
 }
 
+button:hover, a:hover {
+  text-decoration: none;
+}
+
 input {
   width: 100%;
   background: #6600da;
