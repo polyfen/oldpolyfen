@@ -24,7 +24,7 @@ body.case-study section:after {
 }
 
 body.case-study section#title {
-    height: 700px;
+    height: 640px;
 }
 
 section#brand-research, section#brand-strategy {
@@ -75,8 +75,8 @@ section#brand-research, section#brand-strategy {
   #pearl-12 {
     width: 455px;
     height: 455px;
-    top: 193px;
-    left: 40px;
+    top: 200px;
+    left: 20px;
     display: block;
     background-image: url('../../imgs/cover/pearl-03-17-b.png');
   }
@@ -84,6 +84,24 @@ section#brand-research, section#brand-strategy {
   h1 {
     top: 130px;
     position: relative;
+  }
+
+  body.case-study img {
+  max-width:100%;
+  border-radius:8px;
+  }
+
+  body.case-study img#moodboard {
+    margin-top:40px;
+  }
+
+  body.case-study ol {
+    list-style-type: upper-alpha;
+    margin-left: 30px;
+  }
+
+  body.case-study ol li {
+    margin-bottom: 20px;
   }
 
 }
