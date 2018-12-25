@@ -67,10 +67,14 @@ div.modal-wrapper {
       padding-top: 5.6px;
       top: 7px;
       cursor: pointer;
+      -webkit-transition: -webkit-transform .2s ease-in-out;
+          transition:         transform .2s ease-in-out;
     }
 
-    div.modal-window i.fa-times:hover {
+    div.modal-window div.modal-window-header i.fa-times:hover {
       color: #03033e !important;
+      -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
     }
 
     div.modal-window div.modal-window-content {
