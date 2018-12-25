@@ -1,6 +1,13 @@
 /*---------- CASE STUDIES start------------*/
 
+h1 {
+  text-align: center;
+  max-width: 600px;
+}
 
+body.case-study section#call-to-action div.curve {
+  display: none !important;
+}
 
 /*---------- CASE STUDIES end ------------*/
 
