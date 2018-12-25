@@ -30,7 +30,7 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <section>
-      <h1>Developing our brand</h1>
+      <h1>Developing our own brand</h1>
     </section>
 
     <!-- INCLUDE FOOTER.PHP start -->
