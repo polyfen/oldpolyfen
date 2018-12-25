@@ -74,15 +74,31 @@
       <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard">
     </section>
 
-    <div style="clear:both;">
-    </div>
-
     <section id="visual-identity">
-      <h2>3. Visual Identity</h2>
-      <p>Our core concept is reflected in visual form with a logo that is as distinctive and playful as possible while remaining as clean, simple, and memorable as possible. The same can be said of our other visual identity elements…</p>
-      <p>Our typographic selection features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable face for all body text.</p>
-      <p>The colour scheme is characterised by a particular accent colour that can be identified as Polyfen Indigo, a vibrant and memorable hue between blue and purple.</p>
-      <p>Our visual language compliments the other elements of our visual identity by featuring a system of 3D visual elements similar to pearls, which can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+      <div id="logo-grid">
+        <img src="imgs/case-studies/developing-our-own-brand/IDEOGRAM_PLY_RGB_Grid.svg">
+      </div>
+      <section id="overview">
+        <h2>3. Visual Identity</h2>
+        <h3>Logo System</h3>
+        <p>Our logo is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
+        <p>The logo aims to be as distinctive and playful as possible while remaining as clean, simple, and utilitarian as possible. The same can be said of all the other elements that constitute our visual identity...</p>
+        <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard">
+      </section>
+        <div style="clear:both;">
+        </div>
+      <section id="typeface-selection">
+        <h3>Typeface Selection</h3>
+        <p>Our typographic selection features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable face for all body text.</p>
+      </section>
+      <section id="colour-scheme">
+        <h3>Colour scheme</h3>
+        <p>The colour scheme is characterised by a particular accent colour that can be identified as Polyfen Indigo, a vibrant and memorable hue between blue and purple.</p>
+      </section>
+      <section id="visual-language">
+        <h3>Visual Language</h3>
+        <p>Our visual language compliments the other elements of our visual identity by featuring a system of 3D visual elements similar to pearls, which can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+      </section>
     </section>
 
     <section id="brand-guidelines">
