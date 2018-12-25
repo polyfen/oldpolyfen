@@ -48,8 +48,12 @@
       <?php include 'sections/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <section>
+    <section id="title">
       <h1>Developing our own brand</h1>
+      <div id="pearl-11" class="pearl rotate-slower">
+      </div>
+      <div id="pearl-12" class="pearl rotate">
+      </div>
     </section>
 
     <section id="brand-research">

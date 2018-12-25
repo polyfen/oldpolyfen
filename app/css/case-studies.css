@@ -23,6 +23,10 @@ body.case-study section:after {
   background: white;
 }
 
+body.case-study section#title {
+    height: 700px;
+}
+
 section#brand-research, section#brand-strategy {
   width: 49%;
   float: left;
@@ -52,6 +56,35 @@ section#brand-research, section#brand-strategy {
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
+
+
+}
+
+/* Extra-Large devices (desktops, less than 1200px) */
+@media (min-width: 1680px) {
+
+  #pearl-11 {
+    width: 455px;
+    height: 455px;
+    top: -90px;
+    right: 60px;
+    display: block;
+    background-image: url('../../imgs/cover/pearl-01.png');
+  }
+
+  #pearl-12 {
+    width: 455px;
+    height: 455px;
+    top: 193px;
+    left: 40px;
+    display: block;
+    background-image: url('../../imgs/cover/pearl-03-17-b.png');
+  }
+
+  h1 {
+    top: 130px;
+    position: relative;
+  }
 
 }
 
