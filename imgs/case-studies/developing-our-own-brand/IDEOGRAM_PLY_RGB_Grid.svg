@@ -8,16 +8,17 @@
 	.st2{filter:url(#Adobe_OpacityMaskFilter);}
 	.st3{fill:url(#SVGID_2_);}
 	.st4{mask:url(#SVGID_1_);}
-	.st5{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#05033D;stroke-width:10;stroke-miterlimit:10;}
 	.st6{fill:#7800FF;}
-	.st7{filter:url(#Adobe_OpacityMaskFilter_1_);}
-	.st8{fill:url(#SVGID_4_);}
-	.st9{mask:url(#SVGID_3_);}
-	.st10{fill:none;stroke:#2AD1A1;stroke-width:8;stroke-miterlimit:10;}
-	.st11{display:none;fill:none;stroke:#2AD1A1;stroke-width:8;stroke-miterlimit:10;}
-	.st12{display:none;fill:url(#SVGID_5_);}
-	.st13{display:inline;fill:#231F20;}
-	.st14{display:none;fill:url(#SVGID_6_);}
+	.st7{display:inline;fill:#7800FF;}
+	.st8{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st9{fill:url(#SVGID_4_);}
+	.st10{mask:url(#SVGID_3_);}
+	.st11{fill:none;stroke:#010128;stroke-width:15;stroke-miterlimit:10;}
+	.st12{display:none;fill:none;stroke:#010128;stroke-width:15;stroke-miterlimit:10;}
+	.st13{display:none;fill:url(#SVGID_5_);}
+	.st14{display:inline;fill:#231F20;}
+	.st15{display:none;fill:url(#SVGID_6_);}
 </style>
 <g id="Layer_1">
 	<g id="Layer_2_1_" class="st0">
@@ -2694,22 +2695,22 @@
 						c-40.5-42.2-82.8-82.5-126.8-120.9l0,0c-20.3-17.7-41.1-35-62.1-51.9c85.8-68.8,165.7-144.7,238.8-226.7l-12.3-15.3
 						c-118.4-147.7-215.1-310-288.3-483.2C1049.6,1762.9,881,1911.1,678.7,1994.1z"/>
 				</g>
-				<g>
-					<path class="st6" d="M1651.3,2464.8c-23.7,23.7-64.5,53.5-74.5,46.1l13.8,16.7"/>
-					<path class="st6" d="M1399.4,2136.5c23.7-23.7,61.9-51.5,71.9-44.2l-12.2-18.2"/>
+				<g class="st0">
+					<path class="st7" d="M1651.3,2464.8c-23.7,23.7-64.5,53.5-74.5,46.1l13.8,16.7"/>
+					<path class="st7" d="M1399.4,2136.5c23.7-23.7,61.9-51.5,71.9-44.2l-12.2-18.2"/>
 				</g>
 			</g>
 		</g>
 	</g>
 	<g id="Layer_6">
 		<defs>
-			<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-2053.6" y="-1277.6" width="7157" height="7156.9">
+			<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-2057.1" y="-1281.1" width="7164" height="7163.9">
 				
 					<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
 			</filter>
 		</defs>
-		<mask maskUnits="userSpaceOnUse" x="-2053.6" y="-1277.6" width="7157" height="7156.9" id="SVGID_3_">
-			<g class="st7">
+		<mask maskUnits="userSpaceOnUse" x="-2057.1" y="-1281.1" width="7164" height="7163.9" id="SVGID_3_">
+			<g class="st8">
 				
 					<radialGradient id="SVGID_4_" cx="38.5205" cy="2243.3677" r="3027.4348" gradientTransform="matrix(1 0 0 0.7692 0 517.7217)" gradientUnits="userSpaceOnUse">
 					<stop  offset="0.2744" style="stop-color:#000000"/>
@@ -2718,11 +2719,11 @@
 					<stop  offset="0.9156" style="stop-color:#000000;stop-opacity:0.1431"/>
 					<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
 				</radialGradient>
-				<circle class="st8" cx="744.8" cy="2300.9" r="2295"/>
+				<circle class="st9" cx="744.8" cy="2300.9" r="2295"/>
 			</g>
 		</mask>
-		<g class="st9">
-			<path class="st10" d="M1.4,5875.3c-139.1,0-278.1-14-413.2-41.7c-131.7-27-261.3-67.2-385.1-119.6
+		<g class="st10">
+			<path class="st11" d="M1.4,5875.3c-139.1,0-278.1-14-413.2-41.7c-131.7-27-261.3-67.2-385.1-119.6
 				c-121.6-51.4-238.8-115-348.4-189.1c-108.6-73.4-210.7-157.6-303.5-250.4s-177-194.9-250.4-303.5
 				c-74.1-109.6-137.7-226.9-189.1-348.4c-52.4-123.8-92.6-253.4-119.6-385.1c-27.6-135.1-41.7-274.2-41.7-413.2
 				s14-278.1,41.7-413.2c27-131.7,67.2-261.3,119.6-385.1c51.4-121.6,115-238.8,189.1-348.4c73.4-108.6,157.6-210.7,250.4-303.5
@@ -2732,9 +2733,9 @@
 				s-14,278.1-41.7,413.2c-27,131.7-67.2,261.3-119.6,385.1c-51.4,121.6-115,238.8-189.1,348.4c-73.4,108.6-157.6,210.7-250.4,303.5
 				s-194.9,177-303.5,250.4c-109.7,74.1-226.9,137.7-348.4,189.1c-123.8,52.4-253.4,92.6-385.1,119.6
 				C279.5,5861.3,140.5,5875.3,1.4,5875.3z"/>
-			<circle class="st10" cx="1.4" cy="3824.3" r="1951"/>
-			<circle class="st10" cx="1.4" cy="777.4" r="1951"/>
-			<path class="st10" d="M3048.4,2828.4c-139.1,0-278.1-14-413.2-41.7c-131.7-27-261.3-67.2-385.1-119.6
+			<circle class="st11" cx="1.4" cy="3824.3" r="1951"/>
+			<circle class="st11" cx="1.4" cy="777.4" r="1951"/>
+			<path class="st11" d="M3048.4,2828.4c-139.1,0-278.1-14-413.2-41.7c-131.7-27-261.3-67.2-385.1-119.6
 				c-121.6-51.4-238.8-115-348.4-189.1c-108.6-73.4-210.7-157.6-303.5-250.4s-177-194.9-250.4-303.5
 				c-74.1-109.7-137.7-226.9-189.1-348.4c-52.4-123.8-92.6-253.4-119.6-385.1c-27.6-135.1-41.7-274.1-41.7-413.2
 				s14-278.1,41.7-413.2c27-131.7,67.2-261.3,119.6-385.1c51.4-121.6,115-238.8,189.1-348.4c73.4-108.6,157.6-210.7,250.4-303.5
@@ -2744,18 +2745,18 @@
 				c52.4,123.8,92.6,253.4,119.6,385.1c27.6,135.1,41.7,274.1,41.7,413.2s-14,278.1-41.7,413.2c-27,131.7-67.2,261.3-119.6,385.1
 				c-51.4,121.6-115,238.8-189.1,348.4c-73.4,108.6-157.6,210.7-250.4,303.5s-194.9,177-303.5,250.4
 				c-109.7,74.1-226.9,137.7-348.4,189.1c-123.8,52.4-253.4,92.6-385.1,119.6C3326.5,2814.4,3187.4,2828.4,3048.4,2828.4z"/>
-			<circle class="st10" cx="3048.4" cy="777.4" r="1951"/>
-			<circle class="st10" cx="3048.4" cy="3824.3" r="1951"/>
-			<ellipse class="st10" cx="2362.7" cy="2300.9" rx="152.9" ry="304.7"/>
-			<ellipse class="st10" cx="687.6" cy="2300.8" rx="152.9" ry="304.6"/>
-			<ellipse class="st10" cx="1524.9" cy="1463.1" rx="304.7" ry="152.9"/>
-			<ellipse class="st10" cx="1524.9" cy="3138.7" rx="304.7" ry="152.9"/>
-			<circle class="st10" cx="303.8" cy="1079.8" r="988"/>
-			<circle class="st10" cx="2746" cy="1079.8" r="988"/>
-			<circle class="st10" cx="303.8" cy="3522" r="988"/>
-			<circle class="st10" cx="2746" cy="3522" r="988"/>
-			<circle class="st11" cx="1465" cy="2147.8" r="53.5"/>
-			<circle class="st11" cx="1583" cy="2455.9" r="53.5"/>
+			<circle class="st11" cx="3048.4" cy="777.4" r="1951"/>
+			<circle class="st11" cx="3048.4" cy="3824.3" r="1951"/>
+			<ellipse class="st11" cx="2362.7" cy="2300.9" rx="152.9" ry="304.7"/>
+			<ellipse class="st11" cx="687.6" cy="2300.8" rx="152.9" ry="304.6"/>
+			<ellipse class="st11" cx="1524.9" cy="1463.1" rx="304.7" ry="152.9"/>
+			<ellipse class="st11" cx="1524.9" cy="3138.7" rx="304.7" ry="152.9"/>
+			<circle class="st11" cx="303.8" cy="1079.8" r="988"/>
+			<circle class="st11" cx="2746" cy="1079.8" r="988"/>
+			<circle class="st11" cx="303.8" cy="3522" r="988"/>
+			<circle class="st11" cx="2746" cy="3522" r="988"/>
+			<circle class="st12" cx="1465" cy="2147.8" r="53.5"/>
+			<circle class="st12" cx="1583" cy="2455.9" r="53.5"/>
 		</g>
 	</g>
 	
@@ -2764,9 +2765,9 @@
 		<stop  offset="0.8704" style="stop-color:#000000;stop-opacity:0.1413"/>
 		<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
 	</radialGradient>
-	<circle class="st12" cx="2290.8" cy="2722.9" r="2295"/>
+	<circle class="st13" cx="2290.8" cy="2722.9" r="2295"/>
 	<g id="Layer_5" class="st0">
-		<circle class="st13" cx="744.8" cy="2300.9" r="2295"/>
+		<circle class="st14" cx="744.8" cy="2300.9" r="2295"/>
 	</g>
 	
 		<radialGradient id="SVGID_6_" cx="38.5205" cy="2243.3677" r="3027.4348" gradientTransform="matrix(1 0 0 0.7692 0 517.7217)" gradientUnits="userSpaceOnUse">
@@ -2776,7 +2777,7 @@
 		<stop  offset="0.9156" style="stop-color:#000000;stop-opacity:0.1431"/>
 		<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
 	</radialGradient>
-	<circle class="st14" cx="744.8" cy="2300.9" r="2295"/>
+	<circle class="st15" cx="744.8" cy="2300.9" r="2295"/>
 </g>
 <g id="Layer_2">
 </g>

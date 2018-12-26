@@ -10,6 +10,11 @@ h2 {
   color:#7800FF;
 }
 
+h3 {
+  color: #7800FF;
+  letter-spacing: 0.7px;
+}
+
 body.case-study section#call-to-action div.curve {
   display: none !important;
 }
@@ -113,8 +118,16 @@ section#brand-research, section#brand-strategy {
   }
 
   body.case-study section#visual-identity section#overview {
-    margin-top: -195px;
+    margin-top: -140px;
+    margin-bottom: -40px;
+    padding-bottom: 0 !important;
     position: relative;
+  }
+
+  body.case-study div#logo-slider {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 30px;
   }
 
   body.case-study section#visual-identity section#typeface-selection {

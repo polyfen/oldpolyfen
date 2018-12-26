@@ -40,6 +40,47 @@
       }
     });
   </script>
+
+  <script type="text/javascript">
+    // Activate Carousel
+    $("#logo-slider").carousel();
+
+    // Enable Carousel Indicators
+    $(".item").click(function(){
+      $("#logo-slider").carousel(1);
+    });
+
+    // Enable Carousel Controls
+    $(".left").click(function(){
+      $("#logo-slider").carousel("prev");
+    });
+
+    $(document).ready(function(){
+
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+      $("#logo-slider").carousel(0);
+    });
+    $(".item2").click(function(){
+      $("#logo-slider").carousel(1);
+    });
+    $(".item3").click(function(){
+      $("#logo-slider").carousel(2);
+    });
+    $(".item4").click(function(){
+      $("#logo-slider").carousel(3);
+    });
+
+    // Enable Carousel Controls
+    $(".left").click(function(){
+      $("#logo-slider").carousel("prev");
+    });
+    $(".right").click(function(){
+      $("#logo-slider").carousel("next");
+    });
+  });
+  </script>
+
   </head>
 
   <body id="developing-our-brand" class="case-study">
@@ -71,19 +112,46 @@
       <h2>2. Brand Strategy</h2>
       <p>We developed a strategy for expressing our business proposal as a brand focused on the core concept <strong>The midpoint between business & creativity</strong>.</p>
       <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable brand name that also carries a sound of playfulness as an abstract word with no other meaning.</p>
-      <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard">
+      <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard" title="moodboard" alt="moodboard">
     </section>
 
     <section id="visual-identity">
-      <div id="logo-grid">
-        <img src="imgs/case-studies/developing-our-own-brand/IDEOGRAM_PLY_RGB_Grid.svg">
+      <div id="logo-grid" style="visibility:hidden;">
+        <img src="imgs/case-studies/developing-our-own-brand/IDEOGRAM_PLY_RGB_Grid.svg" alt="logo-grid">
       </div>
       <section id="overview">
         <h2>3. Visual Identity</h2>
+        <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible, while remaining clean, simple, and utilitarian as possible.</p>
+      </section>
+      <section id="logo-system">
         <h3>Logo System</h3>
-        <p>Our logo is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
-        <p>The logo aims to be as distinctive and playful as possible while remaining as clean, simple, and utilitarian as possible. The same can be said of all the other elements that constitute our visual identity...</p>
-        <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard">
+        <p>Our logo system is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
+        <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="2800">
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid.png" alt="emblem-logo">
+            </div>
+            <div class="item">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-meaning.png" alt="emblem-logo">
+            </div>
+            <div class="item">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-variations.png" alt="emblem-logo">
+            </div>
+            <div class="item">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-grid.png" alt="emblem-logo">
+            </div>
+            <div class="item">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-preview.png" alt="emblem-logo">
+            </div>
+          </div>
+        </div>
+        <div class="card-navigation">
+          <div class="navigation-bullet active-navigation-bullet"></div>
+          <div class="navigation-bullet inactive-navigation-bullet"></div>
+          <div class="navigation-bullet inactive-navigation-bullet"></div>
+          <div class="navigation-bullet inactive-navigation-bullet"></div>
+          <div class="navigation-bullet inactive-navigation-bullet"></div>
+        </div>
       </section>
         <div style="clear:both;">
         </div>
