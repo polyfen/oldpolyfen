@@ -114,7 +114,10 @@ section#brand-research, section#brand-strategy {
     float: left;
     position: relative;
     margin-top: -300px;
-    left: -70px;
+  }
+
+  body.case-study div#logo-grid img {
+    border-radius: 8px;
   }
 
   body.case-study section#visual-identity section#overview {

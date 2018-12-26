@@ -116,8 +116,8 @@
     </section>
 
     <section id="visual-identity">
-      <div id="logo-grid" style="visibility:hidden;">
-        <img src="imgs/case-studies/developing-our-own-brand/IDEOGRAM_PLY_RGB_Grid.svg" alt="logo-grid">
+      <div id="logo-grid">
+        <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid">
       </div>
       <section id="overview">
         <h2>3. Visual Identity</h2>
@@ -126,22 +126,19 @@
       <section id="logo-system">
         <h3>Logo System</h3>
         <p>Our logo system is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
-        <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="2800">
+        <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500">
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid.png" alt="emblem-logo">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-meaning.png" alt="ideogram-meaning">
             </div>
             <div class="item">
-              <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-meaning.png" alt="emblem-logo">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-variations.png" alt="ideogram-variations">
             </div>
             <div class="item">
-              <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-variations.png" alt="emblem-logo">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-preview.png" alt="emblem-preview">
             </div>
             <div class="item">
-              <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-grid.png" alt="emblem-logo">
-            </div>
-            <div class="item">
-              <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-preview.png" alt="emblem-logo">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-mockup.png" alt="emblem-mockup">
             </div>
           </div>
         </div>
