@@ -135,7 +135,58 @@ section#brand-research, section#brand-strategy {
 
   body.case-study section#visual-identity section#typeface-selection {
     float: left;
-    width: 49%;
+    width: 100%;
+    margin-top: -350px;
+  }
+
+  body.case-study section#visual-identity section#typeface-selection p {
+    max-width: 49%;
+  }
+
+  div#heading-preview {
+    margin-top: 60px;
+  }
+
+    div#heading-preview, div#bodytext-preview {
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+
+  div#heading-preview small {
+    font-size: 395px !important;
+    letter-spacing: 0.3px;
+    line-height: 1.17;
+    text-align: left;
+    font-weight: normal /* bold */;
+    font-style: normal;
+    color: #FFFFFF /* #white */;
+    font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal !important;
+    font-variant-ligatures: discretionary-ligatures;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+    font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  }
+
+  div#bodytext-preview small {
+    font-size: 146px;
+    letter-spacing: 0.1px;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: 400 /* regular */;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'freight-text-pro', serif;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal !important;
+    font-variant-ligatures: discretionary-ligatures;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+    font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
   }
 
 }
