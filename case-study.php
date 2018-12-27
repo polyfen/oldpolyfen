@@ -11,7 +11,7 @@
 
   <!-- META Page-Specific -->
   <meta property="og:title" content="Polyfen | Developing our brand"/>
-  <meta property="og:url" content="http://polyfen.com/developing-our-brand.php"/>
+  <meta property="og:url" content="http://polyfen.com/case-study.php"/>
   <meta name="keywords" content="Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo, Case Study" />
   <meta name="description" property="og:description" content="Polyfen is a
   creative agency specializing in brand identity design. Our small and efficient team of experts from around the world is run by four partners with backgrounds in business, design, tech, and marketing." />

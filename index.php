@@ -113,14 +113,14 @@
             <h2>Case Studies</h2>
 
             <section class="case-project">
-              <a href="developing-our-brand.php"><div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"></div></a>
-              <a href="developing-our-brand.php"><div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block">
+              <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"></div></a>
+              <a href="case-study.php"><div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block">
                 <img src="imgs/case-studies/developing-our-own-brand/polyfen-ideogram-grid.gif" height="100%" width="auto" style="border-radius:8px;">
               </div></a>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
                 <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and creativity. <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A clean and professional look with a distinctive flair.</span></p>
-                <a class="secondary-button" href="developing-our-brand.php">View project ›</a>
+                <a class="secondary-button" href="case-study.php">View project ›</a>
               </div>
             </section>
 
