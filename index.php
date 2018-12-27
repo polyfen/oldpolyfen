@@ -16,7 +16,7 @@
   <meta name="description" property="og:description" content="We are a small team of creatives from around the world connected by our passion to design engaging brand identities." />
   <meta property="og:image:url" content="http://polyfen.com/dev/web-5/imgs/meta/polyfen-thumbnail.png"/>
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@polyfenstudio" />
+  <meta name="twitter:site" content="@WeArePolyfen" />
   <meta name="twitter:title" content="Polyfen" />
   <meta name="twitter:description" content="We are a small team of creatives from around the world connected by our passion to design engaging brand identities." />
   <meta name="twitter:image" content="http://polyfen.com/dev/web-5/imgs/meta/polyfen-thumbnail.png" />
