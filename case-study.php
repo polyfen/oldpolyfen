@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Polyfen | Developing our brand</title>
+    <title>Polyfen | Developing our own brand</title>
 
 
   <!-- INCLUDE HEAD.PHP start -->
@@ -10,7 +10,7 @@
   <!-- INCLUDE HEAD.PHP end -->
 
   <!-- META Page-Specific -->
-  <meta property="og:title" content="Polyfen | Developing our brand"/>
+  <meta property="og:title" content="Polyfen | Developing our own brand"/>
   <meta property="og:url" content="http://polyfen.com/case-study.php"/>
   <meta name="keywords" content="Case Study, Process, Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
   <meta name="description" property="og:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
