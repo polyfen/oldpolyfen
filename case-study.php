@@ -89,6 +89,15 @@
 
   <body id="developing-our-brand" class="case-study">
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <!-- INCLUDE HEADER.PHP start -->
       <?php include 'sections/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
@@ -207,6 +216,10 @@
       <h2>6. Web Development</h2>
       <p>Our website, the centrepiece of our online presence, features concise and relevant content set in a clean and readable layout with prominent visual elements along with interactive animations which offer a unique user experience.</p>
     </section>
+
+    <div class="fb-share-button" data-href="https://polyfen.com/case-study.php" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="http://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/call-to-action.php';?>
