@@ -139,54 +139,8 @@ section#brand-research, section#brand-strategy {
     margin-top: -350px;
   }
 
-  body.case-study section#visual-identity section#typeface-selection p {
+  body.case-study section#visual-identity section#typeface-selection p, body.case-study section#visual-identity section#colour-scheme p {
     max-width: 49%;
-  }
-
-  div#heading-preview {
-    margin-top: 60px;
-  }
-
-    div#heading-preview, div#bodytext-preview {
-    float: left;
-    width: 100%;
-    position: relative;
-  }
-
-  div#heading-preview small {
-    font-size: 395px !important;
-    letter-spacing: 0.3px;
-    line-height: 1.17;
-    text-align: left;
-    font-weight: normal /* bold */;
-    font-style: normal;
-    color: #FFFFFF /* #white */;
-    font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
-    text-rendering: optimizeLegibility;
-    font-kerning: normal !important;
-    font-variant-ligatures: discretionary-ligatures;
-    -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-    -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-    font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  }
-
-  div#bodytext-preview small {
-    font-size: 146px;
-    letter-spacing: 0.1px;
-    line-height: 1.3;
-    text-align: left;
-    font-weight: 400 /* regular */;
-    font-style: normal;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'freight-text-pro', serif;
-    text-rendering: optimizeLegibility;
-    font-kerning: normal !important;
-    font-variant-ligatures: discretionary-ligatures;
-    -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-    -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-    font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
   }
 
   body.case-study section#visual-identity section#typeface-selection a.button {
@@ -201,6 +155,43 @@ section#brand-research, section#brand-strategy {
     background: #7800FF;
     color: #060638;
     box-shadow: 0 0 10px #7800FF;
+  }
+
+  div.swatch {
+    height: 150px;
+    width: 150px;
+    border-radius: 800px;
+    float: left;
+    margin: 40px 40px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.swatch small {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    opacity: 0.9;
+  }
+
+  div#indigo {
+    background: #7800FF;
+    box-shadow: 0 0 15px #7800FF;
+  }
+
+  div#cream {
+    background: #FEF4E6;
+    box-shadow: 0 0 15px #FEF4E6;
+  }
+
+  div#cream small {
+    color: rgba(25, 25, 71, 0.7);
+  }
+
+  div#slate {
+    background: #1B1D6A;
+    box-shadow: 0 0 15px #1B1D6A;
   }
 
 }

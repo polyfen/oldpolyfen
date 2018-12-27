@@ -171,6 +171,17 @@
       <section id="colour-scheme">
         <h3>Colour scheme</h3>
         <p>The brand's colour palette is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
+        <div id="colour-swatches">
+          <div class="swatch" id="indigo">
+            <small>Indigo</small>
+          </div>
+          <div class="swatch" id="cream">
+            <small>Cream</small>
+          </div>
+          <div class="swatch" id="slate">
+            <small>Slate</small>
+          </div>
+        </div>
       </section>
       <section id="visual-language">
         <h3>Visual Language</h3>
