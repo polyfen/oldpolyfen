@@ -189,6 +189,20 @@ section#brand-research, section#brand-strategy {
     font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
   }
 
+  body.case-study section#visual-identity section#typeface-selection a.button {
+    border: 2px solid #7800FF;
+    border-radius: 8px;
+    color: #7800FF;
+    padding: 10px 25px 9px;
+
+  }
+
+  body.case-study section#visual-identity section#typeface-selection a.button:hover {
+    background: #7800FF;
+    color: #060638;
+    box-shadow: 0 0 10px #7800FF;
+  }
+
 }
 
 

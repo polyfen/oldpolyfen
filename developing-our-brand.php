@@ -135,7 +135,7 @@
               <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-variations.png" alt="ideogram-variations">
             </div>
             <div class="item">
-              <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-preview.png" alt="emblem-preview">
+              <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-grid.png" alt="emblem-grid">
             </div>
             <div class="item">
               <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-mockup.png" alt="emblem-mockup">
@@ -157,9 +157,11 @@
         </div>
         <div id="heading-preview">
           <small>Polyfen</small>
+          <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank" class="button" style="position: relative;top: -80px;">Intelo Alt</a>
         </div>
         <div id="bodytext-preview">
           <small>The midpoint between business &amp; creativity.</small>
+          <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank" class="button">Freight Text Pro</a>
         </div>
         <div style="clear:both;">
         </div>
