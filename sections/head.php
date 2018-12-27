@@ -12,9 +12,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8529e2">
-  <meta name="msapplication-TileColor" content="#8529e2">
-  <meta name="theme-color" content="#8529e2">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7800ff">
+  <meta name="msapplication-TileColor" content="#7800ff">
+  <meta name="theme-color" content="#7800ff">
+
 
 
   <!-- BOOTSTRAP (I had to add this to make the case studies slider work) -->
