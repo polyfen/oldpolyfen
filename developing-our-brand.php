@@ -156,11 +156,11 @@
         <div style="clear:both;">
         </div>
         <div id="heading-preview">
-          <small>Polyfen</small>
-          <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank" class="button" style="position: relative;top: -80px;">Intelo Alt</a>
+          <img src="imgs/case-studies/developing-our-own-brand/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto">
+          <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank" class="button" style="position: relative;top: -30px;">Intelo Alt</a>
         </div>
         <div id="bodytext-preview">
-          <small>The midpoint between business &amp; creativity.</small>
+          <img src="imgs/case-studies/developing-our-own-brand/creative-concept-italic.svg" width="100%" height="auto" style="opacity:0.7;margin-top:60px;margin-bottom:15px;">
           <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank" class="button">Freight Text Pro</a>
         </div>
         <div style="clear:both;">
