@@ -141,14 +141,15 @@ p strong {
 }
 
 p a {
-  color: #7800FF !important;
-  opacity: 0.8;
+  color: auto !important;
+  opacity: 1;
+  border-bottom: 2px dotted #7800FF;
 }
 
 p a:hover {
-  color: #7800FF !important;
-  opacity: 1;
+  color: white;
   text-decoration: none;
+  border-bottom: 2px solid #7800FF;
 }
 
 /*–––––––––––––––––––– MEDIA QUERIES  ––––––––––––––––––––*/

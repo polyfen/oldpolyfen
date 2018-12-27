@@ -87,9 +87,14 @@ div.modal-wrapper {
       margin: 5px 0 5px;
     }
 
-    div.modal-window p, div.modal-window li {
+    div.modal-window p, div.modal-window li, div.modal-window p a {
       color: #1919478c;
     }
+
+     div.modal-window p a:hover {
+      color: #191947;
+    }
+
 
     div.modal-window li {
       margin-left: 23px;
