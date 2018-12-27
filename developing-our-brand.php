@@ -155,7 +155,7 @@
         <p>Our typographic selection features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
         <div style="clear:both;">
         </div>
-        <div id="heading-preview">
+        <div id="heading-preview" style="margin-top:100px;">
           <img src="imgs/case-studies/developing-our-own-brand/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto">
           <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank" class="button" style="position: relative;top: -30px;">Intelo Alt</a>
         </div>
