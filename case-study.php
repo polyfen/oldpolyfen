@@ -12,15 +12,13 @@
   <!-- META Page-Specific -->
   <meta property="og:title" content="Polyfen | Developing our brand"/>
   <meta property="og:url" content="http://polyfen.com/case-study.php"/>
-  <meta name="keywords" content="Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo, Case Study" />
-  <meta name="description" property="og:description" content="Polyfen is a
-  creative agency specializing in brand identity design. Our small and efficient team of experts from around the world is run by four partners with backgrounds in business, design, tech, and marketing." />
+  <meta name="keywords" content="Case Study, Process, Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
+  <meta name="description" property="og:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
   <meta property="og:image:url" content="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png"/>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@polyfenstudio" />
   <meta name="twitter:title" content="Polyfen" />
-  <meta name="twitter:description" content="Polyfen is a
-  creative agency specializing in brand identity design. Our small and efficient team of experts from around the world is run by four partners with backgrounds in business, design, tech, and marketing." />
+  <meta name="twitter:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
   <meta name="twitter:image" content="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" />
   <meta name="robots" content="index, follow">
 
