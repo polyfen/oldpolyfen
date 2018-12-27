@@ -14,7 +14,7 @@
   <meta property="og:url" content="http://polyfen.com/case-study.php"/>
   <meta name="keywords" content="Case Study, Process, Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
   <meta name="description" property="og:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
-  <meta property="og:image:url" content="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png"/>
+  <meta property="og:image" content="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png"/>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@WeArePolyfen" />
   <meta name="twitter:title" content="Polyfen" />
