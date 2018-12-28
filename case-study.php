@@ -198,7 +198,8 @@
       </section>
       <section id="visual-language">
         <h3>Visual Language</h3>
-        <p>Our visual language compliments the other elements of our visual identity by featuring a system of 3D visual elements similar to pearls, which can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+        <p>Our visual language compliments the other elements of our visual identity by featuring a system of 3D modelled visuals which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+        <p>Our visual language system also counts with a particular illustration style characterized by simple, geometric artwork on the brand colours and with some soft gradients that compliment the opalescence of the Pearls.</p>
       </section>
     </section>
 
@@ -214,7 +215,7 @@
 
     <section id="web-development">
       <h2>6. Web Development</h2>
-      <p>Our website, the centrepiece of our online presence, features concise and relevant content set in a clean and readable layout with prominent visual elements along with interactive animations which offer a unique user experience.</p>
+      <p>Our website, the centrepiece of our online presence, features relevant, practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
     </section>
 
     <div class="fb-share-button" data-href="https://polyfen.com/case-study.php" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
