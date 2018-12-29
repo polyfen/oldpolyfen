@@ -4,6 +4,8 @@ h1 {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
+  top: 130px;
+  position: relative;
 }
 
 h2 {
@@ -19,22 +21,87 @@ body.case-study section#call-to-action div.curve {
   display: none !important;
 }
 
-body.case-study section:after {
-  content: "";
-  display: none;
-  width: 33%;
-  margin: 0 33%;
-  height: 3px;
-  background: white;
-}
-
 body.case-study section#title {
     height: 640px;
 }
 
-section#brand-research, section#brand-strategy {
-  width: 49%;
+#pearl-11 {
+  width: 455px;
+  height: 455px;
+  top: -90px;
+  right: 40px;
+  display: block;
+  background-image: url('../../imgs/cover/pearl-01.png');
+}
+
+#pearl-12 {
+  width: 455px;
+  height: 455px;
+  top: 220px;
+  left: 10px;
+  display: block;
+  background-image: url('../../imgs/cover/pearl-03-17-b.png');
+}
+
+body.case-study img {
+max-width:100%;
+border-radius:8px;
+}
+
+body.case-study img#moodboard {
+  margin-top:20px;
+}
+
+body.case-study ol {
+  list-style-type: upper-alpha;
+  margin-left: 30px;
+}
+
+body.case-study ol li {
+  margin-bottom: 20px;
+}
+
+body.case-study div#logo-slider {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+div.swatch {
+  height: 150px;
+  width: 150px;
+  border-radius: 800px;
   float: left;
+  margin: 40px 40px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.swatch small {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  opacity: 0.9;
+}
+
+div#indigo {
+  background: #7800FF;
+  box-shadow: 0 0 15px #7800FF;
+}
+
+div#cream {
+  background: #FEF4E6;
+  box-shadow: 0 0 15px #FEF4E6;
+}
+
+div#cream small {
+  color: rgba(25, 25, 71, 0.7);
+}
+
+div#slate {
+  background: #1B1D6A;
+  box-shadow: 0 0 15px #1B1D6A;
 }
 
 /*---------- CASE STUDIES end ------------*/
@@ -67,132 +134,6 @@ section#brand-research, section#brand-strategy {
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1680px) {
-
-  #pearl-11 {
-    width: 455px;
-    height: 455px;
-    top: -90px;
-    right: 40px;
-    display: block;
-    background-image: url('../../imgs/cover/pearl-01.png');
-  }
-
-  #pearl-12 {
-    width: 455px;
-    height: 455px;
-    top: 220px;
-    left: 10px;
-    display: block;
-    background-image: url('../../imgs/cover/pearl-03-17-b.png');
-  }
-
-  h1 {
-    top: 130px;
-    position: relative;
-  }
-
-  body.case-study img {
-  max-width:100%;
-  border-radius:8px;
-  }
-
-  body.case-study img#moodboard {
-    margin-top:20px;
-  }
-
-  body.case-study ol {
-    list-style-type: upper-alpha;
-    margin-left: 30px;
-  }
-
-  body.case-study ol li {
-    margin-bottom: 20px;
-  }
-
-  body.case-study div#logo-grid {
-    width: 49%;
-    float: left;
-    position: relative;
-    margin-top: -300px;
-  }
-
-  body.case-study div#logo-grid img {
-    border-radius: 8px;
-  }
-
-  body.case-study section#visual-identity section#overview {
-    margin-top: -140px;
-    margin-bottom: -40px;
-    padding-bottom: 0 !important;
-    position: relative;
-  }
-
-  body.case-study div#logo-slider {
-    width: 100%;
-    border-radius: 8px;
-    margin-top: 30px;
-  }
-
-  body.case-study section#visual-identity section#typeface-selection {
-    float: left;
-    width: 100%;
-    margin-top: -350px;
-  }
-
-  body.case-study section#visual-identity section#typeface-selection p, body.case-study section#visual-identity section#colour-scheme p {
-    max-width: 49%;
-  }
-
-  body.case-study section#visual-identity section#typeface-selection a.button {
-    border: 2px solid #7800FF;
-    border-radius: 8px;
-    color: #7800FF;
-    padding: 10px 25px 9px;
-
-  }
-
-  body.case-study section#visual-identity section#typeface-selection a.button:hover {
-    background: #7800FF;
-    color: #060638;
-    box-shadow: 0 0 10px #7800FF;
-  }
-
-  div.swatch {
-    height: 150px;
-    width: 150px;
-    border-radius: 800px;
-    float: left;
-    margin: 40px 40px 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  div.swatch small {
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    opacity: 0.9;
-  }
-
-  div#indigo {
-    background: #7800FF;
-    box-shadow: 0 0 15px #7800FF;
-  }
-
-  div#cream {
-    background: #FEF4E6;
-    box-shadow: 0 0 15px #FEF4E6;
-  }
-
-  div#cream small {
-    color: rgba(25, 25, 71, 0.7);
-  }
-
-  div#slate {
-    background: #1B1D6A;
-    box-shadow: 0 0 15px #1B1D6A;
-  }
 
 }
 
