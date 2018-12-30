@@ -39,6 +39,34 @@ body.case-study section#title {
   background-image: url('../../imgs/cover/pearl-03-17-b.png');
 }
 
+#pearl-13 {
+  width: 455px;
+  height: 455px;
+  display: block;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/09.png');
+}
+
+#pearl-14 {
+  width: 455px;
+  height: 455px;
+  display: block;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/pearl-03-17-b.png');
+}
+
+#pearl-14 {
+  width: 455px;
+  height: 455px;
+  display: block;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/01.png');
+}
+
+#pearl-14 {
+  width: 455px;
+  height: 455px;
+  display: block;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/12.png');
+}
+
 body.case-study section#content-wrapper {
   padding: 100px !important;
 }
@@ -62,7 +90,7 @@ body.case-study ol li {
 }
 
 div#overview {
-  margin-top: 220px;
+  margin-top: 120px;
 }
 
 div#logo-system {
@@ -80,7 +108,7 @@ div#typeface-selection p, div#brand-guidelines p, div#brand-touchpoints p, div#w
 }
 
 div#typeface-selection {
-  margin-top: -230px;
+  margin-top: -100px;
 }
 
 div.swatch {
@@ -118,6 +146,37 @@ div#cream small {
 div#slate {
   background: #1B1D6A;
   box-shadow: 0 0 15px #1B1D6A;
+}
+
+div#brand-guidelines {
+  height: 600px;
+}
+
+div.browser {
+  border-radius: 8px;
+  background: #05012A;
+  box-shadow: 20px 25px 10px rgba(0, 0, 0, 0.5);
+  top: -600px;
+  left: 52%;
+  position: relative;
+}
+
+div.browser#logo-system-web {
+  top: -1190px;
+  left: 67%;
+}
+
+div.browser div.browser-circle {
+  height: 18px;
+  width: 18px;
+  border-radius: 100px;
+  float: left;
+  background: #231E4E;
+  margin: 20px 0 20px 20px;
+}
+
+div#brand-touchpoints {
+  height: 800px;
 }
 
 div#share {

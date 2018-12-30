@@ -128,7 +128,7 @@
     <section id="content-wrapper" class="container-fluid">
 
       <div class="row">
-        <div id="brand-research" class="col-xl-5">
+        <div id="brand-research" class="col">
           <h2>1. Brand Research</h2>
           <p>We conducted an exhaustive analysis of our business proposal, our industry and competitors, and our audience.</p>
           <p>Our conclusion was that most of our competitors market themselves as</p>
@@ -139,11 +139,11 @@
           <p>Based on our business proposal, our conclusion was to position our brand as something in between the business-oriented and the peculiarly creative.</p>
         </div>
 
-        <div class="col">
+        <div class="col-xl-1">
         <div style="height:600px;width:3px;display:block;margin:50px auto 0;background:white;opacity:0.15;"></div>
         </div>
 
-        <div id="brand-research" class="col-xl-5">
+        <div id="brand-research" class="col">
           <h2>2. Brand Strategy</h2>
           <p>We developed a strategy for expressing our business proposal as a brand focused on the core concept <strong>The midpoint between business & creativity</strong>.</p>
           <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable brand name that also carries a sound of playfulness as an abstract word with no other meaning.</p>
@@ -155,9 +155,7 @@
         <div id="logo-grid" class="col-xl-6">
           <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid">
         </div>
-        <div class="col">
-        </div>
-        <div class="col-xl-5">
+        <div class="col-xl-6" style="padding-left:90px;">
           <div id="overview">
             <h2>3. Visual Identity</h2>
             <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible, while remaining clean, simple, and utilitarian as possible.</p>
@@ -207,7 +205,8 @@
         </div>
       </div>
 
-        <div id="colour-scheme" class="col-xl-6">
+      <div class="row" style="margin:100px 0;">
+        <div id="colour-scheme" class="col">
           <h3>Colour scheme</h3>
           <p>The brand's colour palette is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
           <div id="colour-swatches">
@@ -222,25 +221,63 @@
             </div>
           </div>
         </div>
-        <div id="visual-language" class="col-xl-6">
+        <div class="col-xl-1">
+        <div style="height:300px;width:3px;display:block;margin:50px auto 0;background:white;opacity:0.15;"></div>
+        </div>
+        <div id="visual-language" class="col">
           <h3>Visual Language</h3>
           <p>Our visual language compliments the other elements of our visual identity by featuring a system of 3D modelled visuals which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
           <p>Our visual language system also counts with a particular illustration style characterized by simple, geometric artwork on the brand colours and with some soft gradients that compliment the opalescence of the Pearls.</p>
         </div>
-
-      <div id="brand-guidelines" class="col-xl-12">
-        <h2>4. Brand Guidelines</h2>
-        <p>To ensure a consistent use of all the parameters that we have established to identify our brand, we developed a web page with all guidelines and resources necessary for our organization. The web guidelines can be updated as our brand evolves, and it’s conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
       </div>
 
-      <div id="brand-touchpoints" class="col-xl-12">
-        <h2>5. Brand Touchpoints</h2>
-        <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and Presentation slides.</p>
+      <div class="row" style="margin:100px 0;">
+        <div id="brand-guidelines" class="col-xl-12">
+          <h2>4. Brand Guidelines</h2>
+          <p>To ensure a consistent use of all the parameters that we have established to identify our brand, we developed a web page with all guidelines and resources necessary for our organization. The web guidelines can be updated as our brand evolves, and it’s conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
+        </div>
+        <div class="browser">
+          <div class="browser-circle">
+          </div>
+          <div class="browser-circle">
+          </div>
+          <div class="browser-circle">
+          </div>
+          <div style="clear:both;"></div>
+          <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/etymology.jpg" style="border-radius: 0 0 8px 8px;">
+        </div>
+        <div class="browser" id="logo-system-web">
+          <div class="browser-circle">
+          </div>
+          <div class="browser-circle">
+          </div>
+          <div class="browser-circle">
+          </div>
+          <div style="clear:both;"></div>
+          <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" style="border-radius: 0 0 8px 8px;">
+        </div>
       </div>
 
-      <div id="web-development" class="col-xl-12">
-        <h2>6. Web Development</h2>
-        <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant, practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
+      <div class="row" style="margin:100px 0;">
+        <div id="brand-touchpoints" class="col-xl-12">
+          <h2>5. Brand Touchpoints</h2>
+          <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and Presentation slides.</p>
+        </div>
+        <div id="pearl-13" class="pearl rotate-slower">
+        </div>
+        <div id="pearl-14" class="pearl rotate">
+        </div>
+        <div id="pearl-15" class="pearl rotate-slower">
+        </div>
+        <div id="pearl-16" class="pearl rotate-slower">
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="web-development" class="col-xl-12">
+          <h2>6. Web Development</h2>
+          <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant, practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
+        </div>
       </div>
 
       <div id="share" class="col-xl-12">
