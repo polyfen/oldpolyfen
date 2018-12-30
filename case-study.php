@@ -151,7 +151,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" style="margin-top: 100px;">
         <div id="logo-grid" class="col-xl-6">
           <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid">
         </div>
@@ -161,8 +161,7 @@
             <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible, while remaining clean, simple, and utilitarian as possible.</p>
           </div>
           <div id="logo-system">
-            <h3>Logo System</h3>
-            <p>Our logo system is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
+            <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
             <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -175,7 +174,7 @@
                   <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-grid.png" alt="emblem-grid">
                 </div>
                 <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-mockup.png" alt="emblem-mockup">
+                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-mockup.png" alt="ideogram-mockup">
                 </div>
               </div>
             </div>
@@ -190,10 +189,9 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" style="margin-top:60px;">
         <div id="typeface-selection" class="col-xl-12">
-          <h3>Typeface Selection</h3>
-          <p>Our typographic selection features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
+          <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
           <div id="heading-preview" style="margin-top:100px;">
             <img src="imgs/case-studies/developing-our-own-brand/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto">
             <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank" class="button tertiary-button" style="position: relative;top: -30px;">Intelo Alt</a>
@@ -207,8 +205,7 @@
 
       <div class="row" style="margin:100px 0;">
         <div id="colour-scheme" class="col">
-          <h3>Colour scheme</h3>
-          <p>The brand's colour palette is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
+          <p>The brand's <strong>colour palette</strong> is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
           <div id="colour-swatches">
             <div class="swatch" id="indigo">
               <small>Indigo</small>
@@ -222,13 +219,14 @@
           </div>
         </div>
         <div class="col-xl-1">
-        <div style="height:300px;width:3px;display:block;margin:50px auto 0;background:white;opacity:0.15;"></div>
+        <div style="height:200px;width:3px;display:block;margin:50px auto 0;background:white;opacity:0.15;"></div>
         </div>
         <div id="visual-language" class="col">
-          <h3>Visual Language</h3>
-          <p>Our visual language compliments the other elements of our visual identity by featuring a system of 3D modelled visuals which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+          <p>Our <strong>visual language</strong> compliments the other elements of our visual identity by featuring a system of 3D modelled visuals which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
         </div>
-      <div style="height:800px;">
+      </div>
+
+      <div class="row" style="height:600px;">
         <div id="pearl-13" class="pearl rotate-slower">
         </div>
         <div id="pearl-14" class="pearl rotate">
@@ -237,8 +235,16 @@
         </div>
         <div id="pearl-16" class="pearl rotate-slower">
         </div>
-        <div style="display:none;">
-          <p>Our visual language system also counts with a particular illustration style characterized by simple, geometric artwork on the brand colours and with some soft gradients that compliment the opalescence of the Pearls.</p>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="imgs/case-studies/developing-our-own-brand/ILUS_PLY_Folder.svg">
+        </div>
+        <div class="col-xl-1">
+        </div>
+        <div class="col" style="margin-top:200px;">
+          <p>Our visual language system also counts with a particular <strong>illustration style</strong> characterized by simple, geometric artwork on the brand colours and with some soft gradients that compliment the opalescence of the Pearls.</p>
         </div>
       </div>
 

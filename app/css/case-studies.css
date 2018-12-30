@@ -39,34 +39,6 @@ body.case-study section#title {
   background-image: url('../../imgs/cover/pearl-03-17-b.png');
 }
 
-#pearl-13 {
-  width: 455px;
-  height: 455px;
-  display: block;
-  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/09.png');
-}
-
-#pearl-14 {
-  width: 455px;
-  height: 455px;
-  display: block;
-  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/pearl-03-17-b.png');
-}
-
-#pearl-14 {
-  width: 455px;
-  height: 455px;
-  display: block;
-  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/01.png');
-}
-
-#pearl-14 {
-  width: 455px;
-  height: 455px;
-  display: block;
-  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/12.png');
-}
-
 body.case-study section#content-wrapper {
   padding: 100px !important;
 }
@@ -90,11 +62,11 @@ body.case-study ol li {
 }
 
 div#overview {
-  margin-top: 120px;
+  margin-top: 0px;
 }
 
 div#logo-system {
-  margin-top: 100px;
+  margin-top: 55px;
 }
 
 body.case-study div#logo-slider {
@@ -105,10 +77,6 @@ body.case-study div#logo-slider {
 
 div#typeface-selection p, div#brand-guidelines p, div#brand-touchpoints p, div#web-development p {
   width: 49%;
-}
-
-div#typeface-selection {
-  margin-top: -100px;
 }
 
 div.swatch {
@@ -146,6 +114,41 @@ div#cream small {
 div#slate {
   background: #1B1D6A;
   box-shadow: 0 0 15px #1B1D6A;
+}
+
+#pearl-13 {
+  width: 455px;
+  height: 455px;
+  left: 70px;
+  position: absolute;
+  display: block;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/09.png');
+}
+
+#pearl-14 {
+  width: 455px;
+  height: 455px;
+  left: 50%;
+  position: absolute;
+  display: block;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/pearl-03-17-b.png');
+}
+
+#pearl-15 {
+  width: 455px;
+  height: 455px;
+  left: 75%;
+  position: absolute;
+  display: block;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/01.png');
+}
+
+#pearl-16 {
+  width: 455px;
+  height: 455px;
+  position: absolute;
+  display: block;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/12.png');
 }
 
 div#brand-guidelines {
