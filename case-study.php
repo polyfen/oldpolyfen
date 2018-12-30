@@ -227,6 +227,17 @@
         <div id="visual-language" class="col">
           <h3>Visual Language</h3>
           <p>Our visual language compliments the other elements of our visual identity by featuring a system of 3D modelled visuals which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+        </div>
+      <div style="height:800px;">
+        <div id="pearl-13" class="pearl rotate-slower">
+        </div>
+        <div id="pearl-14" class="pearl rotate">
+        </div>
+        <div id="pearl-15" class="pearl rotate-slower">
+        </div>
+        <div id="pearl-16" class="pearl rotate-slower">
+        </div>
+        <div style="display:none;">
           <p>Our visual language system also counts with a particular illustration style characterized by simple, geometric artwork on the brand colours and with some soft gradients that compliment the opalescence of the Pearls.</p>
         </div>
       </div>
@@ -254,22 +265,14 @@
           <div class="browser-circle">
           </div>
           <div style="clear:both;"></div>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" style="border-radius: 0 0 8px 8px;">
+          <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" style="border-radius: 0 0 8px 8px;box-shadow: #000000b3 0 0 30px;">
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;">
+      <div class="row" style="margin:100px 0;margin-top: -1280px;">
         <div id="brand-touchpoints" class="col-xl-12">
           <h2>5. Brand Touchpoints</h2>
           <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and Presentation slides.</p>
-        </div>
-        <div id="pearl-13" class="pearl rotate-slower">
-        </div>
-        <div id="pearl-14" class="pearl rotate">
-        </div>
-        <div id="pearl-15" class="pearl rotate-slower">
-        </div>
-        <div id="pearl-16" class="pearl rotate-slower">
         </div>
       </div>
 

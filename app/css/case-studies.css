@@ -157,13 +157,17 @@ div.browser {
   background: #05012A;
   box-shadow: 20px 25px 10px rgba(0, 0, 0, 0.5);
   top: -600px;
-  left: 52%;
+  left: 55%;
   position: relative;
 }
 
 div.browser#logo-system-web {
-  top: -1190px;
-  left: 67%;
+  top: -1020px;
+  left: 70%;
+}
+
+div.browser img {
+  max-width: 85%;
 }
 
 div.browser div.browser-circle {
