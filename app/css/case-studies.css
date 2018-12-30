@@ -17,10 +17,6 @@ h3 {
   letter-spacing: 0.7px;
 }
 
-body.case-study section#call-to-action div.curve {
-  background-image: url('../../imgs/case-studies/developing-our-own-brand/dark-curve.png');
-}
-
 body.case-study section#title {
     height: 640px;
 }
@@ -43,6 +39,10 @@ body.case-study section#title {
   background-image: url('../../imgs/cover/pearl-03-17-b.png');
 }
 
+body.case-study section#content-wrapper {
+  padding: 100px !important;
+}
+
 body.case-study img {
 max-width:100%;
 border-radius:8px;
@@ -61,10 +61,26 @@ body.case-study ol li {
   margin-bottom: 20px;
 }
 
+div#overview {
+  margin-top: 220px;
+}
+
+div#logo-system {
+  margin-top: 100px;
+}
+
 body.case-study div#logo-slider {
   width: 100%;
   border-radius: 8px;
   margin-top: 30px;
+}
+
+div#typeface-selection p, div#brand-guidelines p, div#brand-touchpoints p, div#web-development p {
+  width: 49%;
+}
+
+div#typeface-selection {
+  margin-top: -230px;
 }
 
 div.swatch {
@@ -148,8 +164,8 @@ div#share a#twitter-share:hover {
   box-shadow: 0 0 10px #1da1f4;
 }
 
-div#typeface-selection p, div#brand-guidelines p, div#brand-touchpoints p, div#web-development p {
-  width: 49%;
+body.case-study section#call-to-action div.curve {
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/dark-curve.png');
 }
 
 /*---------- CASE STUDIES end ------------*/

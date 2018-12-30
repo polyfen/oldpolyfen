@@ -126,61 +126,73 @@
     </section>
 
     <section id="content-wrapper" class="container-fluid">
+
       <div class="row">
+        <div id="brand-research" class="col-xl-5">
+          <h2>1. Brand Research</h2>
+          <p>We conducted an exhaustive analysis of our business proposal, our industry and competitors, and our audience.</p>
+          <p>Our conclusion was that most of our competitors market themselves as</p>
+          <ol>
+            <li>business-oriented targeting an executive audience with a very sober and simple visual identity, while</li>
+            <li>the other half of our competitors focus on expressing their creative talent gaining popularity amongst the creative industry with a very quirky and playful brand.</li>
+          </ol>
+          <p>Based on our business proposal, our conclusion was to position our brand as something in between the business-oriented and the peculiarly creative.</p>
+        </div>
 
-      <div id="brand-research" class="col-xl-6">
-        <h2>1. Brand Research</h2>
-        <p>We conducted an exhaustive analysis of our business proposal, our industry and competitors, and our audience.</p>
-        <p>Our conclusion was that most of our competitors market themselves as</p>
-        <ol>
-          <li>business-oriented targeting an executive audience with a very sober and simple visual identity, while</li>
-          <li>the other half of our competitors focus on expressing their creative talent gaining popularity amongst the creative industry with a very quirky and playful brand.</li>
-        </ol>
-        <p>Based on our business proposal, our conclusion was to position our brand as something in between the business-oriented and the peculiarly creative.</p>
+        <div class="col">
+        <div style="height:600px;width:3px;display:block;margin:50px auto 0;background:white;opacity:0.15;"></div>
+        </div>
+
+        <div id="brand-research" class="col-xl-5">
+          <h2>2. Brand Strategy</h2>
+          <p>We developed a strategy for expressing our business proposal as a brand focused on the core concept <strong>The midpoint between business & creativity</strong>.</p>
+          <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable brand name that also carries a sound of playfulness as an abstract word with no other meaning.</p>
+          <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard" title="moodboard" alt="moodboard">
+        </div>
       </div>
 
-      <div id="brand-research" class="col-xl-6">
-        <h2>2. Brand Strategy</h2>
-        <p>We developed a strategy for expressing our business proposal as a brand focused on the core concept <strong>The midpoint between business & creativity</strong>.</p>
-        <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable brand name that also carries a sound of playfulness as an abstract word with no other meaning.</p>
-        <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard" title="moodboard" alt="moodboard">
-      </div>
-          <div id="logo-grid" class="col-xl-6">
-            <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid">
+      <div class="row">
+        <div id="logo-grid" class="col-xl-6">
+          <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col-xl-5">
+          <div id="overview">
+            <h2>3. Visual Identity</h2>
+            <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible, while remaining clean, simple, and utilitarian as possible.</p>
           </div>
-          <div class="col-xl-6">
-            <div id="overview">
-              <h2>3. Visual Identity</h2>
-              <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible, while remaining clean, simple, and utilitarian as possible.</p>
-            </div>
-            <div id="logo-system">
-              <h3>Logo System</h3>
-              <p>Our logo system is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
-              <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500">
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-meaning.png" alt="ideogram-meaning">
-                  </div>
-                  <div class="item">
-                    <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-variations.png" alt="ideogram-variations">
-                  </div>
-                  <div class="item">
-                    <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-grid.png" alt="emblem-grid">
-                  </div>
-                  <div class="item">
-                    <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-mockup.png" alt="emblem-mockup">
-                  </div>
+          <div id="logo-system">
+            <h3>Logo System</h3>
+            <p>Our logo system is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
+            <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-meaning.png" alt="ideogram-meaning">
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-variations.png" alt="ideogram-variations">
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-grid.png" alt="emblem-grid">
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-mockup.png" alt="emblem-mockup">
                 </div>
               </div>
-              <div class="card-navigation">
-                <div class="navigation-bullet active-navigation-bullet"></div>
-                <div class="navigation-bullet inactive-navigation-bullet"></div>
-                <div class="navigation-bullet inactive-navigation-bullet"></div>
-                <div class="navigation-bullet inactive-navigation-bullet"></div>
-                <div class="navigation-bullet inactive-navigation-bullet"></div>
-              </div>
+            </div>
+            <div class="card-navigation">
+              <div class="navigation-bullet active-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
         <div id="typeface-selection" class="col-xl-12">
           <h3>Typeface Selection</h3>
           <p>Our typographic selection features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
@@ -193,6 +205,8 @@
             <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank" class="button tertiary-button">Freight Text Pro</a>
           </div>
         </div>
+      </div>
+
         <div id="colour-scheme" class="col-xl-6">
           <h3>Colour scheme</h3>
           <p>The brand's colour palette is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
@@ -232,9 +246,9 @@
       <div id="share" class="col-xl-12">
         <h3>Share</h3>
 
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" data-href="https://polyfen.com/case-study" data-image="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" data-title="Developing our own brand" data-desc="A case study that exhibits our brand's core concept, the midpoint between business and creativity." id="facebook-share" class="button tertiary-button" target="_blank">Facebook</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" data-href="http://polyfen.com/case-study" data-image="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" data-title="Developing our own brand" data-desc="A case study that exhibits our brand's core concept, the midpoint between business and creativity." id="facebook-share" class="button tertiary-button" target="_blank">Facebook</a>
 
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-url="https://polyfen.com/case-study" data-size="large" data-related="wearepolyfen" data-show-count="false" id="twitter-share" class="button tertiary-button" target="_blank">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-size="large" data-url="http://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false" id="twitter-share" class="button tertiary-button" target="_blank">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         <!--<div class="fb-share-button" data-href="https://polyfen.com/case-study.php" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>-->
 
