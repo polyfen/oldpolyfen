@@ -18,7 +18,7 @@ h3 {
 }
 
 body.case-study section#call-to-action div.curve {
-  display: none !important;
+  background-image: url('../../imgs/case-studies/developing-our-own-brand/dark-curve.png');
 }
 
 body.case-study section#title {
@@ -102,6 +102,53 @@ div#cream small {
 div#slate {
   background: #1B1D6A;
   box-shadow: 0 0 15px #1B1D6A;
+}
+
+div#share {
+  text-align: center;
+  margin-top: 100px;
+}
+
+div#share h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div#share a {
+  width: 225px;
+  border-radius: 8px;
+  padding: 8px 0;
+  border: 2px solid;
+  display: inline-table;
+}
+
+div#share a#facebook-share {
+  color: #2e61ce;
+  border-color: #2e61ce;
+  margin-right: 5px;
+}
+
+div#share a#facebook-share:hover {
+  color: #060638;
+  background: #2e61ce;
+  box-shadow: 0 0 10px #2e61ce;
+}
+
+div#share a#twitter-share {
+  color: #1da1f4;
+  border-color: #1da1f4;
+  margin-left: 5px;
+}
+
+div#share a#twitter-share:hover {
+  color: #060638;
+  background: #1da1f4;
+  box-shadow: 0 0 10px #1da1f4;
+}
+
+div#typeface-selection p, div#brand-guidelines p, div#brand-touchpoints p, div#web-development p {
+  width: 49%;
 }
 
 /*---------- CASE STUDIES end ------------*/

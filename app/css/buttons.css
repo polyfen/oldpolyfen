@@ -56,6 +56,7 @@ a.tertiary-button:hover {
   background: #7800FF;
   color: #060638;
   box-shadow: 0 0 10px #7800FF;
+  text-decoration: none;
 }
 
 div.card-navigation {
