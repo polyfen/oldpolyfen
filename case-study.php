@@ -140,7 +140,7 @@
         </div>
 
         <div class="col-xl-1">
-        <div style="height:600px;width:3px;display:block;margin:50px auto 0;background:white;opacity:0.15;"></div>
+        <div style="height:730px;width:3px;display:block;margin:50px auto 0;background:#191947;"></div>
         </div>
 
         <div id="brand-research" class="col">
@@ -219,7 +219,7 @@
           </div>
         </div>
         <div class="col-xl-1">
-        <div style="height:200px;width:3px;display:block;margin:50px auto 0;background:white;opacity:0.15;"></div>
+        <div style="height:200px;width:3px;display:block;margin:0px auto;background:#191947;"></div>
         </div>
         <div id="visual-language" class="col">
           <p>Our <strong>visual language</strong> compliments the other elements of our visual identity by featuring a system of 3D modelled visuals which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
@@ -275,13 +275,13 @@
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;margin-top: -1165px;height:1400px;">
+      <div class="row" style="margin:100px 0;margin-top: -1380px;height:1400px;">
         <div id="brand-touchpoints" class="col-xl-12" style="z-index:3;">
           <h2>5. Brand Touchpoints</h2>
           <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and Presentation slides.</p>
         </div>
-        <img src="imgs/case-studies/developing-our-own-brand/business-cards.png" style="position: absolute;left: 0;width: 45%;margin-top: 250px;z-index:2;">
-        <img src="imgs/case-studies/developing-our-own-brand/proposal-cover.png" style="position: absolute;width: 50%;right: 0;margin-top:100px;">
+        <img src="imgs/case-studies/developing-our-own-brand/business-cards.png" style="position: absolute;left: 0;width: 45%;margin-top: 350px;z-index:2;">
+        <img src="imgs/case-studies/developing-our-own-brand/proposal-cover.png" style="position: absolute;width: 50%;right: 0;margin-top:200px;">
       </div>
 
       <div class="row">
@@ -301,8 +301,8 @@
       </div>
 
       <div id="share" class="col-xl-12">
-        <h3>Share</h3>
-
+        <div class="share-separator"></div>
+        <h4>Share</h4>
         <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" data-href="http://polyfen.com/case-study" data-image="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" data-title="Developing our own brand" data-desc="A case study that exhibits our brand's core concept, the midpoint between business and creativity." id="facebook-share" class="button tertiary-button" target="_blank">Facebook</a>
 
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-size="large" data-url="http://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false" id="twitter-share" class="button tertiary-button" target="_blank">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

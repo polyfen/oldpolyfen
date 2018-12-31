@@ -171,7 +171,7 @@ div.browser {
 }
 
 div.browser#logo-system-web {
-  top: -1030px;
+  top: -1105px;
   left: 70%;
   z-index: 4;
 }
@@ -198,13 +198,20 @@ div.browser#web-design {
 
 div#share {
   text-align: center;
-  margin-top: 100px;
 }
 
-div#share h3 {
+div.share-separator {
+  height: 4px;
+  width: 33%;
+  margin: 200px auto 50px;
+  background: #191947;
+}
+
+div#share h4 {
+  text-transform: uppercase;
+  letter-spacing: 5.5px;
+  margin-bottom: 30px;
   color: white;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 div#share a {
