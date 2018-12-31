@@ -117,8 +117,8 @@ div#slate {
 }
 
 #pearl-13 {
-  width: 455px;
-  height: 455px;
+  width: 600px;
+  height: 600px;
   left: 70px;
   position: absolute;
   display: block;
@@ -126,9 +126,10 @@ div#slate {
 }
 
 #pearl-14 {
-  width: 455px;
-  height: 455px;
-  left: 50%;
+  width: 400px;
+  height: 400px;
+  left: 47%;
+  margin-top: -100px;
   position: absolute;
   display: block;
   background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/pearl-03-17-b.png');
@@ -137,15 +138,19 @@ div#slate {
 #pearl-15 {
   width: 455px;
   height: 455px;
-  left: 75%;
+  left: 70%;
+  margin-top: 200px;
+  z-index: 2;
   position: absolute;
   display: block;
   background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/01.png');
 }
 
 #pearl-16 {
-  width: 455px;
-  height: 455px;
+  width: 1100px;
+  height: 1100px;
+  left: 90%;
+  margin-top: -200px;
   position: absolute;
   display: block;
   background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/12.png');

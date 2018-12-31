@@ -226,7 +226,7 @@
         </div>
       </div>
 
-      <div class="row" style="height:600px;">
+      <div class="row" style="height:700px;">
         <div id="pearl-13" class="pearl rotate-slower">
         </div>
         <div id="pearl-14" class="pearl rotate">
