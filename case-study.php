@@ -275,18 +275,29 @@
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;margin-top: -1280px;">
-        <div id="brand-touchpoints" class="col-xl-12">
+      <div class="row" style="margin:100px 0;margin-top: -1165px;height:1400px;">
+        <div id="brand-touchpoints" class="col-xl-12" style="z-index:3;">
           <h2>5. Brand Touchpoints</h2>
           <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and Presentation slides.</p>
         </div>
+        <img src="imgs/case-studies/developing-our-own-brand/business-cards.png" style="position: absolute;left: 0;width: 45%;margin-top: 250px;z-index:2;">
+        <img src="imgs/case-studies/developing-our-own-brand/proposal-cover.png" style="position: absolute;width: 50%;right: 0;margin-top:100px;">
       </div>
 
       <div class="row">
-        <div id="web-development" class="col-xl-12">
+        <div id="web-development" class="col-xl-12" style="margin-top: -250px;">
           <h2>6. Web Development</h2>
           <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant, practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
         </div>
+        <div class="browser" id="web-design">
+          <div class="browser-circle">
+          </div>
+          <div class="browser-circle">
+          </div>
+          <div class="browser-circle">
+          </div>
+          <div style="clear:both;"></div>
+          <img src="imgs/case-studies/developing-our-own-brand/web-design.jpg" style="border-radius: 0 0 8px 8px;box-shadow: #000000b3 0 0 30px;">
       </div>
 
       <div id="share" class="col-xl-12">

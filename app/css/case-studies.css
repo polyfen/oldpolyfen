@@ -138,8 +138,8 @@ div#slate {
 #pearl-15 {
   width: 455px;
   height: 455px;
-  left: 70%;
-  margin-top: 200px;
+  left: 65%;
+  margin-top: 250px;
   z-index: 2;
   position: absolute;
   display: block;
@@ -149,7 +149,7 @@ div#slate {
 #pearl-16 {
   width: 1100px;
   height: 1100px;
-  left: 90%;
+  left: 85%;
   margin-top: -200px;
   position: absolute;
   display: block;
@@ -167,16 +167,15 @@ div.browser {
   top: -600px;
   left: 55%;
   position: relative;
+  z-index: 3;
 }
 
 div.browser#logo-system-web {
-  top: -1020px;
+  top: -1030px;
   left: 70%;
+  z-index: 4;
 }
 
-div.browser img {
-  max-width: 85%;
-}
 
 div.browser div.browser-circle {
   height: 18px;
@@ -189,6 +188,12 @@ div.browser div.browser-circle {
 
 div#brand-touchpoints {
   height: 800px;
+}
+
+div.browser#web-design {
+  top: 40px;
+  left: 0;
+  max-width: 80%;
 }
 
 div#share {
