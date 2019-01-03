@@ -16,7 +16,13 @@
   <meta name="msapplication-TileColor" content="#7800ff">
   <meta name="theme-color" content="#7800ff">
 
-
+  <!-- reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+	function onSubmit(token) {
+		document.getElementById("demo-form").submit();
+	}
+  </script>
 
   <!-- BOOTSTRAP (I had to add this to make the case studies slider work) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
