@@ -140,7 +140,6 @@
         </div>
 
         <div class="col-xl-1">
-        <div style="height:730px;width:3px;display:block;margin:50px auto 0;background:#191947;"></div>
         </div>
 
         <div id="brand-research" class="col">
@@ -149,6 +148,10 @@
           <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable brand name that also carries a sound of playfulness as an abstract word with no other meaning.</p>
           <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard" title="moodboard" alt="moodboard">
         </div>
+      </div>
+
+      <div class="row" style="margin:100px 0;">
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
       <div class="row" style="margin-top: 100px;">
@@ -189,39 +192,48 @@
         </div>
       </div>
 
-      <div class="row" style="margin-top:60px;">
-        <div id="typeface-selection" class="col-xl-12">
-          <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
-          <div id="heading-preview" style="margin-top:100px;">
-            <img src="imgs/case-studies/developing-our-own-brand/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto">
-            <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank" class="button tertiary-button" style="position: relative;top: -30px;">Intelo Alt</a>
-          </div>
-          <div id="bodytext-preview">
-            <img src="imgs/case-studies/developing-our-own-brand/creative-concept-italic.svg" width="100%" height="auto" style="opacity:0.7;margin-top:60px;margin-bottom:15px;">
-            <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank" class="button tertiary-button">Freight Text Pro</a>
-          </div>
+      <div class="row" style="margin:100px 0;">
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      </div>
+
+      <div class="row" id="typeface-selection" style="margin-top:60px;">
+        <div class="col-xl-6">
+        <img src="imgs/case-studies/developing-our-own-brand/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto">
+        </div>
+        <div class="col-xl-6" style="padding-left:90px;">
+          <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
         </div>
       </div>
 
       <div class="row" style="margin:100px 0;">
-        <div id="colour-scheme" class="col">
-          <p>The brand's <strong>colour palette</strong> is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
-          <div id="colour-swatches">
-            <div class="swatch" id="indigo">
-              <small>Indigo</small>
-            </div>
-            <div class="swatch" id="cream">
-              <small>Cream</small>
-            </div>
-            <div class="swatch" id="slate">
-              <small>Slate</small>
-            </div>
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      </div>
+
+      <div class="row" style="margin:100px 0;">
+        <div id="colour-swatches" class="col">
+          <div class="swatch" id="indigo">
+            <small>Indigo</small>
+          </div>
+          <div class="swatch" id="cream">
+            <small>Cream</small>
+          </div>
+          <div class="swatch" id="slate">
+            <small>Slate</small>
           </div>
         </div>
         <div class="col-xl-1">
-        <div style="height:200px;width:3px;display:block;margin:0px auto;background:#191947;"></div>
         </div>
-        <div id="visual-language" class="col">
+        <div id="colour-scheme" class="col">
+          <p>The brand's <strong>colour palette</strong> is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin:100px 0;">
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-6">
           <p>Our <strong>visual language</strong> compliments the other elements of our visual identity by featuring a system of 3D modelled visuals which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
         </div>
       </div>
@@ -246,6 +258,10 @@
         <div class="col" style="margin-top:200px;">
           <p>Our visual language system also counts with a particular <strong>illustration style</strong> characterized by simple, geometric artwork on the brand colours and with some soft gradients that compliment the opalescence of the Pearls.</p>
         </div>
+      </div>
+
+      <div class="row" style="margin:100px 0;">
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
       <div class="row" style="margin:100px 0;">
@@ -275,7 +291,11 @@
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;margin-top: -1380px;height:1400px;">
+      <div class="row" style="margin:100px 0;">
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      </div>
+
+      <div class="row">
         <div id="brand-touchpoints" class="col-xl-12" style="z-index:3;">
           <h2>5. Brand Touchpoints</h2>
           <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and Presentation slides.</p>
@@ -284,20 +304,33 @@
         <img src="imgs/case-studies/developing-our-own-brand/proposal-cover.png" style="position: absolute;width: 50%;right: 0;margin-top:200px;">
       </div>
 
+      <div class="row" style="margin:100px 0;">
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      </div>
+
       <div class="row">
-        <div id="web-development" class="col-xl-12" style="margin-top: -250px;">
+        <div id="web-development" class="col-xl-12">
           <h2>6. Web Development</h2>
           <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant, practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
         </div>
-        <div class="browser" id="web-design">
-          <div class="browser-circle">
+      </div>
+
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-xl-6">
+          <div class="browser" id="web-design">
+            <div class="browser-circle">
+            </div>
+            <div class="browser-circle">
+            </div>
+            <div class="browser-circle">
+            </div>
+            <div style="clear:both;"></div>
+            <img src="imgs/case-studies/developing-our-own-brand/web-design.jpg" style="border-radius: 0 0 8px 8px;">
           </div>
-          <div class="browser-circle">
-          </div>
-          <div class="browser-circle">
-          </div>
-          <div style="clear:both;"></div>
-          <img src="imgs/case-studies/developing-our-own-brand/web-design.jpg" style="border-radius: 0 0 8px 8px;box-shadow: #000000b3 0 0 30px;">
+        </div>
+        <div class="col-xl-6">
+          <img src="imgs/case-studies/developing-our-own-brand/web-mobile.png">
+        </div>
       </div>
 
       <div id="share" class="col-xl-12">

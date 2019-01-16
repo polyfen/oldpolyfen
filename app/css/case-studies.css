@@ -75,7 +75,7 @@ body.case-study div#logo-slider {
   margin-top: 30px;
 }
 
-div#typeface-selection p, div#brand-guidelines p, div#brand-touchpoints p, div#web-development p {
+div#brand-guidelines p, div#brand-touchpoints p, div#web-development p {
   width: 49%;
 }
 
@@ -84,7 +84,7 @@ div.swatch {
   width: 150px;
   border-radius: 800px;
   float: left;
-  margin: 40px 40px 0 0;
+  margin: -10px 60px 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,7 +163,7 @@ div#brand-guidelines {
 div.browser {
   border-radius: 8px;
   background: #05012A;
-  box-shadow: 20px 25px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.5);
   top: -600px;
   left: 55%;
   position: relative;
@@ -176,14 +176,13 @@ div.browser#logo-system-web {
   z-index: 4;
 }
 
-
 div.browser div.browser-circle {
   height: 18px;
   width: 18px;
   border-radius: 100px;
   float: left;
   background: #231E4E;
-  margin: 20px 0 20px 20px;
+  margin: 18px 0 18px 16px;
 }
 
 div#brand-touchpoints {
@@ -191,9 +190,9 @@ div#brand-touchpoints {
 }
 
 div.browser#web-design {
-  top: 40px;
+  top: 0px;
   left: 0;
-  max-width: 80%;
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5);
 }
 
 div#share {
