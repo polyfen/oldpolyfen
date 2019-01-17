@@ -14,12 +14,15 @@
   <meta property="og:url" content="http://polyfen.com/case-study.php"/>
   <meta name="keywords" content="Case Study, Process, Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
   <meta name="description" property="og:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
-  <meta property="og:image" content="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png"/>
+  <meta property="og:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png"/>
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="fb:app_id" content="1799272553516195" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@WeArePolyfen" />
   <meta name="twitter:title" content="Polyfen" />
   <meta name="twitter:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
-  <meta name="twitter:image" content="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" />
+  <meta name="twitter:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png" />
   <meta name="robots" content="index, follow">
 
   <!-- PAGE-SPECIFIC CSS -->
@@ -116,6 +119,8 @@
     <!-- INCLUDE HEADER.PHP start -->
       <?php include 'sections/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
+
+    <!--<img src="imgs/meta/case-study-thumbnail.png" style="position:absolute;top:0;right:0;height:1px;width:1px;visibility:hidden;">-->
 
     <section id="title">
       <h1>Developing our own brand</h1>
