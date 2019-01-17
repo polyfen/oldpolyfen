@@ -33,7 +33,7 @@ body.case-study section#title {
 #pearl-12 {
   width: 455px;
   height: 455px;
-  top: 220px;
+  top: 210px;
   left: 10px;
   display: block;
   background-image: url('../../imgs/cover/pearl-03-17-b.png');
@@ -73,10 +73,6 @@ body.case-study div#logo-slider {
   width: 100%;
   border-radius: 8px;
   margin-top: 30px;
-}
-
-div#brand-guidelines p, div#brand-touchpoints p, div#web-development p {
-  width: 49%;
 }
 
 div#colour-swatches {
@@ -146,7 +142,7 @@ div#slate {
   width: 455px;
   height: 455px;
   left: 64%;
-  margin-top: 300px;
+  margin-top: 330px;
   z-index: 2;
   position: absolute;
   display: block;
@@ -156,7 +152,7 @@ div#slate {
 #pearl-16 {
   width: 1100px;
   height: 1100px;
-  left: 85%;
+  left: 82%;
   margin-top: -200px;
   position: absolute;
   display: block;

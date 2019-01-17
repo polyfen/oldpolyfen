@@ -89,6 +89,10 @@ p, p a, li, p strong, p span /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+p {
+  margin-bottom: 2rem;
+}
+
 button, a.button /* (mobile) */ {
   font-size: 16px;
   letter-spacing: 1.4px;
@@ -261,7 +265,7 @@ p a:hover {
 
   h2 {
     font-size: 52px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
   }
 
   h3 {

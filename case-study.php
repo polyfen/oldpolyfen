@@ -216,11 +216,11 @@
             <div class="swatch" id="indigo">
               <small>Indigo</small>
             </div>
-            <div class="swatch" id="slate">
-              <small>Slate</small>
-            </div>
             <div class="swatch" id="cream">
               <small>Cream</small>
+            </div>
+            <div class="swatch" id="slate">
+              <small>Slate</small>
             </div>
           </div>
           <p>The brand's <strong>colour palette</strong> is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
@@ -268,30 +268,36 @@
       </div>
 
       <div class="row" style="margin:100px 0;">
-        <div id="brand-guidelines" class="col-xl-12">
+        <div id="brand-guidelines" class="col">
           <h2>4. Brand Guidelines</h2>
           <p>To ensure a consistent use of all the parameters that we have established to identify our brand, we developed a web page with all guidelines and resources necessary for our organization. The web guidelines can be updated as our brand evolves, and it’s conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
         </div>
-        <div class="browser">
-          <div class="browser-circle">
-          </div>
-          <div class="browser-circle">
-          </div>
-          <div class="browser-circle">
-          </div>
-          <div style="clear:both;"></div>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/etymology.jpg" style="border-radius: 0 0 8px 8px;">
+        <div class="col-xl-1">
         </div>
-        <div class="browser" id="logo-system-web">
-          <div class="browser-circle">
-          </div>
-          <div class="browser-circle">
-          </div>
-          <div class="browser-circle">
-          </div>
-          <div style="clear:both;"></div>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" style="border-radius: 0 0 8px 8px;box-shadow: #000000b3 0 0 30px;">
+        <div class="col">
         </div>
+      </div>
+
+      <div class="browser">
+        <div class="browser-circle">
+        </div>
+        <div class="browser-circle">
+        </div>
+        <div class="browser-circle">
+        </div>
+        <div style="clear:both;"></div>
+        <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/etymology.jpg" style="border-radius: 0 0 8px 8px;">
+      </div>
+
+      <div class="browser" id="logo-system-web">
+        <div class="browser-circle">
+        </div>
+        <div class="browser-circle">
+        </div>
+        <div class="browser-circle">
+        </div>
+        <div style="clear:both;"></div>
+        <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" style="border-radius: 0 0 8px 8px;box-shadow: #000000b3 0 0 30px;">
       </div>
 
       <div class="row" style="margin:100px 0;">
@@ -299,22 +305,31 @@
       </div>
 
       <div class="row">
-        <div id="brand-touchpoints" class="col-xl-12" style="z-index:3;">
+        <div id="brand-touchpoints" class="col" style="z-index:3;">
           <h2>5. Brand Touchpoints</h2>
-          <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and Presentation slides.</p>
+          <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
         </div>
-        <img src="imgs/case-studies/developing-our-own-brand/business-cards.png" style="position: absolute;left: 0;width: 45%;margin-top: 350px;z-index:2;">
-        <img src="imgs/case-studies/developing-our-own-brand/proposal-cover.png" style="position: absolute;width: 50%;right: 0;margin-top:200px;">
+        <div class="col-xl-1">
+        </div>
+        <div class="col">
+        </div>
       </div>
+
+        <img src="imgs/case-studies/developing-our-own-brand/business-cards.png" style="position: absolute;width: 45%;z-index: 2;left: 0;margin-top: -540px">
+        <img src="imgs/case-studies/developing-our-own-brand/proposal-cover.png" style="position: absolute;width: 48%;right: 0;margin-top: 180px;display:none;">
 
       <div class="row" style="margin:100px 0;">
         <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
       <div class="row">
-        <div id="web-development" class="col-xl-12">
+        <div id="web-development" class="col">
           <h2>6. Web Development</h2>
-          <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant, practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
+          <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
+        </div>
+        <div class="col-xl-1">
+        </div>
+        <div class="col">
         </div>
       </div>
 
@@ -330,9 +345,6 @@
             <div style="clear:both;"></div>
             <img src="imgs/case-studies/developing-our-own-brand/web-design.jpg" style="border-radius: 0 0 8px 8px;">
           </div>
-        </div>
-        <div class="col-xl-6">
-          <img src="imgs/case-studies/developing-our-own-brand/web-mobile.png">
         </div>
       </div>
 
