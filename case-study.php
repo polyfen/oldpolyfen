@@ -140,28 +140,28 @@
         </div>
 
         <div class="col-xl-1">
-          <div style="height:790px;width:3px;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
+          <div style="height:790px;width:3px;display:block;margin:0px auto;background:#191947;"></div>
         </div>
 
         <div id="brand-research" class="col">
           <h2>2. Brand Strategy</h2>
           <p>We developed a strategy for expressing our business proposal as a brand focused on the core concept <strong>The midpoint between business & creativity</strong>.</p>
           <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable brand name that also carries a sound of playfulness as an abstract word with no other meaning.</p>
-          <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard" title="moodboard" alt="moodboard">
+          <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard" title="moodboard" alt="moodboard" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
         </div>
       </div>
 
       <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
       <div class="row" style="margin-top: 100px;">
         <div id="logo-grid" class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid">
+          <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
         </div>
 
         <div class="col-xl-1">
-          <div style="height:680px;width:3px;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
+          <div style="height:680px;width:3px;display:block;margin:0px auto;background:#191947;"></div>
         </div>
 
         <div class="col">
@@ -169,7 +169,7 @@
             <h2>3. Visual Identity</h2>
             <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible, while remaining clean, simple, and utilitarian as possible.</p>
             <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
-            <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500">
+            <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-meaning.png" alt="ideogram-meaning">
@@ -197,7 +197,7 @@
       </div>
 
       <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
       <div class="row" id="typeface-selection" style="margin-top:60px;">
@@ -208,7 +208,7 @@
 
 
         <div class="col-xl-1">
-          <div style="height:420px;width:3px;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
+          <div style="height:420px;width:3px;display:block;margin:0px auto;background:#191947;"></div>
         </div>
 
         <div class="col">
@@ -228,7 +228,7 @@
       </div>
 
       <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
       <div class="row">
@@ -267,83 +267,61 @@
         <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div id="brand-guidelines" class="col">
-          <h2>4. Brand Guidelines</h2>
-          <p>To ensure a consistent use of all the parameters that we have established to identify our brand, we developed a web page with all guidelines and resources necessary for our organization. The web guidelines can be updated as our brand evolves, and it’s conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
+      <div id="brand-guidelines">
+        <div class="row" style="margin:100px 0;">
+          <div class="col">
+            <h2>4. Brand Guidelines</h2>
+            <p>To ensure a consistent use of all the parameters that we have established to identify our brand, we developed a web page with all guidelines and resources necessary for our organization. The web guidelines can be updated as our brand evolves, and it’s conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
+          </div>
+          <div class="col-xl-1">
+          </div>
+          <div class="col">
+            <div class="browser" id="naming-web">
+              <div class="browser-circle">
+              </div>
+              <div class="browser-circle">
+              </div>
+              <div class="browser-circle">
+              </div>
+              <div style="clear:both;"></div>
+              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" style="border-radius: 0 0 8px 8px;">
+            </div>
+          </div>
         </div>
-        <div class="col-xl-1">
-        </div>
-        <div class="col">
-        </div>
-      </div>
-
-      <div class="browser">
-        <div class="browser-circle">
-        </div>
-        <div class="browser-circle">
-        </div>
-        <div class="browser-circle">
-        </div>
-        <div style="clear:both;"></div>
-        <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/etymology.jpg" style="border-radius: 0 0 8px 8px;">
-      </div>
-
-      <div class="browser" id="logo-system-web">
-        <div class="browser-circle">
-        </div>
-        <div class="browser-circle">
-        </div>
-        <div class="browser-circle">
-        </div>
-        <div style="clear:both;"></div>
-        <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" style="border-radius: 0 0 8px 8px;box-shadow: #000000b3 0 0 30px;">
       </div>
 
       <div class="row" style="margin:100px 0;">
         <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
-      <div class="row">
-        <div id="brand-touchpoints" class="col" style="z-index:3;">
-          <h2>5. Brand Touchpoints</h2>
-          <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
-        </div>
-        <div class="col-xl-1">
-        </div>
-        <div class="col">
+      <div id="brand-touchpoints">
+        <div class="row">
+          <div class="col" style="z-index:3;">
+            <h2>5. Brand Touchpoints</h2>
+            <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
+          </div>
+          <div class="col-xl-1">
+          </div>
+          <div class="col">
+            <img src="imgs/case-studies/developing-our-own-brand/Instagram_PLY_Activity_03-C.png" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+          </div>
         </div>
       </div>
-
-        <img src="imgs/case-studies/developing-our-own-brand/business-cards.png" style="position: absolute;width: 45%;z-index: 2;left: 0;margin-top: -540px">
-        <img src="imgs/case-studies/developing-our-own-brand/proposal-cover.png" style="position: absolute;width: 48%;right: 0;margin-top: 180px;display:none;">
 
       <div class="row" style="margin:100px 0;">
         <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
       </div>
 
-      <div class="row">
-        <div id="web-development" class="col">
-          <h2>6. Web Development</h2>
-          <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
-        </div>
-        <div class="col-xl-1">
-        </div>
-        <div class="col">
-        </div>
-      </div>
-
-      <div class="row" style="margin-top: 100px;">
-        <div class="col-xl-6">
-          <div class="browser" id="web-design">
-            <div class="browser-circle">
-            </div>
-            <div class="browser-circle">
-            </div>
-            <div class="browser-circle">
-            </div>
-            <div style="clear:both;"></div>
-            <img src="imgs/case-studies/developing-our-own-brand/web-design.jpg" style="border-radius: 0 0 8px 8px;">
+      <div id="web-development">
+        <div class="row">
+          <div class="col">
+            <h2>6. Web Development</h2>
+            <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
+          </div>
+          <div class="col-xl-1">
+          </div>
+          <div class="col">
+            <img src="imgs/case-studies/developing-our-own-brand/web-mobile.png" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
           </div>
         </div>
       </div>

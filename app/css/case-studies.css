@@ -97,6 +97,7 @@ div.swatch small {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   opacity: 0.9;
+  margin-top: 6px;
 }
 
 div#indigo {
@@ -159,43 +160,22 @@ div#slate {
   background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/12.png');
 }
 
-div#brand-guidelines {
-  height: 600px;
-}
-
 div.browser {
   border-radius: 8px;
   background: #05012A;
   box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.5);
-  top: -600px;
-  left: 55%;
   position: relative;
-  z-index: 3;
-}
-
-div.browser#logo-system-web {
-  top: -1105px;
-  left: 70%;
-  z-index: 4;
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5);
+  top: -40px;
 }
 
 div.browser div.browser-circle {
-  height: 18px;
-  width: 18px;
+  height: 14px;
+  width: 14px;
   border-radius: 100px;
   float: left;
   background: #231E4E;
-  margin: 18px 0 18px 16px;
-}
-
-div#brand-touchpoints {
-  height: 800px;
-}
-
-div.browser#web-design {
-  top: 0px;
-  left: 0;
-  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5);
+  margin: 18px 0 18px 14px;
 }
 
 div#share {
@@ -205,7 +185,7 @@ div#share {
 div.share-separator {
   height: 4px;
   width: 33%;
-  margin: 200px auto 50px;
+  margin: 130px auto 70px;
   background: #191947;
 }
 
