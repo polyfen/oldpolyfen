@@ -79,12 +79,18 @@ div#brand-guidelines p, div#brand-touchpoints p, div#web-development p {
   width: 49%;
 }
 
+div#colour-swatches {
+  width: 100%;
+  display: flex;
+  justify-content: space-between  ;
+}
+
 div.swatch {
   height: 150px;
-  width: 150px;
-  border-radius: 800px;
+  width: 200px;
+  border-radius: 8px;
   float: left;
-  margin: -10px 60px 0 0;
+  margin:  10px 0 65px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,13 +119,14 @@ div#cream small {
 
 div#slate {
   background: #1B1D6A;
-  box-shadow: 0 0 15px #1B1D6A;
+  box-shadow: 0 0 15px #1D21B1;
 }
 
 #pearl-13 {
-  width: 600px;
-  height: 600px;
-  left: 70px;
+  width: 500px;
+  height: 500px;
+  left: 260px;
+  margin-top: 80px;
   position: absolute;
   display: block;
   background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/09.png');
@@ -128,8 +135,8 @@ div#slate {
 #pearl-14 {
   width: 400px;
   height: 400px;
-  left: 47%;
-  margin-top: -100px;
+  left: 50%;
+  margin-top: -150px;
   position: absolute;
   display: block;
   background-image: url('../../imgs/case-studies/developing-our-own-brand/pearls/pearl-03-17-b.png');
@@ -138,8 +145,8 @@ div#slate {
 #pearl-15 {
   width: 455px;
   height: 455px;
-  left: 65%;
-  margin-top: 250px;
+  left: 64%;
+  margin-top: 300px;
   z-index: 2;
   position: absolute;
   display: block;

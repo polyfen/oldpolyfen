@@ -131,7 +131,7 @@
         <div id="brand-research" class="col">
           <h2>1. Brand Research</h2>
           <p>We conducted an exhaustive analysis of our business proposal, our industry and competitors, and our audience.</p>
-          <p>Our conclusion was that most of our competitors market themselves as</p>
+          <p>Our conclusion was that most of our competitors market themselves as:</p>
           <ol>
             <li>business-oriented targeting an executive audience with a very sober and simple visual identity, while</li>
             <li>the other half of our competitors focus on expressing their creative talent gaining popularity amongst the creative industry with a very quirky and playful brand.</li>
@@ -140,6 +140,7 @@
         </div>
 
         <div class="col-xl-1">
+          <div style="height:790px;width:3px;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
         </div>
 
         <div id="brand-research" class="col">
@@ -151,19 +152,22 @@
       </div>
 
       <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
       </div>
 
       <div class="row" style="margin-top: 100px;">
-        <div id="logo-grid" class="col-xl-6">
+        <div id="logo-grid" class="col">
           <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid">
         </div>
-        <div class="col-xl-6" style="padding-left:90px;">
+
+        <div class="col-xl-1">
+          <div style="height:680px;width:3px;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
+        </div>
+
+        <div class="col">
           <div id="overview">
             <h2>3. Visual Identity</h2>
             <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible, while remaining clean, simple, and utilitarian as possible.</p>
-          </div>
-          <div id="logo-system">
             <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
             <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500">
               <div class="carousel-inner" role="listbox">
@@ -188,53 +192,52 @@
               <div class="navigation-bullet inactive-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
             </div>
-          </div>
         </div>
+      </div>
       </div>
 
       <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
       </div>
 
       <div class="row" id="typeface-selection" style="margin-top:60px;">
-        <div class="col-xl-6">
-        <img src="imgs/case-studies/developing-our-own-brand/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto">
+        <div class="col">
+          <img src="imgs/case-studies/developing-our-own-brand/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" style="margin-bottom:50px;">
+          <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
         </div>
-        <div class="col-xl-6" style="padding-left:90px;">
-          <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
-        </div>
-      </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
-      </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div id="colour-swatches" class="col">
-          <div class="swatch" id="indigo">
-            <small>Indigo</small>
-          </div>
-          <div class="swatch" id="cream">
-            <small>Cream</small>
-          </div>
-          <div class="swatch" id="slate">
-            <small>Slate</small>
-          </div>
-        </div>
         <div class="col-xl-1">
+          <div style="height:420px;width:3px;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
         </div>
-        <div id="colour-scheme" class="col">
+
+        <div class="col">
+          <div id="colour-swatches">
+            <div class="swatch" id="indigo">
+              <small>Indigo</small>
+            </div>
+            <div class="swatch" id="slate">
+              <small>Slate</small>
+            </div>
+            <div class="swatch" id="cream">
+              <small>Cream</small>
+            </div>
+          </div>
           <p>The brand's <strong>colour palette</strong> is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
         </div>
       </div>
 
       <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;opacity:0.4;"></div>
       </div>
 
       <div class="row">
-        <div class="col-xl-6">
-          <p>Our <strong>visual language</strong> compliments the other elements of our visual identity by featuring a system of 3D modelled visuals which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+        <div class="col">
+          <p>Our <strong>visual language</strong> compliments the other elements of our visual identity by featuring a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled visual objects which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+        </div>
+        <div class="col-xl-1">
+        </div>
+        <div class="col">
         </div>
       </div>
 
