@@ -147,7 +147,7 @@
           <h2>2. Brand Strategy</h2>
           <p>We developed a strategy for expressing our business proposal as a brand focused on the core concept <strong>The midpoint between business & creativity</strong>.</p>
           <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable brand name that also carries a sound of playfulness as an abstract word with no other meaning.</p>
-          <img src="imgs/case-studies/developing-our-own-brand/MOODBOARD_PLY_Brand.png" id="moodboard" title="moodboard" alt="moodboard" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
         </div>
       </div>
 
@@ -157,7 +157,7 @@
 
       <div class="row" style="margin-top: 100px;">
         <div id="logo-grid" class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-grid-square.gif" alt="ideogram-grid" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid-square.gif" alt="ideogram-grid" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
         </div>
 
         <div class="col-xl-1">
@@ -190,7 +190,6 @@
               <div class="navigation-bullet inactive-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
             </div>
         </div>
       </div>
@@ -202,7 +201,7 @@
 
       <div class="row" id="typeface-selection" style="margin-top:60px;">
         <div class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" style="margin-bottom:50px;">
+          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" style="margin-bottom:50px;">
           <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
         </div>
 
@@ -254,7 +253,7 @@
 
       <div class="row">
         <div class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/ILUS_PLY_Folder.svg">
+          <img src="imgs/case-studies/developing-our-own-brand/visual-language/folder-illustration.svg">
         </div>
         <div class="col-xl-1">
         </div>
@@ -296,14 +295,15 @@
 
       <div id="brand-touchpoints">
         <div class="row">
-          <div class="col" style="z-index:3;">
-            <h2>5. Brand Touchpoints</h2>
-            <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
+          <div class="col">
+            <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.png" alt="emblem-grid" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
           </div>
           <div class="col-xl-1">
           </div>
-          <div class="col">
-            <img src="imgs/case-studies/developing-our-own-brand/Instagram_PLY_Activity_03-C.png" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+          <div class="col" style="z-index:3;">
+            <h2>5. Brand Touchpoints</h2>
+            <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
+            <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.png" alt="ideogram-meaning" style="margin-left:-35px;margin-top:35px;">
           </div>
         </div>
       </div>
@@ -317,11 +317,21 @@
           <div class="col">
             <h2>6. Web Development</h2>
             <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
+            <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);margin-top:40px;">
           </div>
           <div class="col-xl-1">
           </div>
           <div class="col">
-            <img src="imgs/case-studies/developing-our-own-brand/web-mobile.png" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+            <div class="browser" id="naming-web">
+              <div class="browser-circle">
+              </div>
+              <div class="browser-circle">
+              </div>
+              <div class="browser-circle">
+              </div>
+              <div style="clear:both;"></div>
+              <img src="imgs/case-studies/developing-our-own-brand/web-development/web-design.jpg" style="border-radius: 0 0 8px 8px;">
+            </div>
           </div>
         </div>
       </div>
