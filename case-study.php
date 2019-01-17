@@ -120,8 +120,6 @@
       <?php include 'sections/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <!--<img src="imgs/meta/case-study-thumbnail.png" style="position:absolute;top:0;right:0;height:1px;width:1px;visibility:hidden;">-->
-
     <section id="title">
       <h1>Developing our own brand</h1>
       <div id="pearl-11" class="pearl rotate-slower">
