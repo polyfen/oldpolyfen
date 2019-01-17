@@ -88,6 +88,3 @@
 
     gtag('config', 'UA-122656172-1');
   </script>
-
-
-</head>
