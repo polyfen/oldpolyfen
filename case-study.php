@@ -175,16 +175,16 @@
             <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-meaning.png" alt="ideogram-meaning">
+                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.png" alt="ideogram-meaning">
                 </div>
                 <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-variations.png" alt="ideogram-variations">
+                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-variations.png" alt="ideogram-variations">
                 </div>
                 <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/emblem-grid.png" alt="emblem-grid">
+                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/emblem-grid.png" alt="emblem-grid">
                 </div>
                 <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/logo-system/ideogram-mockup.png" alt="ideogram-mockup">
+                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-mockup.png" alt="ideogram-mockup">
                 </div>
               </div>
             </div>
@@ -256,7 +256,7 @@
 
       <div class="row">
         <div class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/visual-language/folder-illustration.svg">
+          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/folder-illustration.svg">
         </div>
         <div class="col-xl-1">
         </div>

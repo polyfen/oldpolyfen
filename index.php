@@ -116,7 +116,7 @@
             <section class="case-project">
               <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"></div></a>
               <a href="case-study.php"><div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block">
-                <img src="imgs/case-studies/developing-our-own-brand/polyfen-ideogram-grid.gif" height="100%" width="auto" style="border-radius:8px;">
+                <img src="imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.gif" height="100%" width="auto" style="border-radius:8px;">
               </div></a>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
