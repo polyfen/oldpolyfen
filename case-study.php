@@ -274,7 +274,7 @@
         <div class="row" style="margin:100px 0;">
           <div class="col">
             <h2>4. Brand Guidelines</h2>
-            <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and resources necessary for our organisation.</p>
+            <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and assets necessary for our organisation.</p>
             <p>Our brand guidelines can be easily updated as our brand evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
           </div>
           <div class="col-xl-1">

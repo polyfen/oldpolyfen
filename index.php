@@ -119,7 +119,7 @@
               </div></a>
               <div class="project-description">
                 <h3>Developing our own brand</h3>
-                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and creativity. <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A clean and professional look with a distinctive flair.</span></p>
+                <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and creativity. <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A brand with a clean and professional look, yet with a playful and whimsical flair.</span></p>
                 <a class="secondary-button" href="case-study.php">View project ›</a>
               </div>
             </section>
@@ -171,7 +171,7 @@
                   <li>Moodboard</li>
                   <li>Voice</li>
                   <li>Naming</li>
-                  <li>Key Messages</li>
+                  <li>Key messages</li>
                   <li>Slogan</li>
                 </ul>
               </div>
@@ -208,7 +208,7 @@
                   <h4><span class="d-none d-xl-inline">4. </span>Brand Guidelines</h4>
                 </div>
                 <p>
-                  A summary of all the strategic parameters and visual assets that make up your brand identity.
+                  A summary of all the strategic parameters and visual assets that constitute the brand identity.
                 </p>
               </div>
 
@@ -286,7 +286,7 @@
             <h2 class="d-none d-sm-block d-md-block d-lg-block d-xl-block">The link between business &amp; creativity</h2>
             <img src="imgs/about/illustration.svg">
             <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
-            <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for emerging businesses who need guidance in translating their business into a creative brand identity.</p>
+            <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
       </section>
 
     </div>
