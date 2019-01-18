@@ -141,15 +141,9 @@
               <div class="horizontal-separator">
               </div>
 
-              <div class="horizontal-separator">
-              </div>
-
-              <div class="horizontal-separator">
-              </div>
-
               <div style="clear:both;" class="d-none d-xl-block"></div>
 
-              <div class="service-card">
+              <div class="service-card" id="brand-research-card">
                 <img src="imgs/services/brand-research-circle.svg" class="d-none d-xl-block">
                 <div id="brand-research" class="service-heading">
                   <img src="imgs/services/brand-research-icon.svg" class="d-xl-none">
@@ -206,15 +200,9 @@
               <div class="horizontal-separator">
               </div>
 
-              <div class="horizontal-separator">
-              </div>
-
-              <div class="horizontal-separator">
-              </div>
-
               <div style="clear:both;" class="d-none d-xl-block"></div>
 
-              <div class="service-card">
+              <div class="service-card" id="brand-guidelines-card">
                 <img src="imgs/services/brand-guidelines-circle.svg" class="d-none d-xl-block">
                 <div id="brand-guidelines" class="service-heading">
                   <img src="imgs/services/brand-guidelines-icon.svg" class="d-xl-none">
@@ -265,12 +253,6 @@
             </div>
 
             <div style="clear:both;" class="d-none d-xl-block"></div>
-
-            <div class="horizontal-separator">
-            </div>
-
-            <div class="horizontal-separator">
-            </div>
 
             <div class="horizontal-separator">
             </div>

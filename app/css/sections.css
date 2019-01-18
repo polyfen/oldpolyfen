@@ -624,9 +624,13 @@ section#call-to-action {
       section#services div.service-card {
         width: calc(33% - 12px);
         margin: 0;
-        padding: 40px 40px;
+        padding: 40px 60px;
         background: none;
         height: 500px;
+      }
+
+      section#services div.service-card#brand-research-card, section#services div.service-card#brand-guidelines-card {
+        padding-left: 20px;
       }
 
       section#services div.service-card div.service-heading {
@@ -665,8 +669,8 @@ section#call-to-action {
 
       section#services div.horizontal-separator {
         background: rgba(25, 25, 71, 0.03);
-        width: calc(33% - 94px);
-        margin: 0 40px;
+        width: 100%;
+        margin: 0;
         height: 3px;
         display: block;
         float: left;
