@@ -133,13 +133,13 @@
       <div class="row">
         <div id="brand-research" class="col">
           <h2>1. Brand Research</h2>
-          <p>We conducted an exhaustive analysis of our business proposal, our industry and competitors, and our audience.</p>
-          <p>Our conclusion was that most of our competitors market themselves as:</p>
+          <p>We started by conducting an exhaustive analysis of our business offering, our industry and competitors, and our audience.</p>
+          <p>Our conclusion was that most creative agencies position their brands in one of two different ways.</p>
           <ol>
-            <li>business-oriented targeting an executive audience with a very sober and simple visual identity, while</li>
-            <li>the other half of our competitors focus on expressing their creative talent gaining popularity amongst the creative industry with a very quirky and playful brand.</li>
+            <li>Some creative agencies, <strong>the business-oriented</strong>, focus on targeting an executive audience with a very sober and simple visual identity.</li>
+            <li>Other agencies, <strong>the peculiarly creative</strong>, focus on showcasing their artistic talents gaining popularity amongst the creative industry with a quirky and playful brand.</li>
           </ol>
-          <p>Based on our business proposal, our conclusion was to position our brand as something in between the business-oriented and the peculiarly creative.</p>
+          <p>Based on our business proposal, our conclusion was to position our brand in between (A) the business-oriented and (B) the peculiarly creative.</p>
         </div>
 
         <div class="col-xl-1">
@@ -148,8 +148,9 @@
 
         <div id="brand-research" class="col">
           <h2>2. Brand Strategy</h2>
-          <p>We developed a strategy for expressing our business proposal as a brand focused on the core concept <strong>The midpoint between business & creativity</strong>.</p>
-          <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable brand name that also carries a sound of playfulness as an abstract word with no other meaning.</p>
+          <p>We continued narrowing down a direction for the look and feel of our brand by defining a core concept that would guide our creative process.</p>
+          <p>The choice of our brand name, the design of our logo system, and our website, and all the other elements that make up our brand identity are all rooted in representing our creative concept, <strong>the midpoint between business & creativity</strong>.</p>
+          <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable, efficient brand name that also carries whimsical tone as an arbitrary, abstract word with no original meaning.</p>
           <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
         </div>
       </div>
@@ -170,8 +171,8 @@
         <div class="col">
           <div id="overview">
             <h2>3. Visual Identity</h2>
-            <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible, while remaining clean, simple, and utilitarian as possible.</p>
-            <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The left hemisphere of the brain (analytical), and the right hemisphere (emotional).</p>
+            <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible while remaining clean, simple, and utilitarian as possible.</p>
+            <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The analytical hemisphere of the brain, and the emotional hemisphere.</p>
             <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -225,7 +226,7 @@
               <small>Slate</small>
             </div>
           </div>
-          <p>The brand's <strong>colour palette</strong> is characterised by a distinctive accent colour that can be identified as <strong>Polyfen Indigo</strong>, a vibrant and memorable hue between blue and purple.</p>
+          <p>The brand's <strong>colour palette</strong> is characterised by a distinctive, eye-catching accent colour, a vibrant hue between blue and purple that we call <strong>Polyfen Indigo</strong>.</p>
         </div>
       </div>
 
@@ -235,7 +236,7 @@
 
       <div class="row">
         <div class="col">
-          <p>Our <strong>visual language</strong> compliments the other elements of our visual identity by featuring a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled visual objects which we call <strong>Pearls</strong>. These elements can be featured on the backgrounds of our brand touchpoints as a trademark that makes our visual identity distinctive and memorable.</p>
+          <p>Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects that we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
         </div>
         <div class="col-xl-1">
         </div>
@@ -261,7 +262,7 @@
         <div class="col-xl-1">
         </div>
         <div class="col" style="margin-top:200px;">
-          <p>Our visual language system also counts with a particular <strong>illustration style</strong> characterized by simple, geometric artwork on the brand colours and with some soft gradients that compliment the opalescence of the Pearls.</p>
+          <p>Our visual language also counts with a specific <strong>illustration style</strong> characterised by simple, geometric shapes set in the brand colours with soft gradients that complement the opalescence of the Pearls.</p>
         </div>
       </div>
 
@@ -273,7 +274,8 @@
         <div class="row" style="margin:100px 0;">
           <div class="col">
             <h2>4. Brand Guidelines</h2>
-            <p>To ensure a consistent use of all the parameters that we have established to identify our brand, we developed a web page with all guidelines and resources necessary for our organization. The web guidelines can be updated as our brand evolves, and it’s conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
+            <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and resources necessary for our organisation.</p>
+            <p>Our brand guidelines can be easily updated as our brand evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
           </div>
           <div class="col-xl-1">
           </div>
@@ -305,7 +307,7 @@
           </div>
           <div class="col" style="z-index:3;">
             <h2>5. Brand Touchpoints</h2>
-            <p>We designed a system of all the branded applications that our business needed; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
+            <p>We designed a system of all the branded applications needed for our business activities; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
             <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.png" alt="ideogram-meaning" style="margin-left:-35px;margin-top:35px;">
           </div>
         </div>
@@ -319,7 +321,7 @@
         <div class="row">
           <div class="col">
             <h2>6. Web Development</h2>
-            <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer a memorable user experience.</p>
+            <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
             <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);margin-top:40px;">
           </div>
           <div class="col-xl-1">
