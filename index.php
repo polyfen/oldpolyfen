@@ -143,7 +143,11 @@
               <div style="clear:both;" class="d-none d-xl-block"></div>
 
               <div class="service-card" id="brand-research-card">
-                <img src="imgs/services/brand-research-circle.svg" class="d-none d-xl-block">
+                <div class="d-none d-xl-block">
+                  <img src="imgs/services/brand-research-icon.svg">
+                  <div class="icon-gradient rotate">
+                  </div>
+                </div>
                 <div id="brand-research" class="service-heading">
                   <img src="imgs/services/brand-research-icon.svg" class="d-xl-none">
                   <h4><span class="d-none d-xl-inline">1. </span>Brand Research</h4>
@@ -159,8 +163,12 @@
               <div class="separator">
               </div>
 
-              <div class="service-card">
-                <img src="imgs/services/brand-strategy-circle.svg" class="d-none d-xl-block">
+              <div class="service-card" id="brand-strategy-card">
+                <div class="d-none d-xl-block">
+                  <img src="imgs/services/brand-strategy-icon.svg">
+                  <div class="icon-gradient rotate">
+                  </div>
+                </div>
                 <div id="brand-strategy" class="service-heading">
                   <img src="imgs/services/brand-strategy-icon.svg" class="d-xl-none">
                   <h4><span class="d-none d-xl-inline">2. </span>Brand Strategy</h4>
@@ -179,8 +187,12 @@
               <div class="separator">
               </div>
 
-              <div class="service-card">
-                <img src="imgs/services/visual-identity-circle.svg" class="d-none d-xl-block">
+              <div class="service-card" id="visual-identity-card">
+                <div class="d-none d-xl-block">
+                  <img src="imgs/services/visual-identity-icon.svg">
+                  <div class="icon-gradient rotate">
+                  </div>
+                </div>
                 <div id="visual-identity" class="service-heading">
                   <img src="imgs/services/visual-identity-icon.svg" class="d-xl-none">
                   <h4><span class="d-none d-xl-inline">3. </span>Visual Identity</h4>
@@ -202,7 +214,11 @@
               <div style="clear:both;" class="d-none d-xl-block"></div>
 
               <div class="service-card" id="brand-guidelines-card">
-                <img src="imgs/services/brand-guidelines-circle.svg" class="d-none d-xl-block">
+                <div class="d-none d-xl-block">
+                  <img src="imgs/services/brand-guidelines-icon.svg">
+                  <div class="icon-gradient rotate">
+                  </div>
+                </div>
                 <div id="brand-guidelines" class="service-heading">
                   <img src="imgs/services/brand-guidelines-icon.svg" class="d-xl-none">
                   <h4><span class="d-none d-xl-inline">4. </span>Brand Guidelines</h4>
@@ -215,8 +231,12 @@
               <div class="separator">
               </div>
 
-              <div class="service-card">
-                <img src="imgs/services/brand-touchpoints-circle.svg" class="d-none d-xl-block">
+              <div class="service-card" id="brand-touchpoints-card">
+                <div class="d-none d-xl-block">
+                  <img src="imgs/services/brand-touchpoints-icon.svg">
+                  <div class="icon-gradient rotate">
+                  </div>
+                </div>
                 <div id="brand-touchpoints" class="service-heading">
                   <img src="imgs/services/brand-touchpoints-icon.svg" class="d-xl-none">
                   <h4><span class="d-none d-xl-inline">5. </span>Brand Touchpoints</h4>
@@ -234,8 +254,12 @@
               <div class="separator">
               </div>
 
-              <div class="service-card">
-                <img src="imgs/services/web-development-circle.svg" class="d-none d-xl-block">
+              <div class="service-card" id="web-development-card">
+                <div class="d-none d-xl-block">
+                  <img src="imgs/services/web-development-icon.svg">
+                  <div class="icon-gradient rotate">
+                  </div>
+                </div>
                 <div id="web-development" class="service-heading">
                   <img src="imgs/services/web-development-icon.svg" class="d-xl-none">
                   <h4><span class="d-none d-xl-inline">6. </span>Web Development</h4>
