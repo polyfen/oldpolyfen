@@ -359,6 +359,16 @@ section#call-to-action {
          float: left;
          height: 280px;
          border-radius: 8px;
+         background-size: 100%;
+         background-position: center;
+         -webkit-transition: all 0.5s; /* Safari */
+         transition: all 0.5s;
+        }
+
+        section#case-studies section.case-project div.project-cover:hover, section#case-studies section.case-project div.project-thumbnail:hover {
+          background-size: 115%  !important;
+          -webkit-transition: all 0.5s; /* Safari */
+          transition: all 0.5s;
         }
 
         section#case-studies section.case-project div.project-description {
@@ -589,7 +599,7 @@ section#call-to-action {
       }
 
       section#case-studies section.case-project div.project-thumbnail {
-         width: auto;
+         width: 380px;
          height: 224px;
          border-radius: 8px;
          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -597,9 +607,14 @@ section#call-to-action {
          position: absolute;
          left: calc(50% - 270px);
          margin-top: 360px;
-         display: flex;
-         align-items: center;
-         justify-content: center;
+         background-size: 100% !important;
+         background-position: center !important;
+         -webkit-transition: all 0.5s; /* Safari */
+         transition: all 0.5s;
+      }
+
+      section#case-studies section.case-project div.project-thumbnail#polyfen-thumbnail {
+        background: url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.gif');
       }
 
       section#case-studies section.case-project div.project-description {
