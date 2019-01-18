@@ -673,32 +673,32 @@ section#call-to-action {
 
       section#services div#brand-research-card div.icon-gradient {
         background: rgb(120,0,255);
-        background: linear-gradient(-30deg, rgba(120,0,255,0.35) 30%, rgba(120,0,255,0.9) 100%);
+        background: linear-gradient(45deg, rgba(120,0,255,0.2) 0%, rgba(120,0,255,0.9) 100%);
       }
 
       section#services div#brand-strategy-card div.icon-gradient {
         background: rgb(104,42,236);
-        background: linear-gradient(-30deg, rgba(104,42,236,0.35) 30%, rgba(104,42,236,1) 100%);
+        background: linear-gradient(45deg, rgba(104,42,236,0.2) 0%, rgba(104,42,236,1) 100%);
       }
 
       section#services div#visual-identity-card div.icon-gradient {
         background: rgb(89,84,217);
-        background: linear-gradient(-30deg, rgba(89,84,217,0.35) 30%, rgba(89,84,217,1) 100%);
+        background: linear-gradient(45deg, rgba(89,84,217,0.2) 0%, rgba(89,84,217,1) 100%);
       }
 
       section#services div#brand-guidelines-card div.icon-gradient {
         background: rgb(73,125,199);
-        background: linear-gradient(-30deg, rgba(73,125,199,0.35) 30%, rgba(73,125,199,1) 100%);
+        background: linear-gradient(45deg, rgba(73,125,199,0.2) 0%, rgba(73,125,199,1) 100%);
       }
 
       section#services div#brand-touchpoints-card div.icon-gradient {
         background: rgb(58,167,180);
-        background: linear-gradient(-30deg, rgba(58,167,180,0.35) 30%, rgba(58,167,180,1) 100%);
+        background: linear-gradient(45deg, rgba(58,167,180,0.2) 0%, rgba(58,167,180,1) 100%);
       }
 
       section#services div#web-development-card div.icon-gradient {
         background: rgb(42,209,161);
-        background: linear-gradient(-30deg, rgba(42,209,161,0.35) 30%, rgba(42,209,161,0.85) 100%);
+        background: linear-gradient(45deg, rgba(42,209,161,0.2) 0%, rgba(42,209,161,0.85) 100%);
       }
 
       section#services div.service-card ul li, section#services .service-card p, section#services div.service-card h4, section#services div.service-card h4 span {
