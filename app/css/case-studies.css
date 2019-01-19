@@ -61,6 +61,30 @@ body.case-study ol li {
   margin-bottom: 20px;
 }
 
+body.case-study ol {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+body.case-study ol li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+body.case-study ol li:before {
+  padding-right: 5px;
+  color:white;
+}
+
+body.case-study ol li:first-of-type:before {
+  content: "A.";
+}
+
+body.case-study ol li:nth-of-type(2):before {
+  content: "B.";
+}
+
 div#overview {
   margin-top: 0px;
 }
