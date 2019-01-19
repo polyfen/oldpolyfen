@@ -363,7 +363,7 @@ section#call-to-action {
          background-position: center;
          -webkit-transition: all 0.5s; /* Safari */
          transition: all 0.5s;
-         box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
         }
 
         section#case-studies section.case-project div.project-cover:hover, section#case-studies section.case-project div.project-thumbnail:hover {
