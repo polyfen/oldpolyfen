@@ -603,7 +603,7 @@ section#call-to-action {
          width: 380px;
          height: 224px;
          border-radius: 8px;
-         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
          background-color: #2c277b;
          position: absolute;
          left: calc(50% - 270px);
