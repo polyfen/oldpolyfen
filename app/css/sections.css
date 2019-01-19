@@ -363,6 +363,7 @@ section#call-to-action {
          background-position: center;
          -webkit-transition: all 0.5s; /* Safari */
          transition: all 0.5s;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
         }
 
         section#case-studies section.case-project div.project-cover:hover, section#case-studies section.case-project div.project-thumbnail:hover {
@@ -602,7 +603,7 @@ section#call-to-action {
          width: 380px;
          height: 224px;
          border-radius: 8px;
-         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
          background-color: #2c277b;
          position: absolute;
          left: calc(50% - 270px);
@@ -679,6 +680,7 @@ section#call-to-action {
         z-index: 1;
         border-radius: 8px;
         margin-left: -5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
         display: flex;
         align-items: center;
         justify-content: center;
