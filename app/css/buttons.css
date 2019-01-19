@@ -221,10 +221,10 @@ div#contact-form button#go-back:hover {
     transition: all 0.3s;
   }
 
-  a.secondary-button:hover {
+  a.secondary-button:hover, a.secondary-button-hover {
     color: #FFFFFF !important;
     background: #7800FF;
-    box-shadow: 0 0 10px #5D18B4;
+    box-shadow: 0 0 10px #5D18B4 !important;
     border:none;
   }
 
