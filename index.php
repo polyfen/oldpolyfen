@@ -143,14 +143,12 @@
               <div style="clear:both;" class="d-none d-xl-block"></div>
 
               <div class="service-card" id="brand-research-card">
-                <div class="d-none d-xl-block">
-                  <img src="imgs/services/brand-research-icon.svg">
-                  <div class="icon-gradient">
-                  </div>
-                </div>
                 <div id="brand-research" class="service-heading">
                   <img src="imgs/services/brand-research-icon.svg" class="d-xl-none">
-                  <h4><span class="d-none d-xl-inline">1. </span>Brand Research</h4>
+                  <div class="icon-gradient d-none d-xl-block">
+                    <img src="imgs/services/brand-research-icon.svg">
+                  </div>
+                  <h4>Brand Research</h4>
                 </div>
                 <ul>
                   <li>Business analysis</li>
@@ -164,14 +162,12 @@
               </div>
 
               <div class="service-card" id="brand-strategy-card">
-                <div class="d-none d-xl-block">
-                  <img src="imgs/services/brand-strategy-icon.svg">
-                  <div class="icon-gradient">
-                  </div>
-                </div>
                 <div id="brand-strategy" class="service-heading">
                   <img src="imgs/services/brand-strategy-icon.svg" class="d-xl-none">
-                  <h4><span class="d-none d-xl-inline">2. </span>Brand Strategy</h4>
+                  <div class="icon-gradient d-none d-xl-block">
+                    <img src="imgs/services/brand-strategy-icon.svg">
+                  </div>
+                  <h4>Brand Strategy</h4>
                 </div>
                 <ul>
                   <li>Keywords</li>
@@ -188,14 +184,12 @@
               </div>
 
               <div class="service-card" id="visual-identity-card">
-                <div class="d-none d-xl-block">
-                  <img src="imgs/services/visual-identity-icon.svg">
-                  <div class="icon-gradient">
-                  </div>
-                </div>
                 <div id="visual-identity" class="service-heading">
                   <img src="imgs/services/visual-identity-icon.svg" class="d-xl-none">
-                  <h4><span class="d-none d-xl-inline">3. </span>Visual Identity</h4>
+                  <div class="icon-gradient d-none d-xl-block">
+                    <img src="imgs/services/visual-identity-icon.svg">
+                  </div>
+                  <h4>Visual Identity</h4>
                 </div>
                 <ul>
                   <li>Visual exploration</li>
@@ -214,14 +208,12 @@
               <div style="clear:both;" class="d-none d-xl-block"></div>
 
               <div class="service-card" id="brand-guidelines-card">
-                <div class="d-none d-xl-block">
-                  <img src="imgs/services/brand-guidelines-icon.svg">
-                  <div class="icon-gradient">
-                  </div>
-                </div>
                 <div id="brand-guidelines" class="service-heading">
                   <img src="imgs/services/brand-guidelines-icon.svg" class="d-xl-none">
-                  <h4><span class="d-none d-xl-inline">4. </span>Brand Guidelines</h4>
+                  <div class="icon-gradient d-none d-xl-block">
+                    <img src="imgs/services/brand-guidelines-icon.svg">
+                  </div>
+                  <h4>Brand Guidelines</h4>
                 </div>
                 <p>
                   A summary of all the strategic parameters and visual assets that constitute the brand identity.
@@ -232,14 +224,12 @@
               </div>
 
               <div class="service-card" id="brand-touchpoints-card">
-                <div class="d-none d-xl-block">
-                  <img src="imgs/services/brand-touchpoints-icon.svg">
-                  <div class="icon-gradient">
-                  </div>
-                </div>
                 <div id="brand-touchpoints" class="service-heading">
                   <img src="imgs/services/brand-touchpoints-icon.svg" class="d-xl-none">
-                  <h4><span class="d-none d-xl-inline">5. </span>Brand Touchpoints</h4>
+                  <div class="icon-gradient d-none d-xl-block">
+                    <img src="imgs/services/brand-touchpoints-icon.svg">
+                  </div>
+                  <h4>Brand Touchpoints</h4>
                 </div>
                 <ul>
                   <li>Email signature</li>
@@ -255,14 +245,12 @@
               </div>
 
               <div class="service-card" id="web-development-card">
-                <div class="d-none d-xl-block">
-                  <img src="imgs/services/web-development-icon.svg">
-                  <div class="icon-gradient">
-                  </div>
-                </div>
                 <div id="web-development" class="service-heading">
                   <img src="imgs/services/web-development-icon.svg" class="d-xl-none">
-                  <h4><span class="d-none d-xl-inline">6. </span>Web Development</h4>
+                  <div class="icon-gradient d-none d-xl-block">
+                    <img src="imgs/services/web-development-icon.svg">
+                  </div>
+                  <h4>Web Development</h4>
                 </div>
                 <ul>
                   <li>UX research</li>
