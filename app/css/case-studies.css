@@ -193,12 +193,12 @@ div.browser {
 }
 
 div.browser div.browser-circle {
-  height: 14px;
-  width: 14px;
+  height: 12px;
+  width: 12px;
   border-radius: 100px;
   float: left;
   background: #231E4E;
-  margin: 18px 0 18px 14px;
+  margin: 14px 0 14px 10px;
 }
 
 div#share {

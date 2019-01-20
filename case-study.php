@@ -148,7 +148,6 @@
 
         <div id="brand-research" class="col">
           <h2>2. Brand Strategy</h2>
-          <p style="display:none;">We continued narrowing down a direction for the look and feel of our brand by defining a core concept that would guide our creative process.</p>
           <p>The choice of our brand name, the design of our logo system, and our website, and all the other elements that make up our brand identity are all rooted in representing our creative concept, <strong>the midpoint between business & creativity</strong>.</p>
           <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable, efficient brand name that also carries whimsical tone as an arbitrary, abstract word with no original meaning.</p>
           <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
@@ -323,8 +322,11 @@
             <h2>6. Web Development</h2>
             <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
             <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);margin-top:40px;">
-          </div>
-          <div class="col-xl-1">
+            <video width="100%" height="auto" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);margin-top:40px;border-radius:8px;" autoplay loop>
+              <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
+              <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
           </div>
           <div class="col">
             <div class="browser" id="naming-web">
