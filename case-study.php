@@ -158,7 +158,7 @@
         <div class="horizontal-case-study-separator"></div>
       </div>
 
-      <div class="row">
+      <div class="row" style="margin-bottom:20px;">
         <div id="logo-grid" class="col card-shadow">
         </div>
 
