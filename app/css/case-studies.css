@@ -1,48 +1,46 @@
 /*---------- CASE STUDIES start------------*/
 
-h1 {
+body.case-study h1 {
   text-align: center;
-  max-width: 600px;
+  max-width: 240px;
   margin: 0 auto;
   top: 130px;
   position: relative;
   z-index: 2;
 }
 
-h2 {
+body.case-study h2 {
   color:#7800FF;
 }
 
-h3 {
+body.case-study h3 {
   color: #7800FF;
   letter-spacing: 0.7px;
 }
 
 body.case-study section#title {
-    height: 640px;
+    height: 520px;
 }
 
 #pearl-11 {
   width: 455px;
   height: 455px;
   top: -90px;
-  right: 40px;
+  right: -70px;
   display: block;
   background-image: url('../../imgs/cover/pearl-01.png');
 }
 
 #pearl-12 {
-  width: 455px;
-  height: 455px;
-  top: 210px;
-  left: 10px;
+  width: 350px;
+  height: 350px;
+  top: 140px;
+  left: -80px;
   display: block;
   background-image: url('../../imgs/cover/pearl-03-17-b.png');
 }
 
 body.case-study section#content-wrapper {
-  padding: 100px !important;
-  max-width: 1680px;
   margin: 0 auto;
 }
 
@@ -58,8 +56,12 @@ body.case-study div.horizontal-case-study-separator {
   height:3px;
   width:calc(100% - 30px);
   display:block;
-  margin:100px auto;
+  margin:40px auto;
   background:#191947;
+}
+
+body.case-study div.col-12 div.horizontal-case-study-separator {
+  width:100%;
 }
 
 body.case-study section#content-wrapper img {
@@ -181,10 +183,6 @@ div#slate {
   box-shadow: 0 0 15px #1D21B1;
 }
 
-body.case-study p#visual-language-intro {
-  max-width: 580px;
-}
-
 #pearl-13 {
   width: 500px;
   height: 500px;
@@ -243,10 +241,6 @@ div.browser div.browser-circle {
 
 div.browser img {
   border-radius: 0 0 8px 8px !important;
-}
-
-body.case-study div#web-development p {
-  max-width: 650px;
 }
 
 div#folder-illustration, div#web-dev-browser {
@@ -317,30 +311,140 @@ body.case-study section#call-to-action div.curve {
 /*---------- [MEDIA QUERIES] start ------------*/
 
 /* Extra-Small devices (Mobile Narrowest) are set as default */
+@media (min-width: 375px) {
+
+  body.case-study h1 {
+    max-width: 290px;
+  }
+
+}
 
 /* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
+
+  body.case-study section#content-wrapper {
+    max-width: 720px;
+    padding: 35px !important;
+  }
+
+  body.case-study h1 {
+    max-width: 340px;
+  }
 
 }
 
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
 
+  body.case-study section#content-wrapper {
+    padding: 35px !important;
+  }
+
+  body.case-study h1 {
+    max-width: 380px;
+  }
+
 }
 
 /* Large devices (Tanblet Landscape) */
 @media (min-width: 992px) {
+
+  body.case-study section#content-wrapper {
+    padding: 45px !important;
+    max-width: 100%;
+  }
+
+  body.case-study div.horizontal-case-study-separator {
+    margin:100px auto;
+  }
+
+  body.case-study h1 {
+      max-width: 480px;
+  }
+
+  #pearl-11 {
+    right: -60px;
+    height: 440px;
+    width: 440px;
+    top: -120px;
+  }
+
+  #pearl-12 {
+    width: 380px;
+    height: 380px;
+    left: -95px;
+    top: 130px;
+  }
+
+  body.case-study p#visual-language-intro {
+    max-width: 520px;
+  }
 
 }
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
 
+  body.case-study section#content-wrapper {
+    max-width: 100%;
+    padding: 75px !important;
+  }
+
+  body.case-study section#title {
+      height: 640px;
+  }
+
+  body.case-study h1 {
+      max-width: 550px;
+  }
+
+  #pearl-11 {
+    width: 455px;
+    height: 455px;
+    top: -90px;
+    right: -80px;
+  }
+
+  #pearl-12 {
+    width: 420px;
+    height: 420px;
+    top: 200px;
+    left: -80px;
+  }
+
+  #pearl-11 {
+    top: -90px;
+    right: 40px;
+  }
+
+  #pearl-12 {
+    width: 435px;
+    height: 435px;
+    top: 210px;
+    left: 10px;
+  }
+
+  body.case-study p#visual-language-intro {
+    max-width: 580px;
+  }
+
+  body.case-study div#web-development p {
+    max-width: 650px;
+  }
 
 }
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1680px) {
+
+  body.case-study section#content-wrapper {
+    padding: 100px !important;
+    max-width: 1680px;
+  }
+
+  body.case-study h1 {
+      max-width: 600px;
+  }
 
 }
 

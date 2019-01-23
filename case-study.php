@@ -142,8 +142,12 @@
           <p>Based on our business proposal, our conclusion was to position our brand in between (A) the business-oriented and (B) the peculiarly creative.</p>
         </div>
 
-        <div class="col-xl-1">
+        <div class="col-xl-1 col-lg-1 d-none d-lg-flex d-xl-flex">
           <div class="vertical-case-study-separator"></div>
+        </div>
+
+        <div class="col-12 d-flex d-lg-none d-xl-none">
+          <div class="horizontal-case-study-separator"></div>
         </div>
 
         <div id="brand-research" class="col">
@@ -162,7 +166,7 @@
         <div id="logo-grid" class="col card-shadow">
         </div>
 
-        <div class="col-xl-1">
+        <div class="col-xl-1 col-lg-1">
           <div class="vertical-case-study-separator"></div>
         </div>
 
@@ -208,8 +212,12 @@
         </div>
 
 
-        <div class="col-xl-1">
+        <div class="col-xl-1 col-lg-1">
           <div class="vertical-case-study-separator"></div>
+        </div>
+
+        <div class="col-12 d-flex d-lg-none d-xl-none">
+          <div class="horizontal-case-study-separator"></div>
         </div>
 
         <div class="col">
@@ -257,7 +265,7 @@
         <div class="col">
           <img src="imgs/case-studies/developing-our-own-brand/visual-identity/folder-illustration.svg">
         </div>
-        <div class="col-xl-1">
+        <div class="col-xl-1 col-lg-1">
         </div>
         <div class="col" style="margin-top:200px;">
           <p>Our visual language also counts with a specific <strong>illustration style</strong> characterised by simple, geometric shapes set in the brand colours with soft gradients that complement the opalescence of the Pearls.</p>
@@ -275,7 +283,7 @@
             <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and assets necessary for our organisation.</p>
             <p>Our brand guidelines can be easily updated as our identity grows and evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
           </div>
-          <div class="col-xl-1">
+          <div class="col-xl-1 col-lg-1">
           </div>
           <div class="col">
             <div class="browser card-shadow" id="naming-web">
@@ -301,7 +309,7 @@
           <div class="col" id="folder-illustration">
             <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.png" alt="emblem-grid" class="card-shadow">
           </div>
-          <div class="col-xl-1">
+          <div class="col-xl-1 col-lg-1">
           </div>
           <div class="col" style="z-index:3;">
             <h2>5. Brand Touchpoints</h2>
