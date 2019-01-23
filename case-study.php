@@ -159,8 +159,8 @@
       </div>
 
       <div class="row">
-        <div id="logo-grid" class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid-square.gif" alt="ideogram-grid" class="card-shadow">
+        <div id="logo-grid" class="col card-shadow">
+          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid-square.gif" alt="ideogram-grid">
         </div>
 
         <div class="col-xl-1">

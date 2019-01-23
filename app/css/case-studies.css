@@ -123,6 +123,8 @@ div#logo-grid {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 8px;
+  background: #191947;
 }
 
 div#overview {
