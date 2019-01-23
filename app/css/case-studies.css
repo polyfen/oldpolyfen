@@ -21,6 +21,18 @@ body.case-study section#title {
     height: 640px;
 }
 
+body.case-study p, body.case-study ol {
+  max-width: 660px;
+}
+
+body.case-study p#visual-language-intro {
+  max-width: 580px;
+}
+
+body.case-study div#web-development p {
+  max-width: 650px;
+}
+
 #pearl-11 {
   width: 455px;
   height: 455px;
@@ -41,6 +53,24 @@ body.case-study section#title {
 
 body.case-study section#content-wrapper {
   padding: 100px !important;
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+body.case-study div.vertical-case-study-separator {
+  height:100%;
+  width:3px;
+  display:block;
+  margin:0px auto;
+  background:#191947;
+}
+
+body.case-study div.horizontal-case-study-separator {
+  height:3px;
+  width:calc(100% - 30px);
+  display:block;
+  margin:100px auto;
+  background:#191947;
 }
 
 body.case-study img {

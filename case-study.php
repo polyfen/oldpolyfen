@@ -5,88 +5,88 @@
     <title>Polyfen | Developing our own brand</title>
 
 
-  <!-- INCLUDE HEAD.PHP start -->
-    <?php include 'sections/head.php';?>
-  <!-- INCLUDE HEAD.PHP end -->
+    <!-- INCLUDE HEAD.PHP start -->
+      <?php include 'sections/head.php';?>
+    <!-- INCLUDE HEAD.PHP end -->
 
-  <!-- META Page-Specific -->
-  <meta property="og:title" content="Polyfen | Developing our own brand"/>
-  <meta property="og:url" content="http://polyfen.com/case-study.php"/>
-  <meta name="keywords" content="Case Study, Process, Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
-  <meta name="description" property="og:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
-  <meta property="og:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png"/>
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="fb:app_id" content="1799272553516195" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@WeArePolyfen" />
-  <meta name="twitter:title" content="Polyfen" />
-  <meta name="twitter:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
-  <meta name="twitter:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png" />
-  <meta name="robots" content="index, follow">
+    <!-- META Page-Specific -->
+    <meta property="og:title" content="Polyfen | Developing our own brand"/>
+    <meta property="og:url" content="http://polyfen.com/case-study.php"/>
+    <meta name="keywords" content="Case Study, Process, Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
+    <meta name="description" property="og:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
+    <meta property="og:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png"/>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="fb:app_id" content="1799272553516195" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@WeArePolyfen" />
+    <meta name="twitter:title" content="Polyfen" />
+    <meta name="twitter:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
+    <meta name="twitter:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png" />
+    <meta name="robots" content="index, follow">
 
-  <!-- PAGE-SPECIFIC CSS -->
-  <link rel="stylesheet" href="app/css/case-studies.css" type="text/css">
+    <!-- PAGE-SPECIFIC CSS -->
+    <link rel="stylesheet" href="app/css/case-studies.css" type="text/css">
 
-  <!-- PAGE-SPECIFIC SCRIPTS -->
-  <script type="text/javascript">
-  $(window).scroll(function () {
-    var st = $(window).scrollTop();
-    var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
-    if (scrollBottom <= 200) {
-          $("#pearl-07").removeClass("pearl-07-INACTIVE").addClass("pearl-07-ACTIVE");
-          $("#pearl-08").removeClass("pearl-08-INACTIVE").addClass("pearl-08-ACTIVE");
-          $("#pearl-09").removeClass("pearl-09-INACTIVE").addClass("pearl-09-ACTIVE");
-          $("#pearl-10").removeClass("pearl-10-INACTIVE").addClass("pearl-10-ACTIVE");
-      }
-    if (scrollBottom > 200) {
-          $("#pearl-07").addClass("pearl-07-INACTIVE").removeClass("pearl-07-ACTIVE");
-          $("#pearl-08").addClass("pearl-08-INACTIVE").removeClass("pearl-08-ACTIVE");
-          $("#pearl-09").addClass("pearl-09-INACTIVE").removeClass("pearl-09-ACTIVE");
-          $("#pearl-10").addClass("pearl-10-INACTIVE").removeClass("pearl-10-ACTIVE");
-      }
-    });
-  </script>
+    <!-- PAGE-SPECIFIC SCRIPTS -->
+    <script type="text/javascript">
+    $(window).scroll(function () {
+      var st = $(window).scrollTop();
+      var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+      if (scrollBottom <= 200) {
+            $("#pearl-07").removeClass("pearl-07-INACTIVE").addClass("pearl-07-ACTIVE");
+            $("#pearl-08").removeClass("pearl-08-INACTIVE").addClass("pearl-08-ACTIVE");
+            $("#pearl-09").removeClass("pearl-09-INACTIVE").addClass("pearl-09-ACTIVE");
+            $("#pearl-10").removeClass("pearl-10-INACTIVE").addClass("pearl-10-ACTIVE");
+        }
+      if (scrollBottom > 200) {
+            $("#pearl-07").addClass("pearl-07-INACTIVE").removeClass("pearl-07-ACTIVE");
+            $("#pearl-08").addClass("pearl-08-INACTIVE").removeClass("pearl-08-ACTIVE");
+            $("#pearl-09").addClass("pearl-09-INACTIVE").removeClass("pearl-09-ACTIVE");
+            $("#pearl-10").addClass("pearl-10-INACTIVE").removeClass("pearl-10-ACTIVE");
+        }
+      });
+    </script>
 
-  <script type="text/javascript">
-    // Activate Carousel
-    $("#logo-slider").carousel();
+    <script type="text/javascript">
+      // Activate Carousel
+      $("#logo-slider").carousel();
 
-    // Enable Carousel Indicators
-    $(".item").click(function(){
-      $("#logo-slider").carousel(1);
-    });
+      // Enable Carousel Indicators
+      $(".item").click(function(){
+        $("#logo-slider").carousel(1);
+      });
 
-    // Enable Carousel Controls
-    $(".left").click(function(){
-      $("#logo-slider").carousel("prev");
-    });
+      // Enable Carousel Controls
+      $(".left").click(function(){
+        $("#logo-slider").carousel("prev");
+      });
 
-    $(document).ready(function(){
+      $(document).ready(function(){
 
-    // Enable Carousel Indicators
-    $(".item1").click(function(){
-      $("#logo-slider").carousel(0);
-    });
-    $(".item2").click(function(){
-      $("#logo-slider").carousel(1);
-    });
-    $(".item3").click(function(){
-      $("#logo-slider").carousel(2);
-    });
-    $(".item4").click(function(){
-      $("#logo-slider").carousel(3);
-    });
+      // Enable Carousel Indicators
+      $(".item1").click(function(){
+        $("#logo-slider").carousel(0);
+      });
+      $(".item2").click(function(){
+        $("#logo-slider").carousel(1);
+      });
+      $(".item3").click(function(){
+        $("#logo-slider").carousel(2);
+      });
+      $(".item4").click(function(){
+        $("#logo-slider").carousel(3);
+      });
 
-    // Enable Carousel Controls
-    $(".left").click(function(){
-      $("#logo-slider").carousel("prev");
+      // Enable Carousel Controls
+      $(".left").click(function(){
+        $("#logo-slider").carousel("prev");
+      });
+      $(".right").click(function(){
+        $("#logo-slider").carousel("next");
+      });
     });
-    $(".right").click(function(){
-      $("#logo-slider").carousel("next");
-    });
-  });
-  </script>
+    </script>
   </head>
 
   <body id="developing-our-brand" class="case-study">
@@ -143,7 +143,7 @@
         </div>
 
         <div class="col-xl-1">
-          <div style="height:790px;width:3px;display:block;margin:0px auto;background:#191947;"></div>
+          <div class="vertical-case-study-separator"></div>
         </div>
 
         <div id="brand-research" class="col">
@@ -154,17 +154,17 @@
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      <div class="row">
+        <div class="horizontal-case-study-separator"></div>
       </div>
 
-      <div class="row" style="margin-top: 100px;">
+      <div class="row">
         <div id="logo-grid" class="col">
           <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid-square.gif" alt="ideogram-grid" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
         </div>
 
         <div class="col-xl-1">
-          <div style="height:680px;width:3px;display:block;margin:0px auto;background:#191947;"></div>
+          <div class="vertical-case-study-separator"></div>
         </div>
 
         <div class="col">
@@ -198,8 +198,8 @@
       </div>
       </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      <div class="row">
+        <div class="horizontal-case-study-separator"></div>
       </div>
 
       <div class="row" id="typeface-selection" style="margin-top:60px;">
@@ -210,7 +210,7 @@
 
 
         <div class="col-xl-1">
-          <div style="height:420px;width:3px;display:block;margin:0px auto;background:#191947;"></div>
+          <div class="vertical-case-study-separator"></div>
         </div>
 
         <div class="col">
@@ -229,13 +229,13 @@
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      <div class="row">
+        <div class="horizontal-case-study-separator"></div>
       </div>
 
       <div class="row">
         <div class="col">
-          <p>Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects that we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
+          <p id="visual-language-intro">Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects that we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
         </div>
         <div class="col-xl-1">
         </div>
@@ -265,16 +265,16 @@
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      <div class="row">
+        <div class="horizontal-case-study-separator"></div>
       </div>
 
       <div id="brand-guidelines">
-        <div class="row" style="margin:100px 0;">
+        <div class="row">
           <div class="col">
             <h2>4. Brand Guidelines</h2>
             <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and assets necessary for our organisation.</p>
-            <p>Our brand guidelines can be easily updated as our brand evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
+            <p>Our brand guidelines can be easily updated as our identity grows and evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
           </div>
           <div class="col-xl-1">
           </div>
@@ -293,8 +293,8 @@
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      <div class="row">
+        <div class="horizontal-case-study-separator"></div>
       </div>
 
       <div id="brand-touchpoints">
@@ -312,8 +312,8 @@
         </div>
       </div>
 
-      <div class="row" style="margin:100px 0;">
-        <div style="height:3px;width:100%;display:block;margin:0px auto;background:#191947;"></div>
+      <div class="row">
+        <div class="horizontal-case-study-separator"></div>
       </div>
 
       <div id="web-development">
