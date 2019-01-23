@@ -22,18 +22,6 @@ body.case-study section#title {
     height: 640px;
 }
 
-body.case-study p, body.case-study ol {
-  max-width: 660px;
-}
-
-body.case-study p#visual-language-intro {
-  max-width: 580px;
-}
-
-body.case-study div#web-development p {
-  max-width: 650px;
-}
-
 #pearl-11 {
   width: 455px;
   height: 455px;
@@ -74,17 +62,18 @@ body.case-study div.horizontal-case-study-separator {
   background:#191947;
 }
 
-body.case-study img {
-max-width:100%;
-border-radius:8px;
+body.case-study section#content-wrapper img {
+  border-radius:8px;
+  width: 100%;
 }
 
 body.case-study .card-shadow {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
-body.case-study img#moodboard {
-  margin-top:20px;
+
+body.case-study p, body.case-study ol {
+  max-width: 660px;
 }
 
 body.case-study ol {
@@ -118,6 +107,10 @@ body.case-study ol li:first-of-type:before {
 
 body.case-study ol li:nth-of-type(2):before {
   content: "B.";
+}
+
+body.case-study img#moodboard {
+  margin-top:20px;
 }
 
 div#logo-grid {
@@ -188,6 +181,10 @@ div#slate {
   box-shadow: 0 0 15px #1D21B1;
 }
 
+body.case-study p#visual-language-intro {
+  max-width: 580px;
+}
+
 #pearl-13 {
   width: 500px;
   height: 500px;
@@ -243,8 +240,13 @@ div.browser div.browser-circle {
   background: #06063899;
   margin: 14px 0 14px 10px;
 }
+
 div.browser img {
   border-radius: 0 0 8px 8px !important;
+}
+
+body.case-study div#web-development p {
+  max-width: 650px;
 }
 
 div#folder-illustration, div#web-dev-browser {
