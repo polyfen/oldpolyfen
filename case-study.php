@@ -298,7 +298,7 @@
 
       <div id="brand-touchpoints">
         <div class="row">
-          <div class="col">
+          <div class="col" id="folder-illustration">
             <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.png" alt="emblem-grid" class="card-shadow">
           </div>
           <div class="col-xl-1">
@@ -327,8 +327,8 @@
             Your browser does not support the video tag.
             </video>
           </div>
-          <div class="col">
-            <div class="browser card-shadow" id="naming-web">
+          <div class="col" id="web-dev-browser">
+            <div class="browser card-shadow">
               <div class="browser-circle">
               </div>
               <div class="browser-circle">

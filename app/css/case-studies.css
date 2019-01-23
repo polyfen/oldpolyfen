@@ -6,6 +6,7 @@ h1 {
   margin: 0 auto;
   top: 130px;
   position: relative;
+  z-index: 2;
 }
 
 h2 {
@@ -151,7 +152,7 @@ div#colour-swatches {
 
 div.swatch {
   height: 150px;
-  width: 200px;
+  width: 30%;
   border-radius: 8px;
   float: left;
   margin:  10px 0 65px;
@@ -244,6 +245,13 @@ div.browser div.browser-circle {
 }
 div.browser img {
   border-radius: 0 0 8px 8px !important;
+}
+
+div#folder-illustration, div#web-dev-browser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
 }
 
 div#share {
