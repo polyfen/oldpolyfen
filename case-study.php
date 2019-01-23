@@ -150,7 +150,7 @@
           <h2>2. Brand Strategy</h2>
           <p>The choice of our brand name, the design of our logo system, and our website, and all the other elements that make up our brand identity are all rooted in representing our creative concept, <strong>the midpoint between business & creativity</strong>.</p>
           <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable, efficient brand name that also carries whimsical tone as an arbitrary, abstract word with no original meaning.</p>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" class="card-shadow">
         </div>
       </div>
 
@@ -160,7 +160,7 @@
 
       <div class="row">
         <div id="logo-grid" class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid-square.gif" alt="ideogram-grid" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid-square.gif" alt="ideogram-grid" class="card-shadow">
         </div>
 
         <div class="col-xl-1">
@@ -172,7 +172,7 @@
             <h2>3. Visual Identity</h2>
             <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible while remaining clean, simple, and utilitarian as possible.</p>
             <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The analytical hemisphere of the brain, and the emotional hemisphere.</p>
-            <div id="logo-slider" class="carousel slide" data-ride="carousel" data-interval="3500" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+            <div id="logo-slider" class="carousel slide card-shadow" data-ride="carousel" data-interval="3500">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.png" alt="ideogram-meaning">
@@ -204,7 +204,7 @@
 
       <div class="row" id="typeface-selection" style="margin-top:60px;">
         <div class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" style="margin-bottom:50px;">
+          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" style="margin-bottom:46px;">
           <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
         </div>
 
@@ -279,7 +279,7 @@
           <div class="col-xl-1">
           </div>
           <div class="col">
-            <div class="browser" id="naming-web">
+            <div class="browser card-shadow" id="naming-web">
               <div class="browser-circle">
               </div>
               <div class="browser-circle">
@@ -300,7 +300,7 @@
       <div id="brand-touchpoints">
         <div class="row">
           <div class="col">
-            <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.png" alt="emblem-grid" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);">
+            <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.png" alt="emblem-grid" class="card-shadow">
           </div>
           <div class="col-xl-1">
           </div>
@@ -321,15 +321,15 @@
           <div class="col">
             <h2>6. Web Development</h2>
             <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
-            <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);margin-top:40px;">
-            <video width="100%" height="auto" style="box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.25);margin-top:40px;border-radius:8px;" autoplay loop>
+            <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" class="card-shadow" style="margin-top:40px;">
+            <video width="100%" height="auto" class="card-shadow" style="margin-top:40px;border-radius:8px;" autoplay loop>
               <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
               <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
             Your browser does not support the video tag.
             </video>
           </div>
           <div class="col">
-            <div class="browser" id="naming-web">
+            <div class="browser card-shadow" id="naming-web">
               <div class="browser-circle">
               </div>
               <div class="browser-circle">

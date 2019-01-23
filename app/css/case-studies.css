@@ -78,6 +78,10 @@ max-width:100%;
 border-radius:8px;
 }
 
+body.case-study .card-shadow {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
 body.case-study img#moodboard {
   margin-top:20px;
 }
@@ -113,6 +117,12 @@ body.case-study ol li:first-of-type:before {
 
 body.case-study ol li:nth-of-type(2):before {
   content: "B.";
+}
+
+div#logo-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div#overview {
@@ -216,10 +226,8 @@ div#slate {
 
 div.browser {
   border-radius: 8px;
-  background: #05012A;
-  box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.5);
+  background: #231E4E;
   position: relative;
-  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5);
 }
 
 div.browser div.browser-circle {
@@ -227,7 +235,7 @@ div.browser div.browser-circle {
   width: 12px;
   border-radius: 100px;
   float: left;
-  background: #231E4E;
+  background: #06063899;
   margin: 14px 0 14px 10px;
 }
 
