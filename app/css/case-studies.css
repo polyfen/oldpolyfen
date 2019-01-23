@@ -238,6 +238,9 @@ div.browser div.browser-circle {
   background: #06063899;
   margin: 14px 0 14px 10px;
 }
+div.browser img {
+  border-radius: 0 0 8px 8px !important;
+}
 
 div#share {
   text-align: center;

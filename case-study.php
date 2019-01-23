@@ -287,7 +287,7 @@
               <div class="browser-circle">
               </div>
               <div style="clear:both;"></div>
-              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" style="border-radius: 0 0 8px 8px;">
+              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg">
             </div>
           </div>
         </div>
@@ -337,7 +337,7 @@
               <div class="browser-circle">
               </div>
               <div style="clear:both;"></div>
-              <img src="imgs/case-studies/developing-our-own-brand/web-development/web-design.jpg" style="border-radius: 0 0 8px 8px;">
+              <img src="imgs/case-studies/developing-our-own-brand/web-development/web-design.jpg">
             </div>
           </div>
         </div>
