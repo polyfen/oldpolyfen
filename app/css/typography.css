@@ -41,6 +41,11 @@ h2 /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
 }
 
+body.case-study h2 {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
 h3 /* (mobile) */ {
   font-size: 26px;
   letter-spacing: 0.1px;
@@ -169,6 +174,10 @@ p a:hover {
     letter-spacing: 0.4px;
   }
 
+  body.case-study h2 {
+    font-size: 32px;
+  }
+
 }
 
 /* Small devices (Mobile Widest) */
@@ -178,6 +187,10 @@ p a:hover {
     font-size: 49px;
     line-height: 52px;
     letter-spacing: 0.4px;
+  }
+
+  body.case-study h2 {
+    font-size: 35px;
   }
 
 }
@@ -194,6 +207,11 @@ p a:hover {
     h2 {
       font-size: 45px;
       line-height: 1.11;
+    }
+
+    body.case-study h2 {
+      font-size: 35px;
+      margin-bottom: 16px;
     }
 
     h3 {
@@ -233,6 +251,11 @@ p a:hover {
 
   h1 {
     font-size: 80px;
+  }
+
+  body.case-study h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
   }
 
   h3 {

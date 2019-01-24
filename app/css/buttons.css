@@ -59,13 +59,13 @@ a.tertiary-button:hover {
 }
 
 div.card-navigation {
-  margin: 30px auto -48px;
+  margin: 15px auto -30px;
   text-align: center;
 }
 
 div.card-navigation div.navigation-bullet {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border-radius: 15px;
   margin-right: 5px;
   display: inline-block;
@@ -231,6 +231,20 @@ div#contact-form button#go-back:hover {
   div.desktop-card-navigation-wrapper {
     margin-top: -430px;
     height: 430px;
+  }
+
+}
+
+/* Extra-Large devices (desktops, less than 1200px) */
+@media (min-width: 1400px) {
+
+  div.card-navigation {
+    margin: 30px auto -48px;
+  }
+
+  div.card-navigation div.navigation-bullet {
+    width: 15px;
+    height: 15px;
   }
 
 }

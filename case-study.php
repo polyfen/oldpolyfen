@@ -150,11 +150,12 @@
           <div class="horizontal-case-study-separator"></div>
         </div>
 
-        <div id="brand-research" class="col">
+        <div id="brand-strategy" class="col">
           <h2>2. Brand Strategy</h2>
+          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" class="card-shadow d-block d-lg-none d-xl-none">
           <p>The choice of our brand name, the design of our logo system, and our website, and all the other elements that make up our brand identity are all rooted in representing our creative concept, <strong>the midpoint between business & creativity</strong>.</p>
           <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable, efficient brand name that also carries whimsical tone as an arbitrary, abstract word with no original meaning.</p>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" class="card-shadow">
+          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" class="card-shadow d-none d-lg-block d-xl-block">
         </div>
       </div>
 
@@ -174,6 +175,7 @@
           <div id="overview">
             <h2>3. Visual Identity</h2>
             <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible while remaining clean, simple, and utilitarian as possible.</p>
+            <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid-square.gif" style="margin-bottom: 2.5rem;" class="card-shadow d-lg-none d-xl-none">
             <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The analytical hemisphere of the brain, and the emotional hemisphere.</p>
             <div id="logo-slider" class="carousel slide card-shadow" data-ride="carousel" data-interval="3500">
               <div class="carousel-inner" role="listbox">
@@ -205,9 +207,11 @@
         <div class="horizontal-case-study-separator"></div>
       </div>
 
-      <div class="row" id="typeface-selection" style="margin-top:60px;">
-        <div class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" style="margin-bottom:46px;">
+      <div class="row">
+        <div class="col" id="typeface-selection">
+          <div id="wordmark" class="card-shadow">
+            <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto">
+          </div>
           <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
         </div>
 
@@ -220,7 +224,7 @@
           <div class="horizontal-case-study-separator"></div>
         </div>
 
-        <div class="col">
+        <div class="col" id="colour-scheme">
           <div id="colour-swatches">
             <div class="swatch" id="indigo">
               <small>Indigo</small>
@@ -242,6 +246,8 @@
 
       <div class="row">
         <div class="col">
+          <div id="pearl-13" class="pearl rotate">
+          </div>
           <p id="visual-language-intro">Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects that we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
         </div>
         <div class="col-xl-1">
@@ -250,7 +256,7 @@
         </div>
       </div>
 
-      <div class="row" style="height:700px;">
+      <div class="row" id="pearls-sample">
         <div id="pearl-13" class="pearl rotate-slower">
         </div>
         <div id="pearl-14" class="pearl rotate">
@@ -262,12 +268,18 @@
       </div>
 
       <div class="row">
+        <div class="col-12 d-flex d-lg-none d-xl-none">
+          <div class="horizontal-case-study-separator"></div>
+        </div>
+      </div>
+
+      <div class="row">
         <div class="col">
           <img src="imgs/case-studies/developing-our-own-brand/visual-identity/folder-illustration.svg">
         </div>
         <div class="col-xl-1 col-lg-1">
         </div>
-        <div class="col" style="margin-top:200px;">
+        <div class="col" id="visual-language-outro">
           <p>Our visual language also counts with a specific <strong>illustration style</strong> characterised by simple, geometric shapes set in the brand colours with soft gradients that complement the opalescence of the Pearls.</p>
         </div>
       </div>
@@ -280,12 +292,22 @@
         <div class="row">
           <div class="col">
             <h2>4. Brand Guidelines</h2>
+            <div class="browser card-shadow d-block d-lg-none d-xl-none" id="naming-web">
+              <div class="browser-circle">
+              </div>
+              <div class="browser-circle">
+              </div>
+              <div class="browser-circle">
+              </div>
+              <div style="clear:both;"></div>
+              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg">
+            </div>
             <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and assets necessary for our organisation.</p>
             <p>Our brand guidelines can be easily updated as our identity grows and evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
           </div>
           <div class="col-xl-1 col-lg-1">
           </div>
-          <div class="col">
+          <div class="col d-none d-lg-flex d-xl-flex">
             <div class="browser card-shadow" id="naming-web">
               <div class="browser-circle">
               </div>
@@ -306,15 +328,33 @@
 
       <div id="brand-touchpoints">
         <div class="row">
-          <div class="col" id="folder-illustration">
+          <div class="col d-none d-lg-flex d-xl-flex" id="folder-illustration">
             <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.png" alt="emblem-grid" class="card-shadow">
           </div>
           <div class="col-xl-1 col-lg-1">
           </div>
           <div class="col" style="z-index:3;">
             <h2>5. Brand Touchpoints</h2>
+            <div id="logo-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.png" alt="ideogram-meaning">
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/letterhead-grid.png" alt="ideogram-variations">
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.png" alt="emblem-grid">
+                </div>
+              </div>
+            </div>
+            <div class="card-navigation">
+              <div class="navigation-bullet active-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+            </div>
             <p>We designed a system of all the branded applications needed for our business activities; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
-            <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.png" alt="ideogram-meaning" style="margin-left:-35px;margin-top:35px;">
+            <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards-transparent.png" alt="ideogram-meaning" style="margin-left:-35px;margin-top:35px;" class="d-none d-lg-block d-xl-block">
           </div>
         </div>
       </div>
@@ -327,15 +367,40 @@
         <div class="row">
           <div class="col">
             <h2>6. Web Development</h2>
+            <div id="logo-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <video width="100%" height="auto" style="border-radius:8px;" autoplay loop>
+                    <source src="imgs/case-studies/developing-our-own-brand/web-development/web-cover.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" alt="ideogram-variations">
+                </div>
+                <div class="item">
+                  <video width="100%" height="auto" style="border-radius:8px;" autoplay loop>
+                    <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
+                    <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+            <div class="card-navigation">
+              <div class="navigation-bullet active-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet inactive-navigation-bullet"></div>
+            </div>
             <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
-            <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" class="card-shadow" style="margin-top:40px;">
-            <video width="100%" height="auto" class="card-shadow" style="margin-top:40px;border-radius:8px;" autoplay loop>
+            <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:40px;">
+            <video width="100%" height="auto" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:40px;border-radius:8px;" autoplay loop>
               <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
               <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
             Your browser does not support the video tag.
             </video>
           </div>
-          <div class="col" id="web-dev-browser">
+          <div class="col d-none d-lg-flex d-xl-flex" id="web-dev-browser">
             <div class="browser card-shadow">
               <div class="browser-circle">
               </div>
