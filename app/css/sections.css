@@ -35,7 +35,7 @@ section#cover {
     }
 
     section#cover div.curve {
-      background-image: url('../../imgs/cover/curve.png');
+      background-image: url('../../imgs/cover/curve.svg');
       background-repeat: no-repeat;
       background-size: contain;
       background-position: bottom;
@@ -299,7 +299,7 @@ section#call-to-action {
     }
 
     section#call-to-action div.curve {
-      background-image: url('../../imgs/cover/curve.png');
+      background-image: url('../../imgs/cover/curve.svg');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: bottom;
