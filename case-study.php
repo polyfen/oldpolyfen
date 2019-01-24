@@ -246,7 +246,7 @@
 
       <div class="row">
         <div class="col">
-          <div id="pearl-13" class="pearl rotate">
+          <div id="pearl-13" class="pearl rotate d-block d-lg-none d-xl-none">
           </div>
           <p id="visual-language-intro">Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects that we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
         </div>
@@ -256,7 +256,7 @@
         </div>
       </div>
 
-      <div class="row" id="pearls-sample">
+      <div class="row d-none d-lg-block d-xl-block" id="pearls-sample">
         <div id="pearl-13" class="pearl rotate-slower">
         </div>
         <div id="pearl-14" class="pearl rotate">
@@ -307,7 +307,7 @@
           </div>
           <div class="col-xl-1 col-lg-1">
           </div>
-          <div class="col d-none d-lg-flex d-xl-flex">
+          <div class="col d-none d-lg-block d-xl-block">
             <div class="browser card-shadow" id="naming-web">
               <div class="browser-circle">
               </div>
@@ -348,7 +348,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-navigation">
+            <div class="card-navigation d-block d-lg-none d-xl-none">
               <div class="navigation-bullet active-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
@@ -387,20 +387,20 @@
                 </div>
               </div>
             </div>
-            <div class="card-navigation">
+            <div class="card-navigation d-block d-lg-none d-xl-none">
               <div class="navigation-bullet active-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
               <div class="navigation-bullet inactive-navigation-bullet"></div>
             </div>
             <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
-            <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:40px;">
+            <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.png" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:60px;">
             <video width="100%" height="auto" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:40px;border-radius:8px;" autoplay loop>
               <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
               <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
             Your browser does not support the video tag.
             </video>
           </div>
-          <div class="col d-none d-lg-flex d-xl-flex" id="web-dev-browser">
+          <div class="col d-none d-lg-block d-xl-block" id="web-dev-browser">
             <div class="browser card-shadow">
               <div class="browser-circle">
               </div>

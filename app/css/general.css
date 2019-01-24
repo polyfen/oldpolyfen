@@ -59,6 +59,10 @@ div#captcha-wrapper {
   margin-bottom: 10px;
 }
 
+audio, canvas, progress, video {
+  display: block;
+}
+
 /*---------- GENERAL end ------------*/
 
 

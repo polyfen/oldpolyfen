@@ -81,11 +81,7 @@ body.case-study div#brand-touchpoints p, body.case-study div#web-development p {
   margin-top: 45px;
 }
 
-body.case-study p#visual-language-intro {
-  margin-top: 30px;
-}
-
-body.case-study div#brand-strategy p:first-of-type,  body.case-study div#brand-guidelines p {
+body.case-study div#brand-strategy p:first-of-type,  body.case-study div#brand-guidelines p, body.case-study p#visual-language-intro {
   margin-top: 30px;
 }
 
@@ -496,6 +492,14 @@ body.case-study section#call-to-action div.curve {
     top: 130px;
   }
 
+  body.case-study div#brand-research p:last-child, body.case-study div#typeface-selection p:last-child, body.case-study div#colour-scheme p:last-child, body.case-study div#visual-language-outro p, body.case-study p#visual-language-intro, body.case-study div#brand-touchpoints p:last-child, body.case-study div#brand-strategy p:last-of-type, body.case-study div#brand-guidelines p:last-of-type, body.case-study div#web-development p, body.case-study div#brand-touchpoints p {
+    margin-bottom: 2rem;
+  }
+
+  body.case-study div#brand-strategy p:first-of-type,  body.case-study div#brand-guidelines p, body.case-study p#visual-language-intro, body.case-study div#brand-touchpoints p, body.case-study div#web-development p {
+    margin-top: 0;
+  }
+
   body.case-study p#visual-language-intro {
     max-width: 520px;
   }
@@ -505,6 +509,54 @@ body.case-study section#call-to-action div.curve {
     box-shadow: none;
     padding: 26px;
     height: 150px;
+  }
+
+  div#pearls-sample {
+    height: 700px;
+  }
+
+  body.case-study div#visual-language-outro {
+    margin-top: 200px;
+  }
+
+  div#pearl-13 {
+    width: 500px;
+    height: 500px;
+    left: 100px;
+    margin-top: 80px;
+    position: absolute;
+    display: block;
+  }
+
+  #pearl-14 {
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    margin-top: -150px;
+    position: absolute;
+    display: block;
+    background-image: url('../../imgs/case-studies/developing-our-own-brand/visual-identity/pearl-03-17-b.png');
+  }
+
+  #pearl-15 {
+    width: 455px;
+    height: 455px;
+    left: 64%;
+    margin-top: 330px;
+    z-index: 2;
+    position: absolute;
+    display: block;
+    background-image: url('../../imgs/case-studies/developing-our-own-brand/visual-identity/01.png');
+  }
+
+  #pearl-16 {
+    width: 1100px;
+    height: 1100px;
+    left: 82%;
+    margin-top: -200px;
+    position: absolute;
+    display: block;
+    background-image: url('../../imgs/case-studies/developing-our-own-brand/visual-identity/12.png');
   }
 
 }
@@ -556,56 +608,16 @@ body.case-study section#call-to-action div.curve {
     height: 180px;
   }
 
-  div#pearls-sample {
-    height: 700px;
-  }
-
-  #pearl-13 {
-    width: 500px;
-    height: 500px;
-    left: 260px;
-    margin-top: 80px;
-    position: absolute;
-    display: block;
-  }
-
-  #pearl-14 {
-    width: 400px;
-    height: 400px;
-    left: 50%;
-    margin-top: -150px;
-    position: absolute;
-    display: block;
-    background-image: url('../../imgs/case-studies/developing-our-own-brand/visual-identity/pearl-03-17-b.png');
-  }
-
-  #pearl-15 {
-    width: 455px;
-    height: 455px;
-    left: 64%;
-    margin-top: 330px;
-    z-index: 2;
-    position: absolute;
-    display: block;
-    background-image: url('../../imgs/case-studies/developing-our-own-brand/visual-identity/01.png');
-  }
-
-  #pearl-16 {
-    width: 1100px;
-    height: 1100px;
-    left: 82%;
-    margin-top: -200px;
-    position: absolute;
-    display: block;
-    background-image: url('../../imgs/case-studies/developing-our-own-brand/visual-identity/12.png');
-  }
-
-  body.case-study div#visual-language-outro {
-    margin-top: 200px;
+  div#colour-swatches {
+    margin-bottom: 70px;
   }
 
   body.case-study p#visual-language-intro {
     max-width: 580px;
+  }
+
+  div#pearl-13 {
+    left: 260px;
   }
 
   body.case-study div#web-development p {
