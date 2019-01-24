@@ -16,10 +16,10 @@
   <meta name="theme-color" content="#7800ff">
 
   <!-- reCAPTCHA -->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src='https://www.google.com/recaptcha/api.js?render=6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv'></script>
   <script>
-	function onSubmit(token) {
-		document.getElementById("demo-form").submit();
+	function onSubmit() {
+		document.getElementById("ajax-contact").submit();
 	}
   </script>
 

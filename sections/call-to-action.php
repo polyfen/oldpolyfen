@@ -11,7 +11,7 @@
       <input type="text" name="name" placeholder="Your name" id="name-input" required>
       <input type="email" name="email" id="email" placeholder="Your email" required>
       <textarea name="message" id="message" placeholder="Your message..." required></textarea>
-      <button type="submit" class="g-recaptcha" data-sitekey="6LenVoYUAAAAAIUbnTJDkFWig4DiVWusDeG5lxxS" data-callback='onSubmit' id="send">Send</button>
+      <button type="submit" class="g-recaptcha" data-sitekey="6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv" data-callback='onSubmit' id="send">Send</button>
       <button id="form-loader" class="d-none">
         <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
         <span class="sr-only">Loading...</span>

@@ -62,6 +62,14 @@
       }
       });
     </script>
+	<script>
+		grecaptcha.ready(function() {
+			grecaptcha.execute('6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv', {action: 'action_name'})
+			.then(function(token) {
+			// Verifica el token en el servidor.
+			});
+		});
+	</script>
     <script type="text/javascript">
     $(window).scroll(function () {
       var st = $(window).scrollTop();
