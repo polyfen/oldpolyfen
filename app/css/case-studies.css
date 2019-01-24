@@ -19,23 +19,23 @@ body.case-study h3 {
 }
 
 body.case-study section#title {
-    height: 520px;
+    height: 355px;
 }
 
 #pearl-11 {
-  width: 455px;
-  height: 455px;
-  top: -90px;
-  right: -70px;
+  width: 400px;
+  height: 400px;
+  top: -130px;
+  right: -230px;
   display: block;
   background-image: url('../../imgs/cover/pearl-01.png');
 }
 
 #pearl-12 {
-  width: 350px;
-  height: 350px;
-  top: 140px;
-  left: -80px;
+  width: 280px;
+  height: 280px;
+  top: 90px;
+  left: -125px;
   display: block;
   background-image: url('../../imgs/cover/pearl-03-17-b.png');
 }
@@ -273,32 +273,23 @@ div#share a {
   border-radius: 8px;
   padding: 8px 0;
   border: 2px solid;
-  display: inline-table;
+  display: block;
+  margin: 0 auto 8px;
 }
 
 div#share a#facebook-share {
-  color: #2e61ce;
-  border-color: #2e61ce;
-  margin-right: 5px;
-}
-
-div#share a#facebook-share:hover {
-  color: #060638;
+  color: #060638cc;
   background: #2e61ce;
   box-shadow: 0 0 10px #2e61ce;
+  border-color: #2e61ce;
 }
 
 div#share a#twitter-share {
-  color: #1da1f4;
-  border-color: #1da1f4;
-  margin-left: 5px;
-  opacity: 0.9;
-}
-
-div#share a#twitter-share:hover {
-  color: #060638;
+  color: #060638cc;
   background: #1da1f4;
   box-shadow: 0 0 10px #1da1f4;
+  border-color: #1da1f4;
+  opacity: 0.9;
 }
 
 body.case-study section#call-to-action div.curve {
@@ -317,6 +308,24 @@ body.case-study section#call-to-action div.curve {
     max-width: 290px;
   }
 
+  body.case-study section#title {
+      height: 370px;
+  }
+
+  #pearl-11 {
+    width: 400px;
+    height: 400px;
+    top: -120px;
+    right: -180px;
+  }
+
+  #pearl-12 {
+    width: 280px;
+    height: 280px;
+    top: 100px;
+    left: -120px;
+  }
+
 }
 
 /* Small devices (Mobile Widest) */
@@ -331,10 +340,44 @@ body.case-study section#call-to-action div.curve {
     max-width: 340px;
   }
 
+  #pearl-11 {
+    width: 400px;
+    height: 400px;
+    top: -110px;
+    right: -125px;
+  }
+
+  #pearl-12 {
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: -100px;
+  }
+
+  body.case-study section#title {
+      height: 400px;
+  }
+
+  div#share a {
+    display: inline-table;
+  }
+
+  div#share a#facebook-share {
+    margin: 0 5px 0 0;
+  }
+
+  div#share a#twitter-share {
+    margin: 0 0 0 5px;
+  }
+
 }
 
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
+
+  body.case-study section#title {
+      height: 520px;
+  }
 
   body.case-study section#content-wrapper {
     padding: 35px !important;
@@ -342,6 +385,47 @@ body.case-study section#call-to-action div.curve {
 
   body.case-study h1 {
     max-width: 380px;
+  }
+
+  #pearl-11 {
+    width: 455px;
+    height: 455px;
+    top: -90px;
+    right: -70px;
+  }
+
+  #pearl-12 {
+    width: 350px;
+    height: 350px;
+    left: -80px;
+    top: 140px;
+  }
+
+  div#share a#facebook-share {
+    background: none;
+    color: #2e61ce;
+    border-color: #2e61ce;
+    box-shadow: none;
+  }
+
+  div#share a#facebook-share:hover {
+    color: #060638;
+    background: #2e61ce;
+    box-shadow: 0 0 10px #2e61ce;
+  }
+
+  div#share a#twitter-share {
+    background: none;
+    color: #1da1f4;
+    border-color: #1da1f4;
+    opacity: 0.9;
+    box-shadow: none;
+  }
+
+  div#share a#twitter-share:hover {
+    color: #060638;
+    background: #1da1f4;
+    box-shadow: 0 0 10px #1da1f4;
   }
 
 }
