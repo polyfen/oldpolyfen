@@ -252,12 +252,14 @@ div#folder-illustration, div#web-dev-browser {
 
 div#share {
   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 div.share-separator {
   height: 4px;
-  width: 33%;
-  margin: 130px auto 70px;
+  width: 100%;
+  margin: 0 auto 80px;
   background: #191947;
 }
 
@@ -356,6 +358,11 @@ body.case-study section#call-to-action div.curve {
 
   body.case-study section#title {
       height: 400px;
+  }
+
+  div#share {
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
 
   div#share a {
@@ -514,6 +521,10 @@ body.case-study section#call-to-action div.curve {
 
   body.case-study div#web-development p {
     max-width: 650px;
+  }
+
+  div#share {
+    margin-bottom: 0px;
   }
 
 }
