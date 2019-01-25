@@ -300,7 +300,7 @@
               <div class="browser-circle">
               </div>
               <div style="clear:both;"></div>
-              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" alt="Polyfen Brand Guidelines">
+              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/brand-guidelines.gif" alt="Polyfen Brand Guidelines">
             </div>
             <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and assets necessary for our organisation.</p>
             <p>Our brand guidelines can be easily updated as our identity grows and evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
@@ -316,7 +316,7 @@
               <div class="browser-circle">
               </div>
               <div style="clear:both;"></div>
-              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/logo-system.jpg" alt="Polyfen Brand Guidelines">
+              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/brand-guidelines.gif" alt="Polyfen Brand Guidelines">
             </div>
           </div>
         </div>
