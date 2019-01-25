@@ -177,7 +177,23 @@
             <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible while remaining clean, simple, and utilitarian as possible.</p>
             <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid.gif" style="margin-bottom: 2.5rem;" class="card-shadow d-lg-none d-xl-none" alt="Ideogram Logo Grid">
             <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The analytical hemisphere of the brain, and the emotional hemisphere.</p>
-            <div id="logo-slider" class="carousel slide card-shadow" data-ride="carousel" data-interval="3500">
+            <div id="logo-slider-mobile" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.jpg" alt="Polyfen Ideogram Logo Meaning">
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-variations.jpg" alt="Polyfen Ideogram Logo Variations">
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/emblem-grid.jpg" alt="Polyfen Emblem Logo Grid">
+                </div>
+                <div class="item">
+                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-embossed.jpg" alt="Polyfen Ideogram Logo Embossed">
+                </div>
+              </div>
+            </div>
+            <div id="logo-slider-desktop" class="carousel slide carousel-fade card-shadow d-none d-lg-flex d-xl-flex" data-ride="carousel" data-interval="3500">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.jpg" alt="Polyfen Ideogram Logo Meaning">
@@ -335,7 +351,7 @@
           </div>
           <div class="col" style="z-index:3;">
             <h2>5. Brand Touchpoints</h2>
-            <div id="brand-touchpoints-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
+            <div id="brand-touchpoints-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.jpg" alt="Polyfen Business Cards Design">
@@ -367,7 +383,7 @@
         <div class="row">
           <div class="col">
             <h2>6. Web Development</h2>
-            <div id="web-development-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
+            <div id="web-development-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <video width="100%" height="auto" style="border-radius:8px;" autoplay loop>
