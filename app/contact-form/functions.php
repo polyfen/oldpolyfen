@@ -12,6 +12,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/app/contact-form/phpmailer/phpmailer.ph
 	$mail->FromName = $fromname;
 	$mail->Subject = $subject;
 	$mail->Body = $body;
+	$mail->SMTPOptions = array(
+		'ssl' => array(
+			'verify_peer' => false,
+			'verify_peer_name' => false,
+			'allow_self_signed' => true
+		)
+	);
 
 	//$mail->Host = 'smtp.gmail.com';
 $mail->Username = 'mycontactform205@gmail.com';

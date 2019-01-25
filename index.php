@@ -68,6 +68,7 @@
 			.then(function(token) {
 			// Verifica el token en el servidor.
 			});
+			$('#home > div:nth-child(8) > div').hide()
 		});
 	</script>
     <script type="text/javascript">
