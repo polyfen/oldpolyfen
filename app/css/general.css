@@ -63,8 +63,8 @@ audio, canvas, progress, video {
   display: block;
 }
 
-.grecaptcha-badge {
-  visibility: hidden;
+div.grecaptcha-badge {
+  visibility: hidden !important;
 }
 
 /*---------- GENERAL end ------------*/
