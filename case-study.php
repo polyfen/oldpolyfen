@@ -13,7 +13,7 @@
     <meta property="og:title" content="Polyfen | Developing our own brand"/>
     <meta property="og:url" content="http://polyfen.com/case-study"/>
     <meta name="keywords" content="Case Study, Process, Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
-    <meta name="description" property="og:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
+    <meta name="description" property="og:description" content="A glimpse of the process behind the development of our brand identity." />
     <meta property="og:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@WeArePolyfen" />
     <meta name="twitter:title" content="Polyfen" />
-    <meta name="twitter:description" content="A case study that exhibits our brand's core concept, the midpoint between business and creativity." />
+    <meta name="twitter:description" content="A glimpse of the process behind the development of our brand identity." />
     <meta name="twitter:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png" />
     <meta name="robots" content="index, follow">
 
