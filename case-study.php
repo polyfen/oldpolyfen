@@ -49,41 +49,22 @@
     </script>
 
     <script type="text/javascript">
-      // Activate Carousel
-      $("#logo-slider").carousel();
-
-      // Enable Carousel Indicators
-      $(".item").click(function(){
-        $("#logo-slider").carousel(1);
+	$(document).ready(function(){
+      $("#item1").click(function(){
+		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+		  $("#overview > div.card-navigation.carousel-indicators > #item1").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
       });
-
-      // Enable Carousel Controls
-      $(".left").click(function(){
-        $("#logo-slider").carousel("prev");
+      $("#item2").click(function(){
+		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+          $("#overview > div.card-navigation.carousel-indicators > #item2").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
       });
-
-      $(document).ready(function(){
-
-      // Enable Carousel Indicators
-      $(".item1").click(function(){
-        $("#logo-slider").carousel(0);
+      $("#item3").click(function(){
+		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+          $("#overview > div.card-navigation.carousel-indicators > #item3").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
       });
-      $(".item2").click(function(){
-        $("#logo-slider").carousel(1);
-      });
-      $(".item3").click(function(){
-        $("#logo-slider").carousel(2);
-      });
-      $(".item4").click(function(){
-        $("#logo-slider").carousel(3);
-      });
-
-      // Enable Carousel Controls
-      $(".left").click(function(){
-        $("#logo-slider").carousel("prev");
-      });
-      $(".right").click(function(){
-        $("#logo-slider").carousel("next");
+      $("#item4").click(function(){
+		$("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+        $("#overview > div.card-navigation.carousel-indicators > #item4").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
       });
     });
     </script>
@@ -209,11 +190,11 @@
                 </div>
               </div>
             </div>
-            <div class="card-navigation">
-              <div class="navigation-bullet active-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
+            <div class="card-navigation carousel-indicators">
+              <div class="navigation-bullet active-navigation-bullet" id="item1" data-target="#logo-slider-desktop" data-slide-to="0"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="item2" data-target="#logo-slider-desktop" data-slide-to="1"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="item3" data-target="#logo-slider-desktop" data-slide-to="2"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="item4" data-target="#logo-slider-desktop" data-slide-to="3"></div>
             </div>
         </div>
       </div>
