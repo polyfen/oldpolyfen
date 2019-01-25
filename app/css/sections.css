@@ -63,13 +63,17 @@ section#case-studies {
 
     section#case-studies section.case-project {
       padding: 0 !important;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+      border-radius: 8px;
     }
 
         section#case-studies section.case-project div.project-cover {
          background: #0e0c2f url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
          background-size: cover;
+         background-repeat: no-repeat;
+         background-position: 50% 32%;
          width: 100%;
-         height: 150px;
+         height: 160px;
          border-radius: 8px 8px 0 0;
         }
 
@@ -139,13 +143,14 @@ section#services div#service-cards-wrapper {
 }
 
 section#services div.service-card {
-        background: #0e0c2f;
-        padding: 20px;
-        border-radius: 8px;
-        width: 300px;
-        height: 330px;
-        float: left;
-        margin-right: 10px;
+      background: #0e0c2f;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+      height: 330px;
+      float: left;
+      margin-right: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
     }
 
     section#services div.service-card div.service-heading {
@@ -335,6 +340,12 @@ section#call-to-action {
 
 
 /* Extra-Small devices (Mobile Narrowest) are set as default */
+@media (min-width: 380px) {
+  section#case-studies section.case-project div.project-cover {
+      height: 200px;
+  }
+
+}
 
 /* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
@@ -354,19 +365,30 @@ section#call-to-action {
     /*--- COVER end ---*/
 
     /*--- CASE STUDIES start ---*/
+
+      section#case-studies section.case-project {
+        box-shadow: none;
+        border-radius: 0;
+      }
+
         section#case-studies section.case-project div.project-cover {
          width: 50%;
          float: left;
          height: 280px;
          border-radius: 8px;
-         background-size: 100%;
-         background-position: center;
+         background-size: 130%;
          -webkit-transition: all 0.5s; /* Safari */
          transition: all 0.5s;
-         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
         }
 
-        section#case-studies section.case-project div.project-cover:hover, section#case-studies section.case-project div.project-thumbnail:hover {
+        section#case-studies section.case-project div.project-cover:hover {
+          background-size: 145%  !important;
+          -webkit-transition: all 0.5s; /* Safari */
+          transition: all 0.5s;
+        }
+
+        section#case-studies section.case-project div.project-thumbnail:hover {
           background-size: 115%  !important;
           -webkit-transition: all 0.5s; /* Safari */
           transition: all 0.5s;
@@ -614,6 +636,17 @@ section#call-to-action {
          transition: all 0.5s;
       }
 
+      section#case-studies section.case-project div.project-cover {
+        height: 550px;
+      }
+
+      section#case-studies section.case-project div.project-thumbnail {
+        height: 220px;
+        left: calc(50% - 260px);
+        margin-top: 390px;
+        width: 300px;
+      }
+
       section#case-studies section.case-project div.project-thumbnail#polyfen-thumbnail {
         background: url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.gif');
       }
@@ -632,6 +665,7 @@ section#call-to-action {
   /*--- CASE STUDIES end ---*/
 
   /*--- SERVICES start ---*/
+
       section#services div#service-cards-wrapper {
         width: 100%;
         padding-top: 0px;
@@ -643,6 +677,8 @@ section#call-to-action {
         padding: 40px 60px;
         background: none;
         height: 500px;
+        box-shadow: none;
+        border-radius: 0;
       }
 
       section#services div.service-card#brand-research-card, section#services div.service-card#brand-guidelines-card {
@@ -788,6 +824,25 @@ section#call-to-action {
 /* XXL devices (desktops, 13") */
 @media (min-width: 1440px) {
 
+  section#case-studies section.case-project div.project-cover {
+   background-size: 110%;
+   -webkit-transition: all 0.5s; /* Safari */
+   transition: all 0.5s;
+  }
+
+  section#case-studies section.case-project div.project-cover:hover {
+    background-size: 125%  !important;
+    -webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+  }
+
+  section#case-studies section.case-project div.project-thumbnail {
+    height: 250px;
+    width: 340px;
+    left: calc(50% - 300px);
+    margin-top: 390px;
+  }
+
 }
 
 /* XXXL devices (desktops, 15") */
@@ -821,6 +876,7 @@ section#call-to-action {
 
       section#case-studies section.case-project div.project-thumbnail {
         height: 280px;
+        width: 375px;
         left: calc(50% - 330px);
         margin-top: 370px;
       }
