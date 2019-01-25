@@ -12,7 +12,7 @@
       <p>Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
       <p>You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.</p>
       <p>Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
-      <p>This policy is effective as of 15 July 2018.</p>
+      <p>This policy is effective as of January 1st 2019.</p>
     </div>
   </div>
 </div>
