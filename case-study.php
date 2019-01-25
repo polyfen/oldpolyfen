@@ -164,10 +164,10 @@
       </div>
 
       <div class="row" style="margin-bottom:20px;">
-        <div id="logo-grid" class="col card-shadow">
+        <div id="logo-grid" class="d-none d-lg-flex d-xl-flex col card-shadow">
         </div>
 
-        <div class="col-xl-1 col-lg-1">
+        <div class="d-none d-lg-flex d-xl-flex col-xl-1 col-lg-1">
           <div class="vertical-case-study-separator"></div>
         </div>
 
