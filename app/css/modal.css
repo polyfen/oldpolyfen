@@ -52,23 +52,21 @@ div.modal-wrapper {
 
 
     div.modal-window div.modal-window-header h3 {
-      color: #0c0c3e /* indigo-minus-3 @x% */;
+      color: #0c0c3ecc;
       margin: 5px 0;
     }
 
     div.modal-window div.modal-window-header i.fa-times {
-      right: 7px;
+      right: 9px;
       position: absolute;
-      color: #191947b3 /* indigo-minus-3 @x% */;
+      color: #191947b3;
       border-radius: 20px;
-      height: 28px;
-      width: 28px;
       text-align: center;
-      padding-top: 5.6px;
-      top: 7px;
+      top: 9px;
       cursor: pointer;
+      font-size: 1.65rem;
       -webkit-transition: -webkit-transform .2s ease-in-out;
-          transition:         transform .2s ease-in-out;
+      transition: transform .2s ease-in-out;
     }
 
     div.modal-window div.modal-window-header i.fa-times:hover {
@@ -143,16 +141,18 @@ div.modal-wrapper {
         margin-top: -75px;
       }
 
+      div.modal-window div.modal-window-header h3 {
+        color:#0c0c3e99
+      }
+
       div.modal-window div.modal-window-content {
         padding: 40px;
       }
 
       div.modal-window div.modal-window-header i.fa-times {
-        font-size: 1.5rem;
-        right: 12px;
-        top: 4px;
-        padding: 3px 0 15px;
-        margin-top: 6px;
+        right: 15px;
+        top: 12px;
+        font-size: 2rem;
       }
 
     }
