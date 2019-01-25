@@ -48,16 +48,16 @@
           $("#pearl-05").removeClass("pearl-05-ACTIVE").addClass("pearl-05-INACTIVE");
           $("#pearl-06").removeClass("pearl-06-ACTIVE").addClass("pearl-06-INACTIVE");
       }
-      if (scroll >= 20) {
+      if (scroll >= 80) {
           $("#polyfen-cover").addClass("polyfen-cover-ACTIVE");
       }
-      if (scroll >= 20) {
+      if (scroll >= 80) {
           $("polyfen-cover").removeClass("polyfen-cover-INACTIVE");
       }
-      if (scroll >= 50) {
+      if (scroll >= 90) {
           $("#polyfen-thumbnail").addClass("polyfen-thumbnail-ACTIVE");
       }
-      if (scroll >= 50) {
+      if (scroll >= 90) {
           $("polyfen-thumbnail").removeClass("polyfen-thumbnail-INACTIVE");
       }
       });
