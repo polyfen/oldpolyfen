@@ -386,21 +386,13 @@
             <div id="web-development-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <video width="100%" height="auto" style="border-radius:8px;" autoplay loop>
-                    <source src="imgs/case-studies/developing-our-own-brand/web-development/web-cover.mp4" type="video/mp4">
-                    <source src="imgs/case-studies/developing-our-own-brand/web-development/web-cover.ogv" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
+                  <img src="imgs/case-studies/developing-our-own-brand/web-development/web-cover.gif" alt="Polyfen Web Cover Animation">
                 </div>
                 <div class="item">
                   <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.jpg" alt="Polyfen Mobile Web Design">
                 </div>
                 <div class="item">
-                  <video width="100%" height="auto" style="border-radius:8px;" autoplay loop>
-                    <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
-                    <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
+                  <img src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.gif" alt="Polyfen UI Cards Transition">
                 </div>
               </div>
             </div>
