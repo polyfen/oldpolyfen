@@ -152,9 +152,9 @@
 
               <div class="service-card" id="brand-research-card">
                 <div id="brand-research" class="service-heading">
-                  <img src="imgs/services/brand-research-icon.svg" class="d-xl-none">
+                  <img src="imgs/services/brand-research-icon.svg" class="d-xl-none" alt="Brand Research Icon">
                   <div class="icon-gradient d-none d-xl-block">
-                    <img src="imgs/services/brand-research-icon.svg">
+                    <img src="imgs/services/brand-research-icon.svg" alt="Brand Research Icon">
                   </div>
                   <h4>Brand Research</h4>
                 </div>
@@ -171,9 +171,9 @@
 
               <div class="service-card" id="brand-strategy-card">
                 <div id="brand-strategy" class="service-heading">
-                  <img src="imgs/services/brand-strategy-icon.svg" class="d-xl-none">
+                  <img src="imgs/services/brand-strategy-icon.svg" class="d-xl-none" alt="Brand Strategy Icon">
                   <div class="icon-gradient d-none d-xl-block">
-                    <img src="imgs/services/brand-strategy-icon.svg">
+                    <img src="imgs/services/brand-strategy-icon.svg" alt="Brand Strategy Icon">
                   </div>
                   <h4>Brand Strategy</h4>
                 </div>
@@ -193,9 +193,9 @@
 
               <div class="service-card" id="visual-identity-card">
                 <div id="visual-identity" class="service-heading">
-                  <img src="imgs/services/visual-identity-icon.svg" class="d-xl-none">
+                  <img src="imgs/services/visual-identity-icon.svg" class="d-xl-none" alt="Visual Identity Icon">
                   <div class="icon-gradient d-none d-xl-block">
-                    <img src="imgs/services/visual-identity-icon.svg">
+                    <img src="imgs/services/visual-identity-icon.svg" alt="Visual Identity Icon">
                   </div>
                   <h4>Visual Identity</h4>
                 </div>
@@ -217,9 +217,9 @@
 
               <div class="service-card" id="brand-guidelines-card">
                 <div id="brand-guidelines" class="service-heading">
-                  <img src="imgs/services/brand-guidelines-icon.svg" class="d-xl-none">
+                  <img src="imgs/services/brand-guidelines-icon.svg" class="d-xl-none" alt="Brand Guidelines Icon">
                   <div class="icon-gradient d-none d-xl-block">
-                    <img src="imgs/services/brand-guidelines-icon.svg">
+                    <img src="imgs/services/brand-guidelines-icon.svg"  alt="Brand Guidelines Icon">
                   </div>
                   <h4>Brand Guidelines</h4>
                 </div>
@@ -233,9 +233,9 @@
 
               <div class="service-card" id="brand-touchpoints-card">
                 <div id="brand-touchpoints" class="service-heading">
-                  <img src="imgs/services/brand-touchpoints-icon.svg" class="d-xl-none">
+                  <img src="imgs/services/brand-touchpoints-icon.svg" class="d-xl-none" alt="Brand Touchpoints Icon">
                   <div class="icon-gradient d-none d-xl-block">
-                    <img src="imgs/services/brand-touchpoints-icon.svg">
+                    <img src="imgs/services/brand-touchpoints-icon.svg" alt="Brand Touchpoints Icon">
                   </div>
                   <h4>Brand Touchpoints</h4>
                 </div>
@@ -254,9 +254,9 @@
 
               <div class="service-card" id="web-development-card">
                 <div id="web-development" class="service-heading">
-                  <img src="imgs/services/web-development-icon.svg" class="d-xl-none">
+                  <img src="imgs/services/web-development-icon.svg" class="d-xl-none" alt="Web Development Icon">
                   <div class="icon-gradient d-none d-xl-block">
-                    <img src="imgs/services/web-development-icon.svg">
+                    <img src="imgs/services/web-development-icon.svg" alt="Web Development Icon">
                   </div>
                   <h4>Web Development</h4>
                 </div>
@@ -304,7 +304,7 @@
       <section id="about">
             <h2 class="d-block d-sm-none d-md-none d-lg-none d-xl-none">We mean business</h2>
             <h2 class="d-none d-sm-block d-md-block d-lg-block d-xl-block">The link between business &amp; creativity</h2>
-            <img src="imgs/about/illustration.svg">
+            <img src="imgs/about/illustration.svg" alt="Creative Team Illustration">
             <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
             <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
       </section>
