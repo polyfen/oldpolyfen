@@ -41,7 +41,7 @@ h2 /* (mobile) */ {
   font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
 }
 
-body.case-study h2 {
+body.case-study #content-wrapper h2 {
   font-size: 30px;
   margin-bottom: 16px;
 }
@@ -174,7 +174,7 @@ p a:hover {
     letter-spacing: 0.4px;
   }
 
-  body.case-study h2 {
+  body.case-study #content-wrapper h2 {
     font-size: 32px;
   }
 
@@ -189,7 +189,7 @@ p a:hover {
     letter-spacing: 0.4px;
   }
 
-  body.case-study h2 {
+  body.case-study #content-wrapper h2 {
     font-size: 35px;
   }
 
@@ -209,7 +209,7 @@ p a:hover {
       line-height: 1.11;
     }
 
-    body.case-study h2 {
+    body.case-study #content-wrapper h2 {
       font-size: 35px;
       margin-bottom: 16px;
     }
@@ -253,7 +253,7 @@ p a:hover {
     font-size: 80px;
   }
 
-  body.case-study h2 {
+  body.case-study #content-wrapper h2 {
     font-size: 45px;
     margin-bottom: 20px;
   }

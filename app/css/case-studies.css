@@ -118,7 +118,7 @@ body.case-study ol li:nth-of-type(2):before {
   content: "B.";
 }
 
-body.case-study img#moodboard {
+body.case-study img.moodboard {
   margin-top:20px;
 }
 
@@ -140,7 +140,7 @@ div#logo-system {
   margin-top: 55px;
 }
 
-body.case-study div#logo-slider {
+body.case-study div.carousel {
   width: 100%;
   border-radius: 8px;
   margin-top: 30px;
@@ -498,6 +498,10 @@ body.case-study section#call-to-action div.curve {
 
   body.case-study div#brand-strategy p:first-of-type,  body.case-study div#brand-guidelines p, body.case-study p#visual-language-intro, body.case-study div#brand-touchpoints p, body.case-study div#web-development p {
     margin-top: 0;
+  }
+
+  body.case-study img.moodboard {
+    margin-top: 30px;
   }
 
   body.case-study p#visual-language-intro {

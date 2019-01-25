@@ -152,10 +152,10 @@
 
         <div id="brand-strategy" class="col">
           <h2>2. Brand Strategy</h2>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" class="card-shadow d-block d-lg-none d-xl-none">
+          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" title="moodboard" alt="moodboard" class="moodboard card-shadow d-block d-lg-none d-xl-none">
           <p>The choice of our brand name, the design of our logo system, and our website, and all the other elements that make up our brand identity are all rooted in representing our creative concept, <strong>the midpoint between business & creativity</strong>.</p>
           <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable, efficient brand name that also carries whimsical tone as an arbitrary, abstract word with no original meaning.</p>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" id="moodboard" title="moodboard" alt="moodboard" class="card-shadow d-none d-lg-block d-xl-block">
+          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.png" title="moodboard" alt="moodboard" class="moodboard card-shadow d-none d-lg-block d-xl-block">
         </div>
       </div>
 
@@ -292,7 +292,7 @@
         <div class="row">
           <div class="col">
             <h2>4. Brand Guidelines</h2>
-            <div class="browser card-shadow d-block d-lg-none d-xl-none" id="naming-web">
+            <div class="browser card-shadow d-block d-lg-none d-xl-none">
               <div class="browser-circle">
               </div>
               <div class="browser-circle">
@@ -335,7 +335,7 @@
           </div>
           <div class="col" style="z-index:3;">
             <h2>5. Brand Touchpoints</h2>
-            <div id="logo-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
+            <div id="brand-touchpoints-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.png" alt="ideogram-meaning">
@@ -367,7 +367,7 @@
         <div class="row">
           <div class="col">
             <h2>6. Web Development</h2>
-            <div id="logo-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
+            <div id="web-development-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <video width="100%" height="auto" style="border-radius:8px;" autoplay loop>
