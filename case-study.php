@@ -50,21 +50,61 @@
 
     <script type="text/javascript">
 	$(document).ready(function(){
-      $("#item1").click(function(){
+      $("#bulletDesktop1").click(function(){
 		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
-		  $("#overview > div.card-navigation.carousel-indicators > #item1").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+		  $("#overview > div.card-navigation.carousel-indicators > #bulletDesktop1").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
       });
-      $("#item2").click(function(){
+      $("#bulletDesktop2").click(function(){
 		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
-          $("#overview > div.card-navigation.carousel-indicators > #item2").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+          $("#overview > div.card-navigation.carousel-indicators > #bulletDesktop2").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
       });
-      $("#item3").click(function(){
+      $("#bulletDesktop3").click(function(){
 		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
-          $("#overview > div.card-navigation.carousel-indicators > #item3").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+          $("#overview > div.card-navigation.carousel-indicators > #bulletDesktop3").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
       });
-      $("#item4").click(function(){
+      $("#bulletDesktop4").click(function(){
 		$("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
-        $("#overview > div.card-navigation.carousel-indicators > #item4").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+        $("#overview > div.card-navigation.carousel-indicators > #bulletDesktop4").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+	  $("#bulletMovile1").click(function(){
+		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+		  $("#overview > div.card-navigation.carousel-indicators > #bulletMovile1").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+      $("#bulletMovile2").click(function(){
+		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+          $("#overview > div.card-navigation.carousel-indicators > #bulletMovile2").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+      $("#bulletMovile3").click(function(){
+		  $("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+          $("#overview > div.card-navigation.carousel-indicators > #bulletMovile3").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+      $("#bulletMovile4").click(function(){
+		$("#overview > div.card-navigation.carousel-indicators > div.navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+        $("#overview > div.card-navigation.carousel-indicators > #bulletMovile4").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+	  $("#bulletTouchpoints1").click(function(){
+		  $("#brand-touchpoints .navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+		  $("#bulletTouchpoints1").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+      $("#bulletTouchpoints2").click(function(){
+		  $("#brand-touchpoints .navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+          $("#bulletTouchpoints2").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+      $("#bulletTouchpoints3").click(function(){
+		  $("#brand-touchpoints .navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+          $("#bulletTouchpoints3").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+	  $("#bulletWebDevelopment1").click(function(){
+		  $("#web-development .navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+		  $("#bulletWebDevelopment1").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+      $("#bulletWebDevelopment2").click(function(){
+		  $("#web-development .navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+          $("#bulletWebDevelopment2").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
+      });
+      $("#bulletWebDevelopment3").click(function(){
+		  $("#web-development .navigation-bullet.active-navigation-bullet").removeClass('active-navigation-bullet').addClass('inactive-navigation-bullet')
+          $("#bulletWebDevelopment3").addClass('active-navigation-bullet').removeClass('inactive-navigation-bullet');
       });
     });
     </script>
@@ -158,7 +198,7 @@
             <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible while remaining clean, simple, and utilitarian as possible.</p>
             <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid.gif" style="margin-bottom: 2.5rem;" class="card-shadow d-lg-none d-xl-none" alt="Ideogram Logo Grid">
             <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The analytical hemisphere of the brain, and the emotional hemisphere.</p>
-            <div id="logo-slider-mobile" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
+            <div id="logo-slider-mobile" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.jpg" alt="Polyfen Ideogram Logo Meaning">
@@ -190,11 +230,17 @@
                 </div>
               </div>
             </div>
-            <div class="card-navigation carousel-indicators">
-              <div class="navigation-bullet active-navigation-bullet" id="item1" data-target="#logo-slider-desktop" data-slide-to="0"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="item2" data-target="#logo-slider-desktop" data-slide-to="1"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="item3" data-target="#logo-slider-desktop" data-slide-to="2"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="item4" data-target="#logo-slider-desktop" data-slide-to="3"></div>
+			<div class="card-navigation carousel-indicators d-none d-lg-flex d-xl-flex">
+              <div class="navigation-bullet active-navigation-bullet" id="bulletDesktop1" data-target="#logo-slider-desktop" data-slide-to="0"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop2" data-target="#logo-slider-desktop" data-slide-to="1"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop3" data-target="#logo-slider-desktop" data-slide-to="2"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop4" data-target="#logo-slider-desktop" data-slide-to="3"></div>
+            </div>
+            <div class="card-navigation carousel-indicators d-flex d-lg-none d-xl-none">
+              <div class="navigation-bullet active-navigation-bullet" id="bulletMovile1" data-target="#logo-slider-mobile" data-slide-to="0"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile2" data-target="#logo-slider-mobile" data-slide-to="1"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile3" data-target="#logo-slider-mobile" data-slide-to="2"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile4" data-target="#logo-slider-mobile" data-slide-to="3"></div>
             </div>
         </div>
       </div>
@@ -330,9 +376,9 @@
           </div>
           <div class="col-xl-1 col-lg-1">
           </div>
-          <div class="col" style="z-index:3;">
+          <div class="col" style="z-index:3;">  
             <h2>5. Brand Touchpoints</h2>
-            <div id="brand-touchpoints-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
+            <div id="brand-touchpoints-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.jpg" alt="Polyfen Business Cards Design">
@@ -346,9 +392,9 @@
               </div>
             </div>
             <div class="card-navigation d-block d-lg-none d-xl-none">
-              <div class="navigation-bullet active-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet active-navigation-bullet" id="bulletTouchpoints1" data-target="#brand-touchpoints-slider" data-slide-to="0"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletTouchpoints2" data-target="#brand-touchpoints-slider" data-slide-to="1"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletTouchpoints3" data-target="#brand-touchpoints-slider" data-slide-to="2"></div>
             </div>
             <p>We designed a system of all the branded applications needed for our business activities; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
             <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards-transparent.png" alt="Polyfen Business Cards Design" style="margin-left:-35px;margin-top:35px;" class="d-none d-lg-block d-xl-block">
@@ -378,9 +424,9 @@
               </div>
             </div>
             <div class="card-navigation d-block d-lg-none d-xl-none">
-              <div class="navigation-bullet active-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
+              <div class="navigation-bullet active-navigation-bullet" id="bulletWebDevelopment1" data-target="#web-development-slider" data-slide-to="0"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletWebDevelopment2" data-target="#web-development-slider" data-slide-to="1"></div>
+              <div class="navigation-bullet inactive-navigation-bullet" id="bulletWebDevelopment3" data-target="#web-development-slider" data-slide-to="2"></div>
             </div>
             <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
             <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.jpg" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:60px;" alt="Polyfen Mobile Web Design">
