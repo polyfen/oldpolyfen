@@ -1,7 +1,7 @@
 <?php function ifynmail($to,$toname,$subject,$fromname,$from,$body,$attach=''){
 
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/app/contact-form/phpmailer/phpmailer.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/app/contact-form/phpmailer/PHPMailer.php');
 	$mail = new PHPMailer();
 	$mail->IsSMTP();
 //$mail->Mailer="sendmail";
