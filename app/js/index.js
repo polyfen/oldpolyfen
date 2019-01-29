@@ -1,23 +1,44 @@
 $(document).ready(function(){
     var slickHere = $('.owl-carousel').slick({
   
-    centerPadding: '100',
+    centerPadding: '65px',
     dots: true,
-    infinite: false,
+    infinite: true,
     nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><p><i class="fa fa-angle-right" aria-hidden="true"></i></p></button>',
     prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><p><i class="fa fa-angle-left" aria-hidden="true"></i></p></button>',
-    centerMode: false,
+    centerMode: true,
     slidesToShow: 3,
+
+    
     responsive: [
       {
         breakpoint: 991,
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '30px',
           slidesToShow: 1,
           centerMode: true,
           infinite: true,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '0',
+          slidesToShow: 1,
+          centerMode: true,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 1600,
+        settings: {
+
+          centerPadding: '30px',
+
         }
       }
     ]

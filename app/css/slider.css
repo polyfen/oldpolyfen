@@ -43,10 +43,6 @@ div.desktop-card-navigation-wrapper {
 }
 
 
-.slick-list {
-    padding: 0 !important;
-}
-
 
 .service-item {
     font-size: 2em;
@@ -79,7 +75,7 @@ div.desktop-card-navigation-wrapper {
 }
 
 .slick-fade-click {
-    /*transform: scale(.9) !important;*/
+    transform: scale(.9) !important;
 }
 
 
@@ -194,8 +190,8 @@ div.desktop-card-navigation-wrapper {
     }
 
     .owl-carousel {
-        padding-left: 40px;
-        padding-right: 40px;
+        /*padding-left: 40px;
+        padding-right: 40px;*/
         
     }
    
@@ -205,8 +201,8 @@ div.desktop-card-navigation-wrapper {
 
 @media screen and (min-width: 1680px) {
     .owl-carousel {
-        margin-left: -35px;
-        margin-left: -35px;
+        margin-left: -70px;
+        margin-left: -70px;
     }
     .slick-next {
         margin-right: -10px;
