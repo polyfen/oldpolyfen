@@ -138,21 +138,18 @@
       <div style="clear:both;">
       </div>
 
-      <section id="services">
+      
+
+      <section id="services" >
+            
             <h2>Our services</h2>
 
-            <div id="service-cards-wrapper">
-
-
-              <div style="clear:both;" class="d-none d-xl-block"></div>
-
-              <div class="horizontal-separator">
-              </div>
-
-              <div style="clear:both;" class="d-none d-xl-block"></div>
-
-              <div class="service-card" id="brand-research-card">
-                <div id="brand-research" class="service-heading">
+            <div class="owl-carousel owl-theme">
+                
+              <div class="service-item">
+                <div class="service-item__inner">
+                <div class="service-card" id="brand-research-card">
+                <div id="" class="service-heading brand-research">
                   <img src="imgs/services/brand-research-icon.svg" class="d-xl-none" alt="Brand Research Icon">
                   <div class="icon-gradient d-none d-xl-block">
                     <img src="imgs/services/brand-research-icon.svg" alt="Brand Research Icon">
@@ -166,12 +163,14 @@
                   <li>Research conclusion</li>
                 </ul>
               </div>
-
-              <div class="separator">
+                </div>
               </div>
 
-              <div class="service-card" id="brand-strategy-card">
-                <div id="brand-strategy" class="service-heading">
+              <div class="service-item">
+                <div class="service-item__inner">
+
+                <div class="service-card" id="brand-strategy-card">
+                <div id="" class="service-heading brand-strategy">
                   <img src="imgs/services/brand-strategy-icon.svg" class="d-xl-none" alt="Brand Strategy Icon">
                   <div class="icon-gradient d-none d-xl-block">
                     <img src="imgs/services/brand-strategy-icon.svg" alt="Brand Strategy Icon">
@@ -189,11 +188,13 @@
                 </ul>
               </div>
 
-              <div class="separator">
+             
+                </div>
               </div>
-
-              <div class="service-card" id="visual-identity-card">
-                <div id="visual-identity" class="service-heading">
+              <div class="service-item">
+                <div class="service-item__inner">
+                <div class="service-card" id="visual-identity-card">
+                <div id="" class="service-heading visual-identity">
                   <img src="imgs/services/visual-identity-icon.svg" class="d-xl-none" alt="Visual Identity Icon">
                   <div class="icon-gradient d-none d-xl-block">
                     <img src="imgs/services/visual-identity-icon.svg" alt="Visual Identity Icon">
@@ -207,17 +208,14 @@
                   <li>Colour scheme</li>
                   <li>Visual language</li>
                 </ul>
+              </div>>
+                </div>
               </div>
 
-              <div style="clear:both;" class="d-none d-xl-block"></div>
-
-              <div class="horizontal-separator">
-              </div>
-
-              <div style="clear:both;" class="d-none d-xl-block"></div>
-
-              <div class="service-card" id="brand-guidelines-card">
-                <div id="brand-guidelines" class="service-heading">
+              <div class="service-item">
+                <div class="service-item__inner">
+                <div class="service-card" id="brand-guidelines-card">
+                <div id="" class="service-heading brand-guidelines">
                   <img src="imgs/services/brand-guidelines-icon.svg" class="d-xl-none" alt="Brand Guidelines Icon">
                   <div class="icon-gradient d-none d-xl-block">
                     <img src="imgs/services/brand-guidelines-icon.svg"  alt="Brand Guidelines Icon">
@@ -228,12 +226,12 @@
                   A summary of all the strategic parameters and visual assets that constitute the brand identity.
                 </p>
               </div>
-
-              <div class="separator">
+                </div>
               </div>
-
-              <div class="service-card" id="brand-touchpoints-card">
-                <div id="brand-touchpoints" class="service-heading">
+              <div class="service-item">
+                <div class="service-item__inner">
+                <div class="service-card" id="brand-touchpoints-card">
+                <div id="" class="service-heading brand-touchpoints">
                   <img src="imgs/services/brand-touchpoints-icon.svg" class="d-xl-none" alt="Brand Touchpoints Icon">
                   <div class="icon-gradient d-none d-xl-block">
                     <img src="imgs/services/brand-touchpoints-icon.svg" alt="Brand Touchpoints Icon">
@@ -249,12 +247,12 @@
                   <li>Presentation slides</li>
                 </ul>
               </div>
-
-              <div class="separator">
+                </div>
               </div>
-
-              <div class="service-card" id="web-development-card">
-                <div id="web-development" class="service-heading">
+              <div class="service-item">
+                <div class="service-item__inner">
+                <div class="service-card" id="web-development-card">
+                <div id="" class="service-heading web-development">
                   <img src="imgs/services/web-development-icon.svg" class="d-xl-none" alt="Web Development Icon">
                   <div class="icon-gradient d-none d-xl-block">
                     <img src="imgs/services/web-development-icon.svg" alt="Web Development Icon">
@@ -270,26 +268,26 @@
                   <li>Deployment</li>
                 </ul>
               </div>
+                </div>
+              </div>
+          
+
+
             </div>
 
+            
             <div style="clear:both;" class="d-none d-xl-block"></div>
+            
 
             <div class="horizontal-separator">
             </div>
+            
 
             <div style="clear:both;" class="d-none d-xl-block"></div>
 
             <div style="clear:both;">
             </div>
 
-            <div class="card-navigation d-block d-sm-block d-md-none d-lg-none d-xl-none">
-              <div class="navigation-bullet active-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-              <div class="navigation-bullet inactive-navigation-bullet"></div>
-            </div>
 
             <div class="desktop-card-navigation-wrapper d-none d-sm-none d-md-block d-lg-block d-xl-block">
               <div class="desktop-card-navigation-button">

@@ -25,4 +25,10 @@
   <a onclick="document.getElementById('terms-of-service').className='modal-wrapper d-block';"><small>Terms of Service</small></a>
 </div>
 
+
+
 </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<script src="app/js/index.js"></script>

@@ -107,7 +107,7 @@ section#services div.service-card {
       background: #0e0c2f;
       padding: 20px;
       border-radius: 8px;
-      width: 300px;
+      width: 100%;
       height: 330px;
       float: left;
       margin-right: 10px;
@@ -122,32 +122,32 @@ section#services div.service-card {
       align-items: center;
     }
 
-    section#services div.service-card div.service-heading#brand-research {
+    section#services div.service-card div.service-heading.brand-research {
       background: rgb(120,0,255);
       background: linear-gradient(-30deg, rgba(120,0,255,0.35) 30%, rgba(120,0,255,0.9) 100%);
     }
 
-    section#services div.service-card div.service-heading#brand-strategy {
+    section#services div.service-card div.service-heading.brand-strategy {
       background: rgb(104,42,236);
       background: linear-gradient(-30deg, rgba(104,42,236,0.35) 30%, rgba(104,42,236,1) 100%);
     }
 
-    section#services div.service-card div.service-heading#visual-identity {
+    section#services div.service-card div.service-heading.visual-identity {
       background: rgb(89,84,217);
       background: linear-gradient(-30deg, rgba(89,84,217,0.35) 30%, rgba(89,84,217,1) 100%);
     }
 
-    section#services div.service-card div.service-heading#brand-guidelines {
+    section#services div.service-card div.service-heading.brand-guidelines {
       background: rgb(73,125,199);
       background: linear-gradient(-30deg, rgba(73,125,199,0.35) 30%, rgba(73,125,199,1) 100%);
     }
 
-    section#services div.service-card div.service-heading#brand-touchpoints {
+    section#services div.service-card div.service-heading.brand-touchpoints {
       background: rgb(58,167,180);
       background: linear-gradient(-30deg, rgba(58,167,180,0.35) 30%, rgba(58,167,180,1) 100%);
     }
 
-    section#services div.service-card div.service-heading#web-development {
+    section#services div.service-card div.service-heading.web-development {
       background: rgb(42,209,161);
       background: linear-gradient(-30deg, rgba(42,209,161,0.35) 30%, rgba(42,209,161,0.85) 100%);
     }
@@ -381,7 +381,7 @@ section#call-to-action {
 
     /*--- SERVICES start ---*/
         section#services div.service-card {
-          width: 340px;
+          width: 100%;
         }
     /*--- SERVICES end ---*/
 
@@ -453,7 +453,7 @@ section#call-to-action {
 
   /*--- SERVICES start ---*/
       section#services div.service-card {
-          width: 350px;
+          width: 100%;
           margin-right: 15px;
           padding: 20px 25px;
           height: 360px;
@@ -649,134 +649,7 @@ section#call-to-action {
       }
   /*--- CASE STUDIES end ---*/
 
-  /*--- SERVICES start ---*/
-
-      section#services div#service-cards-wrapper {
-        width: 100%;
-        padding-top: 0px;
-      }
-
-      section#services div.service-card {
-        width: calc(33% - 12px);
-        margin: 0;
-        padding: 40px 60px;
-        background: none;
-        height: 500px;
-        box-shadow: none;
-        border-radius: 0;
-      }
-
-      section#services div.service-card#brand-research-card, section#services div.service-card#brand-guidelines-card {
-        padding-left: 20px;
-      }
-
-      section#services div.service-card div.service-heading {
-        background: none !important;
-        padding: 0;
-        margin: 0 0 18px 0;
-        text-align: center;
-      }
-
-      section#services div.service-card div.service-heading img {
-        height: 90px;
-        width: 90px;
-        z-index: 2;
-        position: relative;
-        margin-left: -5px;
-        float: none;
-        margin-top: 0;
-      }
-
-      section#services div#brand-research-card img, section#services div#visual-identity-card img {
-        margin-left: -6px;
-      }
-
-      section#services div#web-development-card img {
-        margin-top: -2px;
-      }
-
-      section#services div.service-card div.icon-gradient {
-        height: 90px;
-        width: 90px;
-        z-index: 1;
-        border-radius: 8px;
-        margin-left: -5px;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      section#services div#brand-research-card div.icon-gradient {
-        background: rgb(120,0,255);
-        background: linear-gradient(45deg, rgba(51,7,119,0.9) 0%, rgba(120,0,255,0.5) 100%);
-      }
-
-      section#services div#brand-strategy-card div.icon-gradient {
-        background: rgb(104,42,236);
-        background: linear-gradient(45deg, rgba(51,7,119,0.9) 0%, rgba(104,42,236,0.6) 100%);
-      }
-
-      section#services div#visual-identity-card div.icon-gradient {
-        background: rgb(89,84,217);
-        background: linear-gradient(45deg, rgba(40,0,100,0.75) 0%, rgba(89,84,217,0.8) 100%);
-      }
-
-      section#services div#brand-guidelines-card div.icon-gradient {
-        background: rgb(73,125,199);
-        background: linear-gradient(45deg, rgba(51,7,119,0.7) 0%, rgba(73,125,199,1) 100%);
-      }
-
-      section#services div#brand-touchpoints-card div.icon-gradient {
-        background: rgb(58,167,180);
-        background: linear-gradient(45deg, rgba(51,7,119,0.7) 0%, rgba(58,167,180,1) 100%);
-      }
-
-      section#services div#web-development-card div.icon-gradient {
-        background: rgb(42,209,161);
-        background: linear-gradient(45deg, rgba(51,7,119,0.8) 0%, rgba(42,209,161,0.85) 100%);
-      }
-
-      section#services div.service-card ul li, section#services .service-card p, section#services div.service-card h4, section#services div.service-card h4 span {
-        color: rgba(25, 25, 71, 0.7);
-      }
-
-      section#services div.service-card h4 {
-        margin: 2px 0 0 10px;
-        text-align: left;
-        margin: 2px 0 0 10px;
-        text-align: left;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        max-width: 200px;
-      }
-
-      section#services div.service-card ul li:before {
-        background: #36368FBB;
-      }
-
-      section#services .service-card p {
-        max-width: 380px;
-      }
-
-      section#services div.separator {
-        background: rgba(25, 25, 71, 0.02);
-        width: 3px;
-        margin: 100px 0px;
-        height: 300px;
-        display: block;
-        float: left;
-      }
-
-      section#services div.horizontal-separator {
-        background: rgba(25, 25, 71, 0.03);
-        width: 100%;
-        margin: 0;
-        height: 3px;
-        display: block;
-        float: left;
-      }
-
+ 
       div.desktop-card-navigation-wrapper, div.desktop-card-navigation-button {
         display: none;
       }
