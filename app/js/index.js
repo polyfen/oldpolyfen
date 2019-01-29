@@ -69,3 +69,12 @@ $(document).ready(function(){
   })
   });
 
+
+
+
+  $(document).on('click','.slick-dots button',function(){
+    $('.service-card').addClass('backlash');
+    setTimeout(function(){
+      $('.service-card').removeClass('backlash');
+    },200);
+  });

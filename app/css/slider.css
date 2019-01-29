@@ -181,15 +181,20 @@ div.desktop-card-navigation-wrapper {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
 
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 769px) {
 
     .service-item {
         transform: scale(1);
+    }
+
+    .owl-carousel {
+        padding-left: 27px;
+        padding-right: 27px;
     }
    
 }
@@ -198,12 +203,17 @@ div.desktop-card-navigation-wrapper {
 
 @media screen and (min-width: 1680px) {
     .owl-carousel {
-        margin-left: -70px;
-        margin-right: -70px;
+        margin-left: -35px;
+        margin-left: -35px;
     }
-    .service-item {
-
+    .slick-next {
+        margin-right: -10px;
+    }
+    .slick-prev {
+        margin-left: -10px;
     }
 }
 
-
+.backlash {
+    margin-left: 10px;
+}
