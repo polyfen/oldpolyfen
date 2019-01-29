@@ -3,6 +3,7 @@ $(document).ready(function(){
   
     centerPadding: '100',
     dots: true,
+    infinite: false,
     nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><p><i class="fa fa-angle-right" aria-hidden="true"></i></p></button>',
     prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><p><i class="fa fa-angle-left" aria-hidden="true"></i></p></button>',
     centerMode: false,

@@ -146,6 +146,17 @@ div.desktop-card-navigation-wrapper {
     display: none !important;
 }
 
+.slick-arrow p {
+    text-align: center;
+}
+
 .slick-arrow i {
     color: #0f0f2f;
 }
+
+@media screen and (min-width: 991px){
+    .slick-dots {
+        display: none !important;
+    }
+}
+
