@@ -79,7 +79,7 @@ div.desktop-card-navigation-wrapper {
 }
 
 .slick-fade-click {
-    transform: scale(.9) !important;
+    /*transform: scale(.9) !important;*/
 }
 
 
@@ -167,6 +167,7 @@ div.desktop-card-navigation-wrapper {
 .owl-carousel {
     margin-left: -35px;
     margin-right: -35px;
+    
 }
 
 .service-item {
@@ -193,8 +194,9 @@ div.desktop-card-navigation-wrapper {
     }
 
     .owl-carousel {
-        padding-left: 27px;
-        padding-right: 27px;
+        padding-left: 40px;
+        padding-right: 40px;
+        
     }
    
 }
