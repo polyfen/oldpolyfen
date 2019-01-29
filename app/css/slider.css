@@ -169,27 +169,29 @@ div.desktop-card-navigation-wrapper {
     margin-right: -35px;
 }
 
-.slick-slide {
+.service-item {
     padding: 0 10px;
 }
-
-
 @media screen and (max-width: 768px) {
     .owl-carousel {
         margin-left: -10px;
         margin-right: -10px;
     }
 
-    .slick-slide {
-        padding: 0 10px;
-    }
+}
+
+
+@media screen and (max-width: 800px) {
+
 
 }
 
 @media screen and (min-width: 801px) {
+
     .service-item {
-        padding: 0px 20px !important;
+        transform: scale(1);
     }
+   
 }
 
 
@@ -200,7 +202,7 @@ div.desktop-card-navigation-wrapper {
         margin-right: -70px;
     }
     .service-item {
-        padding: 0px 45px !important;
+
     }
 }
 
