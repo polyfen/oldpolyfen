@@ -208,7 +208,7 @@
                   <li>Colour scheme</li>
                   <li>Visual language</li>
                 </ul>
-              </div>>
+              </div>
                 </div>
               </div>
 
