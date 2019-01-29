@@ -93,6 +93,7 @@ div.desktop-card-navigation-wrapper {
 
     background: #7800FF /* #indigo */;
     margin-right: -15px;
+    padding-top: 18px;
 }
 
 
@@ -110,6 +111,7 @@ div.desktop-card-navigation-wrapper {
     z-index: 1;
     background: #7800FF /* #indigo */;
     margin-left: -15px;
+    padding-top: 18px;
 }
 
 
@@ -125,4 +127,25 @@ div.desktop-card-navigation-wrapper {
 
 .slick-disabled {
     display: none !important;
+}
+
+.slick-track {
+    margin: 0;
+    transition: margin .2s;
+}
+
+.slick-track_right {
+    margin-left: 100px;
+}
+
+.slick-track_left {
+    margin-left: -100px;
+}
+
+.slick-arrow:before {
+    display: none !important;
+}
+
+.slick-arrow i {
+    color: #0f0f2f;
 }
