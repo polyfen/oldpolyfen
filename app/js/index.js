@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.owl-carousel').slick({
+    var slickHere = $('.owl-carousel').slick({
   
     centerPadding: '100',
     dots: true,
@@ -15,27 +15,9 @@ $(document).ready(function(){
           arrows: true,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3,
+          slidesToShow: 1,
           centerMode: true,
           infinite: true,
-        }
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
         }
       }
     ]
@@ -70,5 +52,20 @@ $(document).ready(function(){
         $('.slick-track').removeClass('slick-track_right');
       },500)
     });
+
+    $(document).on('mousedown','.slick-center .service-item',function(){
+      console.log('aaa');
+      $(this).addClass('slick-fade-click');
+    });
+
+    $(document).on('mouseleave','.slick-center .service-item',function(){
+
+      $('.service-item').removeClass('slick-fade-click');
+    });
+
+    slickHere.on("beforeChange", function (){
+      console.log('b');
+      $('.service-item').removeClass('slick-fade-click');
+  })
   });
 

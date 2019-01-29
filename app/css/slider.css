@@ -78,6 +78,10 @@ div.desktop-card-navigation-wrapper {
     transform: scale(1);
 }
 
+.slick-fade-click {
+    transform: scale(.9) !important;
+}
+
 
 .slick-next {
     width: 70px;
@@ -182,9 +186,22 @@ div.desktop-card-navigation-wrapper {
 
 }
 
+@media screen and (min-width: 801px) {
+    .service-item {
+        padding: 0px 20px !important;
+    }
+}
+
+
+
 @media screen and (min-width: 1680px) {
     .owl-carousel {
         margin-left: -70px;
         margin-right: -70px;
     }
+    .service-item {
+        padding: 0px 45px !important;
+    }
 }
+
+
