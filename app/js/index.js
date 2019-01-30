@@ -8,6 +8,7 @@ $(document).ready(function(){
     prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><p><i class="fa fa-angle-left" aria-hidden="true"></i></p></button>',
     centerMode: true,
     slidesToShow: 3,
+    initialSlide: 1,
 
     
     responsive: [
@@ -15,11 +16,11 @@ $(document).ready(function(){
         breakpoint: 991,
         settings: {
           arrows: true,
-          centerMode: true,
           centerPadding: '30px',
           slidesToShow: 1,
           centerMode: true,
           infinite: true,
+          initialSlide: 0,
         }
       },
       {
@@ -31,6 +32,7 @@ $(document).ready(function(){
           slidesToShow: 1,
           centerMode: true,
           infinite: true,
+          initialSlide: 0,
         }
       },
       {
