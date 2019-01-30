@@ -1,5 +1,7 @@
+var slickHere;
+
 $(document).ready(function(){
-    var slickHere = $('.owl-carousel').slick({
+    slickHere = $('.owl-carousel').slick({
   
     centerPadding: '65px',
     dots: true,
@@ -8,7 +10,7 @@ $(document).ready(function(){
     prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><p><i class="fa fa-angle-left" aria-hidden="true"></i></p></button>',
     centerMode: true,
     slidesToShow: 3,
-    initialSlide: 0,
+    initialSlide: 1,
 
     
     responsive: [
@@ -77,7 +79,7 @@ $(document).ready(function(){
     });
 
     $(document).on('mousedown','.slick-center .service-item',function(){
-      console.log('aaa');
+
       $(this).addClass('slick-fade-click');
     });
 
@@ -87,9 +89,32 @@ $(document).ready(function(){
     });
 
     slickHere.on("beforeChange", function (){
-      console.log('b');
+
       $('.service-item').removeClass('slick-fade-click');
-  })
+    });
+
+    slickHere.on("afterChange", function(event, slick, currentSlide, nextSlide){
+
+      if(currentSlide<2){
+        
+        $('.slick-prev').addClass('hide');
+      } else {
+        $('.slick-prev').removeClass('hide');
+
+      }
+
+      if(currentSlide>3){
+        
+        $('.slick-next').addClass('hide');
+
+      } else {
+        $('.slick-next').removeClass('hide');
+
+      }
+      
+     
+     });
+
   });
 
 
@@ -100,4 +125,17 @@ $(document).ready(function(){
     setTimeout(function(){
       $('.service-card').removeClass('backlash');
     },200);
+  });
+
+  function navSlider(){
+   
+  }
+
+  $(window).resize(function(){
+    navSlider();
+  });
+
+  $(document).ready(function(){
+    $('.slick-prev').addClass('hide');
+    navSlider();
   });

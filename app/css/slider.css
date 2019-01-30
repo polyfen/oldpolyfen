@@ -216,3 +216,6 @@ div.desktop-card-navigation-wrapper {
     margin-left: 10px;
 }
 
+.hide {
+    display: none !important;
+}
