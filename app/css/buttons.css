@@ -93,6 +93,7 @@ div#contact-form button {
 div#contact-form button#send {
   float: right;
   border-radius: 0 6px 6px 0;
+  background: #25A9B9 /* white */ !important;
   border-left: 2.5px solid #6600DA /* indigo-minus-2 */;
 }
 
