@@ -48,7 +48,11 @@ require_once('functions.php');
 			if (ifynmail($recipient, $toname,$subject, $name,$from,$email_content)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
-            echo "Success! Your message has been sent.";
+           echo "<h2>Hooray!</h2>
+<h3 style='
+color: white;
+text-align: center;
+'>Your message was sent.</h3>";
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);
