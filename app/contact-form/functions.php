@@ -1,10 +1,20 @@
-<?php function ifynmail($to,$toname,$subject,$fromname,$from,$body,$attach=''){
+<?php 
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1); 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
+require 'PHPMailer/Exception.php';
+
+function ifynmail($to,$toname,$subject,$fromname,$from,$body,$attach=''){
 
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/app/contact-form/phpmailer/PHPMailer.php');
-	$mail = new PHPMailer();
+	$mail = new PHPMailer;
 	$mail->IsSMTP();
-//$mail->Mailer="sendmail";
+
 	$mail->WordWrap = 100;
 	$mail->IsHTML(false);
 	$mail->AddAddress($to,"");
@@ -12,15 +22,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/app/contact-form/phpmailer/PHPMailer.ph
 	$mail->FromName = $fromname;
 	$mail->Subject = $subject;
 	$mail->Body = $body;
-	$mail->SMTPOptions = array(
+	
+	/*$mail->SMTPOptions = array(
 		'ssl' => array(
 			'verify_peer' => false,
 			'verify_peer_name' => false,
 			'allow_self_signed' => true
 		)
 	);
+*/
+	
 
-	//$mail->Host = 'smtp.gmail.com';
 $mail->Username = 'mycontactform205@gmail.com';
 $mail->Password = 'jgTzJv3gZyEbf2hdXC6o';
 
@@ -29,17 +41,18 @@ $mail->Password = 'jgTzJv3gZyEbf2hdXC6o';
 
 $mail->SMTPAuth = true;
 
-//$mail->SMTPSecure = 'tls';
 
-	//$mail->SMTPSecure= "ssl"; //  Used instead of TLS when only POP mail is selected
-	$mail->Port = 465;        //  Used instead of 587 when only POP mail is selected
 	$mail->SetLanguage("en", $_SERVER['DOCUMENT_ROOT'].'/app/contact-form/phpmailer/language/');
 
+$mail->Port = 587;
+//Set the encryption system to use - ssl (deprecated) or tls
+$mail->SMTPSecure = 'tls';
 
-	$mail->SMTPSecure = 'ssl';
+
+
 $mail->Host = 'smtp.gmail.com';
 	$res = $mail->Send();
-	//echo $mail->ErrorInfo;
+
 
 
 
