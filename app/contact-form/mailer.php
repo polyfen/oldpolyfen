@@ -29,7 +29,7 @@ require_once('functions.php');
 
 
         // Set the email subject.
-        $subject = "New contact from $name";
+        $subject = "New message from $name";
 
         // Build the email content.
         $email_content = "Name: $name\n";
