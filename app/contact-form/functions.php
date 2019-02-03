@@ -1,13 +1,13 @@
-<?php 
+<?php
 
 error_reporting(E_ALL);
-ini_set('display_errors', 1); 
+ini_set('display_errors', 1);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
-require 'PHPMailer/Exception.php';
+require 'phpmailer/PHPMailer.php';
+require 'phpmailer/SMTP.php';
+require 'phpmailer/Exception.php';
 
 function ifynmail($to,$toname,$subject,$fromname,$from,$body,$attach=''){
 
@@ -22,7 +22,7 @@ function ifynmail($to,$toname,$subject,$fromname,$from,$body,$attach=''){
 	$mail->FromName = $fromname;
 	$mail->Subject = $subject;
 	$mail->Body = $body;
-	
+
 	/*$mail->SMTPOptions = array(
 		'ssl' => array(
 			'verify_peer' => false,
@@ -31,7 +31,7 @@ function ifynmail($to,$toname,$subject,$fromname,$from,$body,$attach=''){
 		)
 	);
 */
-	
+
 
 $mail->Username = 'mycontactform205@gmail.com';
 $mail->Password = 'jgTzJv3gZyEbf2hdXC6o';

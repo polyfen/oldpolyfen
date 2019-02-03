@@ -234,7 +234,7 @@ section#call-to-action {
     }
 
     section#call-to-action.active-call-to-action div.curve {
-      bottom: 240px;
+      bottom: 182px;
     }
 
     section#call-to-action.active-call-to-action div#contact-form {
@@ -262,6 +262,23 @@ section#call-to-action {
       max-width: 500px;
       margin: 0 auto;
       z-index: 2;
+    }
+
+    div#success-message {
+      margin-top: 120px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+    }
+
+    div#success-message h2, div#success-message h3 {
+      max-width: 100% !important;
+      text-align: center !important;
+    }
+
+    div#success-message h3 {
+      color: white;
+      text-align: center;
     }
 
     section#call-to-action div.curve {
@@ -567,6 +584,10 @@ section#call-to-action {
     section#call-to-action div#cta-content {
       margin-top: 115px;
     }
+
+    div#success-message {
+      margin-top: 165px;
+    }
   /*--- CTA end ---*/
 
 }
@@ -649,7 +670,7 @@ section#call-to-action {
       }
   /*--- CASE STUDIES end ---*/
 
- 
+
       div.desktop-card-navigation-wrapper, div.desktop-card-navigation-button {
         display: none;
       }
@@ -675,6 +696,10 @@ section#call-to-action {
   /*--- CTA start ---*/
     section#call-to-action.active-call-to-action div#contact-form {
       margin: 25px auto 0;
+    }
+
+    div#success-message {
+      margin-top: 150px;
     }
   /*--- CTA end ---*/
 }
@@ -795,6 +820,10 @@ section#call-to-action {
       section#call-to-action div#cta-content {
         margin-top: 100px;
         width: calc(100% - 140px);
+      }
+
+      div#success-message {
+        margin-top: 140px;
       }
 
       section#call-to-action h2 {

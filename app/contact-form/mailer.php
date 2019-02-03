@@ -23,7 +23,7 @@ require_once('functions.php');
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-       $recipient = "info@polyfen.com";
+       $recipient = "hi@polyfen.com";
 
 	   $toname = "Polyfen";
 
@@ -48,11 +48,8 @@ require_once('functions.php');
 			if (ifynmail($recipient, $toname,$subject, $name,$from,$email_content)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
-           echo "<h2>Hooray!</h2>
-<h3 style='
-color: white;
-text-align: center;
-'>Your message was sent.</h3>";
+           echo "<div id='success-message'><h2>Success!</h2>
+           <h3>Your message was sent.</h3></div>";
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);
