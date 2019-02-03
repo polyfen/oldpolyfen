@@ -62,15 +62,7 @@
       }
       });
     </script>
-	<script>
-		grecaptcha.ready(function() {
-			grecaptcha.execute('6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv', {action: 'action_name'})
-			.then(function(token) {
-			// Verifica el token en el servidor.
-			});
-			$('#home > div:nth-child(8) > div').hide()
-		});
-	</script>
+	
     <script type="text/javascript">
     $(window).scroll(function () {
       var st = $(window).scrollTop();
@@ -138,14 +130,14 @@
       <div style="clear:both;">
       </div>
 
-      
+
 
       <section id="services" >
-            
+
             <h2>Our services</h2>
 
             <div class="owl-carousel owl-theme">
-                
+
               <div class="service-item">
                 <div class="service-item__inner">
                 <div class="service-card" id="brand-research-card">
@@ -188,7 +180,7 @@
                 </ul>
               </div>
 
-             
+
                 </div>
               </div>
               <div class="service-item">
@@ -270,18 +262,18 @@
               </div>
                 </div>
               </div>
-          
+
 
 
             </div>
 
-            
+
             <div style="clear:both;" class="d-none d-xl-block"></div>
-            
+
 
             <div class="horizontal-separator">
             </div>
-            
+
 
             <div style="clear:both;" class="d-none d-xl-block"></div>
 

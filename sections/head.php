@@ -22,6 +22,15 @@
 		document.getElementById("ajax-contact").submit();
 	}
   </script>
+  <script>
+		grecaptcha.ready(function() {
+			grecaptcha.execute('6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv', {action: 'action_name'})
+			.then(function(token) {
+			// Verifica el token en el servidor.
+			});
+			$('div.grecaptcha-badge').hide()
+		});
+	</script>
 
   <!-- BOOTSTRAP (I had to add this to make the case studies slider work) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
