@@ -675,6 +675,10 @@ section#call-to-action {
         display: none;
       }
 
+      section#services div.service-card {
+        height: 400px;
+      }
+
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/

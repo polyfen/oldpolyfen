@@ -1,5 +1,18 @@
 .item {
- 
+
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+  margin-top: -35px;
+}
+
+.slick-dots {
+    bottom: 10px;
+}
+
+.slick-dots li {
+  margin: 0 3px !important;
 }
 
 .slick-dots li button {
@@ -18,10 +31,11 @@
 }
 
 .slick-dots .slick-active button {
-    background: #836bf5;
+    background: #7a00f5;
     opacity: 1;
     box-shadow: 0 0 4px #BA00FF;
 }
+
 
 
 /*hide*/
@@ -59,7 +73,7 @@ div.desktop-card-navigation-wrapper {
     .service-item {
 
         opacity: .8;
-    } 
+    }
 }
 
 .service-item__inner {
@@ -91,7 +105,7 @@ div.desktop-card-navigation-wrapper {
     border-radius: 100px 0 0 100px;
     box-shadow: 0 0 10px 2px black;
 
-    background: #7800FF /* #indigo */;
+    background: #474797 /* #indigo */;
     margin-right: 25px;
     padding-top: 22px;
 }
@@ -109,7 +123,7 @@ div.desktop-card-navigation-wrapper {
     border-radius:  0 100px 100px 0;
     box-shadow: 0 0 10px 2px black;
     z-index: 1;
-    background: #7800FF /* #indigo */;
+    background: #474797 /* #indigo */;
     margin-left: 25px;
     padding-top: 22px;
 }
@@ -122,7 +136,7 @@ div.desktop-card-navigation-wrapper {
 }
 
 .slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
-    background: #474797;
+    background: #7800FF /* #indigo */;
 }
 
 .slick-disabled {
@@ -163,7 +177,7 @@ div.desktop-card-navigation-wrapper {
 .owl-carousel {
     margin-left: -35px;
     margin-right: -35px;
-    
+
 }
 
 .service-item {
@@ -192,9 +206,9 @@ div.desktop-card-navigation-wrapper {
     .owl-carousel {
         /*padding-left: 40px;
         padding-right: 40px;*/
-        
+
     }
-   
+
 }
 
 
