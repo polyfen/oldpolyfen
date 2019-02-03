@@ -55,8 +55,6 @@
   <link rel="stylesheet" href="app/css/animations.css" type="text/css">
   <link rel="stylesheet" href="app/css/modal.css" type="text/css">
 
->
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
   <link rel="stylesheet" href="app/css/slider.css" type="text/css"
