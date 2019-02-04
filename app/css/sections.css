@@ -241,6 +241,17 @@ section#call-to-action {
       margin: 35px auto 0;
     }
 
+    section#call-to-action.active-call-to-action div#contact-form input, section#call-to-action.active-call-to-action div#contact-form textarea {
+      font-size: 1.5rem;
+      font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal !important;
+      -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+      -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+      -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+      font-feature-settings: "kern", "liga", "clig", "calt";
+    }
+
     section#call-to-action div#cta-content {
       margin-top: 80px;
       z-index: 2;
