@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #01012a;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  position: absolute;
+	top: 0;
+	height: 6px;
+	background: #7800FF;
+	box-shadow: 0 0 10px #5D18B4 !important;
+}
+
+.status-start {
+	width: 0%;
+}
+
+.status-end {
+	width: 100%;
+	-webkit-transition: width 1s; /* Safari */
+  transition: width 1s;
+}

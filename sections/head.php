@@ -54,6 +54,7 @@
   <link rel="stylesheet" href="app/css/sections.css" type="text/css">
   <link rel="stylesheet" href="app/css/animations.css" type="text/css">
   <link rel="stylesheet" href="app/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="app/css/loader.css" type="text/css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
@@ -98,4 +99,17 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-122656172-1');
+  </script>
+
+  <!-- Preloader -->
+  <script type="text/javascript">
+    $(window).on('load', function() { // makes sure the whole site is loaded
+      $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+      $('body').delay(350).css({'overflow':'visible'});
+    })
+  </script>
+  <script type="text/javascript">
+    window.onload = function(){
+      $("#status").removeClass("status-start").addClass("status-end");
+    };
   </script>

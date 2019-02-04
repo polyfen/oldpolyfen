@@ -85,6 +85,11 @@
 
   <body id="home">
 
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status" class="status-start">&nbsp;</div>
+    </div>
+
     <div style="position: relative;max-width:100% !important;overflow-x:hidden !important;">
 
     <!-- INCLUDE HEADER.PHP start -->

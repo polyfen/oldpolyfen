@@ -108,9 +108,15 @@
       });
     });
     </script>
+
   </head>
 
   <body id="developing-our-brand" class="case-study">
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status" class="status-start">&nbsp;</div>
+    </div>
 
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
