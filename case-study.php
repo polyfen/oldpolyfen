@@ -11,10 +11,10 @@
 
     <!-- META Page-Specific -->
     <meta property="og:title" content="Polyfen | Developing our own brand"/>
-    <meta property="og:url" content="http://polyfen.com/case-study"/>
+    <meta property="og:url" content="https://polyfen.com/case-study"/>
     <meta name="keywords" content="Case Study, Process, Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
     <meta name="description" property="og:description" content="A glimpse of the process behind the development of our brand identity." />
-    <meta property="og:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png"/>
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/case-study-thumbnail.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
@@ -22,7 +22,7 @@
     <meta name="twitter:site" content="@WeArePolyfen" />
     <meta name="twitter:title" content="Polyfen" />
     <meta name="twitter:description" content="A glimpse of the process behind the development of our brand identity." />
-    <meta name="twitter:image" content="http://polyfen.com/imgs/meta/case-study-thumbnail.png" />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/case-study-thumbnail.png" />
     <meta name="robots" content="index, follow">
 
     <!-- PAGE-SPECIFIC CSS -->
@@ -137,7 +137,7 @@
           js.async = true;js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
           ref.parentNode.insertBefore(js, ref);}(document, /*debug*/ false));
       function postToFeed(title, desc, url, image){
-      var obj = {method: 'feed',link: url, picture: 'http://polyfen.com/imgs/meta/case-study-thumbnail.png'+image,name: title,description: desc};
+      var obj = {method: 'feed',link: url, picture: 'https://polyfen.com/imgs/meta/case-study-thumbnail.png'+image,name: title,description: desc};
       function callback(response){}
       FB.ui(obj, callback);
       }
@@ -462,9 +462,9 @@
         <div id="share" class="col-xl-12">
           <div class="share-separator"></div>
           <h4>Share</h4>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" data-href="http://polyfen.com/case-study" data-image="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" data-title="Developing our own brand" data-desc="A case study that exhibits our brand's core concept, the midpoint between business and creativity." id="facebook-share" class="button tertiary-button" target="_blank">Facebook</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" data-href="https://polyfen.com/case-study" data-image="https://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" data-title="Developing our own brand" data-desc="A case study that exhibits our brand's core concept, the midpoint between business and creativity." id="facebook-share" class="button tertiary-button" target="_blank">Facebook</a>
 
-          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-size="large" data-url="http://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false" id="twitter-share" class="button tertiary-button" target="_blank">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-size="large" data-url="https://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false" id="twitter-share" class="button tertiary-button" target="_blank">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
           <!--<div class="fb-share-button" data-href="https://polyfen.com/case-study.php" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>-->
 

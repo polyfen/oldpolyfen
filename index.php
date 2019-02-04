@@ -11,10 +11,10 @@
 
   <!-- META Page-Specific -->
   <meta property="og:title" content="Polyfen"/>
-  <meta property="og:url" content="http://polyfen.com"/>
+  <meta property="og:url" content="https://polyfen.com"/>
   <meta name="keywords" content="Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
   <meta name="description" property="og:description" content="We are a small team of creatives from around the world connected by our passion to design engaging brand identities." />
-  <meta property="og:image" content="http://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png"/>
+  <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png"/>
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="fb:app_id" content="1799272553516195" />
@@ -22,7 +22,7 @@
   <meta name="twitter:site" content="@WeArePolyfen" />
   <meta name="twitter:title" content="Polyfen" />
   <meta name="twitter:description" content="We are a small team of creatives from around the world connected by our passion to design engaging brand identities." />
-  <meta name="twitter:image" content="http://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png" />
+  <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png" />
   <meta name="robots" content="index, follow">
 
   <!-- PAGE-SPECIFIC CSS -->
