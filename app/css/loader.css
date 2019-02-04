@@ -20,9 +20,9 @@ body {
 #status {
   position: absolute;
 	top: 0;
-	height: 6px;
+	height: 5px;
 	background: #7800FF;
-	box-shadow: 0 0 10px #5D18B4 !important;
+	box-shadow: 0 0 20px #5D18B4 !important;
 }
 
 .status-start {
