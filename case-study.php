@@ -216,7 +216,7 @@
                   </div>
                 </div>
               </div>
-              <div id="logo-slider-desktop" class="carousel slide carousel-fade card-shadow d-none d-lg-flex d-xl-flex" data-ride="carousel" data-interval="3500">
+              <div id="logo-slider-desktop" class="carousel slide carousel-fade card-shadow d-none d-lg-flex d-xl-flex">
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
                     <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.jpg" alt="Polyfen Ideogram Logo Meaning">
