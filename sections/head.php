@@ -59,6 +59,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
   <link rel="stylesheet" href="app/css/slider.css" type="text/css">
+
   <!-- FONTS -->
   <!--
   /**
@@ -114,3 +115,6 @@
 
     }
   </script>
+
+  <!-- Pinterest -->
+  <meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f"/>
