@@ -62,7 +62,7 @@
       }
       });
     </script>
-	
+
     <script type="text/javascript">
     $(window).scroll(function () {
       var st = $(window).scrollTop();
@@ -84,6 +84,8 @@
   </head>
 
   <body id="home">
+
+    <div style="position: relative;max-width:100% !important;overflow-x:hidden !important;">
 
     <!-- INCLUDE HEADER.PHP start -->
       <?php include 'sections/header.php';?>
@@ -302,6 +304,8 @@
 
     </div>
 
+
+
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/call-to-action.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
@@ -309,6 +313,8 @@
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    </div>
 
   </body>
 </html>

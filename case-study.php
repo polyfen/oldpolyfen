@@ -137,6 +137,8 @@
       }
     </script>
 
+    <div style="position: relative;max-width:100% !important;overflow-x:hidden !important;">
+
     <!-- INCLUDE HEADER.PHP start -->
       <?php include 'sections/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
@@ -151,317 +153,319 @@
 
     <section id="content-wrapper" class="container-fluid">
 
-      <div class="row">
-        <div id="brand-research" class="col">
-          <h2>1. Brand Research</h2>
-          <p>We started by conducting an exhaustive analysis of our business offering, our industry and competitors, and our audience.</p>
-          <p>Our conclusion was that most creative agencies position their brands in one of two different ways.</p>
-          <ol>
-            <li>Some creative agencies, <strong>the business-oriented</strong>, focus on targeting an executive audience with a very sober and simple visual identity.</li>
-            <li>Other agencies, <strong>the peculiarly creative</strong>, focus on showcasing their artistic talents gaining popularity amongst the creative industry with a quirky and playful brand.</li>
-          </ol>
-          <p>Based on our business proposal, our conclusion was to position our brand in between (A) the business-oriented and (B) the peculiarly creative.</p>
+        <div class="row">
+          <div id="brand-research" class="col">
+            <h2>1. Brand Research</h2>
+            <p>We started by conducting an exhaustive analysis of our business offering, our industry and competitors, and our audience.</p>
+            <p>Our conclusion was that most creative agencies position their brands in one of two different ways.</p>
+            <ol>
+              <li>Some creative agencies, <strong>the business-oriented</strong>, focus on targeting an executive audience with a very sober and simple visual identity.</li>
+              <li>Other agencies, <strong>the peculiarly creative</strong>, focus on showcasing their artistic talents gaining popularity amongst the creative industry with a quirky and playful brand.</li>
+            </ol>
+            <p>Based on our business proposal, our conclusion was to position our brand in between (A) the business-oriented and (B) the peculiarly creative.</p>
+          </div>
+
+          <div class="col-xl-1 col-lg-1 d-none d-lg-flex d-xl-flex">
+            <div class="vertical-case-study-separator"></div>
+          </div>
+
+          <div class="col-12 d-flex d-lg-none d-xl-none">
+            <div class="horizontal-case-study-separator"></div>
+          </div>
+
+          <div id="brand-strategy" class="col">
+            <h2>2. Brand Strategy</h2>
+            <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.jpg" title="Moodboard" alt="Moodboard" class="moodboard card-shadow d-block d-lg-none d-xl-none">
+            <p>The choice of our brand name, the design of our logo system, and our website, and all the other elements that make up our brand identity are all rooted in representing our creative concept, <strong>the midpoint between business & creativity</strong>.</p>
+            <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable, efficient brand name that also carries whimsical tone as an arbitrary, abstract word with no original meaning.</p>
+            <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.jpg" title="Moodboard" alt="Moodboard" class="moodboard card-shadow d-none d-lg-block d-xl-block">
+          </div>
         </div>
 
-        <div class="col-xl-1 col-lg-1 d-none d-lg-flex d-xl-flex">
-          <div class="vertical-case-study-separator"></div>
-        </div>
-
-        <div class="col-12 d-flex d-lg-none d-xl-none">
+        <div class="row">
           <div class="horizontal-case-study-separator"></div>
         </div>
 
-        <div id="brand-strategy" class="col">
-          <h2>2. Brand Strategy</h2>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.jpg" title="Moodboard" alt="Moodboard" class="moodboard card-shadow d-block d-lg-none d-xl-none">
-          <p>The choice of our brand name, the design of our logo system, and our website, and all the other elements that make up our brand identity are all rooted in representing our creative concept, <strong>the midpoint between business & creativity</strong>.</p>
-          <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable, efficient brand name that also carries whimsical tone as an arbitrary, abstract word with no original meaning.</p>
-          <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.jpg" title="Moodboard" alt="Moodboard" class="moodboard card-shadow d-none d-lg-block d-xl-block">
-        </div>
-      </div>
+        <div class="row" style="margin-bottom:20px;">
+          <div id="logo-grid" class="d-none d-lg-flex d-xl-flex col card-shadow">
+          </div>
 
-      <div class="row">
-        <div class="horizontal-case-study-separator"></div>
-      </div>
+          <div class="d-none d-lg-flex d-xl-flex col-xl-1 col-lg-1">
+            <div class="vertical-case-study-separator"></div>
+          </div>
 
-      <div class="row" style="margin-bottom:20px;">
-        <div id="logo-grid" class="d-none d-lg-flex d-xl-flex col card-shadow">
-        </div>
-
-        <div class="d-none d-lg-flex d-xl-flex col-xl-1 col-lg-1">
-          <div class="vertical-case-study-separator"></div>
-        </div>
-
-        <div class="col">
-          <div id="overview">
-            <h2>3. Visual Identity</h2>
-            <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible while remaining clean, simple, and utilitarian as possible.</p>
-            <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid.gif" style="margin-bottom: 2.5rem;" class="card-shadow d-lg-none d-xl-none" alt="Ideogram Logo Grid">
-            <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The analytical hemisphere of the brain, and the emotional hemisphere.</p>
-            <div id="logo-slider-mobile" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.jpg" alt="Polyfen Ideogram Logo Meaning">
-                </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-variations.jpg" alt="Polyfen Ideogram Logo Variations">
-                </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/emblem-grid.jpg" alt="Polyfen Emblem Logo Grid">
-                </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-embossed.jpg" alt="Polyfen Ideogram Logo Embossed">
+          <div class="col">
+            <div id="overview">
+              <h2>3. Visual Identity</h2>
+              <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible while remaining clean, simple, and utilitarian as possible.</p>
+              <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid.gif" style="margin-bottom: 2.5rem;" class="card-shadow d-lg-none d-xl-none" alt="Ideogram Logo Grid">
+              <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The analytical hemisphere of the brain, and the emotional hemisphere.</p>
+              <div id="logo-slider-mobile" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.jpg" alt="Polyfen Ideogram Logo Meaning">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-variations.jpg" alt="Polyfen Ideogram Logo Variations">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/visual-identity/emblem-grid.jpg" alt="Polyfen Emblem Logo Grid">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-embossed.jpg" alt="Polyfen Ideogram Logo Embossed">
+                  </div>
                 </div>
               </div>
-            </div>
-            <div id="logo-slider-desktop" class="carousel slide carousel-fade card-shadow d-none d-lg-flex d-xl-flex" data-ride="carousel" data-interval="3500">
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.jpg" alt="Polyfen Ideogram Logo Meaning">
-                </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-variations.jpg" alt="Polyfen Ideogram Logo Variations">
-                </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/emblem-grid.jpg" alt="Polyfen Emblem Logo Grid">
-                </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-embossed.jpg" alt="Polyfen Ideogram Logo Embossed">
+              <div id="logo-slider-desktop" class="carousel slide carousel-fade card-shadow d-none d-lg-flex d-xl-flex" data-ride="carousel" data-interval="3500">
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-meaning.jpg" alt="Polyfen Ideogram Logo Meaning">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-variations.jpg" alt="Polyfen Ideogram Logo Variations">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/visual-identity/emblem-grid.jpg" alt="Polyfen Emblem Logo Grid">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-embossed.jpg" alt="Polyfen Ideogram Logo Embossed">
+                  </div>
                 </div>
               </div>
-            </div>
-			<div class="card-navigation carousel-indicators d-none d-lg-flex d-xl-flex">
-              <div class="navigation-bullet active-navigation-bullet" id="bulletDesktop1" data-target="#logo-slider-desktop" data-slide-to="0"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop2" data-target="#logo-slider-desktop" data-slide-to="1"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop3" data-target="#logo-slider-desktop" data-slide-to="2"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop4" data-target="#logo-slider-desktop" data-slide-to="3"></div>
-            </div>
-            <div class="card-navigation carousel-indicators d-flex d-lg-none d-xl-none">
-              <div class="navigation-bullet active-navigation-bullet" id="bulletMovile1" data-target="#logo-slider-mobile" data-slide-to="0"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile2" data-target="#logo-slider-mobile" data-slide-to="1"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile3" data-target="#logo-slider-mobile" data-slide-to="2"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile4" data-target="#logo-slider-mobile" data-slide-to="3"></div>
-            </div>
-        </div>
-      </div>
-      </div>
-
-      <div class="row">
-        <div class="horizontal-case-study-separator"></div>
-      </div>
-
-      <div class="row">
-        <div class="col" id="typeface-selection">
-          <div id="wordmark" class="card-shadow">
-            <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" alt="Polyfen Wordmark Logo">
+  			<div class="card-navigation carousel-indicators d-none d-lg-flex d-xl-flex">
+                <div class="navigation-bullet active-navigation-bullet" id="bulletDesktop1" data-target="#logo-slider-desktop" data-slide-to="0"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop2" data-target="#logo-slider-desktop" data-slide-to="1"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop3" data-target="#logo-slider-desktop" data-slide-to="2"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletDesktop4" data-target="#logo-slider-desktop" data-slide-to="3"></div>
+              </div>
+              <div class="card-navigation carousel-indicators d-flex d-lg-none d-xl-none">
+                <div class="navigation-bullet active-navigation-bullet" id="bulletMovile1" data-target="#logo-slider-mobile" data-slide-to="0"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile2" data-target="#logo-slider-mobile" data-slide-to="1"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile3" data-target="#logo-slider-mobile" data-slide-to="2"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletMovile4" data-target="#logo-slider-mobile" data-slide-to="3"></div>
+              </div>
           </div>
-          <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
+        </div>
         </div>
 
-
-        <div class="col-xl-1 col-lg-1">
-          <div class="vertical-case-study-separator"></div>
-        </div>
-
-        <div class="col-12 d-flex d-lg-none d-xl-none">
+        <div class="row">
           <div class="horizontal-case-study-separator"></div>
         </div>
 
-        <div class="col" id="colour-scheme">
-          <div id="colour-swatches">
-            <div class="swatch" id="indigo">
-              <small>Indigo</small>
+        <div class="row">
+          <div class="col" id="typeface-selection">
+            <div id="wordmark" class="card-shadow">
+              <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" alt="Polyfen Wordmark Logo">
             </div>
-            <div class="swatch" id="cream">
-              <small>Cream</small>
-            </div>
-            <div class="swatch" id="slate">
-              <small>Slate</small>
-            </div>
+            <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
           </div>
-          <p>The brand's <strong>colour palette</strong> is characterised by a distinctive, eye-catching accent colour, a vibrant hue between blue and purple that we call <strong>Polyfen Indigo</strong>.</p>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="horizontal-case-study-separator"></div>
-      </div>
 
-      <div class="row">
-        <div class="col">
-          <div id="pearl-13" class="pearl rotate d-block d-lg-none d-xl-none">
+          <div class="col-xl-1 col-lg-1">
+            <div class="vertical-case-study-separator"></div>
           </div>
-          <p id="visual-language-intro">Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects that we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
-        </div>
-        <div class="col-xl-1">
-        </div>
-        <div class="col">
-        </div>
-      </div>
 
-      <div class="row d-none d-lg-block d-xl-block" id="pearls-sample">
-        <div id="pearl-13" class="pearl rotate-slower">
-        </div>
-        <div id="pearl-14" class="pearl rotate">
-        </div>
-        <div id="pearl-15" class="pearl rotate-slower">
-        </div>
-        <div id="pearl-16" class="pearl rotate-slower">
-        </div>
-      </div>
+          <div class="col-12 d-flex d-lg-none d-xl-none">
+            <div class="horizontal-case-study-separator"></div>
+          </div>
 
-      <div class="row">
-        <div class="col-12 d-flex d-lg-none d-xl-none">
+          <div class="col" id="colour-scheme">
+            <div id="colour-swatches">
+              <div class="swatch" id="indigo">
+                <small>Indigo</small>
+              </div>
+              <div class="swatch" id="cream">
+                <small>Cream</small>
+              </div>
+              <div class="swatch" id="slate">
+                <small>Slate</small>
+              </div>
+            </div>
+            <p>The brand's <strong>colour palette</strong> is characterised by a distinctive, eye-catching accent colour, a vibrant hue between blue and purple that we call <strong>Polyfen Indigo</strong>.</p>
+          </div>
+        </div>
+
+        <div class="row">
           <div class="horizontal-case-study-separator"></div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
-          <img src="imgs/case-studies/developing-our-own-brand/visual-identity/folder-illustration.svg" alt="Creative Team Illustration">
-        </div>
-        <div class="col-xl-1 col-lg-1">
-        </div>
-        <div class="col" id="visual-language-outro">
-          <p>Our visual language also counts with a specific <strong>illustration style</strong> characterised by simple, geometric shapes set in the brand colours with soft gradients that complement the opalescence of the Pearls.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="horizontal-case-study-separator"></div>
-      </div>
-
-      <div id="brand-guidelines">
         <div class="row">
           <div class="col">
-            <h2>4. Brand Guidelines</h2>
-            <div class="browser card-shadow d-block d-lg-none d-xl-none">
-              <div class="browser-circle">
-              </div>
-              <div class="browser-circle">
-              </div>
-              <div class="browser-circle">
-              </div>
-              <div style="clear:both;"></div>
-              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/brand-guidelines.gif" alt="Polyfen Brand Guidelines">
+            <div id="pearl-13" class="pearl rotate d-block d-lg-none d-xl-none">
             </div>
-            <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and assets necessary for our organisation.</p>
-            <p>Our brand guidelines can be easily updated as our identity grows and evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
+            <p id="visual-language-intro">Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects that we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
+          </div>
+          <div class="col-xl-1">
+          </div>
+          <div class="col">
+          </div>
+        </div>
+
+        <div class="row d-none d-lg-block d-xl-block" id="pearls-sample">
+          <div id="pearl-13" class="pearl rotate-slower">
+          </div>
+          <div id="pearl-14" class="pearl rotate">
+          </div>
+          <div id="pearl-15" class="pearl rotate-slower">
+          </div>
+          <div id="pearl-16" class="pearl rotate-slower">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 d-flex d-lg-none d-xl-none">
+            <div class="horizontal-case-study-separator"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img src="imgs/case-studies/developing-our-own-brand/visual-identity/folder-illustration.svg" alt="Creative Team Illustration">
           </div>
           <div class="col-xl-1 col-lg-1">
           </div>
-          <div class="col d-none d-lg-block d-xl-block">
-            <div class="browser card-shadow" id="naming-web">
-              <div class="browser-circle">
-              </div>
-              <div class="browser-circle">
-              </div>
-              <div class="browser-circle">
-              </div>
-              <div style="clear:both;"></div>
-              <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/brand-guidelines.gif" alt="Polyfen Brand Guidelines">
-            </div>
+          <div class="col" id="visual-language-outro">
+            <p>Our visual language also counts with a specific <strong>illustration style</strong> characterised by simple, geometric shapes set in the brand colours with soft gradients that complement the opalescence of the Pearls.</p>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="horizontal-case-study-separator"></div>
-      </div>
-
-      <div id="brand-touchpoints">
         <div class="row">
-          <div class="col d-none d-lg-flex d-xl-flex" id="folder-illustration">
-            <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.jpg" alt="Polyfen Proposal Cover" class="card-shadow">
-          </div>
-          <div class="col-xl-1 col-lg-1">
-          </div>
-          <div class="col" style="z-index:3;">  
-            <h2>5. Brand Touchpoints</h2>
-            <div id="brand-touchpoints-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.jpg" alt="Polyfen Business Cards Design">
+          <div class="horizontal-case-study-separator"></div>
+        </div>
+
+        <div id="brand-guidelines">
+          <div class="row">
+            <div class="col">
+              <h2>4. Brand Guidelines</h2>
+              <div class="browser card-shadow d-block d-lg-none d-xl-none">
+                <div class="browser-circle">
                 </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/letterhead-grid.jpg" alt="Polyfen Letterhead Design Grid">
+                <div class="browser-circle">
                 </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.jpg" alt="Polyfen Proposal Cover">
+                <div class="browser-circle">
                 </div>
+                <div style="clear:both;"></div>
+                <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/brand-guidelines.gif" alt="Polyfen Brand Guidelines">
+              </div>
+              <p>To ensure the consistent use of all the parameters that we have set to identify our brand, we developed a web page with all the corresponding guidelines and assets necessary for our organisation.</p>
+              <p>Our brand guidelines can be easily updated as our identity grows and evolves, and they are conveniently accessible at <a href="http://polyfen.com/brand" target="_blank">polyfen.com/brand</a>.</p>
+            </div>
+            <div class="col-xl-1 col-lg-1">
+            </div>
+            <div class="col d-none d-lg-block d-xl-block">
+              <div class="browser card-shadow" id="naming-web">
+                <div class="browser-circle">
+                </div>
+                <div class="browser-circle">
+                </div>
+                <div class="browser-circle">
+                </div>
+                <div style="clear:both;"></div>
+                <img src="imgs/case-studies/developing-our-own-brand/brand-guidelines/brand-guidelines.gif" alt="Polyfen Brand Guidelines">
               </div>
             </div>
-            <div class="card-navigation d-block d-lg-none d-xl-none">
-              <div class="navigation-bullet active-navigation-bullet" id="bulletTouchpoints1" data-target="#brand-touchpoints-slider" data-slide-to="0"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletTouchpoints2" data-target="#brand-touchpoints-slider" data-slide-to="1"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletTouchpoints3" data-target="#brand-touchpoints-slider" data-slide-to="2"></div>
-            </div>
-            <p>We designed a system of all the branded applications needed for our business activities; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
-            <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards-transparent.png" alt="Polyfen Business Cards Design" style="margin-left:-35px;margin-top:35px;" class="d-none d-lg-block d-xl-block">
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="horizontal-case-study-separator"></div>
-      </div>
-
-      <div id="web-development">
         <div class="row">
-          <div class="col">
-            <h2>6. Web Development</h2>
-            <div id="web-development-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="imgs/case-studies/developing-our-own-brand/web-development/web-cover.gif" alt="Polyfen Web Cover Animation">
-                </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.jpg" alt="Polyfen Mobile Web Design">
-                </div>
-                <div class="item">
-                  <img src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.gif" alt="Polyfen UI Cards Transition">
-                </div>
-              </div>
+          <div class="horizontal-case-study-separator"></div>
+        </div>
+
+        <div id="brand-touchpoints">
+          <div class="row">
+            <div class="col d-none d-lg-flex d-xl-flex" id="folder-illustration">
+              <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.jpg" alt="Polyfen Proposal Cover" class="card-shadow">
             </div>
-            <div class="card-navigation d-block d-lg-none d-xl-none">
-              <div class="navigation-bullet active-navigation-bullet" id="bulletWebDevelopment1" data-target="#web-development-slider" data-slide-to="0"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletWebDevelopment2" data-target="#web-development-slider" data-slide-to="1"></div>
-              <div class="navigation-bullet inactive-navigation-bullet" id="bulletWebDevelopment3" data-target="#web-development-slider" data-slide-to="2"></div>
+            <div class="col-xl-1 col-lg-1">
             </div>
-            <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
-            <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.jpg" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:60px;" alt="Polyfen Mobile Web Design">
-            <video width="100%" height="auto" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:40px;border-radius:8px;" autoplay loop>
-              <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
-              <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
-            Your browser does not support the video tag.
-            </video>
-          </div>
-          <div class="col d-none d-lg-block d-xl-block" id="web-dev-browser">
-            <div class="browser card-shadow">
-              <div class="browser-circle">
+            <div class="col" style="z-index:3;">
+              <h2>5. Brand Touchpoints</h2>
+              <div id="brand-touchpoints-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none" data-ride="carousel" data-interval="3500">
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards.jpg" alt="Polyfen Business Cards Design">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/letterhead-grid.jpg" alt="Polyfen Letterhead Design Grid">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/proposal-cover.jpg" alt="Polyfen Proposal Cover">
+                  </div>
+                </div>
               </div>
-              <div class="browser-circle">
+              <div class="card-navigation d-block d-lg-none d-xl-none">
+                <div class="navigation-bullet active-navigation-bullet" id="bulletTouchpoints1" data-target="#brand-touchpoints-slider" data-slide-to="0"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletTouchpoints2" data-target="#brand-touchpoints-slider" data-slide-to="1"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletTouchpoints3" data-target="#brand-touchpoints-slider" data-slide-to="2"></div>
               </div>
-              <div class="browser-circle">
-              </div>
-              <div style="clear:both;"></div>
-              <img src="imgs/case-studies/developing-our-own-brand/web-development/web-design.jpg" alt="Polyfen Homepage Web Design">
+              <p>We designed a system of all the branded applications needed for our business activities; Including email signatures, social media profiles, business cards, letterheads, invoices, and presentation slides.</p>
+              <img src="imgs/case-studies/developing-our-own-brand/brand-touchpoints/business-cards-transparent.png" alt="Polyfen Business Cards Design" style="margin-left:-35px;margin-top:35px;" class="d-none d-lg-block d-xl-block">
             </div>
           </div>
         </div>
-      </div>
 
-      <div id="share" class="col-xl-12">
-        <div class="share-separator"></div>
-        <h4>Share</h4>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" data-href="http://polyfen.com/case-study" data-image="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" data-title="Developing our own brand" data-desc="A case study that exhibits our brand's core concept, the midpoint between business and creativity." id="facebook-share" class="button tertiary-button" target="_blank">Facebook</a>
+        <div class="row">
+          <div class="horizontal-case-study-separator"></div>
+        </div>
 
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-size="large" data-url="http://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false" id="twitter-share" class="button tertiary-button" target="_blank">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div id="web-development">
+          <div class="row">
+            <div class="col">
+              <h2>6. Web Development</h2>
+              <div id="web-development-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imgs/case-studies/developing-our-own-brand/web-development/web-cover.gif" alt="Polyfen Web Cover Animation">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.jpg" alt="Polyfen Mobile Web Design">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.gif" alt="Polyfen UI Cards Transition">
+                  </div>
+                </div>
+              </div>
+              <div class="card-navigation d-block d-lg-none d-xl-none">
+                <div class="navigation-bullet active-navigation-bullet" id="bulletWebDevelopment1" data-target="#web-development-slider" data-slide-to="0"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletWebDevelopment2" data-target="#web-development-slider" data-slide-to="1"></div>
+                <div class="navigation-bullet inactive-navigation-bullet" id="bulletWebDevelopment3" data-target="#web-development-slider" data-slide-to="2"></div>
+              </div>
+              <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
+              <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.jpg" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:60px;" alt="Polyfen Mobile Web Design">
+              <video width="100%" height="auto" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:40px;border-radius:8px;" autoplay loop>
+                <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
+                <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="col d-none d-lg-block d-xl-block" id="web-dev-browser">
+              <div class="browser card-shadow">
+                <div class="browser-circle">
+                </div>
+                <div class="browser-circle">
+                </div>
+                <div class="browser-circle">
+                </div>
+                <div style="clear:both;"></div>
+                <img src="imgs/case-studies/developing-our-own-brand/web-development/web-design.jpg" alt="Polyfen Homepage Web Design">
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <!--<div class="fb-share-button" data-href="https://polyfen.com/case-study.php" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>-->
+        <div id="share" class="col-xl-12">
+          <div class="share-separator"></div>
+          <h4>Share</h4>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" data-href="http://polyfen.com/case-study" data-image="http://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" data-title="Developing our own brand" data-desc="A case study that exhibits our brand's core concept, the midpoint between business and creativity." id="facebook-share" class="button tertiary-button" target="_blank">Facebook</a>
 
-        <!--<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="http://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
-      </div>
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-size="large" data-url="http://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false" id="twitter-share" class="button tertiary-button" target="_blank">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          <!--<div class="fb-share-button" data-href="https://polyfen.com/case-study.php" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>-->
+
+          <!--<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="http://polyfen.com/case-study" data-related="wearepolyfen" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+        </div>
+
+        </div>
 
       </div>
     </section>
@@ -473,6 +477,8 @@
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    </div>
 
   </body>
 </html>
