@@ -489,6 +489,11 @@ section#call-to-action {
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
+
+    section#about {
+      margin-top: -20px;
+    }
+
       section#about h2 {
         max-width: 480px;
         margin-bottom: 20px;
