@@ -31,6 +31,6 @@ body {
 
 .status-end {
 	width: 100%;
-	-webkit-transition: width 1s; /* Safari */
-  transition: width 1s;
+	-webkit-transition: width 3s; /* Safari */
+  transition: width 3s;
 }
