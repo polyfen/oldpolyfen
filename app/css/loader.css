@@ -18,19 +18,22 @@ body {
 }
 
 #status {
+  width: 200px;
+  height: 200px;
   position: absolute;
-	top: 0;
-	height: 5px;
-	background: #7800FF;
-	box-shadow: 0 0 20px #5D18B4 !important;
-}
-
-.status-start {
-	width: 0%;
-}
-
-.status-end {
-	width: 100%;
-	-webkit-transition: width 3s; /* Safari */
-  transition: width 3s;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url('../../imgs/loader-spinner.jpg');
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+	-webkit-animation: rotating 1s linear infinite !important;
+	-moz-animation: rotating 1s linear infinite !important;
+	-ms-animation: rotating 1s linear infinite !important;
+	-o-animation: rotating 1s linear infinite !important;
+	animation: rotating 1s linear infinite !important;
+  /* is width and height divided by two */
 }
