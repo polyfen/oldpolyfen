@@ -13,6 +13,13 @@
 /* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
 
+  _::-webkit-full-page-media, _:future, :root .safari-separator {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        background: none;
+      }
+
 }
 
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
@@ -23,15 +30,27 @@
     width: 243px;
   }
 
+  _::-webkit-full-page-media, _:future, :root .safari-separator {
+        height: 60px;
+      }
+
 }
 
 /* Large devices (Tanblet Landscape) */
 @media (min-width: 992px) {
 
+  _::-webkit-full-page-media, _:future, :root .safari-separator {
+        height: 90px;
+      }
+
 }
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
+
+  _::-webkit-full-page-media, _:future, :root .safari-separator {
+        height: 130px;
+      }
 
 }
 

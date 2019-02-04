@@ -133,8 +133,10 @@
       </div>
 
 
+      <div class="safari-separator">
+      </div>
 
-      <section id="services" >
+      <section id="services">
 
             <h2>Our services</h2>
 
