@@ -13,14 +13,14 @@
       <input type="email" name="email" id="email" placeholder="Your email" required>
       <textarea name="message" id="message" placeholder="Your message..." required></textarea>
       <button type="submit" class="g-recaptcha" data-sitekey="6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv" data-callback='onSubmit' id="send">Send </button>
-     
+
     </form>
     <button id="go-back" onclick="document.getElementById('cta-content').className='col c-block';document.getElementById('contact-form').className='col d-none';document.getElementById('call-to-action').className='';">
       <i class="fa fa-chevron-left"></i> Back
     </button>
   </div>
 
-  
+
 
   <div class="curve">
   </div>
@@ -49,12 +49,12 @@ function send_contact_message(formobj)
            type: "POST",
            url: url,
            data: form.serialize(), // serializes the form's elements.
-		   beforeSend: function() { 
-			   
-			  
+		   beforeSend: function() {
+
+
 			   document.getElementById('send').innerHTML="<i class='fa fa-spinner fa-pulse'></i>";
-			 
-			   
+			   document.getElementById('send').className="spinner";
+
 			   },
            success: function(data)
            {
@@ -63,7 +63,7 @@ function send_contact_message(formobj)
 $("#contact-form").html(data);
 
 
-			   
+
            }
          });
 
