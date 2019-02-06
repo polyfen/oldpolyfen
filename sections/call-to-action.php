@@ -54,7 +54,7 @@ function send_contact_message(formobj)
 			  
 			   document.getElementById('send').innerHTML="<i class='fa fa-spinner fa-pulse'></i>";
 			 
-			   
+			   document.getElementById('send').className="spinner";
 			   },
            success: function(data)
            {
