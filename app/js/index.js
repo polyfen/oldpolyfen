@@ -112,19 +112,25 @@ $(document).ready(function(){
 
       }
 
-      if(currentSlide==0){
-        setTimeout(function(){
-          $('.slick-next').click();
-        },20);
-       
+      //Media solution for draggable
+
+      if($(document).innerWidth()>975){
+        if(currentSlide==0){
+          setTimeout(function(){
+            $('.slick-next').click();
+          },20);
+         
+        }
+  
+        if(currentSlide==5){
+          setTimeout(function(){
+            $('.slick-prev').click();
+          },20);
+         
+        }
       }
 
-      if(currentSlide==5){
-        setTimeout(function(){
-          $('.slick-prev').click();
-        },20);
-       
-      }
+
       
      
      });
