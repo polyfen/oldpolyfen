@@ -12,7 +12,6 @@ $(document).ready(function(){
     slidesToShow: 3,
     initialSlide: 1,
 
-    
     responsive: [
       {
         breakpoint: 991,
@@ -23,6 +22,7 @@ $(document).ready(function(){
           centerMode: true,
           infinite: true,
           initialSlide: 0,
+
         }
       },
       {
@@ -110,6 +110,20 @@ $(document).ready(function(){
       } else {
         $('.slick-next').removeClass('hide');
 
+      }
+
+      if(currentSlide==0){
+        setTimeout(function(){
+          $('.slick-next').click();
+        },20);
+       
+      }
+
+      if(currentSlide==5){
+        setTimeout(function(){
+          $('.slick-prev').click();
+        },20);
+       
       }
       
      
