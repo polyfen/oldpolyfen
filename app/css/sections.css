@@ -35,7 +35,7 @@ section#cover {
     }
 
     section#cover div.curve {
-      background-image: url('../../imgs/cover/curve.svg');
+      background-image: url('../../imgs/cover/dark-curve.svg');
       background-repeat: no-repeat;
       background-size: contain;
       background-position: bottom;
@@ -50,10 +50,6 @@ section#cover {
 /*---------- COVER end ------------*/
 
 /*---------- BODY CONTENT start ------------*/
-
-div#content-wrapper {
-  background: #FEF4E6 /* #cream */;
-}
 
 /*---------- CASE STUDIES start ------------*/
 
@@ -293,7 +289,7 @@ section#call-to-action {
     }
 
     section#call-to-action div.curve {
-      background-image: url('../../imgs/cover/curve.svg');
+      background-image: url('../../imgs/cover/dark-curve.svg');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: bottom;
