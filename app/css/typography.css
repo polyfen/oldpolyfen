@@ -224,7 +224,7 @@ p a:hover {
     }
 
     p, p a, li, p strong, p span, li strong {
-      font-size: 23px;
+      font-size: 21px;
       letter-spacing: 0.15px;
       line-height: 1.39;
     }
@@ -267,7 +267,7 @@ p a:hover {
   }
 
   p, p a, li, p strong, p span, li strong {
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 0.15px;
     line-height: 1.39;
   }
