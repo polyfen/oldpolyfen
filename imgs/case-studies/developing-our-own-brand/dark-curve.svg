@@ -19,7 +19,7 @@
                 <g id="Mask"></g>
                 <rect id="Gradient" fill="url(#linearGradient-3)" opacity="0.663969494" mask="url(#mask-2)" x="0" y="616" width="1684" height="170"></rect>
             </g>
-            <path d="M1684,650 L1684,799 L0,799 L0,744 C607,813.333333 1168.33333,782 1684,650 Z" id="Combined-Shape" fill="#060638"></path>
+            <path d="M1684,650 L1684,799 L0,799 L0,744 C607,813.333333 1168.33333,782 1684,650 Z" id="Combined-Shape" fill="#010125"></path>
         </g>
     </g>
 </svg>

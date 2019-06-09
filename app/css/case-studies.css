@@ -230,7 +230,7 @@ div.browser div.browser-circle {
   width: 12px;
   border-radius: 100px;
   float: left;
-  background: #06063899;
+  background: #01012599;
   margin: 10px 0 10px 8px;
 }
 
@@ -275,14 +275,14 @@ div#share a {
 }
 
 div#share a#facebook-share {
-  color: #060638cc;
+  color: #010125cc;
   background: #2e61ce;
   box-shadow: 0 0 10px #2e61ce;
   border-color: #2e61ce;
 }
 
 div#share a#twitter-share {
-  color: #060638cc;
+  color: #010125cc;
   background: #1da1f4;
   box-shadow: 0 0 10px #1da1f4;
   border-color: #1da1f4;
@@ -441,7 +441,7 @@ body.case-study section#call-to-action div.curve {
   }
 
   div#share a#facebook-share:hover {
-    color: #060638;
+    color: #010125;
     background: #2e61ce;
     box-shadow: 0 0 10px #2e61ce;
   }
@@ -455,7 +455,7 @@ body.case-study section#call-to-action div.curve {
   }
 
   div#share a#twitter-share:hover {
-    color: #060638;
+    color: #010125;
     background: #1da1f4;
     box-shadow: 0 0 10px #1da1f4;
   }
