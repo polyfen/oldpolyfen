@@ -25,7 +25,7 @@ h1 /* (mobile) */ {
 
 h2 /* (mobile) */ {
   font-size: 35px;
-  letter-spacing: 0.3px;
+  letter-spacing: -0.1px;
   line-height: 1.17;
   text-align: left;
   font-weight: normal /* semi-bold */;
@@ -48,7 +48,7 @@ body.case-study #content-wrapper h2 {
 
 h3 /* (mobile) */ {
   font-size: 26px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0px;
   line-height: 1.25;
   text-align: left;
   font-weight: normal /* semi-bold */;
@@ -200,7 +200,7 @@ p a:hover {
 
     h1 {
       font-size: 56px;
-      letter-spacing: 0.2px;
+      letter-spacing: -1px;
       line-height: 1.09;
     }
 

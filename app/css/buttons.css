@@ -40,7 +40,7 @@ a.secondary-button {
   color: #FFFFFFE6 !important;
   padding: 9px 35px;
   font-size: 21px;
-  font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
+  font-family: 'Biotif', Helvetica, Arial, sans-serif;
   box-shadow: 0 0 10px #BA00FF;
   -webkit-transition: all 0.5s; /* Safari */
   transition: all 0.5s;
@@ -101,7 +101,7 @@ div#contact-form button {
 div#contact-form button#send {
   float: right;
   border-radius: 0 6px 6px 0;
-  
+
   border-left: 2.5px solid #6600DA /* indigo-minus-2 */;
 }
 
