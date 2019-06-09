@@ -263,7 +263,7 @@
             <div id="wordmark" class="card-shadow">
               <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" alt="Polyfen Wordmark Logo">
             </div>
-            <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/freight-text-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
+            <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/minion-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
           </div>
 
 
