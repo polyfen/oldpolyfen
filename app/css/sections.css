@@ -201,15 +201,6 @@ section#about img {
   max-width: 400px;
 }
 
-section#about p {
-  max-width: 480px;
-  color: rgba(25, 25, 71, 0.7);
-}
-
-section#about p strong {
-  color: rgba(25, 25, 71, 1);
-}
-
 /*---------- ABOUT end ------------*/
 
 /*---------- BODY CONTENT end ------------*/
@@ -392,14 +383,6 @@ section#call-to-action {
 
         section#case-studies section.case-project div.project-description p {
           max-width: 290px;
-        }
-
-        section#case-studies section.case-project div.project-description p, section#case-studies section.case-project div.project-description p span {
-          color: rgba(25, 25, 71, 0.7);
-        }
-
-        section#case-studies section.case-project div.project-description p strong {
-          color: rgba(25, 25, 71, 1);
         }
     /*--- CASE STUDIES end ---*/
 
