@@ -1,7 +1,7 @@
 /*---------- TYPOGRAPHY start ------------*/
 
 * {
-  font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
+  font-family: 'Biotif', Helvetica, Arial, sans-serif;
   color: #D8D8D8 /* #cloud */;
 }
 
@@ -13,7 +13,7 @@ h1 /* (mobile) */ {
   font-weight: normal /* bold */;
   font-style: normal;
   color: #FFFFFF /* #white */;
-  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
+  font-family: 'Biotif', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -31,7 +31,7 @@ h2 /* (mobile) */ {
   font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #36368F /* #white */;
-  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
+  font-family: 'Biotif', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -54,7 +54,7 @@ h3 /* (mobile) */ {
   font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #474797 /* #white */;
-  font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
+  font-family: 'Biotif', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -67,7 +67,7 @@ h3 /* (mobile) */ {
 h4, h4 span {
   font-size: 21px;
   letter-spacing: 0.3px;
-  font-family: 'InteloAlt-Bold', Helvetica, Arial, sans-serif;
+  font-family: 'Biotif', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -106,7 +106,7 @@ button, a.button /* (mobile) */ {
   font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #D8D8D8 /* cloud */;
-  font-family: 'InteloAlt-SemiBold', sans-serif;
+  font-family: 'Biotif', sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -123,7 +123,7 @@ a small, small /* (mobile) */ {
   font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #D8D8D8 /* cloud */;
-  font-family: 'InteloAlt-SemiBold', sans-serif;
+  font-family: 'Biotif', sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
