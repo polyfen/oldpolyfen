@@ -64,7 +64,7 @@
   <!--
 /**
  * @license
- * MyFonts Webfont Build ID 3771276, 2019-06-09T17:17:20-0400
+ * MyFonts Webfont Build ID 3771282, 2019-06-09T19:42:40-0400
  *
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are
@@ -78,21 +78,13 @@
  * Licensed pageviews: 20,000
  *
  *
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3771276
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3771282
  *
  * © 2019 MyFonts Inc
 */
 
 -->
-
-<script type="text/javascript">
-//uncomment and change this to false if you're having trouble with WOFFs
-//var woffEnabled = true;
-//to place your webfonts in a custom directory
-//uncomment this and set it to where your webfonts are.
-var customPath = "libs/fonts";
-</script>
-<script type="text/javascript" src="libs/fonts/MyFontsWebfontsKit.js"></script>
+<link rel="stylesheet" type="text/css" href="libs/fonts/MyFontsWebfontsKit.css">
   <link rel="stylesheet" href="https://use.typekit.net/aba8ecz.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Source+Serif+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">

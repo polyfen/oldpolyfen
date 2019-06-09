@@ -45,6 +45,7 @@ body.case-study div.vertical-case-study-separator {
   display:block;
   margin:0px auto;
   background:#191947;
+  opacity: 0.5;
 }
 
 body.case-study div.horizontal-case-study-separator {
@@ -53,6 +54,7 @@ body.case-study div.horizontal-case-study-separator {
   display:block;
   margin: 60px auto;
   background:#191947;
+  opacity: 0.5;
 }
 
 body.case-study div.col-12 div.horizontal-case-study-separator {
