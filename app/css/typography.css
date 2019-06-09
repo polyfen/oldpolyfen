@@ -85,7 +85,7 @@ p, p a, li, p strong, p span, li strong /* (mobile) */ {
   font-weight: 400 /* regular */;
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'minion-pro', serif;
+  font-family: 'ff-meta-serif-web-pro', serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
