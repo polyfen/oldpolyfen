@@ -35,10 +35,10 @@ h2 /* (mobile) */ {
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
 }
 
 body.case-study #content-wrapper h2 {
@@ -58,10 +58,10 @@ h3 /* (mobile) */ {
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
 }
 
 h4, h4 span {
@@ -71,10 +71,10 @@ h4, h4 span {
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
 }
 
 p, p a, li, p strong, p span, li strong /* (mobile) */ {
