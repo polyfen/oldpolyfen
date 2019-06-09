@@ -119,7 +119,7 @@
     <div id="content-wrapper">
 
       <section id="case-studies">
-            <h2>Case Studies</h2>
+            <h2>Case studies</h2>
 
             <section class="case-project">
               <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
