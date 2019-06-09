@@ -48,14 +48,8 @@
           $("#pearl-05").removeClass("pearl-05-ACTIVE").addClass("pearl-05-INACTIVE");
           $("#pearl-06").removeClass("pearl-06-ACTIVE").addClass("pearl-06-INACTIVE");
       }
-      if (scroll > 80) {
-          $("#polyfen-cover").removeClass("polyfen-cover-INACTIVE").addClass("polyfen-cover-ACTIVE");
-      }
       if (scroll > 90) {
           $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-INACTIVE").addClass("polyfen-thumbnail-ACTIVE");
-      }
-      if (scroll <= 80) {
-          $("#polyfen-cover").removeClass("polyfen-cover-ACTIVE").addClass("polyfen-cover-INACTIVE");
       }
       if (scroll <= 90) {
           $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-ACTIVE").addClass("polyfen-thumbnail-INACTIVE");
@@ -122,7 +116,7 @@
             <h2>Case studies</h2>
 
             <section class="case-project">
-              <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-INACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
+              <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
               <a href="case-study.php"><div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';">
               </div></a>
               <div class="project-description">
