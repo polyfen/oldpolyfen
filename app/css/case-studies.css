@@ -327,7 +327,7 @@ body.case-study section#call-to-action div.curve {
 
   div.swatch {
     height: 150px;
-    width: 30%;
+    width: calc(50% - 10px);
     border-radius: 8px;
     float: left;
     display: flex;

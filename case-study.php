@@ -263,7 +263,7 @@
             <div id="wordmark" class="card-shadow">
               <img src="imgs/case-studies/developing-our-own-brand/visual-identity/WORDMARK_PLY_RGB_White.svg" width="100%" height="auto" alt="Polyfen Wordmark Logo">
             </div>
-            <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/kastelov/intelo/" target="_blank">Intelo Alt</a> set on headings and our logo's wordmark, a clean and geometric typeface with a distinctively playful character, most noticeable in the roundness of the letter “e”; paired with <a href="https://www.myfonts.com/fonts/garagefonts/ff-meta-serif-web-pro/" target="_blank">Freight Text Pro</a>,  a clean and readable typeface optimal for body text.</p>
+            <p>Our <strong>typographic selection</strong> features <a href="https://www.myfonts.com/fonts/degarism-studio/biotif/" target="_blank">Biotif</a> set on headings and our logo's wordmark, a clean and geometric typeface with a subtle wideness which conveys a playful, creative character; paired with <a href="https://www.myfonts.com/fonts/fontfont/meta-serif/" target="_blank">Meta Serif</a>,  a clean and readable typeface optimal for body text.</p>
           </div>
 
 
@@ -279,9 +279,6 @@
             <div id="colour-swatches">
               <div class="swatch" id="indigo">
                 <small>Indigo</small>
-              </div>
-              <div class="swatch" id="cream">
-                <small>Cream</small>
               </div>
               <div class="swatch" id="slate">
                 <small>Slate</small>
