@@ -3,11 +3,11 @@
 
   <div id="cta-content">
     <h2>Give your business the brand it deserves</h2>
-    <a class="button primary-button" onclick="document.getElementById('contact-form').className='col c-block';document.getElementById('call-to-action').className='active-call-to-action';document.getElementById('cta-content').className='col d-none';document.getElementById('name-input').focus(); return false;">Contact us</a>
+    <a class="button primary-button" onclick="document.getElementById('contact-form').className='col c-block';document.getElementById('call-to-action').className='active-call-to-action';document.getElementById('cta-content').className='col d-none';document.getElementById('name-input').focus(); return false;">Let's Talk!</a>
   </div>
 
   <div class="d-none" id="contact-form">
-    <h2>Contact us</h2>
+    <h2>Let's Talk!</h2>
     <form id="ajax-contact" method="post" onsubmit="return send_contact_message(this);" action="app/contact-form/mailer.php">
       <input type="text" name="name" placeholder="Your name" id="name-input" required>
       <input type="email" name="email" id="email" placeholder="Your email" required>
