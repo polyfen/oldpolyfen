@@ -435,7 +435,7 @@
               </div>
               <p>The centrepiece of our online presence, <a href="http://polyfen.com">polyfen.com</a>, features relevant and practical information set in a clean and readable layout with prominent visual elements and interactive animations which offer an engaging and memorable user experience.</p>
               <img src="imgs/case-studies/developing-our-own-brand/web-development/web-mobile.jpg" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:60px;" alt="Polyfen Mobile Web Design">
-              <video width="100%" height="auto" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:40px;border-radius:8px;" autoplay loop>
+              <video width="100%" height="auto" class="card-shadow d-none d-lg-block d-xl-block" style="margin-top:40px;border-radius:4px;" autoplay loop>
                 <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.mp4" type="video/mp4">
                 <source src="imgs/case-studies/developing-our-own-brand/web-development/service-cards.ogv" type="video/ogg">
               Your browser does not support the video tag.

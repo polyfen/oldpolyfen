@@ -62,7 +62,7 @@ body.case-study div.col-12 div.horizontal-case-study-separator {
 }
 
 body.case-study section#content-wrapper img {
-  border-radius:8px;
+  border-radius:4px;
   width: 100%;
 }
 
@@ -128,7 +128,7 @@ div#logo-grid {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 4px;
   background: #191947 url('../../imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid.gif');
   background-position: center;
   background-size: cover;
@@ -144,7 +144,7 @@ div#logo-system {
 
 body.case-study div.carousel {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 4px;
   margin-top: 30px;
 }
 
@@ -222,7 +222,7 @@ body.case-study div#visual-language-outro {
 }
 
 div.browser {
-  border-radius: 8px;
+  border-radius: 4px;
   background: #231E4E;
   position: relative;
 }
@@ -237,7 +237,7 @@ div.browser div.browser-circle {
 }
 
 div.browser img {
-  border-radius: 0 0 8px 8px !important;
+  border-radius: 0 0 4px 4px !important;
 }
 
 div#folder-illustration, div#web-dev-browser {
@@ -269,7 +269,7 @@ div#share h4 {
 
 div#share a {
   width: 225px;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 8px 0;
   border: 2px solid;
   display: block;
@@ -328,7 +328,7 @@ body.case-study section#call-to-action div.curve {
   div.swatch {
     height: 150px;
     width: calc(50% - 10px);
-    border-radius: 8px;
+    border-radius: 4px;
     float: left;
     display: flex;
     align-items: center;
