@@ -161,7 +161,7 @@
 
         <div class="row">
           <div id="brand-research" class="col">
-            <h2>1. Brand Research</h2>
+            <h2>Brand Research</h2>
             <p>We started by conducting an exhaustive analysis of our business offering, our industry and competitors, and our audience.</p>
             <p>Our conclusion was that most creative agencies position their brands in one of two different ways.</p>
             <ol>
@@ -180,7 +180,7 @@
           </div>
 
           <div id="brand-strategy" class="col">
-            <h2>2. Brand Strategy</h2>
+            <h2>Brand Strategy</h2>
             <img src="imgs/case-studies/developing-our-own-brand/brand-strategy/moodboard.jpg" title="Moodboard" alt="Moodboard" class="moodboard card-shadow d-block d-lg-none d-xl-none">
             <p>The choice of our brand name, the design of our logo system, and our website, and all the other elements that make up our brand identity are all rooted in representing our creative concept, <strong>the midpoint between business & creativity</strong>.</p>
             <p>We adopted <strong>Polyfen</strong> as a short, simple, memorable, efficient brand name that also carries whimsical tone as an arbitrary, abstract word with no original meaning.</p>
@@ -202,7 +202,7 @@
 
           <div class="col">
             <div id="overview">
-              <h2>3. Visual Identity</h2>
+              <h2>Visual Identity</h2>
               <p>All of the elements that constitute our visual identity aim to be as distinctive and playful as possible while remaining clean, simple, and utilitarian as possible.</p>
               <img src="imgs/case-studies/developing-our-own-brand/visual-identity/ideogram-grid.gif" style="margin-bottom: 2.5rem;" class="card-shadow d-lg-none d-xl-none" alt="Ideogram Logo Grid">
               <p>Our <strong>logo system</strong> is the centrepiece of our visual identity. It represents the conjunction of two worlds, the world of business and the creative realm. The analytical hemisphere of the brain, and the emotional hemisphere.</p>
@@ -342,7 +342,7 @@
         <div id="brand-guidelines">
           <div class="row">
             <div class="col">
-              <h2>4. Brand Guidelines</h2>
+              <h2>Brand Guidelines</h2>
               <div class="browser card-shadow d-block d-lg-none d-xl-none">
                 <div class="browser-circle">
                 </div>
@@ -385,7 +385,7 @@
             <div class="col-xl-1 col-lg-1">
             </div>
             <div class="col" style="z-index:3;">
-              <h2>5. Brand Touchpoints</h2>
+              <h2>Brand Touchpoints</h2>
               <div id="brand-touchpoints-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
@@ -417,7 +417,7 @@
         <div id="web-development">
           <div class="row">
             <div class="col">
-              <h2>6. Web Development</h2>
+              <h2>Web Development</h2>
               <div id="web-development-slider" class="carousel slide card-shadow d-flex d-lg-none d-xl-none">
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
