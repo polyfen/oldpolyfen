@@ -296,7 +296,7 @@
           <div class="col">
             <div id="pearl-13" class="pearl rotate d-block d-lg-none d-xl-none">
             </div>
-            <p id="visual-language-intro">Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects that we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
+            <p id="visual-language-intro">Our <strong>visual language</strong> complements the other elements of our visual identity with a system of <span style="font-variant-numeric: lining-nums;-moz-font-feature-settings: "lnum";-webkit-font-feature-settings: "lnum";font-feature-settings: "lnum";">3D</span> modelled opalescent objects which we call <strong>Pearls</strong>. These can be featured in the background of our brand touchpoints as a trademark element that identifies our brand.</p>
           </div>
           <div class="col-xl-1">
           </div>
