@@ -11,12 +11,12 @@ body div.vertical-case-study-separator {
 }
 
 body div.horizontal-case-study-separator {
-  height:3px;
+  height:5px;
   width:calc(100% - 30px);
   display:block;
   margin: 120px auto;
-  background:#191947;
-  opacity: 0.5;
+  background: url('../../imgs/circle.svg');
+  opacity: 0.75;
 }
 
 body div.horizontal-case-study-separator {
