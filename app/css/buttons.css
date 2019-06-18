@@ -37,18 +37,23 @@ a.secondary-button {
   text-align: center;
   display: block;
   border: none;
-  color: #FFFFFFE6 !important;
+  color: #7800FF !important;
+  background: none;
+  border: 3px solid #7800FF46;
   padding: 9px 35px;
   font-size: 21px;
   font-family: 'Biotif', Helvetica, Arial, sans-serif;
-  box-shadow: 0 0 10px #BA00FF;
   -webkit-transition: all 0.5s; /* Safari */
   transition: all 0.5s;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  letter-spacing: 0.75px;
 }
 
 a.secondary-button:hover {
   color: #FFFFFF !important;
   background: #7800FF;
+  border: 3px solid #7800FF;
 }
 
 a.tertiary-button {
@@ -60,7 +65,7 @@ a.tertiary-button {
 
 a.tertiary-button:hover {
   background: #7800FF;
-  color: #0e0c2f;
+  color: #03012F;
   box-shadow: 0 0 10px #7800FF;
   text-decoration: none;
 }
@@ -142,9 +147,6 @@ div#contact-form button#go-back:hover {
     box-shadow: none;
     text-align: left;
     padding: 0;
-    color: #7800FF !important;
-    border-bottom: 2px dotted #7800FF;
-    border-radius: 0;
     width: 132px;
     margin: 20px 0 0 0;
   }
@@ -152,7 +154,7 @@ div#contact-form button#go-back:hover {
   a.secondary-button:hover {
     background: none;
     color: #7800FF !important;
-    border-bottom: 2px solid #7800FF;
+    border: 3px solid #7800FF;
   }
 
 }
@@ -222,19 +224,15 @@ div#contact-form button#go-back:hover {
     border-radius: 4px;
     text-align: center;
     display: block;
-    border: none;
-    color: #FFFFFF !important;
-    background: #7800FF;
     padding: 7px 0;
     -webkit-transition: all 0.3s; /* Safari */
     transition: all 0.3s;
+    border: 3px solid #7800FF46;
   }
 
   a.secondary-button:hover, a.secondary-button-hover {
     color: #FFFFFF !important;
     background: #7800FF;
-    box-shadow: 0 0 10px #5D18B4 !important;
-    border:none;
   }
 
   div.desktop-card-navigation-wrapper {

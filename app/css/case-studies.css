@@ -9,11 +9,11 @@ body.case-study h1 {
   z-index: 2;
 }
 
-body.case-study h2 {
+body h2 {
   color:#7800FF;
 }
 
-body.case-study section#title {
+body section#title {
     height: 355px;
 }
 
@@ -35,47 +35,25 @@ body.case-study section#title {
   background-image: url('../../imgs/cover/pearl-03-17-b.png');
 }
 
-body.case-study section#content-wrapper {
+body section#content-wrapper {
   margin: 0 auto;
 }
 
-body.case-study div.vertical-case-study-separator {
-  height:100%;
-  width:3px;
-  display:block;
-  margin:0px auto;
-  background:#191947;
-  opacity: 0.5;
-}
-
-body.case-study div.horizontal-case-study-separator {
-  height:3px;
-  width:calc(100% - 30px);
-  display:block;
-  margin: 60px auto;
-  background:#191947;
-  opacity: 0.5;
-}
-
-body.case-study div.col-12 div.horizontal-case-study-separator {
-  width:100%;
-}
-
-body.case-study section#content-wrapper img {
+body section#content-wrapper img {
   border-radius:4px;
   width: 100%;
 }
 
-body.case-study .card-shadow {
+body.card-shadow {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 
-body.case-study p, body.case-study ol {
+body p, body.case-study ol {
   max-width: 660px;
 }
 
-body.case-study div#brand-research p:last-child, body.case-study div#typeface-selection p:last-child, body.case-study div#colour-scheme p:last-child, body.case-study div#visual-language-outro p, body.case-study p#visual-language-intro, body.case-study div#brand-touchpoints p:last-child, body.case-study div#brand-strategy p:last-of-type, body.case-study div#brand-guidelines p:last-of-type, body.case-study div#web-development p, body.case-study div#brand-touchpoints p {
+body div#brand-research p:last-child, body.case-study div#typeface-selection p:last-child, body.case-study div#colour-scheme p:last-child, body.case-study div#visual-language-outro p, body.case-study p#visual-language-intro, body.case-study div#brand-touchpoints p:last-child, body.case-study div#brand-strategy p:last-of-type, body.case-study div#brand-guidelines p:last-of-type, body.case-study div#web-development p, body.case-study div#brand-touchpoints p {
   margin-bottom: 0;
 }
 
@@ -232,7 +210,7 @@ div.browser div.browser-circle {
   width: 12px;
   border-radius: 100px;
   float: left;
-  background: #0e0c2f99;
+  background: #03012F99;
   margin: 10px 0 10px 8px;
 }
 
@@ -277,14 +255,14 @@ div#share a {
 }
 
 div#share a#facebook-share {
-  color: #0e0c2fcc;
+  color: #03012Fcc;
   background: #2e61ce;
   box-shadow: 0 0 10px #2e61ce;
   border-color: #2e61ce;
 }
 
 div#share a#twitter-share {
-  color: #0e0c2fcc;
+  color: #03012Fcc;
   background: #1da1f4;
   box-shadow: 0 0 10px #1da1f4;
   border-color: #1da1f4;
@@ -443,7 +421,7 @@ body.case-study section#call-to-action div.curve {
   }
 
   div#share a#facebook-share:hover {
-    color: #0e0c2f;
+    color: #03012F;
     background: #2e61ce;
     box-shadow: 0 0 10px #2e61ce;
   }
@@ -457,7 +435,7 @@ body.case-study section#call-to-action div.curve {
   }
 
   div#share a#twitter-share:hover {
-    color: #0e0c2f;
+    color: #03012F;
     background: #1da1f4;
     box-shadow: 0 0 10px #1da1f4;
   }

@@ -6,65 +6,50 @@ section {
 }
 
 /*---------- COVER start ------------*/
-
-section#cover {
-  background-color: #231E4E;
-  box-shadow: #00000080 0 -10px 30px inset;
-  position: relative;
-  overflow: hidden;
-  height: 370px;
-}
-
     section#cover h1 {
-      position: absolute;
-      max-width: 450px;
+      max-width: 1220px;
+      top: 130px;
+      position: relative;
       z-index: 2;
-      top: 175px;
+      text-align: center;
+      margin: 0 auto;
     }
 
     section#cover div.background {
-      background-image: url('../../imgs/cover/backdrop.jpg');
-      background-size: cover;
-      background-attachment: fixed;
-      position: absolute;
+      position: relative;
       width: 100%;
       height: 100%;
-      top: 0;
-      left: 0;
-      opacity: 0.85;
-    }
-
-    section#cover div.curve {
-      background-image: url('../../imgs/cover/dark-curve.svg');
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: bottom;
-      width: 100%;
-      height: 320px;
-      top: 52px;
+      top: -400px;
       left: 0;
       z-index: 1;
-      position: absolute;
+    }
+
+    section#cover {
+      height: 640px;
     }
 
 /*---------- COVER end ------------*/
 
 /*---------- BODY CONTENT start ------------*/
 
+section.content-wrapper {
+  padding: 100px !important;
+}
+
 /*---------- CASE STUDIES start ------------*/
 
 
-section#case-studies {
+div#case-studies {
 }
 
-    section#case-studies section.case-project {
+    div#case-studies div.case-project {
       padding: 0 !important;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
       border-radius: 8px;
     }
 
-        section#case-studies section.case-project div.project-cover {
-         background: #0e0c2f url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
+        div#case-studies div.case-project div.project-cover {
+         background: #03012F url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
          background-size: cover;
          background-repeat: no-repeat;
          background-position: 50% 32%;
@@ -73,20 +58,23 @@ section#case-studies {
          border-radius: 8px 8px 0 0;
         }
 
-    section#case-studies section.case-project div.project-description {
+    div#case-studies div.case-project div.project-thumbnail {
+      display: none !important;
+    }
+
+    div#case-studies div.case-project div.project-description {
       width: 100%;
       background: #050032 /* #slate-4 */;
       border-radius: 0 0 8px 8px;
-      padding: 30px 12px 45px 18px;
     }
 
-        section#case-studies section.case-project div.project-description h3 {
+        div#case-studies div.case-project div.project-description h3 {
           max-width: 175px;
           color: #FFFFFF /* #white */;
           margin-bottom: 5px;
         }
 
-        section#case-studies section.case-project div.project-description p {
+        div#case-studies div.case-project div.project-description p {
           max-width: 302px;
           color: rgba(255, 255, 255, 0.7);
         }
@@ -95,12 +83,12 @@ section#case-studies {
 
 /*---------- SERVICES start ------------*/
 
-section#services div#service-cards-wrapper {
+div#services div#service-cards-wrapper {
   width: 5000px;
 }
 
-section#services div.service-card {
-      background: #090727;
+div#services div.service-card {
+      background: #020029;
       padding: 20px;
       border-radius: 8px;
       width: 100%;
@@ -110,7 +98,7 @@ section#services div.service-card {
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
     }
 
-    section#services div.service-card div.service-heading {
+    div#services div.service-card div.service-heading {
       margin: -20px -20px 20px;
       border-radius: 8px 8px 0 0;
       padding: 27px 24px 10px;
@@ -118,37 +106,37 @@ section#services div.service-card {
       align-items: center;
     }
 
-    section#services div.service-card div.service-heading.brand-research {
+    div#services div.service-card div.service-heading.brand-research {
       background: rgb(120,0,255);
       background: linear-gradient(-30deg, rgba(120,0,255,0.35) 30%, rgba(120,0,255,0.9) 100%);
     }
 
-    section#services div.service-card div.service-heading.brand-strategy {
+    div#services div.service-card div.service-heading.brand-strategy {
       background: rgb(104,42,236);
       background: linear-gradient(-30deg, rgba(104,42,236,0.35) 30%, rgba(104,42,236,1) 100%);
     }
 
-    section#services div.service-card div.service-heading.visual-identity {
+    div#services div.service-card div.service-heading.visual-identity {
       background: rgb(89,84,217);
       background: linear-gradient(-30deg, rgba(89,84,217,0.35) 30%, rgba(89,84,217,1) 100%);
     }
 
-    section#services div.service-card div.service-heading.brand-guidelines {
+    div#services div.service-card div.service-heading.brand-guidelines {
       background: rgb(73,125,199);
       background: linear-gradient(-30deg, rgba(73,125,199,0.35) 30%, rgba(73,125,199,1) 100%);
     }
 
-    section#services div.service-card div.service-heading.brand-touchpoints {
+    div#services div.service-card div.service-heading.brand-touchpoints {
       background: rgb(58,167,180);
       background: linear-gradient(-30deg, rgba(58,167,180,0.35) 30%, rgba(58,167,180,1) 100%);
     }
 
-    section#services div.service-card div.service-heading.web-development {
+    div#services div.service-card div.service-heading.web-development {
       background: rgb(42,209,161);
       background: linear-gradient(-30deg, rgba(42,209,161,0.35) 30%, rgba(42,209,161,0.85) 100%);
     }
 
-    section#services div.service-card div.service-heading img {
+    div#services div.service-card div.service-heading img {
       height: 50px;
       width: 50px;
       float: left;
@@ -157,21 +145,21 @@ section#services div.service-card {
       margin-right: -6px;
     }
 
-    section#services div.service-card h4 {
+    div#services div.service-card h4 {
       color: white;
       margin-top: -1.5px;
     }
 
-    section#services div.service-card ul {
+    div#services div.service-card ul {
       margin-left: 25px;
       list-style:none;
     }
 
-    section#services div.service-card ul li, section#services .service-card p {
+    div#services div.service-card ul li, div#services .service-card p {
       color: #ffffffb3;
     }
 
-    section#services div.service-card ul li:before {
+    div#services div.service-card ul li:before {
       content: '';
       height: 7px;
       width: 7px;
@@ -317,7 +305,7 @@ section#call-to-action {
 
 /* Extra-Small devices (Mobile Narrowest) are set as default */
 @media (min-width: 380px) {
-  section#case-studies section.case-project div.project-cover {
+  div#case-studies div.case-project div.project-cover {
       height: 200px;
   }
 
@@ -327,27 +315,16 @@ section#call-to-action {
 @media (min-width: 576px) {
 
     /*--- COVER start ---*/
-        section#cover {
-          height: 390px;
-        }
-
-        section#cover h1 {
-          top: 155px;
-        }
-
-        section#cover div.curve {
-          top: 72px;
-        }
     /*--- COVER end ---*/
 
     /*--- CASE STUDIES start ---*/
 
-      section#case-studies section.case-project {
+      div#case-studies div.case-project {
         box-shadow: none;
         border-radius: 0;
       }
 
-        section#case-studies section.case-project div.project-cover {
+        div#case-studies div.case-project div.project-cover {
          width: 50%;
          float: left;
          height: 280px;
@@ -358,36 +335,33 @@ section#call-to-action {
          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
         }
 
-        section#case-studies section.case-project div.project-cover:hover {
+        div#case-studies div.case-project div.project-cover:hover {
           background-size: 145%  !important;
           -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
           transition: background-size 0.5s, margin-top 2s !important;
         }
 
-        section#case-studies section.case-project div.project-thumbnail:hover {
+        div#case-studies div.case-project div.project-thumbnail:hover {
           background-size: 115%  !important;
           -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
           transition: background-size 0.5s, margin-top 2s !important;
         }
 
-        section#case-studies section.case-project div.project-description {
+        div#case-studies div.case-project div.project-description {
           background: none;
-          width: 49%;
-          float: left;
-          padding: 10px 0px 0px 20px;
         }
 
-        section#case-studies section.case-project div.project-description h3 {
+        div#case-studies div.case-project div.project-description h3 {
           color: #7800ff;
         }
 
-        section#case-studies section.case-project div.project-description p {
+        div#case-studies div.case-project div.project-description p {
           max-width: 290px;
         }
     /*--- CASE STUDIES end ---*/
 
     /*--- SERVICES start ---*/
-        section#services div.service-card {
+        div#services div.service-card {
           width: 100%;
         }
     /*--- SERVICES end ---*/
@@ -414,22 +388,10 @@ section#call-to-action {
   /*--- GENERAL end ---*/
 
   /*--- COVER start ---*/
-      section#cover {
-        height: 420px;
-      }
-
-      section#cover h1 {
-        top: 200px;
-        max-width: 690px;
-      }
-
-      section#cover div.curve {
-        top: 102px;
-      }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
-      section#case-studies section.case-project div.project-cover {
+      div#case-studies div.case-project div.project-cover {
        height: 350px;
       }
 
@@ -445,33 +407,29 @@ section#call-to-action {
            transition: background-size 0.5s, margin-top 2s !important;
          }
 
-      section#case-studies section.case-project div.project-description {
-        padding: 8px 0px 0px 20px;
-      }
-
-      section#case-studies section.case-project div.project-description h3 {
+      div#case-studies div.case-project div.project-description h3 {
         max-width: 235px;
       }
 
-      section#case-studies section.case-project div.project-description p {
+      div#case-studies div.case-project div.project-description p {
         max-width: 370px;
       }
   /*--- CASE STUDIES end ---*/
 
   /*--- SERVICES start ---*/
-      section#services div.service-card {
+      div#services div.service-card {
           width: 100%;
           margin-right: 15px;
           padding: 20px 25px;
           height: 360px;
       }
 
-      section#services div.service-card div.service-heading {
+      div#services div.service-card div.service-heading {
         margin: -20px -25px 20px;
         padding: 30px 24px 14px;
       }
 
-      section#services div.service-card ul li:before {
+      div#services div.service-card ul li:before {
         height: 8px;
         width: 8px;
         margin: 0 9px 3.5px -25px;
@@ -513,10 +471,6 @@ section#call-to-action {
         margin: 0 auto 10px;
       }
 
-      section#case-studies section.case-project div.project-description {
-        padding: 12px 0px 0px 28px;
-      }
-
       section#call-to-action.active-call-to-action div#contact-form {
         margin: -12px auto 0;
       }
@@ -527,22 +481,10 @@ section#call-to-action {
 @media (min-width: 992px) {
 
   /*--- COVER start ---*/
-      section#cover {
-        height: 480px;
-      }
-
-      section#cover h1 {
-        top: 230px;
-        max-width: 890px;
-      }
-
-      section#cover div.curve {
-        top: 162px;
-      }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
-      section#case-studies section.case-project div.project-cover {
+      div#case-studies div.case-project div.project-cover {
        height: 400px;
       }
   /*--- CASE STUDIES end ---*/
@@ -591,26 +533,15 @@ section#call-to-action {
 @media (min-width: 1200px) {
 
   /*--- COVER start ---*/
-      section#cover {
-        height: 520px;
-      }
-
-      section#cover h1 {
-        top: 225px;
-        max-width: 1040px;
-      }
-
-      section#cover div.curve {
-        top: 200px;
-      }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
-      section#case-studies section.case-project div.project-cover {
+      div#case-studies div.case-project div.project-cover {
         height: 520px;
+        width: 100%;
       }
 
-      section#case-studies section.case-project div.project-thumbnail {
+      div#case-studies div.case-project div.project-thumbnail {
          width: 380px;
          height: 224px;
          border-radius: 4px;
@@ -625,11 +556,11 @@ section#call-to-action {
          transition: background-size 0.5s, margin-top 2s !important;
       }
 
-      section#case-studies section.case-project div.project-cover {
+      div#case-studies div.case-project div.project-cover {
         height: 550px;
       }
 
-      section#case-studies section.case-project div.project-thumbnail {
+      div#case-studies div.case-project div.project-thumbnail {
         height: 220px;
         left: calc(50% - 260px);
         margin-top: 390px;
@@ -648,19 +579,15 @@ section#call-to-action {
          transition: background-size 0.5s, margin-top 3.5s !important;
        }
 
-      section#case-studies section.case-project div.project-thumbnail#polyfen-thumbnail {
+      div#case-studies div.case-project div.project-thumbnail#polyfen-thumbnail {
         background: url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.gif');
       }
 
-      section#case-studies section.case-project div.project-description {
-        padding: 20px 0px 0px 40px;
-      }
-
-      section#case-studies section.case-project div.project-description h3 {
+      div#case-studies div.case-project div.project-description h3 {
         max-width: 265px;
       }
 
-      section#case-studies section.case-project div.project-description p {
+      div#case-studies div.case-project div.project-description p {
         max-width: 400px;
       }
   /*--- CASE STUDIES end ---*/
@@ -670,7 +597,7 @@ section#call-to-action {
         display: none;
       }
 
-      section#services div.service-card {
+      div#services div.service-card {
         height: 400px;
       }
 
@@ -706,19 +633,19 @@ section#call-to-action {
 /* XXL devices (desktops, 13") */
 @media (min-width: 1440px) {
 
-  section#case-studies section.case-project div.project-cover {
+  div#case-studies div.case-project div.project-cover {
    background-size: 110%;
    -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
    transition: background-size 0.5s, margin-top 2s !important;
   }
 
-  section#case-studies section.case-project div.project-cover:hover {
+  div#case-studies div.case-project div.project-cover:hover {
     background-size: 125%  !important;
     -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
     transition: background-size 0.5s, margin-top 2s !important;
   }
 
-  section#case-studies section.case-project div.project-thumbnail {
+  div#case-studies div.case-project div.project-thumbnail {
     height: 250px;
     width: 340px;
     left: calc(50% - 300px);
@@ -749,26 +676,14 @@ section#call-to-action {
   /*--- GENERAL end ---*/
 
   /*--- COVER start ---*/
-      section#cover {
-        height: 585px;
-      }
-
-      section#cover h1 {
-        top: 240px;
-        max-width: 1280px;
-      }
-
-      section#cover div.curve {
-        top: 265px;
-      }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
-      section#case-studies section.case-project div.project-cover {
+      div#case-studies div.case-project div.project-cover {
         height: 550px;
       }
 
-      section#case-studies section.case-project div.project-thumbnail {
+      div#case-studies div.case-project div.project-thumbnail {
         height: 280px;
         width: 375px;
         left: calc(50% - 330px);
@@ -787,11 +702,7 @@ section#call-to-action {
          transition: background-size 0.5s, margin-top 3.5s !important;
        }
 
-      section#case-studies section.case-project div.project-description {
-        padding: 20px 0px 0px 80px;
-      }
-
-      section#case-studies section.case-project div.project-description h3 {
+      div#case-studies div.case-project div.project-description h3 {
         max-width: 310px;
       }
   /*--- CASE STUDIES end ---*/
