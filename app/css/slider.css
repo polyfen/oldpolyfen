@@ -136,7 +136,7 @@ div.desktop-card-navigation-wrapper {
 }
 
 .slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
-    background: #7800FF /* #indigo */;
+    background: #6f3cff /* #indigo */;
 }
 
 .slick-disabled {

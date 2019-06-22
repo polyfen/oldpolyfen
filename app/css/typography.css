@@ -30,7 +30,8 @@ h2 /* (mobile) */ {
   text-align: left;
   font-weight: normal /* semi-bold */;
   font-style: normal;
-  color: #7800ff /* #white */;
+  color: #6f3cff /* #white */;
+  color: #6f3cff;
   font-family: 'Biotif', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
@@ -54,6 +55,7 @@ h3 /* (mobile) */ {
   font-weight: normal /* semi-bold */;
   font-style: normal;
   color: #474797 /* #white */;
+  color: #6f3cff;
   font-family: 'Biotif', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
@@ -134,7 +136,7 @@ a small, small /* (mobile) */ {
 }
 
 a small {
-  border-bottom: 3px dotted #7800FF /* #indigo */;
+  border-bottom: 3px dotted #6f3cff /* #indigo */;
   padding-bottom: 5px;
   opacity: 0.7;
 }
@@ -142,7 +144,7 @@ a small {
 a:hover small {
   opacity: 1;
   text-decoration: none;
-  border-bottom: 3px solid #7800FF;
+  border-bottom: 3px solid #6f3cff;
 }
 
 p strong, li strong {
@@ -153,13 +155,13 @@ p strong, li strong {
 p a {
   color: auto !important;
   opacity: 1;
-  border-bottom: 2px dotted #7800FF;
+  border-bottom: 2px dotted #6f3cff;
 }
 
 p a:hover {
   color: white;
   text-decoration: none;
-  border-bottom: 2px solid #7800FF;
+  border-bottom: 2px solid #6f3cff;
 }
 
 /*–––––––––––––––––––– MEDIA QUERIES  ––––––––––––––––––––*/

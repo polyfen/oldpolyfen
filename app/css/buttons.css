@@ -1,7 +1,7 @@
 /*---------- BUTTONS start -----------*/
 
 a.primary-button, div#contact-form button {
-  background: #7800FF /* #indigo */;
+  background: #6f3cff /* #indigo */;
   border-radius: 4px;
   padding: 12px 22px 11px;
   width: 100%;
@@ -37,9 +37,9 @@ a.secondary-button {
   text-align: center;
   display: block;
   border: none;
-  color: #7800FF !important;
+  color: #6f3cff !important;
   background: none;
-  border: 3px solid #7800FF46;
+  border: 3px solid #6f3cff46;
   padding: 9px 35px;
   font-size: 21px;
   font-family: 'Biotif', Helvetica, Arial, sans-serif;
@@ -52,21 +52,21 @@ a.secondary-button {
 
 a.secondary-button:hover {
   color: #FFFFFF !important;
-  background: #7800FF;
-  border: 3px solid #7800FF;
+  background: #6f3cff;
+  border: 3px solid #6f3cff;
 }
 
 a.tertiary-button {
-  border: 2px solid #7800FF;
+  border: 2px solid #6f3cff;
   border-radius: 8px;
-  color: #7800FF;
+  color: #6f3cff;
   padding: 10px 25px 9px;
 }
 
 a.tertiary-button:hover {
-  background: #7800FF;
+  background: #6f3cff;
   color: #03012F;
-  box-shadow: 0 0 10px #7800FF;
+  box-shadow: 0 0 10px #6f3cff;
   text-decoration: none;
 }
 
@@ -153,8 +153,8 @@ div#contact-form button#go-back:hover {
 
   a.secondary-button:hover {
     background: none;
-    color: #7800FF !important;
-    border: 3px solid #7800FF;
+    color: #6f3cff !important;
+    border: 3px solid #6f3cff;
   }
 
 }
@@ -194,7 +194,7 @@ div#contact-form button#go-back:hover {
   }
 
   div.desktop-card-navigation-wrapper:hover div.desktop-card-navigation-button {
-    background: #7800FF /* #indigo */;
+    background: #6f3cff /* #indigo */;
   }
 
   div.desktop-card-navigation-button i.fa-angle-right {
@@ -227,12 +227,12 @@ div#contact-form button#go-back:hover {
     padding: 7px 0;
     -webkit-transition: all 0.3s; /* Safari */
     transition: all 0.3s;
-    border: 3px solid #7800FF46;
+    border: 3px solid #6f3cff46;
   }
 
   a.secondary-button:hover, a.secondary-button-hover {
     color: #FFFFFF !important;
-    background: #7800FF;
+    background: #6f3cff;
   }
 
   div.desktop-card-navigation-wrapper {

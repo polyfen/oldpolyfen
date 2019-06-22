@@ -88,7 +88,7 @@ div#services div#service-cards-wrapper {
 }
 
 div#services div.service-card {
-      background: #020029;
+      background: #02001f;
       padding: 20px;
       border-radius: 8px;
       width: 100%;
@@ -166,7 +166,7 @@ div#services div.service-card {
       margin: 0 8px 3px -25px;
       border-radius: 10px;
       display: inline-block;
-      background:  #7800FF;
+      background:  #6f3cff;
       opacity: 0.9;
     }
 
@@ -352,7 +352,8 @@ section#call-to-action {
         }
 
         div#case-studies div.case-project div.project-description h3 {
-          color: #7800ff;
+          color: #6f3cff;
+          color: #6f3cff;
         }
 
         div#case-studies div.case-project div.project-description p {
