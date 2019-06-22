@@ -22,6 +22,7 @@ section {
       top: -400px;
       left: 0;
       z-index: 1;
+      opacity: 0.8;
     }
 
     section#cover {
@@ -49,7 +50,7 @@ div#case-studies {
     }
 
         div#case-studies div.case-project div.project-cover {
-         background: #03012F url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
+         background: #05032B url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
          background-size: cover;
          background-repeat: no-repeat;
          background-position: 50% 32%;
@@ -88,7 +89,7 @@ div#services div#service-cards-wrapper {
 }
 
 div#services div.service-card {
-      background: #02001f;
+      background: #0a073c;
       padding: 20px;
       border-radius: 8px;
       width: 100%;
