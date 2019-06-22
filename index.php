@@ -118,7 +118,7 @@
 
               <!-- OUR CASE STUDY start -->
               <div class="case-project row">
-                <div class="col">
+                <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
                   <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
                   <a href="case-study.php"><div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';">
                   </div></a>

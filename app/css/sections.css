@@ -35,7 +35,9 @@ section {
 /*---------- BODY CONTENT start ------------*/
 
 section.content-wrapper {
-  padding: 100px !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
 }
 
 /*---------- CASE STUDIES start ------------*/
@@ -71,8 +73,7 @@ div#case-studies {
     }
 
         div#case-studies div.case-project div.project-description h3 {
-          max-width: 175px;
-          color: #FFFFFF /* #white */;
+          max-width: 182px;
           margin-bottom: 5px;
         }
 
@@ -316,6 +317,11 @@ section#call-to-action {
 /* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
 
+  section.content-wrapper {
+    max-width: 720px;
+    padding: 35px !important;
+  }
+
   /*--- COVER start ---*/
     section#cover h1 {
       max-width: 550px;
@@ -323,6 +329,10 @@ section#call-to-action {
   /*--- COVER end ---*/
 
     /*--- CASE STUDIES start ---*/
+
+    div#case-studies div.case-project div.project-description h3 {
+      max-width: 182px;
+    }
 
       div#case-studies div.case-project {
         box-shadow: none;
@@ -375,6 +385,10 @@ section#call-to-action {
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
 
+  section.content-wrapper {
+    padding: 35px !important;
+    max-width: 100%;
+  }
 
   /*--- GENERAL start ---*/
       section {
@@ -478,6 +492,10 @@ section#call-to-action {
 /* Large devices (Tanblet Landscape) */
 @media (min-width: 992px) {
 
+  section.content-wrapper {
+    padding: 45px !important;
+  }
+
   /*--- COVER start ---*/
     section#cover h1 {
       max-width: 800px;
@@ -532,6 +550,10 @@ section#call-to-action {
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
+
+  section.content-wrapper {
+    padding: 75px !important;
+  }
 
   /*--- COVER start ---*/
     section#cover h1 {
@@ -664,6 +686,10 @@ section#call-to-action {
   /*--- GENERAL start ---*/
       section {
         padding: 90px 70px !important;
+      }
+
+      section.content-wrapper {
+        padding: 100px !important;
       }
   /*--- GENERAL end ---*/
 

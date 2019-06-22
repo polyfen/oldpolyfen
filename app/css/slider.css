@@ -22,7 +22,7 @@
     margin-right: 5px;
     display: inline-block;
     cursor: pointer;
-    border: 2px solid #7a00f5 /* #indigo */;
+    border: 2px solid #6f3cff /* #indigo */;
     opacity: 0.5;
 }
 
@@ -31,9 +31,9 @@
 }
 
 .slick-dots .slick-active button {
-    background: #7a00f5;
+    background: #6f3cff;
     opacity: 1;
-    box-shadow: 0 0 4px #BA00FF;
+    box-shadow: 0 0 4px #6f3cff;
 }
 
 
