@@ -240,11 +240,12 @@ section#call-to-action {
       margin-top: 80px;
       z-index: 2;
       position: absolute;
+      left: 0;
     }
 
     section#call-to-action h2 {
-      max-width: 300px;
       color: white;
+      text-align: center;
     }
 
     section#call-to-action p {

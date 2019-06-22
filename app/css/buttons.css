@@ -16,6 +16,10 @@ a.primary-button, div#contact-form button {
   letter-spacing: 0.5px;
 }
 
+div#cta-content a.button  {
+  margin: 0 auto !important;
+}
+
 a.primary-button:hover, div#contact-form button:hover {
   text-decoration: none;
   background: #25A9B9 /* indigo-minus-2 */;
