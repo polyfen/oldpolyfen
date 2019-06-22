@@ -215,8 +215,8 @@ div.desktop-card-navigation-wrapper {
 
 @media screen and (min-width: 1680px) {
     .owl-carousel {
-        margin-left: -70px;
-        margin-right: -70px;
+        margin-left: -100px;
+        margin-right: -100px;
     }
     .slick-next {
         margin-left: 25px;
