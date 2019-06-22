@@ -46,9 +46,14 @@ section.content-wrapper {
 div#case-studies {
 }
 
+    .case-project-wrapper {
+      padding: 0 15px;
+      background: #0a073c;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    }
+
     div#case-studies div.case-project {
       padding: 0 !important;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
       border-radius: 8px;
     }
 
@@ -68,8 +73,8 @@ div#case-studies {
 
     div#case-studies div.case-project div.project-description {
       width: 100%;
-      background: #050032 /* #slate-4 */;
       border-radius: 0 0 8px 8px;
+      padding: 25px 4px 68px !important;
     }
 
         div#case-studies div.case-project div.project-description h3 {
@@ -79,6 +84,7 @@ div#case-studies {
 
         div#case-studies div.case-project div.project-description p {
           max-width: 302px;
+          max-width: 315px;
           color: rgba(255, 255, 255, 0.7);
         }
 
@@ -321,6 +327,13 @@ section#call-to-action {
     max-width: 720px;
     padding: 35px !important;
   }
+
+  .case-project-wrapper {
+    padding: 0;
+    background: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  }
+
 
   /*--- COVER start ---*/
     section#cover h1 {
