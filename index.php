@@ -127,7 +127,7 @@
                   <div class="project-description">
                   <h3>Developing our own brand</h3>
                   <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and creativity. <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A brand with a clean and professional look, yet with a playful and whimsical flair.</span></p>
-                  <a class="secondary-button" href="case-study.php" id="developing-our-own-brand-button">View project ›</a>
+                  <a class="secondary-button" href="case-study.php" id="developing-our-own-brand-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
@@ -315,7 +315,7 @@
               <div style="max-width: 540px;">
                 <h2 class="d-block d-sm-none d-md-none d-lg-none d-xl-none">We mean business</h2>
                 <h2 class="d-none d-sm-block d-md-block d-lg-block d-xl-block">The link between business &amp; creativity</h2>
-                <p>We are a small team of people distributed around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+                <p>We are a small team of creatives from Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
                 <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
               </div>
             </div>

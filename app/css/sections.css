@@ -23,6 +23,7 @@ section {
       left: 0;
       z-index: 1;
       opacity: 0.8;
+      display: none;
     }
 
     section#cover {
@@ -315,8 +316,11 @@ section#call-to-action {
 /* Small devices (Mobile Widest) */
 @media (min-width: 576px) {
 
-    /*--- COVER start ---*/
-    /*--- COVER end ---*/
+  /*--- COVER start ---*/
+    section#cover h1 {
+      max-width: 550px;
+    }
+  /*--- COVER end ---*/
 
     /*--- CASE STUDIES start ---*/
 
@@ -326,20 +330,9 @@ section#call-to-action {
       }
 
         div#case-studies div.case-project div.project-cover {
-         width: 50%;
-         float: left;
          height: 280px;
          border-radius: 4px;
-         background-size: 130%;
-         -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
-         transition: background-size 0.5s, margin-top 2s !important;
          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
-        }
-
-        div#case-studies div.case-project div.project-cover:hover {
-          background-size: 145%  !important;
-          -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
-          transition: background-size 0.5s, margin-top 2s !important;
         }
 
         div#case-studies div.case-project div.project-thumbnail:hover {
@@ -390,6 +383,9 @@ section#call-to-action {
   /*--- GENERAL end ---*/
 
   /*--- COVER start ---*/
+    section#cover h1 {
+      max-width: 650px;
+    }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
@@ -410,7 +406,7 @@ section#call-to-action {
          }
 
       div#case-studies div.case-project div.project-description h3 {
-        max-width: 235px;
+        max-width: 245px;
       }
 
       div#case-studies div.case-project div.project-description p {
@@ -483,6 +479,9 @@ section#call-to-action {
 @media (min-width: 992px) {
 
   /*--- COVER start ---*/
+    section#cover h1 {
+      max-width: 800px;
+    }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
@@ -535,6 +534,9 @@ section#call-to-action {
 @media (min-width: 1200px) {
 
   /*--- COVER start ---*/
+    section#cover h1 {
+      max-width: 900px;
+    }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
@@ -586,7 +588,7 @@ section#call-to-action {
       }
 
       div#case-studies div.case-project div.project-description h3 {
-        max-width: 265px;
+        max-width: 282px;
       }
 
       div#case-studies div.case-project div.project-description p {
@@ -635,18 +637,6 @@ section#call-to-action {
 /* XXL devices (desktops, 13") */
 @media (min-width: 1440px) {
 
-  div#case-studies div.case-project div.project-cover {
-   background-size: 110%;
-   -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
-   transition: background-size 0.5s, margin-top 2s !important;
-  }
-
-  div#case-studies div.case-project div.project-cover:hover {
-    background-size: 125%  !important;
-    -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
-    transition: background-size 0.5s, margin-top 2s !important;
-  }
-
   div#case-studies div.case-project div.project-thumbnail {
     height: 250px;
     width: 340px;
@@ -678,6 +668,9 @@ section#call-to-action {
   /*--- GENERAL end ---*/
 
   /*--- COVER start ---*/
+    section#cover h1 {
+      max-width: 1220px;
+    }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/

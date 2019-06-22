@@ -33,13 +33,12 @@ a.primary-button:hover, div#contact-form button:hover {
 a.secondary-button {
   width: 252px;
   margin: 25px auto -15px;
-  border-radius: 27px;
+  border-radius: 4px;
   text-align: center;
   display: block;
   border: none;
-  color: #6f3cff !important;
-  background: none;
-  border: 3px solid #6f3cff46;
+  color: white;
+  background: #6f3cff;
   padding: 9px 35px;
   font-size: 21px;
   font-family: 'Biotif', Helvetica, Arial, sans-serif;
@@ -48,12 +47,13 @@ a.secondary-button {
   text-transform: lowercase;
   font-variant: small-caps;
   letter-spacing: 0.75px;
+  float: left;
+  margin-top: 0px;
+  width: 220px;
 }
 
-a.secondary-button:hover {
-  color: #FFFFFF !important;
-  background: #6f3cff;
-  border: 3px solid #6f3cff;
+a.secondary-button i.fa-angle-right {
+  font-size: 1.5rem;
 }
 
 a.tertiary-button {
@@ -143,20 +143,6 @@ div#contact-form button#go-back:hover {
     box-shadow: 0 0 10px #BA00FF;
   }
 
-  a.secondary-button {
-    box-shadow: none;
-    text-align: left;
-    padding: 0;
-    width: 132px;
-    margin: 20px 0 0 0;
-  }
-
-  a.secondary-button:hover {
-    background: none;
-    color: #6f3cff !important;
-    border: 3px solid #6f3cff;
-  }
-
 }
 
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
@@ -208,32 +194,10 @@ div#contact-form button#go-back:hover {
 /* Large devices (Tanblet Landscape) */
 @media (min-width: 992px) {
 
-  a.secondary-button {
-    font-size: 23px;
-    width: 146px;
-  }
-
 }
 
 /* Extra-Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
-
-  a.secondary-button {
-    width: 212px;
-    margin: 22px 0 0 -1px;
-    border-radius: 4px;
-    text-align: center;
-    display: block;
-    padding: 7px 0;
-    -webkit-transition: all 0.3s; /* Safari */
-    transition: all 0.3s;
-    border: 3px solid #6f3cff46;
-  }
-
-  a.secondary-button:hover, a.secondary-button-hover {
-    color: #FFFFFF !important;
-    background: #6f3cff;
-  }
 
   div.desktop-card-navigation-wrapper {
     margin-top: -430px;
