@@ -242,11 +242,14 @@ section#call-to-action {
       z-index: 2;
       position: absolute;
       left: 0;
+      width: 100%;
     }
 
     section#call-to-action h2 {
       color: white;
       text-align: center;
+      max-width: 360px;
+      margin: 0 auto 15px;
     }
 
     section#call-to-action p {
