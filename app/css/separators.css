@@ -14,9 +14,10 @@ body div.horizontal-case-study-separator {
   height:5px;
   width:calc(100% - 30px);
   display:block;
-  margin: 120px auto;
-  background: url('../../imgs/circle.svg');
+  margin: 60px auto 55px;
+  background: url(../../imgs/circle.svg);
   opacity: 0.75;
+  background-size: 10px;
 }
 
 body div.horizontal-case-study-separator {
