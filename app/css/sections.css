@@ -50,6 +50,7 @@ div#case-studies {
       padding: 0 15px;
       background: #0a073c;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+      border-radius: 6px;
     }
 
     div#case-studies div.case-project {
@@ -333,6 +334,7 @@ section#call-to-action {
     padding: 0;
     background: none;
     box-shadow: none;
+    border-radius: 0;
   }
 
   .case-project-wrapper a.secondary-button {
