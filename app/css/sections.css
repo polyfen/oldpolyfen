@@ -180,6 +180,10 @@ div#services div.service-card {
       opacity: 0.9;
     }
 
+    div#services ul.slick-dots li:nth-child(7), div#services ul.slick-dots li:nth-child(8), div#services ul.slick-dots li:nth-child(9) {
+      display: none;
+    }
+
 /*---------- SERVICES end ------------*/
 
 /*---------- ABOUT start ------------*/
