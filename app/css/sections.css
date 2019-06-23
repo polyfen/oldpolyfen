@@ -508,7 +508,6 @@ section#call-to-action {
 
   /*--- CTA start ---*/
       section#call-to-action div#cta-content {
-        width: calc(100% - 70px);
         margin-top: 50px;
       }
 
@@ -785,7 +784,6 @@ section#call-to-action {
   /*--- CTA start ---*/
       section#call-to-action div#cta-content {
         margin-top: 100px;
-        width: calc(100% - 140px);
       }
 
       div#success-message {
