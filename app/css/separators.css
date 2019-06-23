@@ -16,7 +16,6 @@ body div.horizontal-case-study-separator {
   display:block;
   margin: 60px auto 55px;
   background: url(../../imgs/circle.svg);
-  opacity: 0.75;
   background-size: 10px;
 }
 
