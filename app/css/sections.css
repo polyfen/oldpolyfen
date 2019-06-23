@@ -188,16 +188,16 @@ div#services div.service-card {
 
 /*---------- ABOUT start ------------*/
 
-section#about {
+div#about {
   padding: 20px 10px 40px;
   text-align: center;
 }
 
-section#about h2 {
+div#about h2 {
   max-width: 160px;
 }
 
-section#about img {
+div#about img {
   width: 115%;
   margin: 20px 0 20px 0;
   max-width: 400px;
@@ -348,7 +348,6 @@ section#call-to-action {
     width: 220px;
   }
 
-
   /*--- COVER start ---*/
     section#cover h1 {
       max-width: 550px;
@@ -399,8 +398,17 @@ section#call-to-action {
     /*--- SERVICES end ---*/
 
     /*--- ABOUT start ---*/
-        section#about h2 {
+        div#about h2 {
           max-width: 360px;
+          margin-bottom: 2rem;
+        }
+
+        div#about img {
+          margin-top: 2rem;
+        }
+
+        div#about p {
+          max-width: 495px;
         }
     /*--- ABOUT end ---*/
 
@@ -477,20 +485,20 @@ section#call-to-action {
 
   /*--- ABOUT start ---*/
 
-    section#about {
+    div#about {
       margin-top: -20px;
     }
 
-      section#about h2 {
-        max-width: 480px;
+      div#about h2 {
+        max-width: 460px;
         margin-bottom: 20px;
       }
 
-      section#about p {
-        max-width: 360px;
+      div#about p {
+        max-width: 510px;
       }
 
-      section#about img {
+      div#about img {
         max-width: 430px;
         position: absolute;
         right: -49px;
@@ -536,15 +544,15 @@ section#call-to-action {
   /*--- CASE STUDIES end ---*/
 
   /*--- ABOUT start ---*/
-      section#about {
+      div#about {
         padding: 70px 35px 120px !important;
       }
 
-      section#about p {
+      div#about p {
         max-width: 445px;
       }
 
-      section#about img {
+      div#about img {
         max-width: 520px;
         right: -55px;
         margin-top: -68px;
@@ -657,15 +665,15 @@ section#call-to-action {
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
-      section#about {
+      div#about {
         padding: 70px 35px 145px !important;
       }
 
-      section#about p {
+      div#about p {
         max-width: 505px;
       }
 
-      section#about img {
+      div#about img {
         max-width: 620px;
         right: -30px;
         margin-top: -74px;
@@ -759,15 +767,15 @@ section#call-to-action {
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
-      section#about {
+      div#about {
         padding: 70px 70px 200px !important;
       }
 
-      section#about h2 {
+      div#about h2 {
         max-width: 540px;
       }
 
-      section#about img {
+      div#about img {
         max-width: 800px;
         right: 50px;
         margin-top: -150px;
