@@ -332,7 +332,11 @@ section#call-to-action {
   .case-project-wrapper {
     padding: 0;
     background: none;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: none;
+  }
+
+  .case-project-wrapper a.secondary-button {
+    width: 220px;
   }
 
 
