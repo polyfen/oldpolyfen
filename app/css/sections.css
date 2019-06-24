@@ -499,10 +499,7 @@ section#call-to-action {
       }
 
       div#about img {
-        max-width: 430px;
-        position: absolute;
-        right: -49px;
-        margin-top: 6px;
+        display: none;
       }
   /*--- ABOUT end ---*/
 
@@ -547,14 +544,19 @@ section#call-to-action {
         padding: 70px 35px 120px !important;
       }
 
+      div#about h2 {
+        max-width: none;
+        width: 540px;
+      }
+
       div#about p {
         max-width: 445px;
       }
 
       div#about img {
-        max-width: 520px;
-        right: -55px;
-        margin-top: -68px;
+        display: block;
+        max-width: none;
+        margin-top: 120px;
       }
   /*--- ABOUT end ---*/
 
