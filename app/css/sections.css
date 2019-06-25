@@ -756,6 +756,7 @@ section#call-to-action {
   /*--- ABOUT start ---*/
       div#about h2 {
         max-width: 540px;
+        margin-top: 5rem;
       }
 
       div#about img {
