@@ -316,7 +316,7 @@
 
         <!-- ABOUT start -->
           <div id="about" class="row d-none d-sm-block d-md-block d-lg-block d-xl-block">
-            <div class="col col-lg-6">
+            <div class="col col-sm-12 col-md-12 col-lg-6">
               <div style="max-width: 540px;">
                 <h2 class="d-block d-sm-none d-md-none d-lg-none d-xl-none">We mean business</h2>
                 <h2 class="d-none d-sm-block d-md-block d-lg-block d-xl-block">The link between business &amp; creativity</h2>
@@ -324,7 +324,7 @@
                 <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
               </div>
             </div>
-            <div class="col col-lg-6">
+            <div class="col col-sm-12 col-lg-6" style="text-align:center;">
               <img src="imgs/about/illustration.svg" alt="Creative Team Illustration">
             </div>
           </div>

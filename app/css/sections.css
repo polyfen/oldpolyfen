@@ -189,8 +189,7 @@ div#services div.service-card {
 /*---------- ABOUT start ------------*/
 
 div#about {
-  padding: 20px 10px 40px;
-  text-align: center;
+  padding: 0 !important;
 }
 
 div#about h2 {
@@ -401,6 +400,7 @@ section#call-to-action {
         div#about h2 {
           max-width: 360px;
           margin-bottom: 2rem;
+          margin-top: 1.5rem;
         }
 
         div#about img {
@@ -484,11 +484,6 @@ section#call-to-action {
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
-
-    div#about {
-      margin-top: -20px;
-    }
-
       div#about h2 {
         max-width: 460px;
         margin-bottom: 20px;
@@ -540,10 +535,6 @@ section#call-to-action {
   /*--- CASE STUDIES end ---*/
 
   /*--- ABOUT start ---*/
-      div#about {
-        padding: 70px 35px 120px !important;
-      }
-
       div#about h2 {
         max-width: none;
         width: 540px;
@@ -556,7 +547,7 @@ section#call-to-action {
       div#about img {
         display: block;
         max-width: none;
-        margin-top: 120px;
+        margin-top: 65px;
       }
   /*--- ABOUT end ---*/
 
@@ -666,10 +657,6 @@ section#call-to-action {
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
-      div#about {
-        padding: 70px 35px 145px !important;
-      }
-
       div#about p {
         max-width: 505px;
       }
@@ -677,7 +664,6 @@ section#call-to-action {
       div#about img {
         max-width: 620px;
         right: -30px;
-        margin-top: -74px;
       }
   /*--- ABOUT end ---*/
 
@@ -768,10 +754,6 @@ section#call-to-action {
   /*--- SERVICES end ---*/
 
   /*--- ABOUT start ---*/
-      div#about {
-        padding: 70px 70px 200px !important;
-      }
-
       div#about h2 {
         max-width: 540px;
       }
@@ -779,7 +761,6 @@ section#call-to-action {
       div#about img {
         max-width: 800px;
         right: 50px;
-        margin-top: -150px;
       }
   /*--- ABOUT end ---*/
 
