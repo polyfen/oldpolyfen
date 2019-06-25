@@ -22,7 +22,7 @@
     margin-right: 5px;
     display: inline-block;
     cursor: pointer;
-    border: 2px solid #6f3cff /* #indigo */;
+    border: 2px solid #7537F8 /* #indigo */;
     opacity: 0.5;
 }
 
@@ -31,9 +31,9 @@
 }
 
 .slick-dots .slick-active button {
-    background: #6f3cff;
+    background: #7537F8;
     opacity: 1;
-    box-shadow: 0 0 4px #6f3cff;
+    box-shadow: 0 0 4px #7537F8;
 }
 
 
@@ -136,7 +136,7 @@ div.desktop-card-navigation-wrapper {
 }
 
 .slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
-    background: #6f3cff /* #indigo */;
+    background: #7537F8 /* #indigo */;
 }
 
 .slick-disabled {

@@ -11,9 +11,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6f3cff">
-  <meta name="msapplication-TileColor" content="#6f3cff">
-  <meta name="theme-color" content="#6f3cff">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7537F8">
+  <meta name="msapplication-TileColor" content="#7537F8">
+  <meta name="theme-color" content="#7537F8">
 
   <!-- reCAPTCHA -->
   <script src='https://www.google.com/recaptcha/api.js?render=6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv'></script>

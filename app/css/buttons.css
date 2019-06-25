@@ -1,7 +1,7 @@
 /*---------- BUTTONS start -----------*/
 
 a.primary-button, div#contact-form button {
-  background: #6f3cff /* #indigo */;
+  background: #7537F8 /* #indigo */;
   border-radius: 4px;
   padding: 12px 22px 11px;
   width: 100%;
@@ -42,7 +42,7 @@ a.secondary-button {
   display: block;
   border: none;
   color: white;
-  background: #6f3cff;
+  background: #7537F8;
   padding: 9px 35px;
   font-size: 21px;
   font-family: 'Biotif', Helvetica, Arial, sans-serif;
@@ -63,16 +63,16 @@ a.secondary-button i.fa-angle-right {
 }
 
 a.tertiary-button {
-  border: 2px solid #6f3cff;
+  border: 2px solid #7537F8;
   border-radius: 8px;
-  color: #6f3cff;
+  color: #7537F8;
   padding: 10px 25px 9px;
 }
 
 a.tertiary-button:hover {
-  background: #6f3cff;
+  background: #7537F8;
   color: #05032B;
-  box-shadow: 0 0 10px #6f3cff;
+  box-shadow: 0 0 10px #7537F8;
   text-decoration: none;
 }
 
@@ -186,7 +186,7 @@ div#contact-form button#go-back:hover {
   }
 
   div.desktop-card-navigation-wrapper:hover div.desktop-card-navigation-button {
-    background: #6f3cff /* #indigo */;
+    background: #7537F8 /* #indigo */;
   }
 
   div.desktop-card-navigation-button i.fa-angle-right {
