@@ -7,12 +7,12 @@ section {
 
 /*---------- COVER start ------------*/
     section#cover h1 {
-      max-width: 1220px;
       top: 130px;
       position: relative;
       z-index: 2;
       text-align: center;
       margin: 0 auto;
+      max-width: 350px;
     }
 
     section#cover div.background {
@@ -26,6 +26,7 @@ section {
 
     section#cover {
       height: 640px;
+      height: 450px;
     }
 
 /*---------- COVER end ------------*/

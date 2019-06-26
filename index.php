@@ -34,22 +34,6 @@
       <script type="text/javascript">
         $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        if (scroll > 0) {
-            $("#pearl-01").removeClass("pearl-01-INACTIVE").addClass("pearl-01-ACTIVE");
-            $("#pearl-02").removeClass("pearl-02-INACTIVE").addClass("pearl-02-ACTIVE");
-            $("#pearl-03").removeClass("pearl-03-INACTIVE").addClass("pearl-03-ACTIVE");
-            $("#pearl-04").removeClass("pearl-04-INACTIVE").addClass("pearl-04-ACTIVE");
-            $("#pearl-05").removeClass("pearl-05-INACTIVE").addClass("pearl-05-ACTIVE");
-            $("#pearl-06").removeClass("pearl-06-INACTIVE").addClass("pearl-06-ACTIVE");
-        }
-        if (scroll <= 0) {
-            $("#pearl-01").removeClass("pearl-01-ACTIVE").addClass("pearl-01-INACTIVE");
-            $("#pearl-02").removeClass("pearl-02-ACTIVE").addClass("pearl-02-INACTIVE");
-            $("#pearl-03").removeClass("pearl-03-ACTIVE").addClass("pearl-03-INACTIVE");
-            $("#pearl-04").removeClass("pearl-04-ACTIVE").addClass("pearl-04-INACTIVE");
-            $("#pearl-05").removeClass("pearl-05-ACTIVE").addClass("pearl-05-INACTIVE");
-            $("#pearl-06").removeClass("pearl-06-ACTIVE").addClass("pearl-06-INACTIVE");
-        }
         if (scroll > 90) {
             $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-INACTIVE").addClass("polyfen-thumbnail-ACTIVE");
         }
@@ -99,10 +83,6 @@
       <section id="cover">
           <h1>A creative agency devoted to branding</h1>
           <div class="background">
-            <div id="pearl-03" class="pearl pearl-03-INACTIVE rotate-slower">
-            </div>
-            <div id="pearl-02" class="pearl pearl-02-INACTIVE rotate-slower">
-            </div>
             <div id="pearl-01" class="pearl pearl-01-INACTIVE rotate-slower">
             </div>
           </div>

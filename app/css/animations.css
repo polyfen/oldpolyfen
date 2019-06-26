@@ -83,7 +83,11 @@
     }
 
     section#cover div.background div#pearl-01 {
-      display: none;
+      display: block;
+      height: 400px;
+      width: 400px !important;
+      top: 272px;
+      left: calc(50% - 200px);
     }
 
     section#cover div.background div#pearl-02 {
@@ -179,9 +183,7 @@
 
   /*--- COVER PEARLS start ---*/
       section#cover div.background div#pearl-01 {
-        height: 900px;
-        width: 900px;
-        display: block;
+        top: 300px;
       }
 
           .pearl-01-INACTIVE {
@@ -293,56 +295,10 @@
 @media (min-width: 768px) {
 
   /*--- COVER PEARLS start ---*/
-      section#cover div.background div#pearl-01 {
-      }
 
-          .pearl-01-INACTIVE {
-            top: 270px;
-            left: -340px;
-          }
-
-          .pearl-01-ACTIVE {
-            top: 300px;
-            left: -300px;
-          }
-
-      section#cover div.background div#pearl-02 {
-      }
-
-          .pearl-02-INACTIVE {
-            top: 75px;
-            left: 80px;
-          }
-
-          .pearl-02-ACTIVE {
-            top: 140px;
-            left: 15px;
-          }
-
-      section#cover div.background div#pearl-03 {
-      }
-
-          .pearl-03-INACTIVE {
-            top: 100px;
-            left: -300px;
-          }
-
-          .pearl-03-ACTIVE {
-            top: 180px;
-            left: -290px;
-          }
-
-      section#cover div.background div#pearl-04 {
-        display: none;
-      }
-
-      section#cover div.background div#pearl-05 {
-        display: none;
-      }
-
-      section#cover div.background div#pearl-06 {
-        display: none;
-      }
+  section#cover div.background div#pearl-01 {
+    top: 260px;
+  }
   /*--- COVER PEARLS end ---*/
 
   /*--- CTA PEARLS start ---*/
@@ -396,60 +352,16 @@
 @media (min-width: 992px) {
 
   /*--- COVER PEARLS start ---*/
+    section#cover {
+      height: 540px;
+    }
+
       section#cover div.background div#pearl-01 {
+        height: 520px;
+        width: 520px !important;
+        top: 205px;
+        left: calc(50% - 260px);
       }
-
-          .pearl-01-INACTIVE {
-            top: 270px;
-            left: -340px;
-          }
-
-          .pearl-01-ACTIVE {
-            top: 330px;
-            left: -300px;
-          }
-
-      section#cover div.background div#pearl-02 {
-      }
-
-          .pearl-02-INACTIVE {
-            top: 75px;
-            left: 80px;
-          }
-
-          .pearl-02-ACTIVE {
-            top: 140px;
-            left: 15px;
-          }
-
-      section#cover div.background div#pearl-03 {
-      }
-
-          .pearl-03-INACTIVE {
-            top: 100px;
-            left: -300px;
-          }
-
-          .pearl-03-ACTIVE {
-            top: 180px;
-            left: -290px;
-          }
-
-      section#cover div.background div#pearl-04 {
-        height: 650px;
-        width: 650px;
-        display: block;
-      }
-
-          .pearl-04-INACTIVE {
-            top: 195px;
-            left: 620px;
-          }
-
-          .pearl-04-ACTIVE {
-            top: 240px;
-            left: 400px;
-          }
   /*--- COVER PEARLS end ---*/
 
   /*--- CTA PEARLS start ---*/
@@ -503,73 +415,16 @@
 @media (min-width: 1200px) {
 
   /*--- COVER PEARLS start ---*/
+    section#cover {
+      height: 570px;
+    }
+
       section#cover div.background div#pearl-01 {
+        height: 700px;
+        width: 700px !important;
+        top: 75px;
+        left: calc(50% - 350px);
       }
-
-          .pearl-01-INACTIVE {
-            top: 270px;
-            left: -370px;
-          }
-
-          .pearl-01-ACTIVE {
-            top: 400px;
-            left: -300px;
-          }
-
-      section#cover div.background div#pearl-02 {
-      }
-
-          .pearl-02-INACTIVE {
-            top: 75px;
-            left: 110px;
-          }
-
-          .pearl-02-ACTIVE {
-            top: 140px;
-            left: 70px;
-          }
-
-      section#cover div.background div#pearl-03 {
-      }
-
-          .pearl-03-INACTIVE {
-            top: 90px;
-            left: -290px;
-          }
-
-          .pearl-03-ACTIVE {
-            top: 180px;
-            left: -290px;
-          }
-
-      section#cover div.background div#pearl-04 {
-      }
-
-          .pearl-04-INACTIVE {
-            top: 175px;
-            left: 580px;
-          }
-
-          .pearl-04-ACTIVE {
-            top: 240px;
-            left: 600px;
-          }
-
-      section#cover div.background div#pearl-06 {
-        height: 900px;
-        width: 900px;
-        display: block;
-      }
-
-          .pearl-06-INACTIVE {
-            top: 300px;
-            left: 650px;
-          }
-
-          .pearl-06-ACTIVE {
-            top: 380px;
-            left: 500px;
-          }
   /*--- COVER PEARLS end ---*/
 
   /*--- CTA PEARLS start ---*/
@@ -641,88 +496,16 @@
 @media (min-width: 1680px) {
 
   /*--- COVER PEARLS start ---*/
+    section#cover {
+      height: 700px;
+    }
+
       section#cover div.background div#pearl-01 {
+        height: 900px;
+        width: 900px !important;
+        top: -75px;
+        left: calc(50% - 450px);
       }
-
-          .pearl-01-INACTIVE {
-            top: -120px;
-            left: calc(50% - 450px);
-          }
-
-          .pearl-01-ACTIVE {
-            top: -120px;
-            left: calc(50% - 450px);
-          }
-
-      section#cover div.background div#pearl-02 {
-      }
-
-          .pearl-02-INACTIVE {
-            top: -80px;
-            left: auto;
-            right: 120px;
-          }
-
-          .pearl-02-ACTIVE {
-            top: -80px;
-            left: auto;
-            right: 120px;
-          }
-
-      section#cover div.background div#pearl-03 {
-      }
-
-          .pearl-03-INACTIVE {
-            top: 44px;
-            left: -25px;
-          }
-
-          .pearl-03-ACTIVE {
-            top: 44px;
-            left: -25px;
-          }
-
-      section#cover div.background div#pearl-04 {
-      }
-
-          .pearl-04-INACTIVE {
-            top: 140px;
-            left: 720px;
-          }
-
-          .pearl-04-ACTIVE {
-            top: 240px;
-            left: 600px;
-          }
-
-      section#cover div.background div#pearl-05 {
-        height: 380px;
-        width: 380px;
-        display: block;
-      }
-
-          .pearl-05-INACTIVE {
-            top: 310px;
-            left: 1270px;
-          }
-
-          .pearl-05-ACTIVE {
-            top: 400px;
-            left: 900px;
-          }
-
-      section#cover div.background div#pearl-06 {
-      }
-
-          .pearl-06-INACTIVE {
-            top: 280px;
-            left: 730px;
-          }
-
-          .pearl-06-ACTIVE {
-            top: 320px;
-            left: 640px;
-          }
   /*--- COVER PEARLS end ---*/
 
   /*--- CTA PEARLS start ---*/
