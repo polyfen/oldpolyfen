@@ -3,23 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1680 204" style="enable-background:new 0 0 1680 204;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.6;fill:url(#SVGID_1_);}
-	.st1{opacity:0.6;fill:url(#SVGID_2_);}
-	.st2{fill:#632FD7;}
+	.st0{fill:#632FD7;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="870.9858" y1="221.8449" x2="870.9858" y2="125.8189" gradientTransform="matrix(0.9904 -0.1381 0.1381 0.9904 -9.5179 118.1329)">
-	<stop  offset="0" style="stop-color:#000000"/>
-	<stop  offset="0.822" style="stop-color:#000000;stop-opacity:0"/>
-</linearGradient>
-<polygon class="st0" points="1713.1,82.7 49.2,314.8 37.7,232.1 1701.6,0 "/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="840" y1="194.2787" x2="840" y2="56.4123">
-	<stop  offset="0" style="stop-color:#000000"/>
-	<stop  offset="0.822" style="stop-color:#000000;stop-opacity:0"/>
-</linearGradient>
-<rect y="47.1" class="st1" width="1680" height="119.9"/>
 <g id="Home-_x28_1680px_x29_-_x5B_XL-_x2F_-15_x22_-Laptop_x5D_-Copy-2">
 	<g id="Cover" transform="translate(-4.000000, -595.000000)">
-		<path id="Combined-Shape" class="st2" d="M1684,620.5V799H0v-84.5C607,783.8,1168.3,752.5,1684,620.5z"/>
+		<path id="Combined-Shape" class="st0" d="M1684,620.5V799H0v-84.5C607,783.8,1168.3,752.5,1684,620.5z"/>
 	</g>
 </g>
 </svg>
