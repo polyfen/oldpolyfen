@@ -5,6 +5,9 @@ header {
   z-index: 9999999;
   top: 0;
   left: 0;
+  left: 0;
+  width: 100%;
+  border-top: 12px solid #7537f8;
 }
 
 header img#logo {
