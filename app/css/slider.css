@@ -97,16 +97,15 @@ div.desktop-card-navigation-wrapper {
     width: 70px;
     margin-left: 40px;
     height: 100px;
-    background: #474797;
+    background: #252273;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 100px 0 0 100px;
     box-shadow: 0 0 10px 2px black;
-
-    background: #474797 /* #indigo */;
-    margin-right: 25px;
+    background: #252273 /* #indigo */;
+    margin-right: 15px;
     padding-top: 22px;
 }
 
@@ -115,7 +114,7 @@ div.desktop-card-navigation-wrapper {
     width: 70px;
     margin-right: 40px;
     height: 100px;
-    background: #474797;
+    background: #252273;
     text-align: center;
     display: flex;
     align-items: center;
@@ -123,8 +122,8 @@ div.desktop-card-navigation-wrapper {
     border-radius:  0 100px 100px 0;
     box-shadow: 0 0 10px 2px black;
     z-index: 1;
-    background: #474797 /* #indigo */;
-    margin-left: 25px;
+    background: #252273 /* #indigo */;
+    margin-left: 15px;
     padding-top: 22px;
 }
 
@@ -175,8 +174,8 @@ div.desktop-card-navigation-wrapper {
 }
 
 .owl-carousel {
-    margin-left: -35px;
-    margin-right: -35px;
+    margin-left: -45px;
+    margin-right: -45px;
 
 }
 
