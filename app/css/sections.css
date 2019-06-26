@@ -66,10 +66,6 @@ div#case-studies {
          border-radius: 8px 8px 0 0;
         }
 
-    div#case-studies div.case-project div.project-thumbnail {
-      display: none !important;
-    }
-
     div#case-studies div.case-project div.project-description {
       width: 100%;
       border-radius: 0 0 8px 8px;
@@ -381,6 +377,15 @@ section#call-to-action {
          height: 280px;
          border-radius: 4px;
          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+         background-size: 180%;
+         -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
+         transition: background-size 0.5s,
+        }
+
+        div#case-studies div.case-project div.project-cover:hover {
+          background-size: 200%;
+          -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
+          transition: background-size 0.5s,
         }
 
         div#case-studies div.case-project div.project-thumbnail:hover {
@@ -451,8 +456,14 @@ section#call-to-action {
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
+
       div#case-studies div.case-project div.project-cover {
        height: 350px;
+       background-size: 150%;
+      }
+
+      div#case-studies div.case-project div.project-cover:hover {
+        background-size: 180%;
       }
 
         .polyfen-cover-INACTIVE {
@@ -544,6 +555,11 @@ section#call-to-action {
   /*--- CASE STUDIES start ---*/
       div#case-studies div.case-project div.project-cover {
        height: 400px;
+       background-size: 140%;
+      }
+
+      div#case-studies div.case-project div.project-cover:hover {
+        background-size: 165%;
       }
   /*--- CASE STUDIES end ---*/
 
@@ -602,10 +618,20 @@ section#call-to-action {
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
+
+  div#case-studies {
+    margin-bottom: 8rem;
+  }
+
       div#case-studies div.case-project div.project-cover {
         height: 520px;
         width: 100%;
-      }
+        background-size: 120%;
+     }
+
+     div#case-studies div.case-project div.project-cover:hover {
+       background-size: 140%;
+     }
 
       div#case-studies div.case-project div.project-thumbnail {
          width: 380px;
@@ -616,6 +642,7 @@ section#call-to-action {
          position: absolute;
          left: calc(50% - 270px);
          margin-top: 360px;
+         z-index: 1;
          background-size: 100% !important;
          background-position: center !important;
          -webkit-transition: background-size 0.5s, margin-top 2s !important; /* Safari */
@@ -640,7 +667,8 @@ section#call-to-action {
        }
 
        .polyfen-thumbnail-ACTIVE {
-         margin-top: 390px !important;
+         margin-top: -160px !important;
+         margin-left: 260px;
          -webkit-transition: background-size 0.5s, margin-top 3.5s !important; /* Safari */
          transition: background-size 0.5s, margin-top 3.5s !important;
        }
@@ -694,6 +722,10 @@ section#call-to-action {
 /* XXL devices (desktops, 13") */
 @media (min-width: 1440px) {
 
+  div#case-studies {
+    margin-bottom: 16rem;
+  }
+
   div#case-studies div.case-project div.project-thumbnail {
     height: 250px;
     width: 340px;
@@ -737,6 +769,7 @@ section#call-to-action {
   /*--- CASE STUDIES start ---*/
       div#case-studies div.case-project div.project-cover {
         height: 550px;
+        max-width: 718px;
       }
 
       div#case-studies div.case-project div.project-thumbnail {
@@ -744,6 +777,7 @@ section#call-to-action {
         width: 375px;
         left: calc(50% - 330px);
         margin-top: 370px;
+        z-index: 1;
       }
 
       .polyfen-thumbnail-INACTIVE {
@@ -753,7 +787,8 @@ section#call-to-action {
        }
 
        .polyfen-thumbnail-ACTIVE {
-         margin-top: 370px !important;
+         margin-top: -150px !important;
+          margin-left: 410px;
          -webkit-transition: background-size 0.5s, margin-top 3.5s !important; /* Safari */
          transition: background-size 0.5s, margin-top 3.5s !important;
        }
