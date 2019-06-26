@@ -15,33 +15,43 @@ footer {
       }
 
       div#social-icons ul li {
-        display: inline;
+        display: flex;
         margin: 0;
+        border-radius: 45px;
+        height: 45px;
+        width: 45px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        margin-right: 2px;
       }
 
-      div#social-icons ul li a i {
+      div#social-icons ul a li  {
+        line-height: 0;
+      }
+
+      div#social-icons ul a li i {
         font-size: 28px;
-        margin: 0 8.5px;
-        color: #7537F8 /* #indigo */;
-        opacity: 0.8;
+        color: #7537F8 /* #indigo */!important;
       }
 
-      div#social-icons ul li:first-child a i {
-        margin: 0 8.5px 0 0;
+      div#social-icons ul li:hover {
+        background: #7537F8;
+        box-shadow: 0 0 10px #BA00FF;
       }
 
-      div#social-icons ul li:last-child a i {
-        margin: 0 0 0 8.5px;
-      }
-
-      div#social-icons ul li a:hover i {
-        color: #25A9B9 /* #teal */;
-        opacity: 1;
+      div#social-icons ul a:hover li i {
+        color: white !important;
       }
 
   div#legal {
     background: #01000b;
     padding: 20px 0 25px;
+  }
+
+  footer a small {
+    letter-spacing: 0.8px !important
   }
 
   /*---------- [MEDIA QUERIES] start ------------*/
@@ -70,18 +80,14 @@ footer {
     }
 
         div#social-icons ul li a i {
-          font-size: 30.7px;
+          font-size: 28px;
           margin: 0 6px;
           color: #7537F8 /* #indigo-minus-4 */;
-          opacity: 0.8;
-        }
-
-        div#social-icons ul li:first-child a i {
-          margin: 0 6px 0 0;
+          opacity: 1;
         }
 
         div#social-icons ul li a:hover i {
-          color: #2AC6B5 /* #white */;
+          color: #7537f8 /* #white */;
           opacity: 1;
         }
 
