@@ -250,7 +250,7 @@ section#call-to-action {
 
     section#call-to-action div#cta-content {
       margin-top: 80px;
-      z-index: 2;
+      z-index: 3;
       position: absolute;
       left: 0;
       width: 100%;
