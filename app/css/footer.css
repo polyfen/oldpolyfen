@@ -1,17 +1,19 @@
 /*---------- FOOTER start ------------*/
 
 footer {
-  background: #00001D /* #slate-4 */;
+  background: #01000b /* #slate-4 */;
   text-align: center;
   width: 100%;
 }
 
   div#social-icons {
-    padding: 20px 0 20px;
+    padding: 20px 0 0px;
+    height: 60px;
   }
 
       div#social-icons ul {
-        margin: 0;
+        margin: 0 auto;
+        width: fit-content;
       }
 
       div#social-icons ul li {
@@ -24,7 +26,7 @@ footer {
         align-items: center;
         justify-content: center;
         float: left;
-        margin-right: 2px;
+        margin-right: 10px;
       }
 
       div#social-icons ul a li  {
@@ -45,13 +47,16 @@ footer {
         color: white !important;
       }
 
+      div#social-icons ul a#linkedin-icon li {
+        margin-right: 0;
+      }
+
   div#legal {
-    background: #01000b;
     padding: 20px 0 25px;
   }
 
   footer a small {
-    letter-spacing: 0.8px !important
+    letter-spacing: 0.8px !important;
   }
 
   /*---------- [MEDIA QUERIES] start ------------*/
@@ -69,7 +74,7 @@ footer {
 
     footer {
       padding: 30px 30px 0;
-      height: 100px;
+      height: 105px;
     }
 
     div#social-icons {
@@ -77,7 +82,17 @@ footer {
       float: left;
       padding: 0;
       text-align: left;
+      margin-left: -12px;
+      margin-right: 12px;
     }
+
+    div#social-icons ul {
+      margin: 0;
+    }
+
+        div#social-icons ul li {
+          margin-right: 2px;
+        }
 
         div#social-icons ul li a i {
           font-size: 28px;
@@ -94,7 +109,7 @@ footer {
     div#legal {
       width: 50%;
       float: left;
-      padding: 4px 0 0 0;
+      padding: 10px 0 0 0;
       background: none;
       text-align: right;
     }

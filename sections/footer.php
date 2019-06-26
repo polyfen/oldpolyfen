@@ -15,9 +15,11 @@
     <a href="http://polyfen.com/instagram" target="_blank" title="Instagram"><li><i class="fab fa-instagram"></i></li></a>
     <a href="http://polyfen.com/dribbble" target="_blank" title="Dribbble"><li><i class="fab fa-dribbble"></i></li></a>
     <a href="http://polyfen.com/behance" target="_blank" title="Behance"><li><i class="fab fa-behance"></i></li></a>
-    <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin"><li><i class="fab fa-linkedin-in"></i></li></a>
+    <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon"><li><i class="fab fa-linkedin-in"></i></li></a>
   </ul>
 </div>
+
+<div class="d-block d-sm-none" style="clear:both;"></div>
 
 <div id="legal">
   <a onclick="document.getElementById('privacy-policy').className='modal-wrapper d-block';" ><small>Privacy Policy</small></a>
