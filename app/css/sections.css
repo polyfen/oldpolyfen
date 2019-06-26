@@ -821,7 +821,7 @@ section#call-to-action {
       }
 
       .polyfen-thumbnail-INACTIVE {
-         margin-top: 0px !important;
+         margin-top: 200px !important;
          -webkit-transition: background-size 0.5s, margin-top 3.5s !important; /* Safari */
          transition: background-size 0.5s, margin-top 3.5s !important;
        }
