@@ -232,3 +232,18 @@ div.desktop-card-navigation-wrapper {
 .hide {
     display: none !important;
 }
+
+
+@media screen and (min-width: 1200px) {
+  .owl-carousel {
+    margin-left: -75px;
+    margin-right: -75px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .owl-carousel {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+}
