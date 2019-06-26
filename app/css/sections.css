@@ -63,7 +63,7 @@ div#case-studies {
          background-position: 50% 32%;
          width: 100%;
          height: 160px;
-         border-radius: 8px 8px 0 0;
+         border-radius: 4px 4px 0 0;
         }
 
     div#case-studies div.case-project div.project-description {
@@ -302,6 +302,24 @@ section#call-to-action {
       bottom: 81px;
       left: 0;
       position: absolute;
+      z-index: 2;
+      -moz-transform: scale(1, -1);
+      -webkit-transform: scale(1, -1);
+      -o-transform: scale(1, -1);
+      -ms-transform: scale(1, -1);
+      transform: scale(1, -1);
+    }
+
+    section#call-to-action div.curve-border {
+      background-image: url('../../imgs/cover/indigo-curve.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      width: 100%;
+      height: 320px;
+      bottom: 80px;
+      left: 0;
+      position: absolute;
       z-index: 1;
       -moz-transform: scale(1, -1);
       -webkit-transform: scale(1, -1);
@@ -431,6 +449,11 @@ section#call-to-action {
     /*--- ABOUT end ---*/
 
     /*--- CTA start ---*/
+
+      section#call-to-action div.curve-border {
+        bottom:83px;
+      }
+
     /*--- CTA end ---*/
 
 }
@@ -527,6 +550,10 @@ section#call-to-action {
         margin-top: 50px;
       }
 
+      section#call-to-action div.curve-border {
+        bottom:86px;
+      }
+
       section#call-to-action h2 {
         max-width: 460px;
         text-align: center;
@@ -591,6 +618,10 @@ section#call-to-action {
 
     section#call-to-action div.curve {
       bottom: 252px !important;
+    }
+
+    section#call-to-action div.curve-border {
+      bottom: 260px !important;
     }
 
     section#call-to-action div#cta-content {
@@ -716,6 +747,10 @@ section#call-to-action {
     div#success-message {
       margin-top: 150px;
     }
+
+    section#call-to-action div.curve-border {
+      bottom: 265px !important;
+    }
   /*--- CTA end ---*/
 }
 
@@ -743,6 +778,10 @@ section#call-to-action {
      margin-top: 390px !important;
      -webkit-transition: background-size 0.5s, margin-top 3.5s !important; /* Safari */
      transition: background-size 0.5s, margin-top 3.5s !important;
+   }
+
+   section#call-to-action div.curve-border {
+     bottom: 270px !important;
    }
 
 }
@@ -816,6 +855,10 @@ section#call-to-action {
   /*--- CTA start ---*/
       section#call-to-action div#cta-content {
         margin-top: 100px;
+      }
+
+      section#call-to-action div.curve-border {
+        bottom: 272px !important;
       }
 
       div#success-message {
