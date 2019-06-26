@@ -19,7 +19,7 @@ footer {
       div#social-icons ul li {
         display: flex;
         margin: 0;
-        border-radius: 45px;
+        border-radius: 5px;
         height: 45px;
         width: 45px;
         text-align: center;
