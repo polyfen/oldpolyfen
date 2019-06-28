@@ -248,7 +248,7 @@ div#share h4 {
 div#share a {
   width: 225px;
   border-radius: 4px;
-  padding: 8px 0;
+  padding: 10px 0 7px;
   border: 2px solid;
   display: block;
   margin: 0 auto 8px;

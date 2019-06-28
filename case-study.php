@@ -456,8 +456,10 @@
           </div>
         </div>
 
+
+        <div class="horizontal-case-study-separator"></div>
+
         <div id="share" class="col-xl-12">
-          <div class="share-separator"></div>
           <h4>Share</h4>
           <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpolyfen.com%2Fcase-study.php&amp;src=sdkpreparse" data-href="https://polyfen.com/case-study" data-image="https://polyfen.com/dev/web-5/imgs/meta/case-study-thumbnail.png" data-title="Developing our own brand" data-desc="A case study that exhibits our brand's core concept, the midpoint between business and creativity." id="facebook-share" class="button tertiary-button" target="_blank">Facebook</a>
 
