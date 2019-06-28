@@ -10,13 +10,21 @@
       transition: all 1s;
     }
 
-    div#pearl-01, div#pearl-07, div#pearl-09 {
+    div#pearl-01, div#pearl-09 {
+      background-image: url('../../imgs/cover/pearl-03.png');
+      transform: rotate(0deg);
+      background-image: url('../../imgs/cover/pearl-03-17-c.png');
+    }
+
+    div#pearl-07 {
       background-image: url('../../imgs/cover/pearl-13.png');
+      background-image: url('../../imgs/cover/pearl-03-17-b.png');
       transform: rotate(0deg);
     }
 
     div#pearl-02, div#pearl-08 {
       background-image: url('../../imgs/cover/pearl-03-17-b.png');
+      background-image: url('../../imgs/cover/pearl-13.png');
     }
 
     div#pearl-03 {
@@ -30,6 +38,8 @@
 
     div#pearl-05, div#pearl-10 {
       background-image: url('../../imgs/cover/pearl-03-17-c.png');
+      background-image: url('../../imgs/cover/pearl-03.png');
+      transform: rotate(0deg);
     }
 
     div#pearl-06 {
