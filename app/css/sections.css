@@ -226,8 +226,10 @@ section#call-to-action {
 
     section#call-to-action.active-call-to-action div#contact-form input, section#call-to-action.active-call-to-action div#contact-form textarea {
       font-size: 1.5rem;
-      font-family: 'ff-meta-serif-web-pro', serif;
-      font-family: 'Tiempos Text', serif;
+      /* font-family: 'ff-meta-serif-web-pro', serif; */
+      /* font-family: 'Tiempos Text', serif; */
+      /* font-family: 'Source Serif Pro', serif; */
+      font-family: 'freight-text-pro', serif;
       text-rendering: optimizeLegibility;
       font-kerning: normal !important;
       -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -507,7 +509,7 @@ section#call-to-action {
       }
 
       div#case-studies div.case-project div.project-description p {
-        max-width: 370px;
+        max-width: 360px;
       }
   /*--- CASE STUDIES end ---*/
 
@@ -598,7 +600,7 @@ section#call-to-action {
       }
 
       div#about p {
-        max-width: 445px;
+        max-width: 435px;
       }
 
       div#about img {
@@ -714,7 +716,7 @@ section#call-to-action {
       }
 
       div#case-studies div.case-project div.project-description p {
-        max-width: 440px;
+        max-width: 450px;
       }
   /*--- CASE STUDIES end ---*/
 
@@ -731,7 +733,7 @@ section#call-to-action {
 
   /*--- ABOUT start ---*/
       div#about p {
-        max-width: 505px;
+        max-width: 495px;
       }
 
       div#about img {

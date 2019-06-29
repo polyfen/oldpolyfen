@@ -80,15 +80,17 @@ h4, h4 span {
 }
 
 p, p a, li, p strong, p span, li strong /* (mobile) */ {
-  font-size: 21px;
+  font-size: 22px;
   letter-spacing: 0.1px;
   line-height: 1.3;
   text-align: left;
   font-weight: 400 /* regular */;
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'ff-meta-serif-web-pro', serif;
-  font-family: 'Tiempos Text', serif;
+  /* font-family: 'ff-meta-serif-web-pro', serif; */
+  /* font-family: 'Tiempos Text', serif; */
+  /* font-family: 'Source Serif Pro', serif; */
+  font-family: 'freight-text-pro', serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -227,7 +229,7 @@ p a:hover {
     }
 
     p, p a, li, p strong, p span, li strong {
-      font-size: 21px;
+      font-size: 22px;
       letter-spacing: 0.15px;
       line-height: 1.39;
     }
@@ -270,7 +272,7 @@ p a:hover {
   }
 
   p, p a, li, p strong, p span, li strong {
-    font-size: 24px;
+    font-size: 25px;
     letter-spacing: 0.15px;
     line-height: 1.39;
   }
