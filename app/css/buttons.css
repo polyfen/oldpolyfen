@@ -99,8 +99,8 @@ div.card-navigation div.navigation-bullet {
     }
 
     div.card-navigation div.active-navigation-bullet {
-      background: #7a00f5 /* #indigo */;
-      box-shadow: 0 0 4px #BA00FF;
+      background: #7537F8 /* #indigo */;
+      box-shadow: 0 0 4px #7a00f5;
     }
 
     div.card-navigation div.inactive-navigation-bullet {
