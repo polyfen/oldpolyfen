@@ -65,12 +65,6 @@
 
   <body id="home">
 
-    <!-- PRELOADER start -->
-      <div id="preloader">
-        <div id="status" class="status-start">&nbsp;</div>
-      </div>
-    <!-- PRELOADER end -->
-
     <!-- I HAVE NO IDEA WHAT THIS IS FOR start -->
       <div style="position: relative;max-width:100% !important;overflow-x:hidden !important;">
     <!-- I HAVE NO IDEA WHAT THIS IS FOR end -->
