@@ -253,7 +253,7 @@ section#call-to-action {
 
     section#call-to-action div#cta-content {
       margin-top: 80px;
-      z-index: 3;
+      z-index: 4;
       position: absolute;
       left: 0;
       width: 100%;
@@ -275,7 +275,7 @@ section#call-to-action {
       text-align: center;
       max-width: 500px;
       margin: 0 auto;
-      z-index: 2;
+      z-index: 4;
     }
 
     div#success-message {
