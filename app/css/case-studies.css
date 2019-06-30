@@ -203,6 +203,7 @@ div.browser {
   border-radius: 4px;
   background: #231E4E;
   position: relative;
+  border: 4px solid #231E4E;
 }
 
 div.browser div.browser-circle {

@@ -320,7 +320,7 @@
 
           <div class="row">
             <div class="col">
-              <img src="imgs/case-studies/developing-our-own-brand/visual-identity/folder-illustration.svg" alt="Creative Team Illustration">
+              <img src="imgs/case-studies/developing-our-own-brand/visual-identity/mobile-illustration.svg" alt="Creative Team Illustration">
             </div>
             <div class="col-xl-1 col-lg-1">
             </div>
