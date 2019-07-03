@@ -4,35 +4,13 @@ body.case-study h1 {
   text-align: center;
   max-width: 240px;
   margin: 0 auto;
-  top: 130px;
   position: relative;
   z-index: 2;
+  margin-top: 80px;
 }
 
 body h2 {
   color:#7537F8;
-}
-
-body section#title {
-    height: 355px;
-}
-
-#pearl-11 {
-  width: 400px;
-  height: 400px;
-  top: -130px;
-  right: -230px;
-  display: block;
-  background-image: url('../../imgs/cover/pearl-01.png');
-}
-
-#pearl-12 {
-  width: 280px;
-  height: 280px;
-  top: 90px;
-  left: -125px;
-  display: block;
-  background-image: url('../../imgs/cover/pearl-13.png');
 }
 
 body section#content-wrapper {
@@ -279,25 +257,7 @@ div#share a#twitter-share {
 @media (min-width: 375px) {
 
   body.case-study h1 {
-    max-width: 290px;
-  }
-
-  body.case-study section#title {
-      height: 370px;
-  }
-
-  #pearl-11 {
-    width: 400px;
-    height: 400px;
-    top: -120px;
-    right: -180px;
-  }
-
-  #pearl-12 {
-    width: 280px;
-    height: 280px;
-    top: 100px;
-    left: -120px;
+    max-width: 300px;
   }
 
   div.swatch {
@@ -328,25 +288,8 @@ div#share a#twitter-share {
   }
 
   body.case-study h1 {
-    max-width: 340px;
-  }
-
-  #pearl-11 {
-    width: 400px;
-    height: 400px;
-    top: -110px;
-    right: -125px;
-  }
-
-  #pearl-12 {
-    width: 300px;
-    height: 300px;
-    top: 100px;
-    left: -100px;
-  }
-
-  body.case-study section#title {
-      height: 400px;
+    max-width: 350px;
+    margin: 70px auto;
   }
 
   div#wordmark {
@@ -376,30 +319,12 @@ div#share a#twitter-share {
 /* Medium devices (Tablet Portrait / Mobile Landscape) */
 @media (min-width: 768px) {
 
-  body.case-study section#title {
-      height: 520px;
-  }
-
   body.case-study section#content-wrapper {
     padding: 35px !important;
   }
 
   body.case-study h1 {
     max-width: 380px;
-  }
-
-  #pearl-11 {
-    width: 455px;
-    height: 455px;
-    top: -90px;
-    right: -70px;
-  }
-
-  #pearl-12 {
-    width: 350px;
-    height: 350px;
-    left: -80px;
-    top: 140px;
   }
 
   body.case-study div.horizontal-case-study-separator {
@@ -453,20 +378,6 @@ div#share a#twitter-share {
 
   body.case-study h1 {
       max-width: 480px;
-  }
-
-  #pearl-11 {
-    right: -60px;
-    height: 440px;
-    width: 440px;
-    top: -120px;
-  }
-
-  #pearl-12 {
-    width: 380px;
-    height: 380px;
-    left: -95px;
-    top: 130px;
   }
 
   body.case-study div#brand-research p:last-child, body.case-study div#typeface-selection p:last-child, body.case-study div#colour-scheme p:last-child, body.case-study div#visual-language-outro p, body.case-study p#visual-language-intro, body.case-study div#brand-touchpoints p:last-child, body.case-study div#brand-strategy p:last-of-type, body.case-study div#brand-guidelines p:last-of-type, body.case-study div#web-development p, body.case-study div#brand-touchpoints p {
@@ -550,38 +461,8 @@ div#share a#twitter-share {
     padding: 75px !important;
   }
 
-  body.case-study section#title {
-      height: 640px;
-  }
-
   body.case-study h1 {
       max-width: 550px;
-  }
-
-  #pearl-11 {
-    width: 455px;
-    height: 455px;
-    top: -90px;
-    right: -80px;
-  }
-
-  #pearl-12 {
-    width: 420px;
-    height: 420px;
-    top: 200px;
-    left: -80px;
-  }
-
-  #pearl-11 {
-    top: -90px;
-    right: 40px;
-  }
-
-  #pearl-12 {
-    width: 435px;
-    height: 435px;
-    top: 210px;
-    left: 10px;
   }
 
   div#wordmark {

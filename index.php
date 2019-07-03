@@ -77,7 +77,9 @@
         <section id="cover">
             <h1>A creative agency devoted to branding</h1>
             <div class="background">
-              <div id="pearl-01" class="pearl pearl-01-INACTIVE rotate-slower">
+              <div id="pearl-11" class="pearl rotate-slower">
+              </div>
+              <div id="pearl-12" class="pearl rotate">
               </div>
             </div>
         </section>

@@ -15,7 +15,7 @@ section {
       max-width: 350px;
     }
 
-    section#cover div.background {
+    div.background {
       position: relative;
       width: 100%;
       height: 100%;
@@ -27,6 +27,24 @@ section {
     section#cover {
       height: 640px;
       height: 450px;
+    }
+
+    #pearl-11 {
+      width: 400px;
+      height: 400px;
+      top: -130px;
+      right: -230px;
+      display: block;
+      background-image: url('../../imgs/cover/pearl-01.png');
+    }
+
+    #pearl-12 {
+      width: 280px;
+      height: 280px;
+      top: 90px;
+      left: -125px;
+      display: block;
+      background-image: url('../../imgs/cover/pearl-13.png');
     }
 
 /*---------- COVER end ------------*/
@@ -356,6 +374,20 @@ section#call-to-action {
       height: 200px;
   }
 
+  #pearl-11 {
+    width: 400px;
+    height: 400px;
+    top: -120px;
+    right: -180px;
+  }
+
+  #pearl-12 {
+    width: 280px;
+    height: 280px;
+    top: 100px;
+    left: -120px;
+  }
+
 }
 
 /* Small devices (Mobile Widest) */
@@ -380,6 +412,20 @@ section#call-to-action {
   /*--- COVER start ---*/
     section#cover h1 {
       max-width: 550px;
+    }
+
+    #pearl-11 {
+      width: 400px;
+      height: 400px;
+      top: -110px;
+      right: -125px;
+    }
+
+    #pearl-12 {
+      width: 300px;
+      height: 300px;
+      top: 100px;
+      left: -100px;
     }
   /*--- COVER end ---*/
 
@@ -479,6 +525,21 @@ section#call-to-action {
     section#cover h1 {
       max-width: 650px;
     }
+
+    #pearl-11 {
+      width: 455px;
+      height: 455px;
+      top: -90px;
+      right: -70px;
+    }
+
+    #pearl-12 {
+      width: 350px;
+      height: 350px;
+      left: -80px;
+      top: 140px;
+    }
+
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
@@ -580,6 +641,20 @@ section#call-to-action {
     section#cover h1 {
       max-width: 800px;
     }
+
+    #pearl-11 {
+      right: -60px;
+      height: 440px;
+      width: 440px;
+      top: -120px;
+    }
+
+    #pearl-12 {
+      width: 380px;
+      height: 380px;
+      left: -95px;
+      top: 130px;
+    }
   /*--- COVER end ---*/
 
   /*--- CASE STUDIES start ---*/
@@ -648,6 +723,32 @@ section#call-to-action {
   /*--- COVER start ---*/
     section#cover h1 {
       max-width: 900px;
+    }
+
+    #pearl-11 {
+      width: 455px;
+      height: 455px;
+      top: -90px;
+      right: -80px;
+    }
+
+    #pearl-12 {
+      width: 420px;
+      height: 420px;
+      top: 200px;
+      left: -80px;
+    }
+
+    #pearl-11 {
+      top: -90px;
+      right: 40px;
+    }
+
+    #pearl-12 {
+      width: 435px;
+      height: 435px;
+      top: 210px;
+      left: 10px;
     }
   /*--- COVER end ---*/
 

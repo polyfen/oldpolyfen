@@ -96,15 +96,15 @@
       animation: rotating 70s linear infinite !important;
     }
 
-    section#cover div.background div#pearl-01 {
+    div.background div#pearl-01 {
       display: block;
-      height: 400px;
-      width: 400px !important;
-      top: 272px;
-      left: calc(50% - 200px);
+      height: 480px;
+      width: 480px !important;
+      top: -40px;
+      left: calc(50% - 240px);
     }
 
-    section#cover div.background div#pearl-02 {
+    div.background div#pearl-02 {
       height: 850px;
       width: 850px;
     }
@@ -119,7 +119,7 @@
           left: 15px;
         }
 
-    section#cover div.background div#pearl-03 {
+    div.background div#pearl-03 {
       height: 700px;
       width: 700px;
     }
@@ -134,15 +134,15 @@
           left: -300px;
         }
 
-    section#cover div.background div#pearl-04 {
+    div.background div#pearl-04 {
       display: none;
     }
 
-    section#cover div.background div#pearl-05 {
+    div.background div#pearl-05 {
       display: none;
     }
 
-    section#cover div.background div#pearl-06 {
+    div.background div#pearl-06 {
       display: none;
     }
 /*--- COVER PEARLS end ---*/
@@ -196,8 +196,8 @@
 @media (min-width: 576px) {
 
   /*--- COVER PEARLS start ---*/
-      section#cover div.background div#pearl-01 {
-        top: 300px;
+      div.background div#pearl-01 {
+        top: -30px;
       }
 
           .pearl-01-INACTIVE {
@@ -210,7 +210,7 @@
             left: -300px;
           }
 
-      section#cover div.background div#pearl-02 {
+      div.background div#pearl-02 {
         height: 350px;
         width: 350px;
         display: none;
@@ -226,7 +226,7 @@
             left: 15px;
           }
 
-      section#cover div.background div#pearl-03 {
+      div.background div#pearl-03 {
         height: 400px;
         width: 400px;
         display: none;
@@ -242,15 +242,15 @@
             left: -290px;
           }
 
-      section#cover div.background div#pearl-04 {
+      div.background div#pearl-04 {
         display: none;
       }
 
-      section#cover div.background div#pearl-05 {
+      div.background div#pearl-05 {
         display: none;
       }
 
-      section#cover div.background div#pearl-06 {
+      div.background div#pearl-06 {
         display: none;
       }
   /*--- COVER PEARLS end ---*/
@@ -310,8 +310,11 @@
 
   /*--- COVER PEARLS start ---*/
 
-  section#cover div.background div#pearl-01 {
-    top: 260px;
+  div.background div#pearl-01 {
+    top: -200px;
+    width: 650px !important;
+    height: 650px;
+    left: calc(50% - 325px);
   }
   /*--- COVER PEARLS end ---*/
 
@@ -370,11 +373,11 @@
       height: 540px;
     }
 
-      section#cover div.background div#pearl-01 {
-        height: 520px;
-        width: 520px !important;
-        top: 205px;
-        left: calc(50% - 260px);
+      div.background div#pearl-01 {
+        height: 900px;
+        width: 900px !important;
+        top: -450px;
+        left: calc(50% - 450px);
       }
   /*--- COVER PEARLS end ---*/
 
@@ -432,13 +435,6 @@
     section#cover {
       height: 570px;
     }
-
-      section#cover div.background div#pearl-01 {
-        height: 700px;
-        width: 700px !important;
-        top: 75px;
-        left: calc(50% - 350px);
-      }
   /*--- COVER PEARLS end ---*/
 
   /*--- CTA PEARLS start ---*/
@@ -514,11 +510,11 @@
       height: 700px;
     }
 
-      section#cover div.background div#pearl-01 {
-        height: 900px;
-        width: 900px !important;
-        top: -75px;
-        left: calc(50% - 450px);
+      div.background div#pearl-01 {
+        height: 1000px;
+        width: 1000px !important;
+        top: -500px;
+        left: calc(50% - 500px);
       }
   /*--- COVER PEARLS end ---*/
 

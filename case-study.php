@@ -148,9 +148,9 @@
 
       <section id="title">
         <h1>Developing our own brand</h1>
-        <div id="pearl-11" class="pearl rotate-slower">
-        </div>
-        <div id="pearl-12" class="pearl rotate">
+        <div class="background">
+          <div id="pearl-01" class="pearl pearl-01-INACTIVE rotate-slower">
+          </div>
         </div>
       </section>
 
