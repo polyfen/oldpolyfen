@@ -169,6 +169,11 @@ div#pearl-13 {
   margin: 0 auto;
 }
 
+div#pearl-13 {
+  top: inherit;
+  right: inherit;
+}
+
 div#pearls-sample, #pearl-14, #pearl-15, #pearl-16 {
   display: none;
 }
@@ -502,8 +507,8 @@ div#share a#twitter-share {
 
   body.case-study h1 {
       max-width: 720px;
+      margin-bottom: 150px;
   }
-
 }
 
 

@@ -14,15 +14,10 @@ body div.vertical-case-study-separator {
 
 body div.horizontal-case-study-separator {
   height:5px;
-  width:calc(100% - 30px);
   display:block;
-  margin: 60px auto 55px;
-  background: url(../../imgs/circle.svg);
-  background-size: 10px;
-}
-
-body div.horizontal-case-study-separator {
-  width:100%;
+  background: #191947ba;
+  width: 90%;
+  margin: 60px auto 65px;
 }
 
 /*---------- SEPARATORS end -----------*/
@@ -57,6 +52,13 @@ body div.horizontal-case-study-separator {
         height: 60px;
       }
 
+      body div.horizontal-case-study-separator {
+        height:6px;
+        width: 50%;
+        margin: 90px auto 95px;
+        background: #19194785;
+      }
+
 }
 
 /* Large devices (Tanblet Landscape) */
@@ -74,6 +76,8 @@ body div.horizontal-case-study-separator {
   _::-webkit-full-page-media, _:future, :root .safari-separator {
         height: 130px;
       }
+
+
 
 }
 

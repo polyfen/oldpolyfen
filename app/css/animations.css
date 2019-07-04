@@ -370,14 +370,14 @@
 
   /*--- COVER PEARLS start ---*/
     section#cover {
-      height: 540px;
+      height: 700px;
     }
 
       div.background div#pearl-01 {
-        height: 900px;
-        width: 900px !important;
+        height: 1000px;
+        width: 1000px !important;
         top: -450px;
-        left: calc(50% - 450px);
+        left: calc(50% - 500px);
       }
   /*--- COVER PEARLS end ---*/
 
@@ -432,8 +432,15 @@
 @media (min-width: 1200px) {
 
   /*--- COVER PEARLS start ---*/
-    section#cover {
-      height: 570px;
+  section#cover {
+    height: 700px;
+  }
+
+    div.background div#pearl-01 {
+      height: 1000px;
+      width: 1000px !important;
+      top: -450px;
+      left: calc(50% - 500px);
     }
   /*--- COVER PEARLS end ---*/
 
@@ -513,7 +520,7 @@
       div.background div#pearl-01 {
         height: 1000px;
         width: 1000px !important;
-        top: -500px;
+        top: -450px;
         left: calc(50% - 500px);
       }
   /*--- COVER PEARLS end ---*/

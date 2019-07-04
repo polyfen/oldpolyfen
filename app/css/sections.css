@@ -12,14 +12,34 @@ section {
       z-index: 2;
       text-align: center;
       margin: 0 auto;
-      max-width: 350px;
+      max-width: 270px;
+    }
+
+    section#cover h1:after {
+      content: "";
+      display: block;
+      height: 6px;
+      width: 400px;
+      background: #1c1c52;
+      margin: 100px auto 0;
+      border-radius: 6px;
+    }
+
+    section#cover h1:after {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 170px;
+      background: white;
+      margin: 20px auto 0;
+      border-radius: 6px;
     }
 
     div.background {
       position: relative;
       width: 100%;
       height: 100%;
-      top: -400px;
+      top: -410px;
       left: 0;
       z-index: 1;
     }
@@ -30,21 +50,23 @@ section {
     }
 
     #pearl-11 {
-      width: 400px;
-      height: 400px;
-      top: -130px;
-      right: -230px;
       display: block;
       background-image: url('../../imgs/cover/pearl-01.png');
+      background-image: url('../../imgs/case-studies/developing-our-own-brand/visual-identity/09.png');
+      width: 400px;
+      height: 400px;
+      top: 180px;
+      right: -110px;
     }
 
     #pearl-12 {
-      width: 280px;
-      height: 280px;
-      top: 90px;
-      left: -125px;
       display: block;
       background-image: url('../../imgs/cover/pearl-13.png');
+      background-image: url('../../imgs/cover/pearl-01.png');
+      width: 300px;
+      height: 300px;
+      top: 360px;
+      left: -120px;
     }
 
 /*---------- COVER end ------------*/
@@ -111,7 +133,7 @@ div#services div#service-cards-wrapper {
 }
 
 div#services div.service-card {
-      background: #0a073c;
+      background: #110e35;
       padding: 20px;
       border-radius: 6px;
       width: 100%;
@@ -323,7 +345,7 @@ section#call-to-action {
       bottom: 81px;
       left: 0;
       position: absolute;
-      z-index: 2;
+      z-index: 3;
       -moz-transform: scale(1, -1);
       -webkit-transform: scale(1, -1);
       -o-transform: scale(1, -1);
@@ -341,7 +363,7 @@ section#call-to-action {
       bottom: 80px;
       left: 0;
       position: absolute;
-      z-index: 1;
+      z-index: 2;
       -moz-transform: scale(1, -1);
       -webkit-transform: scale(1, -1);
       -o-transform: scale(1, -1);
@@ -369,24 +391,16 @@ section#call-to-action {
 
 
 /* Extra-Small devices (Mobile Narrowest) are set as default */
-@media (min-width: 380px) {
+@media (min-width: 375px) {
   div#case-studies div.case-project div.project-cover {
       height: 200px;
   }
 
-  #pearl-11 {
-    width: 400px;
-    height: 400px;
-    top: -120px;
-    right: -180px;
+  section#cover h1 {
+    max-width: 340px;
   }
 
-  #pearl-12 {
-    width: 280px;
-    height: 280px;
-    top: 100px;
-    left: -120px;
-  }
+
 
 }
 
@@ -414,18 +428,69 @@ section#call-to-action {
       max-width: 550px;
     }
 
+    section#cover h1:after {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 170px;
+      background: white;
+      margin: 25px auto 0;
+      border-radius: 6px;
+    }
+
     #pearl-11 {
       width: 400px;
       height: 400px;
-      top: -110px;
+      top: 170px;
       right: -125px;
+    }
+
+    #pearl-12 {
+      width: 280px;
+      height: 280px;
+      top: 390px;
+      left: -60px;
+    }
+
+    #pearl-11 {
+      top: -450px;
+      right: 30px;
+      width: 1050px;
+      height: 1050px;
+    }
+
+    #pearl-11 {
+      top: -420px;
+      right: -400px;
+      width: 900px;
+      height: 900px;
     }
 
     #pearl-12 {
       width: 300px;
       height: 300px;
-      top: 100px;
-      left: -100px;
+      top: 350px;
+      left: -60px;
+
+    }
+
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -580px;
+      top: 650px;
+      height: 245px;
+      width: 245px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -200px;
+      top: 525px;
     }
   /*--- COVER end ---*/
 
@@ -529,15 +594,49 @@ section#call-to-action {
     #pearl-11 {
       width: 455px;
       height: 455px;
-      top: -90px;
-      right: -70px;
+      top: 100px;
+      right: -90px;
     }
 
     #pearl-12 {
-      width: 350px;
-      height: 350px;
+      width: 320px;
+      height: 320px;
       left: -80px;
-      top: 140px;
+      top: 320px;
+    }
+
+    #pearl-11 {
+      top: -400px;
+      right: -310px;
+      width: 900px;
+      height: 900px;
+    }
+
+    #pearl-12 {
+      width: 300px;
+      height: 300px;
+      top: 340px;
+      left: -60px;
+    }
+
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -580px;
+      top: 650px;
+      height: 280px;
+      height: 250px;
+      width: 250px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -320px;
+      top: 510px;
     }
 
   /*--- COVER end ---*/
@@ -640,20 +739,88 @@ section#call-to-action {
   /*--- COVER start ---*/
     section#cover h1 {
       max-width: 800px;
+      top: 160px;
+    }
+
+    section#cover h1:after {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 250px;
+      background: white;
+      margin: 40px auto 0;
+      border-radius: 6px;
     }
 
     #pearl-11 {
-      right: -60px;
-      height: 440px;
-      width: 440px;
-      top: -120px;
+      right: -110px;
+      height: 500px;
+      width: 500px;
+      top: 60px;
     }
 
     #pearl-12 {
-      width: 380px;
-      height: 380px;
-      left: -95px;
-      top: 130px;
+      width: 370px;
+      height: 370px;
+      left: -80px;
+      top: 300px;
+    }
+
+    section#cover h1:after {
+      display: none;
+    }
+
+    #pearl-11 {
+      top: -450px;
+      right: 30px;
+      width: 1050px;
+      height: 1050px;
+      top: -260px;
+      right: -170px;
+      width: 900px;
+      height: 900px;
+    }
+
+    #pearl-12 {
+      width: 390px;
+      height: 390px;
+      top: 350px;
+      left: -45px;
+      width: 390px;
+      height: 390px;
+      top: 480px;
+      left: -100px;
+      width: 390px;
+      height: 390px;
+      top: 450px;
+      left: -100px;
+    }
+
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -580px;
+      top: 650px;
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -370px;
+      top: 695px;
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -370px;
+      top: 730px;
     }
   /*--- COVER end ---*/
 
@@ -740,15 +907,47 @@ section#call-to-action {
     }
 
     #pearl-11 {
-      top: -90px;
-      right: 40px;
+      top: 40px;
+      right: 5px;
+      width: 550px;
+      height: 550px;
     }
 
     #pearl-12 {
-      width: 435px;
-      height: 435px;
-      top: 210px;
-      left: 10px;
+      width: 390px;
+      height: 390px;
+      top: 325px;
+      left: -10px;
+    }
+
+    section#cover h1:after {
+      display: none;
+    }
+
+    #pearl-11 {
+      top: -360px;
+      right: -90px;
+      width: 1050px;
+      height: 1050px;
+    }
+
+    #pearl-12 {
+      width: 390px;
+      height: 390px;
+      top: 440px;
+      left: -105px;
+
+    }
+
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -500px;
+      top: 760px;
     }
   /*--- COVER end ---*/
 
@@ -906,6 +1105,37 @@ section#call-to-action {
   /*--- COVER start ---*/
     section#cover h1 {
       max-width: 1220px;
+      margin-top: 40px;
+    }
+
+    section#cover h1:after {
+      display: none;
+    }
+
+    #pearl-11 {
+      top: -450px;
+      right: 30px;
+      width: 1050px;
+      height: 1050px;
+    }
+
+    #pearl-12 {
+      width: 450px;
+      height: 450px;
+      top: 340px;
+      left: -100px;
+
+    }
+
+    div#pearl-13 {
+      height: 350px;
+      width: 350px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/cover/pearl-13.png);
+      margin: 0 auto;
+      right: -580px;
+      top: 700px;
     }
   /*--- COVER end ---*/
 

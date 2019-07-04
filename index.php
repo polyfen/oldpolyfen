@@ -81,6 +81,8 @@
               </div>
               <div id="pearl-12" class="pearl rotate">
               </div>
+              <div id="pearl-13" class="pearl rotate-slower">
+              </div>
             </div>
         </section>
       <!-- COVER end -->
