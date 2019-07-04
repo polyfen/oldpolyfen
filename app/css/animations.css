@@ -11,9 +11,7 @@
     }
 
     div#pearl-01, div#pearl-09 {
-      background-image: url('../../imgs/cover/pearl-03.png');
-      transform: rotate(0deg);
-      background-image: url('../../imgs/cover/pearl-03-17-c.png');
+      background-image: url('../../imgs/cover/pearl-01.png');
     }
 
     div#pearl-01 {
@@ -22,8 +20,6 @@
 
     div#pearl-07 {
       background-image: url('../../imgs/cover/pearl-13.png');
-      background-image: url('../../imgs/cover/pearl-03-17-b.png');
-      transform: rotate(0deg);
     }
 
     div#pearl-02, div#pearl-08 {
@@ -548,8 +544,8 @@
           }
 
           .pearl-08-ACTIVE {
-            bottom: 190px;
-            left: 150px;
+            bottom: 180px;
+            left: 160px;
           }
 
       section#call-to-action div.background div#pearl-09 {
@@ -561,8 +557,8 @@
           }
 
           .pearl-09-ACTIVE {
-            bottom: 295px;
-            left: 800px;
+            bottom: 270px;
+            left: 820px;`
           }
 
       section#call-to-action div.background div#pearl-10 {
@@ -575,8 +571,8 @@
           }
 
           .pearl-10-ACTIVE {
-            bottom: 300px;
-            left: 1320px;
+            bottom: 250px;
+            left: 1330px;
           }
   /*--- CTA PEARLS end ---*/
 }
