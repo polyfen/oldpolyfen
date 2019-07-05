@@ -219,6 +219,10 @@ div#services div.service-card {
       display: none;
     }
 
+    div#slick-slide06, div#slick-slide07, div#slick-slide08 {
+      display: none !important;
+    }
+
 /*---------- SERVICES end ------------*/
 
 /*---------- ABOUT start ------------*/
