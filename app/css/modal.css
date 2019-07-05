@@ -70,8 +70,6 @@ div.modal-wrapper {
 
     div.modal-window div.modal-window-header i.fa-times:hover {
       color: #FFFFFF !important;
-      -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
     }
 
     div.modal-window div.modal-window-content {
