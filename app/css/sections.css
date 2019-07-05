@@ -232,13 +232,14 @@ div#about {
 }
 
 div#about h2 {
-  max-width: 160px;
+  max-width: 360px;
 }
 
 div#about img {
   width: 115%;
   margin: 20px 0 20px 0;
   max-width: 400px;
+  margin-left: -12px;
 }
 
 /*---------- ABOUT end ------------*/
@@ -344,7 +345,7 @@ section#call-to-action {
       background-size: contain;
       background-repeat: no-repeat;
       background-position: bottom;
-      width: 100%;
+      width: 105%;
       height: 320px;
       bottom: 81px;
       left: 0;
@@ -362,7 +363,7 @@ section#call-to-action {
       background-size: contain;
       background-repeat: no-repeat;
       background-position: bottom;
-      width: 100%;
+      width: 105%;
       height: 320px;
       bottom: 80px;
       left: 0;
@@ -710,6 +711,10 @@ section#call-to-action {
       div#about img {
         display: none;
       }
+
+      div#about {
+        margin-bottom: 60px;
+      }
   /*--- ABOUT end ---*/
 
   /*--- CTA start ---*/
@@ -853,6 +858,10 @@ section#call-to-action {
         display: block;
         max-width: none;
         margin-top: 65px;
+      }
+
+      div#about {
+        margin-bottom: inherit;
       }
   /*--- ABOUT end ---*/
 
