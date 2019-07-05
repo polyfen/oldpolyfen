@@ -65,6 +65,10 @@ audio, canvas, progress, video {
   display: block;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 /*---------- GENERAL end ------------*/
 
 

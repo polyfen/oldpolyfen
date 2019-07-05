@@ -22,9 +22,9 @@
 <div class="d-block d-sm-none" style="clear:both;"></div>
 
 <div id="legal">
-  <a onclick="document.getElementById('privacy-policy').className='modal-wrapper d-block';" ><small>Privacy Policy</small></a>
+  <a onclick="document.getElementById('privacy-policy').className='modal-wrapper d-block';document.documentElement.className='overflow-hidden';" ><small>Privacy Policy</small></a>
   <span style="margin:0 10px;background: white;padding: 5px 0;opacity: 0.12;color: white !important;">|</span>
-  <a onclick="document.getElementById('terms-of-service').className='modal-wrapper d-block';"><small>Terms of Service</small></a>
+  <a onclick="document.getElementById('terms-of-service').className='modal-wrapper d-block';document.documentElement.className='overflow-hidden';"><small>Terms of Service</small></a>
 </div>
 
 

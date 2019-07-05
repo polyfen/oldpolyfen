@@ -33,14 +33,13 @@ div.modal-wrapper {
       height: 100%;
       width: 100%;
       background: #FFFFFF /* #white */;
-      overflow: scroll;
       border-radius: 0px;
       margin-top: 60px;
-      overflow-x: hidden;
+      overflow: hidden;
     }
 
     div.modal-window div.modal-window-header {
-      background: #474797 /* indigo-minus-3 @x% */;
+      background: #232361 /* indigo-minus-3 @x% */;
       position: fixed;
       z-index: 1010;
       width: 100%;
@@ -52,14 +51,14 @@ div.modal-wrapper {
 
 
     div.modal-window div.modal-window-header h3 {
-      color: #0c0c3ecc;
+      color: #FFFFFF;
       margin: 5px 0;
     }
 
     div.modal-window div.modal-window-header i.fa-times {
       right: 9px;
       position: absolute;
-      color: #191947b3;
+      color: #ffffff82;
       border-radius: 20px;
       text-align: center;
       top: 9px;
@@ -70,23 +69,24 @@ div.modal-wrapper {
     }
 
     div.modal-window div.modal-window-header i.fa-times:hover {
-      color: #03033e !important;
+      color: #FFFFFF !important;
       -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
     }
 
     div.modal-window div.modal-window-content {
       padding: 20px 8px 70px 10px;
+      overflow-y: scroll;
+      height: 100%;
     }
 
     div.modal-window div.modal-window-content h4 {
-      font-family: 'InteloAlt-SemiBold', Helvetica, Arial, sans-serif;
       color: #191947cc /* indigo-minus-3 @x% */;
       margin: 5px 0 5px;
     }
 
     div.modal-window p, div.modal-window li, div.modal-window p a {
-      color: #1919478c;
+      color: #19191fC2;
     }
 
      div.modal-window p a:hover {
@@ -134,15 +134,17 @@ div.modal-wrapper {
 
       div.modal-window div.modal-window-header {
         max-width: 744px;
-        padding: 15px 20px 12px;
-        border-radius: 10px 10px 0 0;
+        padding: 16px 20px 12px;
+        border-radius: 6px 6px 0 0;
         margin: 0px 0;
         height: 75px;
         margin-top: -75px;
       }
 
       div.modal-window div.modal-window-header h3 {
-        color:#0c0c3e99
+        color: white;
+        text-align: center;
+        font-size: 35px;
       }
 
       div.modal-window div.modal-window-content {
@@ -166,7 +168,7 @@ div.modal-wrapper {
     @media (min-width: 1200px) {
 
       div.modal-window div.modal-window-header {
-        padding: 12px 20px 12px;
+        padding: 16px 20px 12px;
       }
 
     }
@@ -176,10 +178,6 @@ div.modal-wrapper {
     }
 
     @media (min-width: 1680px) {
-
-      div.modal-window div.modal-window-header h3 {
-        font-size: 40px;
-      }
 
     }
 

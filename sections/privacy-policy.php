@@ -1,7 +1,7 @@
 <div id="privacy-policy" class="modal-wrapper d-none">
   <div class="modal-window">
     <div class="modal-window-header">
-      <i class="fas fa-times" onclick="document.getElementById('privacy-policy').className='modal-wrapper d-none';" ></i>
+      <i class="fas fa-times" onclick="document.getElementById('privacy-policy').className='modal-wrapper d-none';document.documentElement.className='';" ></i>
       <h3>Privacy Policy</h3>
     </div>
     <div class="modal-window-content">

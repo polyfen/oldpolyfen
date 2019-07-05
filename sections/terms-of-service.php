@@ -1,7 +1,7 @@
 <div id="terms-of-service" class="modal-wrapper d-none">
   <div class="modal-window">
     <div class="modal-window-header">
-      <i class="fas fa-times" onclick="document.getElementById('terms-of-service').className='modal-wrapper d-none';" ></i>
+      <i class="fas fa-times" onclick="document.getElementById('terms-of-service').className='modal-wrapper d-none';document.documentElement.className='';" ></i>
       <h3>Terms of Service</h3>
     </div>
     <div class="modal-window-content">
