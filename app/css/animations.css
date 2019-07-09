@@ -11,39 +11,39 @@
     }
 
     div#pearl-01, div#pearl-09 {
-      background-image: url('../../imgs/pearls/01.png');
+      background-image: url('../../imgs/pearls/01.webp');
     }
 
     div#pearl-01 {
-      background-image: url('../../imgs/pearls/13.png');
+      background-image: url('../../imgs/pearls/13.webp');
     }
 
     div#pearl-07 {
-      background-image: url('../../imgs/pearls/13.png');
+      background-image: url('../../imgs/pearls/13.webp');
     }
 
     div#pearl-02, div#pearl-08 {
-      background-image: url('../../imgs/pearls/03-17-b.png');
-      background-image: url('../../imgs/pearls/09.png');
+      background-image: url('../../imgs/pearls/03-17-b.webp');
+      background-image: url('../../imgs/pearls/09.webp');
     }
 
     div#pearl-03 {
-      background-image: url('../../imgs/pearls/03.png');
+      background-image: url('../../imgs/pearls/03.webp');
       animation:turn 1s linear;
     }
 
     div#pearl-04 {
-      background-image: url('../../imgs/pearls/01.png');
+      background-image: url('../../imgs/pearls/01.webp');
     }
 
     div#pearl-05, div#pearl-10 {
       background-image: url('../../imgs/pearls/03-17-c.png');
-      background-image: url('../../imgs/pearls/03.png');
+      background-image: url('../../imgs/pearls/03.webp');
       transform: rotate(0deg);
     }
 
     div#pearl-06 {
-      background-image: url('../../imgs/pearls/13.png');
+      background-image: url('../../imgs/pearls/13.webp');
     }
 
     @-webkit-keyframes rotating /* Safari and Chrome */ {

@@ -46,18 +46,6 @@
 
   <!-- CSS General -->
   <link rel="stylesheet" href="app/css/general.css" type="text/css">
-  <link rel="stylesheet" href="app/css/typography.css" type="text/css">
-  <link rel="stylesheet" href="app/css/header.css" type="text/css">
-  <link rel="stylesheet" href="app/css/footer.css" type="text/css">
-  <link rel="stylesheet" href="app/css/buttons.css" type="text/css">
-  <link rel="stylesheet" href="app/css/separators.css" type="text/css">
-  <link rel="stylesheet" href="app/css/sections.css" type="text/css">
-  <link rel="stylesheet" href="app/css/animations.css" type="text/css">
-  <link rel="stylesheet" href="app/css/modal.css" type="text/css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-  <link rel="stylesheet" href="app/css/slider.css" type="text/css">
 
   <!-- FONTS -->
   <!--
