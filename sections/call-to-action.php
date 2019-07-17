@@ -25,9 +25,6 @@
   <div class="curve">
   </div>
 
-  <div class="curve-border">
-  </div>
-
   <div class="background">
     <div id="pearl-10" class="pearl pearl-10-INACTIVE rotate">
     </div>
