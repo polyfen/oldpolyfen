@@ -22,10 +22,9 @@
 
 
 
-  <div class="curve">
-  </div>
-
   <div class="curve-border">
+    <div class="curve">
+    </div>
   </div>
 
   <div class="background">

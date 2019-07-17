@@ -139,7 +139,6 @@ div#about h2{max-width:360px}
 div#about img{width:115%;margin:20px 0 20px 0;max-width:400px;margin-left:-12px}
 section#call-to-action{background-color:#231e4e;box-shadow:#00000080 0 -10px 30px inset;height:400px;position:relative;overflow:hidden}
 section#call-to-action.active-call-to-action{height:500px!important;padding:40px 0}
-section#call-to-action.active-call-to-action div.curve{bottom:182px}
 section#call-to-action.active-call-to-action div#contact-form{margin:35px auto 0}
 section#call-to-action.active-call-to-action div#contact-form input,section#call-to-action.active-call-to-action div#contact-form textarea{font-size:1.5rem;font-family:'freight-text-pro',serif;text-rendering:optimizeLegibility;font-kerning:normal!important;-moz-font-feature-settings:"kern","liga","clig","calt";-ms-font-feature-settings:"kern","liga","clig","calt";-webkit-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt";color:#fff}
 section#call-to-action.active-call-to-action div#contact-form input::-webkit-input-placeholder,section#call-to-action.active-call-to-action div#contact-form textarea::-webkit-input-placeholder{color:#ffffff8f}
@@ -152,8 +151,8 @@ div#contact-form{text-align:center;max-width:500px;margin:0 auto;z-index:4}
 div#success-message{margin-top:120px;width:100%;position:absolute;left:0}
 div#success-message h2,div#success-message h3{max-width:100%!important;text-align:center!important}
 div#success-message h3{color:white;text-align:center}
-section#call-to-action div.curve{background-image:url('../../imgs/cover/dark-curve.svg');background-size:contain;background-repeat:no-repeat;background-position:bottom;width:105%;height:320px;bottom:81px;left:0;position:absolute;z-index:3;-moz-transform:scale(1,-1);-webkit-transform:scale(1,-1);-o-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}
-section#call-to-action div.curve-border{background-image:url('../../imgs/cover/indigo-curve.svg');background-size:contain;background-repeat:no-repeat;background-position:bottom;width:105%;height:320px;bottom:80px;left:0;position:absolute;z-index:2;-moz-transform:scale(1,-1);-webkit-transform:scale(1,-1);-o-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}
+section#call-to-action div.curve{background-image:url('../../imgs/cover/dark-curve.svg');background-size:contain;background-repeat:no-repeat;background-position:bottom;width:100%;height:320px;left:0;position:absolute;z-index:3;top:9px;}
+section#call-to-action div.curve-border{background-image:url('../../imgs/cover/indigo-curve.svg');background-size:contain;background-repeat:no-repeat;background-position:bottom;width:calc(100% + 20px);height:320px;left:0;position:absolute;z-index:2;-moz-transform: scale(1,-1);-webkit-transform: scale(1,-1);-o-transform: scale(1,-1);-ms-transform: scale(1,-1);transform: scale(1,-1);top:8px;min-width: 750px;maring:0 -10px;}
 section#call-to-action div.background{background:#020024;background:-webkit-linear-gradient(340deg,#350188 0,#03002d 90%);background:-o-linear-gradient(340deg,#350188 0,#03002d 90%);background:linear-gradient(340deg,#350188 0,#03002d 90%);position:absolute;width:100%;height:100%;top:0;left:0;opacity:1}
 @media(min-width:375px){div#case-studies div.case-project div.project-cover{height:200px}
 section#cover h1{max-width:340px}
@@ -180,7 +179,6 @@ div#services div.service-card{width:100%}
 div#about h2{max-width:360px;margin-bottom:2rem;margin-top:1.5rem}
 div#about img{margin-top:2rem}
 div#about p{max-width:495px}
-section#call-to-action div.curve-border{bottom:83px}
 }@media(min-width:768px){section.content-wrapper{padding:35px!important;max-width:100%}
 section{padding:70px 35px!important}
 section#cover h1{max-width:650px}
@@ -203,7 +201,6 @@ div#about p{max-width:510px}
 div#about img{display:none}
 div#about{margin-bottom:60px}
 section#call-to-action div#cta-content{margin-top:50px}
-section#call-to-action div.curve-border{bottom:86px}
 section#call-to-action h2{max-width:460px;text-align:center;margin:0 auto 10px}
 section#call-to-action.active-call-to-action div#contact-form{margin:-12px auto 0}
 }@media(min-width:992px){section.content-wrapper{padding:45px!important}
@@ -223,8 +220,6 @@ div#about img{display:block;max-width:none;margin-top:65px}
 div#about{margin-bottom:inherit}
 section#call-to-action,section#call-to-action.active-call-to-action{height:570px!important}
 section#call-to-action.active-call-to-action div#contact-form{margin:0 auto}
-section#call-to-action div.curve{bottom:252px!important}
-section#call-to-action div.curve-border{bottom:260px!important}
 section#call-to-action div#cta-content{margin-top:115px}
 div#success-message{margin-top:165px}
 }@media(min-width:1200px){section.content-wrapper{padding:75px!important}
@@ -254,12 +249,10 @@ div#about p{max-width:495px}
 div#about img{max-width:620px;right:-30px}
 section#call-to-action.active-call-to-action div#contact-form{margin:25px auto 0}
 div#success-message{margin-top:150px}
-section#call-to-action div.curve-border{bottom:265px!important}
 }@media(min-width:1440px){div#case-studies{margin-bottom:16rem}
 div#case-studies div.case-project div.project-thumbnail{height:250px;width:340px;left:calc(50% - 300px);margin-top:390px}
 .polyfen-thumbnail-INACTIVE{margin-top:0!important;-webkit-transition:background-size .5s,margin-top 3.5s!important;transition:background-size .5s,margin-top 3.5s!important}
 .polyfen-thumbnail-ACTIVE{margin-top:390px!important;-webkit-transition:background-size .5s,margin-top 3.5s!important;transition:background-size .5s,margin-top 3.5s!important}
-section#call-to-action div.curve-border{bottom:270px!important}
 }@media(min-width:1680px){section{padding:90px 70px!important}
 section.content-wrapper{padding:100px!important}
 section#cover h1{max-width:1220px;margin-top:40px}
@@ -275,7 +268,6 @@ div#case-studies div.case-project div.project-description h3{max-width:310px}
 div#about h2{max-width:540px;margin-top:5rem}
 div#about img{max-width:800px;right:50px}
 section#call-to-action div#cta-content{margin-top:100px}
-section#call-to-action div.curve-border{bottom:272px!important}
 div#success-message{margin-top:140px}
 section#call-to-action h2{max-width:540px}
 section#call-to-action.active-call-to-action div#contact-form{margin:0 auto}
