@@ -16,21 +16,32 @@
   <meta name="theme-color" content="#7537f8">
 
   <!-- reCAPTCHA -->
-  <script src='https://www.google.com/recaptcha/api.js?render=6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv'></script>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script>
-	function onSubmit() {
-		document.getElementById("ajax-contact").submit();
-	}
+    function recaptcha_callback() {
+      $('#send').removeAttr('disabled'); //Enable the "Send" button of the contact form after checking reCaptcha
+            };
   </script>
+
+
+  <!-- old reCAPTCHA  ********
+   <script src='https://www.google.com/recaptcha/api.js?render=6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv'></script>
+   <script>
+   function onSubmit() {
+       document.getElementById("ajax-contact").submit();
+   }
+   </script>
   <script>
-		grecaptcha.ready(function() {
-			grecaptcha.execute('6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv', {action: 'action_name'})
-			.then(function(token) {
-			// Verifica el token en el servidor.
-			});
-			$('div.grecaptcha-badge').hide()
-		});
-	</script>
+  		grecaptcha.ready(function() {
+  			grecaptcha.execute('6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv', {action: 'action_name'})
+  			.then(function(token) {
+  			// Verifica el token en el servidor.
+  			});
+  			$('div.grecaptcha-badge').hide()
+  		});
+  	</script>
+  -->
 
   <!-- BOOTSTRAP (I had to add this to make the case studies slider work) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

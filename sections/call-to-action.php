@@ -12,7 +12,12 @@
       <input type="text" name="name" placeholder="Your name" id="name-input" required>
       <input type="email" name="email" id="email" placeholder="Your email" required>
       <textarea name="message" id="message" placeholder="Your message..." required></textarea>
-      <button type="submit" class="g-recaptcha" data-sitekey="6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv" data-callback='onSubmit' id="send">Send </button>
+      <!-- New reCAPTCHA and send button -->
+      <div class="g-recaptcha" data-sitekey="6LfxF7MUAAAAANHNZTZ7AN4iUeDIO49y79MGhPRV" data-callback="recaptcha_callback" align="center" data-theme="dark"></div>
+      <button type="submit" value="Send" id="send" disabled="disabled">Send</button>
+
+      <!-- old send button with invisible reCAPTCHA <button type="submit" class="g-recaptcha" data-sitekey="6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv" data-callback='onSubmit' id="send">Send </button> -->
+
 
     </form>
     <button id="go-back" onclick="document.getElementById('cta-content').className='col c-block';document.getElementById('contact-form').className='col d-none';document.getElementById('call-to-action').className='';">
