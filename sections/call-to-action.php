@@ -13,7 +13,7 @@
       <input type="email" name="email" id="email" placeholder="Your email" required>
       <textarea name="message" id="message" placeholder="Your message..." required></textarea>
       <!-- New reCAPTCHA and send button -->
-      <div class="g-recaptcha" data-sitekey="6LfxF7MUAAAAANHNZTZ7AN4iUeDIO49y79MGhPRV" data-callback="recaptcha_callback" align="center" data-theme="dark"></div>
+      <div id="recaptcha-v2" class="g-recaptcha" data-sitekey="6LfxF7MUAAAAANHNZTZ7AN4iUeDIO49y79MGhPRV" data-callback="recaptcha_callback" align="center" data-theme="dark"></div>
       <button type="submit" value="Send" id="send" disabled="disabled">Send</button>
 
       <!-- old send button with invisible reCAPTCHA <button type="submit" class="g-recaptcha" data-sitekey="6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv" data-callback='onSubmit' id="send">Send </button> -->

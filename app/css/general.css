@@ -138,12 +138,13 @@ div#about{padding:0!important}
 div#about h2{max-width:360px}
 div#about img{width:115%;margin:20px 0 20px 0;max-width:400px;margin-left:-12px}
 section#call-to-action{background-color:#231e4e;box-shadow:#00000080 0 -10px 30px inset;height:400px;position:relative;overflow:hidden}
-section#call-to-action.active-call-to-action{height:500px!important;padding:40px 0}
+section#call-to-action.active-call-to-action{height:600px!important;padding:40px 0}
 section#call-to-action.active-call-to-action div#contact-form{margin:35px auto 0}
 section#call-to-action.active-call-to-action div#contact-form input,section#call-to-action.active-call-to-action div#contact-form textarea{font-size:1.5rem;font-family:'freight-text-pro',serif;text-rendering:optimizeLegibility;font-kerning:normal!important;-moz-font-feature-settings:"kern","liga","clig","calt";-ms-font-feature-settings:"kern","liga","clig","calt";-webkit-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt";color:#fff}
 section#call-to-action.active-call-to-action div#contact-form input::-webkit-input-placeholder,section#call-to-action.active-call-to-action div#contact-form textarea::-webkit-input-placeholder{color:#ffffff8f}
 section#call-to-action.active-call-to-action div#contact-form input:-ms-input-placeholder,section#call-to-action.active-call-to-action div#contact-form textarea:-ms-input-placeholder{color:#ffffff8f}
 section#call-to-action.active-call-to-action div#contact-form input::placeholder,section#call-to-action.active-call-to-action div#contact-form textarea::placeholder{color:#ffffff8f}
+section#call-to-action.active-call-to-action div#contact-form div#recaptcha-v2{margin-top:10px; margin-bottom:17px}
 section#call-to-action div#cta-content{margin-top:80px;z-index:4;position:absolute;left:0;width:100%}
 section#call-to-action h2{color:white;text-align:center;max-width:360px;margin:0 auto 15px}
 section#call-to-action p{margin-bottom:30px;max-width:441px}
@@ -218,7 +219,7 @@ div#about h2{max-width:none;width:540px}
 div#about p{max-width:435px}
 div#about img{display:block;max-width:none;margin-top:65px}
 div#about{margin-bottom:inherit}
-section#call-to-action,section#call-to-action.active-call-to-action{height:570px!important}
+section#call-to-action,section#call-to-action.active-call-to-action{height:670px!important}
 section#call-to-action.active-call-to-action div#contact-form{margin:0 auto}
 section#call-to-action div#cta-content{margin-top:115px}
 div#success-message{margin-top:165px}
