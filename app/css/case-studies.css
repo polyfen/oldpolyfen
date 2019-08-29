@@ -194,7 +194,7 @@ div.browser div.browser-circle {
   width: 12px;
   border-radius: 100px;
   float: left;
-  background: #04022599;
+  background: #07092499;
   margin: 10px 0 10px 8px;
 }
 
@@ -239,14 +239,14 @@ div#share a {
 }
 
 div#share a#facebook-share {
-  color: #040225cc;
+  color: #070924cc;
   background: #2e61ce;
   box-shadow: 0 0 10px #2e61ce;
   border-color: #2e61ce;
 }
 
 div#share a#twitter-share {
-  color: #040225cc;
+  color: #070924cc;
   background: #1da1f4;
   box-shadow: 0 0 10px #1da1f4;
   border-color: #1da1f4;
@@ -348,7 +348,7 @@ div#share a#twitter-share {
   }
 
   div#share a#facebook-share:hover {
-    color: #040225;
+    color: #070924;
     background: #2e61ce;
     box-shadow: 0 0 10px #2e61ce;
   }
@@ -362,7 +362,7 @@ div#share a#twitter-share {
   }
 
   div#share a#twitter-share:hover {
-    color: #040225;
+    color: #070924;
     background: #1da1f4;
     box-shadow: 0 0 10px #1da1f4;
   }

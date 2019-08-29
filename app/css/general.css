@@ -1,5 +1,5 @@
 *{margin:0;padding:0}
-html,body{background:#040225;background:#040225;max-width:100%!important;overflow-x:hidden!important}
+html,body{background:#070924;background:#070924;max-width:100%!important;overflow-x:hidden!important}
 ::-moz-selection{background:#7537f8;color:#fff}
 ::selection{background:#7537f8;color:#fff}
 button,a{cursor:pointer}
@@ -75,7 +75,7 @@ a.secondary-button{width:252px;margin:25px auto -15px;border-radius:4px;text-ali
 a.secondary-button i.fa-angle-right{font-size:1.5rem;opacity:.45}
 a.secondary-button:hover,a.secondary-button-hover{box-shadow:0 0 10px #ba00ff}
 a.tertiary-button{border:2px solid #7537f8;border-radius:8px;color:#7537f8;padding:10px 25px 9px}
-a.tertiary-button:hover{background:#7537f8;color:#040225;box-shadow:0 0 10px #7537f8;text-decoration:none}
+a.tertiary-button:hover{background:#7537f8;color:#070924;box-shadow:0 0 10px #7537f8;text-decoration:none}
 div.card-navigation{margin:15px auto -30px;text-align:center}
 div.card-navigation div.navigation-bullet{width:45px;height:8px;border-radius:15px;margin-right:8px;display:inline-block;cursor:pointer}
 div.card-navigation div.navigation-bullet:last-of-type{margin-right:0}
@@ -114,7 +114,7 @@ section#cover{height:640px;height:450px}
 section.content-wrapper{padding-right:15px;padding-left:15px;width:100%}
 .case-project-wrapper{padding:0 15px;background:#0a073c;box-shadow:0 2px 5px rgba(0,0,0,0.8);border-radius:6px}
 div#case-studies div.case-project{padding:0!important;border-radius:8px}
-div#case-studies div.case-project div.project-cover{background:#040225 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');background-size:cover;background-repeat:no-repeat;background-position:50% 32%;width:100%;height:160px;border-radius:4px 4px 0 0}
+div#case-studies div.case-project div.project-cover{background:#070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');background-size:cover;background-repeat:no-repeat;background-position:50% 32%;width:100%;height:160px;border-radius:4px 4px 0 0}
 div#case-studies div.case-project div.project-description{width:100%;border-radius:0 0 8px 8px;padding:25px 4px 68px!important}
 div#case-studies div.case-project div.project-description h3{max-width:182px;margin-bottom:5px}
 div#case-studies div.case-project div.project-description p{max-width:302px;max-width:315px;color:rgba(255,255,255,0.7)}
@@ -443,7 +443,7 @@ div.modal-window div.modal-window-header i.fa-times{right:15px;top:12px;font-siz
 .slick-dots .slick-active button{background:#7537f8;opacity:1;box-shadow:0 0 4px #7537f8}
 div.desktop-card-navigation-wrapper{display:none!important}
 .owl-carousel{padding-bottom:40px;padding-top:40px;margin-bottom:40px}
-.service-card{background:#040225;box-shadow:0 2px 5px rgba(0,0,0,0.8);border-radius:8px}
+.service-card{background:#070924;box-shadow:0 2px 5px rgba(0,0,0,0.8);border-radius:8px}
 .service-item{font-size:2em;color:black;padding:0;text-align:center;transform:scale(0.95);transition:all 300ms ease}
 @media screen and (max-width:991px){.service-item{opacity:.9}
 }.service-item__inner{background:0;padding:0}
