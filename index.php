@@ -301,7 +301,7 @@
                   <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
                 </div>
               </div>
-              <div class="col-12 col-sm-12 col-lg-6 col-xl-6" style="text-align:center;">
+              <div class="col-12 col-sm-12 col-lg-6 col-xl-6" style="text-align:center;margin-left:-2px;">
                 <img src="imgs/about/illustration.svg" alt="Creative Team Illustration">
               </div>
             </div>
