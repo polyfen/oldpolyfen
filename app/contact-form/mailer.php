@@ -51,7 +51,7 @@ require_once('functions.php');
             $email_content .= "Email: $email\n\n";
             $email_content .= "Message:\n$message\n";
 
-    		$from = "mycontactform205@gmail.com";
+    		$from = "thepolygroupfallback@gmail.com";
 
             // Build the email headers.
             $email_headers = "From: $name <$email>";
