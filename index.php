@@ -194,7 +194,6 @@
                           <li>Voice</li>
                           <li>Naming</li>
                           <li>Key messages</li>
-                          <li>Slogan</li>
                         </ul>
                       </div>
                     </div>
@@ -259,7 +258,6 @@
                           <li>Social media profiles</li>
                           <li>Business cards</li>
                           <li>Letterhead</li>
-                          <li>Invoice</li>
                           <li>Presentation slides</li>
                         </ul>
                       </div>
