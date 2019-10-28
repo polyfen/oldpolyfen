@@ -94,6 +94,28 @@
           <div id="case-studies">
                 <h2>Featured works</h2>
 
+                <!-- BIKE IN MEX start -->
+                <div class="case-project-wrapper">
+                  <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                    <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
+                  </div>
+                  <div class="case-project row" style="margin-top: 200px;">
+                    <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                      <a href="https://www.instagram.com/p/Bzrpk5flCHr/"><div id="bike-in-mex-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
+                      <a href="https://www.instagram.com/p/Bzrpk5flCHr/"><div id="bike-in-mex-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';">
+                      </div></a>
+                    </div>
+                    <div class="col">
+                      <div class="project-description">
+                      <h3>Bike in Mex</h3>
+                      <p>A bicycle rental shop based in Tulum, Mexico.<span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline"> We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols set on the vibrant colours of Mexico’s flag.</span></p>
+                      <a class="secondary-button" href="https://www.instagram.com/p/Bzrpk5flCHr/" id="developing-our-own-brand-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- BIKE IN MEX STUDY end -->
+
                 <!-- OUR CASE STUDY start -->
                 <div class="case-project-wrapper">
                   <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
