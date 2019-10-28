@@ -1388,53 +1388,139 @@ section#call-to-action div.background {
 }
 
 @media(min-width:768px){
-  section.content-wrapper{padding:35px!important;max-width:100%}
 
-section{padding:70px 35px!important}
+  section.content-wrapper {
+    padding: 35px !important;
+    max-width: 100%;
+  }
 
-section#cover h1{max-width:650px}
+  section {
+    padding: 70px 35px!important;
+  }
 
-#pearl-11{width:455px;height:455px;top:100px;right:-90px}
+  section#cover h1 {
+    max-width: 650px;
+  }
 
-#pearl-12{width:320px;height:320px;left:-80px;top:320px}
+  #pearl-11 {
+    width: 455px;
+    height: 455px;
+    top: 100px;
+    right: -90px;
+  }
 
-#pearl-11{top:-400px;right:-310px;width:900px;height:900px}
+  #pearl-12 {
+    width: 320px;
+    height: 320px;
+    left: -80px;
+    top: 320px;
+  }
 
-#pearl-12{width:300px;height:300px;top:340px;left:-60px}
+  #pearl-11 {
+    top: -400px;
+    right: -310px;
+    width: 900px;
+    height: 900px;
+  }
 
-div#pearl-13{height:300px;width:300px;display:block;position:inherit;background-image:url(../../imgs/pearls/13.png);margin:0 auto;right:-580px;top:650px;height:280px;height:250px;width:250px;display:block;position:inherit;background-image:url(../../imgs/pearls/13.png);margin:0 auto;right:-320px;top:510px}
+  #pearl-12 {
+    width: 300px;
+    height: 300px;
+    top: 340px;
+    left: -60px;
+  }
 
-div#case-studies div.case-project div.project-cover{height:350px;background-size:150%}
+  div#pearl-13 {
+    height: 300px;
+    width: 300px;
+    display: block;
+    position: inherit;
+    background-image: url(../../imgs/pearls/13.png);
+    margin: 0 auto;
+    right: -580px;
+    top: 650px;
+    height: 280px;
+    height: 250px;
+    width: 250px;
+    display: block;
+    position: inherit;
+    background-image: url(../../imgs/pearls/13.png);
+    margin: 0 auto;
+    right: -320px;
+    top: 510px;
+  }
 
-div#case-studies div.case-project div.project-cover:hover{background-size:180%}
+  div#case-studies div.case-project div.project-cover {
+    height: 350px;
+    background-size: 150%;
+  }
 
-.polyfen-cover-INACTIVE{margin-top:30px;-webkit-transition:background-size .5s,margin-top 2s!important;transition:background-size .5s,margin-top 2s!important}
+  div#case-studies div.case-project div.project-cover:hover {
+    background-size: 180%;
+  }
 
-.polyfen-cover-ACTIVE{margin-top:0;-webkit-transition:background-size .5s,margin-top 2s!important;transition:background-size .5s,margin-top 2s!important}
+  .polyfen-cover-INACTIVE {
+    margin-top: 30px;
+    -webkit-transition: background-size .5s,margin-top 2s !important;
+    transition: background-size .5s,margin-top 2s!important;
+  }
 
-div#case-studies div.case-project div.project-description h3{max-width:245px}
+  .polyfen-cover-ACTIVE {
+    margin-top: 0;
+    -webkit-transition: background-size .5s,margin-top 2s!important;
+    transition: background-size .5s,margin-top 2s!important;
+  }
 
-div#case-studies div.case-project div.project-description p{max-width:360px}
+  div#case-studies div.case-project div.project-description h3 {
+    max-width: 245px;
+  }
 
-div#services div.service-card{width:100%;margin-right:15px;padding:20px 25px;height:360px}
+  div#case-studies div.case-project div.project-description p {
+    max-width: 360px;
+  }
 
-div#services div.service-card div.service-heading{margin:-20px -25px 20px;padding:30px 24px 14px}
+  div#services div.service-card {
+    width: 100%;
+    margin-right: 15px;
+    padding: 20px 25px;
+    height: 360px;
+  }
 
-div#services div.service-card ul li:before{height:8px;width:8px;margin:0 9px 3.5px -25px}
+  div#services div.service-card div.service-heading {
+    margin: -20px -25px 20px;
+    padding: 30px 24px 14px;
+  }
 
-div#about h2{max-width:460px;margin-bottom:20px}
+  div#services div.service-card ul li:before {
+    height: 8px;
+    width: 8px;
+    margin: 0 9px 3.5px -25px;
+  }
 
-div#about p{max-width:510px}
+  div#about h2 {
+    max-width: 460px;
+    margin-bottom: 20px;
+  }
 
-div#about img{display:none}
+  div#about p {
+    max-width: 510px;
+  }
 
-div#about{margin-bottom:60px}
+  div#about img {
+    display:none;
+  }
 
-section#call-to-action div#cta-content{margin-top:50px}
+  div#about {
+    margin-bottom: 60px;
+  }
 
-section#call-to-action h2{max-width:460px;text-align:center;margin:0 auto 10px}
+  section#call-to-action div#cta-content {
+    margin-top: 50px;
+  }
 
-section#call-to-action.active-call-to-action div#contact-form{margin:-12px auto 0}
+  section#call-to-action h2{max-width:460px;text-align:center;margin:0 auto 10px}
+
+  section#call-to-action.active-call-to-action div#contact-form{margin:-12px auto 0}
 
 }
 
