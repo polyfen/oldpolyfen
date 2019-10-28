@@ -96,21 +96,25 @@
 
                 <!-- BIKE IN MEX start -->
                 <div class="case-project-wrapper">
+
                   <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
-                    <a href="https://www.instagram.com/p/Bzrpk5flCHr/"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
+                    <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
                   </div>
+
                   <div class="case-project row">
                     <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                      <a href="https://www.instagram.com/p/Bzrpk5flCHr/"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
-                      <a href="https://www.instagram.com/p/Bzrpk5flCHr/"><div id="bike-in-mex-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
+                      <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
+                      <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-thumbnail" class="project-thumbnail bike-in-mex-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
                       </div></a>
                     </div>
+
                     <div class="col">
                       <div class="project-description">
                       <h3>Bike in Mex</h3>
                       <p>A bicycle rental shop based in Tulum, Mexico.<span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline"> We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols set on the vibrant colours of Mexico’s flag.</span></p>
-                      <a class="secondary-button" href="https://www.instagram.com/p/Bzrpk5flCHr/" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                      <a class="secondary-button" href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -118,21 +122,26 @@
 
                 <!-- OUR CASE STUDY start -->
                 <div class="case-project-wrapper">
+
                   <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
                     <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
                   </div>
+
                   <div class="case-project row">
+
                     <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
                       <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
                       <a href="case-study.php"><div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';">
                       </div></a>
                     </div>
+
                     <div class="col">
                       <div class="project-description">
                       <h3>Developing our own brand</h3>
                       <p><strong>Polyfen</strong> stands for one core concept, the midpoint between business and creativity. <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A brand with a clean and professional look, yet with a playful and whimsical flair.</span></p>
                       <a class="secondary-button" href="case-study.php" id="developing-our-own-brand-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
+
                   </div>
                 </div>
               </div>

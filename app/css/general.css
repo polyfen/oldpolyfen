@@ -920,16 +920,14 @@ div#case-studies div.case-project {
   border-radius: 8px;
 }
 
-div#case-studies div.case-project div#bike-in-mex-cover {
-  background: #070924 url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.jpg');
-}
-
-div#case-studies div.case-project div#polyfen-cover {
+div#case-studies div.case-project div.project-cover {
   background: #070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
-}
-
-div#case-studies div.case-project {
-  margin-bottom: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 32%;
+  width: 100%;
+  height: 160px;
+  border-radius: 4px 4px 0 0;
 }
 
 div#case-studies div.case-project div.project-cover {
@@ -939,6 +937,18 @@ div#case-studies div.case-project div.project-cover {
   width: 100%;
   height: 160px;
   border-radius: 4px 4px 0 0;
+}
+
+div#case-studies div.case-project div#bike-in-mex-cover {
+  background-image: url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.jpg');
+}
+
+div#case-studies div.case-project div#polyfen-cover {
+  background-image:  url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
+}
+
+div#case-studies div.case-project {
+  margin-bottom: 100px;
 }
 
 div#case-studies div.case-project div.project-description {
@@ -1791,6 +1801,11 @@ section#call-to-action div.background {
 
   div#case-studies div.case-project div.project-thumbnail#polyfen-thumbnail {
     background: url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.gif');
+    }
+
+  div#case-studies div.case-project div.project-thumbnail#bike-in-mex-thumbnail {
+    background-image: url('../../imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.gif');
+    background-size: cover !important;
     }
 
   div#case-studies div.case-project div.project-description h3 {
