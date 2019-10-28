@@ -317,7 +317,7 @@
               <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <div style="max-width: 540px;">
                   <h2>The link between business &amp; creativity</h2>
-                  <p>We are a small team of creatives from Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+                  <p>We are a small team of creatives based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
                   <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
                 </div>
               </div>
