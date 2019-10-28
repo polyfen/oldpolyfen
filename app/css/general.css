@@ -810,167 +810,580 @@ body div.horizontal-case-study-separator {
 
 }
 
-@media(min-width:1200px){_::-webkit-full-page-media,_:future,:root .safari-separator{height:130px}
+@media (min-width:1200px) {
+
+  _::-webkit-full-page-media, _:future, :root .safari-separator {
+    height:130px;
+  }
+
 }
 
-section{padding:40px 10px;display:flow-root}
+/*///////////// SEPARATORS END /////////////*/
 
-section#cover h1{top:130px;position:relative;z-index:2;text-align:center;margin:0 auto;max-width:270px}
+/*///////////// ——————————————————————————————————— /////////////*/
 
-section#cover h1:after{content:"";display:block;height:6px;width:400px;background:#1c1c52;margin:100px auto 0;border-radius:6px}
+/*///////////// SECTIONS START /////////////*/
 
-section#cover h1:after{content:"";display:block;height:4px;width:170px;background:white;margin:20px auto 0;border-radius:6px}
-
-div.background{position:relative;width:100%;height:100%;top:-410px;left:0;z-index:1}
-
-section#cover{height:640px;height:450px}
-
-#pearl-11{display:block;background-image:url('../../imgs/pearls/09.png');width:400px;height:400px;top:180px;right:-110px}
-
-#pearl-12{display:block;background-image:url('../../imgs/pearls/01.png');width:300px;height:300px;top:360px;left:-120px}
-
-section.content-wrapper{padding-right:15px;padding-left:15px;width:100%}
-
-.case-project-wrapper{padding:0 15px;background:#0a073c;box-shadow:0 2px 5px rgba(0,0,0,0.8);border-radius:6px}
-
-div#case-studies div.case-project{padding:0!important;border-radius:8px}
-
-div#case-studies div.case-project div.project-cover{background:#070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');background-size:cover;background-repeat:no-repeat;background-position:50% 32%;width:100%;height:160px;border-radius:4px 4px 0 0}
-
-div#case-studies div#bike-in-mex-cover div.project-cover{background:#070924 url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.jpg');background-size:cover;background-repeat:no-repeat;background-position:50% 32%;width:100%;height:160px;border-radius:4px 4px 0 0}
-
-div#case-studies div.case-project
-
-div.project-description{width:100%;border-radius:0 0 8px 8px;padding:25px 4px 68px!important}
-
-div#case-studies div.case-project div.project-description h3{max-width:182px;margin-bottom:5px}
-
-div#case-studies div.case-project div.project-description p{max-width:302px;max-width:315px;color:rgba(255,255,255,0.7)}
-
-div#services div#service-cards-wrapper{width:5000px}
-
-div#services div.service-card{background:#110e35;padding:20px;border-radius:6px;width:100%;height:330px;float:left;margin-right:10px;box-shadow:0 2px 5px rgba(0,0,0,0.8)}
-
-div#services div.service-card div.service-heading{margin:-20px -20px 20px;border-radius:6px 6px 0 0;padding:27px 24px 10px;display:flex;align-items:center}
-
-div#services div.service-card div.service-heading.brand-research{background:#7800ff;background:linear-gradient(-30deg,rgba(120,0,255,0.35) 30%,rgba(120,0,255,0.9) 100%)}
-
-div#services div.service-card div.service-heading.brand-strategy{background:#682aec;background:linear-gradient(-30deg,rgba(104,42,236,0.35) 30%,rgba(104,42,236,1) 100%)}
-
-div#services div.service-card div.service-heading.visual-identity{background:#5954d9;background:linear-gradient(-30deg,rgba(89,84,217,0.35) 30%,rgba(89,84,217,1) 100%)}
-
-div#services div.service-card div.service-heading.brand-guidelines{background:#497dc7;background:linear-gradient(-30deg,rgba(73,125,199,0.35) 30%,rgba(73,125,199,1) 100%)}
-
-div#services div.service-card div.service-heading.brand-touchpoints{background:#3aa7b4;background:linear-gradient(-30deg,rgba(58,167,180,0.35) 30%,rgba(58,167,180,1) 100%)}
-
-div#services div.service-card div.service-heading.web-development{background:#2ad1a1;background:linear-gradient(-30deg,rgba(42,209,161,0.35) 30%,rgba(42,209,161,0.85) 100%)}
-
-div#services div.service-card div.service-heading img{height:50px;width:50px;float:left;margin-top:-15px;margin-left:-12px;margin-right:-6px}
-
-div#services div.service-card h4{color:white;margin-top:-1.5px}
-
-div#services div.service-card ul{margin-left:25px;list-style:none}
-
-div#services div.service-card ul li,div#services .service-card p{color:#ffffffb3}
-
-div#services div.service-card ul li:before{content:'';height:7px;width:7px;margin:0 8px 3px -25px;border-radius:10px;display:inline-block;background:#7537f8;opacity:.9}
-
-div#services ul.slick-dots li:nth-child(7),div#services ul.slick-dots li:nth-child(8),div#services ul.slick-dots li:nth-child(9){display:none}
-div#slick-slide06,div#slick-slide07,div#slick-slide08{display:none!important}
-
-div#about{padding:0!important}
-
-div#about h2{max-width:360px}
-
-div#about img{width:115%;margin:20px 0 20px 0;max-width:400px;margin-left:-12px}
-
-section#call-to-action{background-color:#231e4e;box-shadow:#00000080 0 -10px 30px inset;height:400px;position:relative;overflow:hidden}
-
-section#call-to-action.active-call-to-action{height:600px!important;padding:40px 0}
-
-section#call-to-action.active-call-to-action div#contact-form{margin:35px auto 0}
-
-section#call-to-action.active-call-to-action div#contact-form input,section#call-to-action.active-call-to-action div#contact-form textarea{font-size:1.5rem;font-family:'freight-text-pro',serif;text-rendering:optimizeLegibility;font-kerning:normal!important;-moz-font-feature-settings:"kern","liga","clig","calt";-ms-font-feature-settings:"kern","liga","clig","calt";-webkit-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt";color:#fff}
-
-section#call-to-action.active-call-to-action div#contact-form input::-webkit-input-placeholder,section#call-to-action.active-call-to-action div#contact-form textarea::-webkit-input-placeholder{color:#ffffff8f}
-
-section#call-to-action.active-call-to-action div#contact-form input:-ms-input-placeholder,section#call-to-action.active-call-to-action div#contact-form textarea:-ms-input-placeholder{color:#ffffff8f}
-
-section#call-to-action.active-call-to-action div#contact-form input::placeholder,section#call-to-action.active-call-to-action div#contact-form textarea::placeholder{color:#ffffff8f}
-
-section#call-to-action.active-call-to-action div#contact-form div#recaptcha-v2{margin-top:10px; margin-bottom:17px}
-
-section#call-to-action div#cta-content{margin-top:80px;z-index:4;position:absolute;left:0;width:100%}
-
-section#call-to-action h2{color:white;text-align:center;max-width:360px;margin:0 auto 15px}
-
-section#call-to-action p{margin-bottom:30px;max-width:441px}
-
-div#contact-form{text-align:center;max-width:500px;margin:0 auto;z-index:4}
-
-div#success-message{margin-top:120px;width:100%;position:absolute;left:0}
-
-div#success-message h2,div#success-message h3{max-width:100%!important;text-align:center!important}
-
-div#success-message h3{color:white;text-align:center}
-
-section#call-to-action div.curve{background-image:url('../../imgs/cover/dark-curve.svg');background-size:contain;background-repeat:no-repeat;background-position:bottom;width:100%;height:320px;left:0;position:absolute;z-index:3;top:9px;}
-
-section#call-to-action div.curve-border{background-image:url('../../imgs/cover/indigo-curve.svg');background-size:contain;background-repeat:no-repeat;background-position:bottom;width:calc(100% + 20px);height:320px;left:0;position:absolute;z-index:2;-moz-transform: scale(1,-1);-webkit-transform: scale(1,-1);-o-transform: scale(1,-1);-ms-transform: scale(1,-1);transform: scale(1,-1);top:8px;min-width: 750px;maring:0 -10px;}
-
-section#call-to-action div.background{background:#020024;background:-webkit-linear-gradient(340deg,#350188 0,#03002d 90%);background:-o-linear-gradient(340deg,#350188 0,#03002d 90%);background:linear-gradient(340deg,#350188 0,#03002d 90%);position:absolute;width:100%;height:100%;top:0;left:0;opacity:1}
-
-@media(min-width:375px){
-  div#case-studies div.case-project div.project-cover{height:200px}
-
-  section#cover h1{max-width:340px}
+section {
+  padding: 40px 10px;
+  display: flow-root;
 }
 
-@media(min-width:576px){
-  section.content-wrapper{max-width:720px;padding:35px!important}
-.case-project-wrapper{padding:0;background:0;box-shadow:none;border-radius:0}
+/*///////////// SECTIONS END /////////////*/
 
-.case-project-wrapper a.secondary-button{width:220px}
+/*///////////// ——————————————————————————————————— /////////////*/
 
-section#cover h1{max-width:550px}
+/*///////////// COVER START /////////////*/
 
-section#cover h1:after{content:"";display:block;height:4px;width:170px;background:white;margin:25px auto 0;border-radius:6px}
+section#cover h1 {
+  top: 130px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 270px;
+}
 
-#pearl-11{width:400px;height:400px;top:170px;right:-125px}
+section#cover h1:after {
+  content:"";
+  display: block;
+  height: 6px;
+  width: 400px;
+  background: #1c1c52;
+  margin: 100px auto 0;
+  border-radius: 6px;
+}
 
-#pearl-12{width:280px;height:280px;top:390px;left:-60px}
+section#cover h1:after {
+  content:"";
+  display: block;
+  height: 4px;
+  width: 170px;
+  background: white;
+  margin: 20px auto 0;
+  border-radius: 6px;
+}
 
-#pearl-11{top:-450px;right:30px;width:1050px;height:1050px}
+div.background {
+  position: relative;
+  width:100%;
+  height:100%;
+  top:-410px;
+  left:0;
+  z-index:1;
+}
 
-#pearl-11{top:-420px;right:-400px;width:900px;height:900px}
+section#cover {
+  height:640px;
+  height:450px;
+}
 
-#pearl-12{width:300px;height:300px;top:350px;left:-60px}
+#pearl-11 {
+  display: block;
+  background-image: url('../../imgs/pearls/09.png');
+  width: 400px;
+  height: 400px;
+  top: 180px;
+  right:-110px;
+}
 
-div#pearl-13{height:300px;width:300px;display:block;position:inherit;margin:0 auto;right:-580px;top:650px;height:245px;width:245px;display:block;position:inherit;background-image:url(../../imgs/pearls/13.png);margin:0 auto;right:-200px;top:525px}
+#pearl-12 {
+  display: block;
+  background-image: url('../../imgs/pearls/01.png');
+  width: 300px;
+  height: 300px;
+  top: 360px;
+  left: -120px;
+}
 
-div#case-studies div.case-project div.project-description h3{max-width:182px}
+/*///////////// COVER SECTION END /////////////*/
 
-div#case-studies div.case-project{box-shadow:none;border-radius:0}
+/*///////////// ——————————————————————————————————— /////////////*/
 
-div#case-studies div.case-project div.project-cover{height:280px;border-radius:4px;box-shadow:0 2px 5px rgba(0,0,0,0.8);background-size:180%;-webkit-transition:background-size .5s,margin-top 2s!important;transition:background-size .5s,}
+/*///////////// CASE-STUDIES CARDS START /////////////*/
 
-div#case-studies div.case-project div.project-cover:hover{background-size:200%;-webkit-transition:background-size .5s,margin-top 2s!important;transition:background-size .5s,}
+section.content-wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
 
-div#case-studies div.case-project div.project-thumbnail:hover{background-size:115%!important;-webkit-transition:background-size .5s,margin-top 2s!important;transition:background-size .5s,margin-top 2s!important}
+.case-project-wrapper {
+  padding: 0 15px;
+  background: #0a073c;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+  border-radius: 6px;
+}
 
-div#case-studies div.case-project div.project-description{background:0}
+div#case-studies div.case-project {
+  padding: 0 !important;
+  border-radius: 8px;
+}
 
-div#case-studies div.case-project div.project-description h3{color:#7537f8;color:#7537f8}
+div#case-studies div.case-project div.project-cover {
+  background: #070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 32%;
+  width: 100%;
+  height: 160px;
+  border-radius: 4px 4px 0 0;
+}
 
-div#case-studies div.case-project div.project-description p{max-width:290px}
+div#case-studies div#bike-in-mex-cover div.project-cover {
+  background: #070924 url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.jpg') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 32%;
+  width: 100%;
+  height: 160px;
+  border-radius: 4px 4px 0 0;
+}
 
-div#services div.service-card{width:100%}
+div#case-studies div.case-project div.project-description {
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  padding: 25px 4px 68px !important;
+}
 
-div#about h2{max-width:360px;margin-bottom:2rem;margin-top:1.5rem}
+div#case-studies div.case-project div.project-description h3 {
+  max-width: 182px;
+  margin-bottom: 5px;
+}
 
-div#about img{margin-top:2rem}
+div#case-studies div.case-project div.project-description p {
+  max-width: 302px;
+  max-width: 315px;
+  color: rgba(255,255,255,0.7);
+}
 
-div#about p{max-width:495px}
+/*///////////// CASE STUDY CARDS END /////////////*/
+
+/*///////////// ——————————————————————————————————— /////////////*/
+
+/*///////////// SERVICES CARDS START /////////////*/
+
+div#services div#service-cards-wrapper {
+  width:5000px;
+}
+
+div#services div.service-card {
+  background: #110e35;
+  padding: 20px;
+  border-radius: 6px;
+  width: 100%;
+  height: 330px;
+  float: left;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+}
+
+div#services div.service-card div.service-heading {
+  margin: -20px -20px 20px;
+  border-radius: 6px 6px 0 0;
+  padding: 27px 24px 10px;
+  display: flex;
+  align-items: center
+}
+
+div#services div.service-card div.service-heading.brand-research {
+  background: #7800ff;
+  background: linear-gradient(-30deg,rgba(120,0,255,0.35) 30%,rgba(120,0,255,0.9) 100%);
+}
+
+div#services div.service-card div.service-heading.brand-strategy {
+  background:#682aec;
+  background:linear-gradient(-30deg,rgba(104,42,236,0.35) 30%,rgba(104,42,236,1) 100%);
+}
+
+div#services div.service-card div.service-heading.visual-identity {
+  background: #5954d9;
+  background: linear-gradient(-30deg,rgba(89,84,217,0.35) 30%,rgba(89,84,217,1) 100%);
+}
+
+div#services div.service-card div.service-heading.brand-guidelines {
+  background: #497dc7;
+  background: linear-gradient(-30deg,rgba(73,125,199,0.35) 30%,rgba(73,125,199,1) 100%);
+}
+
+div#services div.service-card div.service-heading.brand-touchpoints {
+  background: #3aa7b4;
+  background: linear-gradient(-30deg,rgba(58,167,180,0.35) 30%,rgba(58,167,180,1) 100%);
+}
+
+div#services div.service-card div.service-heading.web-development {
+  background: #2ad1a1;
+  background: linear-gradient(-30deg,rgba(42,209,161,0.35) 30%,rgba(42,209,161,0.85) 100%);
+}
+
+div#services div.service-card div.service-heading img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-top: -15px;
+  margin-left: -12px;
+  margin-right: -6px;
+}
+
+div#services div.service-card h4 {
+  color: white;
+  margin-top: -1.5px;
+}
+
+div#services div.service-card ul {
+  margin-left: 25px;
+  list-style: none;
+}
+
+div#services div.service-card ul li,div#services .service-card p {
+  color: #ffffffb3;
+}
+
+div#services div.service-card ul li:before {
+  content:'';
+  height: 7px;
+  width: 7px;
+  margin: 0 8px 3px -25px;
+  border-radius: 10px;
+  display: inline-block;
+  background: #7537f8;
+  opacity: 0.9;
+}
+
+div#services ul.slick-dots li:nth-child(7), div#services ul.slick-dots li:nth-child(8), div#services ul.slick-dots li:nth-child(9) {
+  display:none
+}
+
+div#slick-slide06, div#slick-slide07, div#slick-slide08 {
+  display: none !important;
+}
+
+/*///////////// SERVICES CARDS END /////////////*/
+
+/*///////////// ——————————————————————————————————— /////////////*/
+
+/*///////////// ABOUT START /////////////*/
+
+
+div#about {
+   padding: 0 !important;
+}
+
+div#about h2 {
+  max-width: 360px;
+}
+
+div#about img {
+  width: 115%;
+  margin: 20px 0 20px 0;
+  max-width: 400px;
+  margin-left: -12px;
+}
+
+/*///////////// ABOUT END /////////////*/
+
+/*///////////// ——————————————————————————————————— /////////////*/
+
+/*///////////// CTA (2) START /////////////*/
+
+section#call-to-action {
+  background-color: #231e4e;
+  box-shadow: #00000080 0 -10px 30px inset;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+section#call-to-action.active-call-to-action {
+  height: 600px !important;
+  padding:40px 0;
+}
+
+section#call-to-action.active-call-to-action div#contact-form {
+  margin: 35px auto 0;
+}
+
+section#call-to-action.active-call-to-action div#contact-form input, section#call-to-action.active-call-to-action div#contact-form textarea {
+  font-size: 1.5rem;
+  font-family: 'freight-text-pro',serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  -moz-font-feature-settings:"kern","liga","clig","calt";
+  -ms-font-feature-settings:"kern","liga","clig","calt";
+  -webkit-font-feature-settings:"kern","liga","clig","calt";
+  font-feature-settings:"kern","liga","clig","calt";
+  color:#fff;
+}
+
+section#call-to-action.active-call-to-action div#contact-form input::-webkit-input-placeholder, section#call-to-action.active-call-to-action div#contact-form textarea::-webkit-input-placeholder {
+  color: #ffffff8f;
+}
+
+section#call-to-action.active-call-to-action div#contact-form input:-ms-input-placeholder, section#call-to-action.active-call-to-action div#contact-form textarea:-ms-input-placeholder {
+  color: #ffffff8f;
+}
+
+section#call-to-action.active-call-to-action div#contact-form input::placeholder, section#call-to-action.active-call-to-action div#contact-form textarea::placeholder {
+  color: #ffffff8f;
+}
+
+section#call-to-action.active-call-to-action div#contact-form div#recaptcha-v2 {
+  margin-top: 10px;
+  margin-bottom: 17px;
+}
+
+section#call-to-action div#cta-content {
+  margin-top: 80px;
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+section#call-to-action h2 {
+  color: white;
+  text-align: center;
+  max-width: 360px;
+  margin: 0 auto 15px;
+}
+
+section#call-to-action p {
+  margin-bottom: 30px;
+  max-width: 441px;
+}
+
+div#contact-form {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  z-index: 4;
+}
+
+div#success-message {
+  margin-top: 120px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+div#success-message h2,div#success-message h3 {
+  max-width: 100% !important;
+  text-align: center!important;
+}
+
+div#success-message h3 {
+  color: white;
+  text-align: center;
+}
+
+section#call-to-action div.curve {
+  background-image: url('../../imgs/cover/dark-curve.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  z-index: 3;
+  top: 9px;
+}
+
+section#call-to-action div.curve-border {
+  background-image: url('../../imgs/cover/indigo-curve.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: calc(100% + 20px);
+  height: 320px;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  -moz-transform: scale(1,-1);
+  -webkit-transform: scale(1,-1);
+  -o-transform: scale(1,-1);
+  -ms-transform: scale(1,-1);
+  transform: scale(1,-1);
+  top: 8px;
+  min-width: 750px;
+  maring:0 -10px;
+}
+
+section#call-to-action div.background {
+  background: #020024;
+  background: -webkit-linear-gradient(340deg,#350188 0,#03002d 90%);
+  background: -o-linear-gradient(340deg,#350188 0,#03002d 90%);
+  background: linear-gradient(340deg,#350188 0,#03002d 90%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+/*///////////// CTA (2) END /////////////*/
+
+/*///////////// ——————————————————————————————————— /////////////*/
+
+/*///////////// GENERAL MEDIA QUERIES START /////////////*/
+
+@media (min-width:375px) {
+
+  div#case-studies div.case-project div.project-cover {
+    height: 200px;
+  }
+
+  section#cover h1 {
+    max-width:340px;
+  }
+
+}
+
+@media (min-width:576px) {
+
+  section.content-wrapper {
+    max-width: 720px;
+    padding: 35px !important;
+  }
+
+  .case-project-wrapper {
+    padding: 0;
+    background: 0;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .case-project-wrapper a.secondary-button {
+    width: 220px;
+  }
+
+  section#cover h1 {
+    max-width: 550px;
+  }
+
+  section#cover h1:after {
+    content:"";
+    display: block;
+    height: 4px;
+    width: 170px;
+    background: white;
+    margin: 25px auto 0;
+    border-radius:6px;
+  }
+
+  #pearl-11 {
+    width: 400px;
+    height: 400px;
+    top: 170px;
+    right: -125px;
+  }
+
+  #pearl-12 {
+    width: 280px;
+    height: 280px;
+    top: 390px;
+    left: -60px;
+  }
+
+  #pearl-11 {
+    top: -450px;
+    right: 30px;
+    width: 1050px;
+    height: 1050px;
+  }
+
+  #pearl-11 {
+    top: -420px;
+    right: -400px;
+    width: 900px;
+    height: 900px;
+  }
+
+  #pearl-12 {
+    width: 300px;
+    height: 300px;
+    top: 350px;
+    left: -60px;
+  }
+
+  div#pearl-13 {
+    height: 300px;
+    width: 300px;
+    display: block;
+    position: inherit;
+    margin: 0 auto;
+    right: -580px;
+    top: 650px;
+    height: 245px;
+    width: 245px;
+    display: block;
+    position: inherit;
+    background-image: url(../../imgs/pearls/13.png);
+    margin: 0 auto;
+    right: -200px;
+    top: 525px;
+  }
+
+  div#case-studies div.case-project div.project-description h3 {
+    max-width: 182px;
+  }
+
+  div#case-studies div.case-project {
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  div#case-studies div.case-project div.project-cover {
+    height: 280px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+    background-size: 180%;
+    -webkit-transition: background-size .5s,margin-top 2s !important;
+    transition:background-size .5s;
+  }
+
+  div#case-studies div.case-project div.project-cover:hover {
+    background-size: 200%;
+    -webkit-transition: background-size .5s,margin-top 2s !important;
+    transition: background-size .5s;
+  }
+
+  div#case-studies div.case-project div.project-thumbnail:hover {
+    background-size: 115% !important;
+    -webkit-transition: background-size .5s,margin-top 2s !important;
+    transition: background-size .5s,margin-top 2s!important;
+  }
+
+  div#case-studies div.case-project div.project-description {
+    background:0;
+  }
+
+  div#case-studies div.case-project div.project-description h3 {
+    color: #7537f8;
+  }
+
+  div#case-studies div.case-project div.project-description p {
+    max-width:290px;
+  }
+
+  div#services div.service-card {
+    width:100%;
+  }
+
+  div#about h2 {
+    max-width: 360px;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  div#about img {
+    margin-top: 2rem;
+  }
+
+  div#about p {
+    max-width: 495px;
+  }
 
 }
 
