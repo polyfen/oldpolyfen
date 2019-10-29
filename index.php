@@ -34,10 +34,10 @@
       <script type="text/javascript">
         $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        if (scroll > 90) {
+        if (scroll > 650) {
             $("#bike-in-mex-thumbnail").removeClass("bike-in-mex-thumbnail-INACTIVE").addClass("bike-in-mex-thumbnail-ACTIVE");
         }
-        if (scroll <= 90) {
+        if (scroll <= 650) {
             $("#bike-in-mex-thumbnail").removeClass("bike-in-mex-thumbnail-ACTIVE").addClass("bike-in-mex-thumbnail-INACTIVE");
         }
         });
@@ -45,10 +45,10 @@
       <script type="text/javascript">
         $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        if (scroll > 650) {
+        if (scroll > 90) {
             $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-INACTIVE").addClass("polyfen-thumbnail-ACTIVE");
         }
-        if (scroll <= 650) {
+        if (scroll <= 90) {
             $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-ACTIVE").addClass("polyfen-thumbnail-INACTIVE");
         }
         });
@@ -105,34 +105,8 @@
           <div id="case-studies">
                 <h2>Featured works</h2>
 
-                <!-- BIKE IN MEX start -->
-                <div class="case-project-wrapper">
-
-                  <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
-                    <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
-                  </div>
-
-                  <div class="case-project row">
-                    <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                      <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
-                      <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-thumbnail" class="project-thumbnail bike-in-mex-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
-                      </div></a>
-                    </div>
-
-                    <div class="col">
-                      <div class="project-description">
-                      <h3>Bike in Mex</h3>
-                      <p>A bicycle rental shop based in Tulum, Mexico.<span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline"> We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols set on the vibrant colours of Mexico’s flag.</span></p>
-                      <a class="secondary-button" href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <!-- BIKE IN MEX STUDY end -->
-
-                <!-- OUR CASE STUDY start -->
-                <div class="case-project-wrapper">
+                <!-- DEVELOPING OUR OWN BRAND start -->
+                <div class="case-project-wrapper" style="margin-top:40px;">
 
                   <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
                     <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
@@ -157,6 +131,32 @@
                 </div>
               </div>
               <!-- OUR CASE STUDY end -->
+
+              <!-- BIKE IN MEX start -->
+              <div class="case-project-wrapper" style="margin-bottom: 0;">
+
+                <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                  <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
+                </div>
+
+                <div class="case-project row">
+                  <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                    <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
+                    <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-thumbnail" class="project-thumbnail bike-in-mex-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
+                    </div></a>
+                  </div>
+
+                  <div class="col">
+                    <div class="project-description">
+                    <h3>Bike in Mex</h3>
+                    <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols<span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline"> set on the vibrant colours of Mexico’s flag</span>.</p>
+                    <a class="secondary-button" href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- BIKE IN MEX STUDY end -->
 
           </div>
           <!-- FEATURED WORKS end -->

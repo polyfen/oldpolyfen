@@ -1,4 +1,4 @@
-/*///////////// ——————————————————————————————————— /////////////*/
+©/*///////////// ——————————————————————————————————— /////////////*/
 
 /*///////////// GENERAL START /////////////*/
 
@@ -913,6 +913,7 @@ section.content-wrapper {
   background: #0a073c;
   box-shadow: 0 2px 5px rgba(0,0,0,0.8);
   border-radius: 6px;
+  margin-bottom: 40px;
 }
 
 div#case-studies div.case-project {
@@ -947,9 +948,9 @@ div#case-studies div.case-project div#polyfen-cover {
   background-image:  url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
 }
 
-div#case-studies div.case-project {
+/* div#case-studies div.case-project {
   margin-bottom: 220px;
-}
+} */
 
 div#case-studies div.case-project div.project-description {
   width: 100%;
@@ -965,6 +966,7 @@ div#case-studies div.case-project div.project-description h3 {
 div#case-studies div.case-project div.project-description p {
   max-width: 302px;
   max-width: 315px;
+  max-width: 400px;
   color: rgba(255,255,255,0.7);
 }
 
@@ -1461,6 +1463,10 @@ section#call-to-action div.background {
     top: 510px;
   }
 
+  .case-project-wrapper {
+    margin-bottom: 80px;
+  }
+
   div#case-studies div.case-project div.project-cover {
     height: 350px;
     background-size: 150%;
@@ -1749,6 +1755,10 @@ section#call-to-action div.background {
     margin-bottom: 8rem;
   }
 
+  .case-project-wrapper {
+    margin-bottom: 140px;
+  }
+
   div#case-studies div.case-project div.project-cover {
     height: 520px;
     width: 100%;
@@ -1858,7 +1868,12 @@ section#call-to-action div.background {
 
 @media(min-width:1440px){
 
+  .case-project-wrapper {
+    margin-bottom: 220px;
+  }
+
   div#case-studies{margin-bottom:16rem}
+
   div#case-studies div.case-project div.project-thumbnail{height:250px;width:340px;left:calc(50% - 300px);margin-top:390px}
 
   .bike-in-mex-thumbnail-INACTIVE{margin-top:0!important;-webkit-transition:background-size .5s,margin-top 3.5s!important;transition:background-size .5s,margin-top 3.5s!important}
