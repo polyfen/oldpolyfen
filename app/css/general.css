@@ -1875,7 +1875,12 @@ section#call-to-action div.background {
 
   div#case-studies{margin-bottom:16rem}
 
-  div#case-studies div.case-project div.project-thumbnail{height:250px;width:340px;left:calc(50% - 300px);margin-top:390px}
+  div#case-studies div.case-project div.project-thumbnail{
+    height:250px;
+    width:340px;
+    left:calc(65% - 300px);
+    margin-top: -150px !important;
+  }
 
   .bike-in-mex-thumbnail-INACTIVE{margin-top:0!important;-webkit-transition:background-size .5s,margin-top 3.5s!important;transition:background-size .5s,margin-top 3.5s!important}
 
