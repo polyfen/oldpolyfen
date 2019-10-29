@@ -41,7 +41,10 @@
       <p>Polyfen may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.</p>
       <hr>
       <h4>8. Governing Law</h4>
-      <p>These terms and conditions are governed by and construed in accordance with the laws of Estonia and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
+      <p>These terms and conditions are governed by and construed in accordance with the laws of Argentina and you irrevocably submit to the exclusive jurisdiction of the courts in that location.</p>
+      <hr>
+      <h4>9. Assignment</h4>
+      <p>The business development hereby identified as “Polyfen” is represented by Boris Hrncic. In the event of transfer of ownership of the business and/or the website, the user consents to the transfer of applicable web content as well as applicable user data.</p>
     </div>
   </div>
 </div>
