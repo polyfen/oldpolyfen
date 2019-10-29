@@ -24,25 +24,6 @@
             };
   </script>
 
-
-  <!-- old reCAPTCHA  ********
-   <script src='https://www.google.com/recaptcha/api.js?render=6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv'></script>
-   <script>
-   function onSubmit() {
-       document.getElementById("ajax-contact").submit();
-   }
-   </script>
-  <script>
-  		grecaptcha.ready(function() {
-  			grecaptcha.execute('6Lfak4wUAAAAAHmoomoduv7fgbdq8WQBtilvpzJv', {action: 'action_name'})
-  			.then(function(token) {
-  			// Verifica el token en el servidor.
-  			});
-  			$('div.grecaptcha-badge').hide()
-  		});
-  	</script>
-  -->
-
   <!-- BOOTSTRAP (I had to add this to make the case studies slider work) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -88,13 +69,13 @@
 
   <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122656172-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151202895-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-122656172-1');
+    gtag('config', 'UA-151202895-1');
   </script>
 
   <!-- Pinterest -->
