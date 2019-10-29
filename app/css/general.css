@@ -1045,7 +1045,7 @@ div#services div.service-card h4 {
 }
 
 div#services div.service-card ul {
-  /* margin-left: 25px; */
+  margin-left: 0;
   list-style: none;
 }
 
@@ -1646,6 +1646,10 @@ section#call-to-action div.background {
 
   div#case-studies div.case-project div.project-cover:hover {
     background-size: 165%;
+  }
+
+  div#services div.service-card ul {
+    margin-left: -8px;
   }
 
   div#about h2 {
