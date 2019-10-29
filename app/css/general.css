@@ -403,6 +403,7 @@ footer {
 div#social-icons {
   padding: 20px 0 0;
   height:60px;
+  margin-left: -58px;
 }
 
 div#social-icons ul {
@@ -466,8 +467,8 @@ footer a small {
     float: left;
     padding: 0;
     text-align: left;
-    margin-left: -12px;
-    margin-right: 12px;
+    margin-left: -45px;
+    margin-right: 40px;
   }
 
   div#social-icons ul {
