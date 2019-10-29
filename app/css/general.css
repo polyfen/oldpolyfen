@@ -1044,7 +1044,7 @@ div#services div.service-card h4 {
 }
 
 div#services div.service-card ul {
-  /* margin-left: 25px; */
+  margin-left: -12px;
   list-style: none;
 }
 
