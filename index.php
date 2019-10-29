@@ -35,9 +35,20 @@
         $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll > 90) {
-            $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-INACTIVE").addClass("polyfen-thumbnail-ACTIVE");
+            $("#bike-in-mex-thumbnail").removeClass("bike-in-mex-thumbnail-INACTIVE").addClass("bike-in-mex-thumbnail-ACTIVE");
         }
         if (scroll <= 90) {
+            $("#bike-in-mex-thumbnail").removeClass("bike-in-mex-thumbnail-ACTIVE").addClass("bike-in-mex-thumbnail-INACTIVE");
+        }
+        });
+      </script>
+      <script type="text/javascript">
+        $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 650) {
+            $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-INACTIVE").addClass("polyfen-thumbnail-ACTIVE");
+        }
+        if (scroll <= 650) {
             $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-ACTIVE").addClass("polyfen-thumbnail-INACTIVE");
         }
         });

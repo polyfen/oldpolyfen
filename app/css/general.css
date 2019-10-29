@@ -948,7 +948,7 @@ div#case-studies div.case-project div#polyfen-cover {
 }
 
 div#case-studies div.case-project {
-  margin-bottom: 100px;
+  margin-bottom: 220px;
 }
 
 div#case-studies div.case-project div.project-description {
@@ -1786,6 +1786,19 @@ section#call-to-action div.background {
     width: 300px;
   }
 
+  .bike-in-mex-thumbnail-INACTIVE {
+    margin-top: 0 !important;
+    -webkit-transition: background-size .5s,margin-top 3.5s !important;
+    transition: background-size .5s,margin-top 3.5s !important;
+  }
+
+  .bike-in-mex-thumbnail-ACTIVE {
+    margin-top: -160px !important;
+    margin-left: 260px;
+    -webkit-transition: background-size .5s,margin-top 3.5s !important;
+    transition: background-size .5s,margin-top 3.5s !important
+  }
+
   .polyfen-thumbnail-INACTIVE {
     margin-top: 0 !important;
     -webkit-transition: background-size .5s,margin-top 3.5s !important;
@@ -1848,6 +1861,10 @@ section#call-to-action div.background {
   div#case-studies{margin-bottom:16rem}
   div#case-studies div.case-project div.project-thumbnail{height:250px;width:340px;left:calc(50% - 300px);margin-top:390px}
 
+  .bike-in-mex-thumbnail-INACTIVE{margin-top:0!important;-webkit-transition:background-size .5s,margin-top 3.5s!important;transition:background-size .5s,margin-top 3.5s!important}
+
+  .bike-in-mex-thumbnail-ACTIVE{margin-top:390px!important;-webkit-transition:background-size .5s,margin-top 3.5s!important;transition:background-size .5s,margin-top 3.5s!important}
+
   .polyfen-thumbnail-INACTIVE{margin-top:0!important;-webkit-transition:background-size .5s,margin-top 3.5s!important;transition:background-size .5s,margin-top 3.5s!important}
 
   .polyfen-thumbnail-ACTIVE{margin-top:390px!important;-webkit-transition:background-size .5s,margin-top 3.5s!important;transition:background-size .5s,margin-top 3.5s!important}
@@ -1909,6 +1926,19 @@ section#call-to-action div.background {
     left: calc(50% - 330px);
     margin-top: 370px;
     z-index:1;
+  }
+
+  .bike-in-mex-thumbnail-INACTIVE {
+    margin-top: 200px !important;
+    -webkit-transition: background-size .5s, margin-top 3.5s !important;
+    transition: background-size .5s, margin-top 3.5s !important;
+  }
+
+  .bike-in-mex-thumbnail-ACTIVE {
+    margin-top: -150px !important;
+    margin-left: 410px;
+    -webkit-transition: background-size .5s, margin-top 3.5s !important;
+    transition: background-size .5s, margin-top 3.5s !important;
   }
 
   .polyfen-thumbnail-INACTIVE {
