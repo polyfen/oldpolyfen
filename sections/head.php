@@ -76,7 +76,10 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-151202895-1');
+
+    gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
   </script>
+
 
   <!-- Pinterest -->
   <meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f"/>
