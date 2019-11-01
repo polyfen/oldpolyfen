@@ -354,10 +354,6 @@
         <?php include 'sections/call-to-action.php';?>
       <!-- INCLUDE FOOTER.PHP end -->
 
-      <!-- INCLUDE COOKIES-MODAL.PHP start -->
-        <?php include 'sections/cookies-modal.php';?>
-      <!-- INCLUDE COOKIES-MODAL.PHP end -->
-
       <!-- INCLUDE FOOTER.PHP start -->
         <?php include 'sections/footer.php';?>
       <!-- INCLUDE FOOTER.PHP end -->
