@@ -208,7 +208,7 @@ a small, small {
 a small {
   border-bottom: 3px dotted #7537f8;
   padding-bottom: 5px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 a:hover small {
@@ -403,7 +403,7 @@ footer {
 div#social-icons {
   padding: 20px 0 0;
   height:60px;
-  margin-left: -15px;
+  margin-left: -5px;
 }
 
 div#social-icons ul {
@@ -430,7 +430,7 @@ div#social-icons ul a li {
 
 div#social-icons ul a li i {
   font-size: 28px;
-  color: #7537f8 !important;
+  color: #FFFA !important;
 }
 
 div#social-icons ul li:hover {
@@ -448,7 +448,7 @@ div#social-icons ul a#linkedin-icon li {
 
 div#tpg {
   background: #0003;
-  padding: 20px 0;
+  padding: 25px 0 30px;
   margin-top: 5px;
 }
 
@@ -469,17 +469,18 @@ footer a small {
 
   footer {
     padding: 30px 30px 0;
-    height: 105px;
+    height: 175px;
     padding-bottom: 75px;
   }
 
   div#social-icons {
     width: 50%;
-    float: left;
     padding: 0;
     text-align: left;
     margin-left: -10px;
     margin-right: 10px;
+    margin-top: -5px;
+    margin-bottom: 5px;
   }
 
   div#social-icons ul {
@@ -502,16 +503,63 @@ footer a small {
     opacity: 1;
   }
 
+  div#tpg {
+    float: right;
+    margin-top: -165px;
+    background: none;
+    margin-right: -15px;
+  }
+
   div#legal {
-    width: 50%;
-    float: left;
-    padding: 10px 0 0 0;
-    background: 0;
-    text-align: right;
+    width: calc(100% + 60px);
+    float: none;
+    padding: 25px 0;
+    background: #0003;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 10px;
   }
 
   div#legal span {
     color:#240079!important;
+  }
+
+}
+
+@media (min-width:992px) {
+
+  footer {
+    padding: 30px 30px 0;
+    height: 110px;
+    padding-bottom: 0;
+  }
+
+  div#social-icons {
+    float: none;
+    width: 30%;
+    left: calc(50% - 150px);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+  }
+
+  div#legal {
+    background: none;
+    position: absolute;
+    left: 0;
+    width: 30%;
+    margin: 0;
+    margin-top: -15px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  div#tpg {
+    position: absolute;
+    float: none;
+    right: 10px;
+    margin: 0;
+    margin-top: -23px;
   }
 
 }
