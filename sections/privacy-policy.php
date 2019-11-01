@@ -17,7 +17,7 @@
       <p>You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.</p>
       <p>If you have any questions about how we handle user data and personal information, feel free to contact us. Likewise, you’d like to request the deletion of your data in our systems, you are welcome to contact us for that purpose.</p>
       <p>You can contact us via email at <a href="mailto:privacy@thepolygroup.co">privacy@thepolygroup.co</a>.</p>
-      <p>The business development hereby identified as “Polyfen” is represented by Boris Hrncic. In the event of transfer of ownership of the business and/or the website, the user consents to the transfer of applicable web content as well as applicable user data.</p>
+      <p>The organization hereby identified as “Polyfen” is represented by Boris Hrncic. In the event of transfer of ownership of the organization and/or the website, the user consents to the transfer of applicable web content as well as applicable user data.</p>
       <p>This policy is effective as of January 1st 2019.</p>
     </div>
   </div>

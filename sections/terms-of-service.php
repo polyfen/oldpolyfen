@@ -44,7 +44,7 @@
       <p>These terms and conditions are governed by and construed in accordance with the laws of Argentina and you irrevocably submit to the exclusive jurisdiction of the courts in that location.</p>
       <hr>
       <h4>9. Assignment</h4>
-      <p>The business development hereby identified as “Polyfen” is represented by Boris Hrncic. In the event of transfer of ownership of the business and/or the website, the user consents to the transfer of applicable web content as well as applicable user data.</p>
+      <p>The organization hereby identified as “Polyfen” is represented by Boris Hrncic. In the event of transfer of ownership of the organization and/or the website, the user consents to the transfer of applicable web content as well as applicable user data.</p>
     </div>
   </div>
 </div>
