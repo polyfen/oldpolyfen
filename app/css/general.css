@@ -543,6 +543,10 @@ footer a small {
     padding: 0;
   }
 
+  div#social-icons ul li {
+    margin-right: 5px;
+  }
+
   div#legal {
     background: none;
     position: absolute;
