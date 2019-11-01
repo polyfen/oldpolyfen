@@ -446,6 +446,17 @@ div#social-icons ul a#linkedin-icon li {
   margin-right: 0;
 }
 
+div#tpg {
+  background: #0003;
+  padding: 20px 0;
+  margin-top: 5px;
+}
+
+div#tpg img.tpg-logo {
+  height: 40px;
+  width: auto;
+}
+
 div#legal {
   padding: 20px 0 25px;
 }

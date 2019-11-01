@@ -31,6 +31,15 @@
   <a onclick="document.getElementById('terms-of-service').className='modal-wrapper d-block';document.documentElement.className='overflow-hidden';"><small>Terms of Service</small></a>
 </div>
 
+<div class="d-block d-sm-none" style="clear:both;"></div>
+
+<div id="tpg">
+  <a href="https://thepolygroup.co" target="_blank">
+    <img src="imgs/the-poly-group-low.svg" id="tpg-logo-low" class="tpg-logo" onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
+    <img src="imgs/the-poly-group.svg" id="tpg-logo" class="d-none" onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
+  </a>
+</div>
+
 
 
 </footer>
