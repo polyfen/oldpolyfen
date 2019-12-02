@@ -537,7 +537,7 @@ footer a small {
   div#social-icons {
     float: none;
     width: 30%;
-    left: calc(50% - 150px);
+    left: calc(50% - 125px);
     position: absolute;
     margin: 0;
     padding: 0;
