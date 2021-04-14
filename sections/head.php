@@ -79,6 +79,18 @@
     gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
   </script>
 
+  <!-- Hotjar Tracking Code for https://www.polyfen.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:2350644,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
 
   <!-- Pinterest -->
   <meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f"/>
