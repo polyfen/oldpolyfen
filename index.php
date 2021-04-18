@@ -12,8 +12,8 @@
     <!-- PAGE-SPECIFIC META start -->
       <meta property="og:title" content="Polyfen"/>
       <meta property="og:url" content="https://polyfen.com"/>
-      <meta name="keywords" content="Brand Identity Design, Brand ID, Branding, Brand, Graphic, Design, Logo" />
-      <meta name="description" property="og:description" content="We are a small team of creatives from around the world connected by our passion to design engaging brand identities." />
+      <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
+      <meta name="description" property="og:description" content="We are a small team of creatives from around the world connected by our passion to design engaging Brand Identities and help businesses grow." />
       <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png"/>
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
@@ -337,7 +337,7 @@
               <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <div style="max-width: 540px;">
                   <h2>The link between business &amp; creativity</h2>
-                  <p>We are a small team of creatives based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+                  <p>We are a small team of creatives from around the world based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
                   <p class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
                 </div>
               </div>
