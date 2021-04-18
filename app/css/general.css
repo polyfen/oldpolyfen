@@ -986,7 +986,7 @@ div#case-studies div.case-project {
 }
 
 div#case-studies div.case-project div.project-cover {
-  background: #070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
+  background: #070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 32%;
@@ -1005,11 +1005,11 @@ div#case-studies div.case-project div.project-cover {
 }
 
 div#case-studies div.case-project div#bike-in-mex-cover {
-  background-image: url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.jpg');
+  background-image: url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.webp');
 }
 
 div#case-studies div.case-project div#polyfen-cover {
-  background-image:  url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.jpg');
+  background-image:  url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.webp');
 }
 
 /* div#case-studies div.case-project {
