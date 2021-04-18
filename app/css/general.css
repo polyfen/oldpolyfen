@@ -944,7 +944,7 @@ section#cover {
 
 #pearl-11 {
   display: block;
-  background-image: url('../../imgs/pearls/09.png');
+  background-image: url('../../imgs/pearls/09.webp');
   width: 400px;
   height: 400px;
   top: 180px;
@@ -953,7 +953,7 @@ section#cover {
 
 #pearl-12 {
   display: block;
-  background-image: url('../../imgs/pearls/01.png');
+  background-image: url('../../imgs/pearls/01.webp');
   width: 300px;
   height: 300px;
   top: 360px;
@@ -1397,7 +1397,7 @@ section#call-to-action div.background {
     width: 245px;
     display: block;
     position: inherit;
-    background-image: url(../../imgs/pearls/13.png);
+    background-image: url(../../imgs/pearls/13.webp);
     margin: 0 auto;
     right: -200px;
     top: 525px;
@@ -1513,7 +1513,7 @@ section#call-to-action div.background {
     width: 300px;
     display: block;
     position: inherit;
-    background-image: url(../../imgs/pearls/13.png);
+    background-image: url(../../imgs/pearls/13.webp);
     margin: 0 auto;
     right: -580px;
     top: 650px;
@@ -1522,7 +1522,7 @@ section#call-to-action div.background {
     width: 250px;
     display: block;
     position: inherit;
-    background-image: url(../../imgs/pearls/13.png);
+    background-image: url(../../imgs/pearls/13.webp);
     margin: 0 auto;
     right: -320px;
     top: 510px;
@@ -1682,7 +1682,7 @@ section#call-to-action div.background {
     width: 300px;
     display: block;
     position: inherit;
-    background-image: url(../../imgs/pearls/13.png);
+    background-image: url(../../imgs/pearls/13.webp);
     margin:0 auto;
     right: -580px;
     top: 650px;
@@ -1697,7 +1697,7 @@ section#call-to-action div.background {
     width: 300px;
     display: block;
     position: inherit;
-    background-image: url(../../imgs/pearls/13.png);
+    background-image: url(../../imgs/pearls/13.webp);
     margin: 0 auto;
     right: -370px;
     top: 730px;
@@ -1810,7 +1810,7 @@ section#call-to-action div.background {
     width: 300px;
     display: block;
     position: inherit;
-    background-image: url(../../imgs/pearls/13.png);
+    background-image: url(../../imgs/pearls/13.webp);
     margin: 0 auto;
     right: -500px;
     top: 760px;
@@ -1994,7 +1994,7 @@ section#call-to-action div.background {
     width: 350px;
     display: block;
     position: inherit;
-    background-image: url(../../imgs/pearls/13.png);
+    background-image: url(../../imgs/pearls/13.webp);
     margin: 0 auto;
     right: -580px;
     top: 700px;
@@ -2080,38 +2080,38 @@ div.pearl {
 }
 
 div#pearl-01, div#pearl-09 {
-  background-image:  url('../../imgs/pearls/01.png');
+  background-image:  url('../../imgs/pearls/01.webp');
 }
 
 div#pearl-01 {
-  background-image: url('../../imgs/pearls/13.png');
+  background-image: url('../../imgs/pearls/13.webp');
 }
 
 div#pearl-07 {
-  background-image: url('../../imgs/pearls/13.png');
+  background-image: url('../../imgs/pearls/13.webp');
 }
 
 div#pearl-02, div#pearl-08 {
   background-image: url('../../imgs/pearls/03-17-b.png');
-  background-image: url('../../imgs/pearls/09.png');
+  background-image: url('../../imgs/pearls/09.webp');
 }
 
 div#pearl-03 {
-  background-image: url('../../imgs/pearls/03.png');
+  background-image: url('../../imgs/pearls/03.webp');
   animation: turn 1s linear;
 }
 
 div#pearl-04 {
-  background-image: url('../../imgs/pearls/01.png');
+  background-image: url('../../imgs/pearls/01.webp');
 }
 
 div#pearl-05, div#pearl-10 {
-  background-image: url('../../imgs/pearls/03.png');
+  background-image: url('../../imgs/pearls/03.webp');
   transform:rotate(0deg);
 }
 
 div#pearl-06 {
-  background-image: url('../../imgs/pearls/13.png');
+  background-image: url('../../imgs/pearls/13.webp');
 }
 
 @-webkit-keyframes rotating{from{-webkit-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}

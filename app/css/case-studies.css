@@ -165,7 +165,7 @@ div#pearl-13 {
   width: 300px;
   display: block;
   position: inherit;
-  background-image: url('../../imgs/pearls/09.png');
+  background-image: url('../../imgs/pearls/09.webp');
   margin: 0 auto;
 }
 
@@ -432,7 +432,7 @@ div#share a#twitter-share {
     margin-top: -150px;
     position: absolute;
     display: block;
-    background-image: url('../../imgs/pearls/03-17-b.png');
+    background-image: url('../../imgs/pearls/03-17-b.webp');
   }
 
   #pearl-15 {
@@ -443,7 +443,7 @@ div#share a#twitter-share {
     z-index: 2;
     position: absolute;
     display: block;
-    background-image: url('../../imgs/pearls/01.png');
+    background-image: url('../../imgs/pearls/01.webp');
   }
 
   #pearl-16 {
@@ -453,7 +453,7 @@ div#share a#twitter-share {
     margin-top: -200px;
     position: absolute;
     display: block;
-    background-image: url('../../imgs/pearls/09.png');
+    background-image: url('../../imgs/pearls/09.webp');
   }
 
 }
