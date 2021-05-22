@@ -12,7 +12,7 @@ require_once('functions.php');
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
-				$name = str_replace(array("\r","\n"),array(" "," "),$name);
+        $name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
 
@@ -60,8 +60,10 @@ require_once('functions.php');
             //if (mail($recipient, $subject, $email_content, $email_headers)) {
 
 
-    			if (ifynmail($recipient, $toname,$subject, $name,$from,$email_content)) {
-                // Set a 200 (okay) response code.
+            if (mail($recipient, $subject, $email_content)) {
+                
+            //if (ifynmail($recipient, $toname,$subject, $name,$from,$email_content)) {
+            // Set a 200 (okay) response code.
                 http_response_code(200);
                echo "<div id='success-message'><h2>Success!</h2>
                <h3>Your message was sent.</h3></div>";
