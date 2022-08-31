@@ -181,77 +181,13 @@ section#cover {
 /*///////////// ——————————————————————————————————— /////////////*/
 
 
-/*///////////// CASE-STUDIES CARDS START /////////////*/
+/*///////////// FEATURED PROJECTS START /////////////*/
 
-section.content-wrapper {
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
+div.project-description {
+  max-width: 460px;
 }
 
-.case-project-wrapper {
-  padding: 0 15px;
-  background: #0a073c;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.8);
-  border-radius: 6px;
-  margin-bottom: 40px;
-}
-
-div#featured-projects div.case-project {
-  padding: 0 !important;
-  border-radius: 8px;
-}
-
-div#featured-projects div.case-project div.project-cover {
-  background: #070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 32%;
-  width: 100%;
-  height: 160px;
-  border-radius: 4px 4px 0 0;
-}
-
-div#featured-projects div.case-project div.project-cover {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 32%;
-  width: 100%;
-  height: 160px;
-  border-radius: 4px 4px 0 0;
-}
-
-div#featured-projects div.case-project div#bike-in-mex-cover {
-  background-image: url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.webp');
-}
-
-div#featured-projects div.case-project div#polyfen-cover {
-  background-image:  url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.webp');
-}
-
-/* div#featured-projects div.case-project {
-  margin-bottom: 220px;
-} */
-
-div#featured-projects div.case-project div.project-description {
-  width: 100%;
-  border-radius: 0 0 8px 8px;
-  padding: 25px 4px 68px !important;
-}
-
-div#featured-projects div.case-project div.project-description h3 {
-  max-width: 182px;
-  margin-bottom: 5px;
-}
-
-div#featured-projects div.case-project div.project-description p {
-  max-width: 302px;
-  max-width: 315px;
-  max-width: 400px;
-  color: rgba(255,255,255,0.7);
-}
-
-/*///////////// CASE STUDY CARDS END /////////////*/
+/*///////////// FEATURED PROJECTS END /////////////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/
 

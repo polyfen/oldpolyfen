@@ -82,8 +82,8 @@ audio, canvas, progress, video {
 
 div.main-wrapper {
   position: relative;
-  max-width:100% !important;
-  overflow-x:hidden !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 /*///////////// GENERAL END /////////////*/
@@ -92,7 +92,7 @@ div.main-wrapper {
 
 /*///////////// BUTTONS START /////////////*/
 
-a.secondary-button {
+button.secondary-button {
   width: 252px;
   margin: 25px auto -15px;
   border-radius: 4px;
@@ -116,27 +116,17 @@ a.secondary-button {
   text-decoration: none;
 }
 
-a.secondary-button i.fa-angle-right {
+button.secondary-button i.fa-angle-right {
   font-size: 1.5rem;
   opacity: 0.45;
 }
 
-a.secondary-button:hover, a.secondary-button-hover {
+button.secondary-button:hover, button.secondary-button-hover {
   box-shadow: 0 0 10px #ba00ff;
 }
 
-a.tertiary-button {
-  border: 2px solid #7537f8;
-  border-radius: 8px;
-  color: #7537f8;
-  padding: 10px 25px 9px;
-}
-
-a.tertiary-button:hover {
-  background: #7537f8;
-  color: #070924;
-  box-shadow: 0 0 10px #7537f8;
-  text-decoration: none;
+button.secondary-button {
+  max-width: 200px;
 }
 
 /*///////////// BUTTONS END /////////////*/
