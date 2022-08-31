@@ -197,12 +197,12 @@ section.content-wrapper {
   margin-bottom: 40px;
 }
 
-div#case-studies div.case-project {
+div#featured-projects div.case-project {
   padding: 0 !important;
   border-radius: 8px;
 }
 
-div#case-studies div.case-project div.project-cover {
+div#featured-projects div.case-project div.project-cover {
   background: #070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -212,7 +212,7 @@ div#case-studies div.case-project div.project-cover {
   border-radius: 4px 4px 0 0;
 }
 
-div#case-studies div.case-project div.project-cover {
+div#featured-projects div.case-project div.project-cover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 32%;
@@ -221,30 +221,30 @@ div#case-studies div.case-project div.project-cover {
   border-radius: 4px 4px 0 0;
 }
 
-div#case-studies div.case-project div#bike-in-mex-cover {
+div#featured-projects div.case-project div#bike-in-mex-cover {
   background-image: url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.webp');
 }
 
-div#case-studies div.case-project div#polyfen-cover {
+div#featured-projects div.case-project div#polyfen-cover {
   background-image:  url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.webp');
 }
 
-/* div#case-studies div.case-project {
+/* div#featured-projects div.case-project {
   margin-bottom: 220px;
 } */
 
-div#case-studies div.case-project div.project-description {
+div#featured-projects div.case-project div.project-description {
   width: 100%;
   border-radius: 0 0 8px 8px;
   padding: 25px 4px 68px !important;
 }
 
-div#case-studies div.case-project div.project-description h3 {
+div#featured-projects div.case-project div.project-description h3 {
   max-width: 182px;
   margin-bottom: 5px;
 }
 
-div#case-studies div.case-project div.project-description p {
+div#featured-projects div.case-project div.project-description p {
   max-width: 302px;
   max-width: 315px;
   max-width: 400px;
@@ -279,7 +279,7 @@ div#about img {
 
 @media (min-width:375px) {
 
-  div#case-studies div.case-project div.project-cover {
+  div#featured-projects div.case-project div.project-cover {
     height: 200px;
   }
 
@@ -376,16 +376,16 @@ div#about img {
     top: 525px;
   }
 
-  div#case-studies div.case-project div.project-description h3 {
+  div#featured-projects div.case-project div.project-description h3 {
     max-width: 182px;
   }
 
-  div#case-studies div.case-project {
+  div#featured-projects div.case-project {
     box-shadow: none;
     border-radius: 0;
   }
 
-  div#case-studies div.case-project div.project-cover {
+  div#featured-projects div.case-project div.project-cover {
     height: 280px;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.8);
@@ -394,27 +394,27 @@ div#about img {
     transition:background-size .5s;
   }
 
-  div#case-studies div.case-project div.project-cover:hover {
+  div#featured-projects div.case-project div.project-cover:hover {
     background-size: 200%;
     -webkit-transition: background-size .5s,margin-top 2s !important;
     transition: background-size .5s;
   }
 
-  div#case-studies div.case-project div.project-thumbnail:hover {
+  div#featured-projects div.case-project div.project-thumbnail:hover {
     background-size: 115% !important;
     -webkit-transition: background-size .5s,margin-top 2s !important;
     transition: background-size .5s,margin-top 2s!important;
   }
 
-  div#case-studies div.case-project div.project-description {
+  div#featured-projects div.case-project div.project-description {
     background:0;
   }
 
-  div#case-studies div.case-project div.project-description h3 {
+  div#featured-projects div.case-project div.project-description h3 {
     color: #7537f8;
   }
 
-  div#case-studies div.case-project div.project-description p {
+  div#featured-projects div.case-project div.project-description p {
     max-width:290px;
   }
 
@@ -505,12 +505,12 @@ div#about img {
     margin-bottom: 80px;
   }
 
-  div#case-studies div.case-project div.project-cover {
+  div#featured-projects div.case-project div.project-cover {
     height: 350px;
     background-size: 150%;
   }
 
-  div#case-studies div.case-project div.project-cover:hover {
+  div#featured-projects div.case-project div.project-cover:hover {
     background-size: 180%;
   }
 
@@ -526,11 +526,11 @@ div#about img {
     transition: background-size .5s,margin-top 2s!important;
   }
 
-  div#case-studies div.case-project div.project-description h3 {
+  div#featured-projects div.case-project div.project-description h3 {
     max-width: 245px;
   }
 
-  div#case-studies div.case-project div.project-description p {
+  div#featured-projects div.case-project div.project-description p {
     max-width: 360px;
   }
 
@@ -662,12 +662,12 @@ div#about img {
     top: 730px;
   }
 
-  div#case-studies div.case-project div.project-cover {
+  div#featured-projects div.case-project div.project-cover {
     height: 400px;
     background-size: 140%;
   }
 
-  div#case-studies div.case-project div.project-cover:hover {
+  div#featured-projects div.case-project div.project-cover:hover {
     background-size: 165%;
   }
 
@@ -759,7 +759,7 @@ div#about img {
     top: 760px;
   }
 
-  div#case-studies{
+  div#featured-projects{
     margin-bottom: 8rem;
   }
 
@@ -767,17 +767,17 @@ div#about img {
     margin-bottom: 140px;
   }
 
-  div#case-studies div.case-project div.project-cover {
+  div#featured-projects div.case-project div.project-cover {
     height: 520px;
     width: 100%;
     background-size: 145%;
   }
 
-  div#case-studies div.case-project div.project-cover:hover {
+  div#featured-projects div.case-project div.project-cover:hover {
     background-size: 160%;
   }
 
-  div#case-studies div.case-project div.project-thumbnail {
+  div#featured-projects div.case-project div.project-thumbnail {
     width: 380px;
     height: 224px;
     border-radius: 4px;
@@ -793,11 +793,11 @@ div#about img {
     transition: background-size .5s,margin-top 2s !important;
   }
 
-  div#case-studies div.case-project div.project-cover {
+  div#featured-projects div.case-project div.project-cover {
     height: 550px;
   }
 
-  div#case-studies div.case-project div.project-thumbnail {
+  div#featured-projects div.case-project div.project-thumbnail {
     height: 220px;
     left: calc(50% - 260px);
     margin-top: 390px;
@@ -830,20 +830,20 @@ div#about img {
     transition: background-size .5s,margin-top 3.5s !important
   }
 
-  div#case-studies div.case-project div.project-thumbnail#polyfen-thumbnail {
+  div#featured-projects div.case-project div.project-thumbnail#polyfen-thumbnail {
     background: url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.gif');
     }
 
-  div#case-studies div.case-project div.project-thumbnail#bike-in-mex-thumbnail {
+  div#featured-projects div.case-project div.project-thumbnail#bike-in-mex-thumbnail {
     background-image: url('../../imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.gif');
     background-size: cover !important;
     }
 
-  div#case-studies div.case-project div.project-description h3 {
+  div#featured-projects div.case-project div.project-description h3 {
     max-width: 282px;
   }
 
-  div#case-studies div.case-project div.project-description p {
+  div#featured-projects div.case-project div.project-description p {
     max-width: 450px;
   }
 
@@ -872,9 +872,9 @@ div#about img {
     margin-bottom: 220px;
   }
 
-  div#case-studies{margin-bottom:16rem}
+  div#featured-projects{margin-bottom:16rem}
 
-  div#case-studies div.case-project div.project-thumbnail{
+  div#featured-projects div.case-project div.project-thumbnail{
     height:250px;
     width:340px;
     left:calc(65% - 300px);
@@ -935,12 +935,12 @@ div#about img {
     top: 700px;
   }
 
-  div#case-studies div.case-project div.project-cover {
+  div#featured-projects div.case-project div.project-cover {
     height: 550px;
     max-width: 718px;
   }
 
-  div#case-studies div.case-project div.project-thumbnail {
+  div#featured-projects div.case-project div.project-thumbnail {
     height: 280px;
     width: 375px;
     left: calc(50% - 330px);
@@ -974,7 +974,7 @@ div#about img {
     transition: background-size .5s, margin-top 3.5s !important;
   }
 
-  div#case-studies div.case-project div.project-description h3 {
+  div#featured-projects div.case-project div.project-description h3 {
     max-width: 310px;
   }
 

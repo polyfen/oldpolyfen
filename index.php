@@ -77,7 +77,6 @@
   <body id="home">
 
     <!-- FORCE MAX-WIDTH 100% start -->
-    <!-- this is for avoiding horizontal scroll due to some images having negative (ie. "-215px") margin-left or margin-right passed the width of the screen -->
     <div class="main-wrapper">
 
       <!-- INCLUDE HEADER.PHP start -->
@@ -98,96 +97,63 @@
       </section>
       <!-- COVER end -->
 
-      <!-- CONTENT WRAPPER start -->
-      <section class="container-fluid content-wrapper">
+      <!-- FEATURED PROJECTS start -->
+      <section id="featured-projects">
+        <h2>Featured projects</h2>
 
-        <!-- FEATURED PROJECTS start -->
-        <div id="case-studies">
-              <h2>Featured projects</h2>
+        <!-- BIKE IN MEX start -->
+        <div class="case-project-wrapper" style="margin-bottom: 0;">
 
-              <!-- DEVELOPING OUR OWN BRAND start -->
-              <div class="case-project-wrapper" style="margin-top:40px;">
+          <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
+            <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
+          </div>
 
-                <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
-                  <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
-                </div>
-
-                <div class="case-project row">
-
-                  <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                    <a href="case-study.php"><div id="polyfen-cover" class="project-cover polyfen-cover-ACTIVE"  onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';"></div></a>
-                    <a href="case-study.php"><div id="polyfen-thumbnail" class="project-thumbnail polyfen-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('developing-our-own-brand-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('developing-our-own-brand-button').className='secondary-button';">
-                    </div></a>
-                  </div>
-
-                  <div class="col">
-                    <div class="project-description">
-                    <h3>Your ForEx Risk Manager</h3>
-                    <p><strong>Tradeana</strong> stands for one core concept, the midpoint between business and creativity. <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">A brand with a clean and professional look, yet with a playful and whimsical flair.</span></p>
-                    <a class="secondary-button" href="case-study.php" id="developing-our-own-brand-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                  </div>
-
-                </div>
-              </div>
+          <div class="case-project row">
+            <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
+              <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
+              <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-thumbnail" class="project-thumbnail bike-in-mex-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
+              </div></a>
             </div>
-            <!-- OUR CASE STUDY end -->
 
-            <!-- BIKE IN MEX start -->
-            <div class="case-project-wrapper" style="margin-bottom: 0;">
+            <div class="col">
+              <div class="project-description">
+              <h3>Bike in Mex</h3>
+              <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols<span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline"> set on the vibrant colors of Mexico’s flag</span>.</p>
+              <a class="secondary-button" href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
 
-              <div class="case-project row d-block d-sm-none d-md-none d-lg-none d-xl-none">
-                <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
-              </div>
-
-              <div class="case-project row">
-                <div class="col d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                  <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE"  onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div></a>
-                  <a href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank"><div id="bike-in-mex-thumbnail" class="project-thumbnail bike-in-mex-thumbnail-INACTIVE d-none d-sm-none d-md-none d-lg-none d-xl-block" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
-                  </div></a>
-                </div>
-
-                <div class="col">
-                  <div class="project-description">
-                  <h3>Bike in Mex</h3>
-                  <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols<span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline"> set on the vibrant colors of Mexico’s flag</span>.</p>
-                  <a class="secondary-button" href="https://www.instagram.com/p/Bzrpk5flCHr/" target="_blank" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                </div>
-
-              </div>
             </div>
           </div>
-          <!-- BIKE IN MEX STUDY end -->
-
         </div>
-        <!-- FEATURED PROJECTS end -->
-
-        <div style="clear:both;">
-        </div>
-
-        <div class="row">
-          <div class="horizontal-separator"></div>
-        </div>
-
-
-        <!-- ABOUT start -->
-        <div id="about" class="row">
-          <div style="max-width: 540px;">
-            <h2>The link between business &amp; creativity</h2>
-            <p>We are a small team of creatives from around the world based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
-          </div>
-          </div>
-        </div>
-        <!-- ABOUT end -->
-
-        <div style="clear:both;">
-        </div>
-
-        <div class="row">
-          <div class="horizontal-separator"></div>
-        </div>
+        <!-- BIKE IN MEX STUDY end -->
 
       </section>
-      <!-- CONTENT WRAPPER end -->
+      <!-- FEATURED PROJECTS end -->
+
+      <div style="clear:both;">
+      </div>
+
+      <div class="row">
+        <div class="horizontal-separator"></div>
+      </div>
+
+
+      <!-- ABOUT start -->
+      <section id="about" class="row">
+        <div style="max-width: 540px;">
+          <h2>The link between business &amp; creativity</h2>
+          <p>We are a small team of creatives from around the world based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+        </div>
+        </div>
+      </section>
+      <!-- ABOUT end -->
+
+      <div style="clear:both;">
+      </div>
+
+      <div class="row">
+        <div class="horizontal-separator"></div>
+      </div>
 
       <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/call-to-action.php';?>
