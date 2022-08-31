@@ -1,0 +1,278 @@
+/*///////////// NAVIGATION CARDS START /////////////*/
+
+div.card-navigation {
+  margin: 15px auto -30px;
+  text-align: center;
+}
+
+div.card-navigation div.navigation-bullet {
+  width: 45px;
+  height: 8px;
+  border-radius: 15px;
+  margin-right: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+div.card-navigation div.navigation-bullet:last-of-type {
+  margin-right: 0
+}
+
+div.card-navigation div.active-navigation-bullet {
+  background: #7537f8;
+  box-shadow: 0 0 4px #7a00f5;
+}
+
+div.card-navigation div.inactive-navigation-bullet {
+  border: 2px solid #7a00f5;
+  opacity: 0.45;
+  background: #7a00f5;
+}
+
+/*///////////// NAVIGATION CARDS END /////////////*/
+
+/*///////////// ——————————————————————————————————— /////////////*/
+
+/*///////////// BUTTONS + CTA + CARD NAVIGATION + CONTACT FORM (Media Queries) START /////////////*/
+
+@media (min-width:576px) {
+
+  a.primary-button {
+    box-shadow:0 0 10px #ba00ff;
+  }
+
+}
+
+@media (min-width:768px) {
+
+  a.primary-button {
+    max-width:260px;
+    margin:0 auto;
+  }
+
+  div.desktop-card-navigation-wrapper {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    margin-top: -360px;
+    height: 360px;
+    z-index: 1;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.desktop-card-navigation-button {
+    width: 70px;
+    margin-left: 40px;
+    height: 100px;
+    background: #474797;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0 0 10px 2px black;
+  }
+
+  div.desktop-card-navigation-wrapper:hover div.desktop-card-navigation-button {
+    background:#7537f8;
+  }
+
+  div.desktop-card-navigation-button i.fa-angle-right {
+    color:rgba(25,25,71,0.7);
+    font-size:2.5rem;
+    margin-left:5px;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  div.desktop-card-navigation-wrapper {
+    margin-top:-430px;
+    height:430px
+  }
+
+}
+
+@media (min-width:1400px) {
+
+  div.card-navigation {
+    margin: 30px auto -48px;
+  }
+
+  div.card-navigation div.navigation-bullet {
+    width:45px;
+    height:8px;
+  }
+
+}
+
+/*///////////// BUTTONS + CTA + CARD NAVIGATION + CONTACT FORM (Media Queries) END /////////////*/
+
+
+/*///////////// COVER START /////////////*/
+
+section#cover h1 {
+  top: 130px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 270px;
+}
+
+section#cover h1:after {
+  content:"";
+  display: block;
+  height: 6px;
+  width: 400px;
+  background: #1c1c52;
+  margin: 100px auto 0;
+  border-radius: 6px;
+}
+
+section#cover h1:after {
+  content:"";
+  display: block;
+  height: 4px;
+  width: 170px;
+  background: white;
+  margin: 20px auto 0;
+  border-radius: 6px;
+}
+
+div.background {
+  position: relative;
+  width:100%;
+  height:100%;
+  top:-410px;
+  left:0;
+  z-index:1;
+}
+
+section#cover {
+  height:640px;
+  height:450px;
+}
+
+#pearl-11 {
+  display: block;
+  background-image: url('../../imgs/pearls/09.webp');
+  width: 400px;
+  height: 400px;
+  top: 180px;
+  right:-110px;
+}
+
+#pearl-12 {
+  display: block;
+  background-image: url('../../imgs/pearls/01.webp');
+  width: 300px;
+  height: 300px;
+  top: 360px;
+  left: -120px;
+}
+
+/*///////////// COVER SECTION END /////////////*/
+
+/*///////////// ——————————————————————————————————— /////////////*/
+
+
+/*///////////// CASE-STUDIES CARDS START /////////////*/
+
+section.content-wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.case-project-wrapper {
+  padding: 0 15px;
+  background: #0a073c;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+div#case-studies div.case-project {
+  padding: 0 !important;
+  border-radius: 8px;
+}
+
+div#case-studies div.case-project div.project-cover {
+  background: #070924 url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 32%;
+  width: 100%;
+  height: 160px;
+  border-radius: 4px 4px 0 0;
+}
+
+div#case-studies div.case-project div.project-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 32%;
+  width: 100%;
+  height: 160px;
+  border-radius: 4px 4px 0 0;
+}
+
+div#case-studies div.case-project div#bike-in-mex-cover {
+  background-image: url('../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.webp');
+}
+
+div#case-studies div.case-project div#polyfen-cover {
+  background-image:  url('../../imgs/case-studies/developing-our-own-brand/thumbnails/developing-our-own-brand.webp');
+}
+
+/* div#case-studies div.case-project {
+  margin-bottom: 220px;
+} */
+
+div#case-studies div.case-project div.project-description {
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  padding: 25px 4px 68px !important;
+}
+
+div#case-studies div.case-project div.project-description h3 {
+  max-width: 182px;
+  margin-bottom: 5px;
+}
+
+div#case-studies div.case-project div.project-description p {
+  max-width: 302px;
+  max-width: 315px;
+  max-width: 400px;
+  color: rgba(255,255,255,0.7);
+}
+
+/*///////////// CASE STUDY CARDS END /////////////*/
+
+/*///////////// ——————————————————————————————————— /////////////*/
+
+/*///////////// ABOUT START /////////////*/
+
+
+div#about {
+   padding: 0 !important;
+}
+
+div#about h2 {
+  max-width: 360px;
+}
+
+div#about img {
+  width: 115%;
+  margin: 20px 0 20px 0;
+  max-width: 400px;
+  margin-left: -12px;
+}
+
+/*///////////// ABOUT END /////////////*/
+
+/*///////////// ——————————————————————————————————— /////////////*/

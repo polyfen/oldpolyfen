@@ -6,73 +6,72 @@
 
 
     <!-- INCLUDE HEAD.PHP start -->
-      <?php include 'sections/head.php';?>
+    <?php include 'sections/head.php';?>
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-      <meta property="og:title" content="Polyfen"/>
-      <meta property="og:url" content="https://polyfen.com"/>
-      <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
-      <meta name="description" property="og:description" content="We are a small team of creatives from around the world connected by our passion to design engaging Brand Identities and help businesses grow." />
-      <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png"/>
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-      <meta property="fb:app_id" content="1799272553516195" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@WeArePolyfen" />
-      <meta name="twitter:title" content="Polyfen" />
-      <meta name="twitter:description" content="We are a small team of creatives from around the world connected by our passion to design engaging brand identities." />
-      <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png" />
-      <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Polyfen"/>
+    <meta property="og:url" content="https://polyfen.com"/>
+    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
+    <meta name="description" property="og:description" content="We are a small team of creatives from around the world connected by our passion to design engaging Brand Identities and help businesses grow." />
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png"/>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="fb:app_id" content="1799272553516195" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@WeArePolyfen" />
+    <meta name="twitter:title" content="Polyfen" />
+    <meta name="twitter:description" content="We are a small team of creatives from around the world connected by our passion to design engaging brand identities." />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png" />
+    <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
-      <link rel="stylesheet" href="app/css/general.css" type="text/css">
-      <link rel="stylesheet" href="app/css/home.css" type="text/css">
+    <link rel="stylesheet" href="app/css/home.css" type="text/css">
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
-      <script type="text/javascript">
-        $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll > 650) {
-            $("#bike-in-mex-thumbnail").removeClass("bike-in-mex-thumbnail-INACTIVE").addClass("bike-in-mex-thumbnail-ACTIVE");
+    <script type="text/javascript">
+      $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 650) {
+          $("#bike-in-mex-thumbnail").removeClass("bike-in-mex-thumbnail-INACTIVE").addClass("bike-in-mex-thumbnail-ACTIVE");
+      }
+      if (scroll <= 650) {
+          $("#bike-in-mex-thumbnail").removeClass("bike-in-mex-thumbnail-ACTIVE").addClass("bike-in-mex-thumbnail-INACTIVE");
+      }
+      });
+    </script>
+    <script type="text/javascript">
+      $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 90) {
+          $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-INACTIVE").addClass("polyfen-thumbnail-ACTIVE");
+      }
+      if (scroll <= 90) {
+          $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-ACTIVE").addClass("polyfen-thumbnail-INACTIVE");
+      }
+      });
+    </script>
+    <script type="text/javascript">
+    $(window).scroll(function () {
+      var st = $(window).scrollTop();
+      var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+      if (scrollBottom <= 200) {
+            $("#pearl-07").removeClass("pearl-07-INACTIVE").addClass("pearl-07-ACTIVE");
+            $("#pearl-08").removeClass("pearl-08-INACTIVE").addClass("pearl-08-ACTIVE");
+            $("#pearl-09").removeClass("pearl-09-INACTIVE").addClass("pearl-09-ACTIVE");
+            $("#pearl-10").removeClass("pearl-10-INACTIVE").addClass("pearl-10-ACTIVE");
         }
-        if (scroll <= 650) {
-            $("#bike-in-mex-thumbnail").removeClass("bike-in-mex-thumbnail-ACTIVE").addClass("bike-in-mex-thumbnail-INACTIVE");
+      if (scrollBottom > 200) {
+            $("#pearl-07").addClass("pearl-07-INACTIVE").removeClass("pearl-07-ACTIVE");
+            $("#pearl-08").addClass("pearl-08-INACTIVE").removeClass("pearl-08-ACTIVE");
+            $("#pearl-09").addClass("pearl-09-INACTIVE").removeClass("pearl-09-ACTIVE");
+            $("#pearl-10").addClass("pearl-10-INACTIVE").removeClass("pearl-10-ACTIVE");
         }
-        });
-      </script>
-      <script type="text/javascript">
-        $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll > 90) {
-            $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-INACTIVE").addClass("polyfen-thumbnail-ACTIVE");
-        }
-        if (scroll <= 90) {
-            $("#polyfen-thumbnail").removeClass("polyfen-thumbnail-ACTIVE").addClass("polyfen-thumbnail-INACTIVE");
-        }
-        });
-      </script>
-      <script type="text/javascript">
-      $(window).scroll(function () {
-        var st = $(window).scrollTop();
-        var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
-        if (scrollBottom <= 200) {
-              $("#pearl-07").removeClass("pearl-07-INACTIVE").addClass("pearl-07-ACTIVE");
-              $("#pearl-08").removeClass("pearl-08-INACTIVE").addClass("pearl-08-ACTIVE");
-              $("#pearl-09").removeClass("pearl-09-INACTIVE").addClass("pearl-09-ACTIVE");
-              $("#pearl-10").removeClass("pearl-10-INACTIVE").addClass("pearl-10-ACTIVE");
-          }
-        if (scrollBottom > 200) {
-              $("#pearl-07").addClass("pearl-07-INACTIVE").removeClass("pearl-07-ACTIVE");
-              $("#pearl-08").addClass("pearl-08-INACTIVE").removeClass("pearl-08-ACTIVE");
-              $("#pearl-09").addClass("pearl-09-INACTIVE").removeClass("pearl-09-ACTIVE");
-              $("#pearl-10").addClass("pearl-10-INACTIVE").removeClass("pearl-10-ACTIVE");
-          }
-        });
-      </script>
-      <!-- PAGE-SPECIFIC SCRIPTS end -->
+      });
+    </script>
+    <!-- PAGE-SPECIFIC SCRIPTS end -->
   </head>
 
   <body id="home">
@@ -160,13 +159,13 @@
           <!-- BIKE IN MEX STUDY end -->
 
         </div>
-        <!-- FEATURED WORKS end -->
+        <!-- FEATURED PROJECTS end -->
 
         <div style="clear:both;">
         </div>
 
         <div class="row">
-          <div class="horizontal-case-study-separator"></div>
+          <div class="horizontal-separator"></div>
         </div>
 
 
@@ -184,7 +183,7 @@
         </div>
 
         <div class="row">
-          <div class="horizontal-case-study-separator"></div>
+          <div class="horizontal-separator"></div>
         </div>
 
       </section>
