@@ -1,3 +1,3 @@
 <header>
-  <a href="index.php"><img src="imgs/cover/polyfen-logo.svg" id="logo"></a>
+  <a href="/"><img src="imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
 </header>
