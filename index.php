@@ -63,11 +63,21 @@
       <section id="featured-projects">
         <h2>Featured projects</h2>
 
+        <!-- TRADEANA start -->
+        <div class="featured-project">
+          <div class="project-description">
+            <h3>Your ForEx Risk Manager</h3>
+            <p>[TBD].</p>
+            <button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- TRADEANA end -->
+
         <!-- BIKE IN MEX start -->
-        <div class="case-project">
+        <div class="featured-project">
           <div class="project-description">
             <h3>Bike in Mex</h3>
-            <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols<span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline"> set on the vibrant colors of Mexico’s flag</span>.</p>
+            <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols set on the vibrant colors of Mexico’s flag.</p>
             <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
           </div>
         </div>
@@ -87,7 +97,7 @@
 
 
       <!-- ABOUT start -->
-      <section id="about" class="row">
+      <section id="about">
         <div style="max-width: 540px;">
           <h2>The link between business &amp; creativity</h2>
           <p>We are a small team of creatives from around the world based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
