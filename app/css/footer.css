@@ -1,139 +1,179 @@
-/*---------- FOOTER start ------------*/
+/*///////////// FOOTER START /////////////*/
 
 footer {
   text-align: center;
   width: 100%;
-  border-top: 8px solid #632fd7;
-  background: #401a9e;
-  box-shadow: 0px -15px 15px -5px #0000001f;
+  /*border-top: 6px solid #231e4e;*/
   position: relative;
 }
 
-  div#social-icons {
-    padding: 20px 0 0px;
-    height: 60px;
+div#social-icons {
+  padding: 20px 0 0;
+  height:60px;
+  margin-left: -5px;
+}
+
+div#social-icons ul {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+div#social-icons ul li {
+  display: flex;
+  margin: 0;
+  border-radius: 5px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin-right: 10px;
+}
+
+div#social-icons ul a li {
+  line-height: 0;
+}
+
+div#social-icons ul a li i {
+  font-size: 28px;
+  color: #FFFA !important;
+}
+
+div#social-icons ul li:hover {
+  background: #7537f8;
+  box-shadow: 0 0 10px #ba00ff;
+  border-radius: 100px;
+}
+
+div#social-icons ul a:hover li i {
+  color: white !important;
+}
+
+div#social-icons ul a#linkedin-icon li {
+  margin-right: 0;
+}
+
+div#tpg {
+  background: #0003;
+  padding: 25px 0 30px;
+  margin-top: 5px;
+}
+
+div#tpg img.tpg-logo {
+  height: 40px;
+  width: auto;
+}
+
+div#legal {
+  padding: 20px 0 25px;
+}
+
+footer a small {
+  letter-spacing: 0.8px !important;
+}
+
+@media (min-width:768px) {
+
+  footer {
+    padding: 30px 30px 0;
+    height: 175px;
+    padding-bottom: 75px;
   }
 
-      div#social-icons ul {
-        margin: 0 auto;
-        width: fit-content;
-      }
+  div#social-icons {
+    width: 50%;
+    padding: 0;
+    text-align: left;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }
 
-      div#social-icons ul li {
-        display: flex;
-        margin: 0;
-        border-radius: 5px;
-        height: 45px;
-        width: 45px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        float: left;
-        margin-right: 10px;
-      }
+  div#social-icons ul {
+    margin: 0;
+  }
 
-      div#social-icons ul a li  {
-        line-height: 0;
-      }
+  div#social-icons ul li {
+    margin-right: 2px;
+  }
 
-      div#social-icons ul a li i {
-        font-size: 28px;
-        color: #7537F8 /* #indigo */!important;
-      }
+  div#social-icons ul li a i {
+    font-size: 28px;
+    margin: 0 6px;
+    color: #7537f8;
+    opacity: 1;
+  }
 
-      div#social-icons ul li:hover {
-        background: #7537F8;
-        box-shadow: 0 0 10px #BA00FF;
-      }
+  div#social-icons ul li a:hover i {
+    color: #7537f8;
+    opacity: 1;
+  }
 
-      div#social-icons ul a:hover li i {
-        color: white !important;
-      }
-
-      div#social-icons ul a#linkedin-icon li {
-        margin-right: 0;
-      }
+  div#tpg {
+    float: right;
+    margin-top: -165px;
+    background: none;
+    margin-right: -15px;
+  }
 
   div#legal {
-    padding: 20px 0 25px;
+    width: calc(100% + 60px);
+    float: none;
+    padding: 25px 0;
+    background: #0003;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 10px;
   }
 
-  footer a small {
-    letter-spacing: 0.8px !important;
+  div#legal span {
+    color:#240079!important;
   }
 
-  /*---------- [MEDIA QUERIES] start ------------*/
+}
 
+@media (min-width:992px) {
 
-  /* Extra-Small devices (Mobile Narrowest) are set as default */
-
-  /* Small devices (Mobile Widest) */
-  @media (min-width: 576px) {
-
+  footer {
+    padding: 30px 30px 0;
+    height: 110px;
+    padding-bottom: 0;
   }
 
-  /* Medium devices (Tablet Portrait / Mobile Landscape) */
-  @media (min-width: 768px) {
-
-    footer {
-      padding: 30px 30px 0;
-      height: 105px;
-      padding-bottom: 75px;
-    }
-
-    div#social-icons {
-      width: 50%;
-      float: left;
-      padding: 0;
-      text-align: left;
-      margin-left: -12px;
-      margin-right: 12px;
-    }
-
-    div#social-icons ul {
-      margin: 0;
-    }
-
-        div#social-icons ul li {
-          margin-right: 2px;
-        }
-
-        div#social-icons ul li a i {
-          font-size: 28px;
-          margin: 0 6px;
-          color: #7537F8 /* #indigo-minus-4 */;
-          opacity: 1;
-        }
-
-        div#social-icons ul li a:hover i {
-          color: #7537f8 /* #white */;
-          opacity: 1;
-        }
-
-    div#legal {
-      width: 50%;
-      float: left;
-      padding: 10px 0 0 0;
-      background: none;
-      text-align: right;
-    }
-
-    div#legal span {
-      color: #240079 !important;
-    }
-
+  div#social-icons {
+    float: none;
+    width: 30%;
+    left: calc(50% - 125px);
+    position: absolute;
+    margin: 0;
+    padding: 0;
   }
 
-  /* Large devices (Tanblet Landscape) */
-  @media (min-width: 992px) {
-
+  div#social-icons ul li {
+    margin-right: 5px;
   }
 
-  /* Extra-Large devices (desktops, less than 1200px) */
-  @media (min-width: 1200px) {
-
+  div#legal {
+    background: none;
+    position: absolute;
+    left: 0;
+    width: 30%;
+    margin: 0;
+    margin-top: -15px;
+    text-align: left;
+    padding-left: 20px;
   }
 
-  /*---------- [MEDIA QUERIES] end ------------*/
+  div#tpg {
+    position: absolute;
+    float: none;
+    right: 10px;
+    margin: 0;
+    margin-top: -23px;
+  }
 
-/*---------- FOOTER end ------------*/
+}
+
+/*///////////// FOOTER END /////////////*/

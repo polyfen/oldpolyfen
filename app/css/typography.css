@@ -1,177 +1,126 @@
-/*---------- TYPOGRAPHY start ------------*/
+/*///////////// TYPOGRAPHY START /////////////*/
 
-* {
+h1, h2, h3, h4, h5, button, a.button, a small, small {
   font-family: 'Biotif', Helvetica, Arial, sans-serif;
-  color: #D8D8D8 /* #cloud */;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
+  -ms-font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
+  -webkit-font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
+  font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
 }
 
-h1 /* (mobile) */ {
+p, p a, li, p strong, p span, li strong {
+  font-family: 'freight-text-pro', serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal !important;
+  -moz-font-feature-settings: "kern","liga","clig","calt";
+  -ms-font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-feature-settings: "kern","liga","clig","calt";
+  font-feature-settings: "kern","liga","clig","calt";
+}
+
+h1 {
   font-size: 35px;
   letter-spacing: 0.3px;
   line-height: 1.17;
   text-align: left;
-  font-weight: normal /* bold */;
+  font-weight: normal;
   font-style: normal;
-  color: #FFFFFF /* #white */;
-  font-family: 'Biotif', Helvetica, Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal !important;
-  font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  color: #fff;
+
 }
 
-h2 /* (mobile) */ {
+h2 {
   font-size: 35px;
   letter-spacing: -0.1px;
   line-height: 1.17;
   text-align: left;
-  font-weight: normal /* semi-bold */;
+  font-weight: normal;
   font-style: normal;
-  color: #7537F8 /* #white */;
-  color: #7537F8;
-  font-family: 'Biotif', Helvetica, Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal !important;
-  font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  color: #7537f8;
 }
 
-body.case-study #content-wrapper h2 {
-  font-size: 30px;
-  margin-bottom: 16px;
-}
-
-h3 /* (mobile) */ {
+h3 {
   font-size: 26px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   line-height: 1.25;
   text-align: left;
-  font-weight: normal /* semi-bold */;
+  font-weight: normal;
   font-style: normal;
-  color: #474797 /* #white */;
-  color: #7537F8;
-  font-family: 'Biotif', Helvetica, Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal !important;
-  font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
+  color: #7537f8;
 }
 
 h4, h4 span {
   font-size: 21px;
   letter-spacing: 0.3px;
-  font-family: 'Biotif', Helvetica, Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal !important;
-  font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh", "salt";
 }
 
-p, p a, li, p strong, p span, li strong /* (mobile) */ {
+p, p a, li, p strong, p span, li strong {
   font-size: 22px;
   letter-spacing: 0.1px;
   line-height: 1.3;
   text-align: left;
-  font-weight: 400 /* regular */;
+  font-weight: 400;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.7);
-  /* font-family: 'ff-meta-serif-web-pro', serif; */
-  /* font-family: 'Tiempos Text', serif; */
-  /* font-family: 'Source Serif Pro', serif; */
-  font-family: 'freight-text-pro', serif;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal !important;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
+  color: rgba(255,255,255,0.7);
 }
 
 p {
   margin-bottom: 2rem;
 }
 
-button, a.button /* (mobile) */ {
+button, a.button {
   font-size: 16px;
   letter-spacing: 1.4px;
   line-height: normal;
   text-align: center;
-  font-weight: normal /* semi-bold */;
+  font-weight: normal;
   font-style: normal;
-  color: #D8D8D8 /* cloud */;
-  font-family: 'Biotif', sans-serif;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal !important;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
+  color: #d8d8d8;
 }
 
-a small, small /* (mobile) */ {
+a small, small {
   font-size: 16px;
   letter-spacing: 1.4px;
   line-height: normal;
   text-align: center;
-  font-weight: normal /* semi-bold */;
+  font-weight: normal;
   font-style: normal;
-  color: #D8D8D8 /* cloud */;
-  font-family: 'Biotif', sans-serif;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal !important;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
+  color: #d8d8d8;
 }
 
 a small {
-  border-bottom: 3px dotted #7537F8 /* #indigo */;
+  border-bottom: 3px dotted #7537f8;
   padding-bottom: 5px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 a:hover small {
   opacity: 1;
   text-decoration: none;
-  border-bottom: 3px solid #7537F8;
+  border-bottom: 3px solid #7537f8;
 }
 
 p strong, li strong {
   font-style: italic;
-  color: #FFFFFF /* #white */;
+  color: #fff;
 }
 
 p a {
-  color: auto !important;
+  color: auto!important;
   opacity: 1;
-  border-bottom: 2px dotted #7537F8;
+  border-bottom: 2px dotted #7537f8;
 }
 
 p a:hover {
   color: white;
   text-decoration: none;
-  border-bottom: 2px solid #7537F8;
+  border-bottom: 2px solid #7537f8;
 }
 
-/*–––––––––––––––––––– MEDIA QUERIES  ––––––––––––––––––––*/
-
-/* Extra-Small devices (Mobile Narrowest) are set as default */
-
-/* Small devices (Mobile Widest) */
-@media (min-width: 375px) {
+@media (min-width:375px) {
 
   h1 {
     font-size: 42px;
@@ -179,14 +128,9 @@ p a:hover {
     letter-spacing: 0.4px;
   }
 
-  body.case-study #content-wrapper h2 {
-    font-size: 32px;
-  }
-
 }
 
-/* Small devices (Mobile Widest) */
-@media (min-width: 576px) {
+@media (min-width:576px) {
 
   h1 {
     font-size: 49px;
@@ -194,56 +138,45 @@ p a:hover {
     letter-spacing: 0.4px;
   }
 
-  body.case-study #content-wrapper h2 {
+}
+
+@media (min-width:768px) {
+
+  h1 {
+    font-size: 56px;
+    letter-spacing: -1px;
+    line-height: 1.09;
+  }
+
+  h2 {
+    font-size: 45px;
+    line-height: 1.11;
+  }
+
+  h3 {
     font-size: 35px;
+    line-height: 1.14;
+  }
+
+  h4 {
+    font-size: 23px;
+  }
+
+  p, p a, li, p strong, p span, li strong {
+    font-size: 22px;
+    letter-spacing: .15px;
+    line-height: 1.39;
+  }
+
+  button, a.button {
+    font-size: 23px;
+    letter-spacing: 0.4px;
+    line-height: normal;
   }
 
 }
 
-/* Medium devices (Tablet Portrait / Mobile Landscape) */
-@media (min-width: 768px) {
-
-    h1 {
-      font-size: 56px;
-      letter-spacing: -1px;
-      line-height: 1.09;
-    }
-
-    h2 {
-      font-size: 45px;
-      line-height: 1.11;
-    }
-
-    body.case-study #content-wrapper h2 {
-      font-size: 35px;
-      margin-bottom: 16px;
-    }
-
-    h3 {
-      font-size: 35px;
-      line-height: 1.14;
-    }
-
-    h4 {
-      font-size: 23px;
-    }
-
-    p, p a, li, p strong, p span, li strong {
-      font-size: 22px;
-      letter-spacing: 0.15px;
-      line-height: 1.39;
-    }
-
-    button, a.button {
-      font-size: 23px;
-      letter-spacing: 0.4px;
-      line-height: normal;
-    }
-
-}
-
-/* Large devices (Tanblet Landscape) */
-@media (min-width: 992px) {
+@media (min-width:992px) {
 
   h1 {
     font-size: 70.5px;
@@ -251,16 +184,10 @@ p a:hover {
 
 }
 
-/* Extra-Large devices (desktops, less than 1200px) */
-@media (min-width: 1200px) {
+@media (min-width:1200px) {
 
   h1 {
     font-size: 80px;
-  }
-
-  body.case-study #content-wrapper h2 {
-    font-size: 45px;
-    margin-bottom: 20px;
   }
 
   h3 {
@@ -271,7 +198,7 @@ p a:hover {
     font-size: 26px;
   }
 
-  p, p a, li, p strong, p span, li strong {
+  p,p a,li,p strong,p span,li strong {
     font-size: 25px;
     letter-spacing: 0.15px;
     line-height: 1.39;
@@ -279,13 +206,7 @@ p a:hover {
 
 }
 
-/* XXL devices (desktops, 13") */
-@media (min-width: 1440px) {
-
-}
-
-/* XXXL devices (desktops, 15") */
-@media (min-width: 1680px) {
+@media (min-width:1680px) {
 
   h1 {
     font-size: 104px;
@@ -302,4 +223,4 @@ p a:hover {
 
 }
 
-/*---------- TYPOGRAPHY end------------*/
+/*///////////// TYPOGRAPHY END /////////////*/

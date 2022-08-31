@@ -17,6 +17,9 @@
 
   <!-- CSS General -->
   <link rel="stylesheet" href="app/css/general.css" type="text/css">
+  <link rel="stylesheet" href="app/css/typography.css" type="text/css">
+  <link rel="stylesheet" href="app/css/header.css" type="text/css">
+  <link rel="stylesheet" href="app/css/footer.css" type="text/css">
   <link rel="stylesheet" href="app/css/cookies.css" type="text/css">
 
   <!-- FONTS -->
