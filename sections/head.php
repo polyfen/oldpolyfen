@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:type" content="website"/>
-  <meta name="author"  content="The Poly Group Co"/>
+  <meta name="author"  content="The Poly Group"/>
 
   <!-- FAVICON -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -14,27 +14,6 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7537f8">
   <meta name="msapplication-TileColor" content="#7537f8">
   <meta name="theme-color" content="#7537f8">
-
-  <!-- reCAPTCHA -->
-
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <script>
-    function recaptcha_callback() {
-      $('#send').removeAttr('disabled'); //Enable the "Send" button of the contact form after checking reCaptcha
-            };
-  </script>
-
-  <!-- BOOTSTRAP (I had to add this to make the case studies slider work) -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <!-- BOOTSTRAP -->
- <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 
   <!-- CSS General -->
   <link rel="stylesheet" href="app/css/general.css" type="text/css">
@@ -66,31 +45,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/aba8ecz.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-  <!-- Analytics -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151202895-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-151202895-1');
-
-    gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
-  </script>
-
-  <!-- Hotjar Tracking Code for https://www.polyfen.com -->
-  <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:2350644,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
-
+  <!-- GTM -->  
 
   <!-- Pinterest -->
   <meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f"/>

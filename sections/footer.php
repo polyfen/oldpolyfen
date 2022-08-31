@@ -2,14 +2,6 @@
   <?php include 'sections/cookies-modal.php';?>
 <!-- INCLUDE COOKIES-MODAL.PHP end -->
 
-<!-- INCLUDE PRIVACY-POLICY.PHP start -->
-  <?php include 'sections/privacy-policy.php';?>
-<!-- INCLUDE PRIVACY-POLICY.PHP end -->
-
-<!-- INCLUDE TERMS-OF-SERVICE.PHP start -->
-  <?php include 'sections/terms-of-service.php';?>
-<!-- INCLUDE TERMS-OF-SERVICE.PHP end -->
-
 <footer>
 
 <div id="social-icons">
@@ -27,8 +19,6 @@
 
 <div id="legal">
   <a onclick="document.getElementById('privacy-policy').className='modal-wrapper d-block';document.documentElement.className='overflow-hidden';" ><small>Privacy Policy</small></a>
-  <span style="margin:0 10px;background: white;padding: 5px 0;opacity: 0.12;color: white !important;">|</span>
-  <a onclick="document.getElementById('terms-of-service').className='modal-wrapper d-block';document.documentElement.className='overflow-hidden';"><small>Terms of Service</small></a>
 </div>
 
 <div class="d-block d-sm-none" style="clear:both;"></div>
