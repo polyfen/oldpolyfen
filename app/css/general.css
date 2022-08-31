@@ -12,7 +12,6 @@
 html, body {
   background: #070924;
   max-width: 100% !important;
-  overflow-x: hidden !important;
 }
 
 ::-moz-selection {
@@ -114,6 +113,7 @@ a.secondary-button {
   margin-top: 0;
   width: 220px;
   width: 100%;
+  text-decoration: none;
 }
 
 a.secondary-button i.fa-angle-right {

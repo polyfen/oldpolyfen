@@ -39,11 +39,6 @@ div#social-icons ul a li i {
   color: #FFFA !important;
 }
 
-div#social-icons ul li:hover {
-  box-shadow: 0 0 10px #ba00ff;
-  border-radius: 100px;
-}
-
 div#social-icons ul a:hover li i {
   color: white !important;
 }
