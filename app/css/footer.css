@@ -3,7 +3,6 @@
 footer {
   text-align: center;
   width: 100%;
-  /*border-top: 6px solid #231e4e;*/
   position: relative;
 }
 
@@ -41,7 +40,6 @@ div#social-icons ul a li i {
 }
 
 div#social-icons ul li:hover {
-  background: #7537f8;
   box-shadow: 0 0 10px #ba00ff;
   border-radius: 100px;
 }
@@ -74,12 +72,6 @@ footer a small {
 }
 
 @media (min-width:768px) {
-
-  footer {
-    padding: 30px 30px 0;
-    height: 175px;
-    padding-bottom: 75px;
-  }
 
   div#social-icons {
     width: 50%;
@@ -135,12 +127,6 @@ footer a small {
 }
 
 @media (min-width:992px) {
-
-  footer {
-    padding: 30px 30px 0;
-    height: 110px;
-    padding-bottom: 0;
-  }
 
   div#social-icons {
     float: none;
