@@ -1,5 +1,9 @@
 /*///////////// COVER START /////////////*/
 
+section#cover {
+  display: block;
+}
+
 section#cover h1 {
   top: 130px;
   position: relative;
@@ -79,254 +83,254 @@ to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:
 
 @media (min-width:375px) {
 
-  section#cover h1 {
-    max-width:340px;
-  }
+    section#cover h1 {
+      max-width:340px;
+    }
 
 }
 
 @media (min-width:576px) {
 
-  section#cover h1 {
-    max-width: 550px;
-  }
+    section#cover h1 {
+      max-width: 550px;
+    }
 
-  section#cover h1:after {
-    content:"";
-    display: block;
-    height: 4px;
-    width: 170px;
-    background: white;
-    margin: 25px auto 0;
-    border-radius:6px;
-  }
+    section#cover h1:after {
+      content:"";
+      display: block;
+      height: 4px;
+      width: 170px;
+      background: white;
+      margin: 25px auto 0;
+      border-radius:6px;
+    }
 
-  #pearl-11 {
-    top: -420px;
-    right: -400px;
-    width: 900px;
-    height: 900px;
-  }
+    #pearl-11 {
+      top: -420px;
+      right: -400px;
+      width: 900px;
+      height: 900px;
+    }
 
-  #pearl-12 {
-    width: 300px;
-    height: 300px;
-    top: 350px;
-    left: -60px;
-  }
+    #pearl-12 {
+      width: 300px;
+      height: 300px;
+      top: 350px;
+      left: -60px;
+    }
 
-  div#pearl-13 {
-    height: 300px;
-    width: 300px;
-    display: block;
-    position: inherit;
-    margin: 0 auto;
-    right: -580px;
-    top: 650px;
-    height: 245px;
-    width: 245px;
-    display: block;
-    position: inherit;
-    background-image: url(../../imgs/pearls/13.webp);
-    margin: 0 auto;
-    right: -200px;
-    top: 525px;
-  }
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      margin: 0 auto;
+      right: -580px;
+      top: 650px;
+      height: 245px;
+      width: 245px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -200px;
+      top: 525px;
+    }
 
 }
 
 @media(min-width:768px) {
 
-  section {
-    padding: 70px 35px!important;
-  }
+    section {
+      padding: 70px 35px!important;
+    }
 
-  section#cover h1 {
-    max-width: 650px;
-  }
+    section#cover h1 {
+      max-width: 650px;
+    }
 
-  #pearl-11 {
-    top: -400px;
-    right: -310px;
-    width: 900px;
-    height: 900px;
-  }
+    #pearl-11 {
+      top: -400px;
+      right: -310px;
+      width: 900px;
+      height: 900px;
+    }
 
-  #pearl-12 {
-    width: 300px;
-    height: 300px;
-    top: 340px;
-    left: -60px;
-  }
+    #pearl-12 {
+      width: 300px;
+      height: 300px;
+      top: 340px;
+      left: -60px;
+    }
 
-  div#pearl-13 {
-    height: 300px;
-    width: 300px;
-    display: block;
-    position: inherit;
-    background-image: url(../../imgs/pearls/13.webp);
-    margin: 0 auto;
-    right: -580px;
-    top: 650px;
-    height: 280px;
-    height: 250px;
-    width: 250px;
-    display: block;
-    position: inherit;
-    background-image: url(../../imgs/pearls/13.webp);
-    margin: 0 auto;
-    right: -320px;
-    top: 510px;
-  }
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -580px;
+      top: 650px;
+      height: 280px;
+      height: 250px;
+      width: 250px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -320px;
+      top: 510px;
+    }
 
 }
 
 @media (min-width:992px) {
 
-  section#cover h1 {
-    max-width: 800px;
-    top: 160px;
-  }
+    section#cover h1 {
+      max-width: 800px;
+      top: 160px;
+    }
 
-  section#cover h1:after {
-    display: none;
-  }
+    section#cover h1:after {
+      display: none;
+    }
 
-  #pearl-11 {
-    top: -450px;
-    right: 30px;
-    width: 1050px;
-    height: 1050px;
-    top: -260px;
-    right: -170px;
-    width: 900px;
-    height: 900px;
-  }
+    #pearl-11 {
+      top: -450px;
+      right: 30px;
+      width: 1050px;
+      height: 1050px;
+      top: -260px;
+      right: -170px;
+      width: 900px;
+      height: 900px;
+    }
 
-  #pearl-12 {
-    width: 390px;
-    height: 390px;
-    top: 350px;
-    left: -45px;
-    width: 390px;
-    height: 390px;
-    top: 480px;
-    left: -100px;
-    width: 390px;
-    height: 390px;
-    top: 450px;
-    left: -100px;
-  }
+    #pearl-12 {
+      width: 390px;
+      height: 390px;
+      top: 350px;
+      left: -45px;
+      width: 390px;
+      height: 390px;
+      top: 480px;
+      left: -100px;
+      width: 390px;
+      height: 390px;
+      top: 450px;
+      left: -100px;
+    }
 
-  div#pearl-13 {
-    height: 300px;
-    width: 300px;
-    display: block;
-    position: inherit;
-    background-image: url(../../imgs/pearls/13.webp);
-    margin:0 auto;
-    right: -580px;
-    top: 650px;
-    height: 300px;
-    width: 300px;
-    display: block;
-    position: inherit;
-    margin:0 auto;
-    right: -370px;
-    top: 695px;
-    height: 300px;
-    width: 300px;
-    display: block;
-    position: inherit;
-    background-image: url(../../imgs/pearls/13.webp);
-    margin: 0 auto;
-    right: -370px;
-    top: 730px;
-  }
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin:0 auto;
+      right: -580px;
+      top: 650px;
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      margin:0 auto;
+      right: -370px;
+      top: 695px;
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -370px;
+      top: 730px;
+    }
 
 }
 
 
 @media (min-width:1200px) {
 
-  section#cover h1 {
-    max-width: 900px;
-  }
+    section#cover h1 {
+      max-width: 900px;
+    }
 
-  section#cover h1:after {
-    display: none;
-  }
+    section#cover h1:after {
+      display: none;
+    }
 
-  #pearl-11 {
-    top: -360px;
-    right: -90px;
-    width: 1050px;
-    height: 1050px;
-  }
+    #pearl-11 {
+      top: -360px;
+      right: -90px;
+      width: 1050px;
+      height: 1050px;
+    }
 
-  #pearl-12 {
-    width: 390px;
-    height: 390px;
-    top: 440px;
-    left: -105px;
-  }
+    #pearl-12 {
+      width: 390px;
+      height: 390px;
+      top: 440px;
+      left: -105px;
+    }
 
-  div#pearl-13 {
-    height: 300px;
-    width: 300px;
-    display: block;
-    position: inherit;
-    background-image: url(../../imgs/pearls/13.webp);
-    margin: 0 auto;
-    right: -500px;
-    top: 760px;
-  }
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -500px;
+      top: 760px;
+    }
 
 }
 
 @media(min-width:1680px){
 
-  section#cover h1 {
-    max-width: 1220px;
-    margin-top: 40px;
-  }
+    section#cover h1 {
+      max-width: 1220px;
+      margin-top: 40px;
+    }
 
-  section#cover h1:after {
-    display: none;
-  }
+    section#cover h1:after {
+      display: none;
+    }
 
-  #pearl-11 {
-    top: -400px;
-    right: 40px;
-    width: 1050px;
-    height: 1050px;
-  }
+    #pearl-11 {
+      top: -400px;
+      right: 40px;
+      width: 1050px;
+      height: 1050px;
+    }
 
-  #pearl-12 {
-    width: 450px;
-    height: 450px;
-    top: 340px;
-    left: -100px;
-  }
+    #pearl-12 {
+      width: 450px;
+      height: 450px;
+      top: 340px;
+      left: -100px;
+    }
 
-  div#pearl-13 {
-    height: 350px;
-    width: 350px;
-    display: block;
-    position: inherit;
-    background-image: url(../../imgs/pearls/13.webp);
-    margin: 0 auto;
-    right: -580px;
-    top: 700px;
-  }
+    div#pearl-13 {
+      height: 350px;
+      width: 350px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -580px;
+      top: 700px;
+    }
 
 }
 
 @media (min-width:992px) {
 
-  section#cover {
-    height: 700px;
-  }
+    section#cover {
+      height: 700px;
+    }
 
 }
 
@@ -336,6 +340,14 @@ to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:
 
 
 /*///////////// FEATURED PROJECTS START /////////////*/
+
+section#featured-projects h2 {
+  margin-bottom: 60px;
+}
+
+div.featured-project {
+    margin-bottom: 100px;
+}
 
 div.project-description {
   max-width: 460px;
