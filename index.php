@@ -75,7 +75,7 @@
         <!-- TRADEANA end -->
 
         <!-- BIKE IN MEX start -->
-        <div class="featured-project">
+        <div class="featured-project" style="margin-bottom: 25px;">
           <div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
           <div class="project-description">
             <h3>Bike in Mex</h3>
