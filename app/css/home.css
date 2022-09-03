@@ -425,7 +425,7 @@ h2 {
     div.project-cover {
       height: 550px;
       width: 100%;
-      max-width: 718px;
+      max-width: 650px;
       background-size: 145%;
     }
 
@@ -433,6 +433,14 @@ h2 {
       padding-top: 100px;
       margin-left: 40px;
     }
+}
+
+@media (min-width: 1400px) {
+
+    div.project-cover {
+      max-width: 720px;
+    }
+
 }
 
 @media (min-width: 1680px) {

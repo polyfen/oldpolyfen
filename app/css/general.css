@@ -182,6 +182,18 @@ section#call-to-action {
     margin-bottom: 65px;
 }
 
+section#call-to-action h2 a {
+  text-decoration: none;
+  padding-bottom: 8px;
+  border-bottom: 3px dotted #7537f8;
+  opacity: 0.75;
+}
+
+section#call-to-action h2 a:hover {
+  border-bottom: 3px solid #7537f8;
+  opacity: 1;
+}
+
 @media (min-width: 768px) {
 
     section#call-to-action {
