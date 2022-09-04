@@ -65,17 +65,17 @@
 
         <!-- TRADEANA start -->
         <div class="featured-project">
-          <div id="tradeana-cover" class="project-cover tradeana-ACTIVE" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';"></div>
+          <div id="tradeana-cover" class="project-cover tradeana-ACTIVE" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
           <div class="project-description">
             <h3>Your ForEx Risk Manager</h3>
             <p>Tradeana’s patented software, Forex Risk Engine™ is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
-            <button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="/tradeana.php"><button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
           </div>
         </div>
         <!-- TRADEANA end -->
 
         <!-- BIKE IN MEX start -->
-        <div class="featured-project" style="margin-bottom: 25px;">
+        <div class="featured-project">
           <div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
           <div class="project-description">
             <h3>Bike in Mex</h3>

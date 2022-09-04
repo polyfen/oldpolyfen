@@ -1,0 +1,7 @@
+
+RewriteEngine on
+Options +FollowSymLinks
+RewriteCond %{THE_REQUEST} ^.*/index.php
+RewriteRule ^(.*)index.php$ http://www.polyfen.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
