@@ -126,7 +126,7 @@
           </div>
           <div id="partners">
             <div id="boris-hrncic">
-              <img src="imgs/about/boris-hrncic.jpg" alt="Boris Hrnčić">
+              <img src="imgs/about/boris-hrncic.jpg" alt="Boris Hrnčić" loading="lazy">
               <small>
                 Boris Hrnčić<br/>
                 Managing Partner<br/>
@@ -134,7 +134,7 @@
               </small>
             </div>
             <div id="francisco-martone">
-              <img src="imgs/about/francisco-martone.jpg" alt="Francisco Martone">
+              <img src="imgs/about/francisco-martone.jpg" alt="Francisco Martone" loading="lazy">
               <small>
                 Francisco Martone<br/>
                 Partner<br/>
