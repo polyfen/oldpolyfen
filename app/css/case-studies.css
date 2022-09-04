@@ -1,0 +1,10 @@
+div.slider {
+  width: 100%;
+  padding: 0 15px;
+  margin: 100px auto 0;
+  max-width: 1200px;
+}
+
+div.slider img {
+  border-radius: 6px;
+}

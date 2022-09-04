@@ -27,6 +27,7 @@
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
+    <link rel="stylesheet" href="app/css/case-studies.css" type="text/css">
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
@@ -35,12 +36,17 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP end-->
+    <!-- SLICK start-->
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick.css"/>
+    <!--// Add the new slick-theme.css if you want the default styling //-->
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick-theme.css"/>
+    <!-- SLICK end-->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 
   </head>
 
-  <body id="home">
+  <body>
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC"
@@ -54,7 +60,41 @@
       <?php include 'sections/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
 
-
+      <div class="slider">
+        <div>
+          <img src="imgs/case-studies/tradeana/01_tradeana_cover.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/02_tradeana_intro.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/03_tradeana_tone.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/04_tradeana_keywords.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/05_tradeana_creative-concept-description.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/06_tradeana_creative-concept.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/07_tradeana_naming.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/08_tradeana_typography.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/09_tradeana_color.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/10_tradeana_early-drafts.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/11_tradeana_final-design.jpg" width="100%" height="auto">
+        </div>
+      </div>
 
       <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/call-to-action.php';?>
@@ -66,6 +106,15 @@
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'sections/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="libs/slick/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $('.slider').slick();
+    </script>
 
   </body>
 
