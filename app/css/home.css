@@ -466,6 +466,42 @@ div#podcasttoapp-cover {
 
 /*///////////// ABOUT START /////////////*/
 
+section#about {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 120px;
+}
+
+div#partners {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+div#partners div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+div#partners img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 4px;
+  filter: grayscale(100%);
+  margin-bottom: 25px;
+}
+
 
 /*///////////// ABOUT END /////////////*/
 

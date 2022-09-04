@@ -54,19 +54,18 @@
       <?php include 'sections/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
 
-      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fv2I5o06axcRoAIHkPO64Fc%2FTradeana-%257C-Showcase%3Fpage-id%3D1%253A6%26node-id%3D3%253A3%26viewport%3D67%252C434%252C0.04%26scaling%3Dcontain" allowfullscreen></iframe>
+
 
       <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/call-to-action.php';?>
       <!-- INCLUDE FOOTER.PHP end -->
 
-      <!-- INCLUDE FOOTER.PHP start -->
-      <?php include 'sections/footer.php';?>
-      <!-- INCLUDE FOOTER.PHP end -->
-
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
+    <!-- INCLUDE FOOTER.PHP start -->
+    <?php include 'sections/footer.php';?>
+    <!-- INCLUDE FOOTER.PHP end -->
 
   </body>
 

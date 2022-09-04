@@ -120,7 +120,27 @@
         <section id="about">
           <div style="max-width: 540px;">
             <h2>The link between business &amp; creativity</h2>
-            <p>We are a small team of creatives from around the world based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+            <p style="margin-top:25px;">We are a fully-remote team of creatives from around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+            <p>Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
+            <p>We wrote the book on branding… or the next closest thing. <a href="https://polyatlas.wiki" target="_blank">Poly Atlas</a> is a free wiki of best practices in branding.</p>
+          </div>
+          <div id="partners">
+            <div id="boris-hrncic">
+              <img src="imgs/about/boris-hrncic.jpg" alt="Boris Hrnčić">
+              <small>
+                Boris Hrnčić<br/>
+                Managing Partner<br/>
+                &amp; Art Director
+              </small>
+            </div>
+            <div id="francisco-martone">
+              <img src="imgs/about/francisco-martone.jpg" alt="Francisco Martone">
+              <small>
+                Francisco Martone<br/>
+                Partner<br/>
+                &amp; CEO
+              </small>
+            </di>
           </div>
         </section>
         <!-- ABOUT end -->
@@ -141,13 +161,12 @@
 
       </div>
 
-      <!-- INCLUDE FOOTER.PHP start -->
-      <?php include 'sections/footer.php';?>
-      <!-- INCLUDE FOOTER.PHP end -->
-
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
+    <!-- INCLUDE FOOTER.PHP start -->
+    <?php include 'sections/footer.php';?>
+    <!-- INCLUDE FOOTER.PHP end -->
 
   </body>
 
