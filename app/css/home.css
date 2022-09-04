@@ -468,11 +468,11 @@ div#podcasttoapp-cover {
 
 section#about {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
   justify-content: flex-start;
   align-items: center;
-  gap: 120px;
+  gap: 60px;
 }
 
 div#partners {
@@ -481,7 +481,7 @@ div#partners {
   align-content: center;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  gap: 40px;
 }
 
 div#partners div {
@@ -500,6 +500,26 @@ div#partners img {
   border-radius: 4px;
   filter: grayscale(100%);
   margin-bottom: 25px;
+}
+
+@media (min-width: 1073px) {
+
+    section#about {
+      flex-direction: row;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+  section#about {
+    gap: 120px;
+  }
+
+  div#partners {
+    gap: 60px;
+  }
+
 }
 
 
