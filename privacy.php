@@ -13,6 +13,11 @@
 
   <body id="home">
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- FORCE MAX-WIDTH 100% start -->
     <div class="main-wrapper">
 
