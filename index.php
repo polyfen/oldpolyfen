@@ -72,7 +72,7 @@
 
           <!-- TRADEANA start -->
           <div class="featured-project">
-            <div id="tradeana-cover" class="project-cover tradeana-ACTIVE" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
+            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
             <div class="project-description">
               <h3>Your ForEx Risk Manager</h3>
               <p>Tradeana’s patented software, Forex Risk Engine™ is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
@@ -83,7 +83,7 @@
 
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
-            <div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
+            <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
             <div class="project-description">
               <h3>Bike in Mex</h3>
               <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols set on the vibrant colors of Mexico’s flag.</p>
@@ -94,7 +94,7 @@
 
           <!-- PODCASTTOAPP start -->
           <div class="featured-project" style="margin-bottom: 25px;">
-            <div id="podcasttoapp-cover" class="project-cover podcasttoapp-cover-ACTIVE" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
+            <div id="podcasttoapp-cover" class="project-cover" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
             <div class="project-description">
               <h3>Turn your Podcast into a custom App</h3>
               <p>PodcastToApp is a digital product that allows podcast creators to automatically generate a mobile app from a URL source —like their Spotify podcast profile— and streamline their content distribution straight to the listeners’ phone with custom push notifications.</p>
