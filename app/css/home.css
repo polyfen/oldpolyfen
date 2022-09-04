@@ -369,9 +369,11 @@ h2 {
 
 
 @media (min-width: 375px) {
+
     div.project-cover {
       height: 200px;
     }
+    
 }
 
 @media (min-width: 576px) {
@@ -397,6 +399,7 @@ h2 {
 }
 
 @media (min-width: 768px) {
+
     div.project-cover {
       height: 350px;
       background-size: 150%;
@@ -405,9 +408,11 @@ h2 {
     h2 {
       max-width: 480px;
     }
+
 }
 
 @media (min-width: 992px) {
+
     div.project-cover {
       height: 400px;
       background-size: 140%;
@@ -416,9 +421,11 @@ h2 {
     div.project-description {
       padding-top: 75px;
     }
+
 }
 
 @media (min-width: 1200px) {
+
     div.project-cover {
       height: 550px;
       width: 100%;
@@ -430,6 +437,7 @@ h2 {
       padding-top: 100px;
       margin-left: 40px;
     }
+
 }
 
 @media (min-width: 1400px) {
@@ -512,13 +520,13 @@ div#partners img {
 
 @media (min-width: 1200px) {
 
-  section#about {
-    gap: 120px;
-  }
+    section#about {
+      gap: 120px;
+    }
 
-  div#partners {
-    gap: 60px;
-  }
+    div#partners {
+      gap: 60px;
+    }
 
 }
 
