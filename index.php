@@ -64,79 +64,82 @@
       </section>
       <!-- COVER end -->
 
-      <!-- FEATURED PROJECTS start -->
-      <section id="featured-projects">
-        <h2>Featured projects</h2>
+      <div class="lg-content-container">
 
-        <!-- TRADEANA start -->
-        <div class="featured-project">
-          <div id="tradeana-cover" class="project-cover tradeana-ACTIVE" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
-          <div class="project-description">
-            <h3>Your ForEx Risk Manager</h3>
-            <p>Tradeana’s patented software, Forex Risk Engine™ is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
-            <a href="/tradeana.php"><button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+        <!-- FEATURED PROJECTS start -->
+        <section id="featured-projects">
+          <h2>Featured projects</h2>
+
+          <!-- TRADEANA start -->
+          <div class="featured-project">
+            <div id="tradeana-cover" class="project-cover tradeana-ACTIVE" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
+            <div class="project-description">
+              <h3>Your ForEx Risk Manager</h3>
+              <p>Tradeana’s patented software, Forex Risk Engine™ is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
+              <a href="/tradeana.php"><button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+            </div>
           </div>
-        </div>
-        <!-- TRADEANA end -->
+          <!-- TRADEANA end -->
 
-        <!-- BIKE IN MEX start -->
-        <div class="featured-project">
-          <div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
-          <div class="project-description">
-            <h3>Bike in Mex</h3>
-            <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols set on the vibrant colors of Mexico’s flag.</p>
-            <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <!-- BIKE IN MEX start -->
+          <div class="featured-project">
+            <div id="bike-in-mex-cover" class="project-cover bike-in-mex-cover-ACTIVE" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
+            <div class="project-description">
+              <h3>Bike in Mex</h3>
+              <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols set on the vibrant colors of Mexico’s flag.</p>
+              <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
           </div>
-        </div>
-        <!-- BIKE IN MEX end -->
+          <!-- BIKE IN MEX end -->
 
-        <!-- PODCASTTOAPP start -->
-        <div class="featured-project" style="margin-bottom: 25px;">
-          <div id="podcasttoapp-cover" class="project-cover podcasttoapp-cover-ACTIVE" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
-          <div class="project-description">
-            <h3>Turn your Podcast into a custom App</h3>
-            <p>PodcastToApp is a digital product that allows podcast creators to automatically generate a mobile app from a URL source —like their Spotify podcast profile— and streamline their content distribution straight to the listeners’ phone with custom push notifications.</p>
-            <button class="secondary-button" id="podcasttoapp-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <!-- PODCASTTOAPP start -->
+          <div class="featured-project" style="margin-bottom: 25px;">
+            <div id="podcasttoapp-cover" class="project-cover podcasttoapp-cover-ACTIVE" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
+            <div class="project-description">
+              <h3>Turn your Podcast into a custom App</h3>
+              <p>PodcastToApp is a digital product that allows podcast creators to automatically generate a mobile app from a URL source —like their Spotify podcast profile— and streamline their content distribution straight to the listeners’ phone with custom push notifications.</p>
+              <button class="secondary-button" id="podcasttoapp-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
           </div>
+          <!-- PODCASTTOAPP end -->
+
+        </section>
+        <!-- FEATURED PROJECTS end -->
+
+
+
+        <div style="clear:both;">
         </div>
-        <!-- PODCASTTOAPP end -->
-
-      </section>
-      <!-- FEATURED PROJECTS end -->
-
-
-
-      <div style="clear:both;">
-      </div>
-      <div class="row">
-        <div class="horizontal-separator"></div>
-      </div>
-
-
-
-      <!-- ABOUT start -->
-      <section id="about">
-        <div style="max-width: 540px;">
-          <h2>The link between business &amp; creativity</h2>
-          <p>We are a small team of creatives from around the world based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+        <div class="row">
+          <div class="horizontal-separator"></div>
         </div>
+
+
+
+        <!-- ABOUT start -->
+        <section id="about">
+          <div style="max-width: 540px;">
+            <h2>The link between business &amp; creativity</h2>
+            <p>We are a small team of creatives from around the world based in Argentina combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
+          </div>
+        </section>
+        <!-- ABOUT end -->
+
+
+
+        <div style="clear:both;">
         </div>
-      </section>
-      <!-- ABOUT end -->
+        <div class="row">
+          <div class="horizontal-separator"></div>
+        </div>
 
 
 
-      <div style="clear:both;">
+        <!-- INCLUDE FOOTER.PHP start -->
+        <?php include 'sections/call-to-action.php';?>
+        <!-- INCLUDE FOOTER.PHP end -->
+
       </div>
-      <div class="row">
-        <div class="horizontal-separator"></div>
-      </div>
-
-
-
-      <!-- INCLUDE FOOTER.PHP start -->
-      <?php include 'sections/call-to-action.php';?>
-      <!-- INCLUDE FOOTER.PHP end -->
 
       <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/footer.php';?>

@@ -94,6 +94,12 @@ div.content-container ul, div.content-container ol {
   margin-bottom: 2rem;
 }
 
+div.lg-content-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 /*///////////// GENERAL END /////////////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/
@@ -213,10 +219,46 @@ section#call-to-action h2 a:hover {
   opacity: 1;
 }
 
+div.lg-content-container section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 580px) {
+
+    section {
+      padding-left: 25px !important;
+      padding-right: 25px !important;
+    }
+
+}
+
 @media (min-width: 768px) {
 
     section#call-to-action {
       margin-bottom: 170px;
+    }
+
+    section {
+      padding: 70px 35px !important;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    section {
+      padding-left: 65px !important;
+      padding-right: 65px !important;
+    }
+
+    section#call-to-action h2 {
+      text-align: center;
+      margin: auto;
+    }
+
+    section#call-to-action h2:first-of-type {
+      margin-bottom: 3px;
     }
 
 }

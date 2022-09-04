@@ -141,10 +141,6 @@ to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:
 
 @media(min-width:768px) {
 
-    section {
-      padding: 70px 35px!important;
-    }
-
     section#cover h1 {
       max-width: 650px;
     }
@@ -426,7 +422,7 @@ h2 {
     div.project-cover {
       height: 550px;
       width: 100%;
-      max-width: 650px;
+      max-width: 600px;
       background-size: 145%;
     }
 
@@ -439,7 +435,7 @@ h2 {
 @media (min-width: 1400px) {
 
     div.project-cover {
-      max-width: 720px;
+      max-width: 640px;
     }
 
 }
