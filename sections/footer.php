@@ -18,7 +18,7 @@
 <div class="d-block d-sm-none" style="clear:both;"></div>
 
 <div id="legal">
-  <a onclick="document.getElementById('privacy-policy').className='modal-wrapper d-block';document.documentElement.className='overflow-hidden';" ><small>Privacy Policy</small></a>
+  <a href="/privacy.php"><small>Privacy Policy</small></a>
 </div>
 
 <div class="d-block d-sm-none" style="clear:both;"></div>
