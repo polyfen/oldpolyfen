@@ -359,7 +359,7 @@ div.project-description {
 div.project-cover {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 32%;
+    background-position: center;
     width: 100%;
     height: 160px;
     border-radius: 4px;
@@ -457,6 +457,10 @@ div#tradeana-cover {
 
 div#bike-in-mex-cover {
     background-image: url(../../imgs/case-studies/bike-in-mex/bike-in-mex-flag.webp);
+}
+
+div#podcasttoapp-cover {
+    background-image: url(../../imgs/case-studies/podcasttoapp/podcasttoapp-thumbnail.png);
 }
 
 /*///////////// FEATURED PROJECTS END /////////////*/

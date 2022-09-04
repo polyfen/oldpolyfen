@@ -104,8 +104,8 @@ button.secondary-button {
   padding: 9px 30px;
   font-size: 21px;
   font-family: 'Biotif', Helvetica, Arial, sans-serif;
-  -webkit-transition:all .5s;
-  transition:all .5s;
+  -webkit-transition: none;
+  transition: none;
   text-transform: lowercase;
   font-variant: small-caps;
   letter-spacing: 0.75px;
@@ -119,10 +119,17 @@ button.secondary-button {
 button.secondary-button i.fa-angle-right {
   font-size: 1.5rem;
   opacity: 0.45;
+  display: block;
+  float: right;
+  padding-top: 1.5px;
 }
 
 button.secondary-button:hover, button.secondary-button-hover {
   box-shadow: 0 0 10px #ba00ff;
+}
+
+button.secondary-button:hover i.fa-angle-right, button.secondary-button-hover i.fa-angle-right {
+  opacity: 1;
 }
 
 button.secondary-button {

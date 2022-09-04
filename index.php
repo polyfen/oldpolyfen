@@ -83,7 +83,18 @@
             <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
           </div>
         </div>
-        <!-- BIKE IN MEX STUDY end -->
+        <!-- BIKE IN MEX end -->
+
+        <!-- PODCASTTOAPP start -->
+        <div class="featured-project" style="margin-bottom: 25px;">
+          <div id="podcasttoapp-cover" class="project-cover podcasttoapp-cover-ACTIVE" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
+          <div class="project-description">
+            <h3>Turn your Podcast into a custom App</h3>
+            <p>PodcastToApp is a digital product that allows podcast creators to automatically generate a mobile app from a URL source —like their Spotify podcast profile— and streamline their content distribution straight to the listeners’ phone with custom push notifications.</p>
+            <button class="secondary-button" id="podcasttoapp-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- PODCASTTOAPP end -->
 
       </section>
       <!-- FEATURED PROJECTS end -->
