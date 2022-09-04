@@ -140,7 +140,7 @@
                 Partner<br/>
                 &amp; CEO
               </small>
-            </di>
+            </div>
           </div>
         </section>
         <!-- ABOUT end -->
