@@ -72,7 +72,13 @@
 
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
-            <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';" onclick="window.open('https://www.instagram.com/p/B4Z2TDOgh5W/','_blank')"></div>
+            <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
+              <a href="https://www.instagram.com/p/B4Z2TDOgh5W/" target="_blank">
+                <figure>
+                  <img src="imgs/case-studies/bike-in-mex/bike-in-mex-flag.webp" loading="lazy" alt="Bike in Mex flag">
+                </figure>
+              </a>
+            </div>
             <div class="project-description">
               <h3>Bike in Mex</h3>
               <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
@@ -139,14 +145,14 @@
               </a>
             </div>
             <div id="francisco-martone">
-              <img src="imgs/about/francisco-martone.webp" alt="Francisco Martone" loading="lazy" class="portrait">
+              <img src="imgs/about/francisco-martone.webp" loading="lazy" alt="Francisco Martone" loading="lazy" class="portrait">
               <small>
                 <span class="name">Francisco Martone</span><br/>
                 <span class="position">Partner<br/>
                 &amp; CEO</span>
               </small>
               <a href="https://www.linkedin.com/in/franciscomartone/" target="_blank">
-                <img src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
+                <img src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
               </a>
             </div>
           </div>
