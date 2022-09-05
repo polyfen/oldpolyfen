@@ -13,7 +13,7 @@
     <meta property="og:title" content="Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
-    <meta name="description" property="og:description" content="We are a fully-remote team of creatives from around the world connected by our passion to design engaging brand identities." />
+    <meta name="description" property="og:description" content="We are a fully-remote team of creatives from around the world connected by our passion for designing engaging brand identities." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@WeArePolyfen" />
     <meta name="twitter:title" content="Polyfen" />
-    <meta name="twitter:description" content="We are a fully-remote team of creatives from around the world connected by our passion to design engaging brand identities." />
+    <meta name="twitter:description" content="We are a fully-remote team of creatives from around the world connected by our passion for designing engaging brand identities." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
@@ -75,7 +75,7 @@
             <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
             <div class="project-description">
               <h3>Bike in Mex</h3>
-              <p>A bicycle rental shop based in Tulum, Mexico. We designed a minimalist, geometric illustration inspired by ancient aztec and mayan symbols set on the vibrant colors of Mexico’s flag.</p>
+              <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
               <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
           </div>
@@ -86,7 +86,7 @@
             <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
             <div class="project-description">
               <h3>Tradeana</h3>
-              <p>Tradeana's patented software, Forex Risk Engine™ is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
+              <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
               <a href="/tradeana.php"><button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
             </div>
           </div>
@@ -97,7 +97,7 @@
             <div id="podcasttoapp-cover" class="project-cover coming-soon" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
             <div class="project-description">
               <h3>PodcastToApp</h3>
-              <p>PodcastToApp allows podcast creators to generate a mobile app without any coding from a URL source —like their Spotify podcast profile— and streamline their content straight to the listeners’ phone with push notifications.</p>
+              <p>PodcastToApp allows podcast creators to generate a mobile app without any coding from a URL source —like their Spotify podcast profile— and streamline their content straight to the listener's phone with push notifications.</p>
               <small>Coming Soon</small>
             </div>
           </div>
