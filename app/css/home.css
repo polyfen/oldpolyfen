@@ -363,6 +363,10 @@ div.project-cover {
   cursor: pointer;
 }
 
+div.coming-soon {
+  cursor: default;
+}
+
 h2 {
   max-width: 370px;
 }
@@ -457,7 +461,7 @@ h2 {
 }
 
 div#tradeana-cover {
-    background-image: url(../../imgs/case-studies/tradeana/tradeana-thumbnail.png);
+    background-image: url(../../imgs/case-studies/tradeana/tradeana-thumbnail.webp);
 }
 
 div#bike-in-mex-cover {
@@ -465,7 +469,7 @@ div#bike-in-mex-cover {
 }
 
 div#podcasttoapp-cover {
-    background-image: url(../../imgs/case-studies/podcasttoapp/podcasttoapp-thumbnail.png);
+    background-image: url(../../imgs/case-studies/podcasttoapp/podcasttoapp-thumbnail.webp);
 }
 
 /*///////////// FEATURED PROJECTS END /////////////*/

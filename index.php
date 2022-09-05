@@ -94,7 +94,7 @@
 
           <!-- PODCASTTOAPP start -->
           <div class="featured-project" style="margin-bottom: 25px;">
-            <div id="podcasttoapp-cover" class="project-cover" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
+            <div id="podcasttoapp-cover" class="project-cover coming-soon" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
             <div class="project-description">
               <h3>Turn your Podcast into a custom App</h3>
               <p>PodcastToApp is a digital product that allows podcast creators to automatically generate a mobile app from a URL source —like their Spotify podcast profile— and streamline their content distribution straight to the listeners’ phone with custom push notifications.</p>
@@ -122,11 +122,11 @@
             <h2>The link between business &amp; creativity</h2>
             <p style="margin-top:25px;">We are a fully-remote team of creatives from around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
             <p>Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
-            <p>We wrote the book on branding… or the next closest thing. <a href="https://polyatlas.wiki" target="_blank">Poly Atlas</a> is a free wiki of best practices in branding.</p>
+            <p>We wrote the book on branding… or the next best thing. <a href="https://polyatlas.wiki" target="_blank">Poly Atlas</a> is a free wiki of best practices in branding.</p>
           </div>
           <div id="partners">
             <div id="boris-hrncic">
-              <img src="imgs/about/boris-hrncic.jpg" alt="Boris Hrnčić" loading="lazy" class="portrait">
+              <img src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
               <small>
                 <span class="name">Boris Hrnčić</span><br/>
                 <span class="position">Managing Partner<br/>
@@ -137,7 +137,7 @@
               </a>
             </div>
             <div id="francisco-martone">
-              <img src="imgs/about/francisco-martone.jpg" alt="Francisco Martone" loading="lazy" class="portrait">
+              <img src="imgs/about/francisco-martone.webp" alt="Francisco Martone" loading="lazy" class="portrait">
               <small>
                 <span class="name">Francisco Martone</span><br/>
                 <span class="position">Partner<br/>
