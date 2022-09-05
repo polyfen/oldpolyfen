@@ -83,11 +83,11 @@
 
           <!-- TRADEANA start -->
           <div class="featured-project">
-            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
+            <div id="tradeana-cover coming-soon" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';"></div>
             <div class="project-description">
               <h3>Tradeana</h3>
               <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
-              <a href="/tradeana.php"><button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+              <small>Coming Soon</small>
             </div>
           </div>
           <!-- TRADEANA end -->
