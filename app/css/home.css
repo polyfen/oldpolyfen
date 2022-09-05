@@ -362,11 +362,21 @@ div.project-cover img {
   width: 100%;
 }
 
-div.coming-soon {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 4px;
+div.project-cover figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+div.project-cover figure:hover img {
+	-webkit-transform: scale(1.025);
+	transform: scale(1.025);
+}
+
+div.coming-soon figure:hover img {
+	-webkit-transform: none;
+	transform: none;
 }
 
 h2 {
@@ -460,14 +470,6 @@ h2 {
       max-width: 550px;
     }
 
-}
-
-div#tradeana-cover {
-    background-image: url(../../imgs/case-studies/tradeana/tradeana-thumbnail.webp);
-}
-
-div#podcasttoapp-cover {
-    background-image: url(../../imgs/case-studies/podcasttoapp/podcasttoapp-thumbnail.webp);
 }
 
 /*///////////// FEATURED PROJECTS END /////////////*/

@@ -91,7 +91,11 @@
 
           <!-- TRADEANA start -->
           <div class="featured-project">
-            <div id="tradeana-cover" class="project-cover coming-soon" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';"></div>
+            <div id="tradeana-cover" class="project-cover coming-soon" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';">
+              <figure>
+                <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
+              </figure>
+            </div>
             <div class="project-description">
               <h3>Tradeana</h3>
               <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
@@ -102,7 +106,11 @@
 
           <!-- PODCASTTOAPP start -->
           <div class="featured-project" style="margin-bottom: 25px;">
-            <div id="podcasttoapp-cover" class="project-cover coming-soon" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
+            <div id="podcasttoapp-cover" class="project-cover coming-soon" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';">
+              <figure>
+                <img src="imgs/case-studies/podcasttoapp/podcasttoapp-thumbnail.webp" loading="lazy" alt="PodcastToApp">
+              </figure>
+            </div>
             <div class="project-description">
               <h3>PodcastToApp</h3>
               <p>PodcastToApp allows podcast creators to generate a mobile app without any coding from a URL source —like their Spotify podcast profile— and streamline their content straight to the listener's phone with push notifications.</p>
