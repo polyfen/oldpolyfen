@@ -72,11 +72,13 @@
 
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
-            <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
+            <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';" onclick="window.open('https://www.instagram.com/p/B4Z2TDOgh5W/','_blank')"></div>
             <div class="project-description">
               <h3>Bike in Mex</h3>
               <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
-              <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/p/B4Z2TDOgh5W/" target="_blank">
+                <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
           <!-- BIKE IN MEX end -->
