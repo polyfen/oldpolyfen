@@ -70,17 +70,6 @@
         <section id="featured-projects">
           <h2>Featured projects</h2>
 
-          <!-- TRADEANA start -->
-          <div class="featured-project">
-            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
-            <div class="project-description">
-              <h3>Your ForEx Risk Manager</h3>
-              <p>Tradeana’s patented software, Forex Risk Engine™ is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
-              <a href="/tradeana.php"><button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
-            </div>
-          </div>
-          <!-- TRADEANA end -->
-
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
             <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';"></div>
@@ -92,12 +81,23 @@
           </div>
           <!-- BIKE IN MEX end -->
 
+          <!-- TRADEANA start -->
+          <div class="featured-project">
+            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';" onclick="location.href='/tradeana.php';"></div>
+            <div class="project-description">
+              <h3>Tradeana</h3>
+              <p>Tradeana's patented software, Forex Risk Engine™ is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
+              <a href="/tradeana.php"><button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+            </div>
+          </div>
+          <!-- TRADEANA end -->
+
           <!-- PODCASTTOAPP start -->
           <div class="featured-project" style="margin-bottom: 25px;">
             <div id="podcasttoapp-cover" class="project-cover coming-soon" onmouseover="document.getElementById('podcasttoapp-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('podcasttoapp-button').className='secondary-button';"></div>
             <div class="project-description">
-              <h3>Turn your Podcast into a custom App</h3>
-              <p>PodcastToApp is a digital product that allows podcast creators to automatically generate a mobile app from a URL source —like their Spotify podcast profile— and streamline their content distribution straight to the listeners’ phone with custom push notifications.</p>
+              <h3>PodcastToApp</h3>
+              <p>PodcastToApp allows podcast creators to generate a mobile app without any coding from a URL source —like their Spotify podcast profile— and streamline their content straight to the listeners’ phone with push notifications.</p>
               <small>Coming Soon</small>
             </div>
           </div>

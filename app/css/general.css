@@ -135,11 +135,12 @@ a button.secondary-button {
 }
 
 button.secondary-button i.fa-angle-right {
-  font-size: 1.5rem;
+  font-size: 1rem;
   opacity: 0.45;
   display: block;
   float: right;
-  padding-top: 1.5px;
+  padding-top: 4.5px;
+  padding-left: 8px;
 }
 
 button.secondary-button:hover, button.secondary-button-hover {
