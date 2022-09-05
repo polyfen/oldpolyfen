@@ -98,7 +98,7 @@
             <div class="project-description">
               <h3>Turn your Podcast into a custom App</h3>
               <p>PodcastToApp is a digital product that allows podcast creators to automatically generate a mobile app from a URL source —like their Spotify podcast profile— and streamline their content distribution straight to the listeners’ phone with custom push notifications.</p>
-              <button class="secondary-button" id="podcasttoapp-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              <small>Coming Soon</small>
             </div>
           </div>
           <!-- PODCASTTOAPP end -->
@@ -126,20 +126,26 @@
           </div>
           <div id="partners">
             <div id="boris-hrncic">
-              <img src="imgs/about/boris-hrncic.jpg" alt="Boris Hrnčić" loading="lazy">
+              <img src="imgs/about/boris-hrncic.jpg" alt="Boris Hrnčić" loading="lazy" class="portrait">
               <small>
-                Boris Hrnčić<br/>
-                Managing Partner<br/>
-                &amp; Art Director
+                <span class="name">Boris Hrnčić</span><br/>
+                <span class="position">Managing Partner<br/>
+                &amp; Art Director</span>
               </small>
+              <a href="https://www.linkedin.com/in/borishrncic/" target="_blank">
+                <img src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
+              </a>
             </div>
             <div id="francisco-martone">
-              <img src="imgs/about/francisco-martone.jpg" alt="Francisco Martone" loading="lazy">
+              <img src="imgs/about/francisco-martone.jpg" alt="Francisco Martone" loading="lazy" class="portrait">
               <small>
-                Francisco Martone<br/>
-                Partner<br/>
-                &amp; CEO
+                <span class="name">Francisco Martone</span><br/>
+                <span class="position">Partner<br/>
+                &amp; CEO</span>
               </small>
+              <a href="https://www.linkedin.com/in/franciscomartone/" target="_blank">
+                <img src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
+              </a>
             </div>
           </div>
         </section>

@@ -501,13 +501,32 @@ div#partners div {
   align-items: center;
 }
 
-div#partners img {
+div#partners img.portrait {
   width: 100%;
   max-width: 150px;
   height: auto;
   border-radius: 4px;
   filter: grayscale(100%);
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+div#partners small span.name {
+  color: #FFFFFF;
+}
+
+div#partners small span.position {
+  font-family: 'freight-text-pro', serif;
+  font-style: italic;
+}
+
+div#partners a img.linkedin {
+  opacity: 0.4;
+  height: 18px;
+  margin-top: 7px;
+}
+
+div#partners a:hover img.linkedin {
+  opacity: 1;
 }
 
 @media (min-width: 1073px) {
