@@ -13,7 +13,6 @@
 }
 
 h1, h2, h3, h4, h5, button, a.button, a small, small {
-  font-family: 'BiotifBold', 'Biotif', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -25,10 +24,14 @@ h1, h2, h3, h4, h5, button, a.button, a small, small {
 }
 
 h1 {
-    font-family: 'BiotifExtraBold', 'Biotif', Helvetica, Arial, sans-serif;
+  font-family: 'BiotifExtraBold', 'Biotif', Helvetica, Arial, sans-serif;
 }
 
-a small, small {
+h2, button, a.button {
+	font-family: 'BiotifBold', 'Biotif', Helvetica, Arial, sans-serif;
+}
+
+h3, h4, a small, small {
   font-family: 'BiotifMedium', 'Biotif', Helvetica, Arial, sans-serif;
 }
 
