@@ -16,10 +16,10 @@ h1, h2, h3, h4, h5, button, a.button, a small, small {
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
-  -ms-font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
-  -webkit-font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
-  font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
+  -moz-font-feature-settings: "kern","liga","calt";
+  -ms-font-feature-settings: "kern","liga","calt";
+  -webkit-font-feature-settings: "kern","liga","calt";
+  font-feature-settings: "kern","liga","calt";
   letter-spacing: 0.25px !important;
 }
 
