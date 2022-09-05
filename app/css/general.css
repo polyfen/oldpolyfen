@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Biotif', Helvetica, Arial, sans-serif;
+  font-family: 'BiotifMedium', 'Biotif', Helvetica, Arial, sans-serif;
   color: #d8d8d8;
 }
 
@@ -117,7 +117,7 @@ button.secondary-button {
   background: #7537f8;
   padding: 9px 30px;
   font-size: 21px;
-  font-family: 'Biotif', Helvetica, Arial, sans-serif;
+  font-family: 'BiotifBold', 'Biotif', Helvetica, Arial, sans-serif;
   -webkit-transition: none;
   transition: none;
   text-transform: lowercase;
@@ -258,7 +258,7 @@ div.lg-content-container section {
     }
 
     section#call-to-action h2:first-of-type {
-      margin-bottom: 3px;
+      margin-bottom: 5px;
     }
 
 }

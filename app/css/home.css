@@ -373,7 +373,7 @@ h2 {
     div.project-cover {
       height: 200px;
     }
-    
+
 }
 
 @media (min-width: 576px) {
@@ -451,7 +451,7 @@ h2 {
 @media (min-width: 1680px) {
 
     h2 {
-      max-width: 530px;
+      max-width: 550px;
     }
 
 }

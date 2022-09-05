@@ -1,0 +1,34 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HelveticaLTWXX-Roman by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-regular/
+ * Copyright: Copyright © 2014 Monotype Imaging Inc. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Incn*/
+
+
+
+  
+@font-face {
+  font-family: "BiotifMedium";
+  src: url('webFonts/BiotifMedium/font.woff2') format('woff2'), url('webFonts/BiotifMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiotifExtraBold";
+  src: url('webFonts/BiotifExtraBold/font.woff2') format('woff2'), url('webFonts/BiotifExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiotifBold";
+  src: url('webFonts/BiotifBold/font.woff2') format('woff2'), url('webFonts/BiotifBold/font.woff') format('woff');
+}
+

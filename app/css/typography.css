@@ -1,7 +1,19 @@
 /*///////////// TYPOGRAPHY START /////////////*/
 
+.BiotifMedium {
+	font-family: BiotifMedium;
+}
+
+.BiotifBold {
+	font-family: BiotifBold;
+}
+
+.BiotifExtraBold {
+	font-family: BiotifExtraBold;
+}
+
 h1, h2, h3, h4, h5, button, a.button, a small, small {
-  font-family: 'Biotif', Helvetica, Arial, sans-serif;
+  font-family: 'BiotifBold', 'Biotif', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -10,6 +22,14 @@ h1, h2, h3, h4, h5, button, a.button, a small, small {
   -webkit-font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
   font-feature-settings: "kern","liga","clig","calt","dlig","swsh";
   letter-spacing: 0.25px !important;
+}
+
+h1 {
+    font-family: 'BiotifExtraBold', 'Biotif', Helvetica, Arial, sans-serif;
+}
+
+a small, small {
+  font-family: 'BiotifMedium', 'Biotif', Helvetica, Arial, sans-serif;
 }
 
 p, p a, li, p strong, p span, li strong {
