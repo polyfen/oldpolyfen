@@ -114,7 +114,7 @@ button.secondary-button {
   display: block;
   border: 0;
   color: white;
-  background: #7537f8;
+  background: #060a24;
   padding: 9px 30px;
   font-size: 21px;
   font-family: 'BiotifBold', 'Biotif', Helvetica, Arial, sans-serif;
@@ -128,6 +128,7 @@ button.secondary-button {
   width: 220px;
   width: 100%;
   text-decoration: none;
+  border: 1px solid #7537f8;
 }
 
 a button.secondary-button {
@@ -145,6 +146,7 @@ button.secondary-button i.fa-angle-right {
 
 button.secondary-button:hover, button.secondary-button-hover {
   box-shadow: 0 0 10px #ba00ff;
+  background: #7537f8;
 }
 
 button.secondary-button:hover i.fa-angle-right, button.secondary-button-hover i.fa-angle-right {
@@ -152,7 +154,7 @@ button.secondary-button:hover i.fa-angle-right, button.secondary-button-hover i.
 }
 
 button.secondary-button {
-  max-width: 200px;
+  max-width: 208px;
 }
 
 /*///////////// BUTTONS END /////////////*/

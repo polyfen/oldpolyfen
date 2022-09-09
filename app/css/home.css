@@ -369,7 +369,7 @@ div.project-cover figure img {
 	transition: .2s ease-in-out;
 }
 
-div.project-cover figure:hover img {
+div.project-cover figure:hover img, div.project-cover-hover figure img {
 	-webkit-transform: scale(1.025);
 	transform: scale(1.025);
 }

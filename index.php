@@ -73,7 +73,7 @@
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
             <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
-              <a href="https://www.instagram.com/p/B4Z2TDOgh5W/" target="_blank">
+              <a href="https://www.instagram.com/p/B4Z2TDOgh5W/" target="_blank" >
                 <figure>
                   <img src="imgs/case-studies/bike-in-mex/bike-in-mex-flag.webp" loading="lazy" alt="Bike in Mex flag">
                 </figure>
@@ -82,8 +82,8 @@
             <div class="project-description">
               <h3>Bike in Mex</h3>
               <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
-              <a href="https://www.instagram.com/p/B4Z2TDOgh5W/" target="_blank">
-                <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="https://www.instagram.com/p/B4Z2TDOgh5W/" target="_blank" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
+                <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
               </a>
             </div>
           </div>
@@ -103,6 +103,21 @@
             </div>
           </div>
           <!-- TRADEANA end -->
+
+          <!-- VILLA TEREZIJA start -->
+          <div class="featured-project" style="margin-bottom: 25px;">
+            <div id="villa-terezija-cover" class="project-cover coming-soon" onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';">
+              <figure>
+                <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
+              </figure>
+            </div>
+            <div class="project-description">
+              <h3>Villa Terezija</h3>
+              <p>[TBD]</p>
+              <small>Coming Soon</small>
+            </div>
+          </div>
+          <!-- VILLA TEREZIJA end -->
 
           <!-- PODCASTTOAPP start -->
           <div class="featured-project" style="margin-bottom: 25px;">
