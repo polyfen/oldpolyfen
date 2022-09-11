@@ -24,17 +24,28 @@ div.slider img {
 
 .slick-dots {
     bottom: -35px !important;
+    margin-left: -10px !important;
 }
 
 #slider-container {
   background-image: URL('/imgs/spinner.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 40%;
 }
 
 section#call-to-action {
   margin-top: 40px;
 }
+
+@media (min-width:576px) {
+
+    #slider-container {
+      background-size: auto;
+    }
+
+}
+
 
 @media (min-width: 768px) {
 
