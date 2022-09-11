@@ -9,6 +9,23 @@ div.slider img {
   border-radius: 6px;
 }
 
+.slick-dots li button:before {
+  color: white !important;
+  width: auto !important;
+}
+
+.slick-dots li button {
+  width: auto !important;
+}
+
+.slick-dots li {
+  width: auto !important;
+}
+
+.slick-dots {
+    bottom: -35px !important; 
+}
+
 section#call-to-action {
   margin-top: 40px;
 }

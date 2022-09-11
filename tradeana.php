@@ -60,33 +60,33 @@
       <?php include 'sections/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
 
-      <div class="slider">
+      <div class="slider lazy">
         <div>
-          <img src="imgs/case-studies/tradeana/01_tradeana_cover.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/01_tradeana_cover.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/02_tradeana_intro.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/02_tradeana_intro.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/03_tradeana_tone.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/03_tradeana_tone.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/04_tradeana_keywords.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/04_tradeana_keywords.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/05_tradeana_creative-concept-description.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/05_tradeana_creative-concept-description.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/06_tradeana_creative-concept.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/06_tradeana_creative-concept.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/07_tradeana_naming.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/07_tradeana_naming.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/08_tradeana_typography.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/08_tradeana_typography.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/09_tradeana_color.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/09_tradeana_color.jpg" width="100%" height="auto">
         </div>
         <div>
           <img src="imgs/case-studies/tradeana/10_tradeana_early-drafts.jpg" width="100%" height="auto">
@@ -113,7 +113,15 @@
     <script type="text/javascript" src="libs/slick/slick/slick.min.js"></script>
 
     <script type="text/javascript">
-      $('.slider').slick();
+      $('.slider').slick({
+        dots: true,
+        infinite: false
+      });
+      $('.lazy').slick({
+        lazyLoad: 'ondemand',
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
     </script>
 
   </body>
