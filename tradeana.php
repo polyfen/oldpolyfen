@@ -74,25 +74,25 @@
           <img data-lazy="imgs/case-studies/tradeana/04_tradeana_keywords.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img data-lazy="imgs/case-studies/tradeana/06_tradeana_creative-concept.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/05_tradeana_creative-concept.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img data-lazy="imgs/case-studies/tradeana/07_tradeana_naming.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/06_tradeana_naming.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img data-lazy="imgs/case-studies/tradeana/08_tradeana_typography.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/07_tradeana_typography.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img data-lazy="imgs/case-studies/tradeana/09_tradeana_color.jpg" width="100%" height="auto">
+          <img data-lazy="imgs/case-studies/tradeana/08_tradeana_color.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/10_tradeana_early-drafts.jpg" width="100%" height="auto">
+          <img src="imgs/case-studies/tradeana/09_tradeana_early-drafts.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/11_tradeana_final-design.jpg" width="100%" height="auto">
+          <img src="imgs/case-studies/tradeana/10_tradeana_final-design.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img src="imgs/case-studies/tradeana/12_tradeana_web-design.jpg" width="100%" height="auto">
+          <img src="imgs/case-studies/tradeana/11_tradeana_web-design.jpg" width="100%" height="auto">
         </div>
       </div>
 
