@@ -109,7 +109,7 @@
           <!-- TRADEANA end -->
 
           <!-- VILLA TEREZIJA start -->
-          <div class="featured-project" style="margin-bottom: 25px;">
+          <div class="featured-project">
             <div id="villa-terezija-cover" class="project-cover coming-soon" onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';">
               <figure>
                 <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
