@@ -117,7 +117,7 @@
             </div>
             <div class="project-description">
               <h3>Villa Terezija</h3>
-              <p>[TBD]</p>
+              <p>A touristic accommodation surrounded by a stunning rose gardenin the quite town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
               <small>Coming Soon</small>
             </div>
           </div>
@@ -161,25 +161,29 @@
           </div>
           <div id="partners">
             <div id="boris-hrncic">
-              <img src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+              <a onmouseover="document.getElementById('boris-linkedin').className='linkedin linkedin-hover';document.getElementById('boris-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('boris-linkedin').className='linkedin';document.getElementById('boris-portrait').className='portrait';" href="https://www.linkedin.com/in/borishrncic/" target="_blank">
+                <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+              </a>
               <small>
                 <span class="name">Boris Hrnčić</span><br/>
                 <span class="position">Managing Partner<br/>
                 &amp; Art Director</span>
               </small>
-              <a href="https://www.linkedin.com/in/borishrncic/" target="_blank">
-                <img src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
+              <a onmouseover="document.getElementById('boris-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('boris-portrait').className='portrait';" href="https://www.linkedin.com/in/borishrncic/" target="_blank">
+                <img id="boris-linkedin" src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
               </a>
             </div>
             <div id="francisco-martone">
-              <img src="imgs/about/francisco-martone.webp" loading="lazy" alt="Francisco Martone" loading="lazy" class="portrait">
+              <a onmouseover="document.getElementById('fran-linkedin').className='linkedin linkedin-hover';document.getElementById('fran-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('fran-linkedin').className='linkedin';document.getElementById('fran-portrait').className='portrait';" href="https://www.linkedin.com/in/franciscomartone/" target="_blank">
+                <img id="fran-portrait" src="imgs/about/francisco-martone.webp" loading="lazy" alt="Francisco Martone" loading="lazy" class="portrait">
+              </a>
               <small>
                 <span class="name">Francisco Martone</span><br/>
                 <span class="position">Partner<br/>
                 &amp; CEO</span>
               </small>
-              <a href="https://www.linkedin.com/in/franciscomartone/" target="_blank">
-                <img src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
+              <a onmouseover="document.getElementById('fran-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('fran-portrait').className='portrait';" href="https://www.linkedin.com/in/franciscomartone/" target="_blank">
+                <img id="fran-linkedin" src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
               </a>
             </div>
           </div>

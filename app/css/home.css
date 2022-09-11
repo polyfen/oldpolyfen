@@ -493,6 +493,15 @@ div#partners img.portrait {
   border-radius: 4px;
   filter: grayscale(100%);
   margin-bottom: 20px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+div#partners img.portrait-hover {
+	-webkit-transform: scale(1.075);
+	transform: scale(1.075);
 }
 
 div#partners small span.name {
@@ -510,7 +519,7 @@ div#partners a img.linkedin {
   margin-top: 7px;
 }
 
-div#partners a:hover img.linkedin {
+div#partners a:hover img.linkedin, div#partners a img.linkedin-hover {
   opacity: 1;
 }
 
