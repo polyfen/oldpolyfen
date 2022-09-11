@@ -354,7 +354,6 @@ div.project-description {
 
 div.project-cover {
   width: 100%;
-  height: 160px;
 }
 
 div.project-cover img {
@@ -381,11 +380,6 @@ div.coming-soon figure:hover img {
 
 
 @media (min-width: 375px) {
-
-    div.project-cover {
-      height: 200px;
-    }
-
 }
 
 @media (min-width: 576px) {
@@ -416,7 +410,7 @@ div.coming-soon figure:hover img {
       height: 350px;
       background-size: 150%;
     }
-    
+
 }
 
 @media (min-width: 992px) {
