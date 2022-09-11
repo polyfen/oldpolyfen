@@ -222,6 +222,10 @@ section#call-to-action h2 a:hover {
   opacity: 1;
 }
 
+section#call-to-action h2 {
+  max-width: 370px;
+}
+
 div.lg-content-container section {
   padding-left: 15px;
   padding-right: 15px;
@@ -246,6 +250,10 @@ div.lg-content-container section {
       padding: 70px 35px !important;
     }
 
+    section#call-to-action h2 {
+      max-width: 480px;
+    }
+
 }
 
 @media (min-width:992px) {
@@ -262,6 +270,14 @@ div.lg-content-container section {
 
     section#call-to-action h2:first-of-type {
       margin-bottom: 5px;
+    }
+
+}
+
+@media (min-width: 1680px) {
+
+    section#call-to-action h2 {
+      max-width: 550px;
     }
 
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Polyfen | Tradena brand design</title>
+    <title>Polyfen | Tradena Brand Identity Design</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->

@@ -379,10 +379,6 @@ div.coming-soon figure:hover img {
 	transform: none;
 }
 
-h2 {
-  max-width: 370px;
-}
-
 
 @media (min-width: 375px) {
 
@@ -420,11 +416,7 @@ h2 {
       height: 350px;
       background-size: 150%;
     }
-
-    h2 {
-      max-width: 480px;
-    }
-
+    
 }
 
 @media (min-width: 992px) {
@@ -465,11 +457,6 @@ h2 {
 }
 
 @media (min-width: 1680px) {
-
-    h2 {
-      max-width: 550px;
-    }
-
 }
 
 /*///////////// FEATURED PROJECTS END /////////////*/
