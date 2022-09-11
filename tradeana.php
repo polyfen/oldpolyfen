@@ -74,9 +74,6 @@
           <img data-lazy="imgs/case-studies/tradeana/04_tradeana_keywords.jpg" width="100%" height="auto">
         </div>
         <div>
-          <img data-lazy="imgs/case-studies/tradeana/05_tradeana_creative-concept-description.jpg" width="100%" height="auto">
-        </div>
-        <div>
           <img data-lazy="imgs/case-studies/tradeana/06_tradeana_creative-concept.jpg" width="100%" height="auto">
         </div>
         <div>
@@ -93,6 +90,9 @@
         </div>
         <div>
           <img src="imgs/case-studies/tradeana/11_tradeana_final-design.jpg" width="100%" height="auto">
+        </div>
+        <div>
+          <img src="imgs/case-studies/tradeana/12_tradeana_web-design.jpg" width="100%" height="auto">
         </div>
       </div>
 
