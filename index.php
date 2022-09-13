@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Polyfen" />
     <meta name="twitter:description" content="We are a fully-remote team of creatives from around the world connected by our passion for designing engaging brand identities." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png" />
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex, nofollow">
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
