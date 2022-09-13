@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Tradena Brand Identity Design" />
     <meta name="twitter:description" content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations." />
     <meta name="twitter:image" content="[TBD]" />
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex, nofollow">
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
