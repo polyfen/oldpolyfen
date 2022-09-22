@@ -113,15 +113,14 @@ button.secondary-button {
   text-align: center;
   display: block;
   border: 0;
-  color: white;
+  color: rgba(255,255,255,.7) !important;
   background: #060a24;
-  padding: 9px 30px;
-  font-size: 21px;
-  font-family: 'BiotifBold', 'Biotif', Helvetica, Arial, sans-serif;
+  padding: 16px 30px 14px;
+  font-size: 14px;
+  font-family: 'BiotifMedium', 'Biotif', Helvetica, Arial, sans-serif;
   -webkit-transition: none;
   transition: none;
-  text-transform: lowercase;
-  font-variant: small-caps;
+  text-transform: uppercase;
   letter-spacing: 0.75px;
   float: left;
   margin-top: 0;
@@ -140,13 +139,14 @@ button.secondary-button i.fa-angle-right {
   opacity: 0.45;
   display: block;
   float: right;
-  padding-top: 4.5px;
   padding-left: 8px;
+  margin-top: -1px;
 }
 
 button.secondary-button:hover, button.secondary-button-hover {
   box-shadow: 0 0 10px #ba00ff;
   background: #7537f8;
+  color: rgba(255,255,255,1) !important;
 }
 
 button.secondary-button:hover i.fa-angle-right, button.secondary-button-hover i.fa-angle-right {
@@ -154,7 +154,7 @@ button.secondary-button:hover i.fa-angle-right, button.secondary-button-hover i.
 }
 
 button.secondary-button {
-  max-width: 208px;
+  max-width: 212px;
 }
 
 /*///////////// BUTTONS END /////////////*/
