@@ -121,7 +121,7 @@ button.secondary-button {
   -webkit-transition: none;
   transition: none;
   text-transform: uppercase;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.5px !important;
   float: left;
   margin-top: 0;
   width: 220px;
