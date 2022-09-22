@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Polyfen" />
     <meta name="twitter:description" content="We are a fully-remote team of creatives from around the world connected by our passion for designing engaging brand identities." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-homepage-thumbnail.png" />
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
@@ -91,15 +91,19 @@
 
           <!-- TRADEANA start -->
           <div class="featured-project">
-            <div id="tradeana-cover" class="project-cover coming-soon" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';">
-              <figure>
-                <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
-              </figure>
+            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';">
+              <a href="/tradeana.php">
+                <figure>
+                  <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
+                </figure>
+              </a>
             </div>
             <div class="project-description">
               <h3>Tradeana</h3>
               <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
-              <small>Coming Soon</small>
+              <a href="/tradeana.php" onmouseover="document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-cover').className='project-cover';">
+                <button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              </a>
             </div>
           </div>
           <!-- TRADEANA end -->
