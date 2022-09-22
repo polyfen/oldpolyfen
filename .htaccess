@@ -1,7 +1,233 @@
 
+RewriteOptions inherit
+
 RewriteEngine on
-Options +FollowSymLinks
-RewriteCond %{THE_REQUEST} ^.*/index.php
-RewriteRule ^(.*)index.php$ http://www.polyfen.com/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^facebook$ "http\:\/\/facebook\.com\/polyfen" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^instagram$ "http\:\/\/instagram\.com\/polyfen" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^linkedin$ "http\:\/\/linkedin\.com\/company\/polyfen" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^tumblr$ "http\:\/\/polyfenstudio\.tumblr\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^behance$ "http\:\/\/behance\.com\/polyfen" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^dribbble$ "http\:\/\/dribbble\.com\/polyfen" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^medium$ "http\:\/\/medium\.com\/\@polyfen" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^google$ "http\:\/\/plus\.google\.com\/102152451844774683926" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^case\-study$ "http\:\/\/polyfen\.com\/case\-study\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^pinterest$ "https\:\/\/www\.pinterest\.com\/polyfen\/brand\-identity\-design\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^slack$ "https\:\/\/polyfen\.slack\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^joinslack$ "https\:\/\/join\.slack\.com\/t\/polyfen\/shared_invite\/enQtMzM5MzYyNzEyNjEyLTNmMTM4YjBhYzhkYzRiODljYzcyMDg4M2E5MGZiMzQwZDczMjI5MGY2MWFhYzgzZjIwMjVmOTFiNDU0ZWYwODc" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^mail$ "https\:\/\/server120\.web\-hosting\.com\/webmail" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^hires\/ux\-ui$ "https\:\/\/polyfen\.com\/hires\/ux\-ui\-designer\.jpg" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^hires\/brand$ "https\:\/\/polyfen\.com\/hires\/brand\-designer\.jpg" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ux\-ui\-designer$ "https\:\/\/polyfen\.com\/hires\/ux\-ui\-designer\.jpg" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^brand\-designer$ "https\:\/\/polyfen\.com\/hires\/brand\-designer\.jpg" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^twitter$ "https\:\/\/twitter\.com\/TeamPolyfen" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^sales$ "https\:\/\/polyfen\.com\/shared\/how\-to\-boost\-your\-sales\-with\-branding\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^skype\/fran$ "https\:\/\/calendly\.com\/franciscomartone\/skype" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^boris$ "https\:\/\/www\.linkedin\.com\/in\/borishrncic" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^fran$ "https\:\/\/www\.linkedin\.com\/in\/franciscomartone" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^mariano$ "https\:\/\/www\.linkedin\.com\/in\/marianopagliere" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^juampa$ "https\:\/\/www\.linkedin\.com\/in\/jnadal" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^justin$ "https\:\/\/www\.linkedin\.com\/in\/wanderingsuarez" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^nahuel$ "https\:\/\/www\.linkedin\.com\/in\/nahuelmartinez" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^skype\/mariano$ "https\:\/\/calendly\.com\/marianopagliere\/skype" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^skype\/juampa$ "https\:\/\/calendly\.com\/juampa\/skype" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^skype\/justin$ "https\:\/\/calendly\.com\/justinsuarez\/skype" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^skype\/nahuel$ "https\:\/\/calendly\.com\/nahuel\-martinez\/skype" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^skype\/boris$ "https\:\/\/calendly\.com\/borishrncic\/skype" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^services$ "https\:\/\/polyfen\.com\/shared\/how\-to\-boost\-your\-sales\-with\-branding\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^about$ "https\:\/\/polyfen\.com\/shared\/a\-creative\-agency\-devoted\-to\-branding\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^presentation$ "https\:\/\/www\.linkedin\.com\/feed\/update\/urn\:li\:activity\:6604500414010277888\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^usl\/report$ "https\:\/\/drive\.google\.com\/file\/d\/19xbQaQiREEVTAq9gm85UpHr9\-TO8pGMY\/view\?usp\=sharing" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^usl\/scope$ "https\:\/\/drive\.google\.com\/file\/d\/1kwQ2_5b7\-BLP3W7l8t9sMTHxP_QtjEp3\/view\?usp\=sharing" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ux$ "https\:\/\/docs\.google\.com\/document\/d\/1mh1lTJaMAMBYRP1gyyBOkpTb\-6w9aZXYqWFXtJiAQlc\/edit\?usp\=sharing" [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit

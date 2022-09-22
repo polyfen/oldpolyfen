@@ -92,7 +92,7 @@
           <!-- TRADEANA start -->
           <div class="featured-project">
             <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';">
-              <a href="/tradeana.php">
+              <a href="/tradeana">
                 <figure>
                   <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
                 </figure>
@@ -101,7 +101,7 @@
             <div class="project-description">
               <h3>Tradeana</h3>
               <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
-              <a href="/tradeana.php" onmouseover="document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-cover').className='project-cover';">
+              <a href="/tradeana" onmouseover="document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-cover').className='project-cover';">
                 <button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
               </a>
             </div>
