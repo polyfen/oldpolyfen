@@ -75,7 +75,7 @@
             <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
               <a href="https://www.instagram.com/p/B4Z2TDOgh5W/" target="_blank" >
                 <figure>
-                  <img src="imgs/case-studies/bike-in-mex/bike-in-mex-flag.webp" loading="lazy" alt="Bike in Mex flag">
+                  <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex flag">
                 </figure>
               </a>
             </div>

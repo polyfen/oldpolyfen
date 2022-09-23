@@ -95,6 +95,9 @@
           <div>
             <img src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto">
           </div>
+          <div>
+            <img src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto">
+          </div>
         </div>
       </div>
 
