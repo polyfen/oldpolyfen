@@ -14,15 +14,15 @@
     <meta property="og:url" content="https://polyfen.com/tradeana"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
     <meta name="description" property="og:description" content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations." />
-    <meta property="og:image" content="[TBD]"/>
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/tradeana-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@WeArePolyfen" />
+    <meta name="twitter:site" content="@PolyfenAgency" />
     <meta name="twitter:title" content="Tradena Brand Identity Design" />
     <meta name="twitter:description" content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations." />
-    <meta name="twitter:image" content="[TBD]" />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/tradeana-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
