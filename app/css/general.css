@@ -220,6 +220,7 @@ section#call-to-action h2 a {
 section#call-to-action h2 a:hover {
   border-bottom: 3px solid #7537f8;
   opacity: 1;
+  color: white;
 }
 
 section#call-to-action h2 {
