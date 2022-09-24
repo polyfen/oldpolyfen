@@ -13,16 +13,16 @@
     <meta property="og:title" content="Bike in Mex Brand Identity Design"/>
     <meta property="og:url" content="https://polyfen.com/bike-in-mex"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
-    <meta name="description" property="og:description" content="[TBD]" />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/[TBD].png"/>
+    <meta name="description" property="og:description" content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico." />
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@PolyfenAgency" />
     <meta name="twitter:title" content="Bike in Mex Brand Identity Design" />
-    <meta name="twitter:description" content="[TBD]" />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/[TBD].png" />
+    <meta name="twitter:description" content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico." />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
@@ -63,7 +63,28 @@
       <div id="slider-container">
         <div class="slider lazy">
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/bike-in-mex/07_bike-in-mex_storefront.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto">
           </div>
         </div>
       </div>
