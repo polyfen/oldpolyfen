@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Polyfen | Tradena Brand Identity Design</title>
+    <title>Polyfen | Bike in Mex Brand Identity Design</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
@@ -10,19 +10,19 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Tradena Brand Identity Design"/>
-    <meta property="og:url" content="https://polyfen.com/tradeana"/>
+    <meta property="og:title" content="Bike in Mex Brand Identity Design"/>
+    <meta property="og:url" content="https://polyfen.com/bike-in-mex"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
-    <meta name="description" property="og:description" content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/tradeana-meta.png"/>
+    <meta name="description" property="og:description" content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico." />
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@PolyfenAgency" />
-    <meta name="twitter:title" content="Tradena Brand Identity Design" />
-    <meta name="twitter:description" content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/tradeana-meta.png" />
+    <meta name="twitter:title" content="Bike in Mex Brand Identity Design" />
+    <meta name="twitter:description" content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico." />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
@@ -63,40 +63,28 @@
       <div id="slider-container">
         <div class="slider lazy">
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto" alt="Tradeana Project Cover">
+            <img data-lazy="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%" height="auto" alt="Bike in Mex Project Cover">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto" alt="Tradeana Project Introduction">
+            <img data-lazy="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto" alt="Bike in Mex Logo Grid">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto" alt="Tradeana Brand Tone">
+            <img data-lazy="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%" height="auto" alt="Bike in Mex Logo Family">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%" height="auto" alt="Tradeana Brand Keywords">
+            <img data-lazy="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto" alt="Bike in Mex Bicycle">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto" alt="Tradeana Brand Creative Concept">
+            <img data-lazy="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%" height="auto" alt="Bike in Mex Mural">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto" alt="Tradeana Brand Naming">
+            <img data-lazy="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto" alt="Bike in Mex T-Shirts">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%" height="auto" alt="Tradeana Typography and Colors">
+            <img data-lazy="imgs/case-studies/bike-in-mex/07_bike-in-mex_storefront.webp" width="100%" height="auto" alt="Bike in Mex Storefront Sign">
           </div>
           <div>
-            <img src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%" height="auto" alt="Tradeana Logo Drafts">
-          </div>
-          <div>
-            <img src="imgs/case-studies/tradeana/09_tradeana_final-design.webp" width="100%" height="auto" alt="Tradeana Logo Design">
-          </div>
-          <div>
-            <img src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%" height="auto" alt="Tradeana Web Design">
-          </div>
-          <div>
-            <img src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto" alt="Tradeana Brand Guidelines">
-          </div>
-          <div>
-            <img src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto" alt="Tradeana Business Cards">
+            <img data-lazy="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto" alt="Bike in Mex Flag">
           </div>
         </div>
       </div>

@@ -121,8 +121,8 @@ div#legal {
 
   div#social-icons {
     float: none;
-    width: 30%;
-    left: calc(50% - 125px);
+    width: auto;
+    left: calc(50% - 72px);
     position: absolute;
     margin: 0;
     padding: 0;
