@@ -63,28 +63,28 @@
       <div id="slider-container">
         <div class="slider lazy">
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%" height="auto" alt="Bike in Mex Project Cover">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto" alt="Bike in Mex Logo Grid">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%" height="auto" alt="Bike in Mex Logo Family">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto" alt="Bike in Mex Bicycle">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%" height="auto" alt="Bike in Mex Mural">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto" alt="Bike in Mex T-Shirts">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/07_bike-in-mex_storefront.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/07_bike-in-mex_storefront.webp" width="100%" height="auto" alt="Bike in Mex Storefront Sign">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto" alt="Bike in Mex Flag">
           </div>
         </div>
       </div>
