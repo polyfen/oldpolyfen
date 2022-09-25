@@ -110,15 +110,19 @@
 
           <!-- VILLA TEREZIJA start -->
           <div class="featured-project">
-            <div id="villa-terezija-cover" class="project-cover coming-soon" onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';">
-              <figure>
-                <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
-              </figure>
+            <div id="villa-terezija-cover" class="project-cover" onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';">
+              <a href="/villa-terezija">
+                <figure>
+                  <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
+                </figure>
+              </a>
             </div>
             <div class="project-description">
               <h3>Villa Terezija</h3>
-              <p>A touristic accommodation surrounded by a stunning rose gardenin the quite town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
-              <small>Coming Soon</small>
+              <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
+              <a href="/villa-terezija" onmouseover="document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-cover').className='project-cover';">
+                <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              </a>
             </div>
           </div>
           <!-- VILLA TEREZIJA end -->
