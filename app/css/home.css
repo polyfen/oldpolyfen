@@ -447,7 +447,7 @@ div.coming-soon figure:hover img {
       float: right;
       top: -200px;
       left: 20px;
-      box-shadow: 0 0 4px 0px #00000073;
+      box-shadow: 0 0 15px 0px #00000033;
     }
 
     div.project-description {

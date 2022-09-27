@@ -154,6 +154,11 @@
               <figure>
                 <img src="imgs/case-studies/podcasttoapp/podcasttoapp-thumbnail.webp" loading="lazy" alt="PodcastToApp">
               </figure>
+              <div class="project-preview">
+                <figure>
+                  <img src="imgs/case-studies/podcasttoapp/podcasttoapp-preview.webp" loading="lazy" alt="PodcastToApp preview">
+                </figure>
+              </div>
             </div>
             <div class="project-description">
               <h3>PodcastToApp</h3>
