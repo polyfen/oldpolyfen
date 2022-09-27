@@ -72,12 +72,19 @@
 
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
-            <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';">
+            <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';document.getElementById('bike-in-mex-cover').className='project-cover';">
               <a href="/bike-in-mex">
                 <figure>
                   <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex flag">
                 </figure>
               </a>
+              <div class="project-preview">
+                <a href="/bike-in-mex">
+                  <figure>
+                    <img src="imgs/case-studies/bike-in-mex/bike-in-mex-preview.gif" loading="lazy" alt="Bike in Mex preview">
+                  </figure>
+                </a>
+              </div>
             </div>
             <div class="project-description">
               <h3>Bike in Mex</h3>
@@ -91,12 +98,19 @@
 
           <!-- TRADEANA start -->
           <div class="featured-project">
-            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';">
+            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-button').className='secondary-button';document.getElementById('tradeana-cover').className='project-cover';">
               <a href="/tradeana">
                 <figure>
                   <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
                 </figure>
               </a>
+              <div class="project-preview">
+                <a href="/tradeana">
+                  <figure>
+                    <img src="imgs/case-studies/tradeana/tradeana-preview.gif" loading="lazy" alt="Tradeana preview">
+                  </figure>
+                </a>
+              </div>
             </div>
             <div class="project-description">
               <h3>Tradeana</h3>
@@ -110,12 +124,19 @@
 
           <!-- VILLA TEREZIJA start -->
           <div class="featured-project">
-            <div id="villa-terezija-cover" class="project-cover" onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';" onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';">
+            <div id="villa-terezija-cover" class="project-cover" onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';document.getElementById('villa-terezija-cover').className='project-cover';">
               <a href="/villa-terezija">
                 <figure>
                   <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
                 </figure>
               </a>
+              <div class="project-preview">
+                <a href="/villa-terezija">
+                  <figure>
+                    <img src="imgs/case-studies/villa-terezija/villa-terezija-preview.gif" loading="lazy" alt="Villa Terezija preview">
+                  </figure>
+                </a>
+              </div>
             </div>
             <div class="project-description">
               <h3>Villa Terezija</h3>

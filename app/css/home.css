@@ -373,10 +373,15 @@ div.project-cover figure:hover img, div.project-cover-hover figure img {
 	transform: scale(1.025);
 }
 
+div.project-preview {
+  display: none;
+}
+
 div.coming-soon figure:hover img {
 	-webkit-transform: none;
 	transform: none;
 }
+
 
 
 @media (min-width: 375px) {
@@ -433,6 +438,16 @@ div.coming-soon figure:hover img {
       width: 100%;
       max-width: 600px;
       background-size: 145%;
+    }
+
+    div.project-preview {
+      display: flex;
+      width: 340px;
+      position: relative;
+      float: right;
+      top: -200px;
+      left: 20px;
+      box-shadow: 0 0 4px 0px #00000073;
     }
 
     div.project-description {
