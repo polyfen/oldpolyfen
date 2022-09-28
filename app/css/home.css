@@ -515,6 +515,7 @@ div#partners img.portrait {
 }
 
 div#partners img.portrait-hover {
+  filter: grayscale(0%);
 	-webkit-transform: scale(1.075);
 	transform: scale(1.075);
 }
