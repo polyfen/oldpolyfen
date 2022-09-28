@@ -163,13 +163,60 @@
             <div class="project-description">
               <h3>PodcastToApp</h3>
               <p>PodcastToApp allows podcast creators to generate a mobile app without any coding from a URL source —like their Spotify podcast profile— and streamline their content straight to the listener's phone with push notifications.</p>
-              <small>Coming Soon</small>
+              <small style="text-transform:uppercase;">Coming Soon</small>
             </div>
           </div>
           <!-- PODCASTTOAPP end -->
 
         </section>
         <!-- FEATURED PROJECTS end -->
+
+
+
+        <div style="clear:both;">
+        </div>
+        <div class="row">
+          <div class="horizontal-separator"></div>
+        </div>
+
+
+        <!-- SERVICES start -->
+        <section id="services">
+          <h2>Expert design services<br/>that scale with your business</h2>
+
+          <div style="display:flex;flex-direction:row;margin-top:60px;">
+            <div style="width:calc(50% - 20px);float:left;">
+              <h3>What we do</h3>
+              <ul style="margin-left:25px;">
+                <li>Brand Auditing</li>
+                <li>Market Research</li>
+                <li>Brand Strategy</li>
+                <li>Naming</li>
+                <li>Logo Design</li>
+                <li>Visual Identity Design</li>
+                <li>Packaging</li>
+                <li>Brand Guidelines</li>
+                <li>Web Development</li>
+                <li>Product Development</li>
+                <li>Business Cards</li>
+                <li>Pitch Decks</li>
+                <li>Social Media Marketing</li>
+                <li>Landing Pages</li>
+                <li>And more...</li>
+              </ul>
+            </div>
+
+            <div style="width:calc(50% - 20px);float:right;">
+              <h3>How we do it</h3>
+              <ul style="margin-left:25px;">
+                <li>Executive Consulting</li>
+                <li>Staff Augmentation</li>
+                <li>End-to-End Project Development</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- SERVICES end -->
 
 
 
@@ -187,7 +234,6 @@
             <h2>The link between business &amp; creativity</h2>
             <p style="margin-top:25px;">We are a fully-remote team of creatives from around the world combining our talents in design, marketing, and tech under the flag name of <strong>Polyfen</strong>.</p>
             <p>Our services are a solution for new and emerging businesses who need guidance in translating their business strategy into an engaging brand identity.</p>
-            <p>We wrote the book on branding… or the next best thing. <a href="https://polyatlas.wiki" target="_blank">Poly Atlas</a> is a free wiki of best practices in branding.</p>
           </div>
           <div id="partners">
             <div id="boris-hrncic">
