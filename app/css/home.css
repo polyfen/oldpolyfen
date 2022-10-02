@@ -483,6 +483,65 @@ section#about {
   gap: 60px;
 }
 
+section#services div#services-container {
+  display:flex;
+  flex-direction:column;
+  margin-top:60px;
+}
+
+div#what-we-do, div#how-we-do-it {
+  width:100%;
+}
+
+div#what-we-do {
+  margin-bottom: 80px;
+}
+
+section#services ul {
+  list-style-image: url("../../imgs/arrow-right.svg");
+}
+
+
+
+div#how-we-do-it-content {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+div#how-we-do-it div.contract-type {
+  display: flex;
+}
+
+div#how-we-do-it div.contract-type div.contract-type-image {
+  min-width: 50px;
+  text-align: center;
+  float: left;
+  margin-right: 17px;
+}
+
+@media (min-width: 749px) {
+
+  section#services div#services-container {
+    flex-direction:row;
+  }
+
+  div#what-we-do, div#how-we-do-it {
+    width:calc(50% - 20px);
+  }
+
+  div#what-we-do {
+    float:left;
+    margin-bottom: 0;
+  }
+
+  div#how-we-do-it {
+    float:right;
+  }
+
+}
+
 div#partners {
   display: flex;
   flex-direction: row;
@@ -515,6 +574,7 @@ div#partners img.portrait {
 }
 
 div#partners img.portrait-hover {
+  filter: grayscale(0%);
 	-webkit-transform: scale(1.075);
 	transform: scale(1.075);
 }

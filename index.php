@@ -163,13 +163,84 @@
             <div class="project-description">
               <h3>PodcastToApp</h3>
               <p>PodcastToApp allows podcast creators to generate a mobile app without any coding from a URL source —like their Spotify podcast profile— and streamline their content straight to the listener's phone with push notifications.</p>
-              <small>Coming Soon</small>
+              <small style="text-transform:uppercase;">Coming Soon</small>
             </div>
           </div>
           <!-- PODCASTTOAPP end -->
 
         </section>
         <!-- FEATURED PROJECTS end -->
+
+
+
+        <div style="clear:both;">
+        </div>
+        <div class="row">
+          <div class="horizontal-separator"></div>
+        </div>
+
+
+        <!-- SERVICES start -->
+        <section id="services">
+          <h2>Design services<br/>that scale with your business</h2>
+
+          <div id="services-container">
+            <div id="what-we-do">
+              <h3>What we do</h3>
+              <ul style="margin-left:25px;margin-top:25px;">
+                <li>Brand Auditing</li>
+                <li>Market Research</li>
+                <li>Brand Strategy</li>
+                <li>Naming</li>
+                <li>Logo Design</li>
+                <li>Visual Identity Design</li>
+                <li>Packaging</li>
+                <li>Brand Guidelines</li>
+                <li>Web Design &amp; Development</li>
+                <li>Product Design &amp; Development</li>
+                <li>Business Cards</li>
+                <li>Pitch Decks</li>
+                <li>Social Media Marketing</li>
+                <li>Landing Pages</li>
+                <li>and more...</li>
+              </ul>
+            </div>
+
+            <div id="how-we-do-it">
+              <h3>How we do it</h3>
+              <div id="how-we-do-it-content">
+                <div class="contract-type">
+                  <div class="contract-type-image">
+                    <img src="imgs/services/path.svg" height="50px" width="auto">
+                  </div>
+                  <div class="contract-type-description">
+                    <h4>End-to-End Project</h4>
+                    <p>Does your business need a new brand identity that truly highlights the quality of your products and services? We take care of everything in designing that new brand identity and delivering all the assets and guidelines you need within a predefined project budget tailored to your needs.</p>
+                  </div>
+                </div>
+                <div class="contract-type">
+                  <div class="contract-type-image">
+                    <img src="imgs/services/lightning-bolt.svg" height="50px" width="auto">
+                  </div>
+                  <div class="contract-type-description">
+                    <h4>Executive Consulting</h4>
+                    <p>Continuous collaboration with analysis, insights, and practical solutions on branding, marketing, and design at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
+                  </div>
+                </div>
+                <div class="contract-type">
+                  <div class="contract-type-image">
+                    <img src="imgs/services/staff-augmentation.svg" height="50px" width="auto">
+                  </div>
+                  <div class="contract-type-description">
+                    <h4>Staff Augmentation</h4>
+                    <p>We handle your creative team’s surplus workload and increase your capacity with our certified, diverse crew ready to jump on board and start delivering at a moment’s notice.</p>
+                  </div>
+                <div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SERVICES end -->
 
 
 
