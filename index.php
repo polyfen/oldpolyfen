@@ -182,12 +182,12 @@
 
         <!-- SERVICES start -->
         <section id="services">
-          <h2>Expert design services<br/>that scale with your business</h2>
+          <h2>Design services<br/>that scale with your business</h2>
 
-          <div style="display:flex;flex-direction:row;margin-top:60px;">
-            <div style="width:calc(50% - 20px);float:left;">
+          <div id="services-container">
+            <div id="what-we-do">
               <h3>What we do</h3>
-              <ul style="margin-left:25px;">
+              <ul style="margin-left:25px;margin-top:25px;">
                 <li>Brand Auditing</li>
                 <li>Market Research</li>
                 <li>Brand Strategy</li>
@@ -196,23 +196,47 @@
                 <li>Visual Identity Design</li>
                 <li>Packaging</li>
                 <li>Brand Guidelines</li>
-                <li>Web Development</li>
-                <li>Product Development</li>
+                <li>Web Design &amp; Development</li>
+                <li>Product Design &amp; Development</li>
                 <li>Business Cards</li>
                 <li>Pitch Decks</li>
                 <li>Social Media Marketing</li>
                 <li>Landing Pages</li>
-                <li>And more...</li>
+                <li>and more...</li>
               </ul>
             </div>
 
-            <div style="width:calc(50% - 20px);float:right;">
+            <div id="how-we-do-it">
               <h3>How we do it</h3>
-              <ul style="margin-left:25px;">
-                <li>Executive Consulting</li>
-                <li>Staff Augmentation</li>
-                <li>End-to-End Project Development</li>
-              </ul>
+              <div id="how-we-do-it-content">
+                <div class="contract-type">
+                  <div class="contract-type-image">
+                    <img src="imgs/services/path.svg" height="50px" width="auto">
+                  </div>
+                  <div class="contract-type-description">
+                    <h4>End-to-End Project</h4>
+                    <p>Does your business need a new brand identity that truly highlights the quality of your products and services? We take care of everything in designing that new brand identity and delivering all the assets and guidelines you need within a predefined project budget tailored to your needs.</p>
+                  </div>
+                </div>
+                <div class="contract-type">
+                  <div class="contract-type-image">
+                    <img src="imgs/services/lightning-bolt.svg" height="50px" width="auto">
+                  </div>
+                  <div class="contract-type-description">
+                    <h4>Executive Consulting</h4>
+                    <p>Continuous collaboration with analysis, insights, and practical solutions on branding, marketing, and design at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
+                  </div>
+                </div>
+                <div class="contract-type">
+                  <div class="contract-type-image">
+                    <img src="imgs/services/staff-augmentation.svg" height="50px" width="auto">
+                  </div>
+                  <div class="contract-type-description">
+                    <h4>Staff Augmentation</h4>
+                    <p>We handle your creative team’s surplus workload and increase your capacity with our certified, diverse crew ready to jump on board and start delivering at a moment’s notice.</p>
+                  </div>
+                <div>
+              </div>
             </div>
           </div>
         </section>
