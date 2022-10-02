@@ -69,19 +69,19 @@
       <div id="slider-container">
         <div class="slider lazy">
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%" height="auto" alt="Villa Terezija Project Cover">
+            <img data-lazy="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%" height="auto" alt="Villa Terezija Project Intro">
+            <img data-lazy="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp" width="100%" height="auto" alt="Villa Terezija Logo Drafts">
+            <img data-lazy="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%" height="auto" alt="Villa Terezija Logo Grid">
+            <img data-lazy="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/05_villa-terezija_applications.webp" width="100%" height="auto" alt="Villa Terezija Touchpoints">
+            <img data-lazy="imgs/case-studies/villa-terezija/05_villa-terezija_applications.webp" width="100%" height="auto">
           </div>
         </div>
       </div>

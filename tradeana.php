@@ -69,40 +69,40 @@
       <div id="slider-container">
         <div class="slider lazy">
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto" alt="Tradeana Project Cover">
+            <img data-lazy="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto" alt="Tradeana Project Introduction">
+            <img data-lazy="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto" alt="Tradeana Brand Tone">
+            <img data-lazy="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%" height="auto" alt="Tradeana Brand Keywords">
+            <img data-lazy="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto" alt="Tradeana Brand Creative Concept">
+            <img data-lazy="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto" alt="Tradeana Brand Naming">
+            <img data-lazy="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%" height="auto" alt="Tradeana Typography and Colors">
+            <img data-lazy="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%" height="auto">
           </div>
           <div>
-            <img src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%" height="auto" alt="Tradeana Logo Drafts">
+            <img src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%" height="auto">
           </div>
           <div>
-            <img src="imgs/case-studies/tradeana/09_tradeana_final-design.webp" width="100%" height="auto" alt="Tradeana Logo Design">
+            <img src="imgs/case-studies/tradeana/09_tradeana_final-design.webp" width="100%" height="auto">
           </div>
           <div>
-            <img src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%" height="auto" alt="Tradeana Web Design">
+            <img src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%" height="auto">
           </div>
           <div>
-            <img src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto" alt="Tradeana Brand Guidelines">
+            <img src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto">
           </div>
           <div>
-            <img src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto" alt="Tradeana Business Cards">
+            <img src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto">
           </div>
         </div>
       </div>
