@@ -1,3 +1,9 @@
+h2#case-study-title {
+  margin: 120px auto 40px;
+  text-align: center;
+}
+
+
 div#project-navigation-container {
   width: 100%;
   max-width: 1200px;

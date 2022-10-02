@@ -60,11 +60,7 @@
       <?php include 'sections/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
 
-      <div id="project-navigation-container">
-        <a href="/">
-          <button class="button secondary-button">‹ Back home</button>
-        </a>
-      </div>
+      <h2 id="case-study-title">Tradeana</h2>
 
       <div id="slider-container">
         <div class="slider lazy">
