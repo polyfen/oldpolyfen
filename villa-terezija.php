@@ -86,6 +86,48 @@
         </div>
       </div>
 
+      <div style="clear:both;">
+      </div>
+      <div class="row">
+        <div class="horizontal-separator"></div>
+      </div>
+
+      <div id="other-projects-container">
+        <h3>Other Projects</h3>
+
+        <div id="bike-in-mex-project-navigation" class="other-project-card">
+          <a href="/bike-in-mex">
+            <figure>
+              <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex">
+            </figure>
+          </a>
+          <h4>Bike in Mex</h4>
+          <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
+          <a href="/bike-in-mex">
+            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+          </a>
+        </div>
+
+        <div id="tradeana-project-navigation" class="other-project-card">
+          <a href="/tradeana">
+            <figure>
+              <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
+            </figure>
+          </a>
+          <h4>Tradeana</h4>
+          <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
+          <a href="/tradeana">
+            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+          </a>
+        </div>
+      </div>
+
+      <div style="clear:both;">
+      </div>
+      <div class="row">
+        <div class="horizontal-separator"></div>
+      </div>
+
       <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/call-to-action.php';?>
       <!-- INCLUDE FOOTER.PHP end -->

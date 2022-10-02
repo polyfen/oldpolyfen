@@ -96,6 +96,48 @@
         </div>
       </div>
 
+      <div style="clear:both;">
+      </div>
+      <div class="row">
+        <div class="horizontal-separator"></div>
+      </div>
+
+      <div id="other-projects-container">
+        <h3>Other Projects</h3>
+
+        <div id="tradeana-project-navigation" class="other-project-card">
+          <a href="/tradeana">
+            <figure>
+              <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
+            </figure>
+          </a>
+          <h4>Tradeana</h4>
+          <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
+          <a href="/tradeana">
+            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+          </a>
+        </div>
+
+        <div id="villa-terezija-project-navigation" class="other-project-card">
+          <a href="/villa-terezija">
+            <figure>
+              <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
+            </figure>
+          </a>
+          <h4>Villa Terezija</h4>
+          <p>A touristic accommodation surrounded by a stunning rose garden.</p>
+          <a href="/villa-terezija">
+            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+          </a>
+        </div>
+      </div>
+
+      <div style="clear:both;">
+      </div>
+      <div class="row">
+        <div class="horizontal-separator"></div>
+      </div>
+
       <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'sections/call-to-action.php';?>
       <!-- INCLUDE FOOTER.PHP end -->
