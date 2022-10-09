@@ -129,7 +129,7 @@
             </div>
             <div class="bio">
               <h5>Boris Hrnčić</h5>
-              <p>Having over 10 years of experience in design, I leverage my technical expertise and people skills to successfully lead teams and contribute to projects that make the business stand out in the global marketplace.</p>
+              <p>Having over 10 years of experience in design, I've honed over 100 branding projects under my belt. As a business owner, I can relate to your pain points and speak the same language with practical advice.</p>
               <a href="https://boris.hr" target="blank"><small>Personal web &nearr;</small></a> <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
             </div>
           </div>
