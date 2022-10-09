@@ -33,6 +33,7 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <!-- https://www.npmjs.com/package/canvas-confetti -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 
