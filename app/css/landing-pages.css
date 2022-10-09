@@ -4,12 +4,12 @@ div#boris-hrncic {
 }
 
 div.portrait {
-  min-width: 180px;
+  min-width: 210px;
 }
 
 div#boris-hrncic img.portrait {
     width: 100%;
-    max-width: 150px;
+    max-width: 180px;
     height: auto;
     border-radius: 4px;
     filter: grayscale(100%);
@@ -23,13 +23,20 @@ div#boris-hrncic img.portrait {
 div.bio h5 {
   font-size:20px;
   margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 div.bio p {
   font-size: 18px;
   margin-bottom: 20px;
+  max-width: 380px;
 }
 
 div.bio a:first-of-type {
   margin-right: 15px;
+}
+
+h4 {
+  line-height: 1.4;
+  max-width: 600px;
 }

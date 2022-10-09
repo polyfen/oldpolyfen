@@ -12,7 +12,7 @@
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="Get a free Brand Audit for your Business"/>
     <meta property="og:url" content="https://polyfen.com/brand-audits"/>
-    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
+    <meta name="keywords" content="Free, Brand, Audit, Report, Branding, Marketing, Business, Digital, Analysis, Research, Strategy, Logo, Visual Identity, Website, Web, UX, Experience, CX, Growth, Scale, Start-up" />
     <meta name="description" property="og:description" content="Apply for a full custom report listing how your business can improve its brand and website." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/brand-audits.png"/>
     <meta property="og:image:width" content="1200" />
@@ -121,7 +121,7 @@
             <div class="horizontal-separator"></div>
           </div>
 
-          <h4>If selected, I will personally take the time to make a thorough analysis of your brand's online presence and advise you with a free consultation.</h4>
+          <h4>I'll personally take the time to analyse your brand's online presence and advise you with a free consultation.</h4>
 
           <div id="boris-hrncic">
             <div class="portrait">
@@ -129,7 +129,7 @@
             </div>
             <div class="bio">
               <h5>Boris Hrnčić</h5>
-              <p>Having over 10 years of experience in design, I've honed over 100 branding projects under my belt. As a business owner, I can relate to your pain points and speak the same language with practical advice.</p>
+              <p>Having over 10 years of experience in design, I've honed over 100 branding projects. As a business owner, I can relate to your pain points and speak the same language with practical advice.</p>
               <a href="https://boris.hr" target="blank"><small>Personal web &nearr;</small></a> <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
             </div>
           </div>
