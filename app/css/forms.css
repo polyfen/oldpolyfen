@@ -1,0 +1,39 @@
+input#mc-embedded-subscribe {
+    margin-top:30px;
+    max-width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ba00ff;
+    background: #7537f8;
+    font-family: 'BiotifBold', 'Biotif', Helvetica, Arial, sans-serif;
+}
+
+input#mc-embedded-subscribe:hover {
+    background: #6325ea;
+}
+
+div.half-column-input {
+    max-width:calc(50% - 20px);
+    float:left;
+}
+
+div.half-column-input:nth-of-type(2) {
+    float: right;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+input {
+    margin-bottom: 18px;
+    background: none;
+    border-radius: 7px;
+    border: 1px solid #7537f8;
+}
+
+input:focus, textarea:focus {
+    background-color: #4500a93d;
+    border: 1px solid #4500a93d;
+}
