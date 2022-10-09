@@ -28,6 +28,7 @@
 
     <!-- PAGE-SPECIFIC CSS start -->
     <link rel="stylesheet" href="app/css/forms.css" type="text/css">
+    <link rel="stylesheet" href="app/css/landing-pages.css" type="text/css">
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
@@ -110,11 +111,28 @@
                 </div>
             </form>
             </div>
-
             <!--End mc_embed_signup-->
 
-      </div>
+          </div>
 
+          <div style="clear:both;">
+          </div>
+          <div class="row">
+            <div class="horizontal-separator"></div>
+          </div>
+
+          <h4>If selected, I will personally take the time to make a thorough analysis of your brand's online presence and advise you with a free consultation.</h4>
+
+          <div id="boris-hrncic">
+            <div class="portrait">
+              <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+            </div>
+            <div class="bio">
+              <h5>Boris Hrnčić</h5>
+              <p>Having over 10 years of experience in design, I leverage my technical expertise and people skills to successfully lead teams and contribute to projects that make the business stand out in the global marketplace.</p>
+              <a href="https://boris.hr" target="blank"><small>Personal web &nearr;</small></a> <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
+            </div>
+          </div>
 
       </div>
 

@@ -1,0 +1,35 @@
+div#boris-hrncic {
+  margin-top: 40px;
+  display: flex;
+}
+
+div.portrait {
+  min-width: 180px;
+}
+
+div#boris-hrncic img.portrait {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 4px;
+    filter: grayscale(100%);
+    margin-bottom: 20px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+div.bio h5 {
+  font-size:20px;
+  margin-bottom: 10px;
+}
+
+div.bio p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+div.bio a:first-of-type {
+  margin-right: 15px;
+}
