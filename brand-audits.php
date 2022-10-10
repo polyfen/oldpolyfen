@@ -51,13 +51,14 @@
       <?php include 'sections/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
 
-      <div class="content-container">
+      <div class="content-container landing-page-container">
       
-        <h2 style="text-align:center;line-height:1.25;">We're giving away<br/>4 Brand Audits for free<br/>this October</h2>
-
-        <p style="max-width:500px;margin:0 auto auto;text-align:center;">Apply for a full custom report listing how your business can improve its brand and website.</p>
-   
-        <div id="form-container" style="max-width:400px;margin:60px auto 120px;">
+        <div id="landing-page-cover">
+          <h2>We're giving away 4 Brand Audits for free this October</h2>
+          <p>Apply for a full custom report listing how your business can improve its brand and website.</p>
+        </div>
+        
+        <div id="form-container">
 
         <!--
         <form style="text-align:center;">
@@ -133,6 +134,12 @@
               <p>Having over 10 years of experience in design, I've honed over 100 branding projects. As a business owner, I can relate to your pain points and speak the same language with practical advice.</p>
               <a href="https://boris.hr" target="blank"><small>Personal web &nearr;</small></a> <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
             </div>
+          </div>
+
+          <div id="final-cta-container">
+            <a href="#landing-page-cover">
+              <button class="button secondary-button" id="final-cta">↑ Claim your report ↑</button>
+            </a>
           </div>
 
       </div>

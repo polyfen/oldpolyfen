@@ -6,6 +6,7 @@ input#mc-embedded-subscribe {
     box-shadow: 0 0 10px #ba00ff;
     background: #7537f8;
     font-family: 'BiotifBold', 'Biotif', Helvetica, Arial, sans-serif;
+    margin-right: -20px;
 }
 
 input#mc-embedded-subscribe:hover {
@@ -36,4 +37,12 @@ input {
 input:focus, textarea:focus {
     background-color: #4500a93d;
     border: 1px solid #4500a93d;
+}
+
+@media (min-width:768px) {
+
+    input#mc-embedded-subscribe {
+        margin-right: auto;
+    }
+
 }

@@ -1,6 +1,25 @@
+div.landing-page-container {
+
+}
+
+div.landing-page-container div#landing-page-cover h2 {
+  text-align:center;
+  line-height:1.25;
+  margin-bottom: 20px;
+}
+
+div.landing-page-container div#landing-page-cover p {
+  max-width:500px;
+  margin:0 auto auto;
+  text-align:center;
+}
+
+
 div#boris-hrncic {
   margin-top: 40px;
   display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
 }
 
 div.portrait {
@@ -29,7 +48,7 @@ div.bio h5 {
 div.bio p {
   font-size: 18px;
   margin-bottom: 20px;
-  max-width: 380px;
+  max-width: 320px;
 }
 
 div.bio a:first-of-type {
@@ -47,5 +66,59 @@ h4 {
 }
 
 div.content-container {
-  max-width: 600px;
+  max-width: 355px;
+  pad: 0 10px;
+}
+
+div#form-container {
+  max-width: 330px;
+  margin: 60px 0 80px 0;
+}
+
+button#final-cta {
+  width: 100%;
+  max-width: 340px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media (min-width:768px) {
+
+    div#boris-hrncic {
+      flex-direction: row;
+    }
+      
+    div.content-container {
+      max-width: 600px;
+    }
+
+    div.landing-page-container div#landing-page-cover h2 {
+      max-width: 500px;
+      margin: auto;
+      margin-bottom: 20px; 
+    }
+
+    div#form-container {
+      max-width:400px;
+      margin: 60px auto 80px auto;
+    }
+
+    button#final-cta {
+      margin-bottom: 80px;
+    }
+
+    div#final-cta-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+}
+
+@media (min-width: 1680px) {
+
+  div.landing-page-container div#landing-page-cover h2 {
+    max-width: 640px;
+  }
+
 }
