@@ -12,7 +12,7 @@
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="Get a free Brand Audit for your Business"/>
     <meta property="og:url" content="https://polyfen.com/brand-audits"/>
-    <meta name="keywords" content="Free, Brand, Audit, Report, Branding, Marketing, Business, Digital, Analysis, Research, Strategy, Logo, Visual Identity, Website, Web, UX, Experience, CX, Growth, Scale, Start-up" />
+    <meta name="keywords" content="Free, Brand, Audit, Report, Consultancy, Consultant, Branding, Marketing, Business, Digital, Analysis, Research, Strategy, Logo, Visual Identity, Website, Web, UX, Experience, CX, Growth, Scale, Start-up" />
     <meta name="description" property="og:description" content="Apply for a full custom report listing how your business can improve its brand and website." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/brand-audits.png"/>
     <meta property="og:image:width" content="1200" />

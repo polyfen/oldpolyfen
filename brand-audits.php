@@ -12,7 +12,7 @@
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="Get a free Brand Audit for your Business"/>
     <meta property="og:url" content="https://polyfen.com/brand-audits"/>
-    <meta name="keywords" content="Free, Brand, Audit, Report, Branding, Marketing, Business, Digital, Analysis, Research, Strategy, Logo, Visual Identity, Website, Web, UX, Experience, CX, Growth, Scale, Start-up" />
+    <meta name="keywords" content="Free, Brand, Audit, Report, Consultancy, Consultant, Branding, Marketing, Business, Digital, Analysis, Research, Strategy, Logo, Visual Identity, Website, Web, UX, Experience, CX, Growth, Scale, Start-up" />
     <meta name="description" property="og:description" content="Apply for a full custom report listing how your business can improve its brand and website." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/brand-audits.png"/>
     <meta property="og:image:width" content="1200" />
@@ -73,19 +73,19 @@
                     <div id="mc_embed_signup_scroll">
                     
             <div class="mc-field-group half-column-input">
-              <label for="mce-FIRSTNAME">First Name
+              <label for="mce-FIRSTNAME">First name
             </label>
               <input type="text" value="" name="FIRSTNAME" class="required" id="mce-FIRSTNAME" required>
               <span id="mce-FIRSTNAME-HELPERTEXT" class="helper_text"></span>
             </div>
             <div class="mc-field-group half-column-input">
-              <label for="mce-LASTNAME">Last Name
+              <label for="mce-LASTNAME">Last name
               </label>
               <input type="text" value="" name="LASTNAME" class="required" id="mce-LASTNAME" required>
               <span id="mce-LASTNAME-HELPERTEXT" class="helper_text"></span>
             </div>
             <div class="mc-field-group">
-              <label for="mce-EMAIL">Email Address
+              <label for="mce-EMAIL">Email address
             </label>
               <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
               <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
