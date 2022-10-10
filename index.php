@@ -46,6 +46,10 @@
     <!-- FORCE MAX-WIDTH 100% start -->
     <div class="main-wrapper">
 
+      <!-- INCLUDE HELLO-BAR.PHP start -->
+      <?php include 'sections/hello-bar.php';?>
+      <!-- INCLUDE HELLO-BAR.PHP end -->
+
       <!-- INCLUDE HEADER.PHP start -->
       <?php include 'sections/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
