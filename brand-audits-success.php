@@ -95,7 +95,7 @@
       
         <h2 style="text-align:center;line-height:1.25;">Success!<br/>👏👏👏</h2>
 
-        <p style="text-align:center;">We'll be emailing you if your application is selected.<br/>Best of luck! 🍀</p>
+        <p style="text-align:center;max-width:390px;margin:auto;">We'll be emailing you if your application is selected.<br/>Best of luck! 🍀</p>
 
       <div style="clear:both;">
       </div>
