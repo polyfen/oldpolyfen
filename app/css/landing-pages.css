@@ -103,6 +103,10 @@ button#final-cta {
       margin: 60px auto 80px auto;
     }
 
+    div#mc_embed_signup {
+      margin-left: -20px;
+    }
+
     button#final-cta {
       margin-bottom: 80px;
     }
