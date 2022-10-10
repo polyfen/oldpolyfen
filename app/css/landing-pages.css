@@ -36,6 +36,11 @@ div.bio a:first-of-type {
   margin-right: 15px;
 }
 
+div.bio p a, div.bio p a:first-of-type{
+  font-size: 18px;
+  margin-right:0;
+}
+
 h4 {
   line-height: 1.4;
   max-width: 600px;

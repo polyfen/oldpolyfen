@@ -51,6 +51,40 @@
 
       <script>
         confetti();
+
+        var duration = 1 * 1000;
+        var animationEnd = Date.now() + duration;
+        var skew = 1;
+
+        function randomInRange(min, max) {
+          return Math.random() * (max - min) + min;
+        }
+
+        (function frame() {
+          var timeLeft = animationEnd - Date.now();
+          var ticks = Math.max(200, 500 * (timeLeft / duration));
+          skew = Math.max(0.8, skew - 0.001);
+
+          confetti({
+            particleCount: 1,
+            startVelocity: 0,
+            ticks: ticks,
+            origin: {
+              x: Math.random(),
+              // since particles fall down, skew start toward the top
+              y: (Math.random() * skew) - 0.2
+            },
+            colors: ['#ffffff'],
+            shapes: ['circle'],
+            gravity: randomInRange(0.4, 0.6),
+            scalar: randomInRange(0.4, 1),
+            drift: randomInRange(-0.4, 0.4)
+          });
+
+          if (timeLeft > 0) {
+            requestAnimationFrame(frame);
+          }
+        }());
       </script>
 
       <!-- INCLUDE HEADER.PHP start -->
@@ -61,22 +95,22 @@
       
         <h2 style="text-align:center;line-height:1.25;">Success!<br/>👏👏👏</h2>
 
+        <p style="text-align:center;">We'll be emailing you if your application is selected.<br/>Best of luck! 🍀</p>
+
       <div style="clear:both;">
       </div>
       <div class="row">
         <div class="horizontal-separator"></div>
       </div>
 
-      <h4>I'll personally take the time to analyse your brand's online presence and advise you with a free consultation.</h4>
-
       <div id="boris-hrncic">
         <div class="portrait">
           <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
         </div>
         <div class="bio">
-          <h5>Boris Hrnčić</h5>
-          <p>Having over 10 years of experience in design, I've honed over 100 branding projects. As a business owner, I can relate to your pain points and speak the same language with practical advice.</p>
-          <a href="https://boris.hr" target="blank"><small>Personal web &nearr;</small></a> <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
+          <h4>In the meantime,<br/>feel free to reach out!</h4>
+          <p>You can send us an email with additional information to <a href="mailto:brand-audits@polyfen.com">brand-audits@polyfen.com</a> or schedule an initial call:</p>
+          <button onclick="window.open('https://calendly.com/thepolygroup-boris/brand-audits','_blank')" class="button secondary-button">Schedule a Call</button>
         </div>
       </div>
 
