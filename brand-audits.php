@@ -84,6 +84,7 @@
               <input type="text" value="" name="LASTNAME" class="required" id="mce-LASTNAME" required>
               <span id="mce-LASTNAME-HELPERTEXT" class="helper_text"></span>
             </div>
+            <div style="clear:both;"></div>
             <div class="mc-field-group">
               <label for="mce-EMAIL">Email address
             </label>
