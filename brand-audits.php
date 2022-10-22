@@ -58,21 +58,17 @@
           <p>Apply for a full custom report listing how your business can improve its brand and website.</p>
         </div>
         
+        <div id="two-columns">
+  
+        <div>
+          <img src="imgs/brand-audits/web-analysis-illustration.png">
+        </div>
+
         <div id="form-container">
-
-        <!--
-        <form style="text-align:center;">
-          <input placeholder="your email"></input>
-          <input placeholder="your company's website"></input>
-          <button class="button secondary-button">Apply</button>
-        </form>
-        -->
-
         <!-- Begin Mailchimp Signup Form -->
             <div id="mc_embed_signup">
                 <form action="https://thepolygroup.us4.list-manage.com/subscribe/post?u=737a99e56206ee60a05805a04&amp;id=5b81e19b25&amp;f_id=00c7d5e9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
                     <div id="mc_embed_signup_scroll">
-                    
             <div class="mc-field-group half-column-input">
               <label for="mce-FIRSTNAME">First name
             </label>
@@ -114,8 +110,10 @@
             </form>
             </div>
             <!--End mc_embed_signup-->
+          </div> <!--form container-->
 
-          </div>
+
+        </div> <!--End two-columns-->
 
           <div style="clear:both;">
           </div>

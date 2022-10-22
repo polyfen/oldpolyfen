@@ -82,6 +82,14 @@ button#final-cta {
   margin-bottom: 40px;
 }
 
+div#two-columns {
+  display: flex;
+}
+
+div#two-columns div img {
+  max-width: 300px;
+}
+
 @media (min-width:768px) {
 
     div#boris-hrncic {
@@ -89,7 +97,7 @@ button#final-cta {
     }
       
     div.content-container {
-      max-width: 600px;
+      max-width: 900px;
     }
 
     div.landing-page-container div#landing-page-cover h2 {
