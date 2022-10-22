@@ -44,6 +44,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+
     <!-- FORCE MAX-WIDTH 100% start -->
     <div class="main-wrapper">
 
@@ -54,7 +55,7 @@
       <div class="content-container landing-page-container">
       
         <div id="landing-page-cover">
-          <h2>We're giving away 4 Brand Audits for free this October</h2>
+          <h2>We're giving away 4 Brand Audits for free this November</h2>
           <p>Apply for a full custom report listing how your business can improve its brand and website.</p>
         </div>
         
