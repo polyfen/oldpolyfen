@@ -1,7 +1,3 @@
-<!-- INCLUDE COOKIES-MODAL.PHP start -->
-  <?php include 'sections/cookies-modal.php';?>
-<!-- INCLUDE COOKIES-MODAL.PHP end -->
-
 <footer>
 
 <div id="social-icons">
