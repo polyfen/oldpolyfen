@@ -88,11 +88,13 @@ div#two-columns {
   display: flex;
 }
 
-div#two-columns div img {
+div#imgs-audits {
+  display: flex;
+}
+div#two-columns div#imgs-audits img {
   max-width: 450px;
-  padding-top: 20px;
-  padding-right: 15px;
-  display: none;
+
+  
 }
 
 @media (min-width:768px) {

@@ -62,7 +62,7 @@
         
         <div id="two-columns">
   
-        <div>
+        <div id="imgs-audits">
           <img src="imgs/brand-audits/web-analysis-illustration.png">
         </div>
 
