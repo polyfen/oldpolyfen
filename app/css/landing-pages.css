@@ -139,7 +139,7 @@ div#two-columns div img {
   div.landing-page-container div#landing-page-cover h2 {
     max-width: 640px;
   }
-  div#two-columns div img {
+div#two-columns div img {
     display:flex;
     }
 }
