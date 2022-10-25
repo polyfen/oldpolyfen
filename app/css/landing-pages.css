@@ -85,13 +85,13 @@ button#final-cta {
 }
 
 div#two-columns {
-  display: none;
+  display: flex;
 }
 
 div#two-columns div img {
-  max-width: 100px;
-}
-div#imgg {
+  max-width: 450px;
+  padding-top: 20px;
+  padding-right: 15px;
   display: none;
 }
 
@@ -129,7 +129,9 @@ div#imgg {
       align-items: center;
       justify-content: center;
     }
-
+    div#two-columns div img {
+    display:flex;
+    }
 }
 
 @media (min-width: 1680px) {
@@ -137,5 +139,7 @@ div#imgg {
   div.landing-page-container div#landing-page-cover h2 {
     max-width: 640px;
   }
-
+  div#two-columns div img {
+    display:flex;
+    }
 }
