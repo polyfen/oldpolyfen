@@ -1,6 +1,8 @@
+/*// 
 div.landing-page-container {
 
 }
+//*/
 
 div.landing-page-container div#landing-page-cover h2 {
   text-align:center;
@@ -83,11 +85,14 @@ button#final-cta {
 }
 
 div#two-columns {
-  display: flex;
+  display: none;
 }
 
 div#two-columns div img {
-  max-width: 300px;
+  max-width: 100px;
+}
+div#imgg {
+  display: none;
 }
 
 @media (min-width:768px) {
