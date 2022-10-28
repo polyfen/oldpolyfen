@@ -55,7 +55,7 @@
       <div class="content-container landing-page-container">
       
         <div id="landing-page-cover">
-          <h2>We're giving away 4 Brand Audits for free this halloween
+          <h2>We're giving away 4 Brand Audits for free this November.
           </h2>
           <p>Apply for a full custom report listing how your business can improve its brand and website.</p>
         </div>
@@ -63,7 +63,7 @@
         <div id="two-columns">
   
         <div id="imgs-audits">
-          <img src="imgs/brand-audits/web-analysis-illustration.png">
+          <img alt="computer image" src="imgs/brand-audits/web-analysis-illustration.png">
         </div>
 
         <div id="form-container">

@@ -5,15 +5,15 @@ div.landing-page-container {
 //*/
 
 div.landing-page-container div#landing-page-cover h2 {
-  text-align:center;
-  line-height:1.25;
+  text-align: center;
+  line-height: 1.25;
   margin-bottom: 20px;
 }
 
 div.landing-page-container div#landing-page-cover p {
-  max-width:500px;
-  margin:0 auto auto;
-  text-align:center;
+  max-width: 500px;
+  margin: 0 auto auto;
+  text-align: center;
 }
 
 
@@ -29,20 +29,20 @@ div.portrait {
 }
 
 div#boris-hrncic img.portrait {
-    width: 100%;
-    max-width: 180px;
-    height: auto;
-    border-radius: 4px;
-    filter: grayscale(100%);
-    margin-bottom: 20px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .2s ease-in-out;
-    transition: .2s ease-in-out;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  border-radius: 4px;
+  filter: grayscale(100%);
+  margin-bottom: 20px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 div.bio h5 {
-  font-size:20px;
+  font-size: 20px;
   margin-bottom: 10px;
   margin-top: 5px;
 }
@@ -57,9 +57,10 @@ div.bio a:first-of-type {
   margin-right: 15px;
 }
 
-div.bio p a, div.bio p a:first-of-type{
+div.bio p a,
+div.bio p a:first-of-type {
   font-size: 18px;
-  margin-right:0;
+  margin-right: 0;
 }
 
 h4 {
@@ -86,62 +87,68 @@ button#final-cta {
 
 div#two-columns {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 div#imgs-audits {
-  display: flex;
+  display: none;
 }
+
 div#two-columns div#imgs-audits img {
   max-width: 450px;
-
-  
 }
 
 @media (min-width:768px) {
 
-    div#boris-hrncic {
-      flex-direction: row;
-    }
-      
-    div.content-container {
-      max-width: 900px;
-    }
+  div#boris-hrncic {
+    flex-direction: row;
+  }
 
-    div.landing-page-container div#landing-page-cover h2 {
-      max-width: 500px;
-      margin: auto;
-      margin-bottom: 20px; 
-    }
-
-    div#form-container {
-      max-width:400px;
-      margin: 60px auto 80px auto;
-    }
-
-    div#mc_embed_signup {
-      margin-left: -20px;
-    }
-
-    button#final-cta {
-      margin-bottom: 80px;
-    }
-
-    div#final-cta-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    div#two-columns div img {
-    display:flex;
-    }
-}
-
-@media (min-width: 1680px) {
+  div.content-container {
+    max-width: 900px;
+  }
 
   div.landing-page-container div#landing-page-cover h2 {
-    max-width: 640px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
   }
-div#two-columns div img {
-    display:flex;
-    }
+
+  div#form-container {
+    max-width: 400px;
+    margin: 60px auto 80px auto;
+  }
+
+  div#mc_embed_signup {
+    margin-left: -20px;
+  }
+
+  button#final-cta {
+    margin-bottom: 80px;
+  }
+
+  div#final-cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
+
+  @media (min-width:886px) {
+    div#imgs-audits {
+      display: flex;
+    }
+  }
+
+  @media (min-width: 1680px) {
+
+    div.landing-page-container div#landing-page-cover h2 {
+      max-width: 640px;
+    }
+
+    div#imgs-audits {
+      display:flex;
+    }
+  }
