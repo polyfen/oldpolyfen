@@ -287,7 +287,9 @@ div.lg-content-container section {
 
 /*///////////// HELLO BAR START /////////////*/
 
-
+div.hello-bar {
+  display: none;
+}
 
 /*///////////// HELLO BAR END /////////////*/
 
