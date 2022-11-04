@@ -16,6 +16,12 @@ div.landing-page-container div#landing-page-cover p {
   text-align: center;
 }
 
+div#boris-hrncic-container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
 
 div#boris-hrncic {
   margin-top: 40px;

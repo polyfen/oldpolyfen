@@ -123,17 +123,22 @@
             <div class="horizontal-separator"></div>
           </div>
 
-          <h4>I'll personally take the time to analyse your brand's online presence and advise you with a free consultation.</h4>
 
-          <div id="boris-hrncic">
-            <div class="portrait">
-              <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+          <div id="boris-hrncic-container">
+
+            <h4>I'll personally take the time to analyse your brand's online presence and advise you with a free consultation.</h4>
+
+            <div id="boris-hrncic">
+              <div class="portrait">
+                <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+              </div>
+              <div class="bio">
+                <h5>Boris Hrnčić</h5>
+                <p>Having over 10 years of experience in design, I've honed over 100 branding projects. As a business owner, I can relate to your pain points and speak the same language with practical advice.</p>
+                <a href="https://boris.hr" target="blank"><small>Personal web &nearr;</small></a> <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
+              </div>
             </div>
-            <div class="bio">
-              <h5>Boris Hrnčić</h5>
-              <p>Having over 10 years of experience in design, I've honed over 100 branding projects. As a business owner, I can relate to your pain points and speak the same language with practical advice.</p>
-              <a href="https://boris.hr" target="blank"><small>Personal web &nearr;</small></a> <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
-            </div>
+
           </div>
 
           <div id="final-cta-container">
