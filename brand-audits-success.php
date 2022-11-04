@@ -103,15 +103,20 @@
         <div class="horizontal-separator"></div>
       </div>
 
-      <div id="boris-hrncic">
-        <div class="portrait">
-          <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+
+      <div id="boris-hrncic-container">
+
+        <div id="boris-hrncic">
+          <div class="portrait">
+            <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+          </div>
+          <div class="bio">
+            <h4>In the meantime,<br/>feel free to reach out!</h4>
+            <p>You can send us an email with additional information to <a href="mailto:brand-audits@polyfen.com">brand-audits@polyfen.com</a> or schedule an initial call:</p>
+            <button onclick="window.open('https://calendly.com/thepolygroup-boris/brand-audits','_blank')" class="button secondary-button">Schedule a Call</button>
+          </div>
         </div>
-        <div class="bio">
-          <h4>In the meantime,<br/>feel free to reach out!</h4>
-          <p>You can send us an email with additional information to <a href="mailto:brand-audits@polyfen.com">brand-audits@polyfen.com</a> or schedule an initial call:</p>
-          <button onclick="window.open('https://calendly.com/thepolygroup-boris/brand-audits','_blank')" class="button secondary-button">Schedule a Call</button>
-        </div>
+      
       </div>
 
       </div>
