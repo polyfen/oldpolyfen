@@ -88,9 +88,6 @@
             <img data-lazy="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/bike-in-mex/07_bike-in-mex_storefront.webp" width="100%" height="auto">
-          </div>
-          <div>
             <img data-lazy="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto">
           </div>
         </div>

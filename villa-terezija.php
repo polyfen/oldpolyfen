@@ -81,7 +81,16 @@
             <img data-lazy="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%" height="auto">
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/05_villa-terezija_applications.webp" width="100%" height="auto">
+            <img data-lazy="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp" width="100%" height="auto">
+          </div>
+          <div>
+            <img data-lazy="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp" width="100%" height="auto">
           </div>
         </div>
       </div>
