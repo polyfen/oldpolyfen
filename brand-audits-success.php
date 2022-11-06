@@ -19,7 +19,8 @@
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@PolyfenAgency" />
+    <meta name="twitter:site" content="Polyfen" />
+    <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Get a free Brand Audit for your Business" />
     <meta name="twitter:description" content="Apply for a full custom report listing how your business can improve its brand and website." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/brand-audits.png" />

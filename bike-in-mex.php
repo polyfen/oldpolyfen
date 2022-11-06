@@ -19,7 +19,8 @@
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@PolyfenAgency" />
+    <meta name="twitter:site" content="Polyfeny" />
+    <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Bike in Mex Brand Identity Design" />
     <meta name="twitter:description" content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png" />

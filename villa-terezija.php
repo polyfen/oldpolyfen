@@ -19,7 +19,8 @@
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@PolyfenAgency" />
+    <meta name="twitter:site" content="Polyfen" />
+    <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Villa Terezija Brand Identity Design" />
     <meta name="twitter:description" content="A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/villa-terezija-meta.png" />

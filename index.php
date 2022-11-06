@@ -19,7 +19,8 @@
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@PolyfenAgency" />
+    <meta name="twitter:site" content="Polyfen" />
+    <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Polyfen" />
     <meta name="twitter:description" content="We are a fully-remote team of creatives from around the world connected by our passion for designing engaging brand identities." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
