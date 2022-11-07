@@ -76,12 +76,13 @@ h4 {
 
 div.content-container {
   max-width: 355px;
-  pad: 0 10px;
+  margin-top: 120px;
 }
 
 div#form-container {
-  max-width: 330px;
-  margin: 60px 0 80px 0;
+  max-width: 300px;
+  margin: 20px 0 20px 0;
+  margin-left: -20px;
 }
 
 button#final-cta {
@@ -104,6 +105,7 @@ div#imgs-audits {
 
 div#two-columns div#imgs-audits img {
   max-width: 450px;
+  margin-top: -140px;
 }
 
 @media (min-width:768px) {
@@ -125,6 +127,7 @@ div#two-columns div#imgs-audits img {
   div#form-container {
     max-width: 400px;
     margin: 60px auto 80px auto;
+    margin-left: auto;
   }
 
   div#mc_embed_signup {

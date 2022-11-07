@@ -13,8 +13,8 @@
     <meta property="og:title" content="Get a free Brand Audit for your Business"/>
     <meta property="og:url" content="https://polyfen.com/brand-audits"/>
     <meta name="keywords" content="Free, Brand, Audit, Report, Consultancy, Consultant, Branding, Marketing, Business, Digital, Analysis, Research, Strategy, Logo, Visual Identity, Website, Web, UX, Experience, CX, Growth, Scale, Start-up" />
-    <meta name="description" property="og:description" content="Apply for a full custom report listing how your business can improve its brand and website." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/brand-audits.png"/>
+    <meta name="description" property="og:description" content="A full custom report listing how your business can improve its brand and website." />
+    <meta property="og:image" content="https://polyfen.com/imgs/brand-audits/thumbnail.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
@@ -22,8 +22,8 @@
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Get a free Brand Audit for your Business" />
-    <meta name="twitter:description" content="Apply for a full custom report listing how your business can improve its brand and website." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/brand-audits.png" />
+    <meta name="twitter:description" content="A full custom report listing how your business can improve its brand and website." />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/brand-audits/thumbnail.png" />
     <meta name="robots" content="noindex, nofollow">
     <!-- PAGE-SPECIFIC META end -->
 
