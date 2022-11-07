@@ -4,6 +4,14 @@ div.landing-page-container {
 }
 //*/
 
+div.hello-bar {
+  display: none;
+}
+
+header {
+  top:0;
+}
+
 div.landing-page-container div#landing-page-cover h2 {
   text-align: center;
   line-height: 1.25;

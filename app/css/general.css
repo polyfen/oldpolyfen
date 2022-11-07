@@ -288,7 +288,26 @@ div.lg-content-container section {
 /*///////////// HELLO BAR START /////////////*/
 
 div.hello-bar {
-  display: none;
+  top: 0;
+  width: 100%;
+  background: black;
+  z-index: 999;
+  position: relative;
+  padding: 0 10px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+div.hello-bar button.secondary-button {
+  margin: 0 0 0 20px !important;
+  padding: 10px 0 8px !important;
+  max-width: 170px !important;
 }
 
 /*///////////// HELLO BAR END /////////////*/
