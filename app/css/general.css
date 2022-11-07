@@ -293,9 +293,9 @@ div.hello-bar {
   background: black;
   z-index: 999;
   position: relative;
-  padding: 0 10px;
+  padding: 0;
   text-align: center;
-  height: 50px;
+  height: 130px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -304,10 +304,35 @@ div.hello-bar {
   align-items: center;
 }
 
+div.hello-bar small {
+  padding: 0 10px;
+  line-height: 1.4;
+}
+
+
+
 div.hello-bar button.secondary-button {
-  margin: 0 0 0 20px !important;
-  padding: 10px 0 8px !important;
+  margin: 10px 0 !important;
+  padding: 10px 20px 8px !important;
   max-width: 170px !important;
+}
+
+@media (min-width:750px) {
+
+  div.hello-bar {
+    height: 50px;
+  }
+
+  div.hello-bar small {
+    padding: 0;
+    line-height: normal;
+  }
+
+  div.hello-bar button.secondary-button {
+    margin: 0 0 0 20px !important;
+    padding: 10px 0 8px !important;
+  }
+
 }
 
 /*///////////// HELLO BAR END /////////////*/

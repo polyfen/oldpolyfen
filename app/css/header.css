@@ -3,7 +3,7 @@
 header {
   position: absolute;
   z-index: 999;
-  top: 50px;
+  top: 130px;
   left: 0;
   left: 0;
   width: 100%;
@@ -16,6 +16,15 @@ header img#logo {
   margin-top: 18px;
   margin-left: 12px;
 }
+
+@media (min-width:750px) {
+
+  header {
+    top: 50px;
+  }
+
+}
+
 
 @media (min-width:768px) {
 
