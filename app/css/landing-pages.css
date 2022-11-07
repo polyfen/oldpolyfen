@@ -105,7 +105,7 @@ div#imgs-audits {
 
 div#two-columns div#imgs-audits img {
   max-width: 450px;
-  margin-top: -140px;
+  margin-top: -70px;
 }
 
 @media (min-width:768px) {
@@ -126,7 +126,7 @@ div#two-columns div#imgs-audits img {
 
   div#form-container {
     max-width: 400px;
-    margin: 60px auto 80px auto;
+    margin: 60px auto 0px auto;
     margin-left: auto;
   }
 
