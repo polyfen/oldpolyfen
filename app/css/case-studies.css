@@ -85,6 +85,19 @@ div.other-project-card p {
   max-width: 480px;
 }
 
+/*// featured projects //*/
+div.project-cover figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+div.project-cover figure:hover img, div.project-cover-hover figure img {
+	-webkit-transform: scale(1.025);
+	transform: scale(1.025);
+}
+
 @media (min-width:576px) {
 
     #slider-container {
