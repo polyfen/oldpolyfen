@@ -118,17 +118,18 @@
         <h3>Other Projects</h3>
 
         <div id="bike-in-mex-project-navigation" class="other-project-card">
-        <div id="bike-in-mex-cover" class="project-cover" 
-        onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';
-        document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" 
-        onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';
-        document.getElementById('bike-in-mex-cover').className='project-cover';">
-          <a href="/bike-in-mex">
+
+         <div id="bike-in-mex-cover" class="project-cover" 
+         onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';
+         document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" 
+         onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';
+         document.getElementById('bike-in-mex-cover').className='project-cover';">
+           <a href="/bike-in-mex">
               <figure>
                 <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex">
               </figure>
-            </a>
-          </div>
+          </a>
+         </div>
           <h4>Bike in Mex</h4>
           <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
     
@@ -137,11 +138,15 @@
             <button id='bike-in-mex-button' class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
           </a>
 
-          
-
         </div>
 
         <div id="villa-terezija-project-navigation" class="other-project-card">
+
+        <div id="villa-terezija-cover" class="project-cover" 
+         onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';
+         document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
+         onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';
+         document.getElementById('villa-terezija-cover').className='project-cover';">
           <a href="/villa-terezija">
             <figure>
               <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
@@ -150,7 +155,7 @@
           <h4>Villa Terezija</h4>
           <p>A touristic accommodation surrounded by a stunning rose garden.</p>
           <a href="/villa-terezija">
-            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
           </a>
         </div>
       </div>
