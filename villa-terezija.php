@@ -106,29 +106,45 @@
         <h3>Other Projects</h3>
 
         <div id="bike-in-mex-project-navigation" class="other-project-card">
-          <a href="/bike-in-mex">
-            <figure>
-              <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex">
-            </figure>
-          </a>
+
+          <div id="bike-in-mex-cover" class="project-cover" 
+          onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';
+          document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" 
+          onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';
+          document.getElementById('bike-in-mex-cover').className='project-cover';">
+           <a href="/bike-in-mex">
+              <figure>
+                <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex">
+              </figure>
+            </a>
+          </div>
           <h4>Bike in Mex</h4>
           <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
-          <a href="/bike-in-mex">
-            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+    
+          <a href="/bike-in-mex" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
+          onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
+            <button id='bike-in-mex-button' class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
           </a>
+
         </div>
 
         <div id="tradeana-project-navigation" class="other-project-card">
-          <a href="/tradeana">
-            <figure>
-              <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
-            </figure>
-          </a>
-          <h4>Tradeana</h4>
-          <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-          <a href="/tradeana">
-            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-          </a>
+          <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';
+          document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" 
+          onmouseout="document.getElementById('tradeana-button').className='secondary-button';
+          document.getElementById('tradeana-cover').className='project-cover';">
+            
+            <a href="/tradeana">
+              <figure>
+                <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
+              </figure>
+            </a>
+            <h4>Tradeana</h4>
+            <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
+            <a href="/tradeana">
+              <button id="tradeana-button" class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </a>
+          </div>
         </div>
       </div>
 
