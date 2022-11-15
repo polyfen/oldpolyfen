@@ -104,28 +104,40 @@
         <h3>Other Projects</h3>
 
         <div id="tradeana-project-navigation" class="other-project-card">
-          <a href="/tradeana">
-            <figure>
-              <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
-            </figure>
-          </a>
-          <h4>Tradeana</h4>
-          <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-          <a href="/tradeana">
-            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-          </a>
+          <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';
+          document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" 
+          onmouseout="document.getElementById('tradeana-button').className='secondary-button';
+          document.getElementById('tradeana-cover').className='project-cover';">
+            
+            <a href="/tradeana">
+              <figure>
+                <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
+              </figure>
+            </a>
+            <h4>Tradeana</h4>
+            <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
+            <a href="/tradeana">
+              <button id="tradeana-button" class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </a>
+          </div>
         </div>
 
         <div id="villa-terezija-project-navigation" class="other-project-card">
-          <a href="/villa-terezija">
-            <figure>
-              <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
-            </figure>
-          </a>
+
+          <div id="villa-terezija-cover" class="project-cover" 
+          onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';
+          document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
+          onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';
+          document.getElementById('villa-terezija-cover').className='project-cover';">
+            <a href="/villa-terezija">
+              <figure>
+                <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
+              </figure>
+            </a>
           <h4>Villa Terezija</h4>
           <p>A touristic accommodation surrounded by a stunning rose garden.</p>
           <a href="/villa-terezija">
-            <button class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
           </a>
         </div>
       </div>
