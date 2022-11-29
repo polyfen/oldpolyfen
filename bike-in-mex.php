@@ -139,8 +139,9 @@
           <a href="/villa-terezija">
             <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
           </a>
+          </div>
         </div>
-      </div>
+    </div>
 
       <div style="clear:both;">
       </div>

@@ -135,13 +135,12 @@
     
           <a href="/bike-in-mex" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
           onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
-            <button id='bike-in-mex-button' class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            <button id='bike-in-mex-button' class="secondary-button">View project<i class="fa fa-angle-right" aria-hidden="true"></i></button>
           </a>
 
         </div>
 
         <div id="villa-terezija-project-navigation" class="other-project-card">
-
           <div id="villa-terezija-cover" class="project-cover" 
           onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';
           document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
@@ -157,6 +156,7 @@
           <a href="/villa-terezija">
             <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
           </a>
+          </div>
         </div>
       </div>
 

@@ -129,11 +129,11 @@
         </div>
 
         <div id="tradeana-project-navigation" class="other-project-card">
-          <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';
+          <div id="tradeana-cover" class="project-cover"
+          onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';
           document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" 
           onmouseout="document.getElementById('tradeana-button').className='secondary-button';
           document.getElementById('tradeana-cover').className='project-cover';">
-            
             <a href="/tradeana">
               <figure>
                 <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
