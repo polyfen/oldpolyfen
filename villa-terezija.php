@@ -70,90 +70,63 @@
       <div id="slider-container">
         <div class="slider lazy">
 
-        <div>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/01_villa-terezija_cover-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%" height="auto">
-          </picture>
-        </div>
-        <div>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/02_villa-terezija_intro-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%" height="auto">
-          </picture>
-        </div>
-        <div>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp" width="100%" height="auto">
-          </picture>
-        </div>
-        <div>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%" height="auto">
-          </picture>
-        </div>
-        <div>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp" width="100%" height="auto">
-          </picture>
-        </div>
-        <div>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/06_villa-terezija_applications-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp width="100%" height="auto">
-          </picture>
-        </div>
-        <div>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp" width="100%" height="auto">
-          </picture>
-        </div>
-        <div>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp" width="100%" height="auto">
-          </picture>
-        </div>
-          <!--
-            <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%" height="auto">
-          
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%" height="auto">
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/01_villa-terezija_cover-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%" height="auto">
+            </picture>
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp" width="100%" height="auto">
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/02_villa-terezija_intro-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%" height="auto">
+            </picture>
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%" height="auto">
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp" width="100%" height="auto">
+            </picture>
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp" width="100%" height="auto">
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%" height="auto">
+            </picture>
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp" width="100%" height="auto">
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp" width="100%" height="auto">
+            </picture>
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp" width="100%" height="auto">
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/06_villa-terezija_applications-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp width="100%" height="auto">
+            </picture>
           </div>
           <div>
-            <img data-lazy="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp" width="100%" height="auto">
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp" width="100%" height="auto">
+            </picture>
+          </div>
+          <div>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp" width="100%" height="auto">
+            </picture>
           </div>
         </div>
-        </div>
-          -->
       </div>
 
       <div style="clear:both;">
