@@ -56,7 +56,7 @@
       <div class="content-container landing-page-container">
       
         <div id="landing-page-cover">
-          <h2>We're giving away 4 Brand Audits for free this December
+          <h2>We're giving away 4 Brand Audits for free this January
           </h2>
           <p>Apply for a full custom report listing how your business can improve its brand and website.</p>
         </div>
