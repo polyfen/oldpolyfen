@@ -279,17 +279,16 @@
                 <img id="boris-linkedin" src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
               </a>
             </div>
-            <div id="francisco-martone">
-              <a onmouseover="document.getElementById('fran-linkedin').className='linkedin linkedin-hover';document.getElementById('fran-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('fran-linkedin').className='linkedin';document.getElementById('fran-portrait').className='portrait';" href="https://www.linkedin.com/in/franciscomartone/" target="_blank">
-                <img id="fran-portrait" src="imgs/about/francisco-martone.webp" loading="lazy" alt="Francisco Martone" loading="lazy" class="portrait">
+            <div id="pablo-marsico">
+              <a onmouseover="document.getElementById('pablo-linkedin').className='linkedin linkedin-hover';document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-linkedin').className='linkedin';document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
+                <img id="pablo-portrait" src="imgs/about/pablo-marsico.webp" loading="lazy" alt="Pablo Mársico" loading="lazy" class="portrait">
               </a>
               <small>
-                <span class="name">Francisco Martone</span><br/>
-                <span class="position">Partner<br/>
-                &amp; CEO</span>
+                <span class="name">Pablo Mársico</span><br/>
+                <span class="position">Junior Partner<br/>&amp; Cretive Director</span>
               </small>
-              <a onmouseover="document.getElementById('fran-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('fran-portrait').className='portrait';" href="https://www.linkedin.com/in/franciscomartone/" target="_blank">
-                <img id="fran-linkedin" src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
+              <a onmouseover="document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
+                <img id="pablo-linkedin" src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
               </a>
             </div>
           </div>
