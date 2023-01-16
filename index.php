@@ -285,7 +285,7 @@
               </a>
               <small>
                 <span class="name">Pablo Mársico</span><br/>
-                <span class="position">Junior Partner<br/>&amp; Cretive Director</span>
+                <span class="position">Junior Partner<br/>&amp; Creative Director</span>
               </small>
               <a onmouseover="document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
                 <img id="pablo-linkedin" src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
