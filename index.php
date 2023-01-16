@@ -54,6 +54,15 @@
       <!-- INCLUDE HEADER.PHP start -->
       <?php include 'sections/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
+      
+      <!-- FIXED NAVBAR start --------------->
+      <div class="navbar">
+        <a href="#aboutus">About us</a>
+         <a href="#features">Features</a>
+         <a href="#services">Services</a>
+         <a href="#contact">Contact</a>
+      </div>
+      <!-- FIXED NAVBAR ends --------------->
 
       <!-- COVER start -->
       <section id="cover">
