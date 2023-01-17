@@ -60,7 +60,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/includes/DatesUtilsPolyfen.php');
       <div id="landing-page-cover">
         <h2>We're giving away 4 Brand Audits for free this <?= DatesUtilsPolyfen::getCurrentMonthName() ?>
         </h2>
-        <p>Apply for a full custom report listing how your business can improve its brand and website.</p>
+        <p>Apply for a full custom report listing how your business can improve its brand and website.<br/>No strings attached!</p>
       </div>
 
       <div id="two-columns">
