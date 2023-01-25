@@ -272,8 +272,7 @@
               </a>
               <small>
                 <span class="name">Boris Hrnčić</span><br/>
-                <span class="position">Managing Partner<br/>
-                &amp; Art Director</span>
+                <span class="position">Art Director</span>
               </small>
               <a onmouseover="document.getElementById('boris-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('boris-portrait').className='portrait';" href="https://www.linkedin.com/in/borishrncic/" target="_blank">
                 <img id="boris-linkedin" src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
@@ -285,7 +284,7 @@
               </a>
               <small>
                 <span class="name">Pablo Mársico</span><br/>
-                <span class="position">Junior Partner<br/>&amp; Creative Director</span>
+                <span class="position">Creative Director<br/></span>
               </small>
               <a onmouseover="document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
                 <img id="pablo-linkedin" src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
