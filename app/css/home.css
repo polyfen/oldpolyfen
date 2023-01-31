@@ -605,6 +605,7 @@ div#partners a:hover img.linkedin, div#partners a img.linkedin-hover {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  backdrop-filter: blur(8px);
   z-index: 100;
 }
 
