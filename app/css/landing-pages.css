@@ -39,12 +39,12 @@ div#boris-hrncic {
   justify-content: center;
 }
 
-body#strategy-call div#boris-hrncic {
-  margin-bottom: 0;
-}
-
 div.portrait {
   min-width: 210px;
+}
+
+body#strategy-call div.portrait {
+  text-align: center;
 }
 
 div#boris-hrncic img.portrait {
@@ -59,6 +59,11 @@ div#boris-hrncic img.portrait {
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
 }
+
+body#strategy-call div#boris-hrncic img.portrait {
+  max-width: 140px;
+}
+
 
 div.bio h5 {
   font-size: 20px;
@@ -86,6 +91,20 @@ div.bio p a,
 div.bio p a:first-of-type {
   font-size: 18px;
   margin-right: 0;
+}
+
+body#strategy-call div.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body#strategy-call div.bio p {
+  text-align: center;
+}
+
+body#strategy-call div.bio a {
+  display: none;
 }
 
 h4 {
@@ -150,6 +169,30 @@ div.testimonial {
 
   div#boris-hrncic {
     flex-direction: row;
+  }
+
+  body#strategy-call div#boris-hrncic {
+    margin-bottom: 0;
+  }
+
+  body#strategy-call div.portrait {
+    text-align: left;
+  }
+
+  body#strategy-call div#boris-hrncic img.portrait {
+    max-width: 180px;
+  }
+
+  body#strategy-call div.bio {
+    align-items: flex-start;
+  }
+
+  body#strategy-call div.bio p {
+    text-align: left;
+  }
+  
+  body#strategy-call div.bio a {
+    display: inline;
   }
 
   div.content-container {
