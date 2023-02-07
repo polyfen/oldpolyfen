@@ -41,7 +41,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/includes/DatesUtilsPolyfen.php');
 
 </head>
 
-<body>
+<body id="brand-audits">
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
