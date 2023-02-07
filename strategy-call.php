@@ -14,7 +14,7 @@
   <meta property="og:url" content="https://polyfen.com/strategy-call" />
   <meta name="keywords" content="Free, Brand, Audit, Report, Consultancy, Consultant, Branding, Marketing, Business, Digital, Analysis, Research, Strategy, Logo, Visual Identity, Website, Web, UX, Experience, CX, Growth, Scale, Start-up, Call, Meeting" />
   <meta name="description" property="og:description" content="Tell me about your business. Get free branding advice. No strings attached." />
-  <meta property="og:image" content="https://polyfen.com/imgs/meta/strategy-call.png" />
+  <meta property="og:image" content="https://polyfen.com/imgs/meta/strategy-call_02.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="fb:app_id" content="1799272553516195" />
@@ -23,7 +23,7 @@
   <meta name="twitter:creator" content="@PolyfenAgency">
   <meta name="twitter:title" content="Book a free Strategy Call for your Business" />
   <meta name="twitter:description" content="Tell me about your business. Get free branding advice. No strings attached." />
-  <meta name="twitter:image" content="https://polyfen.com/imgs/meta/strategy-call.png" />
+  <meta name="twitter:image" content="https://polyfen.com/imgs/meta/strategy-call_02.png" />
   <meta name="robots" content="index, follow">
   <!-- PAGE-SPECIFIC META end -->
 
