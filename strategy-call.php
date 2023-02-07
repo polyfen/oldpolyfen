@@ -28,7 +28,6 @@
   <!-- PAGE-SPECIFIC META end -->
 
   <!-- PAGE-SPECIFIC CSS start -->
-  <link rel="stylesheet" href="app/css/forms.css" type="text/css">
   <link rel="stylesheet" href="app/css/landing-pages.css" type="text/css">
   <!-- PAGE-SPECIFIC CSS end -->
 
@@ -52,7 +51,7 @@
     <?php include 'sections/header.php'; ?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <div class="content-container landing-page-container">
+    <div class="content-container landing-page-container" style="margin-bottom:0 !important;">
 
       <div id="landing-page-cover">
         <h2>Book a free Strategy Call for your Business</h2>
@@ -76,10 +75,12 @@
 
       </div>
 
+      <div id="calendly">
       <!-- Calendly inline widget begin -->
         <div class="calendly-inline-widget" data-url="https://calendly.com/borishrncic/strategy-call?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
       <!-- Calendly inline widget end -->
+      </div>
 
       <div class="content-container landing-page-container">
 
@@ -90,22 +91,19 @@
       </div>
 
       <div id="testimonials-container">
-
-          <div class="testimonial">
-            <p>Boris is a talented designer and art director whose amazing creative chops are teamed with strong analytic and organizational skills. He guided a discovery process for a brand identity project that helped us tell the story of our new program-- and the experience was enlightening from start to finish.<br/>&mdash; Renee H.</p>
-          </div>
+        <div class="testimonial">
+          <p>Boris is a talented designer and art director whose amazing creative chops are teamed with strong analytic and organizational skills. He guided a discovery process for a brand identity project that helped us tell the story of our new program-- and the experience was enlightening from start to finish.<br/>&mdash; Renee H.</p>
         </div>
-
       </div>
 
       <div id="final-cta-container">
-        <a href="#landing-page-cover">
+        <a href="#calendly">
           <button class="button secondary-button" id="final-cta">↑ Schedule a Call ↑</button>
         </a>
       </div>
 
+      </div>
     </div>
-
   </div>
   <!-- FORCE MAX-WIDTH 100% end -->
 
