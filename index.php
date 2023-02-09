@@ -33,8 +33,21 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
-
-
+<!--
+    <script>
+      $(function() {
+        var nav = $(".nav-pre-scroll");
+        $(window).scroll(function() {    
+          var scroll = $(window).scrollTop();
+          if (scroll >= 200) {
+            nav.removeClass('nav-pre-scroll').addClass("nav-scroll");
+          } else {
+            nav.removeClass("nav-scroll").addClass('nav-pre-scroll');
+          }
+        });
+      });
+</script>
+-->
   </head>
 
   <body id="home">
@@ -56,13 +69,16 @@
       <!-- INCLUDE HEADER.PHP end -->
       
       <!-- FIXED NAVBAR start --------------->
-      <div class="navbar">
-        <a href="#aboutus">About us</a>
-         <a href="#features">Features</a>
+      <nav class="navbar">
+        
+         <a href="#featured-projects">Featured</a>
          <a href="#services">Services</a>
+         <a href="#about">About us</a>
          <a href="#contact">Contact</a>
-      </div>
+    </nav>
       <!-- FIXED NAVBAR ends --------------->
+      
+
 
       <!-- COVER start -->
       <section id="cover">
