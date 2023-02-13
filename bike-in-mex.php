@@ -47,7 +47,7 @@
 
   </head>
 
-  <body>
+  <body class="case-study">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC"

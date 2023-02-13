@@ -60,6 +60,15 @@ header.position-fixed {
     display: block;
   }
 
+  body.case-study header, body#privacy-policy header {
+    background: none;
+    backdrop-filter: none;
+  }
+
+  body.case-study .navbar, body#privacy-policy .navbar {
+    display: none;
+  }
+
 }
 
 
