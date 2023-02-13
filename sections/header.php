@@ -4,9 +4,9 @@
   <!-- FIXED NAVBAR start --------------->
   <nav class="navbar">
         
-    <a href="#featured-projects">Featured</a>
+    <a href="#featured-projects">Projects</a>
     <a href="#services">Services</a>
-    <a href="#about">About us!</a>
+    <a href="#about">About us</a>
     <a href="#call-to-action">Contact</a>
   </nav>
   <!-- FIXED NAVBAR ends --------------->
