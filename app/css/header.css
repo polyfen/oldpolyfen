@@ -8,10 +8,14 @@ header {
   left: 0;
   width: 100%;
   border-top: 12px solid #7537f8;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header img#logo {
-  z-index: 950;
   height: 45px;
   width: auto;
   margin-top: 18px;
@@ -21,14 +25,7 @@ header img#logo {
 
 /* The navigation bar ------------------------------------------------------------------ */
 .navbar {
- 
-  overflow: hidden;
-  background-color: rgba(22, 22, 22, 0.373);
-  position: fixed; /* Set the navbar to fixed position */
-  top: 60px; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  backdrop-filter: blur(8px);
-  
+  display: none;
 }
 
 /* Links inside the navbar */
@@ -64,6 +61,12 @@ header img#logo {
 
   header {
     top: 50px;
+    background: rgba(22, 22, 22, 0.373);
+    backdrop-filter: blur(8px);
+  }
+
+  .navbar {
+    display: block;
   }
 
 }

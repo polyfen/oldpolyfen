@@ -1,5 +1,5 @@
 <header>
-  <a href="/"><img src="imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
+  <a href="/" id="logo-container"><img src="imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
 
   <!-- FIXED NAVBAR start --------------->
   <nav class="navbar">
