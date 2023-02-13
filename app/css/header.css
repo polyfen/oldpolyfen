@@ -30,8 +30,6 @@ header img#logo {
 
 /* Links inside the navbar */
 .navbar a {
-  float: right;
-  display: block;
   color: #f2f2f2c0;
   text-align: center;
   padding: 14px 16px;
