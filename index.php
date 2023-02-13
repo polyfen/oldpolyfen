@@ -68,17 +68,6 @@
       <?php include 'sections/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
       
-      <!-- FIXED NAVBAR start --------------->
-      <nav class="navbar">
-        
-         <a href="#featured-projects">Featured</a>
-         <a href="#services">Services</a>
-         <a href="#about">About us</a>
-         <a href="#contact">Contact</a>
-    </nav>
-      <!-- FIXED NAVBAR ends --------------->
-      
-
 
       <!-- COVER start -->
       <section id="cover">

@@ -598,44 +598,7 @@ div#partners a:hover img.linkedin, div#partners a img.linkedin-hover {
   opacity: 1;
 }
 
-/* The navigation bar ------------------------------------------------------------------ */
-.navbar {
-  overflow: hidden;
-  background-color: rgba(22, 22, 22, 0.373);
-  position: fixed; /* Set the navbar to fixed position */
-  top: 60px; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  backdrop-filter: blur(8px);
-  z-index: 100;
-}
 
-/* Links inside the navbar */
-.navbar a {
-  float: right;
-  display: block;
-  color: #f2f2f2c0;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-/*
-.nnnav-pre-scroll{
-  top: 150px;
-  position: absolute;
-}
-  
-
- .nav-scroll{
-
-}----- */
-
-/* END of navigation bar ------------------------------------------------------------------ */
 
 @media (min-width: 1073px) {
 
