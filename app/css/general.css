@@ -157,6 +157,18 @@ button.secondary-button {
   max-width: 212px;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+header.position-fixed {
+  top: 0;
+}
+
 /*///////////// BUTTONS END /////////////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/

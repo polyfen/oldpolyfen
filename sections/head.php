@@ -54,3 +54,25 @@
 
   <!-- Pinterest -->
   <meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f"/>
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+
+  <!-- Navbar Scroll Script -->
+  <script>
+    $(function() {
+      var header = $(".header");
+      $(window).scroll(function() {    
+          var scroll = $(window).scrollTop();
+      
+          if (scroll >= 60) {
+              header.removeClass('position-absolute').addClass("position-fixed");
+          } else {
+              header.removeClass("position-fixed").addClass('position-absolute');
+          }
+      });
+  });
+  </script>

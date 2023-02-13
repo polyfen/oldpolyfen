@@ -1,4 +1,4 @@
-<header>
+<header class="header position-absolute">
   <a href="/" id="logo-container"><img src="imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
 
   <!-- FIXED NAVBAR start --------------->

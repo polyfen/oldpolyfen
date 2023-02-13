@@ -33,21 +33,7 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
-<!--
-    <script>
-      $(function() {
-        var nav = $(".nav-pre-scroll");
-        $(window).scroll(function() {    
-          var scroll = $(window).scrollTop();
-          if (scroll >= 200) {
-            nav.removeClass('nav-pre-scroll').addClass("nav-scroll");
-          } else {
-            nav.removeClass("nav-scroll").addClass('nav-pre-scroll');
-          }
-        });
-      });
-</script>
--->
+
   </head>
 
   <body id="home">
