@@ -54,6 +54,7 @@ header.position-fixed {
     top: 50px;
     background: rgb(1 1 1 / 76%);
     backdrop-filter: blur(8px);
+    padding-bottom: 10px;
   }
 
   .navbar {
