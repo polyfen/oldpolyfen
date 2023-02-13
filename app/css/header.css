@@ -21,6 +21,10 @@ header img#logo {
   margin-left: 12px;
 }
 
+header.position-fixed {
+  top: 0;
+}
+
 
 /* The navigation bar ------------------------------------------------------------------ */
 .navbar {
