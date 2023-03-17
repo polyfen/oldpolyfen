@@ -194,7 +194,7 @@
               <h3>What we do</h3>
               <ul style="margin-left:25px;margin-top:25px;">
                 <li>Market Research</li>
-                <li>Brand Strategy</li>
+                <li>Brand &amp; Marketing Strategy</li>
                 <li>Naming</li>
                 <li>Logo Design</li>
                 <li>Visual Identity</li>
