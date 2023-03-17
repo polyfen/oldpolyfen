@@ -193,21 +193,20 @@
             <div id="what-we-do">
               <h3>What we do</h3>
               <ul style="margin-left:25px;margin-top:25px;">
-                <li>Brand Auditing</li>
                 <li>Market Research</li>
                 <li>Brand Strategy</li>
                 <li>Naming</li>
                 <li>Logo Design</li>
-                <li>Visual Identity Design</li>
+                <li>Visual Identity</li>
                 <li>Packaging</li>
-                <li>Brand Guidelines</li>
-                <li>Web Design &amp; Development</li>
-                <li>Product Design &amp; Development</li>
-                <li>Business Cards</li>
-                <li>Pitch Decks</li>
+                <li>UX/UI Design</li>
+                <li>Software Development</li>
+                <li>Pitch Decks &amp; Presentations</li>
                 <li>Social Media Marketing</li>
+                <li>Email Marketing</li>
                 <li>Landing Pages</li>
-                <li>and more...</li>
+                <li>Lead Generation</li>
+                <li>Sales Funnels</li>
               </ul>
             </div>
 
