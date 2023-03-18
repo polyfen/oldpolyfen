@@ -23,6 +23,8 @@ header img#logo {
 
 header.position-fixed {
   top: 0;
+  background: rgb(1 1 1 / 76%);
+  backdrop-filter: blur(8px);
 }
 
 
@@ -54,13 +56,12 @@ header.position-fixed {
 
   header {
     top: 50px;
-    background: rgb(1 1 1 / 76%);
-    backdrop-filter: blur(8px);
     padding-bottom: 10px;
   }
 
   .navbar {
     display: block;
+    padding-right: 10px;
   }
 
   body.case-study header, body#privacy-policy header {
