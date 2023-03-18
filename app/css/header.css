@@ -37,6 +37,8 @@ header.position-fixed {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* Change background on mouse-over */
