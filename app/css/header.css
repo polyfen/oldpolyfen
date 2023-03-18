@@ -21,10 +21,8 @@ header img#logo {
   margin-left: 12px;
 }
 
-header.position-fixed {
-  top: 0;
-  background: rgb(1 1 1 / 76%);
-  backdrop-filter: blur(8px);
+header.position-absolute {
+  position: absolute;
 }
 
 
@@ -57,6 +55,13 @@ header.position-fixed {
   header {
     top: 50px;
     padding-bottom: 10px;
+  }
+
+  header.position-fixed {
+    position: fixed;
+    top: 0;
+    background: rgb(1 1 1 / 76%);
+    backdrop-filter: blur(8px);
   }
 
   .navbar {
