@@ -57,7 +57,7 @@
 
       <!-- COVER start -->
       <section id="cover">
-          <h1>Unleash your business' full potential</h1>
+          <h1>A creative agency devoted to branding</h1>
           <div class="background">
             <div id="pearl-11" class="pearl rotate-slower">
             </div>
@@ -187,26 +187,27 @@
 
         <!-- SERVICES start -->
         <section id="services">
-          <h2>Services that scale<br/>with your business</h2>
+          <h2>Design services<br/>that scale with your business</h2>
 
           <div id="services-container">
             <div id="what-we-do">
               <h3>What we do</h3>
               <ul style="margin-left:25px;margin-top:25px;">
+                <li>Brand Auditing</li>
                 <li>Market Research</li>
-                <li>Brand &amp; Marketing Strategy</li>
+                <li>Brand Strategy</li>
                 <li>Naming</li>
                 <li>Logo Design</li>
-                <li>Visual Identity</li>
+                <li>Visual Identity Design</li>
                 <li>Packaging</li>
-                <li>UX/UI Design</li>
-                <li>Software Development</li>
-                <li>Pitch Decks &amp; Presentations</li>
+                <li>Brand Guidelines</li>
+                <li>Web Design &amp; Development</li>
+                <li>Product Design &amp; Development</li>
+                <li>Business Cards</li>
+                <li>Pitch Decks</li>
                 <li>Social Media Marketing</li>
-                <li>Email Marketing</li>
                 <li>Landing Pages</li>
-                <li>Lead Generation</li>
-                <li>Sales Funnels</li>
+                <li>and more...</li>
               </ul>
             </div>
 
@@ -219,7 +220,7 @@
                   </div>
                   <div class="contract-type-description">
                     <h4>End-to-End Project</h4>
-                    <p>Does your business need a new brand identity and website that truly highlights the quality of your products and services? We take care of everything in designing that new brand identity and delivering all the assets and guidelines you need within a predefined project budget tailored to your needs.</p>
+                    <p>Does your business need a new brand identity that truly highlights the quality of your products and services? We take care of everything in designing that new brand identity and delivering all the assets and guidelines you need within a predefined project budget tailored to your needs.</p>
                   </div>
                 </div>
                 <div class="contract-type">
@@ -228,7 +229,7 @@
                   </div>
                   <div class="contract-type-description">
                     <h4>Executive Consulting</h4>
-                    <p>Continuous collaboration with analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
+                    <p>Continuous collaboration with analysis, insights, and practical solutions on branding, marketing, and design at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
                   </div>
                 </div>
                 <div class="contract-type">
@@ -237,7 +238,7 @@
                   </div>
                   <div class="contract-type-description">
                     <h4>Staff Augmentation</h4>
-                    <p>We handle your team’s surplus workload and increase your capacity with our agile crew ready to jump on board and start delivering at a moment’s notice.</p>
+                    <p>We handle your creative team’s surplus workload and increase your capacity with our certified, diverse crew ready to jump on board and start delivering at a moment’s notice.</p>
                   </div>
                 <div>
               </div>
@@ -271,7 +272,8 @@
               </a>
               <small>
                 <span class="name">Boris Hrnčić</span><br/>
-                <span class="position">Managing Director</span>
+                <span class="position">Managing Partner<br/>
+                &amp; Art Director</span>
               </small>
               <a onmouseover="document.getElementById('boris-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('boris-portrait').className='portrait';" href="https://www.linkedin.com/in/borishrncic/" target="_blank">
                 <img id="boris-linkedin" src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
@@ -283,7 +285,7 @@
               </a>
               <small>
                 <span class="name">Pablo Mársico</span><br/>
-                <span class="position">Creative Director<br/></span>
+                <span class="position">Junior Partner<br/>&amp; Creative Director</span>
               </small>
               <a onmouseover="document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
                 <img id="pablo-linkedin" src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
