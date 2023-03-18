@@ -36,10 +36,15 @@ div#boris-hrncic {
   display: flex;
   flex-direction: column;
   margin-bottom: 60px;
+  justify-content: center;
 }
 
 div.portrait {
   min-width: 210px;
+}
+
+body#strategy-call div.portrait {
+  text-align: center;
 }
 
 div#boris-hrncic img.portrait {
@@ -55,10 +60,21 @@ div#boris-hrncic img.portrait {
   transition: .2s ease-in-out;
 }
 
+body#strategy-call div#boris-hrncic img.portrait {
+  max-width: 140px;
+}
+
+
 div.bio h5 {
   font-size: 20px;
   margin-bottom: 10px;
   margin-top: 5px;
+}
+
+div.bio p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 320px;
 }
 
 div.bio p {
@@ -75,6 +91,20 @@ div.bio p a,
 div.bio p a:first-of-type {
   font-size: 18px;
   margin-right: 0;
+}
+
+body#strategy-call div.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body#strategy-call div.bio p {
+  text-align: center;
+}
+
+body#strategy-call div.bio a {
+  display: none;
 }
 
 h4 {
@@ -116,10 +146,53 @@ div#two-columns div#imgs-audits img {
   margin-top: -70px;
 }
 
+._cUP1np9gMvFQrcPftuf.xahN8AEzyAvQtVj17TPv {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+._2eZHnh_PMhyzt7w_zi7 {
+  overflow: hidden !important;
+}
+
+div#testimonials-container {
+  display: flex;
+  justify-content: center;
+}
+
+div.testimonial {
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
 @media (min-width:768px) {
 
   div#boris-hrncic {
     flex-direction: row;
+  }
+
+  body#strategy-call div#boris-hrncic {
+    margin-bottom: 0;
+  }
+
+  body#strategy-call div.portrait {
+    text-align: left;
+  }
+
+  body#strategy-call div#boris-hrncic img.portrait {
+    max-width: 180px;
+  }
+
+  body#strategy-call div.bio {
+    align-items: flex-start;
+  }
+
+  body#strategy-call div.bio p {
+    text-align: left;
+  }
+  
+  body#strategy-call div.bio a {
+    display: inline;
   }
 
   div.content-container {
@@ -151,6 +224,12 @@ div#two-columns div#imgs-audits img {
     align-items: center;
     justify-content: center;
   }
+
+  div.testimonial {
+    max-width: 600px;
+    margin-left: 40px;
+  }
+
 }
 
   @media (min-width:886px) {
