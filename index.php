@@ -73,7 +73,7 @@
 
         <!-- FEATURED PROJECTS start -->
         <section id="featured-projects">
-          <small>WORK</small>
+          <small class="section-name">WORK</small>
           <h2>Featured projects</h2>
 
           <!-- BIKE IN MEX start -->
@@ -188,7 +188,7 @@
 
         <!-- SERVICES start -->
         <section id="services">
-          <small>SERVICES</small>
+        <small class="section-name">SERVICES</small>
           <h2>Services that scale<br/>with your business</h2>
 
           <div id="services-container">
@@ -260,8 +260,9 @@
 
         <!-- ABOUT start -->
         <section id="about">
-          <small>ABOUT</small>
           <div style="max-width: 540px;">
+            <small class="section-name">ABOUT</small>
+            <br><br>
             <h2>The link between business &amp; creativity</h2>
             <p style="margin-top:25px;">We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
             <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>

@@ -622,3 +622,11 @@ div#partners a:hover img.linkedin, div#partners a img.linkedin-hover {
 /*///////////// ABOUT END /////////////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/
+
+
+/*//////// <SMALL> element in sections ////////*/
+
+.section-name {
+text-align: left;
+margin-bottom: 10px;
+}
