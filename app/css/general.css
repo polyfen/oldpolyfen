@@ -188,7 +188,7 @@ div.horizontal-separator {
   body div.horizontal-separator {
     height: 6px;
     width: 50%;
-    margin: 90px auto 95px;
+    margin: 90px auto 45px;
     background: #19194785;
   }
 
@@ -248,7 +248,7 @@ div.lg-content-container section {
     }
 
     section {
-      padding: 70px 35px !important;
+       padding: 120px 35px 70px 35px !important; 
     }
 
     section#contact h2 {
