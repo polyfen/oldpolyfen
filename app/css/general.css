@@ -273,6 +273,10 @@ div.lg-content-container section {
       margin-bottom: 5px;
     }
 
+    div#cta-content {
+      display: flex;
+      flex-direction: column;
+    }
 }
 
 @media (min-width: 1680px) {
