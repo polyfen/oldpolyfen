@@ -188,7 +188,7 @@ div.horizontal-separator {
   body div.horizontal-separator {
     height: 6px;
     width: 50%;
-    margin: 90px auto 95px;
+    margin: 90px auto 45px;
     background: #19194785;
   }
 
@@ -206,24 +206,24 @@ section {
   flex-direction: column;
 }
 
-section#call-to-action {
+section#contact {
     margin-bottom: 65px;
 }
 
-section#call-to-action h2 a {
+section#contact h2 a {
   text-decoration: none;
   padding-bottom: 8px;
   border-bottom: 3px dotted #7537f8;
   opacity: 0.75;
 }
 
-section#call-to-action h2 a:hover {
+section#contact h2 a:hover {
   border-bottom: 3px solid #7537f8;
   opacity: 1;
   color: white;
 }
 
-section#call-to-action h2 {
+section#contact h2 {
   max-width: 340px;
 }
 
@@ -243,15 +243,15 @@ div.lg-content-container section {
 
 @media (min-width: 768px) {
 
-    section#call-to-action {
+    section#contact {
       margin-bottom: 170px;
     }
 
     section {
-      padding: 70px 35px !important;
+       padding: 120px 35px 20px 35px !important; 
     }
 
-    section#call-to-action h2 {
+    section#contact h2 {
       max-width: 480px;
     }
 
@@ -264,12 +264,12 @@ div.lg-content-container section {
       padding-right: 65px !important;
     }
 
-    section#call-to-action h2 {
+    section#contact h2 {
       text-align: center;
       margin: auto;
     }
 
-    section#call-to-action h2:first-of-type {
+    section#contact h2:first-of-type {
       margin-bottom: 5px;
     }
 
@@ -277,7 +277,7 @@ div.lg-content-container section {
 
 @media (min-width: 1680px) {
 
-    section#call-to-action h2 {
+    section#contact h2 {
       max-width: 550px;
     }
 

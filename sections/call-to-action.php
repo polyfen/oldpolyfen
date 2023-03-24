@@ -1,4 +1,4 @@
-<section id="call-to-action">
+<section id="contact">
   <div id="cta-content">
     <h2><small class="section-name">CONTACT</small></h2>
     <h2>Give your business the brand it deserves</h2>

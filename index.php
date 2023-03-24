@@ -72,7 +72,7 @@
       <div class="lg-content-container">
 
         <!-- FEATURED PROJECTS start -->
-        <section id="featured-projects">
+        <section id="work">
           <small class="section-name">WORK</small>
           <h2>Featured projects</h2>
 
