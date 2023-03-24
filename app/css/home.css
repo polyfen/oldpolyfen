@@ -632,3 +632,8 @@ div#partners a:hover img.linkedin, div#partners a img.linkedin-hover {
 text-align: left;
 margin-bottom: 10px;
 }
+
+section#contact .section-name {
+  text-align: center;
+  display: block;
+}
