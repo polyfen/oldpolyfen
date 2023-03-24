@@ -157,6 +157,11 @@ button.secondary-button {
   max-width: 212px;
 }
 
+@media (min-width:992px) {
+  button#schedule-a-call{
+   float: none;
+  }
+}
 /*///////////// BUTTONS END /////////////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/
@@ -232,6 +237,11 @@ div.lg-content-container section {
   padding-right: 15px;
 }
 
+div#cta-content {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 580px) {
 
     section {
@@ -271,11 +281,6 @@ div.lg-content-container section {
 
     section#contact h2:first-of-type {
       margin-bottom: 5px;
-    }
-
-    div#cta-content {
-      display: flex;
-      flex-direction: column;
     }
 }
 

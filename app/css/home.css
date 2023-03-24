@@ -631,9 +631,28 @@ div#partners a:hover img.linkedin, div#partners a img.linkedin-hover {
 .section-name {
 text-align: left;
 margin-bottom: 10px;
+text-transform: uppercase;
 }
 
-section#contact .section-name {
-  text-align: center;
-  display: block;
+@media (min-width:992px) {
+  section#contact .section-name {
+    text-align: center;
+    display: block;
+  }
+}
+
+
+/*/////////////// modificacion para el OR/////*/
+
+section#contact small#small-or{
+  text-transform: uppercase;
+  text-align: left;
+  margin: 50px 0px 20px;
+  opacity: 0.7;
+}
+
+@media (min-width:992px) {
+  section#contact small#small-or{
+    text-align:center;
+  }
 }
