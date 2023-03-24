@@ -337,7 +337,7 @@ to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:
 
 /*///////////// FEATURED PROJECTS START /////////////*/
 
-section#featured-projects h2 {
+section#work h2 {
   margin-bottom: 35px;
 }
 
@@ -598,6 +598,8 @@ div#partners a:hover img.linkedin, div#partners a img.linkedin-hover {
   opacity: 1;
 }
 
+
+
 @media (min-width: 1073px) {
 
     section#about {
@@ -629,4 +631,28 @@ div#partners a:hover img.linkedin, div#partners a img.linkedin-hover {
 .section-name {
 text-align: left;
 margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+@media (min-width:992px) {
+  section#contact .section-name {
+    text-align: center;
+    display: block;
+  }
+}
+
+
+/*/////////////// modificacion para el OR/////*/
+
+section#contact small#small-or{
+  text-transform: uppercase;
+  text-align: left;
+  margin: 50px 0px 20px;
+  opacity: 0.7;
+}
+
+@media (min-width:992px) {
+  section#contact small#small-or{
+    text-align:center;
+  }
 }

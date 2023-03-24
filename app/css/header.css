@@ -2,12 +2,16 @@
 
 header {
   position: absolute;
-  z-index: 999;
+  z-index: 900;
   top: 130px;
-  left: 0;
   left: 0;
   width: 100%;
   border-top: 12px solid #7537f8;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header img#logo {
@@ -17,10 +21,60 @@ header img#logo {
   margin-left: 12px;
 }
 
+header.position-absolute {
+  position: absolute;
+}
+
+
+/* The navigation bar ------------------------------------------------------------------ */
+.navbar {
+  display: none;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  color: #f2f2f2c0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  color: white;
+}
+
+/* END of navigation bar ------------------------------------------------------------------ */
+
+
 @media (min-width:750px) {
 
   header {
     top: 50px;
+    padding-bottom: 10px;
+  }
+
+  header.position-fixed {
+    position: fixed;
+    top: 0;
+    background: rgb(1 1 1 / 76%);
+    backdrop-filter: blur(8px);
+  }
+
+  .navbar {
+    display: block;
+    padding-right: 10px;
+  }
+
+  body.case-study header, body#privacy-policy header {
+    background: none;
+    backdrop-filter: none;
+  }
+
+  body.case-study .navbar, body#privacy-policy .navbar {
+    display: none;
   }
 
 }
