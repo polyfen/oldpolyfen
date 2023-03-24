@@ -68,7 +68,7 @@ header.position-absolute {
     padding-right: 10px;
   }
 
-  body.case-study header, body#privacy-policy header body#strategy-call header{
+  body.case-study header, body#privacy-policy header, body#strategy-call header{
     background: none;
     backdrop-filter: none;
   }
