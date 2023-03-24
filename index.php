@@ -262,7 +262,7 @@
         <section id="about">
           <div style="max-width: 540px;">
             <small class="section-name">About</small>
-            <br><br>
+           
             <h2>The link between business &amp; creativity</h2>
             <p style="margin-top:25px;">We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
             <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
