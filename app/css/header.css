@@ -73,7 +73,7 @@ header.position-absolute {
     backdrop-filter: none;
   }
 
-  body.case-study .navbar, body#privacy-policy .navbar {
+  body.case-study .navbar, body#privacy-policy .navbar, body#strategy-call .navbar {
     display: none;
   }
 

@@ -346,5 +346,37 @@ div.hello-bar button.secondary-button {
 
 /*///////////// HELLO BAR END /////////////*/
 
+/*//////// <SECTION-NAME> class ////////*/
+
+.section-name {
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  }
+  
+  @media (min-width:992px) {
+    section#contact .section-name {
+      text-align: center;
+      display: block;
+    }
+  }
+  
+  
+  /*/////////////// Modification for contact section/////*/
+  
+  section#contact small#small-or{
+    text-transform: uppercase;
+    text-align: left;
+    margin: 50px 0px 20px;
+    opacity: 0.7;
+  }
+  
+  @media (min-width:992px) {
+    section#contact small#small-or{
+      text-align:center;
+    }
+  }
+  
+  /*/////////////// Modification for contact section ENDS /////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/
