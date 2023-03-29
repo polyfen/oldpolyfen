@@ -11,7 +11,7 @@
 <div class="d-block d-sm-none" style="clear:both;"></div>
 
 <div id="legal">
-  <a href="/privacy.php"><small>Privacy Policy</small></a>
+  <a href="privacy.php"><small>Privacy Policy</small></a>
 </div>
 
 <div class="d-block d-sm-none" style="clear:both;"></div>
