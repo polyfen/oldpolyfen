@@ -8,7 +8,7 @@
     <a href="pricing.php">Pricing</a>
     <a href="about.php">About</a>
     <a href="#">Blog</a>
-    <a href="contact.php">Contact Us</a>
+    <a href="contact.php">Contact</a>
   </nav>
   <!-- FIXED NAVBAR ends --------------->
 </header>
