@@ -4,11 +4,11 @@
   <!-- FIXED NAVBAR start --------------->
   <nav class="navbar">
         
-    <a href="#">Home</a>
-    <a href="#">Pricing</a>
+    <a href="/">Home</a>
+    <a href="pricing.php">Pricing</a>
+    <a href="about.php">About</a>
     <a href="#">Blog</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+    <a href="contact.php">Contact Us</a>
   </nav>
   <!-- FIXED NAVBAR ends --------------->
 </header>
