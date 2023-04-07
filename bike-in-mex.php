@@ -125,14 +125,14 @@
           onmouseout="document.getElementById('tradeana-button').className='secondary-button';
           document.getElementById('tradeana-cover').className='project-cover';">
             
-            <a href="/tradeana">
+            <a href="/tradeana.php">
               <figure>
                 <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
               </figure>
             </a>
             <h4>Tradeana</h4>
             <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-            <a href="/tradeana">
+            <a href="/tradeana.php">
               <button id="tradeana-button" class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
             </a>
           </div>
@@ -145,14 +145,14 @@
           document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
           onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';
           document.getElementById('villa-terezija-cover').className='project-cover';">
-            <a href="/villa-terezija">
+            <a href="/villa-terezija.php">
               <figure>
                 <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
               </figure>
             </a>
           <h4>Villa Terezija</h4>
           <p>A touristic accommodation surrounded by a stunning rose garden.</p>
-          <a href="/villa-terezija">
+          <a href="/villa-terezija.php">
             <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
           </a>
           </div>
