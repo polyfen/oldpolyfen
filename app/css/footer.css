@@ -122,7 +122,7 @@ div#legal {
   div#social-icons {
     float: none;
     width: auto;
-    left: calc(50% - 72px);
+    left: calc(50% - 95px);
     position: absolute;
     margin: 0;
     padding: 0;

@@ -5,6 +5,7 @@
     <a href="http://polyfen.com/twitter" target="_blank" title="Twitter"><li><i class="fab fa-twitter"></i></li></a>
     <a href="http://polyfen.com/instagram" target="_blank" title="Instagram"><li><i class="fab fa-instagram"></i></li></a>
     <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon"><li><i class="fab fa-linkedin-in"></i></li></a>
+    <a href="http://polyfen.com/github" target="_blank" title="Github" id="linkedin-icon"><li><i class="fab fa-github"></i></li></a>
   </ul>
 </div>
 
