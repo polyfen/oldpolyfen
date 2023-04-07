@@ -4,10 +4,11 @@
   <!-- FIXED NAVBAR start --------------->
   <nav class="navbar">
         
-    <a href="#work">Work</a>
-    <a href="#services">Services</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="#">Home</a>
+    <a href="#">Pricing</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
   </nav>
   <!-- FIXED NAVBAR ends --------------->
 </header>
