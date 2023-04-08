@@ -1,3 +1,4 @@
+<?php include 'includes.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,9 +6,9 @@
     <title>Polyfen</title>
 
 
-    <!-- INCLUDE HEAD.PHP start -->
-    <?php include 'sections/head.php';?>
-    <!-- INCLUDE HEAD.PHP end -->
+    <!-- INCLUDE HEAD start -->
+    <?php echo head(); ?>
+    <!-- INCLUDE HEAD end -->
 
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="Polyfen"/>
@@ -47,13 +48,13 @@
     <!-- FORCE MAX-WIDTH 100% start -->
     <div class="main-wrapper">
 
-      <!-- INCLUDE HELLO-BAR.PHP start -->
-      <?php include 'sections/hello-bar.php';?>
-      <!-- INCLUDE HELLO-BAR.PHP end -->
+      <!-- INCLUDE HELLO BAR start -->
+      <?php echo hello_bar(); ?>
+      <!-- INCLUDE HELLO BAR end -->
 
-      <!-- INCLUDE HEADER.PHP start -->
-      <?php include 'sections/header.php';?>
-      <!-- INCLUDE HEADER.PHP end -->
+      <!-- INCLUDE HEADER start -->
+      <?php echo page_header(); ?>
+      <!-- INCLUDE HEADER end -->
 
       <!-- COVER start -->
       <section id="cover">
@@ -167,18 +168,18 @@
 
 
 
-        <!-- INCLUDE FOOTER.PHP start -->
-        <?php include 'sections/call-to-action.php';?>
-        <!-- INCLUDE FOOTER.PHP end -->
+        <!-- INCLUDE CALL TO ACTION start -->
+        <?php echo call_to_action(); ?>
+        <!-- INCLUDE CALL TO ACTION end -->
 
       </div>
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
-    <!-- INCLUDE FOOTER.PHP start -->
-    <?php include 'sections/footer.php';?>
-    <!-- INCLUDE FOOTER.PHP end -->
+    <!-- INCLUDE FOOTER start -->
+    <?php echo footer(); ?>
+    <!-- INCLUDE FOOTER end -->
 
   </body>
 
