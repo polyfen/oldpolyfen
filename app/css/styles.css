@@ -14,6 +14,21 @@ html, body.dark-mode {
   color: #fff;
 }
 
+button {
+  border: 1px solid #7537f8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(255,255,255,.7) !important;
+  background: #060a24;
+  border-radius: 4px;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #ba00ff;
+  background: #7537f8;
+  color: rgba(255,255,255,1) !important;
+}
+
 /*///////////// COLORS END /////////////*/
 
 /*///////////// TYPOGRAPHY START /////////////*/
@@ -93,6 +108,7 @@ header {
   grid-template-columns: 1fr 1fr;
   position: absolute;
   z-index: 10;
+  border-top: 12px solid #7537f8;
 }
 
 header img#logo {
@@ -100,19 +116,19 @@ header img#logo {
   width: auto;
 }
 
+/* The navigation bar ------------------ */
+
 header nav {
   text-align: right;
 }
-
-/* The navigation bar ------------------ */
   
-.navbar a {
+header nav a {
   color: #F2F2F2C0;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.navbar a:hover {
+header nav a:hover {
   color: #FFFFFF;
 }
 
