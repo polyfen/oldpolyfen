@@ -37,7 +37,7 @@
 
   </head>
 
-  <body id="home">
+  <body id="home" class="dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC"
@@ -57,7 +57,7 @@
 
       <!-- COVER start -->
       <section id="cover">
-          <h1>Unleash your business' full potential</h1>
+          <h1 class="title-1">Unleash your business' full potential</h1>
           <div class="background">
             <div id="pearl-11" class="pearl rotate-slower">
             </div>
@@ -69,7 +69,7 @@
       </section>
       <!-- COVER end -->
 
-      <div class="lg-content-container">
+      <div class="container">
 
         <!-- FEATURED PROJECTS start -->
         <section id="work">
