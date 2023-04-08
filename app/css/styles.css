@@ -102,8 +102,8 @@ div.hello-bar button.secondary-button {
 /*///////////// HEADER START /////////////*/
 
 header {
-  width: calc(100% - 30px);
-  padding: 15px;
+  width: calc(100% - 40px);
+  padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: absolute;
@@ -112,7 +112,7 @@ header {
 }
 
 header img#logo {
-  height: 60px;
+  height: 50px;
   width: auto;
 }
 
@@ -123,13 +123,13 @@ header nav {
 }
   
 header nav a {
-  color: #F2F2F2C0;
+  color: #F2F2F2C0 !important;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 header nav a:hover {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 /* END of navigation bar ----------------- */
