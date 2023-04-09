@@ -346,6 +346,87 @@ body.case-study h1 {
   margin-top: 120px;
 }
 
+div#project-navigation-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 140px auto 40px;
+  display: flex;
+  padding-left: 10px;
+}
+
+div#other-projects-container {
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+  margin-top: 120px;
+}
+
+div.other-project-card {
+  width: calc(100% - 30px);
+  margin-bottom: 150px;
+}
+
+div.other-project-card img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+div.other-project-card p {
+  width: 100%;
+  max-width: 480px;
+}
+
+@media (min-width:576px) {
+
+  div.other-project-card {
+    width: calc(50% - 30px);
+    margin-bottom: 60px;
+  }
+
+  div.other-project-card:first-of-type {
+    float: left;
+  }
+
+  div.other-project-card:nth-of-type(2) {
+    float: left;
+    margin-left: 30px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  body.case-study div.project-cover {
+    height: auto;
+  }
+
+  div#other-projects-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+
+  div#project-navigation-container {
+    padding-left: 30px;
+  }
+
+  div.other-project-card {
+    width: calc(50% - 20px);
+  }
+
+  div.other-project-card:nth-of-type(2) {
+    float: right;
+    margin-left: 0;
+  }
+
+  div.other-project-card img {
+    margin-bottom: 40px;
+  }
+
+}
+
 /*///////////// CASE STUDIES END /////////////*/
 
 
