@@ -188,6 +188,11 @@ section#cover {
 
 /*///////////// ——————————————————————————————————— /////////////*/
 
+section#contact small {
+  margin: 20px auto;
+  display: table;
+}
+
 footer {
   margin-top: 180px;
   display: flex;
