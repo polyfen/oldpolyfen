@@ -45,6 +45,14 @@ button:hover {
 	font-family: BiotifExtraBold;
 }
 
+.title-1 {
+  font-family: 'BiotifExtrabold', helvetica, arial, sans-serif;
+}
+
+.caption {
+  font-family: 'BiotifMedium', helvetica, arial, sans-serif;
+}
+
 /*///////////// TYPOGRAPHY END /////////////*/
 
 /*///////////// HELLO BAR START /////////////*/
@@ -142,6 +150,16 @@ header nav a:hover {
 
   
 /*///////////// COVER SECTION END /////////////*/
+
+section#cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 800px;
+}
 
 /*///////////// ——————————————————————————————————— /////////////*/
 

@@ -29,7 +29,6 @@
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
-    <link rel="stylesheet" href="app/css/home.css" type="text/css">
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
@@ -58,15 +57,7 @@
 
       <!-- COVER start -->
       <section id="cover">
-          <h1 class="title-1">Unleash your business' full potential</h1>
-          <div class="background">
-            <div id="pearl-11" class="pearl rotate-slower">
-            </div>
-            <div id="pearl-12" class="pearl rotate">
-            </div>
-            <div id="pearl-13" class="pearl rotate-slower">
-            </div>
-          </div>
+          <h1 class="title-1 align-center">Unleash your business'<br/>full potential</h1>
       </section>
       <!-- COVER end -->
 
@@ -74,8 +65,8 @@
 
         <!-- FEATURED PROJECTS start -->
         <section id="work">
-          <small class="section-name">Work</small>
-          <h2>Featured projects</h2>
+          <h2 class="caption">Work</h2>
+          <h3 class="heading-1">Featured projects</h3>
 
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
@@ -159,14 +150,11 @@
         <!-- FEATURED PROJECTS end -->
 
 
-
         <div style="clear:both;">
         </div>
         <div class="row">
           <div class="horizontal-separator"></div>
         </div>
-
-
 
         <!-- INCLUDE CALL TO ACTION start -->
         <?php echo call_to_action(); ?>
