@@ -1,3 +1,4 @@
+<?php include 'includes.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,9 +6,9 @@
     <title>Polyfen | Tradena Brand Identity Design</title>
 
 
-    <!-- INCLUDE HEAD.PHP start -->
-    <?php include 'sections/head.php';?>
-    <!-- INCLUDE HEAD.PHP end -->
+    <!-- INCLUDE HEAD start -->
+    <?php echo head(); ?>
+    <!-- INCLUDE HEAD end -->
 
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="Tradena Brand Identity Design"/>
@@ -28,15 +29,9 @@
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
-    <link rel="stylesheet" href="app/css/case-studies.css" type="text/css">
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
-    <!-- BOOTSTRAP start-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- BOOTSTRAP end-->
     <!-- SLICK start-->
     <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick.css"/>
     <!--// Add the new slick-theme.css if you want the default styling //-->
@@ -57,15 +52,15 @@
     <!-- FORCE MAX-WIDTH 100% start -->
     <div class="main-wrapper">
 
-      <!-- INCLUDE HELLO-BAR.PHP start -->
-      <?php include 'sections/hello-bar.php';?>
-      <!-- INCLUDE HELLO-BAR.PHP end -->
+      <!-- INCLUDE HELLO BAR start -->
+      <?php echo hello_bar(); ?>
+      <!-- INCLUDE HELLO BAR end -->
 
-      <!-- INCLUDE HEADER.PHP start -->
-      <?php include 'sections/header.php';?>
-      <!-- INCLUDE HEADER.PHP end -->
+      <!-- INCLUDE HEADER start -->
+      <?php echo page_header(); ?>
+      <!-- INCLUDE HEADER end -->
 
-      <h2 id="case-study-title">Tradeana</h2>
+      <h1 id="heading-1 align-center">Tradeana</h1>
 
       <div id="slider-container">
         <div class="slider lazy">
@@ -192,16 +187,16 @@
         <div class="horizontal-separator"></div>
       </div>
 
-      <!-- INCLUDE FOOTER.PHP start -->
-      <?php include 'sections/call-to-action.php';?>
-      <!-- INCLUDE FOOTER.PHP end -->
+      <!-- INCLUDE CALL TO ACTION start -->
+      <?php echo call_to_action(); ?>
+      <!-- INCLUDE CALL TO ACTION end -->
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
-    <!-- INCLUDE FOOTER.PHP start -->
-    <?php include 'sections/footer.php';?>
-    <!-- INCLUDE FOOTER.PHP end -->
+    <!-- INCLUDE FOOTER start -->
+    <?php echo footer(); ?>
+    <!-- INCLUDE FOOTER end -->
 
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
