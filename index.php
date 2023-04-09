@@ -70,32 +70,46 @@
 
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
-            <h4 class="heading-2">Bike in Mex</h4>
-            <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
-            <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
-              <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-              </a>
+            <div class="project-cover">
               <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp">
+            </div>
+            <div class="project-description">
+              <h4 class="heading-2">Bike in Mex</h4>
+              <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
+              <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
+                <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              </a>
+            </div>
           </div>
           <!-- BIKE IN MEX end -->
 
           <!-- TRADEANA start -->
           <div class="featured-project">
-            <h4 class="heading-2">Tradeana</h4>
-            <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
-            <a href="/tradeana.php" onmouseover="document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-cover').className='project-cover';">
-              <button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-            </a>
+            <div class="project-cover">
+              <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp">
+            </div>
+            <div class="project-description">
+              <h4 class="heading-2">Tradeana</h4>
+              <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
+              <a href="/tradeana.php" onmouseover="document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-cover').className='project-cover';">
+                <button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              </a>
+            </div>
           </div>
           <!-- TRADEANA end -->
 
           <!-- VILLA TEREZIJA start -->
           <div class="featured-project">
-            <h4 class="heading-2">Villa Terezija</h4>
-            <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
-            <a href="/villa-terezija.php" onmouseover="document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-cover').className='project-cover';">
-              <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-            </a>
+            <div class="project-cover">
+              <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp">
+            </div>
+            <div class="project-descritpion">
+              <h4 class="heading-2">Villa Terezija</h4>
+              <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
+              <a href="/villa-terezija.php" onmouseover="document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-cover').className='project-cover';">
+                <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              </a>
+            </div>
           </div>
           <!-- VILLA TEREZIJA end -->
 
