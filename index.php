@@ -75,6 +75,7 @@
             <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
               <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
               </a>
+              <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp">
           </div>
           <!-- BIKE IN MEX end -->
 
