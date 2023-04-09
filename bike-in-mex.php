@@ -60,99 +60,102 @@
       <?php echo page_header(); ?>
       <!-- INCLUDE HEADER end -->
 
+      <div class="container-1080">
 
-      <h1 class="heading-1 align-center">Bike in Mex</h1>
+        <h1 class="heading-1 align-center">Bike in Mex</h1>
 
-      <div id="slider-container">
-        <div class="slider lazy">
+        <div id="slider-container">
+          <div class="slider lazy">
 
-          <picture data-lazy>
-            <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover-mobile.webp" width="100%" height="auto" type="image/webp">
-            <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%" height="auto" type="image/webp">
-            <img data-lazy src="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-            <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid-mobile.webp" width="100%" height="auto" type="image/webp">
-            <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto" type="image/webp">
-            <img data-lazy src="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-            <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family-mobile.webp" width="100%" height="auto" type="image/webp">
-            <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%" height="auto" type="image/webp">
-            <img data-lazy src="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-            <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle-mobile.webp" width="100%" height="auto" type="image/webp">
-            <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto" type="image/webp">
-            <img data-lazy src="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-            <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural-mobile.webp" width="100%" height="auto" type="image/webp">
-            <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%" height="auto" type="image/webp">
-            <img data-lazy src="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-            <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts-mobile.webp" width="100%" height="auto" type="image/webp">
-            <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto" type="image/webp">
-            <img data-lazy src="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-            <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag-mobile.webp" width="100%" height="auto" type="image/webp">
-            <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto" type="image/webp">
-            <img data-lazy src="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto">
-          </picture>
-          
-        </div>
-      </div>
-
-      <div style="clear:both;">
-      </div>
-      <div class="row">
-        <div class="horizontal-separator"></div>
-      </div>
-
-      <div id="other-projects-container">
-        <h3>Other Projects</h3>
-
-        <div id="tradeana-project-navigation" class="other-project-card">
-          <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';
-          document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" 
-          onmouseout="document.getElementById('tradeana-button').className='secondary-button';
-          document.getElementById('tradeana-cover').className='project-cover';">
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%" height="auto">
+            </picture>
             
-            <a href="/tradeana.php">
-              <figure>
-                <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
-              </figure>
-            </a>
-            <h4>Tradeana</h4>
-            <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-            <a href="/tradeana.php">
-              <button id="tradeana-button" class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-            </a>
           </div>
         </div>
 
-        <div id="villa-terezija-project-navigation" class="other-project-card">
+        <div style="clear:both;">
+        </div>
+        <div class="row">
+          <div class="horizontal-separator"></div>
+        </div>
 
-          <div id="villa-terezija-cover" class="project-cover" 
-          onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';
-          document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
-          onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';
-          document.getElementById('villa-terezija-cover').className='project-cover';">
+        <div id="other-projects-container">
+          <h3>Other Projects</h3>
+
+          <div id="tradeana-project-navigation" class="other-project-card">
+            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';
+            document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" 
+            onmouseout="document.getElementById('tradeana-button').className='secondary-button';
+            document.getElementById('tradeana-cover').className='project-cover';">
+              
+              <a href="/tradeana.php">
+                <figure>
+                  <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
+                </figure>
+              </a>
+              <h4>Tradeana</h4>
+              <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
+              <a href="/tradeana.php">
+                <button id="tradeana-button" class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              </a>
+            </div>
+          </div>
+
+          <div id="villa-terezija-project-navigation" class="other-project-card">
+
+            <div id="villa-terezija-cover" class="project-cover" 
+            onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';
+            document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
+            onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';
+            document.getElementById('villa-terezija-cover').className='project-cover';">
+              <a href="/villa-terezija.php">
+                <figure>
+                  <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
+                </figure>
+              </a>
+            <h4>Villa Terezija</h4>
+            <p>A touristic accommodation surrounded by a stunning rose garden.</p>
             <a href="/villa-terezija.php">
-              <figure>
-                <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
-              </figure>
+              <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
             </a>
-          <h4>Villa Terezija</h4>
-          <p>A touristic accommodation surrounded by a stunning rose garden.</p>
-          <a href="/villa-terezija.php">
-            <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-          </a>
+            </div>
           </div>
-        </div>
-    </div>
+      </div>
+    
+   
 
       <div style="clear:both;">
       </div>
@@ -163,6 +166,8 @@
       <!-- INCLUDE CALL TO ACTION start -->
       <?php echo call_to_action(); ?>
       <!-- INCLUDE CALL TO ACTION end -->
+
+      </div>
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->

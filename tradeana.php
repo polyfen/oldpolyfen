@@ -60,136 +60,140 @@
       <?php echo page_header(); ?>
       <!-- INCLUDE HEADER end -->
 
-      <h1 id="heading-1 align-center">Tradeana</h1>
+      <div class="container-1080">
 
-      <div id="slider-container">
-        <div class="slider lazy">
-          
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp"" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp"" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/04_tradeana_keywords-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/06_tradeana_naming-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/09_tradeana_final-design-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/09_tradeana_final-design.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/09_tradeana_final-design.webp.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/10_tradeana_web-design-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto">
-          </picture>
-          <picture data-lazy>
-          	<source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/12_tradeana_business-cards-mobile.webp" width="100%" height="auto" type="image/webp">
-          	<source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto" type="image/webp">
-          	<img data-lazy src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto">
-          </picture>
+        <h1 id="heading-1 align-center">Tradeana</h1>
 
-        </div>
-      </div>
+        <div id="slider-container">
+          <div class="slider lazy">
+            
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp"" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp"" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/04_tradeana_keywords-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/06_tradeana_naming-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/09_tradeana_final-design-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/09_tradeana_final-design.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/09_tradeana_final-design.webp.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/10_tradeana_web-design-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto">
+            </picture>
+            <picture data-lazy>
+              <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/12_tradeana_business-cards-mobile.webp" width="100%" height="auto" type="image/webp">
+              <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto" type="image/webp">
+              <img data-lazy src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto">
+            </picture>
 
-      <div style="clear:both;">
-      </div>
-      <div class="row">
-        <div class="horizontal-separator"></div>
-      </div>
-
-      <div id="other-projects-container">
-        <h3>Other Projects</h3>
-
-        <div id="bike-in-mex-project-navigation" class="other-project-card">
-
-          <div id="bike-in-mex-cover" class="project-cover" 
-          onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';
-          document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" 
-          onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';
-          document.getElementById('bike-in-mex-cover').className='project-cover';">
-           <a href="/bike-in-mex.php">
-              <figure>
-                <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex">
-              </figure>
-            </a>
           </div>
-          <h4>Bike in Mex</h4>
-          <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
-    
-          <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
-          onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
-            <button id='bike-in-mex-button' class="secondary-button">View project<i class="fa fa-angle-right" aria-hidden="true"></i></button>
-          </a>
-
         </div>
 
-        <div id="villa-terezija-project-navigation" class="other-project-card">
-          <div id="villa-terezija-cover" class="project-cover" 
-          onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';
-          document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
-          onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';
-          document.getElementById('villa-terezija-cover').className='project-cover';">
+        <div style="clear:both;">
+        </div>
+        <div class="row">
+          <div class="horizontal-separator"></div>
+        </div>
+
+        <div id="other-projects-container">
+          <h3>Other Projects</h3>
+
+          <div id="bike-in-mex-project-navigation" class="other-project-card">
+
+            <div id="bike-in-mex-cover" class="project-cover" 
+            onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';
+            document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" 
+            onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';
+            document.getElementById('bike-in-mex-cover').className='project-cover';">
+            <a href="/bike-in-mex.php">
+                <figure>
+                  <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex">
+                </figure>
+              </a>
+            </div>
+            <h4>Bike in Mex</h4>
+            <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
+      
+            <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
+            onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
+              <button id='bike-in-mex-button' class="secondary-button">View project<i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </a>
+
+          </div>
+
+          <div id="villa-terezija-project-navigation" class="other-project-card">
+            <div id="villa-terezija-cover" class="project-cover" 
+            onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';
+            document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
+            onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';
+            document.getElementById('villa-terezija-cover').className='project-cover';">
+              <a href="/villa-terezija.php">
+                <figure>
+                  <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
+                </figure>
+              </a>
+            <h4>Villa Terezija</h4>
+            <p>A touristic accommodation surrounded by a stunning rose garden.</p>
             <a href="/villa-terezija.php">
-              <figure>
-                <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
-              </figure>
+              <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
             </a>
-          <h4>Villa Terezija</h4>
-          <p>A touristic accommodation surrounded by a stunning rose garden.</p>
-          <a href="/villa-terezija.php">
-            <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-          </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div style="clear:both;">
-      </div>
-      <div class="row">
-        <div class="horizontal-separator"></div>
-      </div>
+        <div style="clear:both;">
+        </div>
+        <div class="row">
+          <div class="horizontal-separator"></div>
+        </div>
 
-      <!-- INCLUDE CALL TO ACTION start -->
-      <?php echo call_to_action(); ?>
-      <!-- INCLUDE CALL TO ACTION end -->
+        <!-- INCLUDE CALL TO ACTION start -->
+        <?php echo call_to_action(); ?>
+        <!-- INCLUDE CALL TO ACTION end -->
+
+      </div>
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
