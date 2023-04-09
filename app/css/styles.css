@@ -53,6 +53,10 @@ button:hover {
   font-family: 'BiotifMedium', helvetica, arial, sans-serif;
 }
 
+.heading-1 {
+  font-family: 'BiotifBold', helvetica, arial, sans-serif;
+}
+
 /*///////////// TYPOGRAPHY END /////////////*/
 
 /*///////////// HELLO BAR START /////////////*/
