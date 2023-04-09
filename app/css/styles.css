@@ -57,8 +57,14 @@ nav a {
   font-family: BiotifMedium;
 }
 
+@font-feature-values "BiotifExtraBold", "BiotifBold", "BiotifMedium" { 
+  @styleset { alt-a: 1;} 
+  @stylistic { alternates: 1; } 
+}
+
 .title-1 {
   font-family: 'BiotifExtrabold', helvetica, arial, sans-serif;
+  font-variant-alternates: styleset(alt-a);
 }
 
 .caption {
@@ -67,6 +73,7 @@ nav a {
 
 .heading-1 {
   font-family: 'BiotifBold', helvetica, arial, sans-serif;
+  font-variant-alternates: styleset(alt-a);
 }
 
 /*///////////// TYPOGRAPHY END /////////////*/
