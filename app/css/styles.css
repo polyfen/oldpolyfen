@@ -188,9 +188,17 @@ section#cover {
 
 /*///////////// ——————————————————————————————————— /////////////*/
 
+section#work p {
+  max-width: 400px;
+}
+
+section#contact {
+  text-align: center;
+}
+
 section#contact small {
   margin: 20px auto;
-  display: table;
+  display: block;
 }
 
 footer {
