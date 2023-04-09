@@ -85,7 +85,7 @@
               </div>
             </div>
             <div class="project-description">
-              <h4>Bike in Mex</h4>
+              <h4 class="heading-2">Bike in Mex</h4>
               <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
               <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
                 <button class="secondary-button" id="bike-in-mex-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
