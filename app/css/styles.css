@@ -49,6 +49,10 @@ button:hover {
 	font-family: BiotifExtraBold;
 }
 
+p, p a, li, p strong, p span, li strong {
+  font-family: 'freight-text-pro', serif;
+}
+
 nav a {
   font-family: BiotifMedium;
 }
