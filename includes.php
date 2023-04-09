@@ -132,7 +132,7 @@
             </ul>
             <a href="privacy.php"><small>Privacy Policy</small></a>
             <a href="https://thepolygroup.co" target="_blank">
-                <img src="imgs/the-poly-group-low.svg">
+                <img src="imgs/the-poly-group-low.svg" alt="The Poly Group" style="height:40px;width:auto;">
             </a>
         </footer>';
     }
