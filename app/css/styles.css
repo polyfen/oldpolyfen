@@ -33,6 +33,10 @@ button:hover {
 
 /*///////////// TYPOGRAPHY START /////////////*/
 
+* {
+  font-family: BiotifMedium;
+}
+
 .BiotifMedium {
 	font-family: BiotifMedium;
 }
@@ -187,6 +191,10 @@ section#cover {
 /*///////////// ABOUT END /////////////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/
+
+div.featured-project {
+  margin-bottom: 60px;
+}
 
 section#work p {
   max-width: 400px;
