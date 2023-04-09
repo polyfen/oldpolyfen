@@ -111,7 +111,7 @@
               </div>
             </div>
             <div class="project-description">
-              <h4>Tradeana</h4>
+              <h4 class="heading-2">Tradeana</h4>
               <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.</p>
               <a href="/tradeana.php" onmouseover="document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-cover').className='project-cover';">
                 <button class="secondary-button" id="tradeana-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
@@ -137,7 +137,7 @@
               </div>
             </div>
             <div class="project-description">
-              <h4>Villa Terezija</h4>
+              <h4 class="heading-2">Villa Terezija</h4>
               <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
               <a href="/villa-terezija.php" onmouseover="document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-cover').className='project-cover';">
                 <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
