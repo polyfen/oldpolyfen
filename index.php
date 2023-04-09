@@ -61,7 +61,7 @@
       </section>
       <!-- COVER end -->
 
-      <div class="container">
+      <div class="container-1080">
 
         <!-- FEATURED PROJECTS start -->
         <section id="work">
@@ -76,6 +76,13 @@
                   <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex flag">
                 </figure>
               </a>
+              <div class="project-preview">
+                <a href="/bike-in-mex.php">
+                  <figure>
+                    <img src="imgs/case-studies/bike-in-mex/bike-in-mex-preview.gif" loading="lazy" alt="Bike in Mex preview">
+                  </figure>
+                </a>
+              </div>
             </div>
             <div class="project-description">
               <h4 class="heading-2">Bike in Mex</h4>
@@ -95,6 +102,13 @@
                   <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
                 </figure>
               </a>
+              <div class="project-preview">
+                <a href="/tradeana.php">
+                  <figure>
+                    <img src="imgs/case-studies/tradeana/tradeana-preview.gif" loading="lazy" alt="Tradeana preview">
+                  </figure>
+                </a>
+              </div>
             </div>
             <div class="project-description">
               <h4 class="heading-2">Tradeana</h4>
@@ -114,6 +128,13 @@
                   <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
                 </figure>
               </a>
+              <div class="project-preview">
+                <a href="/villa-terezija.php">
+                  <figure>
+                   <img src="imgs/case-studies/villa-terezija/villa-terezija-preview.gif" loading="lazy" alt="Villa Terezija preview">
+                  </figure>
+                </a>
+              </div>
             </div>
             <div class="project-descritpion">
               <h4 class="heading-2">Villa Terezija</h4>
