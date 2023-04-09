@@ -93,10 +93,8 @@ div.hello-bar small {
 
 
 
-div.hello-bar button.secondary-button {
-  margin: 10px 0 !important;
-  padding: 10px 20px 8px !important;
-  max-width: 170px !important;
+div.hello-bar button {
+  margin-left: 20px;
 }
 
 @media (min-width:750px) {
@@ -108,11 +106,6 @@ div.hello-bar button.secondary-button {
   div.hello-bar small {
     padding: 0;
     line-height: normal;
-  }
-
-  div.hello-bar button.secondary-button {
-    margin: 0 0 0 20px !important;
-    padding: 10px 0 6px !important;
   }
 
 }
