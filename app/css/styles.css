@@ -49,6 +49,10 @@ button:hover {
 	font-family: BiotifExtraBold;
 }
 
+p, p a, li, p strong, p span, li strong {
+  font-family: 'freight-text-pro', serif;
+}
+
 nav a {
   font-family: BiotifMedium;
 }
@@ -169,39 +173,8 @@ section#cover {
 /*///////////// ——————————————————————————————————— /////////////*/
 
 
-/*///////////// FEATURED PROJECTS START /////////////*/
+/*///////////// FOOTER START /////////////*/
   
-
-  
-/*///////////// FEATURED PROJECTS END /////////////*/
-
-/*///////////// ——————————————————————————————————— /////////////*/
-
-/*///////////// ABOUT START /////////////*/
-
-  
-
-/*///////////// ABOUT END /////////////*/
-
-/*///////////// ——————————————————————————————————— /////////////*/
-
-div.featured-project {
-  margin-bottom: 60px;
-}
-
-section#work p {
-  max-width: 400px;
-}
-
-section#contact {
-  text-align: center;
-}
-
-section#contact small {
-  margin: 20px auto;
-  display: block;
-}
-
 footer {
   margin-top: 180px;
   display: flex;
@@ -229,3 +202,143 @@ footer a {
 footer a:hover {
   opacity: 1;
 }
+  
+/*///////////// FOOTER END /////////////*/
+
+/*///////////// HOMEPAGE START /////////////*/
+
+div.featured-project {
+  margin-bottom: 60px;
+}
+
+div.featured-project {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.project-description {
+  max-width: 460px;
+  padding-top: 35px;
+}
+
+div.project-cover {
+  width: 100%;
+}
+
+div.project-cover img {
+  border-radius: 4px;
+  width: 100%;
+}
+
+div.project-cover figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+div.project-cover figure:hover img, div.project-cover-hover figure img {
+	-webkit-transform: scale(1.025);
+	transform: scale(1.025);
+}
+
+div.project-preview {
+  display: none;
+}
+
+@media (min-width: 576px) {
+
+  div.featured-project {
+    flex-direction: row;
+  }
+
+  div.project-cover {
+    width: 40%;
+    height: 280px;
+    background-size: 180%;
+    -webkit-transition: background-size .5s,margin-top 2s !important;
+    transition: background-size .5s;
+  }
+
+  div.project-description {
+    width: 50%;
+    margin-left: 20px;
+    padding-top: 5px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  div.project-cover {
+    height: 350px;
+    background-size: 150%;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  div.project-cover {
+    height: 400px;
+    background-size: 140%;
+  }
+
+  div.project-description {
+    padding-top: 75px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  div.project-cover {
+    height: 550px;
+    width: 100%;
+    max-width: 600px;
+    background-size: 145%;
+  }
+
+  div.project-preview {
+    display: flex;
+    width: 340px;
+    position: relative;
+    float: right;
+    top: -200px;
+    left: 20px;
+    box-shadow: 0 0 15px 0px #00000033;
+  }
+
+  div.project-description {
+    padding-top: 100px;
+    margin-left: 40px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  div.project-cover {
+    max-width: 640px;
+  }
+
+}
+
+/*///////////// HOMEPAGE END /////////////*/
+
+/*///////////// CTA SECTION START /////////////*/
+
+section#contact {
+  text-align: center;
+}
+
+section#contact small {
+  margin: 20px auto;
+  display: block;
+}
+
+/*///////////// CTA SECTION END /////////////*/
+
+
+/*///////////// ——————————————————————————————————— /////////////*/
