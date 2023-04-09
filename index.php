@@ -70,7 +70,7 @@
 
           <!-- BIKE IN MEX start -->
           <div class="featured-project">
-            <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';document.getElementById('bike-in-mex-cover').className='project-cover';">
+            <div id="bike-in-mex-cover" class="project-cover d-none" onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';document.getElementById('bike-in-mex-cover').className='project-cover';">
               <a href="/bike-in-mex.php">
                 <figure>
                   <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex flag">
