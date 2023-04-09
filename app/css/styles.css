@@ -45,6 +45,10 @@ button:hover {
 	font-family: BiotifExtraBold;
 }
 
+nav a {
+  font-family: BiotifMedium;
+}
+
 .title-1 {
   font-family: 'BiotifExtrabold', helvetica, arial, sans-serif;
 }
