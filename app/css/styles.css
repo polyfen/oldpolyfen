@@ -206,8 +206,15 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 20px;
+  align-content: center;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  gap: 8px;
 }
 
 footer ul li {
