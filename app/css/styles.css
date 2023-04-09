@@ -340,5 +340,13 @@ section#contact small {
 
 /*///////////// CTA SECTION END /////////////*/
 
+/*///////////// CASE STUDIES START /////////////*/
+
+body.case-study h1 {
+  margin-top: 120px;
+}
+
+/*///////////// CASE STUDIES END /////////////*/
+
 
 /*///////////// ——————————————————————————————————— /////////////*/

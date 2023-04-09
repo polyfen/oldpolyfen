@@ -113,12 +113,12 @@
         </div>
 
         <div id="other-projects-container">
-          <h3>Other Projects</h3>
+          <h2 class="caption">Other Projects</h2>
 
           <div id="tradeana-project-navigation" class="other-project-card">
-            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';
+            <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='button-hover';
             document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" 
-            onmouseout="document.getElementById('tradeana-button').className='secondary-button';
+            onmouseout="document.getElementById('tradeana-button').className='';
             document.getElementById('tradeana-cover').className='project-cover';">
               
               <a href="/tradeana.php">
@@ -126,10 +126,10 @@
                   <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
                 </figure>
               </a>
-              <h4>Tradeana</h4>
+              <h3 class="heading-2">Tradeana</h3>
               <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
               <a href="/tradeana.php">
-                <button id="tradeana-button" class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                <button id="tradeana-button">View project</button>
               </a>
             </div>
           </div>
@@ -137,19 +137,19 @@
           <div id="villa-terezija-project-navigation" class="other-project-card">
 
             <div id="villa-terezija-cover" class="project-cover" 
-            onmouseover="document.getElementById('villa-terezija-button').className='secondary-button secondary-button-hover';
+            onmouseover="document.getElementById('villa-terezija-button').className='button-hover';
             document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
-            onmouseout="document.getElementById('villa-terezija-button').className='secondary-button';
+            onmouseout="document.getElementById('villa-terezija-button').className='';
             document.getElementById('villa-terezija-cover').className='project-cover';">
               <a href="/villa-terezija.php">
                 <figure>
                   <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
                 </figure>
               </a>
-            <h4>Villa Terezija</h4>
+            <h3 class="heading-2">Villa Terezija</h3>
             <p>A touristic accommodation surrounded by a stunning rose garden.</p>
             <a href="/villa-terezija.php">
-              <button class="secondary-button" id="villa-terezija-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              <button id="villa-terezija-button">View project</button>
             </a>
             </div>
           </div>

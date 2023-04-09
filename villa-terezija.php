@@ -62,7 +62,7 @@
 
       <div class="container-1080">
 
-        <h1 id="heading-1 align-center">Villa Terezija</h1>
+        <h1 class="heading-1 align-center">Villa Terezija</h1>
 
         <div id="slider-container">
           <div class="slider lazy">
@@ -133,14 +133,14 @@
         </div>
 
         <div id="other-projects-container">
-          <h3>Other Projects</h3>
+          <h2 class="caption">Other Projects</h2>
 
           <div id="bike-in-mex-project-navigation" class="other-project-card">
 
             <div id="bike-in-mex-cover" class="project-cover" 
-            onmouseover="document.getElementById('bike-in-mex-button').className='secondary-button secondary-button-hover';
+            onmouseover="document.getElementById('bike-in-mex-button').className='button-hover';
             document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" 
-            onmouseout="document.getElementById('bike-in-mex-button').className='secondary-button';
+            onmouseout="document.getElementById('bike-in-mex-button').className='';
             document.getElementById('bike-in-mex-cover').className='project-cover';">
             <a href="/bike-in-mex.php">
                 <figure>
@@ -148,31 +148,31 @@
                 </figure>
               </a>
             </div>
-            <h4>Bike in Mex</h4>
+            <h3 class="heading-2">Bike in Mex</h3>
             <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
       
             <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
             onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
-              <button id='bike-in-mex-button' class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              <button id='bike-in-mex-button' class="">View project</button>
             </a>
 
           </div>
 
           <div id="tradeana-project-navigation" class="other-project-card">
             <div id="tradeana-cover" class="project-cover"
-            onmouseover="document.getElementById('tradeana-button').className='secondary-button secondary-button-hover';
+            onmouseover="document.getElementById('tradeana-button').className='button-hover';
             document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" 
-            onmouseout="document.getElementById('tradeana-button').className='secondary-button';
+            onmouseout="document.getElementById('tradeana-button').className='';
             document.getElementById('tradeana-cover').className='project-cover';">
               <a href="/tradeana.php">
                 <figure>
                   <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
                 </figure>
               </a>
-              <h4>Tradeana</h4>
+              <h3 class="heading-2">Tradeana</h3>
               <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
               <a href="/tradeana.php">
-                <button id="tradeana-button" class="secondary-button">View project <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                <button id="tradeana-button">View project</button>
               </a>
             </div>
           </div>
