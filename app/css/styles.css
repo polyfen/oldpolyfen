@@ -640,7 +640,7 @@ div.other-project-card p {
 @media (min-width:576px) {
 
   div.other-project-card {
-    width: calc(50% - 30px);
+    width: calc(100% - 60px);
     margin-bottom: 60px;
   }
 
@@ -653,11 +653,8 @@ div.other-project-card p {
     margin-left: 30px;
   }
 
-}
-
-@media (min-width: 1200px) {
-
   body.case-study div.project-cover {
+    width: 100%;
     height: auto;
   }
 
@@ -683,6 +680,12 @@ div.other-project-card p {
   div.other-project-card img {
     margin-bottom: 40px;
   }
+
+}
+
+@media (min-width: 1200px) {
+
+  
 
 }
 
