@@ -37,7 +37,7 @@
 
 </head>
 
-<body id="strategy-call" class="dark-mode">
+<body id="strategy-call" class="dark-mode landing-page">
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -51,10 +51,10 @@
     <?php echo page_header(); ?>
     <!-- INCLUDE HEADER end -->
 
-    <div class="content-container landing-page-container" style="margin-bottom:0 !important;">
+    <div class="container" style="margin-bottom:0 !important;">
 
       <div id="landing-page-cover">
-        <h2>Book a free Strategy Call for your Business</h2>
+        <h1 class="heading-1 align-center">Book a free Strategy Call for your Business</h1>
       </div>
 
       <div id="boris-hrncic-container">
@@ -82,13 +82,11 @@
       <!-- Calendly inline widget end -->
       </div>
 
-      <div class="content-container landing-page-container" style="margin-top:0 !important;">
+      <div class="container" style="margin-top:0 !important;">
 
       <div style="clear:both;">
       </div>
-      <div class="row">
-        <div class="horizontal-separator"></div>
-      </div>
+      <hr>
 
       <div id="testimonials-container">
         <div class="testimonial">
@@ -96,7 +94,7 @@
         </div>
       </div>
 
-      <div id="final-cta-container">
+      <div id="final-cta-container" class="align-center">
         <a href="#calendly">
           <button class="button secondary-button" id="final-cta">↑ Schedule a Call ↑</button>
         </a>
