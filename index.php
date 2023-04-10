@@ -136,7 +136,7 @@
                 </a>
               </div>
             </div>
-            <div class="project-descritpion">
+            <div class="project-description">
               <h4 class="heading-2">Villa Terezija</h4>
               <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
               <a href="/villa-terezija.php" onmouseover="document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-cover').className='project-cover';">
