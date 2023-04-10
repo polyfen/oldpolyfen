@@ -58,6 +58,14 @@
       <!-- COVER start -->
       <section id="cover">
           <h1 class="title-1 align-center">Unleash your business'<br/>full potential</h1>
+          <div class="background">
+          <div id="pearl-11" class="pearl rotate-slower">
+          </div>
+          <div id="pearl-12" class="pearl rotate">
+          </div>
+          <div id="pearl-13" class="pearl rotate-slower">
+          </div>
+          </div>
       </section>
       <!-- COVER end -->
 

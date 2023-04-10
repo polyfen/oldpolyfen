@@ -167,14 +167,256 @@ header nav a:hover {
   
 /*///////////// COVER SECTION END /////////////*/
 
+div.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: -410px;
+  left: 0;
+  z-index: 1;
+}
+
+section#cover h1 {
+  z-index: 2;
+  position: relative;
+  margin-top: 180px;
+}
+
 section#cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 800px;
+  height: 450px;
+}
+
+#pearl-11 {
+  display: block;
+  background-image: url('../../imgs/pearls/09.webp');
+  width: 400px;
+  height: 400px;
+  top: 180px;
+  right:-110px;
+}
+
+#pearl-12 {
+  display: block;
+  background-image: url('../../imgs/pearls/01.webp');
+  width: 300px;
+  height: 300px;
+  top: 360px;
+  left: -120px;
+}
+
+div.pearl {
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+@-webkit-keyframes rotating{from{-webkit-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}
+}
+
+@keyframes rotating{from{-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}
+to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}
+}.rotate{-webkit-animation:rotating 545s linear infinite!important;-moz-animation:rotating 45s linear infinite!important;-ms-animation:rotating 45s linear infinite!important;-o-animation:rotating 45s linear infinite!important;animation:rotating 45s linear infinite!important}
+.rotate-slower{-webkit-animation:rotating 70s linear infinite!important;-moz-animation:rotating 70s linear infinite!important;-ms-animation:rotating 70s linear infinite!important;-o-animation:rotating 70s linear infinite!important;animation:rotating 70s linear infinite!important}
+
+
+@media (min-width:576px) {
+
+    #pearl-11 {
+      top: -420px;
+      right: -400px;
+      width: 900px;
+      height: 900px;
+    }
+
+    #pearl-12 {
+      width: 300px;
+      height: 300px;
+      top: 350px;
+      left: -60px;
+    }
+
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      margin: 0 auto;
+      right: -580px;
+      top: 650px;
+      height: 245px;
+      width: 245px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -200px;
+      top: 525px;
+    }
+
+}
+
+@media(min-width:768px) {
+
+    #pearl-11 {
+      top: -400px;
+      right: -310px;
+      width: 900px;
+      height: 900px;
+    }
+
+    #pearl-12 {
+      width: 300px;
+      height: 300px;
+      top: 340px;
+      left: -60px;
+    }
+
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -580px;
+      top: 650px;
+      height: 280px;
+      height: 250px;
+      width: 250px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -320px;
+      top: 510px;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    #pearl-11 {
+      top: -450px;
+      right: 30px;
+      width: 1050px;
+      height: 1050px;
+      top: -260px;
+      right: -170px;
+      width: 900px;
+      height: 900px;
+    }
+
+    #pearl-12 {
+      width: 390px;
+      height: 390px;
+      top: 350px;
+      left: -45px;
+      width: 390px;
+      height: 390px;
+      top: 480px;
+      left: -100px;
+      width: 390px;
+      height: 390px;
+      top: 450px;
+      left: -100px;
+    }
+
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin:0 auto;
+      right: -580px;
+      top: 650px;
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      margin:0 auto;
+      right: -370px;
+      top: 695px;
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -370px;
+      top: 730px;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+
+    #pearl-11 {
+      top: -360px;
+      right: -90px;
+      width: 1050px;
+      height: 1050px;
+    }
+
+    #pearl-12 {
+      width: 390px;
+      height: 390px;
+      top: 440px;
+      left: -105px;
+    }
+
+    div#pearl-13 {
+      height: 300px;
+      width: 300px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -500px;
+      top: 760px;
+    }
+
+}
+
+@media(min-width:1680px){
+
+    #pearl-11 {
+      top: -400px;
+      right: 40px;
+      width: 1050px;
+      height: 1050px;
+    }
+
+    #pearl-12 {
+      width: 450px;
+      height: 450px;
+      top: 340px;
+      left: -100px;
+    }
+
+    div#pearl-13 {
+      height: 350px;
+      width: 350px;
+      display: block;
+      position: inherit;
+      background-image: url(../../imgs/pearls/13.webp);
+      margin: 0 auto;
+      right: -580px;
+      top: 700px;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    section#cover {
+      height: 700px;
+    }
+
 }
 
 /*///////////// ——————————————————————————————————— /////////////*/
