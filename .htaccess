@@ -224,6 +224,12 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^ux$ "https\:\/\/docs\.google\.com\/document\/d\/1mh1lTJaMAMBYRP1gyyBOkpTb\-6w9aZXYqWFXtJiAQlc\/edit\?usp\=sharing" [R=301,L]
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^github$ "http\:\/\/github\.com\/orgs\/thepolygroup\/repositories" [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
