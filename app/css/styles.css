@@ -1015,5 +1015,17 @@ div.testimonial {
 
 /*///////////// LANDING PAGES END /////////////*/
 
+/*///////////// PRIVACY POLICY PAGE START /////////////*/
+
+body#privacy-policy header nav {
+  display: none;
+}
+
+body#privacy-policy div.container {
+  padding-top: 150px;
+  padding-bottom:200px;
+}
+
+/*///////////// PRIVACY POLICY PAGE END /////////////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/
