@@ -434,12 +434,13 @@ to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:
 footer {
   margin-top: 180px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px;
   align-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 footer ul {
@@ -457,6 +458,12 @@ footer a {
 
 footer a:hover {
   opacity: 1;
+}
+
+@media (min-width:576px) {
+  footer {
+    flex-direction: row;
+  }
 }
   
 /*///////////// FOOTER END /////////////*/
