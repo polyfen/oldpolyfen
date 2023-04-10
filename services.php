@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Pricing | Polyfen</title>
+    <title>Services | Polyfen</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
@@ -10,7 +10,7 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Pricing | Polyfen"/>
+    <meta property="og:title" content="Services | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth, Pricing, Services" />
     <meta name="description" property="og:description" content="[TBD]" />
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Pricing" />
+    <meta name="twitter:title" content="Services" />
     <meta name="twitter:description" content="[TBD]" />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
