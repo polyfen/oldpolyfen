@@ -66,10 +66,10 @@ nav a {
   font-family: BiotifMedium;
 }
 
-@font-feature-values "BiotifExtraBold", "BiotifBold", "BiotifMedium" { 
+/*@font-feature-values "BiotifExtraBold", "BiotifBold", "BiotifMedium" { 
   @styleset { alt-a: 1;} 
   @stylistic { alternates: 1; } 
-}
+}*/
 
 .title-1 {
   font-family: 'BiotifExtrabold', helvetica, arial, sans-serif;
