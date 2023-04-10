@@ -130,7 +130,7 @@
                 <li><a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon"><i class="fab fa-linkedin-in"></i></a></li>
                 <li><a href="http://polyfen.com/github" target="_blank" title="Github" id="linkedin-icon"><i class="fab fa-github"></i></a></li>
             </ul>
-            <a href="privacy.php"><small>Privacy Policy</small></a>
+            <a href="privacy.php" target="_blank"><small>Privacy Policy</small></a>
             <a href="https://thepolygroup.co" target="_blank">
                 <img src="imgs/the-poly-group-low.svg" alt="The Poly Group" style="height:40px;width:auto;">
             </a>
