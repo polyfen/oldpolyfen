@@ -1,3 +1,4 @@
+<?php include 'includes.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,9 +6,9 @@
   <title>Polyfen | Book a free Strategy Call</title>
 
 
-  <!-- INCLUDE HEAD.PHP start -->
-  <?php include 'sections/head.php'; ?>
-  <!-- INCLUDE HEAD.PHP end -->
+  <!-- INCLUDE HEAD start -->
+  <?php echo head(); ?>
+  <!-- INCLUDE HEAD end -->
 
   <!-- PAGE-SPECIFIC META start -->
   <meta property="og:title" content="Book a free Strategy Call for your Business" />
@@ -28,7 +29,6 @@
   <!-- PAGE-SPECIFIC META end -->
 
   <!-- PAGE-SPECIFIC CSS start -->
-  <link rel="stylesheet" href="app/css/landing-pages.css" type="text/css">
   <!-- PAGE-SPECIFIC CSS end -->
 
   <!-- PAGE-SPECIFIC SCRIPTS start -->
@@ -47,9 +47,9 @@
   <!-- FORCE MAX-WIDTH 100% start -->
   <div class="main-wrapper">
 
-    <!-- INCLUDE HEADER.PHP start -->
-    <?php include 'sections/header.php'; ?>
-    <!-- INCLUDE HEADER.PHP end -->
+    <!-- INCLUDE HEADER start -->
+    <?php echo page_header(); ?>
+    <!-- INCLUDE HEADER end -->
 
     <div class="content-container landing-page-container" style="margin-bottom:0 !important;">
 
@@ -107,10 +107,9 @@
   </div>
   <!-- FORCE MAX-WIDTH 100% end -->
 
-  <!-- INCLUDE FOOTER.PHP start -->
-  <?php include 'sections/footer.php'; ?>
-  <!-- INCLUDE FOOTER.PHP end -->
-
+  <!-- INCLUDE FOOTER start -->
+  <?php echo footer(); ?>
+  <!-- INCLUDE FOOTER end -->
 
 </body>
 
