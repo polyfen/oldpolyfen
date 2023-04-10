@@ -172,6 +172,10 @@ header nav a:hover {
 
 /*///////////// COVER SECTION START /////////////*/
 
+div.main-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
 
 div.background {
   position: relative;
