@@ -29,6 +29,14 @@ button:hover, .button-hover {
   color: rgba(255,255,255,1) !important;
 }
 
+h2 a {
+  border-bottom: 4px dotted #7537f8;
+}
+
+h2 a:hover {
+  border-bottom: 4px solid #7537f8;
+}
+
 /*///////////// COLORS END /////////////*/
 
 /*///////////// TYPOGRAPHY START /////////////*/
