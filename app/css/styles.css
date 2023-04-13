@@ -460,6 +460,10 @@ footer a:hover {
   opacity: 1;
 }
 
+footer div#tpg {
+  width: 150px;
+}
+
 @media (min-width:576px) {
   footer {
     flex-direction: row;
