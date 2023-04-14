@@ -68,7 +68,7 @@
                Get free branding advice.<br/>
                No strings attached.
             </p>
-            <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
+            <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn Profile &nearr;</small></a>
           </div>
         </div>
       </div>
