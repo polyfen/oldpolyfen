@@ -54,7 +54,7 @@
     <div class="container" style="margin-bottom:0 !important;">
 
       <div id="landing-page-cover">
-        <h1 class="heading-1 align-center">Book a free Strategy Call for your Business</h1>
+        <h1 class="heading-1 align-center">Book a free Strategy Call<br>for your Business</h1>
       </div>
 
       <div id="boris-hrncic-container">

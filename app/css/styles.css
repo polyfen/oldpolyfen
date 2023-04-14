@@ -432,7 +432,7 @@ to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:
 /*///////////// FOOTER START /////////////*/
   
 footer {
-  margin-top: 180px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
