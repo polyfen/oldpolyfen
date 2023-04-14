@@ -146,6 +146,10 @@ header img#logo {
   width: auto;
 }
 
+header nav {
+  display: none;
+}
+
 /* The navigation bar ------------------ */
 
 header nav {
