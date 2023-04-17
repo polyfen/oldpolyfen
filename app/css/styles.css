@@ -1040,12 +1040,18 @@ body#privacy-policy div.container {
 
 div#cookies-modal button {
   color: #000 !important;
+  opacity: 0.7;
 }
 
-div#cookies-modal button:last-child {
+div#cookies-modal button:first-child {
   background: #7537f8;
   color: white !important;
   font-family: 'BiotifBold', helvetica, arial, sans-serif;
+  opacity: 0.9;
+}
+
+div#cookies-modal button:hover {
+  opacity: 1;
 }
 
 /*///////////// COOKIES MODAL END /////////////*/
