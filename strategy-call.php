@@ -1,3 +1,4 @@
+<?php include 'includes.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,9 +6,9 @@
   <title>Polyfen | Book a free Strategy Call</title>
 
 
-  <!-- INCLUDE HEAD.PHP start -->
-  <?php include 'sections/head.php'; ?>
-  <!-- INCLUDE HEAD.PHP end -->
+  <!-- INCLUDE HEAD start -->
+  <?php echo head(); ?>
+  <!-- INCLUDE HEAD end -->
 
   <!-- PAGE-SPECIFIC META start -->
   <meta property="og:title" content="Book a free Strategy Call for your Business" />
@@ -28,7 +29,6 @@
   <!-- PAGE-SPECIFIC META end -->
 
   <!-- PAGE-SPECIFIC CSS start -->
-  <link rel="stylesheet" href="app/css/landing-pages.css" type="text/css">
   <!-- PAGE-SPECIFIC CSS end -->
 
   <!-- PAGE-SPECIFIC SCRIPTS start -->
@@ -37,7 +37,7 @@
 
 </head>
 
-<body id="strategy-call">
+<body id="strategy-call" class="dark-mode landing-page">
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -47,14 +47,14 @@
   <!-- FORCE MAX-WIDTH 100% start -->
   <div class="main-wrapper">
 
-    <!-- INCLUDE HEADER.PHP start -->
-    <?php include 'sections/header.php'; ?>
-    <!-- INCLUDE HEADER.PHP end -->
+    <!-- INCLUDE HEADER start -->
+    <?php echo page_header(); ?>
+    <!-- INCLUDE HEADER end -->
 
-    <div class="content-container landing-page-container" style="margin-bottom:0 !important;">
+    <div class="container" style="margin-bottom:0 !important;">
 
       <div id="landing-page-cover">
-        <h2>Book a free Strategy Call for your Business</h2>
+        <h1 class="heading-1 align-center">Book a free Strategy Call<br>for your Business</h1>
       </div>
 
       <div id="boris-hrncic-container">
@@ -68,7 +68,7 @@
                Get free branding advice.<br/>
                No strings attached.
             </p>
-            <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn &nearr;</small></a>
+            <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn Profile &nearr;</small></a>
           </div>
         </div>
       </div>
@@ -82,13 +82,11 @@
       <!-- Calendly inline widget end -->
       </div>
 
-      <div class="content-container landing-page-container" style="margin-top:0 !important;">
+      <div class="container" style="margin-top:0 !important;">
 
       <div style="clear:both;">
       </div>
-      <div class="row">
-        <div class="horizontal-separator"></div>
-      </div>
+      <hr>
 
       <div id="testimonials-container">
         <div class="testimonial">
@@ -96,7 +94,7 @@
         </div>
       </div>
 
-      <div id="final-cta-container">
+      <div id="final-cta-container" class="align-center">
         <a href="#calendly">
           <button class="button secondary-button" id="final-cta">↑ Schedule a Call ↑</button>
         </a>
@@ -107,10 +105,9 @@
   </div>
   <!-- FORCE MAX-WIDTH 100% end -->
 
-  <!-- INCLUDE FOOTER.PHP start -->
-  <?php include 'sections/footer.php'; ?>
-  <!-- INCLUDE FOOTER.PHP end -->
-
+  <!-- INCLUDE FOOTER start -->
+  <?php echo footer(); ?>
+  <!-- INCLUDE FOOTER end -->
 
 </body>
 
