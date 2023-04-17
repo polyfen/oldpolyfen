@@ -1047,6 +1047,7 @@ div#cookies-modal button {
   align-content: center;
   justify-content: center;
   align-items: center;
+  height: 35px;
 }
 
 div#cookies-modal button:first-child {
