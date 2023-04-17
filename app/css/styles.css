@@ -1041,6 +1041,12 @@ body#privacy-policy div.container {
 div#cookies-modal button {
   color: #000 !important;
   opacity: 0.45;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 div#cookies-modal button:first-child {
@@ -1063,7 +1069,6 @@ button#accept-cookies-button:before {
   width: 20px; 
   height: 20px;
   content:"";
-  margin-bottom: -3px;
 }
 
 button#accept-cookies-button:hover:before {
