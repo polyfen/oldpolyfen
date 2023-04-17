@@ -1055,7 +1055,7 @@ div#cookies-modal button:hover {
 }
 
 button#accept-cookies-button:before {
-  background-image: url('imgs/thumbs-up-regular-white.svg');
+  background-image: url('../imgs/thumbs-up-regular-white.svg');
   margin-left: -10px;
   margin-right: 7px;
   background-size: 20px auto;
@@ -1067,7 +1067,7 @@ button#accept-cookies-button:before {
 }
 
 button#accept-cookies-button:hover:before {
-  background-image: url('imgs/thumbs-up-solid-white.svg');
+  background-image: url('../imgs/thumbs-up-solid-white.svg');
 }
 
 /*///////////// COOKIES MODAL END /////////////*/
