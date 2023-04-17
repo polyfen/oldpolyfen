@@ -1039,7 +1039,7 @@ body#privacy-policy div.container {
 /*///////////// COOKIES MODAL START /////////////*/
 
 div#cookies-modal button {
-  color: #000;
+  color: #000 !important;
 }
 
 /*///////////// COOKIES MODAL END /////////////*/
