@@ -1042,6 +1042,12 @@ div#cookies-modal button {
   color: #000 !important;
 }
 
+div#cookies-modal button:last-child {
+  background: #7537f8;
+  color: white !important;
+  font-family: 'BiotifBold', helvetica, arial, sans-serif;
+}
+
 /*///////////// COOKIES MODAL END /////////////*/
 
 /*///////////// ——————————————————————————————————— /////////////*/
