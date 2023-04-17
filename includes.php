@@ -84,7 +84,9 @@
               scrollTop: $($.attr(this, \'href\')).offset().top
           }, 500);
         });
-        </script>';
+        </script>
+        <link rel="preload" as="image" href="imgs/thumbs-up-solid-white.svg" />'
+;
     }
 
     function hello_bar(){
