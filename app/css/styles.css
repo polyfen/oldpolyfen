@@ -1036,4 +1036,12 @@ body#privacy-policy div.container {
 
 /*///////////// PRIVACY POLICY PAGE END /////////////*/
 
+/*///////////// COOKIES MODAL START /////////////*/
+
+div#cookies-modal button {
+  color: #000;
+}
+
+/*///////////// COOKIES MODAL END /////////////*/
+
 /*///////////// ——————————————————————————————————— /////////////*/
