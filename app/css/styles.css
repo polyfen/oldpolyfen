@@ -1069,6 +1069,7 @@ button#accept-cookies-button:before {
   width: 20px; 
   height: 20px;
   content:"";
+  margin-top: -8px;
 }
 
 button#accept-cookies-button:hover:before {
