@@ -73,7 +73,7 @@
 
         <!-- FEATURED PROJECTS start -->
         <section id="work">
-          <h2 class="caption">Work 2</h2>
+          <h2 class="caption">Work</h2>
           <h3 class="heading-1">Featured projects</h3>
 
           <!-- BIKE IN MEX start -->
