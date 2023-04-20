@@ -176,7 +176,7 @@
     <!-- INCLUDE FOOTER start -->
     <?php echo footer(); ?>
     <!-- INCLUDE FOOTER end -->
-
+    <script>console.log('hola!!!')</script>
   </body>
 
 </html>
