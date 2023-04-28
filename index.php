@@ -61,7 +61,8 @@
           <p>We're a full-service creative and development agency. We help businesses reach their customers with data-driven research and strategic storytelling.</p>
          <small class="caption">DON'T BE SHY</small>
          <div style="clear:both;"></div>
-          <button class="button">LET'S TALK!</button>
+          <a href="strategy-call.php"><button class="button">LET'S TALK!</button></a>
+          
           <div class="background">
           <div id="pearl-11" class="pearl rotate-slower">
           </div>
