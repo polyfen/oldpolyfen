@@ -773,6 +773,10 @@ div#cookies-title {
   gap: 6px;
 }
 
+div#cookies-title small {
+  color: #000;
+}
+
 div#cookies-modal-buttons {
   margin-top: 15px;
   margin-bottom: 10px;
