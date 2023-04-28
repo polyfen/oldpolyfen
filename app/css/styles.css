@@ -506,6 +506,10 @@ footer div#tpg {
 
 /*///////////// HOMEPAGE START /////////////*/
 
+section#work {
+  margin-top:80px;
+}
+
 div.featured-project {
   margin-bottom: 60px;
 }
