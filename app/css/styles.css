@@ -223,6 +223,29 @@ div.pearl {
   transition: all 1s;
 }
 
+section#cover small, section#cover button, section#cover p{
+  position: relative;
+  z-index: 2;
+}
+
+section#cover p{
+  opacity: 0.7;
+  margin: 35px auto;
+  max-width: 450px;
+}
+
+section#cover small{
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+section#cover button {
+  margin-top: 15px;
+  padding: 25px 80px;
+}
+
+
+
 @-webkit-keyframes rotating{from{-webkit-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}
 to{-webkit-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}
 }
