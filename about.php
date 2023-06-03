@@ -57,8 +57,9 @@
       <!-- INCLUDE HEADER.PHP end -->
 
        <!-- ABOUT start -->
-       <main id="about" class="container-1080">
-        <section id="about-intro">
+       <main id="about">
+
+        <section id="about-intro" class="container">
             <h1 class="caption align-center">About</h1>
             <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
             <div class="row">
