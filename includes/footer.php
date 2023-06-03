@@ -8,8 +8,8 @@
     <a href="privacy.php" target="_blank"><small>Privacy Policy</small></a>
     <div id="tpg">
       <a href="https://thepolygroup.co" target="_blank">
-        <img src="imgs/the-poly-group-low.svg" id="tpg-logo-low" class="tpg-logo" onmouseover="document.getElementById(\'tpg-logo-low\').className=\'d-none\';document.getElementById(\'tpg-logo\').className=\'tpg-logo\';">
-        <img src="imgs/the-poly-group.svg" id="tpg-logo" class="d-none" onmouseout="document.getElementById(\'tpg-logo\').className=\'d-none\';document.getElementById(\'tpg-logo-low\').className=\'tpg-logo\';">
+        <img src="imgs/the-poly-group-low.svg" id="tpg-logo-low" class="tpg-logo" onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
+        <img src="imgs/the-poly-group.svg" id="tpg-logo" class="d-none" onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
       </a>
     </div>
 </footer>
