@@ -45,66 +45,57 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- FORCE MAX-WIDTH 100% start -->
-    <div class="main-wrapper">
+    <!-- INCLUDE HELLO-BAR.PHP start -->
+      <?php include 'includes/hello-bar.php';?>
+    <!-- INCLUDE HELLO-BAR.PHP end -->
 
-      <!-- INCLUDE HELLO-BAR.PHP start -->
-        <?php include 'includes/hello-bar.php';?>
-      <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE HEADER.PHP start -->
+      <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
-      <!-- INCLUDE HEADER.PHP start -->
-        <?php include 'includes/header.php';?>
-      <!-- INCLUDE HEADER.PHP end -->
+    <!-- ABOUT start -->
+    <main id="about">
 
-       <!-- ABOUT start -->
-       <main id="about">
-
-        <section id="about-intro" class="container">
-            <h1 class="caption align-center">About</h1>
-            <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
-            <div class="row">
-            <div class="column">
-                <p>We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
-                <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
-            </div>
-            <div class="column">
-                <p>HERE GOES AN IMAGE</p>
-            </div>
-            </div>
-          </section>
-          <hr>
-          <section id="poly-atlas">
-            <h2 class="heading-1 align-center">We wrote the book<br>on Branding</h2>
-          </section>
-          <hr>
-          <section id="board-members">
-            <h2 class="heading-1 align-center">Our Board</h2>
-          </section>
-          <hr>
-          <section id="careers">
-            <h2 class="heading-1 align-center">Join our Ranks</h2>
-          </section>
-        </main>
-        <!-- ABOUT end -->
-
-
-
-        <div style="clear:both;">
-        </div>
+      <section id="about-intro" class="container">
+        <h1 class="caption align-center">About</h1>
+        <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
         <div class="row">
-          <div class="horizontal-separator"></div>
+        <div class="column">
+        <p>We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
+        <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
         </div>
+        <div class="column">
+        <p>HERE GOES AN IMAGE</p>
+        </div>
+        </div>
+      </section>
+
+      <hr>
+      
+      <section id="poly-atlas">
+        <h2 class="heading-1 align-center">We wrote the book<br>on Branding</h2>
+      </section>
+
+      <hr>
+
+      <section id="board-members">
+        <h2 class="heading-1 align-center">Our Board</h2>
+      </section>
+
+      <hr>
+
+      <section id="careers">
+        <h2 class="heading-1 align-center">Join our Ranks</h2>
+      </section>
+
+    </main>
+    <!-- ABOUT end -->
 
 
+    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+    <?php include 'includes/call-to-action.php';?>
+    <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
-        <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-          <?php include 'includes/call-to-action.php';?>
-        <!-- INCLUDE CALL-TO-ACTION.PHP end -->
-
-      </div>
-
-    </div>
-    <!-- FORCE MAX-WIDTH 100% end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'includes/footer.php';?>
