@@ -85,6 +85,18 @@ nav a {
   font-variant-alternates: styleset(alt-a);
 }
 
+h3.heading-1 {
+  padding-top: 0;
+}
+
+h4.heading-2 {
+  margin-bottom: 16px;
+}
+
+p {
+  padding-top: 0;
+}
+
 /*///////////// TYPOGRAPHY END /////////////*/
 
 /*///////////// HELLO BAR START /////////////*/
@@ -146,9 +158,6 @@ header img#logo {
   width: auto;
 }
 
-header nav {
-  display: none;
-}
 
 /* The navigation bar ------------------ */
 
@@ -1122,5 +1131,15 @@ button#accept-cookies-button:hover:before {
 }
 
 /*///////////// COOKIES MODAL END /////////////*/
+
+/*///////////// ABOUT START /////////////*/
+
+section#about {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+/*///////////// ABOUT END /////////////*/
+
 
 /*///////////// ——————————————————————————————————— /////////////*/

@@ -58,7 +58,7 @@
 
        <!-- ABOUT start -->
        <section id="about">
-          <div style="max-width: 540px;">
+          <div class="container-600">
             <h2 class="caption">About</h2>
             <h3 class="heading-1">The link between business &amp; creativity</h3>
             <p style="margin-top:25px;">We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
