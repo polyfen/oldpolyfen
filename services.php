@@ -56,65 +56,59 @@
       <!-- INCLUDE HEADER.PHP end -->
 
         <!-- SERVICES start -->
-        <section id="services">
-        <small class="section-name">Services</small>
-          <h2>Services that scale<br/>with your business</h2>
+        <main id="services">
 
-          <div id="services-container">
-            <div id="what-we-do">
-              <h3>What we do</h3>
-              <ul style="margin-left:25px;margin-top:25px;">
-                <li>Market Research</li>
-                <li>Brand &amp; Marketing Strategy</li>
-                <li>Naming</li>
-                <li>Logo Design</li>
-                <li>Visual Identity</li>
-                <li>Packaging</li>
-                <li>UX/UI Design</li>
-                <li>Software Development</li>
-                <li>Pitch Decks &amp; Presentations</li>
-                <li>Social Media Marketing</li>
-                <li>Email Marketing</li>
-                <li>Landing Pages</li>
-                <li>Lead Generation</li>
-                <li>Sales Funnels</li>
-              </ul>
-            </div>
+        <section id="services intro">
+          <h1 class="caption align-center">Services</h1>
+          <h2 class="heading-1 align-center">Services that scale<br/>with your business</h2>
+        <section>
 
-            <div id="how-we-do-it">
-              <h3>How we do it</h3>
-              <div id="how-we-do-it-content">
-                <div class="contract-type">
-                  <div class="contract-type-image">
-                    <img src="imgs/services/path.svg" height="50px" width="auto">
-                  </div>
-                  <div class="contract-type-description">
-                    <h4>End-to-End Project</h4>
-                    <p>Does your business need a new brand identity and website that truly highlights the quality of your products and services? We take care of everything in designing that new brand identity and delivering all the assets and guidelines you need within a predefined project budget tailored to your needs.</p>
-                  </div>
-                </div>
-                <div class="contract-type">
-                  <div class="contract-type-image">
-                    <img src="imgs/services/lightning-bolt.svg" height="50px" width="auto">
-                  </div>
-                  <div class="contract-type-description">
-                    <h4>Executive Consulting</h4>
-                    <p>Continuous collaboration with analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
-                  </div>
-                </div>
-                <div class="contract-type">
-                  <div class="contract-type-image">
-                    <img src="imgs/services/staff-augmentation.svg" height="50px" width="auto">
-                  </div>
-                  <div class="contract-type-description">
-                    <h4>Staff Augmentation</h4>
-                    <p>We handle your team’s surplus workload and increase your capacity with our agile crew ready to jump on board and start delivering at a moment’s notice.</p>
-                  </div>
-                <div>
-              </div>
-            </div>
+        <section id="what-we-do" class="container">
+          <h3 class="heading-2">What we do</h3>
+          <div class="row">
+          <div class="column">
+            <ul class="hanging-list">
+              <li>Market Research</li>
+              <li>Brand &amp; Marketing Strategy</li>
+              <li>Naming</li>
+              <li>Logo Design</li>
+              <li>Visual Identity</li>
+              <li>Packaging</li>
+              <li>UX/UI Design</li>
+            </ul>
           </div>
+          <div class="column">
+            <ul class="hanging-list">
+              <li>Software & Web Development</li>
+              <li>Pitch Decks &amp; Presentations</li>
+              <li>Social Media Marketing</li>
+              <li>Email Marketing</li>
+              <li>Landing Pages</li>
+              <li>Lead Generation</li>
+              <li>Sales Funnels</li>
+              </ul>
+          </div>
+          </div>
+          
         </section>
+
+        <hr>
+
+        <section id="how-we-do-it" class="container">
+          <h3 class="heading-2">How we do it</h3>
+
+          <h4 class="heading-3">End-to-End Project</h4>
+          <p>Does your business need a new brand identity and website that truly highlights the quality of your products and services? We take care of everything in designing that new brand identity and delivering all the assets and guidelines you need within a predefined project budget tailored to your needs.</p>
+          
+          <h4 class="heading-3">Executive Consulting</h4>
+          <p>Continuous collaboration with analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
+
+          <h4 class="heading-3">Staff Augmentation</h4>
+          <p>We handle your team’s surplus workload and increase your capacity with our agile crew ready to jump on board and start delivering at a moment’s notice.</p>
+        
+        </section>
+
+        </main>
         <!-- SERVICES end -->
 
 
@@ -128,7 +122,7 @@
 
 
         <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-          <?php include 'include/call-to-action.php';?>
+          <?php include 'includes/call-to-action.php';?>
         <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
       </div>
@@ -137,7 +131,7 @@
     <!-- FORCE MAX-WIDTH 100% end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
-      <?php include 'include/footer.php';?>
+      <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
   </body>

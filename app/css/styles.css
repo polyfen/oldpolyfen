@@ -1,5 +1,10 @@
 /*///////////// POLYNUCLEUS UPDATE START /////////////*/
 
+main {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
 div.row {
   display: flex;
   flex-direction: row;
@@ -1150,10 +1155,7 @@ button#accept-cookies-button:hover:before {
 
 /*///////////// ABOUT START /////////////*/
 
-main#about {
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
+
 
 /*///////////// ABOUT END /////////////*/
 
