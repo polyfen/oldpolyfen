@@ -80,7 +80,7 @@
 
       <div class="container-1080">
 
-        <!-- FEATURED x PROJECTS start -->
+        <!-- FEATURED PROJECTS start -->
         <section id="work">
           <h2 class="caption">Work</h2>
           <h3 class="heading-1">Featured projects</h3>
