@@ -44,19 +44,16 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- FORCE MAX-WIDTH 100% start -->
-    <div class="main-wrapper">
+    <!-- INCLUDE HELLO-BAR.PHP start -->
+      <?php include 'includes/hello-bar.php';?>
+    <!-- INCLUDE HELLO-BAR.PHP end -->
 
-      <!-- INCLUDE HELLO-BAR.PHP start -->
-        <?php include 'includes/hello-bar.php';?>
-      <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE HEADER.PHP start -->
+      <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
-      <!-- INCLUDE HEADER.PHP start -->
-        <?php include 'includes/header.php';?>
-      <!-- INCLUDE HEADER.PHP end -->
-
-        <!-- SERVICES start -->
-        <main id="services">
+      <!-- SERVICES start -->
+      <main id="services">
 
         <section id="services intro">
           <h1 class="caption align-center">Services</h1>
@@ -66,30 +63,29 @@
         <section id="what-we-do" class="container">
           <h3 class="heading-2">What we do</h3>
           <div class="row">
-          <div class="column">
-            <ul class="hanging-list">
-              <li>Market Research</li>
-              <li>Brand &amp; Marketing Strategy</li>
-              <li>Naming</li>
-              <li>Logo Design</li>
-              <li>Visual Identity</li>
-              <li>Packaging</li>
-              <li>UX/UI Design</li>
-            </ul>
-          </div>
-          <div class="column">
-            <ul class="hanging-list">
-              <li>Software & Web Development</li>
-              <li>Pitch Decks &amp; Presentations</li>
-              <li>Social Media Marketing</li>
-              <li>Email Marketing</li>
-              <li>Landing Pages</li>
-              <li>Lead Generation</li>
-              <li>Sales Funnels</li>
+            <div class="column">
+              <ul class="hanging-list">
+                <li>Market Research</li>
+                <li>Brand &amp; Marketing Strategy</li>
+                <li>Naming</li>
+                <li>Logo Design</li>
+                <li>Visual Identity</li>
+                <li>Packaging</li>
+                <li>UX/UI Design</li>
               </ul>
+            </div>
+            <div class="column">
+              <ul class="hanging-list">
+                <li>Software & Web Development</li>
+                <li>Pitch Decks &amp; Presentations</li>
+                <li>Social Media Marketing</li>
+                <li>Email Marketing</li>
+                <li>Landing Pages</li>
+                <li>Lead Generation</li>
+                <li>Sales Funnels</li>
+                </ul>
+            </div>
           </div>
-          </div>
-          
         </section>
 
         <hr>
@@ -105,30 +101,14 @@
 
           <h4 class="heading-3">Staff Augmentation</h4>
           <p>We handle your team’s surplus workload and increase your capacity with our agile crew ready to jump on board and start delivering at a moment’s notice.</p>
-        
         </section>
 
-        </main>
-        <!-- SERVICES end -->
+      </main>
+      <!-- SERVICES end -->
 
-
-
-        <div style="clear:both;">
-        </div>
-        <div class="row">
-          <div class="horizontal-separator"></div>
-        </div>
-
-
-
-        <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-          <?php include 'includes/call-to-action.php';?>
-        <!-- INCLUDE CALL-TO-ACTION.PHP end -->
-
-      </div>
-
-    </div>
-    <!-- FORCE MAX-WIDTH 100% end -->
+    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+      <?php include 'includes/call-to-action.php';?>
+    <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'includes/footer.php';?>
