@@ -61,22 +61,27 @@
         <section id="about-intro">
             <h1 class="caption align-center">About</h1>
             <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
-            <div class="column" style="width:500px;">
+            <div class="row">
+            <div class="column">
                 <p>We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
                 <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
+            </div>
+            <div class="column">
+                <p>HERE GOES AN IMAGE</p>
+            </div>
             </div>
           </section>
           <hr>
           <section id="poly-atlas">
-            <h2 class="heading-1">We wrote the book on Branding</h2>
+            <h2 class="heading-1 align-center">We wrote the book<br>on Branding</h2>
           </section>
           <hr>
           <section id="board-members">
-            <h2 class="heading-1">Our Board</h2>
+            <h2 class="heading-1 align-center">Our Board</h2>
           </section>
           <hr>
           <section id="careers">
-            <h2 class="heading-1">Join our Ranks</h2>
+            <h2 class="heading-1 align-center">Join our Ranks</h2>
           </section>
         </main>
         <!-- ABOUT end -->
