@@ -64,9 +64,9 @@ crossorigin="anonymous"></script>
         var scroll = $(window).scrollTop();
     
         if (scroll >= 60) {
-            header.removeClass(\'position-absolute\').addClass("position-fixed");
+            header.removeClass('position-absolute').addClass("position-fixed");
         } else {
-            header.removeClass("position-fixed").addClass(\'position-absolute\');
+            header.removeClass("position-fixed").addClass('position-absolute');
         }
     });
 });
@@ -74,11 +74,11 @@ crossorigin="anonymous"></script>
 
 <!-- Scroll to Anchor link -->
 <script>
-$(document).on(\'click\', \'a[href^="#"]\', function (event) {
+$(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
-    $(\'html, body\').animate({
-        scrollTop: $($.attr(this, \'href\')).offset().top
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
 });
 </script>
