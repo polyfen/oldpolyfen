@@ -1,3 +1,4 @@
+<?php include 'includes.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,9 +6,9 @@
     <title>About | Polyfen</title>
 
 
-    <!-- INCLUDE HEAD.PHP start -->
-    <?php include 'sections/head.php';?>
-    <!-- INCLUDE HEAD.PHP end -->
+    <!-- INCLUDE HEAD start -->
+    <?php echo head(); ?>
+    <!-- INCLUDE HEAD end -->
 
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="About | Polyfen"/>
@@ -47,20 +48,19 @@
     <!-- FORCE MAX-WIDTH 100% start -->
     <div class="main-wrapper">
 
-      <!-- INCLUDE HELLO-BAR.PHP start -->
-      <?php include 'sections/hello-bar.php';?>
-      <!-- INCLUDE HELLO-BAR.PHP end -->
+      <!-- INCLUDE HELLO BAR start -->
+      <?php echo hello_bar(); ?>
+      <!-- INCLUDE HELLO BAR end -->
 
-      <!-- INCLUDE HEADER.PHP start -->
-      <?php include 'sections/header.php';?>
-      <!-- INCLUDE HEADER.PHP end -->
+      <!-- INCLUDE HEADER start -->
+      <?php echo page_header(); ?>
+      <!-- INCLUDE HEADER end -->
 
        <!-- ABOUT start -->
        <section id="about">
           <div style="max-width: 540px;">
-            <small class="section-name">About</small>
-           
-            <h2>The link between business &amp; creativity</h2>
+            <h2 class="caption">About</h2>
+            <h3 class="heading-1">The link between business &amp; creativity</h3>
             <p style="margin-top:25px;">We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
             <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
             <p>We wrote the book on branding… or the next best thing. <a href="https://polyatlas.wiki" target="_blank">Poly Atlas</a> is a free wiki of best practices in branding.</p>
