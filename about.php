@@ -60,13 +60,13 @@
         <h1 class="caption align-center">About</h1>
         <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
         <div class="row">
-        <div class="column">
-        <p>We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
-        <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
-        </div>
-        <div class="column">
-        <p>HERE GOES AN IMAGE</p>
-        </div>
+          <div class="column">
+            <p>We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
+            <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
+          </div>
+          <div class="column">
+            <p>HERE GOES AN IMAGE</p>
+          </div>
         </div>
       </section>
 
@@ -93,7 +93,7 @@
 
 
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-    <?php include 'includes/call-to-action.php';?>
+      <?php include 'includes/call-to-action.php';?>
     <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
 
