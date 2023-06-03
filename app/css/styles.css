@@ -12,8 +12,12 @@ div.row {
   justify-content: space-between;
 }
 
-div.column {
+div.two-columns {
   width: calc(50% - 12px);
+}
+
+div.three-columns {
+  width: calc(33.33% - 12px);
 }
 
 /*///////////// POLYNUCLEUS UPDATE END /////////////*/
