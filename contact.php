@@ -39,33 +39,23 @@
 
   <body id="contact" class="dark-mode">
 
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-        <!-- FORCE MAX-WIDTH 100% start -->
-        <div class="main-wrapper">
 
-          <!-- INCLUDE HELLO-BAR.PHP start -->
-          <?php include 'includes/hello-bar.php';?>
-          <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE HELLO-BAR.PHP start -->
+    <?php include 'includes/hello-bar.php';?>
+    <!-- INCLUDE HELLO-BAR.PHP end -->
 
-          <!-- INCLUDE HEADER.PHP start -->
-          <?php include 'includes/header.php';?>
-          <!-- INCLUDE HEADER.PHP end -->
+    <!-- INCLUDE HEADER.PHP start -->
+    <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
-        <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-        <?php include 'includes/call-to-action.php';?>
-        <!-- INCLUDE CALL-TO-ACTION.PHP end -->
-
-      </div>
-
-    </div>
-    <!-- FORCE MAX-WIDTH 100% end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
-    <?php include 'includes/footer.php';?>
+      <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
   </body>
