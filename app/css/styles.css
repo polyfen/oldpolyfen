@@ -89,7 +89,7 @@ h1.heading-1 {
   margin-bottom: 1rem;
 }
 
-h3.heading-1, h3.heading-2 {
+h3.heading-1, h3.heading-2, h2.heading-1 {
   padding-top: 0;
 }
 
@@ -1135,7 +1135,7 @@ button#accept-cookies-button:hover:before {
 
 /*///////////// ABOUT START /////////////*/
 
-section#about {
+main#about {
   padding-top: 150px;
   padding-bottom: 100px;
 }

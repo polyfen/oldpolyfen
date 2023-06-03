@@ -57,41 +57,28 @@
       <!-- INCLUDE HEADER end -->
 
        <!-- ABOUT start -->
-       <section id="about">
-          <div class="container-600">
-            <h2 class="caption">About</h2>
-            <h3 class="heading-1">The link between business &amp; creativity</h3>
-            <p style="margin-top:25px;">We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
-            <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
-            <p>We wrote the book on branding… or the next best thing. <a href="https://polyatlas.wiki" target="_blank">Poly Atlas</a> is a free wiki of best practices in branding.</p>
-          </div>
-          <div id="partners">
-            <div id="boris-hrncic">
-              <a onmouseover="document.getElementById('boris-linkedin').className='linkedin linkedin-hover';document.getElementById('boris-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('boris-linkedin').className='linkedin';document.getElementById('boris-portrait').className='portrait';" href="https://www.linkedin.com/in/borishrncic/" target="_blank">
-                <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
-              </a>
-              <small>
-                <span class="name">Boris Hrnčić</span><br/>
-                <span class="position">Managing Director</span>
-              </small>
-              <a onmouseover="document.getElementById('boris-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('boris-portrait').className='portrait';" href="https://www.linkedin.com/in/borishrncic/" target="_blank">
-                <img id="boris-linkedin" src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
-              </a>
+       <main id="about" class="container-1080">
+        <section id="about-intro">
+            <h1 class="caption align-center">About</h1>
+            <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
+            <div class="column" style="width:500px;">
+                <p>We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
+                <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
             </div>
-            <div id="pablo-marsico">
-              <a onmouseover="document.getElementById('pablo-linkedin').className='linkedin linkedin-hover';document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-linkedin').className='linkedin';document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
-                <img id="pablo-portrait" src="imgs/about/pablo-marsico.webp" loading="lazy" alt="Pablo Mársico" loading="lazy" class="portrait">
-              </a>
-              <small>
-                <span class="name">Pablo Mársico</span><br/>
-                <span class="position">Creative Director<br/></span>
-              </small>
-              <a onmouseover="document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
-                <img id="pablo-linkedin" src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
-              </a>
-            </div>
-          </div>
-        </section>
+          </section>
+          <hr>
+          <section id="poly-atlas">
+            <h2 class="heading-1">We wrote the book on Branding</h2>
+          </section>
+          <hr>
+          <section id="board-members">
+            <h2 class="heading-1">Our Board</h2>
+          </section>
+          <hr>
+          <section id="careers">
+            <h2 class="heading-1">Join our Ranks</h2>
+          </section>
+        </main>
         <!-- ABOUT end -->
 
 
@@ -104,18 +91,18 @@
 
 
 
-        <!-- INCLUDE FOOTER.PHP start -->
-        <?php include 'sections/call-to-action.php';?>
-        <!-- INCLUDE FOOTER.PHP end -->
+        <!-- INCLUDE CALL TO ACTION start -->
+        <?php echo call_to_action(); ?>
+        <!-- INCLUDE CALL TO ACTION end -->
 
       </div>
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
-    <!-- INCLUDE FOOTER.PHP start -->
-    <?php include 'sections/footer.php';?>
-    <!-- INCLUDE FOOTER.PHP end -->
+    <!-- INCLUDE FOOTER start -->
+    <?php echo footer(); ?>
+    <!-- INCLUDE FOOTER end -->
 
   </body>
 
