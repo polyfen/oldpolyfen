@@ -6,9 +6,9 @@
     <title>About | Polyfen</title>
 
 
-    <!-- INCLUDE HEAD start -->
-    <?php echo head(); ?>
-    <!-- INCLUDE HEAD end -->
+    <!-- INCLUDE HEAD.PHP start -->
+      <?php include 'includes/head.php';?>
+    <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="About | Polyfen"/>
@@ -48,13 +48,13 @@
     <!-- FORCE MAX-WIDTH 100% start -->
     <div class="main-wrapper">
 
-      <!-- INCLUDE HELLO BAR start -->
-      <?php echo hello_bar(); ?>
-      <!-- INCLUDE HELLO BAR end -->
+      <!-- INCLUDE HELLO-BAR.PHP start -->
+        <?php include 'includes/hello-bar.php';?>
+      <!-- INCLUDE HELLO-BAR.PHP end -->
 
-      <!-- INCLUDE HEADER start -->
-      <?php echo page_header(); ?>
-      <!-- INCLUDE HEADER end -->
+      <!-- INCLUDE HEADER.PHP start -->
+        <?php include 'includes/header.php';?>
+      <!-- INCLUDE HEADER.PHP end -->
 
        <!-- ABOUT start -->
        <main id="about" class="container-1080">
@@ -96,18 +96,18 @@
 
 
 
-        <!-- INCLUDE CALL TO ACTION start -->
-        <?php echo call_to_action(); ?>
-        <!-- INCLUDE CALL TO ACTION end -->
+        <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+          <?php include 'includes/call-to-action.php';?>
+        <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
       </div>
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
-    <!-- INCLUDE FOOTER start -->
-    <?php echo footer(); ?>
-    <!-- INCLUDE FOOTER end -->
+    <!-- INCLUDE FOOTER.PHP start -->
+      <?php include 'includes/footer.php';?>
+    <!-- INCLUDE FOOTER.PHP end -->
 
   </body>
 

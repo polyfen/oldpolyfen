@@ -6,9 +6,9 @@
   <title>Polyfen | Book a free Strategy Call</title>
 
 
-  <!-- INCLUDE HEAD start -->
-  <?php echo head(); ?>
-  <!-- INCLUDE HEAD end -->
+  <!-- INCLUDE HEAD.PHP start -->
+    <?php include 'includes/head.php';?>
+  <!-- INCLUDE HEAD.PHP end -->
 
   <!-- PAGE-SPECIFIC META start -->
   <meta property="og:title" content="Book a free Strategy Call for your Business" />
@@ -47,9 +47,9 @@
   <!-- FORCE MAX-WIDTH 100% start -->
   <div class="main-wrapper">
 
-    <!-- INCLUDE HEADER start -->
-    <?php echo page_header(); ?>
-    <!-- INCLUDE HEADER end -->
+    <!-- INCLUDE HEADER.PHP start -->
+      <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
     <div class="container" style="margin-bottom:0 !important;">
 
@@ -105,9 +105,9 @@
   </div>
   <!-- FORCE MAX-WIDTH 100% end -->
 
-  <!-- INCLUDE FOOTER start -->
-  <?php echo footer(); ?>
-  <!-- INCLUDE FOOTER end -->
+  <!-- INCLUDE FOOTER.PHP start -->
+    <?php include 'includes/footer.php';?>
+  <!-- INCLUDE FOOTER.PHP end -->
 
 </body>
 

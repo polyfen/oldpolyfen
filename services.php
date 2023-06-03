@@ -6,7 +6,7 @@
 
 
     <!-- INCLUDE HEAD.PHP start -->
-    <?php include 'sections/head.php';?>
+      <?php include 'includes/head.php';?>
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
@@ -48,11 +48,11 @@
     <div class="main-wrapper">
 
       <!-- INCLUDE HELLO-BAR.PHP start -->
-      <?php include 'sections/hello-bar.php';?>
+        <?php include 'includes/hello-bar.php';?>
       <!-- INCLUDE HELLO-BAR.PHP end -->
 
       <!-- INCLUDE HEADER.PHP start -->
-      <?php include 'sections/header.php';?>
+        <?php include 'includes/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
 
         <!-- SERVICES start -->
@@ -127,9 +127,9 @@
 
 
 
-        <!-- INCLUDE FOOTER.PHP start -->
-        <?php include 'sections/call-to-action.php';?>
-        <!-- INCLUDE FOOTER.PHP end -->
+        <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+          <?php include 'include/call-to-action.php';?>
+        <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
       </div>
 
@@ -137,7 +137,7 @@
     <!-- FORCE MAX-WIDTH 100% end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
-    <?php include 'sections/footer.php';?>
+      <?php include 'include/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
   </body>
