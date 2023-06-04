@@ -503,7 +503,6 @@ to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:
 /*///////////// FOOTER START /////////////*/
   
 footer {
-  margin-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -677,6 +676,8 @@ div.project-preview {
 
 section#contact {
   text-align: center;
+  background: black;
+  padding: 80px 0 100px;
 }
 
 section#contact small {

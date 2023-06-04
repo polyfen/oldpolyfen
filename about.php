@@ -71,6 +71,34 @@
       </section>
 
       <hr>
+
+        <section id="what-sets-us-apart" class="container-1080">
+          <h3 class="heading-2 align-center">What sets us apart</h3>
+          <div class="row">
+            <div class="three-columns">
+              <h4 class="heading-3">Owner-Managed Reliability</h4>
+              <p>Our agency's owners are involved in 100% of all the projects we take part in from start to finish ensuring the best results for every client.</p>
+            </div>
+            <div class="three-columns">
+              <h4 class="heading-3">Cost-Efficient Remote Business Model</h4>
+              <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
+            </div>
+            <div class="three-columns">
+              <h4 class="heading-3">End-to-End Solutions</h4>
+            </div>
+          </div>
+          <div class="row">
+          <div class="three-columns">
+              <h4 class="heading-3">Flexible Contract Options</h4>
+            </div>
+            <div class="three-columns">
+              <h4 class="heading-3">R&D Innovation-Oriented Team</h4>
+              <p></p>
+            </div>
+          </div>
+        </section>
+
+      <hr>
       
       <section id="poly-atlas">
         <h2 class="heading-1 align-center">We wrote the book<br>on Branding</h2>

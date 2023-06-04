@@ -163,14 +163,13 @@
         <div class="horizontal-separator"></div>
       </div>
 
-      <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-        <?php include 'includes/call-to-action.php';?>
-      <!-- INCLUDE CALL-TO-ACTION.PHP end -->
-
       </div>
-
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
+
+    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+    <?php include 'includes/call-to-action.php';?>
+      <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>

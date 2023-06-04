@@ -61,7 +61,7 @@
         <section>
 
         <section id="what-we-do" class="container">
-          <h3 class="heading-2">What we do</h3>
+          <h3 class="heading-2 align-center">What we do</h3>
           <div class="row">
             <div class="two-columns">
               <ul class="hanging-list">
