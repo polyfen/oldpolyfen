@@ -129,7 +129,10 @@
             </div>
             <div class="one-half">
               <h4 class="heading-3 align-center">Fixed Pricing</h4>
-              <h5 class="heading-3 align-center">starting at $6,200</h5>
+              <h5 class="heading-3 align-center">Brand Audit</h5>
+              <h5 class="heading-3 align-center">Visual Identity Design</h5>
+              <h5 class="heading-3 align-center">Brand Identity Design</h5>
+              <h5 class="heading-3 align-center">Website Development</h5>
             </div>
           </div>
         </section>
