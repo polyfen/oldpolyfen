@@ -62,49 +62,41 @@
 
         <section id="what-we-do" class="container">
           <h3 class="heading-2 align-center">What we do</h3>
-          <div class="row">
-            <div class="two-columns">
-              <ul class="hanging-list">
-                <li>Market Research</li>
-                <li>Brand &amp; Marketing Strategy</li>
-                <li>Naming</li>
-                <li>Logo Design</li>
-                <li>Visual Identity</li>
-                <li>Packaging</li>
-                <li>UX/UI Design</li>
+          <div class="container-350">
+            <ul class="hanging-list">
+              <li>Market Research</li>
+              <li>Brand &amp; Marketing Strategy</li>
+              <li>Naming</li>
+              <li>Logo Design</li>
+              <li>Visual Identity</li>
+              <li>Packaging</li>
+              <li>UX/UI Design</li>
+              <li>Software & Web Development</li>
+              <li>Pitch Decks &amp; Presentations</li>
+              <li>Social Media Marketing</li>
+              <li>Email Marketing</li>
+              <li>Landing Pages</li>
+              <li>Lead Generation</li>
+              <li>Sales Funnels</li>
               </ul>
-            </div>
-            <div class="two-columns">
-              <ul class="hanging-list">
-                <li>Software & Web Development</li>
-                <li>Pitch Decks &amp; Presentations</li>
-                <li>Social Media Marketing</li>
-                <li>Email Marketing</li>
-                <li>Landing Pages</li>
-                <li>Lead Generation</li>
-                <li>Sales Funnels</li>
-                </ul>
-            </div>
           </div>
         </section>
 
         <hr>
 
-        <section id="how-we-do-it" class="container-1080">
+        <section id="how-we-do-it" class="container-600">
           <h3 class="heading-2 align-center">How we do it</h3>
           <div class="row">
-            <div class="three-columns">
-              <h4 class="heading-3">End-to-End<br>Project</h4>
-              <p>Does your business need a new brand identity and website that truly highlights the quality of your products and services? We take care of everything in designing that new brand identity and delivering all the assets and guidelines you need within a predefined project budget tailored to your needs.</p>
-            </div>
-            <div class="three-columns">
-              <h4 class="heading-3">Executive<br>Consulting</h4>
-              <p>Continuous collaboration with analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
-            </div>
-            <div class="three-columns">
-              <h4 class="heading-3">Staff<br>Augmentation</h4>
-              <p>We handle your team’s surplus workload and increase your capacity with our agile crew ready to jump on board and start delivering at a moment’s notice.</p>
-            </div>
+              <h4 class="heading-3">End-to-End Project</h4>
+              <p>Get a standout brand identity and website that showcases your products and services. We handle the design, assets, and guidelines, all within a predefined project budget.</p>
+          </div>
+          <div class="row">
+            <h4 class="heading-3">Executive Consulting</h4>
+            <p>Count with us for expert analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
+          </div>
+          <div class="row">
+            <h4 class="heading-3">Staff Augmentation</h4>
+            <p>Offload excess workload and boost your team's capacity. Our agile crew and network of collaborators are ready to join your project and start delivering immediately.</p>
           </div>
         </section>
 

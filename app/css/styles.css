@@ -1158,6 +1158,16 @@ button#accept-cookies-button:hover:before {
 
 /*///////////// COOKIES MODAL END /////////////*/
 
+
+/*///////////// SERVICES START /////////////*/
+
+section#what-we-do ul {
+  list-style-image: url(../../imgs/arrow-right.svg);
+}
+
+/*///////////// SERVICES END /////////////*/
+
+
 /*///////////// ABOUT START /////////////*/
 
 
