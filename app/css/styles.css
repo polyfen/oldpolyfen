@@ -40,8 +40,28 @@ section.intro {
   margin-bottom: 6rem;
 }
 
-small.align-center {
-  display: block;
+small.section-number {
+  border: 2px solid #7437f8;
+  height: 27px;
+  border-radius: 100px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  justify-items: stretch;
+  flex-wrap: nowrap;
+  padding-top: 1.5px;
+  font-weight: 700;
+  font-family: BiotifBold;
+}
+
+.centered-image-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /*///////////// POLYNUCLEUS UPDATE END /////////////*/
@@ -84,6 +104,11 @@ h2 a {
 
 h2 a:hover {
   border-bottom: 4px solid #7537f8;
+}
+
+hr {
+  border-color: #7437f850 !important;
+  opacity: 1;
 }
 
 /*///////////// COLORS END /////////////*/

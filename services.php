@@ -61,7 +61,7 @@
         </section>
 
         <section id="what-we-do" class="container">
-          <small class="caption align-center">— 1 —</small>
+          <small class="caption section-number">1</small>
           <h3 class="heading-2 align-center">What we do</h3>
           <div class="container-350">
             <ul class="hanging-list">
@@ -86,10 +86,10 @@
         <hr>
 
         <section id="how-we-do-it" class="container-750">
-          <small class="caption align-center">— 2 —</small>
+          <small class="caption section-number">2</small>
           <h3 class="heading-2 align-center">How we do it</h3>
           <div class="grid two-columns">
-            <div>
+            <div class="centered-image-container">
               <img src="imgs/services/path.svg" height="50px" width="auto">
             </div>
             <div>
@@ -98,7 +98,7 @@
             </div>
           </div>
           <div class="grid two-columns">
-            <div>
+            <div class="centered-image-container">
               <img src="imgs/services/lightning-bolt.svg" height="50px" width="auto">
             </div>
             <div>
@@ -107,7 +107,7 @@
             </div>
           </div>
           <div class="grid two-columns">
-            <div>
+            <div class="centered-image-container">
               <img src="imgs/services/staff-augmentation.svg" height="50px" width="auto">
             </div>
             <div>
@@ -120,7 +120,7 @@
         <hr>
 
         <section id="how-we-do-charge" class="container-600">
-          <small class="caption align-center">— 3 —</small>
+          <small class="caption section-number">3</small>
           <h3 class="heading-2 align-center">How we charge</h3>
         </section>
 
