@@ -122,6 +122,10 @@
         <section id="how-we-do-charge" class="container-600">
           <small class="caption section-number">3</small>
           <h3 class="heading-2 align-center">How we charge</h3>
+          <h4 class="heading-3">Hourly Pricing</h4>
+          <h5 class="heading-3">$45usd/hr</h5>
+          <h4 class="heading-3">Fixed Pricing</h4>
+          <h5 class="heading-3">$6,200</h5>
         </section>
 
       </main>
