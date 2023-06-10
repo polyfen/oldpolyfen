@@ -12,16 +12,36 @@ div.row {
   justify-content: space-between;
 }
 
-div.two-columns {
+div.flex-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.grid {
+  display: grid;
+}
+
+div.grid.two-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+}
+
+div.one-half {
   width: calc(50% - 12px);
 }
 
-div.three-columns {
+div.one-third {
   width: calc(33.33% - 12px);
 }
 
 section.intro {
   margin-bottom: 6rem;
+}
+
+small.align-center {
+  display: block;
 }
 
 /*///////////// POLYNUCLEUS UPDATE END /////////////*/
