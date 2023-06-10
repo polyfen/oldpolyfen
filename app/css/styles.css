@@ -1214,6 +1214,22 @@ section#what-we-do ul {
   list-style-image: url(../../imgs/arrow-right.svg);
 }
 
+section#how-we-do-it div.grid {
+  display: grid;
+  grid-template-columns: 120px auto;
+  gap: 40px;
+}
+
+section#how-we-do-it div.grid div:first-of-type {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+section#how-we-do-it h4 {
+  margin-bottom: 12px;
+}
+
 /*///////////// SERVICES END /////////////*/
 
 

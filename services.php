@@ -85,30 +85,30 @@
 
         <hr>
 
-        <section id="how-we-do-it" class="container-750">
+        <section id="how-we-do-it" class="container-700">
           <small class="caption section-number">2</small>
           <h3 class="heading-2 align-center">How we do it</h3>
-          <div class="grid two-columns">
-            <div class="centered-image-container">
-              <img src="imgs/services/path.svg" height="50px" width="auto">
+          <div class="grid">
+            <div>
+              <img src="imgs/services/path.svg" height="140px" width="auto">
             </div>
             <div>
               <h4 class="heading-3">End-to-End Project</h4>
               <p>Get a standout brand identity and website that showcases your products and services. We handle the design, assets, and guidelines, all within a predefined project budget.</p>
             </div>
           </div>
-          <div class="grid two-columns">
-            <div class="centered-image-container">
-              <img src="imgs/services/lightning-bolt.svg" height="50px" width="auto">
+          <div class="grid">
+            <div>
+              <img src="imgs/services/lightning-bolt.svg" height="140px" width="auto">
             </div>
             <div>
               <h4 class="heading-3">Executive Consulting</h4>
               <p>Count with us for expert analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
             </div>
           </div>
-          <div class="grid two-columns">
-            <div class="centered-image-container">
-              <img src="imgs/services/staff-augmentation.svg" height="50px" width="auto">
+          <div class="grid">
+            <div>
+              <img src="imgs/services/staff-augmentation.svg" height="140px" width="auto">
             </div>
             <div>
               <h4 class="heading-3">Staff Augmentation</h4>
