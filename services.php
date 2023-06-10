@@ -55,10 +55,10 @@
       <!-- SERVICES start -->
       <main id="services">
 
-        <section id="services intro">
+        <section class="intro">
           <h1 class="caption align-center">Services</h1>
-          <h2 class="heading-1 align-center">Services that scale<br/>with your business</h2>
-        <section>
+          <h2 class="heading-1 align-center">Solutions that scale<br/>with your business</h2>
+        </section>
 
         <section id="what-we-do" class="container">
           <h3 class="heading-2 align-center">What we do</h3>

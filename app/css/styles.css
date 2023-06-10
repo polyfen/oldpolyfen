@@ -20,6 +20,10 @@ div.three-columns {
   width: calc(33.33% - 12px);
 }
 
+section.intro {
+  margin-bottom: 6rem;
+}
+
 /*///////////// POLYNUCLEUS UPDATE END /////////////*/
 
 /*///////////// COLORS START /////////////*/
