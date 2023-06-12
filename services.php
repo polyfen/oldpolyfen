@@ -61,8 +61,7 @@
         </section>
 
         <section id="what-we-do" class="container">
-          <small class="caption section-number">1</small>
-          <h3 class="heading-2 align-center">What we do</h3>
+          <h3 class="heading-2 align-center">1. What we do</h3>
           <div class="container-350">
             <ul class="hanging-list">
               <li>Market Research</li>
@@ -86,14 +85,13 @@
         <hr>
 
         <section id="how-we-do-it" class="container-700">
-          <small class="caption section-number">2</small>
-          <h3 class="heading-2 align-center">How we do it</h3>
+          <h3 class="heading-2 align-center">2. How we do it</h3>
           <div class="grid">
             <div>
               <img src="imgs/services/path.svg" height="140px" width="auto">
             </div>
             <div>
-              <h4 class="heading-3">End-to-End Project</h4>
+              <h4 class="heading-3">2.1. End-to-End Project</h4>
               <p>Get a standout brand identity and website that showcases your products and services. We handle the design, assets, and guidelines, all within a predefined project budget.</p>
             </div>
           </div>
@@ -102,7 +100,7 @@
               <img src="imgs/services/lightning-bolt.svg" height="140px" width="auto">
             </div>
             <div>
-              <h4 class="heading-3">Executive Consulting</h4>
+              <h4 class="heading-3">2.2. Executive Consulting</h4>
               <p>Count with us for expert analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
             </div>
           </div>
@@ -111,7 +109,7 @@
               <img src="imgs/services/staff-augmentation.svg" height="140px" width="auto">
             </div>
             <div>
-              <h4 class="heading-3">Staff Augmentation</h4>
+              <h4 class="heading-3">2.3. Staff Augmentation</h4>
               <p>Offload excess workload and boost your team's capacity. Our agile crew and network of collaborators are ready to join your project and start delivering immediately.</p>
             </div>
           </div>
@@ -120,21 +118,13 @@
         <hr>
 
         <section id="how-we-do-charge" class="container-600">
-          <small class="caption section-number">3</small>
-          <h3 class="heading-2 align-center">How we charge</h3>
-          <div class="row">
-            <div class="one-half">
-              <h4 class="heading-3 align-center">Hourly Pricing</h4>
-              <h5 class="heading-3 align-center">$45usd/hr</h5>
-            </div>
-            <div class="one-half">
-              <h4 class="heading-3 align-center">Fixed Pricing</h4>
-              <h5 class="heading-3 align-center">Brand Audit</h5>
-              <h5 class="heading-3 align-center">Visual Identity Design</h5>
-              <h5 class="heading-3 align-center">Brand Identity Design</h5>
-              <h5 class="heading-3 align-center">Website Development</h5>
-            </div>
-          </div>
+          <h3 class="heading-2 align-center">3. How we charge</h3>
+            <h4 class="heading-3">3.1. Brand Audit</h4>
+            <h4 class="heading-3">3.2. Visual Identity Design</h4>
+            <h4 class="heading-3">3.3. Brand Identity Design</h4>
+            <h4 class="heading-3">3.4. Website Development</h4>
+            <h4 class="heading-3">3.5. Executive Consulting</h4>
+            <h4 class="heading-3">3.6. Staff Augmentation</h4>
         </section>
 
       </main>
