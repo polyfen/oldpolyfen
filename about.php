@@ -60,11 +60,11 @@
         <h1 class="caption align-center">About</h1>
         <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
         <div class="row">
-          <div class="two-columns">
+          <div class="one-half">
             <p>We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
             <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
           </div>
-          <div class="two-columns">
+          <div class="one-half">
             <p>HERE GOES AN IMAGE</p>
           </div>
         </div>
@@ -73,25 +73,43 @@
       <hr>
 
         <section id="what-sets-us-apart" class="container-1080">
+
+        <button class="accordion">Section 1</button>
+        <div class="panel">
+          <p>Lorem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...</p>
+        </div>
+
+        <button class="accordion">Section 2</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+
+
+
           <h3 class="heading-2 align-center">What sets us apart</h3>
           <div class="row">
-            <div class="three-columns">
+            <div class="">
               <h4 class="heading-3">Owner-Managed Reliability</h4>
               <p>Our agency's owners are involved in 100% of all the projects we take part in from start to finish ensuring the best results for every client.</p>
             </div>
-            <div class="three-columns">
+            <div class="">
               <h4 class="heading-3">Cost-Efficient Remote Business Model</h4>
               <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
             </div>
-            <div class="three-columns">
+            <div class="">
               <h4 class="heading-3">End-to-End Solutions</h4>
             </div>
           </div>
           <div class="row">
-          <div class="three-columns">
+          <div class="">
               <h4 class="heading-3">Flexible Contract Options</h4>
             </div>
-            <div class="three-columns">
+            <div class="">
               <h4 class="heading-3">R&D Innovation-Oriented Team</h4>
               <p></p>
             </div>
