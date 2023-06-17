@@ -115,9 +115,9 @@
           </div>
         </section>
 
-        <hr>
+        <hr style="display:none;">
 
-        <section id="how-we-do-charge" class="container-600">
+        <section id="how-we-do-charge" class="container-600" style="display:none;">
           <h3 class="heading-2 align-center">3. How we charge</h3>
             <h4 class="heading-3">3.1. Brand Audit</h4>
             <h4 class="heading-3">3.2. Visual Identity Design</h4>
