@@ -74,23 +74,6 @@
 
         <section id="what-sets-us-apart" class="container-1080">
 
-        <button class="accordion">Section 1</button>
-        <div class="panel">
-          <p>Lorem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...orem ipsum...</p>
-        </div>
-
-        <button class="accordion">Section 2</button>
-        <div class="panel">
-          <p>Lorem ipsum...</p>
-        </div>
-
-        <button class="accordion">Section 3</button>
-        <div class="panel">
-          <p>Lorem ipsum...</p>
-        </div>
-
-
-
           <h3 class="heading-2 align-center">What sets us apart</h3>
           <div class="row">
             <div class="">
