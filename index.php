@@ -61,7 +61,7 @@
           <h1 class="title-1">Unleash your business'<br/>full potential</h1>
 
           <div class="container-1080">
-            <p>We're a full-service creative and development agency. We help businesses reach their customers with data-driven research and strategic storytelling.</p>
+            <p>We're a full-service creative and development agency. We help businesses improve their customer engagement and increase sales.</p>
             <small class="caption">Don't be shy</small>
             <div style="clear:both;"></div>
             <a href="#contact"><button class="button">Let's Talk!</button></a>
