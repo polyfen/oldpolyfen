@@ -75,7 +75,7 @@
         <section id="what-sets-us-apart" class="container-1080">
 
           <h3 class="heading-2 align-center">What sets us apart</h3>
-          <div class="row">
+          <div class="container-700">
             <div class="">
               <h4 class="heading-3">Owner-Managed Reliability</h4>
               <p>Our agency's owners are involved in 100% of all the projects we take part in from start to finish ensuring the best results for every client.</p>
@@ -87,9 +87,7 @@
             <div class="">
               <h4 class="heading-3">End-to-End Customer Service</h4>
             </div>
-          </div>
-          <div class="row">
-          <div class="">
+            <div class="">
               <h4 class="heading-3">Flexible Contract Options</h4>
             </div>
             <div class="">
