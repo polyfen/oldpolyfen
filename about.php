@@ -61,8 +61,8 @@
         <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
         <div class="row">
           <div class="one-half">
-            <p>We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
-            <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
+            <p>We're a full-service creative and development agency founded in Zagreb, Croatia in 2018 with team-members working from Croatia, Spain, Argentina, and the US.</p>
+            <p>We provide solutions for businesses translating their vision into unique and engaging digital experiences that bring in the money.</p>
           </div>
           <div class="one-half">
             <p>HERE GOES AN IMAGE</p>
@@ -81,7 +81,7 @@
               <p>Our agency's owners are involved in 100% of all the projects we take part in from start to finish ensuring the best results for every client.</p>
             </div>
             <div class="">
-              <h4 class="heading-3">Cost-Efficient Remote Business Model</h4>
+              <h4 class="heading-3">Cost-Efficient Fully-Remote Business</h4>
               <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
             </div>
             <div class="">
