@@ -58,7 +58,7 @@
 
       <section id="about-intro" class="container">
         <h1 class="caption align-center">About</h1>
-        <h2 class="heading-1 align-center">The link between<br>business &amp; creativity</h2>
+        <h2 class="heading-1 align-center">Where business &amp; creativity come together</h2>
         <div class="row">
           <div class="one-half">
             <p>We're a full-service creative and development agency founded in Zagreb, Croatia in 2018 with team-members working from Croatia, Spain, Argentina, and the US.</p>
