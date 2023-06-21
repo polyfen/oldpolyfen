@@ -62,7 +62,7 @@
         <div class="row">
           <div class="one-half">
             <p>We're a full-service creative and development agency founded in Zagreb, Croatia in 2018 with team-members working from Croatia, Spain, Argentina, and the US.</p>
-            <p>We provide solutions for businesses translating their vision into unmatched digital experiences that bring in the money.</p>
+            <p>We provide solutions for businesses from the US translating their vision into unmatched digital experiences that bring in the money.</p>
           </div>
           <div class="one-half">
             <img src="imgs/about/office.png">
