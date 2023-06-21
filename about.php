@@ -85,7 +85,7 @@
               <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
             </div>
             <div class="">
-              <h4 class="heading-3">End-to-End Solutions</h4>
+              <h4 class="heading-3">End-to-End Customer Service</h4>
             </div>
           </div>
           <div class="row">
