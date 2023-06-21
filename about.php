@@ -65,7 +65,7 @@
             <p>We provide solutions for businesses translating their vision into unmatched digital experiences that bring in the money.</p>
           </div>
           <div class="one-half">
-            <p>HERE GOES AN IMAGE</p>
+            <img src="imgs/about/office.png">
           </div>
         </div>
       </section>
@@ -103,18 +103,6 @@
       
       <section id="poly-atlas">
         <h2 class="heading-1 align-center">We wrote the book<br>on Branding</h2>
-      </section>
-
-      <hr>
-
-      <section id="board-members">
-        <h2 class="heading-1 align-center">Our Board</h2>
-      </section>
-
-      <hr>
-
-      <section id="careers">
-        <h2 class="heading-1 align-center">Join our Ranks</h2>
       </section>
 
     </main>
