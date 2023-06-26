@@ -258,6 +258,14 @@ body#home div.container-1080 {
   transform: translateY(75px);
   transition: all 0.65s;
 } 
+.hiddenHeader {
+  opacity: 0;
+  /*filter: blur(1px);*/
+  transform: translateY(75px);
+  transition: all 0.65s;
+  position: relative;
+  z-index: 2;
+} 
 .show {
   opacity: 1;
   filter: blur(0);
