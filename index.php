@@ -34,7 +34,6 @@
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 <script defer src="app/js/subtle.js"></script>
-<script defer src="app/js/timezone.js"></script>
   </head>
 
   <body id="home" class="dark-mode">
@@ -86,7 +85,7 @@
           <h3 class="heading-1">Featured projects</h3>
 
           <!-- BIKE IN MEX start -->
-          <div class="featured-project">
+          <div class="hidden featured-project">
             <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='button-hover';document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='';document.getElementById('bike-in-mex-cover').className='project-cover';">
               <a href="/bike-in-mex.php">
                 <figure>
@@ -112,7 +111,7 @@
           <!-- BIKE IN MEX end -->
 
           <!-- TRADEANA start -->
-          <div class="featured-project">
+          <div class="hidden featured-project">
             <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='button-hover';document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-button').className='';document.getElementById('tradeana-cover').className='project-cover';">
               <a href="/tradeana.php">
                 <figure>
@@ -138,7 +137,7 @@
           <!-- TRADEANA end -->
 
           <!-- VILLA TEREZIJA start -->
-          <div class="featured-project">
+          <div class="hidden featured-project">
             <div id="villa-terezija-cover" class="project-cover" onmouseover="document.getElementById('villa-terezija-button').className='button-hover';document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-button').className='';document.getElementById('villa-terezija-cover').className='project-cover';">
               <a href="/villa-terezija.php">
                 <figure>

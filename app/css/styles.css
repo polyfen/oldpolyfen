@@ -371,6 +371,20 @@ body#home div.container-1080 {
   /*filter: blur(1px);*/
   transform: translateY(75px);
   transition: all 0.65s;
+} 
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+  transition-timing-function: ease-out;
+}
+
+
+.hidden {
+  opacity: 0;
+  /*filter: blur(1px);*/
+  transform: translateY(75px);
+  transition: all 0.65s;
 }
 
 .hiddenHeader {
