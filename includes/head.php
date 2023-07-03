@@ -59,14 +59,14 @@ crossorigin="anonymous"></script>
 <!-- Navbar Scroll Script -->
 <script>
     $(function() {
-    var header = $(".header");
+    var nav = $(".nav");
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
         if (scroll >= 60) {
-            header.removeClass('position-absolute').addClass("position-fixed");
+            nav.removeClass('position-absolute').addClass("position-fixed");
         } else {
-            header.removeClass("position-fixed").addClass('position-absolute');
+            nav.removeClass("position-fixed").addClass('position-absolute');
         }
     });
 });
