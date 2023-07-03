@@ -242,6 +242,13 @@ header img#logo {
 
 header nav {
   text-align: right;
+  position: fixed;
+  right: 25px;
+  top: 80px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 16px 8px 13px;
+  border-radius: 4px;
+  backdrop-filter: blur(20px);
 }
   
 header nav a {

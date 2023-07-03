@@ -48,7 +48,7 @@
     <div class="main-wrapper">
 
       <!-- INCLUDE HELLO-BAR.PHP start -->
-        <?php include 'includes/head.php';?>
+        <?php include 'includes/hello-bar.php';?>
       <!-- INCLUDE HELLO-BAR.PHP end -->
 
       <!-- INCLUDE HEADER.PHP start -->
