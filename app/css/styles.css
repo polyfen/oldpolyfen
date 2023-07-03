@@ -249,10 +249,16 @@ header nav.nav.position-fixed {
   position: fixed;
   right: 25px;
   top: 20px;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 16px 8px 13px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 8px 10px;
   border-radius: 4px;
   backdrop-filter: blur(20px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+header nav.nav.position-fixed:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.7);
 }
   
 header nav a {
