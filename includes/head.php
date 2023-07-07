@@ -16,6 +16,8 @@
 <!-- CSS General -->
 <link rel="stylesheet" href="https://polynucleus.com/polynucleus.css" type="text/css">
 <link rel="stylesheet" href="app/css/styles.css" type="text/css">
+ <!-- Script Accordion --> 
+<script defer src="app/js/accordion.js"></script>
 
 <!-- FONTS -->
 <!--

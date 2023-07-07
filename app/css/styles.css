@@ -1255,8 +1255,30 @@ section#how-we-do-it h4 {
 
 
 /*///////////// ABOUT START /////////////*/
+/*Accordion start*/
+.acc-button {
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
+.active, .acc-button:hover {
+  background-color: red;
+}
 
+.acc-panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/*Accordion end*/
 
 /*///////////// ABOUT END /////////////*/
 
