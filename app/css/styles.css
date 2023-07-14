@@ -647,20 +647,21 @@ body#home div.container-1080 {
 footer {
   margin-top: 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
-  align-items: center;
+  justify-items: center;
   padding: 20px;
+  gap: 30px;
+
+}
   /*
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-
   align-content: center;
   align-items: center;
-  gap: 30px;
   */
-}
+  
 
 footer ul {
   display: flex;
@@ -690,7 +691,9 @@ footer div#tpg {
 section.times {
   display: flex;
   justify-content: space-between;
-  grid-column: 1 / 3;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
 }
 /*
 section.times div {
@@ -706,11 +709,13 @@ output.caption {
 output.caption {
   margin-inline: 5px 10px;
 }
-
+/*
 footer div#tpg {
+
   justify-self: end;
   grid-column: 5 / 6;
 }
+*/
 
 section.times .caption {
   font-size: 11.33px !important;
@@ -728,7 +733,49 @@ footer section.times div img.country-flag {
 
 
 
+@media (min-width:675px)
+{
+footer section.times {
+  flex-direction: row;
+  gap: 20px;
+}
+}
 
+@media (min-width:1100px)
+{
+footer section.times {
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+footer {
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-end;
+}
+}
+
+@media (min-width:1400px){
+  footer {
+    grid-template-columns: 1fr 1fr 200px 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0;
+  }
+
+  footer section.times{
+    flex-direction: row;
+    grid-column: 1/3;
+    gap: 0px;
+  }
+
+  footer div#tpg {
+    grid-column: 4/6;
+    justify-self: end;
+  }
+
+}
+
+
+/*
 @media (max-width:1100px) {
   footer section.times {
     flex-direction: column;
@@ -777,7 +824,7 @@ footer section.times div img.country-flag {
   }
 }
 
-
+*/
 
 /*///////////// FOOTER END /////////////*/
 
