@@ -10,10 +10,10 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="About | Polyfen"/>
+    <meta property="og:title" content="About us | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
-    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth, Team, People, Designers, Developers, Creatives" />
-    <meta name="description" property="og:description" content="[TBD]" />
+    <meta name="keywords" content="Creative agency, Development agency, Zagreb, Croatia, Austin, US, USA, Mar del Plata, Argentina, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI" />
+    <meta name="description" property="og:description" content="Full-service creative & development agency transforming visions into exceptional digital experiences." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -21,8 +21,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="[TBD]" />
+    <meta name="twitter:title" content="About us" />
+    <meta name="twitter:description" content="Full-service creative & development agency transforming visions into exceptional digital experiences." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->

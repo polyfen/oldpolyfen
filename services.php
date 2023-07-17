@@ -10,10 +10,10 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Services | Polyfen"/>
+    <meta property="og:title" content="Our Services | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
-    <meta name="keywords" content="creative agency, software development agency, market research, brand strategy, marketing strategy, naming, logo design, visual identity, packaging design, UX/UI design, software development, web development, pitch decks, presentations, social media marketing, email marketing, landing pages, lead generation, sales funnels, executive consulting, staff augmentation, hourly pricing, fixed pricing" />
-    <meta name="description" property="og:description" content="Expert services in branding, marketing, software development for exceptional results." />
+    <meta name="keywords" content="Creative agency, Software development, Market research, Brand strategy, Logo design, UX/UI design, Web development, Social media marketing, Email marketing, Lead generation, Sales funnels, Staff augmentation, Executive consulting" />
+    <meta name="description" property="og:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -21,8 +21,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Services" />
-    <meta name="twitter:description" content="Expert services in branding, marketing, software development for exceptional results." />
+    <meta name="twitter:title" content="Our Services" />
+    <meta name="twitter:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
