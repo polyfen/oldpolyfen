@@ -108,9 +108,9 @@
           </div>
         </section>
 
-      <hr>
+      <hr style="display:none;">
       
-      <section id="poly-atlas">
+      <section id="poly-atlas" style="display:none;">
         <h2 class="heading-1 align-center">We wrote the book<br>on Branding</h2>
       </section>
 
