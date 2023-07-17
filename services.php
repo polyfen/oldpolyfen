@@ -110,7 +110,7 @@
             </div>
             <div>
               <h4 class="heading-3">2.3. Staff Augmentation</h4>
-              <p>Offload excess workload and boost your team's capacity. Our agile crew and network of collaborators are ready to join your project and start delivering immediately.</p>
+              <p>Offload excess workload and boost your team's capacity. Our agile crew and network of talented collaborators are ready to join your project and start delivering immediately.</p>
             </div>
           </div>
         </section>
