@@ -90,7 +90,7 @@
             <div class="">
               <h4 class="heading-3 acc-button">🎯 End-to-End Customer Service</h4>
               <div class="acc-panel">
-                <p>When your business encounters any new requirements in the area of digital business development, marketing, design, software, or tech, we've got you covered. With the personalized assistance and value we deliver you'll see why our growing list of satisfied customers is testimony that we don't just do the bare minimum. We go above and beyond to help your business grow while cultivating a long-term win-win relationship.</p>
+                <p>When your business encounters any new requirements in the area of digital business development, marketing, design, software, or tech, we've got you covered. Our growing list of satisfied customers is testimony that we don't just do the bare minimum. We go above and beyond to help your business grow while cultivating a long-term win-win relationship.</p>
               </div>
             </div>
             <div class="">
