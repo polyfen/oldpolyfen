@@ -90,19 +90,19 @@
             <div class="">
               <h4 class="heading-3 acc-button">🎯 End-to-End Customer Service</h4>
               <div class="acc-panel">
-                <p></p>
+                <p>When your business encounters any new requirements in the area of digital business development, marketing, design, software, or tech, we've got you covered. Once you see for yourself the level of personalized assistance and value we can deliver you'll see why our growing list of satisfied customers is testimony that we don't just do the bare minimum. We go above and beyond to help your business grow while cultivating a long-term win-win relationship.</p>
               </div>
             </div>
             <div class="">
               <h4 class="heading-3 acc-button">📑 Flexible Contract Options</h4>
               <div class="acc-panel">
-                <p></p>
+                <p>Whether short-term or long-term, hourly or for a fixed predetermined budget, we customize agreements to align with goals and budget. Our transparent and convenient approach allows you to choose the engagement model that suits your requirements with the highest value and lowest risk.</p>
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">🦾 Innovation-Oriented Team</h4>
+              <h4 class="heading-3 acc-button">🦾 R&amp;D Innovation-Oriented Team</h4>
               <div class="acc-panel">
-                <p></p>
+                <p>As a forward-thinking company, we invest heavily on mastering the latest techologies through internal R&D projects. Every single one of our team members have gained a place in our business by showing a commitment to constant education and professional growth. Our clients count with the advantage of our expert know-how to beat the competition and never stop moving forward.</p>
               </div>
             </div>
           </div>
