@@ -61,7 +61,7 @@
         </section>
 
         <section id="what-we-do" class="container">
-          <h3 class="heading-2 align-center">1. What we do</h3>
+          <h3 class="heading-2 align-center">What we do</h3>
           <div class="container-350">
             <ul class="hanging-list">
               <li>Market Research</li>
@@ -85,13 +85,13 @@
         <hr>
 
         <section id="how-we-do-it" class="container-700">
-          <h3 class="heading-2 align-center">2. How we do it</h3>
+          <h3 class="heading-2 align-center">How we do it</h3>
           <div class="grid">
             <div>
               <img src="imgs/services/path.svg" height="140px" width="auto">
             </div>
             <div>
-              <h4 class="heading-3">2.1. End-to-End Project</h4>
+              <h4 class="heading-3">1. End-to-End Project</h4>
               <p>Get a standout brand identity and website that showcases your products and services. We handle the design, assets, and guidelines, all within a predefined project budget.</p>
             </div>
           </div>
@@ -100,7 +100,7 @@
               <img src="imgs/services/lightning-bolt.svg" height="140px" width="auto">
             </div>
             <div>
-              <h4 class="heading-3">2.2. Executive Consulting</h4>
+              <h4 class="heading-3">2. Executive Consulting</h4>
               <p>Count with us for expert analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
             </div>
           </div>
@@ -109,7 +109,7 @@
               <img src="imgs/services/staff-augmentation.svg" height="140px" width="auto">
             </div>
             <div>
-              <h4 class="heading-3">2.3. Staff Augmentation</h4>
+              <h4 class="heading-3">3. Staff Augmentation</h4>
               <p>Offload excess workload and boost your team's capacity. Our agile crew and network of talented collaborators are ready to join your project and start delivering immediately.</p>
             </div>
           </div>
