@@ -650,9 +650,21 @@ footer {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   justify-items: center;
-  padding: 20px;
+  padding: 20px 0 0 0;
   gap: 30px;
 
+}
+
+footer ul {
+  display: flex;
+  gap: 15px;
+  /*justify-content: center;*/
+}
+footer ul li {
+  display: inline;
+}
+footer a:hover {
+  opacity: 1;
 }
 
 footer section.times {
@@ -662,42 +674,24 @@ footer section.times {
   align-items: center;
 }
 
-footer ul {
-  display: flex;
-  gap: 15px;
-  /*justify-content: center;*/
+footer .footer_2line {
+  background-color:#000 ;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 12px 0;
 }
-
-footer ul li {
-  display: inline;
-}
-
-footer a:hover {
-  opacity: 1;
-}
-.place-holder span {
+  
+footer .footer_2line span {
   opacity: 0.5;
 }
 footer div#tpg {
+  margin-top: 15px;
   width: 150px;
 }
 
 output.caption {
   margin-inline: 5px 10px;
 }
-
-/*
-section.times small.caption,
-output.caption {
-  margin-bottom: 0px;
-}
-
-footer div#tpg {
-
-  justify-self: end;
-  grid-column: 5 / 6;
-}
-*/
 
 section.times .caption {
   font-size: 11.33px !important;
@@ -721,42 +715,28 @@ footer section.times div img.country-flag {
 
 @media (min-width:1100px) {
   footer {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
+    gap: 10px;
+    
   }
 
-  footer section.times {
-    flex-direction: column;
-    align-items: flex-start;
+  footer div#tpg {
+    justify-self: end;
+    margin-right: 5px;
+    margin-top: unset;
+  }
+
+  footer ul {
     justify-self: start;
+    margin-left: 20px;
   }
 
-  footer div#tpg {
-    justify-self: end;
+  footer .footer_2line {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
   }
-
 }
-
-@media (min-width:1400px) {
-  footer {
-    grid-template-columns: 1fr 1fr 200px 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 0;
-  }
-
-  footer section.times {
-    flex-direction: row;
-    grid-column: 1/3;
-    gap: 0px;
-  }
-
-  footer div#tpg {
-    grid-column: 4/6;
-    justify-self: end;
-  }
-
-}
-
 /*///////////// FOOTER END /////////////*/
 
 /*///////////// HOMEPAGE START /////////////*/
