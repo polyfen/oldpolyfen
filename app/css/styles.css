@@ -849,13 +849,12 @@ div#cookies-modal-container {
 
 div#cookies-modal {
   position: fixed;
-  bottom: 0px;
-  width: calc(100% - 10px);
-  max-width: 900px;
-  margin: 0 auto;
+  bottom: 16px;
+  right: 16px;
+  width: 250px;
   display: flex !important;
   background: rgba(255, 255, 255, 0.6);
-  padding: 10px 20px;
+  padding: 20px 20px 10px;
   border-radius: 6px;
   backdrop-filter: blur(6px);
   z-index: 10;
@@ -888,10 +887,6 @@ div#cookies-modal-buttons {
   div#cookies-modal {
   justify-content: space-between;
   bottom: 20px;
-  }
-
-  div#cookies-modal-buttons {
-    margin: 0;
   }
 
 }
