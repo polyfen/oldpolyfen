@@ -33,7 +33,8 @@
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
-
+<script defer src="app/js/subtle.js"></script>
+<script defer src="app/js/timezone.js"></script>
   </head>
 
   <body id="home" class="dark-mode">
@@ -56,16 +57,16 @@
 
       <!-- COVER start -->
       <section class="align-center" id="cover">
+          <div class="hiddenHeader">
+            <h1 class="title-1">Unleash your business'<br/>full potential</h1>
 
-          <h1 class="title-1">Unleash your business'<br/>full potential</h1>
-
-          <div class="container-1080">
-            <p>We're a full-service creative and development agency. We help businesses improve their customer engagement and increase sales.</p>
-            <small class="caption">Don't be shy</small>
-            <div style="clear:both;"></div>
-            <a href="#contact"><button class="button">Let's Talk!</button></a>
+            <div class="container-1080">
+              <p>We're a full-service creative and development agency. We help businesses reach their customers with data-driven research and strategic storytelling.</p>
+              <small class="caption">Don't be shy</small>
+              <div style="clear:both;"></div>
+              <a href="#contact"><button class="button">Let's Talk!</button></a>
+            </div>
           </div>
-          
           <div class="background">
           <div id="pearl-11" class="pearl rotate-slower">
           </div>
@@ -85,7 +86,7 @@
           <h3 class="heading-1">Featured projects</h3>
 
           <!-- BIKE IN MEX start -->
-          <div class="featured-project">
+          <div class="hidden featured-project">
             <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='button-hover';document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='';document.getElementById('bike-in-mex-cover').className='project-cover';">
               <a href="/bike-in-mex.php">
                 <figure>
@@ -111,7 +112,7 @@
           <!-- BIKE IN MEX end -->
 
           <!-- TRADEANA start -->
-          <div class="featured-project">
+          <div class="hidden featured-project">
             <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='button-hover';document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-button').className='';document.getElementById('tradeana-cover').className='project-cover';">
               <a href="/tradeana.php">
                 <figure>
@@ -137,7 +138,7 @@
           <!-- TRADEANA end -->
 
           <!-- VILLA TEREZIJA start -->
-          <div class="featured-project">
+          <div class="hidden featured-project">
             <div id="villa-terezija-cover" class="project-cover" onmouseover="document.getElementById('villa-terezija-button').className='button-hover';document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-button').className='';document.getElementById('villa-terezija-cover').className='project-cover';">
               <a href="/villa-terezija.php">
                 <figure>
@@ -184,7 +185,10 @@
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
-    
+
+    <!-- scripts location call luxon-->
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+    <!-- scripts location time end-->
   </body>
 
 </html>
