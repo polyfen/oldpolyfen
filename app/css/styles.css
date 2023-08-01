@@ -250,6 +250,7 @@ header img#logo {
 header nav {
   text-align: right;
   padding-top: 15px;
+
   
 }
 
@@ -276,6 +277,27 @@ header nav a {
 
 header nav a:hover {
   color: #FFFFFF !important;
+}
+
+/* mobile navigation */
+.hamburger svg{
+  fill: white;
+}
+
+@media (min-width: 768px){
+  header nav.hamburger.nav {
+    display: none;
+  }
+  nav.desktop.nav {
+    min-width: 444px;
+}
+}
+
+@media (max-width: 768px) {
+  header nav.desktop.nav {
+    display: none;
+    
+  }
 }
 
 /* END of navigation bar ----------------- */
