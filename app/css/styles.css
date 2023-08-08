@@ -1022,7 +1022,7 @@ div#cookies-title {
 }
 
 div#cookies-title small {
-  color: #000;
+  color: #0000009e;
 }
 
 div#cookies-modal-buttons {
@@ -1065,7 +1065,7 @@ div#cookies-modal button {
 div#cookies-modal button {
   float: right;
   color: #000;
-  border-color: #000;
+  border-color: #00000075;
   background: rgba(255, 255, 255, 0.508);
   font-size: 0.9rem;
   font-family: 'BiotifMedium';
