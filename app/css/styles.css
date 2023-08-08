@@ -697,10 +697,9 @@ footer section.times {
 }
 
 footer .footer_2line {
-  background-color:#000 ;
   width: 100%;
   text-align: center;
-  padding: 10px 0 12px 0;
+  padding: 10px 0 25px 0;
 }
   
 footer .footer_2line span {
