@@ -53,6 +53,26 @@
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
+    <!-- CONTACT start -->
+    <main id="contact">
+
+    <section id="contact-intro" class="container">
+        <h1 class="caption align-center">Contact</h1>
+        <h2 class="heading-1 align-center">Let's start a Conversation</h2>
+        <form id="contact-form">
+          <label>Name</label>
+          <input>
+          <label>Email</label>
+          <input>
+          <label>Message</label>
+          <textarea></textarea>
+          <input type="submit" class="button">
+        </form>
+      </section>
+
+    </main>
+    <!-- CONTACT end -->
+
 
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'includes/footer.php';?>
