@@ -78,7 +78,7 @@
             <div class="">
               <h4 class="heading-3 acc-button">🎖️ Owner-Managed Reliability</h4>
               <div class="acc-panel">
-                <p>Our agency's owners are involved in 100% of all the projects we take part in from start to finish ensuring the best results for every client.</p>
+                <p>Our agency's owners are involved in all the projects we take part in from start to finish ensuring the best results for every client.</p>
               </div>
             </div>
             <div class="">
@@ -87,7 +87,12 @@
               <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
               </div>
             </div>
-            
+            <div class="">
+              <h4 class="heading-3 acc-button">🧬 We Build with Transparency</h4>
+              <div class="acc-panel">
+                <p>Our agency's owners are involved in all the projects we take part in from start to finish ensuring the best results for every client.</p>
+              </div>
+            </div>
             <div class="">
               <h4 class="heading-3 acc-button">🔋 R&amp;D Innovation-Oriented Team</h4>
               <div class="acc-panel">
