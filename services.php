@@ -62,23 +62,31 @@
 
         <section id="what-we-do" class="container">
           <h3 class="heading-2 align-center">What we do</h3>
+          <div class="row">
+          <div class="one-half">
+            <img src="imgs/about/office.png">
+          </div>
+          <div class="one-half">
+          <ul class="hanging-list">
+            <li>Market Research</li>
+            <li>Brand &amp; Marketing Strategy</li>
+            <li>Naming</li>
+            <li>Logo Design</li>
+            <li>Visual Identity</li>
+            <li>Packaging</li>
+            <li>UX/UI Design</li>
+            <li>Software & Web Development</li>
+            <li>Pitch Decks &amp; Presentations</li>
+            <li>Social Media Marketing</li>
+            <li>Email Marketing</li>
+            <li>Landing Pages</li>
+            <li>Lead Generation</li>
+            <li>Sales Funnels</li>
+            </ul>
+          </div>
+          
           <div class="container-350">
-            <ul class="hanging-list">
-              <li>Market Research</li>
-              <li>Brand &amp; Marketing Strategy</li>
-              <li>Naming</li>
-              <li>Logo Design</li>
-              <li>Visual Identity</li>
-              <li>Packaging</li>
-              <li>UX/UI Design</li>
-              <li>Software & Web Development</li>
-              <li>Pitch Decks &amp; Presentations</li>
-              <li>Social Media Marketing</li>
-              <li>Email Marketing</li>
-              <li>Landing Pages</li>
-              <li>Lead Generation</li>
-              <li>Sales Funnels</li>
-              </ul>
+            
           </div>
         </section>
 
@@ -115,16 +123,35 @@
           </div>
         </section>
 
-        <hr style="display:none;">
+        <hr>
 
-        <section id="how-we-do-charge" class="container-600" style="display:none;">
-          <h3 class="heading-2 align-center">3. How we charge</h3>
-            <h4 class="heading-3">3.1. Brand Audit</h4>
-            <h4 class="heading-3">3.2. Visual Identity Design</h4>
-            <h4 class="heading-3">3.3. Brand Identity Design</h4>
-            <h4 class="heading-3">3.4. Website Development</h4>
-            <h4 class="heading-3">3.5. Executive Consulting</h4>
-            <h4 class="heading-3">3.6. Staff Augmentation</h4>
+        <section id="how-we-do-charge" class="container">
+          <h3 class="heading-2 align-center">Fair Pricing</h3>
+            <div class="container-700">
+            <p>Our cost-efficient, fully-remote business model offers top tier services at a fraction of the price of our competitors in the US.</p>
+            <div class="">
+              <h4 class="heading-3 acc-button">💡 Cost-Efficient Business Model</h4>
+              <div class="acc-panel">
+              <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
+              </div>
+            </div>
+            <div class="">
+              <h4 class="heading-3 acc-button">📊 Transparency in Budgeting</h4>
+              <div class="acc-panel">
+                <p>Our agency's owners are involved in 100% of all the projects we take part in from start to finish ensuring the best results for every client.</p>
+              </div>
+            </div>
+            <div class="">
+              <h4 class="heading-3 acc-button">📑 Flexible Contract Options</h4>
+              <div class="acc-panel">
+                <p>Whether short-term or long-term, hourly or for a fixed predetermined budget, we customize agreements to align with goals and budget. Our transparent and convenient approach allows you to choose the engagement model that suits your requirements with the highest value and lowest risk.</p>
+              </div>
+            </div>
+            <div class="">
+              <h4 class="heading-3 acc-button">🎩 End-to-End Customer Service</h4>
+              <div class="acc-panel">
+                <p>When your business encounters any new requirements in the area of digital business development, marketing, design, software, or tech, we've got you covered. Our growing list of satisfied customers is testimony that we don't just do the bare minimum. We go above and beyond to help your business grow while cultivating a long-term win-win relationship.</p>
+              </div>
         </section>
 
       </main>
