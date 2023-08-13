@@ -88,7 +88,7 @@
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">🧪 Tech Advancements through R&amp;D</h4>
+              <h4 class="heading-3 acc-button">🧪 Tech Innovation through R&amp;D</h4>
               <div class="acc-panel">
                 <p>As a forward-thinking company we explore the latest techologies through R&D projects. We are heavily-invested commitment into constant education and professional growth. Our clients count with the advantage of our expert know-how to beat the competition and never stop moving forward.</p>
               </div>
