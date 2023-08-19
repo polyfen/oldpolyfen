@@ -38,4 +38,7 @@
         <a href="http://brand.polyfen.com" target="_blank"><small>Brand Guidelines</small></a>
       </div>
 
+    <!-- scripts location call luxon-->
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+    <!-- scripts location time end-->
     </footer>
