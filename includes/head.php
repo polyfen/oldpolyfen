@@ -85,3 +85,6 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });
 </script>
 <link rel="preload" as="image" href="imgs/thumbs-up-solid-white.svg" />
+
+<!-- Global javascript -->
+<script defer src="app/js/timezone.js"></script>

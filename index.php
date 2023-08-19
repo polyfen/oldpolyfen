@@ -34,7 +34,6 @@
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 <script defer src="app/js/subtle.js"></script>
-<script defer src="app/js/timezone.js"></script>
   </head>
 
   <body id="home" class="dark-mode">
@@ -186,9 +185,6 @@
       <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
-    <!-- scripts location call luxon-->
-    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
-    <!-- scripts location time end-->
   </body>
 
 </html>
