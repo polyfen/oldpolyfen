@@ -40,4 +40,7 @@
         <a href="privacy.php" target="_blank"><small>Privacy Policy</small></a>
       </div>
 
+    <!-- scripts location call luxon-->
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+    <!-- scripts location time end-->
     </footer>
