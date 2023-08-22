@@ -159,3 +159,4 @@ $(document).ready(function(){
     $('.slick-prev').addClass('hide');
     navSlider();
   });
+

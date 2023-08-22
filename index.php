@@ -185,6 +185,7 @@
       <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
+
   </body>
 
 </html>
