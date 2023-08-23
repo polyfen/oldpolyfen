@@ -59,13 +59,13 @@
     <section id="contact-intro" class="container">
         <h1 class="caption align-center">Contact</h1>
         <h2 class="heading-1 align-center">Let's start a Conversation</h2>
-        <form id="contact-form">
-          <label>Name</label>
-          <input>
-          <label>Email</label>
-          <input>
-          <label>Message</label>
-          <textarea></textarea>
+        <form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
           <input type="submit" class="button">
         </form>
       </section>
@@ -78,6 +78,24 @@
       <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
+    <!-- contact form script start -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+        Email.send({
+          Host : "smtp.gmail.com",
+          Username : "leanbilokapic@gmail.com",
+          Password : "XXII.funko",
+          To : 'leandrobilokapic@gmail.com',
+          From : document.getElementById("email").value,
+          Subject : "New Contact Form desde Polyfen.com",
+          Body : "Name: " + document.getElementById("name").value
+          + "<br> Email: " + document.getElementById("email").value
+          + "<br> Message: " + document.getElementById("message").value
+        }).then(
+          message => alert("Gracias, vuelvas prontos")
+        );
+      }
   </body>
 
 </html>
