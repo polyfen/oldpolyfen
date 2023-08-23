@@ -83,18 +83,16 @@
     <script>
       function sendEmail(){
         Email.send({
-          Host : "smtp.gmail.com",
-          Username : "leanbilokapic@gmail.com",
-          Password : "XXII.funko",
-          To : 'leandrobilokapic@gmail.com',
-          From : document.getElementById("email").value,
-          Subject : "New Contact Form desde Polyfen.com",
-          Body : "Name: " + document.getElementById("name").value
-          + "<br> Email: " + document.getElementById("email").value
-          + "<br> Message: " + document.getElementById("message").value
-        }).then(
-          message => alert("Gracias, vuelvas prontos")
-        );
+        Host : "smtp.elasticemail.com",
+        Username : "username",
+        Password : "password",
+        To : 'them@website.com',
+        From : "you@isp.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+      }).then(
+        message => alert(message)
+);
       }
   </body>
 
