@@ -61,7 +61,7 @@
       <h2 class="heading-1 align-center">Let's start a Conversation</h2>
       <form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
         <label for="name">Name</label>
-        <input id="name" name="name" type="text" required>
+        <input id="name" name="name" type="text" placeholder="usa la FORM de abajo que anda" required>
         <label for="email">Email</label>
         <input id="email" name="email" type="email" required>
         <label for="message">Message</label>
@@ -70,18 +70,24 @@
       </form>
     </section>
 
-    <form action="https://formsubmit.co/leanbilokapic@email.com" method="POST">
-     
-     <input type="email" name="email" required>
-     <input type="text" name="name" required>
-     <textarea name="message" required></textarea>
+    <section id="contact-info" class="container">
+      <form id="contact-form" action="https://formsubmit.co/leanbilokapic@gmail.com" method="POST">
+      
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="esa es la form que anda" required>
+        
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
 
-     <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-     <input type="hidden" name="_subject" value="Nuevo mensaje desde Polyfen">
-     
-     <button type="submit">Send</button>
-    </form>
+        <label for="message">Message</label>
+        <textarea name="message" required></textarea>
 
+        <input type="hidden" name="_next" value="https://boris.hr/thank-you.php">
+        <input type="hidden" name="_subject" value="Nuevo mensaje desde Polyfen">
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
     </main>
     <!-- CONTACT end -->
 
