@@ -60,18 +60,6 @@
     <section id="contact-intro" class="container">
       <h1 class="caption align-center">Contact</h1>
       <h2 class="heading-1 align-center">Let's start a Conversation</h2>
-      <form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" placeholder="usa la FORM de abajo que anda" required>
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" required>
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-        <input type="submit" class="button">
-      </form>
-    </section>
-
-    <section id="contact-info" class="container">
       <form id="contact-form" method="POST">
       
         <label for="email">Email</label>

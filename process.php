@@ -13,14 +13,11 @@ if ($verify->success) {
     foreach ($_POST as $k=>$v) {
         if ($k != "g-recaptcha-response") { $body .= "$k : $v\r\n";}
     }
-    if (mail($to, $subject, $body)){
-        echo "OKIDOKI";
+    if (!mail($to, $subject, $body)){
+        $error = "Falla en enviar email";
     }
-}else { $error = "Invalid ?!?!?!";
-}
-else {
-    $error = "Invalid Captcha!!!!";
-}
+} else { $error = "Captcha Invadido";}
+
 
 
 //Output result
@@ -28,11 +25,3 @@ echo $error=="" ? "OK" : $error;
 ?>
 
 
-<!-- de otro codigo, no dar bola
-if($response->success){
-              mail($to_email,$email_subject,$email_body,$headers);
-              echo "Message Sent Successfully, vamoo!";
-              } else {
-                echo "<span>Invalid Captcha, please try again.</span>";
-              }
--->
