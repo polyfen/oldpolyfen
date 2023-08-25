@@ -34,7 +34,8 @@
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
-
+    <!-- contact form script start -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
 
   <body id="contact" class="dark-mode">
@@ -71,7 +72,7 @@
     </section>
 
     <section id="contact-info" class="container">
-      <form id="contact-form" action="https://formsubmit.co/leanbilokapic@gmail.com" method="POST">
+      <form id="contact-form" method="POST">
       
         <label for="email">Email</label>
         <input type="email" name="email" placeholder="esa es la form que anda" required>
@@ -81,14 +82,19 @@
 
         <label for="message">Message</label>
         <textarea name="message" required></textarea>
-
-        <input type="hidden" name="_next" value="https://boris.hr/thank-you.php">
-        <input type="hidden" name="_subject" value="Nuevo mensaje desde Polyfen">
+        <!-- place captcha here -->
+        <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"></div>
         
         <button type="submit">Send</button>
       </form>
     </section>
     </main>
+    <!-- process form on submit-->
+    <?php
+      if(isset($_POST['name'])){
+        require "process.php";  
+      }
+    ?>
     <!-- CONTACT end -->
 
 
