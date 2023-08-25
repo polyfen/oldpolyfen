@@ -20,3 +20,4 @@ if ($verify->success) {
 
 //Output result
 echo $error=="" ? "OK" : $error;
+?>
