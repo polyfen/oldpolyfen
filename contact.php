@@ -122,13 +122,28 @@
         e.preventDefault()
         const recaptchaResponse = $('#g-recaptcha-response').val()
         if(recaptchaResponse === '') onRecaptchaError()
+        
+        const data = contactForm.serializeArray()
+
+        /* $.ajax({
+          method: "POST",
+          url: "submit.php",
+          dataType: "json",
+          data: data,
+          success: function(data) {
+            if(data.response == 'success'){
+              console.log( "success: ", data );
+            } else {
+              console.log( "error: ", data );
+            }
+          }
+        }) */
 
         $.ajax({
           method: "POST",
           url: "submit.php",
           dataType: "json",
-          contentType: 'application/json; charset=utf-8',
-          data: contactForm.serializeArray(),
+          data: data,
           success: function (response) {
             console.log(response);
           },
