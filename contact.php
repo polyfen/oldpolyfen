@@ -123,7 +123,7 @@
         const recaptchaResponse = $('#g-recaptcha-response').val()
         if(recaptchaResponse === '') onRecaptchaError()
         
-        const data = contactForm.serializeArray()
+        const data = $(this).serializeArray()
 
         /* $.ajax({
           method: "POST",
@@ -145,7 +145,8 @@
           dataType: "json",
           data: data,
           success: function (response) {
-            console.log(response);
+            console.log('response: ', response);
+            console.log('message: ', response.message);
           },
           error: function () {
             console.log('Failed ');
