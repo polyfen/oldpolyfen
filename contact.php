@@ -127,13 +127,13 @@
           method: "POST",
           url: "submit.php",
           dataType: "json",
+          contentType: 'application/json; charset=utf-8',
           data: contactForm.serializeArray(),
-          success: function(data) {
-            if(data.response == 'success'){
-              console.log( "success: ", data );
-            } else {
-              console.log( "error: ", data );
-            }
+          success: function (response) {
+            console.log(response);
+          },
+          error: function () {
+            console.log('Failed ');
           }
         })
 
