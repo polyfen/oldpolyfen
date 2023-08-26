@@ -16,46 +16,14 @@ if ($json['success']) {
   $subject = "Contact Form POLYFEN TEST";
   //$body = "";
 
-// Varios destinatarios
-$para  = 'hp.hernanpereira@gmail.com';
+  $mensaje = "Línea 1\r\nLínea 2\r\nLínea 3";
 
-// título
-$título = 'Recordatorio de cumpleaños para Agosto';
+  if (!mail($to, $subject, $body)){
+    $error = "Falla en enviar email";
+  }
 
-// mensaje
-$mensaje = '
-<html>
-<head>
-  <title>Recordatorio de cumpleaños para Agosto</title>
-</head>
-<body>
-  <p>¡Estos son los cumpleaños para Agosto!</p>
-  <table>
-    <tr>
-      <th>Quien</th><th>Día</th><th>Mes</th><th>Año</th>
-    </tr>
-    <tr>
-      <td>Joe</td><td>3</td><td>Agosto</td><td>1970</td>
-    </tr>
-    <tr>
-      <td>Sally</td><td>17</td><td>Agosto</td><td>1973</td>
-    </tr>
-  </table>
-</body>
-</html>
-';
-
-// Para enviar un correo HTML, debe establecerse la cabecera Content-type
-$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-// Cabeceras adicionales
-$cabeceras .= 'To: Mary <hp.hernanpereira@gmail.com>' . "\r\n";
-$cabeceras .= 'From: Recordatorio <hp.hernanpereira@gmail.com>' . "\r\n";
-$cabeceras .= 'Bcc: hachesolo@hotmail.com' . "\r\n";
-
-// Enviarlo
-mail($para, $título, $mensaje, $cabeceras);
+  // Enviarlo
+  mail($to, $subject, $mensaje);
 
 
 
