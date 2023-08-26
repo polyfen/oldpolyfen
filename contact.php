@@ -127,13 +127,13 @@
           'response': recaptchaResponse
           }, function(response){
             if(response === 'success') {
-                // window.location.href ='aqui-va-la-pagina-de-gracias.php';
-                console.log('ok');
-                //Estas lineas son por si no quieren que redireccione a un thank you page
-                //contactForm.trigger('reset');
-                //grecaptcha.reset();
+                window.location.href = '/';
+                // console.log('ok');
+                // Estas lineas son por si no quieren que redireccione a un thank you page
+                // contactForm.trigger('reset');
+                // grecaptcha.reset();
             } else {
-                console.log('err: ', response);
+                console.log(response);
             }
         })
       })

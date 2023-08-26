@@ -11,6 +11,7 @@
   //send email if OK
 if ($json['success']) {
   $to = "hp.hernanpereira@gmail.com";
+  $bcc = "hachesolo@hotmail.com";
   $subject = "Contact Form POLYFEN TEST";
   $body = "";
   foreach ($_POST as $k=>$v) {
@@ -20,7 +21,7 @@ if ($json['success']) {
     $error = "Falla en enviar email";
   }
 } else { 
-  $error = "Captcha Invalido";
+  $error = "Captcha Inválido";
 }
 
 //Output result
