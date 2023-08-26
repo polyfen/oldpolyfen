@@ -127,8 +127,8 @@
           'response': recaptchaResponse
           }, function(response){
             if(response === 'success') {
-                window.location.href = '/';
-                // console.log('ok');
+                // window.location.href = '/';
+                console.log('ok');
                 // Estas lineas son por si no quieren que redireccione a un thank you page
                 // contactForm.trigger('reset');
                 // grecaptcha.reset();
