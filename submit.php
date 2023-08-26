@@ -14,9 +14,9 @@ if ($json['success']) {
   $to = "hp.hernanpereira@gmail.com";
   $bcc = "hachesolo@hotmail.com";
   $subject = "Contact Form POLYFEN TEST";
-  //$body = "";
+  // $body = "";
 
-  //$mensaje = "Línea 1\r\nLínea 2\r\nLínea 3\r\n$_POST['name']\r\n$_POST['mensaje']";
+  $body = "Línea 1\r\nLínea 2\r\nLínea 3\r\n$_POST['name']\r\n$_POST['mensaje']";
 
   if (!mail($to, $subject, $body)){
     $error = "Falla en enviar email";
