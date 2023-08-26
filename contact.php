@@ -60,6 +60,7 @@
     <section id="contact-intro" class="container">
       <h1 class="caption align-center">Contact</h1>
       <h2 class="heading-1 align-center">Let's start a Conversation</h2>
+      <div class="err-msj" style="text-align: center; color: red; margin: 10px 0; display: none">Soy el mensaje de error</div>
       <form id="contact-form" method="POST">
       
         <label for="email">Email</label>
@@ -71,17 +72,25 @@
         <label for="message">Message</label>
         <textarea name="message" required></textarea>
         <!-- place captcha here -->
-        <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"></div>
-        
+        <!-- <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"></div> -->
+        <div
+          class="g-recaptcha"
+          data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
+          data-callback="onRecaptchaSuccess"
+          data-expired-callback="onRecaptchaResponseExpiry"
+          data-error-callback="onRecaptchaError"
+        >
+        </div>
+        <br>
         <button type="submit">Send</button>
       </form>
     </section>
     </main>
     <!-- process form on submit-->
     <?php
-      if(isset($_POST['name'])){
+      /* if(isset($_POST['name'])){
         require "process.php";  
-      }
+      } */
     ?>
     <!-- CONTACT end -->
 
@@ -91,6 +100,44 @@
     <!-- INCLUDE FOOTER.PHP end -->
 
     <!-- contact form script start -->
+    <script>
+      const contactForm = $('#contact-form')
+      const errMsj = $('.err-msj')
+
+      function onRecaptchaSuccess() {
+        //aca va la clase de css que quieras añadir
+        errMsj.css('display', 'none')
+      }
+
+      function onRecaptchaError() {
+        //aca va la clase de css que quieras añadir
+        errMsj.css('display', 'block')
+      }
+
+      function onRecaptchaResponseExpiry() {
+        onRecaptchaError();
+      }
+
+      contactForm.on('submit', (e) => {
+        e.preventDefault()
+        const recaptchaResponse = $('#g-recaptcha-response').val()
+        if(recaptchaResponse === '') onRecaptchaError()
+
+        $.post('submit.php', {
+          'response': recaptchaResponse
+          }, function(response){
+            if(response === 'success') {
+                // window.location.href ='aqui-va-la-pagina-de-gracias.php';
+                console.log('ok');
+                //Estas lineas son por si no quieren que redireccione a un thank you page
+                //contactForm.trigger('reset');
+                //grecaptcha.reset();
+            } else {
+                console.log('err: ', response);
+            }
+        })
+      })
+    </script>
 
   </body>
 
