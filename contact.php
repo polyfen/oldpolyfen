@@ -122,16 +122,18 @@
         e.preventDefault()
         const recaptchaResponse = $('#g-recaptcha-response').val()
         if(recaptchaResponse === '') onRecaptchaError()
-        
-        const data = contactForm.serializeArray()
 
         $.ajax({
           method: "POST",
           url: "submit.php",
           dataType: "json",
-          data: data,
+          data: contactForm.serializeArray(),
           success: function(data) {
-            console.log(data);
+            if(data.response == 'success'){
+              console.log( "success: ", data );
+            } else {
+              console.log( "error: ", data );
+            }
           }
         })
 
