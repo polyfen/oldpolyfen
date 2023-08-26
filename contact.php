@@ -123,7 +123,7 @@
         const recaptchaResponse = $('#g-recaptcha-response').val()
         if(recaptchaResponse === '') onRecaptchaError()
         
-        const data = $(this).serializeArray()
+        const data = contactForm.serializeArray()
 
         /* $.ajax({
           method: "POST",
@@ -145,11 +145,14 @@
           dataType: "json",
           data: data,
           success: function (response) {
-            console.log('response: ', response);
-            console.log('message: ', response.message);
+            // window.location.href = '/';
+            console.log(response.message);
+            // Estas lineas son por si no quieren que redireccione a un thank you page
+            // contactForm.trigger('reset');
+            // grecaptcha.reset();
           },
-          error: function () {
-            console.log('Failed ');
+          error: function (xhr, status, error) {
+            console.log(xhr.responseJSON.message);
           }
         })
 

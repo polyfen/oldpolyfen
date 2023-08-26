@@ -18,20 +18,18 @@
       }
     }
 
-    http_response_code(200);
-    echo json_encode(array("message" => "The request was successful"));
-
     if (!mail($to, $subject, $body)){
       $error = "Falla en enviar email";
     }
-    
+
+    // Output result OK
+    http_response_code(200);
+    echo json_encode(array("message" => "Mensaje enviado con éxito"));
   } else { 
     $error = "Captcha Inválido";
 
+    // Output result ERROR
     http_response_code(400);
     echo json_encode(array("message" => $error));
   }
-
-  //Output result
-  //echo $json['success'] ? 'success' : $error;
 ?>
