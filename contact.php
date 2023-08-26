@@ -72,7 +72,6 @@
         <label for="message">Message</label>
         <textarea name="message" required></textarea>
         <!-- place captcha here -->
-        <!-- <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"></div> -->
         <div
           class="g-recaptcha"
           data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
@@ -125,28 +124,15 @@
         
         const data = contactForm.serializeArray()
 
-        /* $.ajax({
-          method: "POST",
-          url: "submit.php",
-          dataType: "json",
-          data: data,
-          success: function(data) {
-            if(data.response == 'success'){
-              console.log( "success: ", data );
-            } else {
-              console.log( "error: ", data );
-            }
-          }
-        }) */
-
         $.ajax({
           method: "POST",
           url: "submit.php",
           dataType: "json",
           data: data,
           success: function (response) {
-            // window.location.href = '/';
-            console.log(response.message);
+            window.location.href = '/';
+            // console.log(response.message);
+
             // Estas lineas son por si no quieren que redireccione a un thank you page
             // contactForm.trigger('reset');
             // grecaptcha.reset();
@@ -155,21 +141,6 @@
             console.log(xhr.responseJSON.message);
           }
         })
-
-        /* $.post('submit.php', {
-          'name': 'hola',
-          'response': recaptchaResponse
-          }, function(response){
-            if(response === 'success') {
-                // window.location.href = '/';
-                console.log('ok');
-                // Estas lineas son por si no quieren que redireccione a un thank you page
-                // contactForm.trigger('reset');
-                // grecaptcha.reset();
-            } else {
-                console.log(response);
-            }
-        }) */
       })
     </script>
 
