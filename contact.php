@@ -122,8 +122,21 @@
         e.preventDefault()
         const recaptchaResponse = $('#g-recaptcha-response').val()
         if(recaptchaResponse === '') onRecaptchaError()
+        
+        const data = contactForm.serializeArray()
 
-        $.post('submit.php', {
+        $.ajax({
+          method: "POST",
+          url: "submit.php",
+          dataType: "json",
+          data: data,
+          success: function(data) {
+            console.log(data);
+          }
+        })
+
+        /* $.post('submit.php', {
+          'name': 'hola',
           'response': recaptchaResponse
           }, function(response){
             if(response === 'success') {
@@ -135,7 +148,7 @@
             } else {
                 console.log(response);
             }
-        })
+        }) */
       })
     </script>
 
