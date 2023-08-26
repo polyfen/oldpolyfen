@@ -60,7 +60,7 @@
             <h1 class="title-1">Unleash your business'<br/>full potential</h1>
 
             <div class="container-1080">
-              <p>Creative agency offering design, marketing, and software development services for new and emerging businesses.</p>
+              <p>We are a creative agency offering design, marketing, and software development services for new and emerging businesses.</p>
               <small class="caption">Don't be shy</small>
               <div style="clear:both;"></div>
               <a href="#contact"><button class="button">Let's Talk!</button></a>
