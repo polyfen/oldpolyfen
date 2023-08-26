@@ -1,6 +1,9 @@
 <?php
   $secret = $_POST['secret'];
   $response = $_POST['response'];
+  $email = $_POST['email'];
+  $name = $_POST['name'];
+  $mensaje = $_POST['mensaje'];
   $error = "";
 
   $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify'; 
@@ -14,9 +17,11 @@ if ($json['success']) {
   $to = "hp.hernanpereira@gmail.com";
   $bcc = "hachesolo@hotmail.com";
   $subject = "Contact Form POLYFEN TEST";
-  // $body = "";
+  $body = "";
 
-  $body = "Línea 1\r\nLínea 2\r\nLínea 3\r\n$_POST['name']\r\n$_POST['mensaje']";
+  $body .= "$email\r\n";
+  $body .= "$name\r\n";
+  $body .= "$mensaje\r\n";
 
   if (!mail($to, $subject, $body)){
     $error = "Falla en enviar email";
@@ -24,8 +29,6 @@ if ($json['success']) {
 
   // Enviarlo
   //mail($to, $subject, $mensaje);
-
-
 
   /* foreach ($_POST as $k=>$v) {
       if ($k != "g-recaptcha-response") { $body .= "$k : $v\r\n";}
