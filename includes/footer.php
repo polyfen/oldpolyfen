@@ -33,7 +33,9 @@
       </div>
       
       <div class="footer_2line">
-        <a href="http://wiki.thepolygroup.co" target="_blank"><small>Team Wiki</small></a>
+        <a href="http://wiki.polyfen.com" target="_blank"><small>Team Wiki</small></a>
+        <span style="opacity:0.2;margin:0 5px;">&vert;</span>
+        <a href="http://business.polyfen.com" target="_blank"><small>Business Plan</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
         <a href="http://brand.polyfen.com" target="_blank"><small>Brand Guidelines</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
