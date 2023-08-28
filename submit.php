@@ -8,8 +8,8 @@
 
   //send email if OK
   if ($json['success']) {
-    $to = "hp.hernanpereira@gmail.com"; //TODO: change email address
-    $subject = "Contact Form POLYFEN TEST";
+    $to = "leandrobilokapic@gmail.com"; //TODO: change email address (hp.hernanpereira@gmail.com)
+    $subject = "Contact Form from POLYFEN";
     $body = "";
 
     foreach ($_POST as $k=>$v) {

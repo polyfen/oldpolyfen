@@ -60,11 +60,11 @@
     <section id="contact-intro" class="container">
       <h1 class="caption align-center">Contact</h1>
       <h2 class="heading-1 align-center">Let's start a Conversation</h2>
-      <div class="err-msj" style="text-align: center; color: red; margin: 10px 0; display: none">Soy el mensaje de error</div>
+      <div class="err-msj">Soy el mensaje de error</div>
       <form id="contact-form" method="POST">
       
         <label for="email">Email</label>
-        <input type="email" name="email" placeholder="esa es la form que anda" required>
+        <input type="email" name="email" required>
         
         <label for="name">Name</label>
         <input type="text" name="name" required>
@@ -130,7 +130,7 @@
           dataType: "json",
           data: data,
           success: function (response) {
-            window.location.href = '/';
+            window.location.href = '/thank-you.php';
             // console.log(response.message);
 
             // Estas lineas son por si no quieren que redireccione a un thank you page
