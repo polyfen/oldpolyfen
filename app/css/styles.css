@@ -1464,7 +1464,9 @@ div.err-msj {
   display: none
 }
 
-
+div.g-recaptcha {
+  margin: auto;
+}
 /*///////////// CONTACT END /////////////*/
 
 
