@@ -65,7 +65,7 @@ crossorigin="anonymous"></script>
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
-        if (scroll >= 60) {
+        if (scroll >= 60 && $(window).width() > 768) {
             nav.removeClass('position-absolute').addClass("position-fixed");
         } else {
             nav.removeClass("position-fixed").addClass('position-absolute');

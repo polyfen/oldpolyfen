@@ -45,7 +45,7 @@
     <script>
       const menu = document.querySelector('.hamburger')
       const close = document.querySelector ('.close')
-      const nav = document.querySelector ('.mobile')
+      const nav = document.querySelector ('.desktop')
 
       menu.addEventListener('click', () => {
       nav.classList.add('open-nav')
