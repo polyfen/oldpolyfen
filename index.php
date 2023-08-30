@@ -33,7 +33,6 @@
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
-<script defer src="app/js/subtle.js"></script>
   </head>
 
   <body id="home" class="dark-mode">
