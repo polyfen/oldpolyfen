@@ -7,9 +7,9 @@
       </ul>
 
       <section class="times">
-        <div data-timezone="US/Central">
+        <div data-timezone="US/Pacific">
           <img src="imgs/flags/us.svg" class="country-flag">
-          <small class="caption">Austin</small>
+          <small class="caption">San Francisco</small>
           <output class="caption">00:00</output>
         </div>
 
