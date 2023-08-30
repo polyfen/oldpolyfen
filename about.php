@@ -64,7 +64,7 @@
             <p>We provide solutions for businesses from the US translating their vision into unmatched digital experiences that bring in the money.</p>
           </div>
           <div class="one-half">
-            <img src="imgs/about/office.png">
+            <img src="imgs/illustrations/computer-illustration.svg">
           </div>
         </div>
       </section>
