@@ -194,7 +194,7 @@ div.hello-bar {
   top: 0;
   width: 100%;
   background: black;
-  z-index: 999;
+  z-index: 10;
   position: relative;
   padding: 0;
   text-align: center;
@@ -308,6 +308,7 @@ header nav a:hover {
 @media (max-width: 768px) {
   header nav.desktop.nav {
     display: none;
+
   }
 
   header nav.desktop {
@@ -317,24 +318,29 @@ header nav a:hover {
     backdrop-filter: blur(7px);
     top: 0;
     right: 0px;
-    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100vh;
     width: 100%;
-    z-index: 666;
+    z-index: 100;
     display: none;
-    align-content: center;
     text-align: left;
+    font-family: 'BiotifBold', helvetica, arial, sans-serif;
+    font-weight: 700;
   }
 
+    header nav.hamburger.nav {
+    top: 168px;
 
+    }
   nav.desktop a {
     padding-left: 50px;
-    font-size: 33px;
+    font-size: 45px;
   }
   header .close {
     z-index: 667;
     position: fixed;
     right: 10px;
-    top: 124px;
+    top: 20px;
     display: none;
   }
 
