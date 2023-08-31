@@ -262,8 +262,8 @@ header nav.nav.position-fixed {
   right: 25px;
   top: 20px;
   background: rgba(0, 0, 0, 0.6);
-  padding: 15px 8px 10px;
-  border-radius: 4px;
+  padding: 7px 8px 2px;
+  border-radius: 18px;
   backdrop-filter: blur(20px);
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
@@ -302,6 +302,11 @@ header nav a:hover {
 
   header .close {
     display: none;
+  }
+
+  header nav.nav.position-fixed {
+    padding: 15px 8px 10px;
+    border-radius: 8px;
   }
 }
 
