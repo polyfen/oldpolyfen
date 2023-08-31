@@ -10,10 +10,10 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Contact | Polyfen"/>
+    <meta property="og:title" content="Contact Us | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
-    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth, Contact, Pricing, Message, Email, Call" />
-    <meta name="description" property="og:description" content="[TBD]" />
+    <meta name="keywords" content="Creative agency, Software development, Get in touch, Contact form, Collaboration, Customer engagement, Sales, Branding, Marketing, Design, Development, Consulting, Staff augmentation, Digital experiences, Remote business, Flexible contracts, R&D innovation, Expert solutions" />
+    <meta name="description" property="og:description" content="Empower your brand with our end-to-end services. Get in touch for exceptional results." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />

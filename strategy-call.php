@@ -11,7 +11,7 @@
   <!-- INCLUDE HEAD.PHP end -->
 
   <!-- PAGE-SPECIFIC META start -->
-  <meta property="og:title" content="Book a free Strategy Call for your Business" />
+  <meta property="og:title" content="Book a Free Strategy Call | Polyfen" />
   <meta property="og:url" content="https://polyfen.com/strategy-call" />
   <meta name="keywords" content="Free, Brand, Audit, Report, Consultancy, Consultant, Branding, Marketing, Business, Digital, Analysis, Research, Strategy, Logo, Visual Identity, Website, Web, UX, Experience, CX, Growth, Scale, Start-up, Call, Meeting" />
   <meta name="description" property="og:description" content="Tell me about your business. Get free branding advice. No strings attached." />
