@@ -19,14 +19,14 @@
     }
 
     if (!mail($to, $subject, $body)){
-      $error = "Falla en enviar email";
+      $error = "Failure to send email";
     }
 
     // Output result OK
     http_response_code(200);
-    echo json_encode(array("message" => "Mensaje enviado con éxito"));
+    echo json_encode(array("message" => "Message sent successfully"));
   } else { 
-    $error = "Captcha Inválido";
+    $error = "Captcha is Invalid";
 
     // Output result ERROR
     http_response_code(400);

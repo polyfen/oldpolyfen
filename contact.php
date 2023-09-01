@@ -60,7 +60,7 @@
     <section id="contact-intro" class="container">
       <h1 class="caption align-center">Contact</h1>
       <h2 class="heading-1 align-center">Let's start a Conversation</h2>
-      <div class="err-msj">Soy el mensaje de error</div>
+      <div class="err-msj">Verify you are human</div>
       <form id="contact-form" method="POST">
       
         <label for="email">Email</label>
