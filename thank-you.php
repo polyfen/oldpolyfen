@@ -54,7 +54,7 @@
 
     <!-- CONTACT start -->
     <main id="contact">
-    <h1 class="heading-2 align-center">Thank you for ...!</h1>
+    <h1 class="heading-2 align-center">Thank you</h1>
     </main>
 
 
