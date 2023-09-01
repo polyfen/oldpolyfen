@@ -88,3 +88,4 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
 <!-- Global javascript -->
 <script defer src="app/js/timezone.js"></script>
+<script defer src="app/js/subtle.js"></script>
