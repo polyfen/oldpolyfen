@@ -1394,6 +1394,11 @@ section#how-we-do-it h4 {
   margin-bottom: 12px;
 }
 
+div.acc-button {
+  display: flex;
+  align-items: baseline;
+}
+
 /*///////////// SERVICES END /////////////*/
 
 
@@ -1418,6 +1423,7 @@ section#how-we-do-it h4 {
   content: '\002B';
   float: right;
   margin-left: 5px;
+  font-size: 2rem;
 }
 
 .active:after {
