@@ -131,7 +131,7 @@
             <p>Our cost-efficient, fully-remote business model offers top tier services at a fraction of the price of our competitors in the US.</p>
             <div class="">
               <div class="acc-button">
-                <img src="imgs/icons/medal.svg" height="32px" width="auto">
+                <img src="imgs/icons/certificate.svg" height="32px" width="auto">
                 <h4 class="heading-3">Owner-Managed Reliability</h4>
               </div>
               <div class="acc-panel">
