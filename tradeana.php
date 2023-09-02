@@ -1,4 +1,3 @@
-<?php include 'includes.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,7 +59,7 @@
         <?php include 'includes/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
 
-      <div class="container-1080">
+      <div class="container-1080 hiddenHeader">
 
         <h1 class="heading-1 align-center">Tradeana</h1>
 

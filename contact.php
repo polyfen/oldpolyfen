@@ -56,7 +56,7 @@
     <!-- CONTACT start -->
     <main id="contact">
 
-    <section id="contact-intro" class="container">
+    <section id="contact-intro" class="container hiddenHeader">
         <h1 class="caption align-center">Contact</h1>
         <h2 class="heading-1 align-center">Let's start a Conversation</h2>
         <form id="contact-form">

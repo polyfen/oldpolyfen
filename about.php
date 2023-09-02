@@ -56,14 +56,14 @@
     <main id="about">
 
       <section id="about-intro" class="container">
-        <h1 class="caption align-center">About</h1>
-        <h2 class="heading-1 align-center">Where business &amp; creativity come together</h2>
+        <h1 class="caption align-center hiddenHeader">About</h1>
+        <h2 class="heading-1 align-center hiddenHeader">Where business &amp; creativity come together</h2>
         <div class="row">
-          <div class="one-half">
+          <div class="one-half hidden">
             <p>We're a full-service creative and development agency founded in Zagreb, Croatia in 2018 with team-members working from Croatia, Spain, Argentina, and the US.</p>
             <p>We help businesses translate their vision into digital experiences that bring in the money.</p>
           </div>
-          <div class="one-half">
+          <div class="one-half hidden">
             <img src="imgs/illustrations/computer-illustration.svg">
           </div>
         </div>
@@ -71,7 +71,7 @@
 
       <hr>
 
-        <section id="what-sets-us-apart" class="container-1080">
+        <section id="what-sets-us-apart" class="container-1080 hidden">
 
           <h3 class="heading-2 align-center">What sets us apart</h3>
           <div class="container-700">

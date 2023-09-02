@@ -55,12 +55,12 @@
       <!-- SERVICES start -->
       <main id="services">
 
-        <section class="intro">
+        <section class="intro hiddenHeader">
           <h1 class="caption align-center">Services</h1>
           <h2 class="heading-1 align-center">Solutions that scale<br/>with your business</h2>
         </section>
 
-        <section id="what-we-do" class="container">
+        <section id="what-we-do" class="hidden container">
           <h3 class="heading-2 align-center">What we do</h3>
           <div class="row">
           <div class="one-half">
@@ -92,7 +92,7 @@
 
         <hr>
 
-        <section id="how-we-do-it" class="container-700">
+        <section id="how-we-do-it" class="container-700 hidden">
           <h3 class="heading-2 align-center">How we do it</h3>
           <div class="grid">
             <div>
@@ -125,7 +125,7 @@
 
         <hr>
 
-        <section id="how-we-do-charge" class="container">
+        <section id="how-we-do-charge" class="container hidden">
           <h3 class="heading-2 align-center">Fair Pricing</h3>
             <div class="container-700">
             <p>Our cost-efficient, fully-remote business model offers top tier services at a fraction of the price of our competitors in the US.</p>
