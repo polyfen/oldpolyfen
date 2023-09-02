@@ -14,7 +14,7 @@
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Creative agency, Software development, Market research, Brand strategy, Logo design, UX/UI design, Web development, Social media marketing, Email marketing, Lead generation, Sales funnels, Staff augmentation, Executive consulting" />
     <meta name="description" property="og:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/services-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />

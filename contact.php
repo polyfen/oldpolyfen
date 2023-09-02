@@ -14,7 +14,7 @@
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Creative agency, Software development, Get in touch, Contact form, Collaboration, Customer engagement, Sales, Branding, Marketing, Design, Development, Consulting, Staff augmentation, Digital experiences, Remote business, Flexible contracts, R&D innovation, Expert solutions" />
     <meta name="description" property="og:description" content="Empower your brand with our end-to-end services. Get in touch for exceptional results." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/contact-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
