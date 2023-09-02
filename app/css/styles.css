@@ -1399,6 +1399,10 @@ div.acc-button {
   align-items: baseline;
 }
 
+div.acc-button img {
+  margin-right: 10px;
+}
+
 /*///////////// SERVICES END /////////////*/
 
 
