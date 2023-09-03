@@ -706,7 +706,9 @@ footer .footer_2line span {
 }
 footer div#tpg {
   margin-top: 15px;
-  width: 150px;
+  width: 80px;
+  padding-right: 16px;
+  margin-bottom: -40px;
 }
 
 output.caption {
