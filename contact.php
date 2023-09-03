@@ -10,11 +10,11 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Contact | Polyfen"/>
+    <meta property="og:title" content="Contact Us | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
-    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth, Contact, Pricing, Message, Email, Call" />
-    <meta name="description" property="og:description" content="[TBD]" />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
+    <meta name="keywords" content="Creative agency, Software development, Get in touch, Contact form, Collaboration, Customer engagement, Sales, Branding, Marketing, Design, Development, Consulting, Staff augmentation, Digital experiences, Remote business, Flexible contracts, R&D innovation, Expert solutions" />
+    <meta name="description" property="og:description" content="Empower your brand with our end-to-end services. Get in touch for exceptional results." />
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/contact-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
@@ -34,7 +34,8 @@
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
-
+    <!-- contact form script start -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
 
   <body id="contact" class="dark-mode">
@@ -57,26 +58,92 @@
     <main id="contact">
 
     <section id="contact-intro" class="container">
-        <h1 class="caption align-center">Contact</h1>
-        <h2 class="heading-1 align-center">Let's start a Conversation</h2>
-        <form id="contact-form">
-          <label>Name</label>
-          <input>
-          <label>Email</label>
-          <input>
-          <label>Message</label>
-          <textarea></textarea>
-          <input type="submit" class="button">
-        </form>
-      </section>
+      <h1 class="caption align-center">Contact</h1>
+      <h2 class="heading-1 align-center">Let's start a Conversation</h2>
+      <div class="err-msj">Verify you are human</div>
+      <form id="contact-form" method="POST">
+      
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
 
+        <label for="message">Message</label>
+        <textarea name="message" required></textarea>
+        <!-- place captcha here -->
+        <div
+          class="g-recaptcha"
+          data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
+          data-callback="onRecaptchaSuccess"
+          data-expired-callback="onRecaptchaResponseExpiry"
+          data-error-callback="onRecaptchaError"
+        >
+        </div>
+        <br>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+      
     </main>
+    <!-- process form on submit-->
+    <?php
+      /* if(isset($_POST['name'])){
+        require "process.php";  
+      } */
+    ?>
     <!-- CONTACT end -->
 
 
     <!-- INCLUDE FOOTER.PHP start -->
       <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- contact form script start -->
+    <script>
+      const contactForm = $('#contact-form')
+      const errMsj = $('.err-msj')
+
+      function onRecaptchaSuccess() {
+        //aca va la clase de css que quieras añadir
+        errMsj.css('display', 'none')
+      }
+
+      function onRecaptchaError() {
+        //aca va la clase de css que quieras añadir
+        errMsj.css('display', 'block')
+      }
+
+      function onRecaptchaResponseExpiry() {
+        onRecaptchaError();
+      }
+
+      contactForm.on('submit', (e) => {
+        e.preventDefault()
+        const recaptchaResponse = $('#g-recaptcha-response').val()
+        if(recaptchaResponse === '') onRecaptchaError()
+        
+        const data = contactForm.serializeArray()
+
+        $.ajax({
+          method: "POST",
+          url: "submit.php",
+          dataType: "json",
+          data: data,
+          success: function (response) {
+            window.location.href = '/thank-you.php';
+            // console.log(response.message);
+
+            // Estas lineas son por si no quieren que redireccione a un thank you page
+            // contactForm.trigger('reset');
+            // grecaptcha.reset();
+          },
+          error: function (xhr, status, error) {
+            console.log(xhr.responseJSON.message);
+          }
+        })
+      })
+    </script>
 
   </body>
 
