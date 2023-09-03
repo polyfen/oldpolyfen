@@ -10,7 +10,7 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Polyfen"/>
+    <meta property="og:title" content="Polyfen | Creative & Development"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
     <meta name="description" property="og:description" content="We are a fully-remote team of creatives from around the world connected by our passion for designing engaging brand identities." />

@@ -36,7 +36,6 @@
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
-
 </head>
 
 <body id="strategy-call" class="dark-mode landing-page">
