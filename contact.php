@@ -84,6 +84,7 @@
         <button type="submit">Send</button>
       </form>
     </section>
+      
     </main>
     <!-- process form on submit-->
     <?php

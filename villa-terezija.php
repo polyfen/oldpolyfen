@@ -1,4 +1,3 @@
-<?php include 'includes.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,14 +52,14 @@
     <div class="main-wrapper">
 
       <!-- INCLUDE HELL-BAR.PHP start -->
-        <?php include 'includes/hell-bar.php';?>
+        <?php include 'includes/hello-bar.php';?>
       <!-- INCLUDE HELLO-BAR.PHP end -->
 
       <!-- INCLUDE HEADER.PHP start -->
         <?php include 'includes/header.php';?>
       <!-- INCLUDE HEADER.PHP end -->
 
-      <div class="container-1080">
+      <div class="container-1080 hiddenHeader">
 
         <h1 class="heading-1 align-center">Villa Terezija</h1>
 
