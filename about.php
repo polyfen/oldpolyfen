@@ -76,27 +76,39 @@
           <h3 class="heading-2 align-center">What sets us apart</h3>
           <div class="container-700">
             <div class="">
-              <h4 class="heading-3 acc-button">🌎 Fully Remote since 2018</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/globe.svg" height="32px" width="auto">
+                <h4 class="heading-3">Fully Remote since 2018</h4>
+              </div>
               <div class="acc-panel">
               <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">🧬 Transparency is in our DNA</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/dna.svg" height="32px" width="auto">
+                <h4 class="heading-3">Transparency is in our DNA</h4>
+              </div>
               <div class="acc-panel">
-                <p>Our agency's owners are involved in all the projects we take part in from start to finish ensuring the best results for every client.</p>
+                <p>Our <a href="https://business.polyfen.com" target="_blank">Business Plan</a> and <a href="https://wiki.polyfen.com" target="_blank">Team Wiki</a> are just some of the internal documentation that is publically available. We also contribute to the open-source community with public code repositories in our <a href="https://github.com/orgs/thepolygroup/repositories" target="_blank">Github organization profile</a>.</p>
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">🧪 Tech Innovation through R&amp;D</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/flask.svg" height="32px" width="auto">
+                <h4 class="heading-3">Innovation through R&amp;D</h4>
+              </div>
               <div class="acc-panel">
-                <p>As a forward-thinking company we explore the latest techologies through R&D projects. We are heavily-invested commitment into constant education and professional growth. Our clients count with the advantage of our expert know-how to beat the competition and never stop moving forward.</p>
+                <p>As a forward-thinking company we explore the latest techologies through Research & Development projects. Our clients count with the advantage of our expert know-how to beat the competition and never be left behind in an always moving market.</p>
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">💫 Our Pledge to Employee Growth</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/person.svg" height="32px" width="auto">
+                <h4 class="heading-3">Our Pledge to Employee Growth</h4>
+              </div>
               <div class="acc-panel">
-                <p>As a forward-thinking company we explore the latest techologies through R&D projects. We are heavily-invested commitment into constant education and professional growth. Our clients count with the advantage of our expert know-how to beat the competition and never stop moving forward.</p>
+                <p>We invest a heavy commitment of our resources into constant education and professional growth of our team and all our team-members individually towards a purposeful and fruitfull work-life balance.</p>
               </div>
             </div>
           </div>
