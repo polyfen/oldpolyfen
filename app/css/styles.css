@@ -94,7 +94,7 @@ button {
   color: rgba(255, 255, 255, .7) !important;
   background: #060a24;
   border-radius: 4px;
-  padding: 12px 15px 9px;
+  padding: 9px 15px 8px;
   display: flex;
   align-items: center;
 }
@@ -362,6 +362,11 @@ section#cover small {
 section#cover button {
   margin-top: 15px;
   padding: 18px 80px;
+}
+
+section#cover a:has(button) {
+  display: flex;
+  justify-content: center;
 }
 
 body#home div.container-1080 {
@@ -915,7 +920,7 @@ section#contact button::before {
   display: inline-block;
   width: 30px;
   height: 30px;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 
 section#contact button#send-message::before {
@@ -929,7 +934,16 @@ section#contact button#schedule-call::before {
 div#cta-section-buttons {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+div#cta-section-buttons button {
+  width: 215px;
 }
 
 /*///////////// CTA SECTION END /////////////*/
