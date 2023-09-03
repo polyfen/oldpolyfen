@@ -7,9 +7,9 @@
       </ul>
 
       <section class="times">
-        <div data-timezone="US/Central">
+        <div data-timezone="US/Pacific">
           <img src="imgs/flags/us.svg" class="country-flag">
-          <small class="caption">Austin</small>
+          <small class="caption">San Francisco</small>
           <output class="caption">00:00</output>
         </div>
 
@@ -26,9 +26,9 @@
       </section>
 
       <div id="tpg">
-        <a href="https://thepolygroup.co?utm_source=polyfen&utm_medium=referral" target="_blank">
-          <img src="imgs/the-poly-group-low.svg" id="tpg-logo-low" class="tpg-logo" onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
-          <img src="imgs/the-poly-group.svg" id="tpg-logo" class="d-none" onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
+        <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
+          <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
+          <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
         </a>
       </div>
       

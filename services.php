@@ -55,12 +55,12 @@
       <!-- SERVICES start -->
       <main id="services">
 
-        <section class="intro">
+        <section class="intro hiddenHeader">
           <h1 class="caption align-center">Services</h1>
           <h2 class="heading-1 align-center">Solutions that scale<br/>with your business</h2>
         </section>
 
-        <section id="what-we-do" class="container">
+        <section id="what-we-do" class="hidden container">
           <h3 class="heading-2 align-center">What we do</h3>
           <div class="row">
           <div class="one-half">
@@ -92,7 +92,7 @@
 
         <hr>
 
-        <section id="how-we-do-it" class="container-700">
+        <section id="how-we-do-it" class="container-700 hidden">
           <h3 class="heading-2 align-center">How we do it</h3>
           <div class="grid">
             <div>
@@ -125,38 +125,52 @@
 
         <hr>
 
-        <section id="how-we-do-charge" class="container">
+        <section id="how-we-do-charge" class="container hidden">
           <h3 class="heading-2 align-center">Fair Pricing</h3>
             <div class="container-700">
-            <p>Our cost-efficient, fully-remote business model offers top tier services at a fraction of the price of our competitors in the US.</p>
             <div class="">
-              <h4 class="heading-3 acc-button">🎖️ Owner-Managed Reliability</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/certificate.svg" height="32px" width="auto">
+                <h4 class="heading-3">Owner-Managed Reliability</h4>
+              </div>
               <div class="acc-panel">
-                <p>Our agency's owners are involved in all the projects we take part in from start to finish ensuring the best results for every client.</p>
+                <p>Our agency is independently owned and our owners are involved from start to finish in all the projects we perform ensuring the best results for every client.</p>
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">💡 Cost-Efficient Business Model</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
+                <h4 class="heading-3">Cost-Efficient Business Model</h4>
+              </div>
               <div class="acc-panel">
-              <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
+              <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals around the world at a small fraction of the price from our competitors in the US.</p>
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">📊 Transparency in Budgeting</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/chart.svg" height="32px" width="auto">
+                <h4 class="heading-3">Transparency in Budgeting</h4>
+              </div>
               <div class="acc-panel">
-                <p>Our agency's owners are involved in 100% of all the projects we take part in from start to finish ensuring the best results for every client.</p>
+                <p>Our transparent approach allows you to count with reliable estimates and consistent budgeting practices.</p>
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">📑 Flexible Contract Options</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/scroll.svg" height="32px" width="auto">
+                <h4 class="heading-3">Flexible Contract Options</h4>
+              </div>
               <div class="acc-panel">
-                <p>Whether short-term or long-term, hourly or for a fixed predetermined budget, we customize agreements to align with goals and budget. Our transparent and convenient approach allows you to choose the engagement model that suits your requirements with the highest value and lowest risk.</p>
+                <p>Whether short-term or long-term, hourly or for a fixed predetermined budget, we customize agreements to align with your goals and your budget.</p>
               </div>
             </div>
             <div class="">
-              <h4 class="heading-3 acc-button">🎩 End-to-End Customer Service</h4>
+              <div class="acc-button">
+                <img src="imgs/icons/diamond.svg" height="32px" width="auto">
+                <h4 class="heading-3">End-to-End Customer Service</h4>
+              </div>
               <div class="acc-panel">
-                <p>When your business encounters any new requirements in the area of digital business development, marketing, design, software, or tech, we've got you covered. Our growing list of satisfied customers is testimony that we don't just do the bare minimum. We go above and beyond to help your business grow while cultivating a long-term win-win relationship.</p>
+                <p>We've got you covered next time you encounter any new requirements in the area of business development, marketing, design, or tech. Our growing list of satisfied customers is testimony that we don't just do the bare minimum. We go above and beyond to help your business grow and to develop a long-lasting and solid partnership.</p>
               </div>
         </section>
 
