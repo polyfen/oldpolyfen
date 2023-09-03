@@ -1520,6 +1520,16 @@ form#contact-form input.button {
   border-radius: 4px;
 }
 
+div.err-msj {
+  text-align: center;
+  color: red;
+  margin: 10px 0;
+  display: none
+}
+
+div.g-recaptcha {
+  margin: auto;
+}
 /*///////////// CONTACT END /////////////*/
 
 
