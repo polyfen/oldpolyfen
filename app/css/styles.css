@@ -925,10 +925,19 @@ section#contact button::before {
 
 section#contact button#send-message::before {
   background: url(../../imgs/icons/envelope.svg) no-repeat center center;
+  margin-top: -2px;
+}
+
+section#contact a:hover button#send-message::before {
+  background: url(../../imgs/icons/envelope-white.svg) no-repeat center center;
 }
 
 section#contact button#schedule-call::before {
   background: url(../../imgs/icons/phone-call.svg) no-repeat center center;
+}
+
+section#contact a:hover button#schedule-call::before {
+  background: url(../../imgs/icons/phone-call-white.svg) no-repeat center center;
 }
 
 div#cta-section-buttons {
@@ -944,6 +953,7 @@ div#cta-section-buttons {
 
 div#cta-section-buttons button {
   width: 215px;
+  font-family: BiotifExtrabold;
 }
 
 /*///////////// CTA SECTION END /////////////*/
