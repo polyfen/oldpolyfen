@@ -90,7 +90,7 @@
                 <h4 class="heading-3">Transparency is in our DNA</h4>
               </div>
               <div class="acc-panel">
-                <p>Our Business Plan and Team Wiki are just some of the internal documentation that is publically available. We also contribute to the open-source community with public code repositories in our Github organization profile.</p>
+                <p>Our <a href="https://business.polyfen.com" target="_blank">Business Plan</a> and <a href="https://wiki.polyfen.com" target="_blank">Team Wiki</a> are just some of the internal documentation that is publically available. We also contribute to the open-source community with public code repositories in our <a href="https://github.com/orgs/thepolygroup/repositories" target="_blank">Github organization profile</a>.</p>
               </div>
             </div>
             <div class="">
