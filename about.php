@@ -90,16 +90,16 @@
                 <h4 class="heading-3">Transparency is in our DNA</h4>
               </div>
               <div class="acc-panel">
-                <p>Our agency's owners are involved in all the projects we take part in from start to finish ensuring the best results for every client.</p>
+                <p>Our Business Plan and Team Wiki are just some of the internal documentation that is publically available. We also contribute to the open-source community with public code repositories in our Github organization profile.</p>
               </div>
             </div>
             <div class="">
               <div class="acc-button">
                 <img src="imgs/icons/flask.svg" height="32px" width="auto">
-                <h4 class="heading-3">Tech Innovation through R&amp;D</h4>
+                <h4 class="heading-3">Innovation through R&amp;D</h4>
               </div>
               <div class="acc-panel">
-                <p>As a forward-thinking company we explore the latest techologies through R&D projects. We are heavily-invested commitment into constant education and professional growth. Our clients count with the advantage of our expert know-how to beat the competition and never stop moving forward.</p>
+                <p>As a forward-thinking company we explore the latest techologies through Research & Development projects. Our clients count with the advantage of our expert know-how to beat the competition and never be left behind in an always moving market.</p>
               </div>
             </div>
             <div class="">
@@ -108,7 +108,7 @@
                 <h4 class="heading-3">Our Pledge to Employee Growth</h4>
               </div>
               <div class="acc-panel">
-                <p>As a forward-thinking company we explore the latest techologies through R&D projects. We are heavily-invested commitment into constant education and professional growth. Our clients count with the advantage of our expert know-how to beat the competition and never stop moving forward.</p>
+                <p>We invest a heavy commitment of our resources into constant education and professional growth of our team and all our team-members individually towards a purposeful and fruitfull work-life balance.</p>
               </div>
             </div>
           </div>
