@@ -84,7 +84,11 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 500);
 });
 </script>
+
+<!-- Images preload -->
 <link rel="preload" as="image" href="imgs/thumbs-up-solid-white.svg" />
+<link rel="preload" as="image" href="imgs/icons/envelope-white.svg" />
+<link rel="preload" as="image" href="imgs/icons/phone-call-white.svg" />
 
 <!-- Global javascript -->
 <script defer src="app/js/timezone.js"></script>
