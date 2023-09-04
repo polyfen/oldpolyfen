@@ -1,6 +1,6 @@
 <footer>
       <ul>
-        <li><a href="http://polyfen.com/twitter" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="http://polyfen.com/twitter" target="_blank" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
         <li><a href="http://polyfen.com/instagram" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
         <li><a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon"><i class="fab fa-linkedin-in"></i></a></li>
         <li><a href="http://polyfen.com/github" target="_blank" title="Github" id="linkedin-icon"><i class="fab fa-github"></i></a></li>
