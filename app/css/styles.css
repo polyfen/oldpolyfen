@@ -1418,12 +1418,14 @@ div.column-to-row div+div {
     align-items: center;
   }
  
-  div.one-half {
+  div.column-to-row div.one-half {
     width: calc(50% - 12px);
   }
+
   div.column-to-row div+div {
     margin-top: unset;
   }
+  
   div.column-to-row .order {
     order: 1;
   }
