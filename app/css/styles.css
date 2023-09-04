@@ -1541,6 +1541,43 @@ div.acc-button img {
   margin-right: 10px;
 }
 
+div.column-to-row {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+div.column-to-row div.one-half {
+  width: 100%;
+  max-width: 400px;
+}
+
+div.column-to-row div+div {
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  div.column-to-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  div.column-to-row div.one-half {
+    width: calc(50% - 12px);
+  }
+
+  div.column-to-row div+div {
+    margin-top: unset;
+  }
+  
+  div.column-to-row .order {
+    order: 1;
+  }
+}
+
 /*///////////// SERVICES END /////////////*/
 
 

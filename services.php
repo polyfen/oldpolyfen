@@ -62,7 +62,7 @@
 
         <section id="what-we-do" class="hidden container">
           <h3 class="heading-2 align-center">What we do</h3>
-          <div class="row">
+          <div class="column-to-row">
           <div class="one-half">
             <img src="imgs/illustrations/coin-illustration.svg">
           </div>
@@ -85,9 +85,6 @@
             </ul>
           </div>
           
-          <div class="container-350">
-            
-          </div>
         </section>
 
         <hr>
