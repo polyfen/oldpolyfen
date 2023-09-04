@@ -62,7 +62,13 @@
               <p>We are a creative agency offering design, marketing, and software development services for emerging businesses.</p>
               <small class="caption">Don't be shy</small>
               <div style="clear:both;"></div>
-              <a href="#contact"><button class="button">Let's Talk!</button></a>
+              <div class="opal">
+                <div class="opal-solid">
+                  <div class="opal-mask">
+                  Let's Talk!
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="background">
