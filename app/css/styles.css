@@ -805,7 +805,6 @@ footer .footer_2line a + span:nth-of-type(2) {
 }
 footer .footer_2line a:first-child {
   margin-bottom: 10px;
-  text-align: right;
   
 }
 
