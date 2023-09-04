@@ -45,4 +45,19 @@
     <!-- scripts location call luxon-->
     <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
     <!-- scripts location time end-->
+
+    <script>
+      const menu = document.querySelector('.hamburger')
+      const close = document.querySelector ('.close')
+      const nav = document.querySelector ('.desktop')
+
+      menu.addEventListener('click', () => {
+      nav.classList.add('open-nav')
+      close.classList.add('open-nav')
+      })
+      close.addEventListener('click', () => {
+      nav.classList.remove('open-nav')
+      close.classList.remove('open-nav')
+      })
+</script>
     </footer>

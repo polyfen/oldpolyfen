@@ -61,18 +61,50 @@ crossorigin="anonymous"></script>
 <!-- Navbar Scroll Script -->
 <script>
     $(function() {
+        var nav = $(".nav");
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            
+            if ($(window).width() > 768) { // Verifica el ancho de la ventana
+                if (scroll >= 60) {
+                    nav.removeClass('position-absolute').addClass("position-fixed");
+                } else {
+                    nav.removeClass("position-fixed").addClass('position-absolute');
+                }
+            } 
+        });
+    });
+
+    $(function() {
+        var hamburger = $(".hamburger");
+
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+
+            if ( scroll >= 60) {
+                hamburger.css('top', '18px');
+            } else {
+                hamburger.css('top', '168px');
+        }
+    });
+    });
+
+</script>
+
+<!-- <script> // Lo estoy modificando, por que el ELSE estaria funcionando tmb en pantallas chicas, le agrege otro IF 
+    $(function() {
     var nav = $(".nav");
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
-        if (scroll >= 60) {
+        if (scroll >= 60 && $(window).width() > 768) {
             nav.removeClass('position-absolute').addClass("position-fixed");
         } else {
             nav.removeClass("position-fixed").addClass('position-absolute');
         }
     });
 });
-</script>
+</script> -->
 
 <!-- Scroll to Anchor link -->
 <script>
