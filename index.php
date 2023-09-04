@@ -55,24 +55,36 @@
 
       <!-- COVER start -->
       <section class="align-center" id="cover">
-          <div class="hiddenHeader">
-            <h1 class="title-1">Unleash your business'<br/>full potential</h1>
+        <div class="hiddenHeader">
+          <h1 class="title-1">Unleash your business'<br/>full potential</h1>
 
-            <div class="container-1080">
-              <p>We are a creative agency offering design, marketing, and software development services for emerging businesses.</p>
-              <small class="caption">Don't be shy</small>
-              <div style="clear:both;"></div>
-              <a href="#contact"><button class="button">Let's Talk!</button></a>
+          <div class="container-1080">
+            <p>We are a creative agency offering design, marketing, and software development services for emerging businesses.</p>
+            <small class="caption">Don't be shy</small>
+            <div style="clear:both;"></div>
+            <a href="#contact"><button class="button">Let's Talk!</button></a>
+            <div>
+              <a class="opal" href="#"><button class="opal-solid">Let's Flow!</button></a>
+            </div>
+            <div class="opal">
+              <a class="opal-solid" href="#"><button>Let's Grow!</button></a>
+            </div>
+            <div class="opal">
+              <div class="opal-solid">Lets's die</div>
+            </div>
+            <div class="opal-success">
+              <div class="opal-success">Lets's cry</div>
             </div>
           </div>
           <div class="background">
-          <div id="pearl-11" class="pearl rotate-slower">
+            <div id="pearl-11" class="pearl rotate-slower">
+            </div>
+            <div id="pearl-12" class="pearl rotate">
+            </div>
+            <div id="pearl-13" class="pearl rotate-slower">
+            </div>
           </div>
-          <div id="pearl-12" class="pearl rotate">
-          </div>
-          <div id="pearl-13" class="pearl rotate-slower">
-          </div>
-          </div>
+        </div>
       </section>
       <!-- COVER end -->
 

@@ -16,8 +16,7 @@
 <!-- CSS General -->
 <link rel="stylesheet" href="https://polynucleus.com/polynucleus.css" type="text/css">
 <link rel="stylesheet" href="app/css/styles.css" type="text/css">
- <!-- Script Accordion --> 
-<script defer src="app/js/accordion.js"></script>
+<link href="app/css/opalescent.css" rel="stylesheet" type="text/css">
 
 <!-- FONTS -->
 <!--
@@ -125,3 +124,4 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 <!-- Global javascript -->
 <script defer src="app/js/timezone.js"></script>
 <script defer src="app/js/subtle.js"></script>
+ <script defer src="app/js/accordion.js"></script>
