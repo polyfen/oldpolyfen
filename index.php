@@ -64,7 +64,7 @@
             <div style="clear:both;"></div>
 
             <a class="cta-button" href="#contact">
-              <div class="opal opal-awake"><div class="opal-solid"><div class="opal-mask">Let's Talk!</div></div></div>
+              <div class="opal opal-rainbow-soft"><div class="opal-solid"><div class="opal-mask">Let's Talk!</div></div></div>
             </a>
           </div>
           <div class="background">
