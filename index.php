@@ -62,19 +62,9 @@
             <p>We are a creative agency offering design, marketing, and software development services for emerging businesses.</p>
             <small class="caption">Don't be shy</small>
             <div style="clear:both;"></div>
-            <a href="#contact"><button class="button">Let's Talk!</button></a>
-            <div>
-              <a class="opal" href="#"><button class="opal-solid">Let's Flow!</button></a>
-            </div>
-            <div class="opal">
-              <a class="opal-solid" href="#"><button>Let's Grow!</button></a>
-            </div>
-            <div class="opal">
-              <div class="opal-solid">Lets's die</div>
-            </div>
-            <div class="opal-success">
-              <div class="opal-success">Lets's cry</div>
-            </div>
+            <a href="#contact">
+              <div class="opal" href="#contact"><div class="opal-solid">Let's Talk!</div></div>
+            </a>
           </div>
           <div class="background">
             <div id="pearl-11" class="pearl rotate-slower">
