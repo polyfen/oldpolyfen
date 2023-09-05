@@ -1656,5 +1656,30 @@ div.g-recaptcha {
 }
 /*///////////// CONTACT END /////////////*/
 
+/*/////////// Opalescent ///////////*/
+div.opal-mask {
+ background-color: #070924;
+  padding: 16px 8px 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+
+}
+
+.opal {
+  max-width: unset;
+  min-width: 250px;
+  height: unset;
+  margin-bottom: unset;
+}
+
+div.opal:hover div.opal-mask {
+  background: none;
+}
+
+div.opal:hover {
+  box-shadow: 0 0 10px #ba00ff;
+}
+
+
 
 /*///////////// ——————————————————————————————————— /////////////*/

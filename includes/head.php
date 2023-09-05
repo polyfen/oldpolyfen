@@ -15,8 +15,9 @@
 
 <!-- CSS General -->
 <link rel="stylesheet" href="https://polynucleus.com/polynucleus.css" type="text/css">
-<link rel="stylesheet" href="app/css/styles.css" type="text/css">
 <link href="app/css/opalescent.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="app/css/styles.css" type="text/css">
+
 
 <!-- FONTS -->
 <!--
