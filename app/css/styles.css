@@ -996,32 +996,30 @@ section#contact {
   padding: 80px 0 100px;
 }
 
-section#contact button {
-  margin-top: -1rem;
-}
-
-section#contact button::before {
+ div#send-message::before, div#schedule-call::before {
   content:'';
   display: inline-block;
   width: 30px;
   height: 30px;
   margin-right: 8px;
+  vertical-align: middle;
 }
 
-section#contact button#send-message::before {
+div#send-message::before {
   background: url(../../imgs/icons/envelope.svg) no-repeat center center;
-  margin-top: -2px;
+    margin-top: -2px;
 }
 
-section#contact a:hover button#send-message::before {
+ a:hover div#send-message::before {
   background: url(../../imgs/icons/envelope-white.svg) no-repeat center center;
 }
 
-section#contact button#schedule-call::before {
+ div#schedule-call::before {
   background: url(../../imgs/icons/phone-call.svg) no-repeat center center;
+  margin-top: -2px;
 }
 
-section#contact a:hover button#schedule-call::before {
+ a:hover div#schedule-call::before {
   background: url(../../imgs/icons/phone-call-white.svg) no-repeat center center;
 }
 
@@ -1036,8 +1034,7 @@ div#cta-section-buttons {
 }
 
 
-div#cta-section-buttons button {
-  width: 215px;
+div#cta-section-buttons div.opal-mask {
   font-family: BiotifExtrabold;
 }
 
@@ -1657,7 +1654,7 @@ div.g-recaptcha {
 /*///////////// CONTACT END /////////////*/
 
 /*/////////// Opalescent ///////////*/
-section#cover div.opal-mask {
+ div.opal-mask {
  background-color: #070924;
   margin-bottom: 8px;
   border-radius: 5px;
@@ -1670,7 +1667,7 @@ section#cover div.opal-mask {
   transition: background-color 0.2s ease-in-out;
 }
 
-section#cover div.opal {
+ div.opal {
   max-width: unset;
   min-width: 250px;
   height: 56px;
@@ -1682,14 +1679,13 @@ div.opal-solid {
   position: relative;
 }
 
-div.opal:hover div.opal-mask {
+ div.opal:hover div.opal-mask {
   background: none;
 }
 
 div.opal:hover {
   box-shadow: 0 0 10px #ba00ff;
 }
-
 
 
 /*///////////// ——————————————————————————————————— /////////////*/
