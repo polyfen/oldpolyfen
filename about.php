@@ -60,7 +60,7 @@
         <h2 class="heading-1 align-center hiddenHeader">Where business &amp; creativity come together</h2>
         <div class="column-to-row">
           <div class="one-half hidden order">
-            <img src="imgs/illustrations/computer-illustration.svg">
+            <img src="imgs/illustrations/computer-illustration.webp">
           </div>
           <div class="one-half hidden">
             <p>We're a full-service creative and development agency founded in Zagreb, Croatia in 2018 with team-members working from Croatia, Spain, Argentina, and the US.</p>
