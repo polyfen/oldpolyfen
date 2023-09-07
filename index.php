@@ -63,7 +63,7 @@
             <small class="caption">Don't be shy</small>
             <div style="clear:both;"></div>
 
-            <a class="cta-button" href="#contact">
+            <a class="cta-button" href="/contact.php">
               <div class="opal opal-rainbow-soft"><div class="opal-solid"><div class="opal-mask">Let's Talk!</div></div></div>
             </a>
           </div>
