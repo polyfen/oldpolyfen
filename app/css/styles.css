@@ -540,19 +540,19 @@ body#home div.container-1080 {
 }
 
 .rotate {
-  -webkit-animation: rotating 545s linear infinite !important;
-  -moz-animation: rotating 45s linear infinite !important;
-  -ms-animation: rotating 45s linear infinite !important;
-  -o-animation: rotating 45s linear infinite !important;
-  animation: rotating 45s linear infinite !important
+  -webkit-animation: rotating 90s linear infinite !important;
+  -moz-animation: rotating 90s linear infinite !important;
+  -ms-animation: rotating 90s linear infinite !important;
+  -o-animation: rotating 90s linear infinite !important;
+  animation: rotating 90s linear infinite !important
 }
 
 .rotate-slower {
-  -webkit-animation: rotating 70s linear infinite !important;
-  -moz-animation: rotating 70s linear infinite !important;
-  -ms-animation: rotating 70s linear infinite !important;
-  -o-animation: rotating 70s linear infinite !important;
-  animation: rotating 70s linear infinite !important
+  -webkit-animation: rotating 270s linear infinite !important;
+  -moz-animation: rotating 270s linear infinite !important;
+  -ms-animation: rotating 270s linear infinite !important;
+  -o-animation: rotating 270s linear infinite !important;
+  animation: rotating 270s linear infinite !important
 }
 
 
