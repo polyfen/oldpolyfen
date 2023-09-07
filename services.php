@@ -64,7 +64,7 @@
           <h3 class="heading-2 align-center">What we do</h3>
           <div class="column-to-row">
           <div class="one-half">
-            <img src="imgs/illustrations/coin-illustration.svg">
+            <img src="imgs/illustrations/coin-illustration.webp">
           </div>
           <div class="one-half">
           <ul class="hanging-list">
