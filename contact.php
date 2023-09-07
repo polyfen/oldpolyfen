@@ -56,19 +56,17 @@
 
     <!-- CONTACT start -->
     <main id="contact">
-
-    <section id="contact-intro" class="container">
+    <section class="container" id="contact-intro">
       <h1 class="caption align-center">Contact</h1>
       <h2 class="heading-1 align-center">Let's start a Conversation</h2>
-      <div class="err-msj">Verify you are human</div>
+    </section>
+    <section class="container" id="message">
+      <h3 class="heading-2 align-center">Send a Message</h3>
       <form id="contact-form" method="POST">
-      
         <label for="email">Email</label>
         <input type="email" name="email" required>
-        
         <label for="name">Name</label>
         <input type="text" name="name" required>
-
         <label for="message">Message</label>
         <textarea name="message" required></textarea>
         <!-- place captcha here -->
@@ -84,7 +82,19 @@
         <button type="submit">Send Message</button>
       </form>
     </section>
-      
+    <hr>
+    <section id="call">
+      <h3 class="heading-2 align-center">Schedule a Call</h3>
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/borishrncic/discovery-call?hide_event_type_details=1&hide_gdpr_banner=1&background_color=070924&text_color=ffffff&primary_color=7537f8" style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <!-- Calendly inline widget end -->
+    </section>
+    <hr>
+    <section class="container" id="details">
+      <h3 class="heading-2 align-center">hi@polyfen.com</h3>
+      <h3 class="heading-2 align-center">🇺🇸 +1 415 800 4115</h3>
+    </section>
     </main>
     <!-- process form on submit-->
     <?php
