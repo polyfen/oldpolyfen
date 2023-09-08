@@ -28,7 +28,7 @@
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
-    <link rel="stylesheet" href="app/css/home.css" type="text/css">
+
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
@@ -85,19 +85,7 @@
         <button type="submit">Send Message</button>
       </form>
     </section>
-    <hr>
-    <section id="call">
-      <h3 class="heading-2 align-center">Schedule a Call</h3>
-      <!-- Calendly inline widget begin -->
-      <div class="calendly-inline-widget" data-url="https://calendly.com/borishrncic/discovery-call?hide_event_type_details=1&hide_gdpr_banner=1&background_color=070924&text_color=ffffff&primary_color=7537f8" style="min-width:320px;height:700px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-      <!-- Calendly inline widget end -->
-    </section>
-    <hr>
-    <section class="container" id="details">
-      <h3 class="heading-2 align-center">hi@polyfen.com</h3>
-      <h3 class="heading-2 align-center">🇺🇸 +1 415 800 4115</h3>
-    </section>
+      
     </main>
     <!-- process form on submit-->
     <?php

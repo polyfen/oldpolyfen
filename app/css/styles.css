@@ -896,7 +896,7 @@ footer section.times div img.country-flag {
   }
 
   footer .footer_2line {
-    grid-column: 1 / 4;
+    grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: block;
   }
@@ -1075,17 +1075,31 @@ div#send-message::before {
 div#cta-section-buttons {
   display: flex;
   justify-content: center;
-  gap: 30px;
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
 
-
-div#cta-section-buttons div.opal-mask {
-  font-family: BiotifExtrabold;
+section#contactdiv#cta-content h2 {
+  margin-bottom: 0.5rem;
 }
+
+section#contact div.opal {
+  width: 215px;
+  min-width: unset;
+  max-width: unset;
+}
+
+section#contact div.opal-mask {
+  background-color: #000000;
+  letter-spacing: 0.5px;
+  width: 211px;
+  font-size: 13.3px;
+  max-width: unset;
+}
+
+
 
 /*///////////// CTA SECTION END /////////////*/
 
@@ -1387,11 +1401,24 @@ div#form-container {
   margin-left: -20px;
 }
 
-button#final-cta {
+div#final-cta {
   width: 100%;
   max-width: 340px;
   margin: auto;
   margin-bottom: 40px;
+}
+
+div#final-cta-container div.opal{
+  width: 195px;
+  min-width: unset;
+  height: 34px;
+
+}
+div#final-cta-container div.opal-mask {
+  width: 190px;
+  height: 37px;
+  font-size: 13.3px;
+  line-height: 44px;
 }
 
 div#two-columns {
@@ -1466,7 +1493,7 @@ div.testimonial {
     margin-left: -20px;
   }
 
-  button#final-cta {
+  div#final-cta {
     margin-bottom: 80px;
   }
 
@@ -1678,7 +1705,7 @@ form#contact-form input, form#contact-form textarea {
   padding: 8px;
 }
 
-form#contact-form input.button {
+/* form#contact-form input.button {
   background: #7537f8;
   color: white;
   border: none;
@@ -1688,7 +1715,7 @@ form#contact-form input.button {
   cursor: pointer;
   transition: 0.4s;
   border-radius: 4px;
-}
+} */
 
 div.err-msj {
   text-align: center;
@@ -1700,15 +1727,22 @@ div.err-msj {
 div.g-recaptcha {
   margin: auto;
 }
+
+form#contact-form div.opal {
+  align-self: center;
+}
 /*///////////// CONTACT END /////////////*/
 
 /*/////////// Opalescent ///////////*/
  div.opal-mask {
  background-color: #070924;
+ color: rgba(255, 255, 255, .7);
   margin-bottom: 8px;
   border-radius: 5px;
   position: absolute;
   line-height: 60px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
   top: 1px;
   left: 2px;
   width: 246px;
@@ -1717,24 +1751,35 @@ div.g-recaptcha {
 }
 
  div.opal {
-  max-width: unset;
   min-width: 250px;
   height: 56px;
   margin-top: 15px;
   margin-bottom: unset;
   position: relative;
+  z-index: 1; /* in contact page needed to have z-index to be seen somehow */
 }
 div.opal-solid {
   position: relative;
 }
 
- div.opal:hover div.opal-mask {
+ div.opal:hover div.opal-mask, section#contact div.opal:hover div.opal-mask {
   background: none;
+  color: rgb(255, 255, 255);
 }
 
 div.opal:hover {
   box-shadow: 0 0 10px #ba00ff;
+
 }
+
+.opal:hover:before {
+  animation: pan360 5s infinite;
+}
+
+.opal-rainbow-soft:before {
+  background: linear-gradient( to top right,rgb(5 0 255),rgb(66 0 255 / 73%),rgba(192,26,192,0.984),rgba(50,0,205,0.449),#070080,#002380,rgba(0,0,255,0.5)),linear-gradient(to bottom right,#000bff,rgba(0,0,255,0.6),#1300ff);
+}
+
 
 
 /*///////////// ——————————————————————————————————— /////////////*/
