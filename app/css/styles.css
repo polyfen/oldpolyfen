@@ -1075,21 +1075,32 @@ div#send-message::before {
 div#cta-section-buttons {
   display: flex;
   justify-content: center;
-  gap: 30px;
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
 
+section#contactdiv#cta-content h2 {
+  margin-bottom: 0.5rem;
+}
 
-div#cta-section-buttons div.opal-mask {
-  font-family: BiotifExtrabold;
+section#contact div.opal {
+  width: 215px;
+  min-width: unset;
+  max-width: unset;
 }
 
 section#contact div.opal-mask {
   background-color: #000000;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  width: 211px;
+  font-size: 13.3px;
+  max-width: unset;
 }
+
+
 
 /*///////////// CTA SECTION END /////////////*/
 
@@ -1713,6 +1724,7 @@ form#contact-form div.opal {
 /*/////////// Opalescent ///////////*/
  div.opal-mask {
  background-color: #070924;
+ color: rgba(255, 255, 255, .7);
   margin-bottom: 8px;
   border-radius: 5px;
   position: absolute;
@@ -1736,13 +1748,24 @@ div.opal-solid {
   position: relative;
 }
 
- div.opal:hover div.opal-mask {
+ div.opal:hover div.opal-mask, section#contact div.opal:hover div.opal-mask {
   background: none;
+  color: rgb(255, 255, 255);
 }
 
 div.opal:hover {
   box-shadow: 0 0 10px #ba00ff;
+
 }
+
+.opal:hover:before {
+  animation: pan360 5s infinite;
+}
+
+.opal-rainbow-soft:before {
+  background: linear-gradient( to top right,rgb(5 0 255),rgb(66 0 255 / 73%),rgba(192,26,192,0.984),rgba(50,0,205,0.449),#070080,#002380,rgba(0,0,255,0.5)),linear-gradient(to bottom right,#000bff,rgba(0,0,255,0.6),#1300ff);
+}
+
 
 
 /*///////////// ——————————————————————————————————— /////////////*/
