@@ -103,7 +103,7 @@
 
       <div id="final-cta-container" class="align-center">
         <a href="#calendly">
-          <button class="button secondary-button" id="final-cta">↑ Schedule a Call ↑</button>
+          <div id="final-cta" class="opal opal-rainbow-soft"><div class="opal-solid"><div  class="opal-mask">↑ Schedule a Call ↑</div></div></div>
         </a>
       </div>
     </div>
