@@ -896,7 +896,7 @@ footer section.times div img.country-flag {
   }
 
   footer .footer_2line {
-    grid-column: 1 / 4;
+    grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: block;
   }
