@@ -1087,6 +1087,10 @@ div#cta-section-buttons div.opal-mask {
   font-family: BiotifExtrabold;
 }
 
+section#contact div.opal-mask {
+  background-color: #000000;
+}
+
 /*///////////// CTA SECTION END /////////////*/
 
 /*///////////// CASE STUDIES START /////////////*/
@@ -1678,7 +1682,7 @@ form#contact-form input, form#contact-form textarea {
   padding: 8px;
 }
 
-form#contact-form input.button {
+/* form#contact-form input.button {
   background: #7537f8;
   color: white;
   border: none;
@@ -1688,7 +1692,7 @@ form#contact-form input.button {
   cursor: pointer;
   transition: 0.4s;
   border-radius: 4px;
-}
+} */
 
 div.err-msj {
   text-align: center;
@@ -1699,6 +1703,10 @@ div.err-msj {
 
 div.g-recaptcha {
   margin: auto;
+}
+
+form#contact-form div.opal {
+  align-self: center;
 }
 /*///////////// CONTACT END /////////////*/
 
@@ -1717,12 +1725,12 @@ div.g-recaptcha {
 }
 
  div.opal {
-  max-width: unset;
   min-width: 250px;
   height: 56px;
   margin-top: 15px;
   margin-bottom: unset;
   position: relative;
+  z-index: 1; /* in contact page needed to have z-index to be seen somehow */
 }
 div.opal-solid {
   position: relative;

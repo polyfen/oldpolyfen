@@ -28,7 +28,7 @@
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
-    <link rel="stylesheet" href="app/css/home.css" type="text/css">
+
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
@@ -81,11 +81,10 @@
         >
         </div>
         <br>
-        <button type="submit">Send</button>
+        <div type="submit" class="opal opal-rainbow-soft"><div class="opal-solid"><div id="contact-form-button" class="opal-mask">Send</div></div></div>
       </form>
     </section>
-      
-    </main>
+  </main>
     <!-- process form on submit-->
     <?php
       /* if(isset($_POST['name'])){
