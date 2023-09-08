@@ -548,11 +548,11 @@ body#home div.container-1080 {
 }
 
 .rotate-slower {
-  -webkit-animation: rotating 270s linear infinite !important;
-  -moz-animation: rotating 270s linear infinite !important;
-  -ms-animation: rotating 270s linear infinite !important;
-  -o-animation: rotating 270s linear infinite !important;
-  animation: rotating 270s linear infinite !important
+  -webkit-animation: rotating 200s linear infinite !important;
+  -moz-animation: rotating 200s linear infinite !important;
+  -ms-animation: rotating 200s linear infinite !important;
+  -o-animation: rotating 200s linear infinite !important;
+  animation: rotating 200s linear infinite !important
 }
 
 
