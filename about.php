@@ -90,7 +90,7 @@
                 <h4 class="heading-3">Transparency is in our DNA</h4>
               </div>
               <div class="acc-panel">
-                <p>Our <a href="https://business.polyfen.com" target="_blank">Business Plan</a> and <a href="https://wiki.polyfen.com" target="_blank">Team Wiki</a> are just some of the internal documentation that is publically available. We also contribute to the open-source community with public code repositories in our <a href="https://github.com/orgs/thepolygroup/repositories" target="_blank">Github organization profile</a>.</p>
+                <p>Our <a href="https://business.polyfen.com" target="_blank">Business Plan</a> and <a href="https://wiki.polyfen.com" target="_blank">Team Wiki</a> are just some of the internal documentation that is publically available. We also contribute to the open-source community with public code repositories in <a href="https://github.com/orgs/thepolygroup/repositories" target="_blank">Github</a>.</p>
               </div>
             </div>
             <div class="">
@@ -99,7 +99,7 @@
                 <h4 class="heading-3">Innovation through R&amp;D</h4>
               </div>
               <div class="acc-panel">
-                <p>As a forward-thinking company we explore the latest techologies through Research & Development projects. Our clients count with the advantage of our expert know-how to beat the competition and never be left behind in an always moving market.</p>
+                <p>As a forward-thinking company we explore the latest techologies through internal Research & Development projects. That way, our clients count with the advantage of our expert know-how to beat the competition and never be left behind in an always moving market.</p>
               </div>
             </div>
             <div class="">
@@ -113,12 +113,6 @@
             </div>
           </div>
         </section>
-
-      <hr style="display:none;">
-      
-      <section id="poly-atlas" style="display:none;">
-        <h2 class="heading-1 align-center">We wrote the book<br>on Branding</h2>
-      </section>
 
     </main>
     <!-- ABOUT end -->
