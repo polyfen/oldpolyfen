@@ -81,7 +81,7 @@
                 <h4 class="heading-3">Fully Remote since 2018</h4>
               </div>
               <div class="acc-panel">
-              <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at accessible rates.</p>
+              <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at a sustainable cost.</p>
               </div>
             </div>
             <div class="">
