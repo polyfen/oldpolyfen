@@ -94,10 +94,16 @@
 
       <div id="testimonials-container">
         <div class="testimonial">
+          <p>It is always a pleasure working with Boris. This is my third time working with him. He has helped me with logos, branding, and website design. Boris always has a strong focus on client service, he provides consistent and valuable feedback, and his work always exceed expectations. I look forward to working with Boris on more projects!<br />&mdash; Carlos F.</p>
+        </div>
+        <div class="testimonial">
           <p>Boris is a talented designer and art director whose amazing creative chops are teamed with strong
             analytic and organizational skills. He guided a discovery process for a brand identity project
             that helped us tell the story of our new program-- and the experience was enlightening from
             start to finish.<br />&mdash; Renee H.</p>
+        </div>
+        <div class="testimonial">
+          <p>Boris has excellent skills and talent when discussing management, design, and branding. He presents us with several branding drafts and ideas that we can work on in our branding size, which is incredible. We had the opportunity to choose the best design that could fit our project, and finally, we had our branding.<br />&mdash; Cesar R.</p>
         </div>
       </div>
 
