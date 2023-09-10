@@ -6,23 +6,23 @@
 
 
     <!-- INCLUDE HEAD.PHP start -->
-    <?php include 'sections/head.php';?>
+      <?php include 'includes/head.php';?>
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="About | Polyfen"/>
+    <meta property="og:title" content="About us | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
-    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth, Team, People, Designers, Developers, Creatives" />
-    <meta name="description" property="og:description" content="[TBD]" />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
+    <meta name="keywords" content="Creative agency, Development agency, Zagreb, Croatia, Austin, US, USA, Mar del Plata, Argentina, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI" />
+    <meta name="description" property="og:description" content="Full-service creative & development agency transforming visions into exceptional digital experiences." />
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/about-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="[TBD]" />
+    <meta name="twitter:title" content="About us" />
+    <meta name="twitter:description" content="Full-service creative & development agency transforming visions into exceptional digital experiences." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
@@ -44,77 +44,87 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- FORCE MAX-WIDTH 100% start -->
-    <div class="main-wrapper">
+    <!-- INCLUDE HELLO-BAR.PHP start -->
+      <?php include 'includes/hello-bar.php';?>
+    <!-- INCLUDE HELLO-BAR.PHP end -->
 
-      <!-- INCLUDE HELLO-BAR.PHP start -->
-      <?php include 'sections/hello-bar.php';?>
-      <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE HEADER.PHP start -->
+      <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
-      <!-- INCLUDE HEADER.PHP start -->
-      <?php include 'sections/header.php';?>
-      <!-- INCLUDE HEADER.PHP end -->
+    <!-- ABOUT start -->
+    <main id="about">
 
-       <!-- ABOUT start -->
-       <section id="about">
-          <div style="max-width: 540px;">
-            <small class="section-name">About</small>
-           
-            <h2>The link between business &amp; creativity</h2>
-            <p style="margin-top:25px;">We are a fully-remote team of creatives combining our talents in design, marketing, and development under the flag name of <strong>Polyfen</strong>.</p>
-            <p>We provide solutions for businesses translating their vision into digital experiences that bring in the money.</p>
-            <p>We wrote the book on branding… or the next best thing. <a href="https://polyatlas.wiki" target="_blank">Poly Atlas</a> is a free wiki of best practices in branding.</p>
+      <section id="about-intro" class="container">
+        <h1 class="caption align-center hiddenHeader">About</h1>
+        <h2 class="heading-1 align-center hiddenHeader">Where business &amp; creativity come together</h2>
+        <div class="column-to-row">
+          <div class="one-half hidden order">
+            <img src="imgs/illustrations/computer-illustration.webp">
           </div>
-          <div id="partners">
-            <div id="boris-hrncic">
-              <a onmouseover="document.getElementById('boris-linkedin').className='linkedin linkedin-hover';document.getElementById('boris-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('boris-linkedin').className='linkedin';document.getElementById('boris-portrait').className='portrait';" href="https://www.linkedin.com/in/borishrncic/" target="_blank">
-                <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
-              </a>
-              <small>
-                <span class="name">Boris Hrnčić</span><br/>
-                <span class="position">Managing Director</span>
-              </small>
-              <a onmouseover="document.getElementById('boris-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('boris-portrait').className='portrait';" href="https://www.linkedin.com/in/borishrncic/" target="_blank">
-                <img id="boris-linkedin" src="imgs/about/linkedin.svg" alt="LinkedIn" class="linkedin">
-              </a>
+          <div class="one-half hidden">
+            <p>We're a full-service creative and development agency founded in Zagreb, Croatia in 2018 with team-members working from Croatia, Spain, Argentina, and the US.</p>
+            <p>We help businesses translate their vision into digital experiences that bring in the money.</p>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+        <section id="what-sets-us-apart" class="container-1080 hidden">
+
+          <h3 class="heading-2 align-center">What sets us apart</h3>
+          <div class="container-700">
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/globe.svg" height="32px" width="auto">
+                <h4 class="heading-3">Fully Remote since 2018</h4>
+              </div>
+              <div class="acc-panel">
+              <p>We know that we can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at a sustainable cost.</p>
+              </div>
             </div>
-            <div id="pablo-marsico">
-              <a onmouseover="document.getElementById('pablo-linkedin').className='linkedin linkedin-hover';document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-linkedin').className='linkedin';document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
-                <img id="pablo-portrait" src="imgs/about/pablo-marsico.webp" loading="lazy" alt="Pablo Mársico" loading="lazy" class="portrait">
-              </a>
-              <small>
-                <span class="name">Pablo Mársico</span><br/>
-                <span class="position">Creative Director<br/></span>
-              </small>
-              <a onmouseover="document.getElementById('pablo-portrait').className='portrait portrait-hover';" onmouseout="document.getElementById('pablo-portrait').className='portrait';" href="https://www.linkedin.com/in/pablomarsico/" target="_blank">
-                <img id="pablo-linkedin" src="imgs/about/linkedin.svg" loading="lazy" alt="LinkedIn" class="linkedin">
-              </a>
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/dna.svg" height="32px" width="auto">
+                <h4 class="heading-3">Transparency is in our DNA</h4>
+              </div>
+              <div class="acc-panel">
+                <p>Our <a href="https://business.polyfen.com" target="_blank">Business Plan</a> and <a href="https://wiki.polyfen.com" target="_blank">Team Wiki</a> are just some of the internal documentation that is publically available. We also contribute to the open-source community with public code repositories in <a href="https://github.com/orgs/thepolygroup/repositories" target="_blank">Github</a>.</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/flask.svg" height="32px" width="auto">
+                <h4 class="heading-3">Innovation through R&amp;D</h4>
+              </div>
+              <div class="acc-panel">
+                <p>As a forward-thinking company we explore the latest techologies through internal Research & Development projects. That way, our clients count with the advantage of our expert know-how to beat the competition and never be left behind in an always moving market.</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/person.svg" height="32px" width="auto">
+                <h4 class="heading-3">Our Pledge to Employee Growth</h4>
+              </div>
+              <div class="acc-panel">
+                <p>We invest a heavy commitment of our resources into constant education and professional growth of our team and all our team-members individually towards a purposeful and fruitfull work-life balance.</p>
+              </div>
             </div>
           </div>
         </section>
-        <!-- ABOUT end -->
+
+    </main>
+    <!-- ABOUT end -->
 
 
+    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+      <?php include 'includes/call-to-action.php';?>
+    <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
-        <div style="clear:both;">
-        </div>
-        <div class="row">
-          <div class="horizontal-separator"></div>
-        </div>
-
-
-
-        <!-- INCLUDE FOOTER.PHP start -->
-        <?php include 'sections/call-to-action.php';?>
-        <!-- INCLUDE FOOTER.PHP end -->
-
-      </div>
-
-    </div>
-    <!-- FORCE MAX-WIDTH 100% end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
-    <?php include 'sections/footer.php';?>
+      <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
   </body>

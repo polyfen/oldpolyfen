@@ -6,9 +6,9 @@
     <title>Privacy Policy | Polyfen</title>
 
 
-    <!-- INCLUDE HEAD start -->
-    <?php echo head(); ?>
-    <!-- INCLUDE HEAD end -->
+    <!-- INCLUDE HEAD.PHP start -->
+      <?php include 'includes/head.php';?>
+    <!-- INCLUDE HEAD.PHP end -->
 
   </head>
 
@@ -20,9 +20,9 @@
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <!-- INCLUDE HEADER start -->
-    <?php echo page_header(); ?>
-    <!-- INCLUDE HEADER end -->
+    <!-- INCLUDE HEADER.PHP start -->
+      <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
     <div class="container">
       <h1 class="heading-1">Privacy Policy</h1>

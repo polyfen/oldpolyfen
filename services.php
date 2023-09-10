@@ -6,23 +6,23 @@
 
 
     <!-- INCLUDE HEAD.PHP start -->
-    <?php include 'sections/head.php';?>
+      <?php include 'includes/head.php';?>
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Services | Polyfen"/>
+    <meta property="og:title" content="Our Services | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
-    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth, Pricing, Services" />
-    <meta name="description" property="og:description" content="[TBD]" />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
+    <meta name="keywords" content="Creative agency, Software development, Market research, Brand strategy, Logo design, UX/UI design, Web development, Social media marketing, Email marketing, Lead generation, Sales funnels, Staff augmentation, Executive consulting" />
+    <meta name="description" property="og:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/services-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Services" />
-    <meta name="twitter:description" content="[TBD]" />
+    <meta name="twitter:title" content="Our Services" />
+    <meta name="twitter:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
@@ -44,100 +44,142 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- FORCE MAX-WIDTH 100% start -->
-    <div class="main-wrapper">
+    <!-- INCLUDE HELLO-BAR.PHP start -->
+      <?php include 'includes/hello-bar.php';?>
+    <!-- INCLUDE HELLO-BAR.PHP end -->
 
-      <!-- INCLUDE HELLO-BAR.PHP start -->
-      <?php include 'sections/hello-bar.php';?>
-      <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE HEADER.PHP start -->
+      <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
-      <!-- INCLUDE HEADER.PHP start -->
-      <?php include 'sections/header.php';?>
-      <!-- INCLUDE HEADER.PHP end -->
+      <!-- SERVICES start -->
+      <main id="services">
 
-        <!-- SERVICES start -->
-        <section id="services">
-        <small class="section-name">Services</small>
-          <h2>Services that scale<br/>with your business</h2>
+        <section class="intro hiddenHeader">
+          <h1 class="caption align-center">Services</h1>
+          <h2 class="heading-1 align-center">Solutions that scale<br/>with your business</h2>
+        </section>
 
-          <div id="services-container">
-            <div id="what-we-do">
-              <h3>What we do</h3>
-              <ul style="margin-left:25px;margin-top:25px;">
-                <li>Market Research</li>
-                <li>Brand &amp; Marketing Strategy</li>
-                <li>Naming</li>
-                <li>Logo Design</li>
-                <li>Visual Identity</li>
-                <li>Packaging</li>
-                <li>UX/UI Design</li>
-                <li>Software Development</li>
-                <li>Pitch Decks &amp; Presentations</li>
-                <li>Social Media Marketing</li>
-                <li>Email Marketing</li>
-                <li>Landing Pages</li>
-                <li>Lead Generation</li>
-                <li>Sales Funnels</li>
-              </ul>
+        <section id="what-we-do" class="hidden container">
+          <h3 class="heading-2 align-center">What we do</h3>
+          <div class="column-to-row">
+          <div class="one-half">
+            <img src="imgs/illustrations/coin-illustration.webp">
+          </div>
+          <div class="one-half">
+          <ul class="hanging-list">
+            <li>Market Research</li>
+            <li>Brand &amp; Marketing Strategy</li>
+            <li>Naming</li>
+            <li>Logo Design</li>
+            <li>Visual Identity</li>
+            <li>Packaging</li>
+            <li>UX/UI Design</li>
+            <li>Software & Web Development</li>
+            <li>Pitch Decks &amp; Presentations</li>
+            <li>Social Media Marketing</li>
+            <li>Email Marketing</li>
+            <li>Landing Pages</li>
+            <li>Lead Generation</li>
+            <li>Sales Funnels</li>
+            </ul>
+          </div>
+          
+        </section>
+
+        <hr>
+
+        <section id="how-we-do-it" class="container-700 hidden">
+          <h3 class="heading-2 align-center">How we do it</h3>
+          <div class="grid">
+            <div>
+              <img src="imgs/services/path.svg" height="140px" width="auto">
             </div>
-
-            <div id="how-we-do-it">
-              <h3>How we do it</h3>
-              <div id="how-we-do-it-content">
-                <div class="contract-type">
-                  <div class="contract-type-image">
-                    <img src="imgs/services/path.svg" height="50px" width="auto">
-                  </div>
-                  <div class="contract-type-description">
-                    <h4>End-to-End Project</h4>
-                    <p>Does your business need a new brand identity and website that truly highlights the quality of your products and services? We take care of everything in designing that new brand identity and delivering all the assets and guidelines you need within a predefined project budget tailored to your needs.</p>
-                  </div>
-                </div>
-                <div class="contract-type">
-                  <div class="contract-type-image">
-                    <img src="imgs/services/lightning-bolt.svg" height="50px" width="auto">
-                  </div>
-                  <div class="contract-type-description">
-                    <h4>Executive Consulting</h4>
-                    <p>Continuous collaboration with analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
-                  </div>
-                </div>
-                <div class="contract-type">
-                  <div class="contract-type-image">
-                    <img src="imgs/services/staff-augmentation.svg" height="50px" width="auto">
-                  </div>
-                  <div class="contract-type-description">
-                    <h4>Staff Augmentation</h4>
-                    <p>We handle your team’s surplus workload and increase your capacity with our agile crew ready to jump on board and start delivering at a moment’s notice.</p>
-                  </div>
-                <div>
-              </div>
+            <div>
+              <h4 class="heading-3">1. End-to-End Project</h4>
+              <p>Get a standout brand identity and website that showcases your products and services. We handle the design, assets, and guidelines, all within a predefined project budget.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div>
+              <img src="imgs/services/lightning-bolt.svg" height="140px" width="auto">
+            </div>
+            <div>
+              <h4 class="heading-3">2. Executive Consulting</h4>
+              <p>Count with us for expert analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div>
+              <img src="imgs/services/staff-augmentation.svg" height="140px" width="auto">
+            </div>
+            <div>
+              <h4 class="heading-3">3. Staff Augmentation</h4>
+              <p>Offload excess workload and boost your team's capacity. Our agile crew and network of talented collaborators are ready to join your project and start delivering immediately.</p>
             </div>
           </div>
         </section>
-        <!-- SERVICES end -->
 
+        <hr>
 
+        <section id="how-we-do-charge" class="container hidden">
+          <h3 class="heading-2 align-center">Fair Pricing</h3>
+            <div class="container-700">
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/certificate.svg" height="32px" width="auto">
+                <h4 class="heading-3">Owner-Managed Reliability</h4>
+              </div>
+              <div class="acc-panel">
+                <p>Our agency is independently owned and our owners are involved from start to finish in all the projects we perform ensuring the best results for every client.</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
+                <h4 class="heading-3">Cost-Efficient Business Model</h4>
+              </div>
+              <div class="acc-panel">
+              <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals around the world at a small fraction of the price from our competitors in the US.</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/chart.svg" height="32px" width="auto">
+                <h4 class="heading-3">Transparency in Budgeting</h4>
+              </div>
+              <div class="acc-panel">
+                <p>Our transparent approach allows you to count with reliable estimates and consistent budgeting practices.</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/scroll.svg" height="32px" width="auto">
+                <h4 class="heading-3">Flexible Contract Options</h4>
+              </div>
+              <div class="acc-panel">
+                <p>Whether short-term or long-term, hourly or for a fixed predetermined budget, we customize agreements to align with your goals and your budget.</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="acc-button">
+                <img src="imgs/icons/diamond.svg" height="32px" width="auto">
+                <h4 class="heading-3">End-to-End Customer Service</h4>
+              </div>
+              <div class="acc-panel">
+                <p>We've got you covered next time you encounter any new requirements in the area of business development, marketing, design, or tech. Our growing list of satisfied customers is testimony that we don't just do the bare minimum. We go above and beyond to help your business grow and to develop a long-lasting and solid partnership.</p>
+              </div>
+        </section>
 
-        <div style="clear:both;">
-        </div>
-        <div class="row">
-          <div class="horizontal-separator"></div>
-        </div>
+      </main>
+      <!-- SERVICES end -->
 
-
-
-        <!-- INCLUDE FOOTER.PHP start -->
-        <?php include 'sections/call-to-action.php';?>
-        <!-- INCLUDE FOOTER.PHP end -->
-
-      </div>
-
-    </div>
-    <!-- FORCE MAX-WIDTH 100% end -->
+    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+      <?php include 'includes/call-to-action.php';?>
+    <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
-    <?php include 'sections/footer.php';?>
+      <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
   </body>

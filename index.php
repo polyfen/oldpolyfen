@@ -1,4 +1,3 @@
-<?php include 'includes.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,12 +5,12 @@
     <title>Polyfen</title>
 
 
-    <!-- INCLUDE HEAD start -->
-    <?php echo head(); ?>
-    <!-- INCLUDE HEAD end -->
+    <!-- INCLUDE HEAD.PHP start -->
+      <?php include 'includes/head.php';?>
+    <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Polyfen"/>
+    <meta property="og:title" content="Polyfen | Creative & Development"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
     <meta name="description" property="og:description" content="We are a fully-remote team of creatives from around the world connected by our passion for designing engaging brand identities." />
@@ -32,18 +31,8 @@
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8NBKLG1D1L"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8NBKLG1D1L');
-    </script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
-<script defer src="app/js/subtle.js"></script>
   </head>
 
   <body id="home" class="dark-mode">
@@ -56,40 +45,43 @@
     <!-- FORCE MAX-WIDTH 100% start -->
     <div class="main-wrapper">
 
-      <!-- INCLUDE HELLO BAR start -->
-      <?php echo hello_bar(); ?>
-      <!-- INCLUDE HELLO BAR end -->
+      <!-- INCLUDE HELLO-BAR.PHP start -->
+        <?php include 'includes/hello-bar.php';?>
+      <!-- INCLUDE HELLO-BAR.PHP end -->
 
-      <!-- INCLUDE HEADER start -->
-      <?php echo page_header(); ?>
-      <!-- INCLUDE HEADER end -->
+      <!-- INCLUDE HEADER.PHP start -->
+        <?php include 'includes/header.php';?>
+      <!-- INCLUDE HEADER.PHP end -->
 
       <!-- COVER start -->
       <section class="align-center" id="cover">
-          <div class="hiddenHeader">
-            <h1 class="title-1">Unleash your business'<br/>full potential</h1>
+        <div class="hiddenHeader">
+          <h1 class="title-1">Unleash your business'<br/>full potential</h1>
 
-            <div class="container-1080">
-              <p>We're a full-service creative and development agency. We help businesses reach their customers with data-driven research and strategic storytelling.</p>
-              <small class="caption">Don't be shy</small>
-              <div style="clear:both;"></div>
-              <a href="#contact"><button class="button">Let's Talk!</button></a>
-            </div>
+          <div class="container-1080">
+            <p>We are a creative agency offering design, marketing, and software development services for emerging businesses.</p>
+            <small class="caption">Don't be shy</small>
+            <div style="clear:both;"></div>
+
+            <a class="cta-button" href="/contact.php">
+              <div class="opal opal-rainbow-soft"><div class="opal-solid"><div class="opal-mask">Let's Talk!</div></div></div>
+            </a>
           </div>
           <div class="background">
-          <div id="pearl-11" class="pearl rotate-slower">
+            <div id="pearl-11" class="pearl rotate-slower">
+            </div>
+            <div id="pearl-12" class="pearl rotate">
+            </div>
+            <div id="pearl-13" class="pearl rotate">
+            </div>
           </div>
-          <div id="pearl-12" class="pearl rotate">
-          </div>
-          <div id="pearl-13" class="pearl rotate-slower">
-          </div>
-          </div>
+        </div>
       </section>
       <!-- COVER end -->
 
       <div class="container-1080">
 
-        <!-- FEATURED x PROJECTS start -->
+        <!-- FEATURED PROJECTS start -->
         <section id="work">
           <h2 class="caption">Work</h2>
           <h3 class="heading-1">Featured projects</h3>
@@ -182,19 +174,19 @@
           <div class="horizontal-separator"></div>
         </div>
 
-        <!-- INCLUDE CALL TO ACTION start -->
-        <?php echo call_to_action(); ?>
-        <!-- INCLUDE CALL TO ACTION end -->
-
       </div>
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
-    <!-- INCLUDE FOOTER start -->
-    <?php echo footer(); ?>
-    <!-- INCLUDE FOOTER end -->
-    <script>console.log('hola!!!')</script>
+    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+      <?php include 'includes/call-to-action.php';?>
+    <!-- INCLUDE CALL-TO-ACTION.PHP end -->
+
+    <!-- INCLUDE FOOTER.PHP start -->
+      <?php include 'includes/footer.php';?>
+    <!-- INCLUDE FOOTER.PHP end -->
+
   </body>
 
 </html>
