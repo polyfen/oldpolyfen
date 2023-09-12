@@ -97,6 +97,8 @@
             </div>
             <div>
               <h4 class="heading-3">1. End-to-End Project</h4>
+            </div>
+            <div>
               <p>Get a standout brand identity and website that showcases your products and services. We handle the design, assets, and guidelines, all within a predefined project budget.</p>
             </div>
           </div>
@@ -106,6 +108,8 @@
             </div>
             <div>
               <h4 class="heading-3">2. Executive Consulting</h4>
+            </div>
+            <div>
               <p>Count with us for expert analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
             </div>
           </div>
@@ -115,6 +119,8 @@
             </div>
             <div>
               <h4 class="heading-3">3. Staff Augmentation</h4>
+            </div>
+            <div>
               <p>Offload excess workload and boost your team's capacity. Our agile crew and network of talented collaborators are ready to join your project and start delivering immediately.</p>
             </div>
           </div>
