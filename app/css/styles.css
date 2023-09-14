@@ -1768,6 +1768,23 @@ div.g-recaptcha {
 form#contact-form div.opal {
   align-self: center;
 }
+
+/*Styles for button on contact-form*/
+button#nostyle{
+  border: none;
+  width: 100%;
+  background: none;
+  display: inline-block;
+
+}
+button#nostyle:hover {
+  box-shadow: none;
+  background: none;
+  
+
+}
+
+
 /*///////////// CONTACT END /////////////*/
 
 /*/////////// Opalescent ///////////*/
