@@ -10,7 +10,7 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Contact Us | Polyfen"/>
+    <meta property="og:title" content="Contact | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Creative agency, Software development, Get in touch, Contact form, Collaboration, Customer engagement, Sales, Branding, Marketing, Design, Development, Consulting, Staff augmentation, Digital experiences, Remote business, Flexible contracts, R&D innovation, Expert solutions" />
     <meta name="description" property="og:description" content="Empower your brand with our end-to-end services. Get in touch for exceptional results." />
@@ -22,7 +22,7 @@
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Contact" />
-    <meta name="twitter:description" content="[TBD]" />
+    <meta name="twitter:description" content="Empower your brand with our end-to-end services. Get in touch for exceptional results." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->

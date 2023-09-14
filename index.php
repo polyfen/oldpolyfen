@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Polyfen" />
+    <meta name="twitter:title" content="Polyfen | Creative &amp; Development Agency" />
     <meta name="twitter:description" content="We're a full-service creative and development agency. We offer design, marketing, and software development services for emerging businesses from the US." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">

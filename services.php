@@ -10,7 +10,7 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Our Services | Polyfen"/>
+    <meta property="og:title" content="Services | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Creative agency, Software development, Market research, Brand strategy, Logo design, UX/UI design, Web development, Social media marketing, Email marketing, Lead generation, Sales funnels, Staff augmentation, Executive consulting" />
     <meta name="description" property="og:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Our Services" />
+    <meta name="twitter:title" content="Services" />
     <meta name="twitter:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
