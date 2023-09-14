@@ -56,7 +56,7 @@
       <!-- COVER start -->
       <section class="align-center" id="cover">
         <div class="hiddenHeader">
-          <h1 class="title-1">Unleash your business'<br/>full potential</h1>
+          <h1 class="title-1">Unleash your business<br/>full potential</h1>
 
           <div class="container-1080">
             <p>We are a creative agency offering design, marketing, and software development services for emerging businesses.</p>
