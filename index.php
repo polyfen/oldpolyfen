@@ -13,7 +13,7 @@
     <meta property="og:title" content="Polyfen | Creative &amp; Development Agency"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
-    <meta name="description" property="og:description" content="We're a full-service creative and development agency. We offer design, marketing, and software development services for emerging businesses from the US." />
+    <meta name="description" property="og:description" content="We offer design, marketing, and software development services for emerging businesses from the US." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -22,7 +22,7 @@
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Polyfen | Creative &amp; Development Agency" />
-    <meta name="twitter:description" content="We're a full-service creative and development agency. We offer design, marketing, and software development services for emerging businesses from the US." />
+    <meta name="twitter:description" content="We offer design, marketing, and software development services for emerging businesses from the US." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
