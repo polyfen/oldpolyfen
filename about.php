@@ -13,7 +13,7 @@
     <meta property="og:title" content="About | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Creative agency, Development agency, Zagreb, Croatia, Austin, US, USA, Mar del Plata, Argentina, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI" />
-    <meta name="description" property="og:description" content="Fully remote creative & development agency transforming business vision into exceptional digital experiences since 2018." />
+    <meta name="description" property="og:description" content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/about-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -22,7 +22,7 @@
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="Fully remote creative & development agency transforming your business vision into exceptional digital experiences since 2018." />
+    <meta name="twitter:description" content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/about-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
