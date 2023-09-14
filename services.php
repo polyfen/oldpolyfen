@@ -23,7 +23,7 @@
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Services" />
     <meta name="twitter:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/services-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 

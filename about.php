@@ -23,7 +23,7 @@
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="About" />
     <meta name="twitter:description" content="Full-service creative & development agency transforming visions into exceptional digital experiences." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/about-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 

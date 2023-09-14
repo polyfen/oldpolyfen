@@ -23,7 +23,7 @@
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Contact" />
     <meta name="twitter:description" content="Empower your brand with our end-to-end services. Get in touch for exceptional results." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/contact-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
