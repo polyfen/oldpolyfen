@@ -82,7 +82,7 @@
         >
         </div>
         <br>
-        <button type="submit">Send Message</button>
+        <div class="opal opal-rainbow-soft"><div class="opal-solid"><div class="opal-mask"><button id="nostyle" type="submit">Send Message</button></div></div></div>
       </form>
     </section>
     <hr>
