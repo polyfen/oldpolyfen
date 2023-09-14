@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Polyfen</title>
+    <title>Polyfen | Creative &amp; Development Agency</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
