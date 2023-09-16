@@ -1831,7 +1831,7 @@ div.opal:hover {
 }
 
 .opal-rainbow-soft:before {
-  background: linear-gradient( to top right,rgb(5 0 255),rgb(66 0 255 / 73%),rgba(192,26,192,0.984),rgba(50,0,205,0.449),#070080,#002380,rgba(0,0,255,0.5)),linear-gradient(to bottom right,#000bff,rgba(0,0,255,0.6),#1300ff);
+  background: linear-gradient( to top right,#7537F8,#7537F8,#7537F8,#7537F8,#070080,#002380,#7537F8),linear-gradient(to bottom right,#000bff,#7537F8,#1300ff);
 }
 
 
