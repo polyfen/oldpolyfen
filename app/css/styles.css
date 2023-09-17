@@ -1189,8 +1189,6 @@ div.other-project-card p {
 /*///////////// COOKIES MODAL START /////////////*/
 
 div#cookies-modal-container {
-  display: flex;
-  justify-content: center;
 }
 
 div#cookies-modal {
@@ -1213,8 +1211,6 @@ div#cookies-modal {
 
 div#cookies-title {
   color: #000;
-  display: flex;
-  flex-direction: row;
   align-items: baseline;
   gap: 6px;
 }
