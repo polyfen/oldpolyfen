@@ -64,7 +64,7 @@
             <div style="clear:both;"></div>
 
             <a class="cta-button" href="/contact.php">
-              <div class="opal opal-rainbow-soft"><div class="opal-solid"><div class="opal-mask">Let's Talk!</div></div></div>
+              <div class="opal opal-rainbow-soft"><div class="opal-solid"><div class="opal-mask" style="background:none;rgba(255, 255, 255, .85)">Let's Talk!</div></div></div>
             </a>
           </div>
           <div class="background">
