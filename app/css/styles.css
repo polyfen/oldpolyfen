@@ -1851,3 +1851,7 @@ blockquote {
   margin: 2rem;
   font-size: 16px;
 }
+
+.heading-2 {
+  font-family: 'BiotifBold', helvetica, arial, sans-serif;
+}
