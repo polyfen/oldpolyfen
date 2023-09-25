@@ -81,7 +81,9 @@
             <li>Email Marketing</li>
             <li>Landing Pages</li>
             <li>Lead Generation</li>
-            <li>SEO</li>
+            <li>UX Audit</li>
+            <li>SEO Audit</li>
+            <li>SEO Strategy</li>
             <li>W3C & WACCAG Conformity</li>
             <li>GDPR & Privacy Protection Compliance</li>
             </ul>
