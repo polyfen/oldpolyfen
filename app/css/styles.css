@@ -1664,7 +1664,7 @@ section#how-we-do-it div.grid div:nth-child(3) {
 @media (min-width: 768px) {
 
   section#how-we-do-it div.grid {
-    grid-template-columns: auto auto;
+    grid-template-columns: 200px auto;
     grid-template-rows: auto auto;
   }
   section#how-we-do-it div.grid div:nth-child(1) {
@@ -1836,4 +1836,12 @@ div.opal:hover {
 
 ul.hanging-list {
 list-style-image: url(../../imgs/arrow-right.svg);
+}
+
+.heading-4 {
+  font-size: 24px;
+}
+
+section.column {
+  width: calc(33% - 16px);
 }

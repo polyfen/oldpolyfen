@@ -60,17 +60,11 @@
           <h2 class="heading-1 align-center">Straight-forward Pricing</h2>
         </section>
 
-        <section id="how-we-do-it" class="container-700 hidden">
-          <div class="grid">
-            <div>
-              <img src="imgs/services/path.svg" height="140px" width="auto">
-            </div>
-            <div>
-              <h4 class="heading-3">1. Brand Revamp</h4>
-              <h5 class="heading-4">$3,900 USD</h5>
-              <h5 class="heading-4">2-3 weeks</h5>
-            </div>
-            <div>
+        <section id="how-we-do-it" class="container-1080 hidden" style="display: flex;flex-direction: row;align-content: flex-start;justify-content: space-between;">
+          <section class="column">
+              <h3 class="heading-2">Brand<br>Revamp</h3>
+              <img src="imgs/services/basketball.png" height="140px" width="auto">
+              <h4 class="heading-3">$3,900 USD<br>2-3 weeks</h4>
               <ul class="hanging-list">
                 <li>Brand audit</li>
                 <li>Market research</li>
@@ -83,18 +77,12 @@
                 <li>Illustrations selection</li>
                 <li>Brand guidelines</li>
               </ul>
-            </div>
-          </div>
-          <div class="grid">
-            <div>
-              <img src="imgs/services/lightning-bolt.svg" height="140px" width="auto">
-            </div>
-            <div>
-              <h4 class="heading-3">2. Web Revamp</h4>
-              <h5 class="heading-4">$6,500 USD</h5>
-              <h5 class="heading-4">3-5 weeks</h5>
-            </div>
-            <div>
+          </section>
+          <section class="column">
+              <h3 class="heading-2">Web<br>Revamp</h3>
+              <img src="imgs/services/web.png" height="140px" width="auto">
+              <h4 class="heading-3">$7,800 USD<br>
+              3-6 weeks</h4>
               <ul class="hanging-list">
                 <li>SEO audit</li>
                 <li>UX audit</li>
@@ -104,27 +92,25 @@
                 <li>UI design</li>
                 <li>Accessibility checklist</li>
                 <li>Programming</li>
+                <li>W3C & WACCAG Conformity</li>
+                <li>GDPR & Privacy Protection Compliance</li>
                 <li>Testing</li>
                 <li>Deployment</li>
               </ul>
-            </div>
-          </div>
-          <div class="grid">
-            <div>
-              <img src="imgs/services/staff-augmentation.svg" height="140px" width="auto">
-            </div>
-            <div>
-              <h4 class="heading-3">3. Hourly services</h4>
-              <h5 class="heading-4">$65 USD</h5>
-            </div>
-            <div>
+        </section>
+        <section class="column">
+              <h3 class="heading-2">Hourly<br>Services</h3>
+              <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
+              <h4 class="heading-3">$65 USD<br>Net 14 Billing</h4>
               <ul class="hanging-list">
+              <li>Brand Audit</li>
             <li>Market Research</li>
             <li>Brand &amp; Marketing Strategy</li>
             <li>Naming</li>
             <li>Logo Design</li>
             <li>Visual Identity</li>
             <li>Packaging</li>
+            <li>UX Audit</li>
             <li>UX/UI Design</li>
             <li>Software & Web Development</li>
             <li>Pitch Decks &amp; Presentations</li>
@@ -132,16 +118,17 @@
             <li>Email Marketing</li>
             <li>Landing Pages</li>
             <li>Lead Generation</li>
-            <li>UX Audit</li>
             <li>SEO Audit</li>
             <li>SEO Strategy</li>
             <li>W3C & WACCAG Conformity</li>
             <li>GDPR & Privacy Protection Compliance</li>
     </ul>
-    
-            </div>
-          </div>
         </section>
+        </section>
+
+        
+        
+        
 
         <hr>
 
