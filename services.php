@@ -55,7 +55,7 @@
       <!-- SERVICES start -->
       <main id="services">
 
-        <section class="intro hiddenHeader">
+        <section class="intro hiddenHeader" style="margin-bottom:0;">
           <h1 class="caption align-center">Services</h1>
           <h2 class="heading-1 align-center">A Fortune 500 service<br>at an offshore cost</h2>
         </section>
