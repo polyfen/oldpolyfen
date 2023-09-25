@@ -60,7 +60,7 @@
           <h2 class="heading-1 align-center">A Fortune 500 service<br>at an offshore cost</h2>
         </section>
 
-        <section id="how-we-do-it" class="container-1080 hidden" style="display: flex;flex-direction: row;align-content: flex-start;justify-content: space-between;">
+        <section id="how-we-do-it" class="container-1080 hidden">
           <section class="column">
             <div class="services-card">
               <h3 class="heading-2">Brand<br>Revamp</h3>

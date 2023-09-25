@@ -1868,3 +1868,25 @@ blockquote {
 .column ul.hanging-list {
   margin-left: 24px;
 }
+
+section#how-we-do-it {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  section.column {
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+
+  section#how-we-do-it {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+  }
+}
