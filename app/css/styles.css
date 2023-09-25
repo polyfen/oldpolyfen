@@ -1857,3 +1857,14 @@ blockquote {
   font-family: 'BiotifBold', helvetica, arial, sans-serif;
 }
 
+.services-card {
+  border: 1px solid #7637f9;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.column ul.hanging-list {
+  margin-left: 24px;
+}

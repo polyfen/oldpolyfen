@@ -62,48 +62,54 @@
 
         <section id="how-we-do-it" class="container-1080 hidden" style="display: flex;flex-direction: row;align-content: flex-start;justify-content: space-between;">
           <section class="column">
+            <div class="services-card">
               <h3 class="heading-2">Brand<br>Revamp</h3>
               <img src="imgs/services/basketball.png" height="140px" width="auto">
               <h4 class="heading-3">$3,900 USD<br><span style="opacity: 0.5;">2-3 weeks</span></h4>
-              <ul class="hanging-list">
-                <li>Brand audit</li>
-                <li>Market research</li>
-                <li>Brand strategy</li>
-                <li>Visual Discovery</li>
-                <li>Typography selection</li>
-                <li>Color scheme</li>
-                <li>Logo system</li>
-                <li>Iconography selection</li>
-                <li>Illustrations selection</li>
-                <li>Brand guidelines</li>
-              </ul>
+            </div>
+            <ul class="hanging-list">
+              <li>Brand audit</li>
+              <li>Market research</li>
+              <li>Brand strategy</li>
+              <li>Visual Discovery</li>
+              <li>Typography selection</li>
+              <li>Color scheme</li>
+              <li>Logo system</li>
+              <li>Iconography selection</li>
+              <li>Illustrations selection</li>
+              <li>Brand guidelines</li>
+            </ul>
           </section>
           <section class="column">
+            <div class="services-card">
               <h3 class="heading-2">Web<br>Revamp</h3>
               <img src="imgs/services/web.png" height="140px" width="auto">
               <h4 class="heading-3">$7,800 USD<br>
               <span style="opacity: 0.5;">3-6 weeks</span></h4>
-              <ul class="hanging-list">
-                <li>SEO audit</li>
-                <li>UX audit</li>
-                <li>Info architecture</li>
-                <li>UX writing</li>
-                <li>UI styleguide</li>
-                <li>UI design</li>
-                <li>Accessibility checklist</li>
-                <li>Programming</li>
-                <li>W3C & WACCAG Conformity</li>
-                <li>GDPR & Privacy Protection Compliance</li>
-                <li>QA</li>
-                <li>Deployment</li>
-              </ul>
+            </div>
+            <ul class="hanging-list">
+              <li>SEO audit</li>
+              <li>UX audit</li>
+              <li>Info architecture</li>
+              <li>UX writing</li>
+              <li>UI styleguide</li>
+              <li>UI design</li>
+              <li>Accessibility checklist</li>
+              <li>Programming</li>
+              <li>W3C & WACCAG Conformity</li>
+              <li>GDPR & Privacy Protection Compliance</li>
+              <li>QA</li>
+              <li>Deployment</li>
+            </ul>
         </section>
         <section class="column">
-              <h3 class="heading-2">Hourly<br>Services</h3>
-              <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
-              <h4 class="heading-3">$65 USD<br><span style="opacity: 0.5;">Net 14 Billing</span></h4>
-              <ul class="hanging-list">
-              <li>Brand Audit</li>
+          <div class="services-card">
+            <h3 class="heading-2">Hourly<br>Services</h3>
+            <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
+            <h4 class="heading-3">$65 USD<br><span style="opacity: 0.5;">Net 14 Billing</span></h4>
+          </div>
+          <ul class="hanging-list">
+            <li>Brand Audit</li>
             <li>Market Research</li>
             <li>Brand &amp; Marketing Strategy</li>
             <li>Naming</li>
@@ -122,9 +128,9 @@
             <li>SEO Strategy</li>
             <li>W3C & WACCAG Conformity</li>
             <li>GDPR & Privacy Protection Compliance</li>
-    </ul>
+          </ul>
         </section>
-        </section>
+      </section>
 
         
         
