@@ -121,6 +121,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 <link rel="preload" as="image" href="imgs/thumbs-up-solid-white.svg" />
 <link rel="preload" as="image" href="imgs/icons/envelope-white.svg" />
 <link rel="preload" as="image" href="imgs/icons/phone-call-white.svg" />
+<link rel="preload" as="image" href="imgs/icons/paper-plane-white.svg" />
 
 <!-- Global javascript -->
 <script defer src="app/js/timezone.js"></script>
