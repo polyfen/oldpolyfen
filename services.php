@@ -78,6 +78,7 @@
               <li>Logo system</li>
               <li>Iconography selection</li>
               <li>Illustrations selection</li>
+              <li>Social media profiles</li>
               <li>Brand guidelines</li>
             </ul>
           </section>
