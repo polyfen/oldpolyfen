@@ -94,7 +94,7 @@
                 <li>Programming</li>
                 <li>W3C & WACCAG Conformity</li>
                 <li>GDPR & Privacy Protection Compliance</li>
-                <li>Testing</li>
+                <li>QA</li>
                 <li>Deployment</li>
               </ul>
         </section>
