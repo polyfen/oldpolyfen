@@ -13,16 +13,16 @@
     <meta property="og:title" content="Services | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com"/>
     <meta name="keywords" content="Creative agency, Software development, Market research, Brand strategy, Logo design, UX/UI design, Web development, Social media marketing, Email marketing, Lead generation, Sales funnels, Staff augmentation, Executive consulting" />
-    <meta name="description" property="og:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
+    <meta name="description" property="og:description" content="Branding, marketing, design, and software development services with flexible contract-options." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/services-meta.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
-    <meta name="twitter:creator" content="@PolyfenAgency">
+    <meta name="twitter:creator" content="@PolyfenGroup">
     <meta name="twitter:title" content="Services" />
-    <meta name="twitter:description" content="Discover scalable solutions for branding, marketing, design, and software development with our expert agency services." />
+    <meta name="twitter:description" content="Branding, marketing, design, and software development services with flexible contract-options." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/services-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
@@ -81,7 +81,9 @@
             <li>Email Marketing</li>
             <li>Landing Pages</li>
             <li>Lead Generation</li>
-            <li>Sales Funnels</li>
+            <li>SEO</li>
+            <li>W3C & WACCAG Conformity</li>
+            <li>GDPR & Privacy Protection Compliance</li>
             </ul>
           </div>
           
