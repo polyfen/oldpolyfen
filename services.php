@@ -55,25 +55,71 @@
       <!-- SERVICES start -->
       <main id="services">
 
-        <section class="intro hiddenHeader">
+        <section class="intro hiddenHeader" style="margin-bottom:0;">
           <h1 class="caption align-center">Services</h1>
-          <h2 class="heading-1 align-center">Solutions that scale<br/>with your business</h2>
+          <h2 class="heading-1 align-center">A Fortune 500 service<br>at an offshore cost</h2>
         </section>
 
-        <section id="what-we-do" class="hidden container">
-          <h3 class="heading-2 align-center">What we do</h3>
-          <div class="column-to-row">
-          <div class="one-half">
-            <img src="imgs/illustrations/coin-illustration.webp">
+        <section id="how-we-do-it" class="container-1080 hidden">
+          <section class="column">
+            <div class="services-card">
+              <h3 class="heading-2">Brand<br>Revamp</h3>
+              <img src="imgs/services/basketball.png" height="140px" width="auto">
+              <h4 class="heading-3">$3,900 USD</h4>
+              <h4 class="caption" style="opacity: 0.5;">2-3 weeks</h4>
+            </div>
+            <ul class="hanging-list">
+              <li>Brand audit</li>
+              <li>Market research</li>
+              <li>Brand strategy</li>
+              <li>Visual Discovery</li>
+              <li>Typography selection</li>
+              <li>Color scheme</li>
+              <li>Logo system</li>
+              <li>Iconography selection</li>
+              <li>Illustrations selection</li>
+              <li>Social media profiles</li>
+              <li>Brand guidelines</li>
+            </ul>
+          </section>
+          <section class="column">
+            <div class="services-card">
+              <h3 class="heading-2">Web<br>Revamp</h3>
+              <img src="imgs/services/web.png" height="140px" width="auto">
+              <h4 class="heading-3">$7,800 USD</h4>
+              <h4 class="caption" style="opacity: 0.5;">3-6 weeks</h4>
+            </div>
+            <ul class="hanging-list">
+              <li>SEO audit</li>
+              <li>UX audit</li>
+              <li>Info architecture</li>
+              <li>UX writing</li>
+              <li>UI styleguide</li>
+              <li>UI design</li>
+              <li>Accessibility checklist</li>
+              <li>Programming</li>
+              <li>W3C & WACCAG Conformity</li>
+              <li>GDPR & Privacy Protection Compliance</li>
+              <li>QA</li>
+              <li>Deployment</li>
+            </ul>
+        </section>
+        <section class="column">
+          <div class="services-card">
+            <h3 class="heading-2">Hourly<br>Services</h3>
+            <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
+            <h4 class="heading-3">$65 USD</h4>
+            <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
           </div>
-          <div class="one-half">
           <ul class="hanging-list">
+            <li>Brand Audit</li>
             <li>Market Research</li>
             <li>Brand &amp; Marketing Strategy</li>
             <li>Naming</li>
             <li>Logo Design</li>
             <li>Visual Identity</li>
             <li>Packaging</li>
+            <li>UX Audit</li>
             <li>UX/UI Design</li>
             <li>Software & Web Development</li>
             <li>Pitch Decks &amp; Presentations</li>
@@ -81,59 +127,22 @@
             <li>Email Marketing</li>
             <li>Landing Pages</li>
             <li>Lead Generation</li>
-            <li>UX Audit</li>
             <li>SEO Audit</li>
             <li>SEO Strategy</li>
             <li>W3C & WACCAG Conformity</li>
             <li>GDPR & Privacy Protection Compliance</li>
-            </ul>
-          </div>
-          
+          </ul>
         </section>
+      </section>
 
-        <hr>
-
-        <section id="how-we-do-it" class="container-700 hidden">
-          <h3 class="heading-2 align-center">How we do it</h3>
-          <div class="grid">
-            <div>
-              <img src="imgs/services/path.svg" height="140px" width="auto">
-            </div>
-            <div>
-              <h4 class="heading-3">1. End-to-End Project</h4>
-            </div>
-            <div>
-              <p>Get a standout brand identity and website that showcases your products and services. We handle the design, assets, and guidelines, all within a predefined project budget.</p>
-            </div>
-          </div>
-          <div class="grid">
-            <div>
-              <img src="imgs/services/lightning-bolt.svg" height="140px" width="auto">
-            </div>
-            <div>
-              <h4 class="heading-3">2. Executive Consulting</h4>
-            </div>
-            <div>
-              <p>Count with us for expert analysis, insights, and practical solutions on branding, marketing, design, and development at every level to ensure success and growth for your business with a flexible consultancy agreement.</p>
-            </div>
-          </div>
-          <div class="grid">
-            <div>
-              <img src="imgs/services/staff-augmentation.svg" height="140px" width="auto">
-            </div>
-            <div>
-              <h4 class="heading-3">3. Staff Augmentation</h4>
-            </div>
-            <div>
-              <p>Offload excess workload and boost your team's capacity. Our agile crew and network of talented collaborators are ready to join your project and start delivering immediately.</p>
-            </div>
-          </div>
-        </section>
+        
+        
+        
 
         <hr>
 
         <section id="how-we-do-charge" class="container hidden">
-          <h3 class="heading-2 align-center">Fair Pricing</h3>
+          <h3 class="heading-2 align-center">What you're getting</h3>
             <div class="container-700">
             <div class="">
               <div class="acc-button">

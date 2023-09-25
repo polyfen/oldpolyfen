@@ -1,13 +1,8 @@
 <section id="contact">
   <div id="cta-content" class="hidden container">
-    <h2 class="heading-1 align-center">Give your customers<br> the experience they deserve</h2>
-    <div id="cta-section-buttons">
-      <a href="contact.php#message">
-        <div class="opal opal-rainbow-soft"><div class="opal-solid"><div id="send-message" class="opal-mask">send a message</div></div></div>
-      </a>
-      <a href="contact.php#call">
-        <div class="opal opal-rainbow-soft"><div class="opal-solid"><div id="schedule-call" class="opal-mask">schedule a call</div></div></div>
-      </a>
-    </div>
+    <h2 class="heading-1 align-center" style="margin-bottom: 8px;">Give your business<br>the glow up it needs</h2>
+    <a href="/discovery-call.php">
+      <div class="opal opal-rainbow-soft" style="border: 2px solid #7537f8;"><div class="opal-solid"><div id="schedule-call" class="opal-mask" style="background:none;">schedule a call</div></div></div>
+    </a>
   </div>
 </section>
