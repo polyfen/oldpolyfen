@@ -1,6 +1,6 @@
 <section id="contact">
   <div id="cta-content" class="hidden container">
-    <h2 class="heading-1 align-center">Give your customers<br> the experience they deserve</h2>
+    <h2 class="heading-1 align-center">Give your business<br>the glow up it needs</h2>
     <div id="cta-section-buttons">
       <a href="contact.php#message">
         <div class="opal opal-rainbow-soft"><div class="opal-solid"><div id="send-message" class="opal-mask">send a message</div></div></div>
