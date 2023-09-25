@@ -1833,3 +1833,7 @@ div.opal:hover {
 
 
 /*///////////// ——————————————————————————————————— /////////////*/
+
+ul.hanging-list {
+list-style-image: url(../../imgs/arrow-right.svg);
+}
