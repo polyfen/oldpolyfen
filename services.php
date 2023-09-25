@@ -57,7 +57,7 @@
 
         <section class="intro hiddenHeader">
           <h1 class="caption align-center">Services</h1>
-          <h2 class="heading-1 align-center">A Fortune 500 service at an offshore cost</h2>
+          <h2 class="heading-1 align-center">A Fortune 500 service<br>at an offshore cost</h2>
         </section>
 
         <section id="how-we-do-it" class="container-1080 hidden" style="display: flex;flex-direction: row;align-content: flex-start;justify-content: space-between;">
