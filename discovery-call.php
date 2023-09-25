@@ -38,7 +38,7 @@
 
 </head>
 
-<body id="strategy-call" class="dark-mode landing-page">
+<body id="discovery-call" class="dark-mode landing-page">
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC"
@@ -52,12 +52,13 @@
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <div class="container hiddenHeader" style="margin-bottom:0 !important;">
-
+    <section class="container hidden">
       <div id="landing-page-cover">
         <h1 class="heading-1 align-center">Book a free Discovery Call</h1>
       </div>
+    </section>
 
+    <section class="container hidden" style="margin-bottom:0 !important;">
       <div id="boris-hrncic-container">
         <div id="boris-hrncic">
           <div class="portrait">
@@ -74,7 +75,7 @@
           </div>
         </div>
       </div>
-    </div>
+  </section>
 
     <div id="calendly">
       <!-- Calendly inline widget begin -->

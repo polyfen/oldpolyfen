@@ -1845,3 +1845,9 @@ list-style-image: url(../../imgs/arrow-right.svg);
 section.column {
   width: calc(33% - 16px);
 }
+
+blockquote {
+  font-family: 'freight-text-pro', serif;
+  margin: 2rem;
+  font-size: 16px;
+}
