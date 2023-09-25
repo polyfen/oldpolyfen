@@ -77,7 +77,7 @@
       </div>
   </section>
 
-    <div id="calendly">
+    <div id="calendly" class="hidden">
       <!-- Calendly inline widget begin -->
       <div class="calendly-inline-widget"
         data-url="https://calendly.com/borishr/strategy?hide_event_type_details=1&hide_gdpr_banner=1"
@@ -88,7 +88,7 @@
 
     <hr>
 
-    <div class="container-1080 hiddenHeader" style="margin-top:0 !important;">
+    <div class="container-1080 hidden" style="margin-top:0 !important;">
 
       <section class="container">
           <blockquote>It is always a pleasure working with Boris. This is my third time working with him. He has helped me with logos, branding, and website design. Boris always has a strong focus on client service, he provides consistent and valuable feedback, and his work always exceed expectations. I look forward to working with Boris on more projects! <br />&mdash; Carlos Flores</blockquote>
@@ -104,12 +104,14 @@
 
       <hr>
 
+      <section class="hidden">
       <h2 class="heading-1 align-center">Give your business<br>the glow up it needs</h2>
       <div id="final-cta-container" class="align-center">
         <a href="#calendly">
           <div id="final-cta" class="opal opal-rainbow-soft"><div class="opal-solid"><div  class="opal-mask">↑ Schedule a Call ↑</div></div></div>
         </a>
       </div>
+      </section>
 
     </div>
   </div>

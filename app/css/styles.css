@@ -1849,9 +1849,11 @@ section.column {
 blockquote {
   font-family: 'freight-text-pro', serif;
   margin: 2rem;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .heading-2 {
   font-family: 'BiotifBold', helvetica, arial, sans-serif;
 }
+

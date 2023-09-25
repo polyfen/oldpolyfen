@@ -64,7 +64,7 @@
           <section class="column">
               <h3 class="heading-2">Brand<br>Revamp</h3>
               <img src="imgs/services/basketball.png" height="140px" width="auto">
-              <h4 class="heading-3">$3,900 USD<br>2-3 weeks</h4>
+              <h4 class="heading-3">$3,900 USD<br><span style="opacity: 0.5;">2-3 weeks</span></h4>
               <ul class="hanging-list">
                 <li>Brand audit</li>
                 <li>Market research</li>
@@ -82,7 +82,7 @@
               <h3 class="heading-2">Web<br>Revamp</h3>
               <img src="imgs/services/web.png" height="140px" width="auto">
               <h4 class="heading-3">$7,800 USD<br>
-              3-6 weeks</h4>
+              <span style="opacity: 0.5;">3-6 weeks</span></h4>
               <ul class="hanging-list">
                 <li>SEO audit</li>
                 <li>UX audit</li>
@@ -101,7 +101,7 @@
         <section class="column">
               <h3 class="heading-2">Hourly<br>Services</h3>
               <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
-              <h4 class="heading-3">$65 USD<br>Net 14 Billing</h4>
+              <h4 class="heading-3">$65 USD<br><span style="opacity: 0.5;">Net 14 Billing</span></h4>
               <ul class="hanging-list">
               <li>Brand Audit</li>
             <li>Market Research</li>
