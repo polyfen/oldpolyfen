@@ -135,10 +135,6 @@
         </section>
       </section>
 
-        
-        
-        
-
         <hr>
 
         <section id="how-we-do-charge" class="container hidden">
@@ -189,6 +185,18 @@
                 <p>We've got you covered next time you encounter any new requirements in the area of business development, marketing, design, or tech. Our growing list of satisfied customers is testimony that we don't just do the bare minimum. We go above and beyond to help your business grow and to develop a long-lasting and solid partnership.</p>
               </div>
         </section>
+
+        <hr>
+
+      <section class="container-900 hidden">
+        <h3 class="heading-2 align-center">Clients featured in</h3>
+        <div class="clients-container">
+          <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60px">
+          <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50px">
+          <img src="imgs/forbes-logo.svg" alt="Forbes" height="40px">
+          <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45px">
+        </div>
+      </section>
 
       </main>
       <!-- SERVICES end -->
