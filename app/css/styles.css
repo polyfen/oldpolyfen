@@ -344,6 +344,10 @@ header nav a:hover {
 
   }
 
+  body.landing-page header nav.hamburger.nav {
+    top: 25px !important;
+  } 
+
   nav.desktop a {
     padding-left: 50px;
     font-size: 45px;
@@ -1308,9 +1312,9 @@ div#cookies-modal.cookies-d-none {
 
 /*///////////// LANDING PAGES START /////////////*/
 
-body.landing-page header nav {
+/* body.landing-page header nav {
   display: none;
-}
+} */
 
 body.landing-page h1 {
   margin-top: 120px;

@@ -59,5 +59,5 @@
       nav.classList.remove('open-nav')
       close.classList.remove('open-nav')
       })
-</script>
-    </footer>
+    </script>
+</footer>
