@@ -1929,3 +1929,25 @@ section#how-we-do-it {
     max-width: 350px;
   }
 }
+
+div.clients-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+div.clients-container img {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 900px) {
+  div.clients-container {
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
