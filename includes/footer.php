@@ -33,11 +33,11 @@
       </div>
       
       <div class="footer_2line">
-        <a href="http://wiki.polyfen.com" target="_blank"><small>Team Wiki</small></a>
+        <a href="https://wiki.thepolyfengroup.com" target="_blank"><small>Team Wiki</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
-        <a href="http://business.polyfen.com" target="_blank"><small>Business Plan</small></a>
+        <a href="https://business.thepolyfengroup.com" target="_blank"><small>Business Plan</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
-        <a href="http://brand.polyfen.com" target="_blank"><small>Brand Guidelines</small></a>
+        <a href="https://brand.thepolyfengroup.com" target="_blank"><small>Brand Guidelines</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
         <a href="privacy.php" target="_blank"><small>Privacy Policy</small></a>
       </div>
