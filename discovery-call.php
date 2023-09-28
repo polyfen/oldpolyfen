@@ -11,22 +11,22 @@
 
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="Book a free Discovery Call with us" />
-    <meta property="og:url" content="https://polyfen.com/strategy-call" />
+    <meta property="og:url" content="https://polyfen.com/discovery-call" />
     <meta name="keywords"
         content="" />
     <meta name="description" property="og:description"
         content="Tell me about your project. Hear what we can do for you. No strings attached." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/strategy-call.png" />
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/discovery-call.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
-    <meta name="twitter:creator" content="@PolyfenAgency">
+    <meta name="twitter:creator" content="@PolyfenGroup">
     <meta name="twitter:title" content="Book a free Discovery Call with us" />
     <meta name="twitter:description"
         content="Tell me about your project. Hear what we can do for you. No strings attached." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/strategy-call.png" />
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/discovery-call.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
