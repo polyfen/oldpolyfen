@@ -349,7 +349,7 @@ header nav a:hover {
   } 
 
   nav.desktop a {
-    padding-left: 50px;
+    padding-left: 20px;
     font-size: 45px;
   }
 
@@ -367,6 +367,10 @@ header nav a:hover {
 
   div.open-nav {
     display: block !important;
+  }
+
+  nav.desktop.open-nav + nav.hamburger {
+    display: none;
   }
 }
 
