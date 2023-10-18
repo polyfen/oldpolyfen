@@ -781,7 +781,7 @@ footer {
 
 footer ul {
   display: flex;
-  gap: 15px;
+  gap: 25px;
   /*justify-content: center;*/
 }
 
@@ -899,6 +899,10 @@ footer section.times div img.country-flag {
 
   }
 
+  footer ul {
+    gap: 15px;
+  }
+
   footer div#tpg {
     justify-self: end;
     margin-right: 15px;
@@ -945,7 +949,10 @@ div.featured-project {
 
 div.project-description {
   max-width: 460px;
-  padding-top: 35px;
+  padding-top: 0;
+}
+div.project-description .heading-2 {
+  padding-top: 0;
 }
 
 div.project-cover {
@@ -1005,6 +1012,9 @@ div.project-preview {
   div.project-cover {
     height: 350px;
     background-size: 150%;
+  }
+  div.project-description .heading-2 {
+    padding-top: 0;
   }
 
 }
@@ -1972,6 +1982,6 @@ div.clients-container img {
 
 @media (max-width: 425px){
   blockquote {
-    margin: 0;
+    margin: 0 0 2rem 0 ;
   }
 }
