@@ -176,18 +176,18 @@
       <!-- new Grid section start -->
 
       <section class="container grid-box">
-        <div class="grid-item">01</div>
-        <div class="grid-item">02</div>
-        <div class="grid-item">03</div>
-        <div class="grid-item">04</div>
-        <div class="grid-item">05</div>
-        <div class="grid-item">06</div>
-        <div class="grid-item">07</div>
-        <div class="grid-item">08</div>
-        <div class="grid-item">09</div>
-        <div class="grid-item">10</div>
-        <div class="grid-item">11</div>
-        <div class="grid-item">12</div>
+        <div class="grid-item"><img src="imgs/latest/001.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/002.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/003.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/004.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/005.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/006.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/007.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/008.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/009.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/001.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/002.webp"></div>
+        <div class="grid-item"><img src="imgs/latest/003.webp"></div>
       </section>
 
 

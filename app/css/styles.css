@@ -478,9 +478,11 @@ body#home div.container-1080 {
   }
 
 .grid-item{
-  background: blue;
-  width: clamp(100px, 100%, 412px);
-  height: 200px;
+  width: 100%;
+}
+
+img {
+  display: block;
 }
 
 
