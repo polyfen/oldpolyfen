@@ -168,13 +168,33 @@
         <!-- FEATURED PROJECTS end -->
 
 
-        <div style="clear:both;">
-        </div>
-        <div class="row">
-          <div class="horizontal-separator"></div>
-        </div>
+        <div style="clear:both;"> </div>
+        <div class="row">  <div class="horizontal-separator"> </div> </div>
 
       </div>
+
+      <!-- new Grid section start -->
+
+      <section class="container grid-box">
+        <div class="grid-item">01</div>
+        <div class="grid-item">02</div>
+        <div class="grid-item">03</div>
+        <div class="grid-item">04</div>
+        <div class="grid-item">05</div>
+        <div class="grid-item">06</div>
+        <div class="grid-item">07</div>
+        <div class="grid-item">08</div>
+        <div class="grid-item">09</div>
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+      </section>
+
+
+
+
+
+
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->

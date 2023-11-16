@@ -5,6 +5,10 @@ main {
   padding-bottom: 100px;
 }
 
+.container {
+  padding: 0 15px; /* Note que lo toma raro de polynucleus, le tira un auto y da error */
+}
+
 div.row {
   display: flex;
   flex-direction: row;
@@ -462,6 +466,21 @@ section#cover a:has(button) {
 body#home div.container-1080 {
   z-index: 2;
   position: relative;
+}
+
+/*///////// New Grid Section /////////*/
+
+.grid-box {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+.grid-item{
+  background: blue;
+  width: clamp(100px, 100%, 412px);
+  height: 200px;
 }
 
 
