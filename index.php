@@ -175,19 +175,17 @@
 
       <!-- new Grid section start -->
 
-      <section class="container grid-box hidden">
-        <div class="grid-item"><img src="imgs/latest/001.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/002.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/003.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/004.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/005.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/006.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/007.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/008.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/009.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/001.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/002.webp"></div>
-        <div class="grid-item"><img src="imgs/latest/003.webp"></div>
+      <section class="container-1080 grid-box hidden">
+        <div class="grid-item"><img src="imgs/activity-cads/vuk-na-vrata.png"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/crossfit-abyss.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/soma-logo.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/magus-valge.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/health-and-travel.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/mandala.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/alchemy.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/prepkanga.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/domingo.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/photographers-website.png"></div>
       </section>
 
 
