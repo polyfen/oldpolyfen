@@ -175,7 +175,7 @@
 
       <!-- new Grid section start -->
 
-      <section class="container grid-box">
+      <section class="container grid-box hidden">
         <div class="grid-item"><img src="imgs/latest/001.webp"></div>
         <div class="grid-item"><img src="imgs/latest/002.webp"></div>
         <div class="grid-item"><img src="imgs/latest/003.webp"></div>

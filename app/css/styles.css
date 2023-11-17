@@ -468,23 +468,35 @@ body#home div.container-1080 {
   position: relative;
 }
 
-/*///////// New Grid Section /////////*/
+/*///////// New Grid Section //////////*/
 
 .grid-box {
   display: grid;
   justify-items: center;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 150px;
   }
 
 .grid-item{
   width: 100%;
+  border-radius: 4px;
 }
 
-img {
+.grid-item img {
   display: block;
+  border-radius: 4px;
+  width: 100%;
+}
+.grid-box .grid-item:nth-child(n + 5) {
+  display: none; 
 }
 
+@media (min-width: 450px) {
+  .grid-box .grid-item:nth-child(n + 5) {
+    display: unset;
+}
+}
 
 /*////subtle animation////*/
 
