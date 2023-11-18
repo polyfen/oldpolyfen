@@ -175,11 +175,7 @@
 
       <!-- new Grid section start -->
 
-      <section class="container-1080 grid-box hidden" style="max-width: 1380px;">
-        <div class="grid-item"><img src="imgs/activity-cads/vuk-na-vrata.png"></div>   
-        <div class="grid-item"><img src="imgs/activity-cads/#.jpeg"></div>
-        <div class="grid-item"><img src="imgs/activity-cads/#.png"></div>
-        <div class="grid-item"><img src="imgs/activity-cads/#.jpeg"></div>
+      <section class="container-900 grid-box hidden">
         <div class="grid-item"><img src="imgs/activity-cads/crossfit-abyss.jpeg"></div>
         <div class="grid-item"><img src="imgs/activity-cads/mandala.jpeg"></div>
         <div class="grid-item"><img src="imgs/activity-cads/magusvalge.png"></div>
