@@ -473,7 +473,7 @@ body#home div.container-1080 {
 .grid-box {
   display: grid;
   justify-items: center;
-  gap: 20px;
+  gap: 8px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-bottom: 150px;
   }
