@@ -176,17 +176,17 @@
       <!-- new Grid section start -->
 
       <section class="container-1080 grid-box hidden" style="max-width: 1380px;">
-        <div class="grid-item"><img src="imgs/activity-cads/vuk-na-vrata.png"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/vuk-na-vrata.png"></div>   
+        <div class="grid-item"><img src="imgs/activity-cads/#.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/#.png"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/#.jpeg"></div>
         <div class="grid-item"><img src="imgs/activity-cads/crossfit-abyss.jpeg"></div>
-        <div class="grid-item"><img src="imgs/activity-cads/soma-logo.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/mandala.jpeg"></div>
         <div class="grid-item"><img src="imgs/activity-cads/magusvalge.png"></div>
         <div class="grid-item"><img src="imgs/activity-cads/magusvalge-packaging.png"></div>
-        <div class="grid-item"><img src="imgs/activity-cads/mandala.jpeg"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/domingo.png"></div>
+        <div class="grid-item"><img src="imgs/activity-cads/prepkanga-stationary.png"></div>
         <div class="grid-item"><img src="imgs/activity-cads/the-barn-packaging.png"></div>
-        <div class="grid-item"><img src="imgs/activity-cads/prepkanga.jpeg"></div>
-        <div class="grid-item"><img src="imgs/activity-cads/domingo.png"></div>
-        <div class="grid-item"><img src="imgs/activity-cads/photographers-website.png"></div>
-        <div class="grid-item"><img src="imgs/activity-cads/domingo.png"></div>
         <div class="grid-item"><img src="imgs/activity-cads/photographers-website.png"></div>
       </section>
 
