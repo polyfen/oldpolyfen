@@ -346,7 +346,7 @@ header nav a:hover {
 
   body.landing-page header nav.hamburger.nav {
     top: 25px !important;
-  } 
+  }
 
   nav.desktop a {
     padding-left: 20px;
@@ -369,7 +369,7 @@ header nav a:hover {
     display: block !important;
   }
 
-  nav.desktop.open-nav + nav.hamburger {
+  nav.desktop.open-nav+nav.hamburger {
     display: none;
   }
 }
@@ -951,6 +951,7 @@ div.project-description {
   max-width: 460px;
   padding-top: 0;
 }
+
 div.project-description .heading-2 {
   padding-top: 0;
 }
@@ -1013,6 +1014,7 @@ div.project-preview {
     height: 350px;
     background-size: 150%;
   }
+
   div.project-description .heading-2 {
     padding-top: 0;
   }
@@ -1659,9 +1661,9 @@ div.acc-button img {
 }
 
 .acc-button .heading-3 {
-margin-bottom: 0;
-margin-top: 0;
-padding-top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 div.column-to-row {
@@ -1778,6 +1780,45 @@ section#how-we-do-it div.grid div:nth-child(3) {
 }
 
 /*Accordion end*/
+
+/* board team */
+
+.board-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-1232 {
+  width: calc(100% - 30px);
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.board-card {
+  max-width: 264px;
+  text-align: center;
+  margin-top: 86px;
+}
+
+.board-card p:first-of-type {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.board-card p:last-of-type {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.board-card a small {
+  font-size: 16px;
+  font-weight: 500;
+}
+.board-card img {
+ max-width: 216px;
+ margin-bottom: 32px;
+}
 
 /*///////////// ABOUT END /////////////*/
 
@@ -1902,7 +1943,7 @@ div.opal:hover {
 /*///////////// ——————————————————————————————————— /////////////*/
 
 ul.hanging-list {
-list-style-image: url(../../imgs/arrow-right.svg);
+  list-style-image: url(../../imgs/arrow-right.svg);
 }
 
 .heading-4 {
@@ -1980,8 +2021,8 @@ div.clients-container img {
   }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
   blockquote {
-    margin: 0 0 2rem 0 ;
+    margin: 0 0 2rem 0;
   }
 }
