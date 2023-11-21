@@ -176,14 +176,14 @@
       <!-- new Grid section start -->
 
       <section class="container-900 grid-box">
-        <div class="grid-item hidden"><img src="imgs/activity-cads/crossfit-abyss.jpeg"></div>
-        <div class="grid-item hidden"><img src="imgs/activity-cads/mandala.jpeg"></div>
-        <div class="grid-item hidden"><img src="imgs/activity-cads/magusvalge.png"></div>
-        <div class="grid-item hidden"><img src="imgs/activity-cads/magusvalge-packaging.png"></div>
-        <div class="grid-item hidden"><img src="imgs/activity-cads/domingo.png"></div>
-        <div class="grid-item hidden"><img src="imgs/activity-cads/prepkanga-stationary.png"></div>
-        <div class="grid-item hidden"><img src="imgs/activity-cads/the-barn-packaging.png"></div>
-        <div class="grid-item hidden"><img src="imgs/activity-cads/photographers-website.png"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/crossfit-abyss.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/mandala.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/magusvalge.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/magusvalge-packaging.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/domingo.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/prepkanga-stationary.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/the-barn-packaging.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/photographers-website.webp"></div>
       </section>
 
 
