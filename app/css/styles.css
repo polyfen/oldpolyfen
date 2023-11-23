@@ -1786,6 +1786,12 @@ section#how-we-do-it div.grid div:nth-child(3) {
 .board-cards {
   display: flex;
   justify-content: space-between;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  gap: 30px;
+  margin-bottom: 15px;
+  padding-inline: 40px;
 }
 
 .container-1232 {
@@ -1799,6 +1805,7 @@ section#how-we-do-it div.grid div:nth-child(3) {
   max-width: 264px;
   text-align: center;
   margin-top: 86px;
+  scroll-snap-align: center;
 }
 
 .board-card p:first-of-type {
