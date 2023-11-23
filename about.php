@@ -82,25 +82,25 @@
                     <img src="imgs/board-team/boris.webp" alt="Picture of Founder & Art Director" class="board-card-img">
                     <p>Boris Hrnčić</p>
                     <p>Founder & Art Director</p>
-                    <a href="#"><small>Linkedin</small></a>
+                    <a href="https://www.linkedin.com/in/borishr/"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
                     <img src="imgs/board-team/rod.webp" alt="Picture of Tech & Develpment Advisor" class="board-card-img">
                     <p>Rodrigo Gatica</p>
                     <p>Tech & Develpment Advisor</p>
-                    <a href="#"><small>Linkedin</small></a>
+                    <a href="https://www.linkedin.com/in/rodrigo-gatica"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
                     <img src="imgs/board-team/mati.webp" alt="Picture of Sales & Operator Advisor" class="board-card-img">
                     <p>Matías Sanchez</p>
                     <p>Sales & Operator Advisor</p>
-                    <a href="#"><small>Linkedin</small></a>
+                    <a href="https://www.linkedin.com/in/matysanchez/"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
                     <img src="imgs/board-team/joaquin.webp" alt="Picture of Research & Strastegy Advisor" class="board-card-img">
                     <p>Joaquin Carrascosa</p>
                     <p>Research & Strastegy Advisor</p>
-                    <a href="#"><small>Linkedin</small></a>
+                    <a href="https://www.linkedin.com/in/joaqu%C3%ADn-carrascosa-595372b2/"><small>Linkedin</small></a>
                 </div>
         </section>
         <hr>
