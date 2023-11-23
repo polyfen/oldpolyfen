@@ -168,13 +168,29 @@
         <!-- FEATURED PROJECTS end -->
 
 
-        <div style="clear:both;">
-        </div>
-        <div class="row">
-          <div class="horizontal-separator"></div>
-        </div>
+        <div style="clear:both;"> </div>
+        <div class="row">  <div class="horizontal-separator"> </div> </div>
 
       </div>
+
+      <!-- new Grid section start -->
+
+      <section class="container-900 grid-box">
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/crossfit-abyss.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/mandala.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/magusvalge.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/magusvalge-packaging.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/domingo.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/prepkanga-stationary.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/the-barn-packaging.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/photographers-website.webp"></div>
+      </section>
+
+
+
+
+
+
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
