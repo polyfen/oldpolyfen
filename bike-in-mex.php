@@ -62,6 +62,9 @@
       <div class="container-1080 hiddenHeader">
 
         <h1 class="heading-1 align-center">Bike in Mex</h1>
+        <p class="project-p">We designed an identity focused on geometric illustrations inspired by ancient Aztec
+          and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop
+          based in Tulum, Mexico.</p>
 
         <div id="slider-container">
           <div class="slider lazy">
