@@ -74,7 +74,7 @@
         </section>
 
         <hr>
-        <section class="container-1232">
+        <section class="container-1080 width100">
             <h3 class="heading-2 align-center">Meet our board</h3>
             <div class="board-cards">
 
@@ -87,13 +87,13 @@
                 <div class="board-card">
                     <img src="imgs/board-team/rod.webp" alt="Picture of Tech & Develpment Advisor" class="board-card-img">
                     <p>Rodrigo Gatica</p>
-                    <p>Tech & Develpment Advisor</p>
+                    <p>Sales & Operations Advisor</p>
                     <a href="https://www.linkedin.com/in/rodrigo-gatica"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
                     <img src="imgs/board-team/mati.webp" alt="Picture of Sales & Operator Advisor" class="board-card-img">
                     <p>Matías Sanchez</p>
-                    <p>Sales & Operator Advisor</p>
+                    <p>Tech & Development Advisor</p>
                     <a href="https://www.linkedin.com/in/matysanchez/"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
