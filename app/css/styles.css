@@ -1186,8 +1186,8 @@ div.other-project-card p {
 
 .project-p {
   width: 100%;
-  max-width: 800px;
-  text-align: center;
+  max-width: 525px;
+  text-align: left;
   margin-inline: auto;
   text-wrap: balance;
 }
