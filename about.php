@@ -100,7 +100,7 @@
                     <img src="imgs/board-team/joaquin.webp" alt="Picture of Research & Strastegy Advisor" class="board-card-img">
                     <p>Joaquin Carrascosa</p>
                     <p>Research & Strastegy Advisor</p>
-                    <a href="https://www.linkedin.com/in/joaqu%C3%ADn-carrascosa-595372b2/"><small>Linkedin</small></a>
+                    <a href="https://www.linkedin.com/in/joaquin-carrascosa91/"><small>Linkedin</small></a>
                 </div>
         </section>
         <hr>
