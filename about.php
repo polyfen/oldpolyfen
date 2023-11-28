@@ -113,7 +113,21 @@
             </div>
           </div>
         </section>
+        
+        <hr>
 
+        <section id="about-intro" class="container">
+          <h3 class="heading-2 heading-2 align-center hidden">We wrote the book on branding</h3>
+          <div class="column-to-row hidden">
+            <div class="one-half hidden">
+              <img src="imgs/about/screen-plat.webp">
+            </div>
+            <div class="one-half hidden">
+              <p>A step-by-step guide to the Branding process including practical tips,
+                case studies, template files, and many other useful resources.</p>
+            </div>
+          </div>
+        </section>
     </main>
     <!-- ABOUT end -->
 
