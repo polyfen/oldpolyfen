@@ -75,28 +75,28 @@
 
         <hr>
         <section class="container-1080 width100">
-            <h3 class="heading-2 align-center">Meet our board</h3>
-            <div class="board-cards">
+            <h3 class="heading-2 align-center hidden">Meet our board</h3>
+            <div class="board-cards hidden">
 
-                <div class="board-card">
+                <div class="board-card hidden">
                     <img src="imgs/board-team/boris.webp" alt="Picture of Founder &amp; Art Director" class="board-card-img">
                     <h4>Boris Hrnčić</h4>
                     <h5>Founder &amp; Art Director</h5>
                     <a href="https://www.linkedin.com/in/borishr/"><small>Linkedin</small></a>
                 </div>
-                <div class="board-card">
+                <div class="board-card hidden">
                     <img src="imgs/board-team/rod.webp" alt="Picture of Tech &amp; Develpment Advisor" class="board-card-img">
                     <h4>Rodrigo Gatica</h4>
                     <h5>Sales &amp; Operations Advisor</h5>
                     <a href="https://www.linkedin.com/in/rodrigo-gatica"><small>Linkedin</small></a>
                 </div>
-                <div class="board-card">
+                <div class="board-card hidden">
                     <img src="imgs/board-team/mati.webp" alt="Picture of Sales &amp; Operator Advisor" class="board-card-img">
                     <h4>Matías Sanchez</h4>
                     <h5>Tech &amp; Development Advisor</h5>
                     <a href="https://www.linkedin.com/in/matysanchez/"><small>Linkedin</small></a>
                 </div>
-                <div class="board-card">
+                <div class="board-card hidden">
                     <img src="imgs/board-team/joaquin.webp" alt="Picture of Research &amp; Strastegy Advisor" class="board-card-img">
                     <h4>Joaquin Carrascosa</h4>
                     <h5>Research &amp; Strastegy Advisor</h5>
