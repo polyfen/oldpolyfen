@@ -490,6 +490,51 @@ body#home div.container-1080 {
   transition-timing-function: ease-out;
 }
 
+/*//////>>> new grid & subtle animation */
+
+.grid-item {
+  transition-delay: unset;
+}
+
+@media (min-width: 450px) {
+
+  .grid-item:nth-child(1) {
+    transition-delay: 200ms;
+  }
+
+  .grid-item:nth-child(2) {
+    transition-delay: 300ms;
+  }
+
+  .grid-item:nth-child(3) {
+    transition-delay: 400ms;
+  }
+
+  .grid-item:nth-child(4) {
+    transition-delay: 500ms;
+  }
+
+  .grid-item:nth-child(5) {
+    transition-delay: 600ms;
+  }
+
+  .grid-item:nth-child(6) {
+    transition-delay: 700ms;
+  }
+
+  .grid-item:nth-child(7) {
+    transition-delay: 800ms;
+  }
+
+  .grid-item:nth-child(8) {
+    transition-delay: 900ms;
+  }
+
+
+
+}
+
+
 /*////subtle animation END////*/
 
 
