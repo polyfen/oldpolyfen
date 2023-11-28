@@ -10,7 +10,7 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Villa Terezija Branding | Polyfen/">
+    <meta property="og:title" content="Villa Terezija Branding | Polyfen"/>
     <meta property="og:url" content="https://polyfen.com/villa-terezija"/>
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
     <meta name="description" property="og:description" content="A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia." />
