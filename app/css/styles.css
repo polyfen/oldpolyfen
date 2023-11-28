@@ -59,7 +59,7 @@ small.section-number {
   flex-wrap: nowrap;
   padding-top: 1.5px;
   font-weight: 700;
-  font-family: BiotifBold;
+  font-family: 'Biotifbold', helvetica, arial, sans-serif;
 }
 
 .centered-image-container {
@@ -154,7 +154,7 @@ li strong {
 }
 
 nav a {
-  font-family: BiotifMedium;
+  font-family: 'BiotifMedium', helvetica, arial, sans-serif;
 }
 
 /*@font-feature-values "BiotifExtraBold", "BiotifBold", "BiotifMedium" { 
@@ -1375,7 +1375,7 @@ div#cookies-modal button {
   border-color: #00000052;
   background: rgba(255, 255, 255, 0.508);
   font-size: 0.9rem;
-  font-family: 'BiotifMedium';
+  font-family: 'BiotifMedium', helvetica, arial, sans-serif;
   border-width: 2px;
 }
 
@@ -1850,6 +1850,64 @@ section#how-we-do-it div.grid div:nth-child(3) {
 
 /*Accordion end*/
 
+/* board team */
+
+.board-cards {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  gap: 60px;
+  padding-bottom: 30px;
+  padding-inline: 40px;
+}
+
+.board-card {
+  text-align: center;
+  margin-top: 86px;
+  scroll-snap-align: center;
+  min-width: 230px;
+}
+
+.board-card p {
+  font-family: 'BiotifMedium', helvetica, arial, sans-serif;
+}
+
+.board-card p:first-of-type {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.board-card p:last-of-type {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.board-card a small {
+  font-size: 16px;
+  font-weight: 500;
+}
+.board-card img {
+ max-width: 160px;
+ margin-bottom: 32px;
+}
+
+.width100 {
+  width: 100%;
+  padding: unset;
+}
+@media  (min-width: 920px) {
+  .board-card {
+    min-width: unset;
+  }
+}
+@media (min-width: 768px) {
+  .board-cards {
+    gap: 30px;
+    padding-inline: unset;
+  }
+}
 /*///////////// ABOUT END /////////////*/
 
 /*///////////// CONTACT START /////////////*/
