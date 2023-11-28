@@ -15,7 +15,7 @@
     <meta name="keywords"
         content="Creative agency, Development agency, Zagreb, Croatia, Austin, US, USA, Mar del Plata, Argentina, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI" />
     <meta name="description" property="og:description"
-        content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018." />
+        content="Fully remote creative &amp; development agency transforming businesses with exceptional digital experiences since 2018." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/about-meta.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -25,7 +25,7 @@
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="About" />
     <meta name="twitter:description"
-        content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018." />
+        content="Fully remote creative &amp; development agency transforming businesses with exceptional digital experiences since 2018." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/about-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
@@ -79,27 +79,27 @@
             <div class="board-cards">
 
                 <div class="board-card">
-                    <img src="imgs/board-team/boris.webp" alt="Picture of Founder & Art Director" class="board-card-img">
-                    <p>Boris Hrnčić</p>
-                    <p>Founder & Art Director</p>
+                    <img src="imgs/board-team/boris.webp" alt="Picture of Founder &amp; Art Director" class="board-card-img">
+                    <h4>Boris Hrnčić</h4>
+                    <small>Founder &amp; Art Director</small>
                     <a href="https://www.linkedin.com/in/borishr/"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
-                    <img src="imgs/board-team/rod.webp" alt="Picture of Tech & Develpment Advisor" class="board-card-img">
-                    <p>Rodrigo Gatica</p>
-                    <p>Sales & Operations Advisor</p>
+                    <img src="imgs/board-team/rod.webp" alt="Picture of Tech &amp; Develpment Advisor" class="board-card-img">
+                    <h4>Rodrigo Gatica</h4>
+                    <small>Sales &amp; Operations Advisor</small>
                     <a href="https://www.linkedin.com/in/rodrigo-gatica"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
-                    <img src="imgs/board-team/mati.webp" alt="Picture of Sales & Operator Advisor" class="board-card-img">
-                    <p>Matías Sanchez</p>
-                    <p>Tech & Development Advisor</p>
+                    <img src="imgs/board-team/mati.webp" alt="Picture of Sales &amp; Operator Advisor" class="board-card-img">
+                    <h4>Matías Sanchez</h4>
+                    <small>Tech &amp; Development Advisor</small>
                     <a href="https://www.linkedin.com/in/matysanchez/"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
-                    <img src="imgs/board-team/joaquin.webp" alt="Picture of Research & Strastegy Advisor" class="board-card-img">
-                    <p>Joaquin Carrascosa</p>
-                    <p>Research & Strastegy Advisor</p>
+                    <img src="imgs/board-team/joaquin.webp" alt="Picture of Research &amp; Strastegy Advisor" class="board-card-img">
+                    <h4>Joaquin Carrascosa</h4>
+                    <small>Research &amp; Strastegy Advisor</small>
                     <a href="https://www.linkedin.com/in/joaquin-carrascosa91/"><small>Linkedin</small></a>
                 </div>
         </section>

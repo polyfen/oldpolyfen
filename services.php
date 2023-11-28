@@ -98,8 +98,8 @@
               <li>UI design</li>
               <li>Accessibility checklist</li>
               <li>Programming</li>
-              <li>W3C & WACCAG Conformity</li>
-              <li>GDPR & Privacy Protection Compliance</li>
+              <li>W3C &amp; WACCAG Conformity</li>
+              <li>GDPR &amp; Privacy Protection Compliance</li>
               <li>QA</li>
               <li>Deployment</li>
             </ul>
@@ -121,7 +121,7 @@
             <li>Packaging</li>
             <li>UX Audit</li>
             <li>UX/UI Design</li>
-            <li>Software & Web Development</li>
+            <li>Software &amp; Web Development</li>
             <li>Pitch Decks &amp; Presentations</li>
             <li>Social Media Marketing</li>
             <li>Email Marketing</li>
@@ -129,8 +129,8 @@
             <li>Lead Generation</li>
             <li>SEO Audit</li>
             <li>SEO Strategy</li>
-            <li>W3C & WACCAG Conformity</li>
-            <li>GDPR & Privacy Protection Compliance</li>
+            <li>W3C &amp; WACCAG Conformity</li>
+            <li>GDPR &amp; Privacy Protection Compliance</li>
           </ul>
         </section>
       </section>
