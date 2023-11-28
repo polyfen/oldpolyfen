@@ -81,25 +81,25 @@
                 <div class="board-card">
                     <img src="imgs/board-team/boris.webp" alt="Picture of Founder &amp; Art Director" class="board-card-img">
                     <h4>Boris Hrnčić</h4>
-                    <small>Founder &amp; Art Director</small>
+                    <h5>Founder &amp; Art Director</h5>
                     <a href="https://www.linkedin.com/in/borishr/"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
                     <img src="imgs/board-team/rod.webp" alt="Picture of Tech &amp; Develpment Advisor" class="board-card-img">
                     <h4>Rodrigo Gatica</h4>
-                    <small>Sales &amp; Operations Advisor</small>
+                    <h5>Sales &amp; Operations Advisor</h5>
                     <a href="https://www.linkedin.com/in/rodrigo-gatica"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
                     <img src="imgs/board-team/mati.webp" alt="Picture of Sales &amp; Operator Advisor" class="board-card-img">
                     <h4>Matías Sanchez</h4>
-                    <small>Tech &amp; Development Advisor</small>
+                    <h5>Tech &amp; Development Advisor</h5>
                     <a href="https://www.linkedin.com/in/matysanchez/"><small>Linkedin</small></a>
                 </div>
                 <div class="board-card">
                     <img src="imgs/board-team/joaquin.webp" alt="Picture of Research &amp; Strastegy Advisor" class="board-card-img">
                     <h4>Joaquin Carrascosa</h4>
-                    <small>Research &amp; Strastegy Advisor</small>
+                    <h5>Research &amp; Strastegy Advisor</h5>
                     <a href="https://www.linkedin.com/in/joaquin-carrascosa91/"><small>Linkedin</small></a>
                 </div>
         </section>

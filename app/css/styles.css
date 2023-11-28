@@ -1789,7 +1789,6 @@ section#how-we-do-it div.grid div:nth-child(3) {
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
-  gap: 60px;
   padding-bottom: 30px;
   padding-inline: 40px;
 }
@@ -1799,20 +1798,6 @@ section#how-we-do-it div.grid div:nth-child(3) {
   margin-top: 86px;
   scroll-snap-align: center;
   min-width: 230px;
-}
-
-.board-card p {
-  font-family: 'BiotifMedium', helvetica, arial, sans-serif;
-}
-
-.board-card p:first-of-type {
-  font-size: 24px;
-  margin-bottom: 4px;
-}
-
-.board-card p:last-of-type {
-  font-size: 16px;
-  margin-bottom: 10px;
 }
 
 .board-card a small {
@@ -1830,16 +1815,11 @@ section#how-we-do-it div.grid div:nth-child(3) {
   padding: unset;
 }
 @media  (min-width: 920px) {
-  .board-card {
-    min-width: unset;
-  }
-}
-@media (min-width: 768px) {
   .board-cards {
-    gap: 30px;
-    padding-inline: unset;
+    justify-content: center;
   }
-}
+} 
+
 /*///////////// ABOUT END /////////////*/
 
 /*///////////// CONTACT START /////////////*/
