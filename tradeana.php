@@ -62,7 +62,9 @@
       <div class="container-1080 hiddenHeader">
 
         <h1 class="heading-1 align-center">Tradeana</h1>
-
+        <p class="project-p">Tradeana's patented software, Forex Risk Engine™,
+          is designed by traders for traders to help them efficiently audit and
+          manage the risk of their ForEx operations.</p>
         <div id="slider-container">
           <div class="slider lazy">
             

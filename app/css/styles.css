@@ -1242,6 +1242,19 @@ div.other-project-card p {
   max-width: 480px;
 }
 
+.project-p {
+  width: 100%;
+  max-width: 525px;
+  text-align: left;
+  margin-inline: auto;
+  text-wrap: balance;
+}
+@supports (text-wrap: pretty) {
+  .project-p {
+  text-wrap: pretty;
+  }}
+
+
 @media (min-width:576px) {
 
   div.other-project-card {
