@@ -116,7 +116,7 @@
         
         <hr>
 
-        <section id="about-intro" class="container">
+        <section id="polyatlas-section" class="container">
           <h3 class="heading-2 heading-2 align-center hidden">We wrote the book<br>
                                                               on branding</h3>
           <div class="column-to-row hidden">
@@ -126,6 +126,10 @@
             <div class="one-half hidden">
               <p>A step-by-step guide to the Branding process including practical tips,
                 case studies, template files, and many other useful resources.</p>
+              <a href="https://polyatlas.wiki/" target="_blank">
+                <small>polyatlas.wiki</small>
+              </a>
+
             </div>
           </div>
         </section>

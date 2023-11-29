@@ -1821,7 +1821,7 @@ section#how-we-do-it div.grid div:nth-child(3) {
 
 /*///////////// ABOUT START /////////////*/
 
-#what-sets-us-apart p {
+#about p {
   text-wrap: balance;
 }
 
@@ -1860,6 +1860,10 @@ section#how-we-do-it div.grid div:nth-child(3) {
 
 .active:after {
   content: "\2212";
+}
+
+#polyatlas-section a {
+  font-size: 22px;
 }
 
 /*Accordion end*/
