@@ -58,7 +58,7 @@
     <!-- ABOUT start -->
     <main id="about">
 
-        <section id="about-intro" class="container-1080">
+        <section id="about-intro" class="container">
             <h1 class="caption align-center hiddenHeader">About</h1>
             <h2 class="heading-1 align-center hiddenHeader">Where business &amp; creativity come together</h2>
             <div class="column-to-row">
