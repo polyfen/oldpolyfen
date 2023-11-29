@@ -74,7 +74,7 @@
         </section>
 
         <hr>
-        <section class="container-1080 width100">
+        <section class="container-1080 width-100p">
             <h3 class="heading-2 align-center hidden">Meet our board</h3>
             <div class="board-cards hidden">
 

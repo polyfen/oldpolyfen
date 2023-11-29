@@ -1831,10 +1831,10 @@ section#how-we-do-it div.grid div:nth-child(3) {
  border-radius: 4px;
 }
 
-.width100 {
+.width-100p {
   width: 100%;
   padding: unset;
-}
+} /* hay qe borrar cuando ya este en polynucleus*/
 
 @media (max-width: 450px) {
   .board-card.hidden {
