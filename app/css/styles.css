@@ -1392,7 +1392,7 @@ div#boris-hrncic img.portrait {
   max-width: 180px;
   height: auto;
   border-radius: 4px;
-  filter: grayscale(100%);
+/*   filter: grayscale(100%); */
   margin-bottom: 20px;
   -webkit-transform: scale(1);
   transform: scale(1);

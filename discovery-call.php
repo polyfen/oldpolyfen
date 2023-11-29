@@ -62,7 +62,7 @@
       <div id="boris-hrncic-container">
         <div id="boris-hrncic">
           <div class="portrait">
-            <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+            <img id="boris-portrait" src="imgs/board-team/boris.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
           </div>
           <div class="bio">
             <h5>Boris Hrnčić</h5>
