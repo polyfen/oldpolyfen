@@ -1820,6 +1820,20 @@ section#how-we-do-it div.grid div:nth-child(3) {
 
 
 /*///////////// ABOUT START /////////////*/
+
+#about p {
+  text-wrap: balance;
+}
+
+#about-intro h3 {
+  margin-bottom: 48px;
+}
+
+@supports (text-wrap: pretty) {
+  #what-sets-us-apart p {
+  text-wrap: pretty;
+  }}
+  
 /*Accordion start*/
 .acc-button {
   cursor: pointer;
@@ -1846,6 +1860,10 @@ section#how-we-do-it div.grid div:nth-child(3) {
 
 .active:after {
   content: "\2212";
+}
+
+#polyatlas-section a {
+  font-size: 22px;
 }
 
 /*Accordion end*/
