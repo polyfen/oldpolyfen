@@ -121,7 +121,7 @@
                                                               on branding</h3>
           <div class="column-to-row hidden">
             <div class="one-half hidden">
-              <img src="imgs/about/screen-plat.webp">
+              <img src="imgs/about/poly-atlas-animation.gif">
             </div>
             <div class="one-half hidden">
               <p>A step-by-step guide to the Branding process including practical tips,
