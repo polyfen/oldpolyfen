@@ -105,12 +105,12 @@
       <hr>
 
       <section class="hidden">
-      <h2 class="heading-1 align-center">Give your business<br>the glow up it needs</h2>
-      <div id="final-cta-container" class="align-center">
-        <a href="#calendly">
-          <div id="final-cta" class="opal opal-rainbow-soft"><div class="opal-solid"><div  class="opal-mask">↑ Schedule a Call ↑</div></div></div>
-        </a>
-      </div>
+        <h2 class="heading-1 align-center">Give your business<br>the glow up it needs</h2>
+        <div id="final-cta-container" class="align-center">
+          <a href="#calendly">
+            <div id="final-cta" class="opal opal-rainbow-soft" style="border: 2px solid #7537f8;"><div class="opal-solid"><div class="opal-mask" style="background:none;">↑ Schedule a Call ↑</div></div></div>
+          </a>
+        </div>
       </section>
 
     </div>
