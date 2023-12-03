@@ -175,14 +175,18 @@
 
       <!-- new Grid section start -->
 
-      <section class="container-900 grid-box">
-        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/crossfit-abyss.webp"></div>
-        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/mandala.webp"></div>
-        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/magusvalge.webp"></div>
-        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/magusvalge-packaging.webp"></div>
-        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/domingo.webp"></div>
+      <section class="container-1080 grid-box" style="max-width: 1400px;">
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/podcasttoapp-app.png"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/metas-investments-business-cards.png"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/hemingway-distillery-whiskey-bottle.png"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/prepkanga-stationary.webp"></div>
-        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/the-barn-packaging.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/the-barn-packaging.png"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/health-and-travel-stationary.png"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/soma.jpeg"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/domingo.webp"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/altirand-ios-app-icon.png"></div>  
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/magusvalge-menu.png"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/mare-totebag.png"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/photographers-website.webp"></div>
       </section>
 

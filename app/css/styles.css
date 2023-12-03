@@ -538,31 +538,47 @@ body#home div.container-1080 {
   }
 
   .grid-item:nth-child(2) {
-    transition-delay: 300ms;
+    transition-delay: 250ms;
   }
 
   .grid-item:nth-child(3) {
-    transition-delay: 400ms;
+    transition-delay: 300ms;
   }
 
   .grid-item:nth-child(4) {
-    transition-delay: 500ms;
+    transition-delay: 350ms;
   }
 
   .grid-item:nth-child(5) {
-    transition-delay: 600ms;
+    transition-delay: 400ms;
   }
 
   .grid-item:nth-child(6) {
-    transition-delay: 700ms;
+    transition-delay: 450ms;
   }
 
   .grid-item:nth-child(7) {
-    transition-delay: 800ms;
+    transition-delay: 500ms;
   }
 
   .grid-item:nth-child(8) {
-    transition-delay: 900ms;
+    transition-delay: 550ms;
+  }
+
+  .grid-item:nth-child(9) {
+    transition-delay: 600ms;
+  }
+
+  .grid-item:nth-child(10) {
+    transition-delay: 650ms;
+  }
+
+  .grid-item:nth-child(11) {
+    transition-delay: 700ms;
+  }
+
+  .grid-item:nth-child(12) {
+    transition-delay: 750ms;
   }
 
 
