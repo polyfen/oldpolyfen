@@ -181,8 +181,8 @@
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/hemingway-distillery-whiskey-bottle.png"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/prepkanga-stationary.webp"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/the-barn-packaging.png"></div>
+        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/soma-iphone-app.png"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/health-and-travel-stationary.png"></div>
-        <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/soma.jpeg"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/domingo.webp"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/altirand-ios-app-icon.png"></div>  
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/magusvalge-menu.png"></div>
