@@ -1830,6 +1830,14 @@ section#how-we-do-it div.grid div:nth-child(3) {
     justify-items: start;
   }
 }
+/*//// Testimonials////*/
+.testimonial {
+  display: flex;
+   padding-block: 30px;
+}
+.testimonial img {
+  margin-right: 30px;
+}
 
 /*///////////// SERVICES END /////////////*/
 
