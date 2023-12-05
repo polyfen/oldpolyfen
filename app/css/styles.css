@@ -1409,6 +1409,7 @@ div#cookies-modal.cookies-d-none {
   display: none !important;
 }
 
+
 /*///////////// COOKIES MODAL END /////////////*/
 
 /*///////////// LANDING PAGES START /////////////*/
@@ -1701,6 +1702,9 @@ button#accept-cookies-button:hover:before {
   background-image: url('../../imgs/thumbs-up-solid-white.svg');
 }
 
+#cookies-modal {
+  transition: bottom 0.5s ease;
+}
 /*///////////// COOKIES MODAL END /////////////*/
 
 
