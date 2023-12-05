@@ -68,11 +68,11 @@
             </a>
           </div>
           <div class="background">
-            <div id="pearl-11" class="pearl rotate-slower">
+            <div id="pearl-11" class="pearl hiddenHeader rotate-slower">
             </div>
-            <div id="pearl-12" class="pearl rotate">
+            <div id="pearl-12" class="pearl hiddenHeader rotate">
             </div>
-            <div id="pearl-13" class="pearl rotate">
+            <div id="pearl-13" class="pearl hiddenHeader rotate">
             </div>
           </div>
         </div>

@@ -581,8 +581,23 @@ body#home div.container-1080 {
     transition-delay: 750ms;
   }
 
+}
+/*//////>>> pearls & subtle animation */
 
-
+#pearl-11 {
+  transition-property: opacity;
+  transition-duration: 1500ms; 
+  transition-delay: 1000ms; 
+}
+#pearl-12 {
+  transition-property: opacity;
+  transition-duration: 1000ms; 
+  transition-delay: 2000ms; 
+}
+#pearl-13 {
+  transition-property: opacity;
+  transition-duration: 700ms; 
+  transition-delay: 3000ms; 
 }
 
 
