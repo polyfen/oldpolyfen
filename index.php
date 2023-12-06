@@ -175,7 +175,7 @@
 
       <!-- new Grid section start -->
 
-      <section class="container-1080 grid-box" style="max-width: 1400px;">
+      <section class="container-1080 grid-box">
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/podcasttoapp-app.png"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/metas-investments-business-cards.png"></div>
         <div class="grid-item hidden"><img alt="" src="imgs/activity-cads/hemingway-distillery-whiskey-bottle.png"></div>
