@@ -1,15 +1,24 @@
-  window.onscroll = function() { scrollFunction() };
+window.onscroll = function () { scrollFunction() };
 
-  function scrollFunction() {
-    let modal = document.getElementById("cookies-modal");
-    let scrollDistanceFromBottom = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
+function scrollFunction() {
+  let modal = document.getElementById("cookies-modal");
+  let scrollDistanceFromBottom = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
 
-    if (scrollDistanceFromBottom <= 140) {
+  if (window.innerWidth >= 1100) {
+    if (scrollDistanceFromBottom <= 80) {
       modal.style.bottom = "140px";
-      console.log("llegue!")
     } else {
       modal.style.bottom = "20px";
     }
+  } else if (window.innerWidth < 675) {
+    if (scrollDistanceFromBottom <= 180) {
+      modal.style.bottom = "220px";
+    } else {
+      modal.style.bottom = "20px";
+    }
+  } else if (window.innerWidth < 1100 && window.innerWidth >= 700 ) {
+    modal.style.bottom = "20px";
   }
+}
 
-  console.log("modal-position.js loaded");
+console.log("modal-position.js loaded");
