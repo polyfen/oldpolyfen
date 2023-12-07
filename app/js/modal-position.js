@@ -12,7 +12,8 @@ function scrollFunction() {
     }
   } else if (window.innerWidth < 675) {
     if (scrollDistanceFromBottom <= 180) {
-      modal.style.bottom = "220px";
+     let dynamicBottom = 220 - scrollDistanceFromBottom; 
+      modal.style.bottom = dynamicBottom + "px";
     } else {
       modal.style.bottom = "20px";
     }
