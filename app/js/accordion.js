@@ -14,4 +14,4 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
-console.log("hellohello2");
+console.log("say hello to my little friend");
