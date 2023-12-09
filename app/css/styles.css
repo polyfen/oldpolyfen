@@ -1567,6 +1567,11 @@ div.testimonial {
   max-width: 600px;
   margin-bottom: 40px;
 }
+@media (max-width:648px){
+.bio {
+  margin-bottom: 66px;
+}
+}
 
 @media (min-width:768px) {
 
@@ -1831,11 +1836,12 @@ section#how-we-do-it div.grid div:nth-child(3) {
   }
 }
 /*//// Testimonials////*/
-.testimonial {
+section.testimonial {
   display: flex;
    padding-block: 30px;
+   align-items: center;
 }
-.testimonial img {
+section.testimonial img {
   margin-right: 30px;
 }
 
