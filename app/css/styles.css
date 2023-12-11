@@ -471,37 +471,40 @@ body#home div.container-1080 {
 
 /*///////// New Grid Section //////////*/
 
-.grid-box {
-  display: grid;
-  justify-items: center;
+.activity-box {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   margin-bottom: 150px;
   max-width: 1400px;
 }
-@media (min-width: 450px) {
-  .grid-box { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}}
 
-.grid-item {
-  width: 100%;
+.activity-item {
+  width: min(240px,48.624%);
   border-radius: 4px;
 }
 
-.grid-item img {
+@media (min-width: 1025px) {
+  .activity-item {
+    max-width: 226.663px;
+  }
+}
+
+
+.activity-item img {
   display: block;
   border-radius: 4px;
   width: 100%;
 }
 
 /*
-.grid-box .grid-item:nth-child(n + 5) {
+.activity-box .activity-item:nth-child(n + 5) {
   display: none;
 }
 
 @media (min-width: 450px) {
-  .grid-box .grid-item:nth-child(n + 5) {
+  .activity-box .activity-item:nth-child(n + 5) {
     display: unset;
   }
 } */
@@ -533,57 +536,57 @@ body#home div.container-1080 {
 
 /*/>>> new grid & subtle animation */
 
-.grid-item {
+.activity-item {
   transition-delay: unset;
 }
 
 @media (min-width: 450px) {
 
-  .grid-item:nth-child(1) {
+  .activity-item:nth-child(1) {
     transition-delay: 200ms;
   }
 
-  .grid-item:nth-child(2) {
+  .activity-item:nth-child(2) {
     transition-delay: 250ms;
   }
 
-  .grid-item:nth-child(3) {
+  .activity-item:nth-child(3) {
     transition-delay: 300ms;
   }
 
-  .grid-item:nth-child(4) {
+  .activity-item:nth-child(4) {
     transition-delay: 350ms;
   }
 
-  .grid-item:nth-child(5) {
+  .activity-item:nth-child(5) {
     transition-delay: 400ms;
   }
 
-  .grid-item:nth-child(6) {
+  .activity-item:nth-child(6) {
     transition-delay: 450ms;
   }
 
-  .grid-item:nth-child(7) {
+  .activity-item:nth-child(7) {
     transition-delay: 500ms;
   }
 
-  .grid-item:nth-child(8) {
+  .activity-item:nth-child(8) {
     transition-delay: 550ms;
   }
 
-  .grid-item:nth-child(9) {
+  .activity-item:nth-child(9) {
     transition-delay: 600ms;
   }
 
-  .grid-item:nth-child(10) {
+  .activity-item:nth-child(10) {
     transition-delay: 650ms;
   }
 
-  .grid-item:nth-child(11) {
+  .activity-item:nth-child(11) {
     transition-delay: 700ms;
   }
 
-  .grid-item:nth-child(12) {
+  .activity-item:nth-child(12) {
     transition-delay: 750ms;
   }
 
