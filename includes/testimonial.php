@@ -4,11 +4,10 @@
     <figure class="testimonial">
         <img src="/imgs/testimonials/metas-storie.webp " height="200" width="200">
         <blockquote>
-            <ul class="hanging-list">
-                <li>Always a pleasure working with them</li>
-                <li>They are very professional and always deliver on time</li>
-                <li>Their work always exceeds expectations</li>
-            </ul>
+            <p>
+            Always a pleasure working with them. They are very professional
+            and always deliver on time. Their work always exceeds expectations
+            </p>
             <figcaption>
                 <img src="/imgs/testimonials/carlos-storie.webp" height="36" width="36">
                 <small>Carlos Flores, CEO of Metas Investments</small>
