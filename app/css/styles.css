@@ -1839,7 +1839,7 @@ section#how-we-do-it div.grid div:nth-child(3) {
 figure.testimonial {
   display: flex;
    padding-block: 30px;
-   align-items: flex-end;
+   align-items: center;
 }
 
 figure.testimonial img {
@@ -1854,6 +1854,7 @@ figure.testimonial blockquote ul {
 
 figure.testimonial blockquote {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 figure.testimonial figcaption {
@@ -1863,6 +1864,14 @@ figure.testimonial figcaption {
 
 figure.testimonial figcaption small {
   font-size: 13px;
+}
+
+
+@media (max-width: 640px) {
+  figure.testimonial {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 /*///////////// SERVICES END /////////////*/
 
