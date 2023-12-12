@@ -197,7 +197,8 @@
           <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45px">
         </div>
       </section>
-
+      <hr>
+      <?php include 'includes/testimonial.php';?>
       </main>
       <!-- SERVICES end -->
 

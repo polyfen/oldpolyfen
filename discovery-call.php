@@ -86,13 +86,14 @@
 
     <hr>
 
-    <div class="container-1080 hidden" style="margin-top:0 !important;">
+    <?php include 'includes/testimonial.php';?>
+<!--     <div class="container-1080 hidden" style="margin-top:0 !important;">
 
       <section class="container">
           <blockquote>It is always a pleasure working with Boris. This is my third time working with him. He has helped me with logos, branding, and website design. Boris always has a strong focus on client service, he provides consistent and valuable feedback, and his work always exceed expectations. I look forward to working with Boris on more projects! <br />&mdash; Carlos Flores</blockquote>
           <blockquote>Boris is a highly comprehensive person. When I hired him and his agency to work on a brand identity we had a one-hour call where I explain all my vision and my ideas for the design and the brand. The final result was really great and had tons of assets to use in different display formats. Thank you Boris for your hard work and for giving a beautiful brand identity to our business, we are super happy with our brand!<br />&mdash; Matias Sanchez Moises</blockquote>
           <blockquote>Boris has excellent skills and talent when discussing management, design, and branding. He presents us with several branding drafts and ideas that we can work on in our branding size, which is incredible. We had the opportunity to choose the best design that could fit our project, and finally, we had our branding.<br />&mdash; Cesar Ramos</blockquote>
-  </section>
+  </section> -->
 
       <div id="final-cta-container" class="align-center">
         <a href="#calendly">

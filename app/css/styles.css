@@ -1592,6 +1592,11 @@ div.testimonial {
   max-width: 600px;
   margin-bottom: 40px;
 }
+@media (max-width:648px){
+.bio {
+  margin-bottom: 66px;
+}
+}
 
 @media (min-width:768px) {
 
@@ -1858,7 +1863,44 @@ section#how-we-do-it div.grid div:nth-child(3) {
     justify-items: start;
   }
 }
+/*//// Testimonials////*/
+figure.testimonial {
+  display: flex;
+   padding-block: 30px;
+   align-items: center;
+}
 
+figure.testimonial img {
+  margin-right: 11px;
+}
+
+figure.testimonial blockquote p,
+figure.testimonial blockquote ul {
+  margin-bottom: 26px;
+  font-size: 25px;
+}
+
+figure.testimonial blockquote {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+figure.testimonial figcaption {
+  display: flex;
+  align-items: center;
+}
+
+figure.testimonial figcaption small {
+  font-size: 13px;
+}
+
+
+@media (max-width: 640px) {
+  figure.testimonial {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 /*///////////// SERVICES END /////////////*/
 
 
