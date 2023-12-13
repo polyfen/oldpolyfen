@@ -1870,10 +1870,6 @@ figure.testimonial {
    align-items: center;
 }
 
-figure.testimonial img {
-  margin-right: 11px;
-}
-
 figure.testimonial blockquote p,
 figure.testimonial blockquote ul {
   margin-bottom: 26px;
@@ -1899,6 +1895,7 @@ figure.testimonial figcaption small {
   figure.testimonial {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 }
 /*///////////// SERVICES END /////////////*/
