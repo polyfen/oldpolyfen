@@ -11,7 +11,6 @@ function ajustarPaddingFooter() {
         const estadoActual = window.getComputedStyle(cookiesModal).display;
 
         if (estadoActual !== estadoAnterior) {
-            console.log("66");
             footer.style.paddingBottom = estadoActual !== "none" ? "150px" : "20px";
             estadoAnterior = estadoActual;
             console.log("el ultimo" + estadoAnterior);
@@ -41,7 +40,6 @@ if (window.innerWidth <= 700) {
         console.log("3");
         buttonListener();
         console.log("button2");
-        /* clearInterval(interval); */
         ajustarPaddingFooter(); // Ajustamos el padding cuando se carga la página
     });
 }
