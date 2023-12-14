@@ -91,21 +91,6 @@ crossorigin="anonymous"></script>
 
 </script>
 
-<!-- <script> // Lo estoy modificando, por que el ELSE estaria funcionando tmb en pantallas chicas, le agrege otro IF 
-    $(function() {
-    var nav = $(".nav");
-    $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-    
-        if (scroll >= 60 && $(window).width() > 768) {
-            nav.removeClass('position-absolute').addClass("position-fixed");
-        } else {
-            nav.removeClass("position-fixed").addClass('position-absolute');
-        }
-    });
-});
-</script> -->
-
 <!-- Scroll to Anchor link -->
 <script>
 $(document).on('click', 'a[href^="#"]', function (event) {
@@ -128,3 +113,4 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 <script defer src="app/js/subtle.js"></script>
 <script defer src="app/js/accordion.js"></script>
 <script defer src="app/js/modal-position.js"></script>
+<script defer src="app/js/scrollfooter.js"></script>

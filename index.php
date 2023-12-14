@@ -191,11 +191,6 @@
       </section>
 
 
-
-
-
-
-
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
@@ -207,6 +202,6 @@
       <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
-  </body>
+</body>
 
 </html>
