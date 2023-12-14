@@ -1,9 +1,9 @@
-var acc = document.getElementsByClassName("acc-button");
-var i;
+let acc = document.getElementsByClassName("acc-button");
+let i;
 for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
         this.classList.toggle("active");
-        var panel = this.nextElementSibling;
+        let panel = this.nextElementSibling;
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
         }
@@ -14,4 +14,4 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
-console.log("say hello to my little friend");
+console.log("accordion.js loaded");
