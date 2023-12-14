@@ -24,7 +24,7 @@ if (window.innerWidth <= 700) {
     document.addEventListener('modalCambio', ajustarPaddingFooter);
 
     window.addEventListener('load', function () {
-        clearInterval(interval);
+        /* clearInterval(interval); */
         ajustarPaddingFooter(); // Ajustamos el padding cuando se carga la página
     });
 }
