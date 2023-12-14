@@ -1965,10 +1965,18 @@ form#contact-form {
 form#contact-form input,
 form#contact-form textarea {
   margin-top: 2px;
-  margin-bottom: 16px;
-  color: #444;
+  margin-bottom: 20px;
   font-family: 'freight-text-pro', serif;
   padding: 8px;
+  background: #060924;
+  color: white;
+  border: 1px solid #7637f9;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form#contact-form textarea {
+  height: 160px;
 }
 
 /* form#contact-form input.button {
