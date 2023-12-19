@@ -148,7 +148,7 @@
             document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" 
             onmouseout="document.getElementById('bike-in-mex-button').className='';
             document.getElementById('bike-in-mex-cover').className='project-cover';">
-            <a href="/bike-in-mex.php">
+            <a href="/bike-in-mex">
                 <figure>
                   <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex">
                 </figure>
@@ -157,7 +157,7 @@
             <h3 class="heading-2">Bike in Mex</h3>
             <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
       
-            <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
+            <a href="/bike-in-mex" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
             onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
               <button id='bike-in-mex-button'>View project</button>
             </a>
@@ -170,14 +170,14 @@
             document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
             onmouseout="document.getElementById('villa-terezija-button').className='';
             document.getElementById('villa-terezija-cover').className='project-cover';">
-              <a href="/villa-terezija.php">
+              <a href="/villa-terezija">
                 <figure>
                   <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
                 </figure>
               </a>
             <h3 class="heading-2">Villa Terezija</h3>
             <p>A touristic accommodation surrounded by a stunning rose garden.</p>
-            <a href="/villa-terezija.php">
+            <a href="/villa-terezija">
               <button id="villa-terezija-button">View project</button>
             </a>
             </div>

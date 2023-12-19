@@ -142,7 +142,7 @@
             document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" 
             onmouseout="document.getElementById('bike-in-mex-button').className='';
             document.getElementById('bike-in-mex-cover').className='project-cover';">
-            <a href="/bike-in-mex.php">
+            <a href="/bike-in-mex">
                 <figure>
                   <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy" alt="Bike in Mex">
                 </figure>
@@ -151,7 +151,7 @@
             <h3 class="heading-2">Bike in Mex</h3>
             <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.</p>
       
-            <a href="/bike-in-mex.php" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
+            <a href="/bike-in-mex" onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
             onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
               <button id='bike-in-mex-button' class="">View project</button>
             </a>
@@ -164,14 +164,14 @@
             document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" 
             onmouseout="document.getElementById('tradeana-button').className='';
             document.getElementById('tradeana-cover').className='project-cover';">
-              <a href="/tradeana.php">
+              <a href="/tradeana">
                 <figure>
                   <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
                 </figure>
               </a>
               <h3 class="heading-2">Tradeana</h3>
               <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-              <a href="/tradeana.php">
+              <a href="/tradeana">
                 <button id="tradeana-button">View project</button>
               </a>
             </div>

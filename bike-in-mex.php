@@ -123,14 +123,14 @@
             onmouseout="document.getElementById('tradeana-button').className='';
             document.getElementById('tradeana-cover').className='project-cover';">
               
-              <a href="/tradeana.php">
+              <a href="/tradeana">
                 <figure>
                   <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
                 </figure>
               </a>
               <h3 class="heading-2">Tradeana</h3>
               <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-              <a href="/tradeana.php">
+              <a href="/tradeana">
                 <button id="tradeana-button">View project</button>
               </a>
             </div>
@@ -143,14 +143,14 @@
             document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" 
             onmouseout="document.getElementById('villa-terezija-button').className='';
             document.getElementById('villa-terezija-cover').className='project-cover';">
-              <a href="/villa-terezija.php">
+              <a href="/villa-terezija">
                 <figure>
                   <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy" alt="Villa Terezija">
                 </figure>
               </a>
             <h3 class="heading-2">Villa Terezija</h3>
             <p>A touristic accommodation surrounded by a stunning rose garden.</p>
-            <a href="/villa-terezija.php">
+            <a href="/villa-terezija">
               <button id="villa-terezija-button">View project</button>
             </a>
             </div>
