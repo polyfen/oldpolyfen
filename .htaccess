@@ -231,18 +231,6 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ 
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
 RewriteRule ^github$ "http\:\/\/github\.com\/orgs\/polyfen\/repositories" [R=301,L]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
-# Redirección si hay una barra al final
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)/$ /$1 [L,R=301]
-
-# Redirección para agregar .php a las solicitudes sin barra final
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # This domain inherits the “PHP” package.
