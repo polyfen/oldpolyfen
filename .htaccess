@@ -234,6 +234,13 @@ RewriteRule ^github$ "http\:\/\/github\.com\/orgs\/polyfen\/repositories" [R=301
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
+# Redirección si hay una barra al final
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+
+
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # This domain inherits the “PHP” package.
 # php -- END cPanel-generated handler, do not edit
