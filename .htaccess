@@ -238,7 +238,10 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)/$ /$1 [L,R=301]
 
-
+# Redirección para agregar .php a las solicitudes sin barra final
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 
 # php -- BEGIN cPanel-generated handler, do not edit
