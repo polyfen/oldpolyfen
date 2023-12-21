@@ -1884,6 +1884,7 @@ figure.testimonial blockquote {
 figure.testimonial figcaption {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 figure.testimonial figcaption small {
