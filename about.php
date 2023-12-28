@@ -134,13 +134,13 @@
         </section>
         <hr>
         <section id="polycookies-section" class="container">
-          <h3 class="heading-2 heading-2 align-center hidden">try our cookies modal</h3>
+          <h3 class="heading-2 heading-2 align-center hidden">We made a free solution to cookies consent</h3>
           <div class="column-to-row hidden">
             <div class="one-half hidden iframe">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="one-half hidden">
-              <p>Implementing Privacy Protection on your website is not just for legal compliance, it's about caring for your users.</p>
+              <p>We developed a simple open-source technology that helps websites comply with the privacy protection regulations like GDPR and the California Online Privacy Act.</p>
               <a href="https://https://polycookies.com/" target="_blank">
                 <small>polycookies.com</small>
               </a>
