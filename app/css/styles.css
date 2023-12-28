@@ -1944,12 +1944,24 @@ figure.testimonial figcaption small {
 .active:after {
   content: "\2212";
 }
+/*Accordion end*/
 
 #polyatlas-section a {
   font-size: 22px;
 }
+#polycookies-section .iframe {
+  aspect-ratio: 16/9;
+}
+#polycookies-section .iframe iframe {
+width: 100%;
+height: 100%;
+}
 
-/*Accordion end*/
+@media (min-width: 768px) {
+#polycookies-section div:first-of-type {
+  flex-direction: row-reverse;
+}}
+
 
 /*///////////// ABOUT END /////////////*/
 
