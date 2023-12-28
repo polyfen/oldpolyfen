@@ -1946,9 +1946,15 @@ figure.testimonial figcaption small {
 }
 /*Accordion end*/
 
-#polyatlas-section a {
+#polyatlas-section a, #polycookies-section a {
   font-size: 22px;
 }
+#polyatlas-section .align-center,
+#polycookies-section .align-center {
+  max-width: 500px;
+  margin-inline: auto;
+}
+
 #polycookies-section .iframe {
   aspect-ratio: 16/9;
 }
