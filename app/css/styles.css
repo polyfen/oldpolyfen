@@ -1953,6 +1953,7 @@ figure.testimonial figcaption small {
 #polycookies-section .align-center {
   max-width: 500px;
   margin-inline: auto;
+  margin-bottom: 80px;
 }
 
 #polycookies-section .iframe {

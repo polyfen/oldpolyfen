@@ -117,8 +117,7 @@
         <hr>
 
         <section id="polyatlas-section" class="container">
-          <h3 class="heading-2 align-center hidden">We wrote the book<br>
-                                                              on branding</h3>
+          <h3 class="heading-2 align-center hidden">We wrote the book on branding</h3>
           <div class="column-to-row hidden">
             <div class="one-half hidden">
               <img src="imgs/about/poly-atlas-animation.gif">
