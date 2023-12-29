@@ -298,6 +298,11 @@ header nav a:hover {
   fill: white;
 }
 
+.current-page {
+  color: red !important;
+}
+
+
 @media (min-width: 768px) {
   header nav.hamburger.nav {
     display: none;

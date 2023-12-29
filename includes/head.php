@@ -90,8 +90,24 @@ crossorigin="anonymous"></script>
     });
 
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let currentPage = window.location.pathname;
+    let navLinks = document.querySelectorAll('header nav a');
 
-<!-- Scroll to Anchor link -->
+    console.log("mis navLinks:", navLinks);
+    console.log("mis currentPages:", currentPage);
+    navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPage) {
+            link.classList.add('current-page');
+        }
+    })
+});
+</script>
+
+<!-- Navbar Scroll Script end -->
+
+<!-- Scroll to Anchor link (esto se puede resolver con css/scroll-behavior:smooth) -->
 <script>
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
