@@ -139,7 +139,7 @@
               <iframe width="560" height="315" src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="one-half hidden">
-              <p>We developed a simple open-source technology that helps websites comply with the privacy protection regulations like GDPR and the California Online Privacy Act.</p>
+              <p>We developed a simple open-source technology that helps websites comply with privacy protection regulations like GDPR and the California Online Privacy Act.</p>
               <a href="https://polycookies.com/" target="_blank">
                 <small>polycookies.com</small>
               </a>
