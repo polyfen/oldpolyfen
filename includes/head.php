@@ -94,9 +94,6 @@ crossorigin="anonymous"></script>
 document.addEventListener("DOMContentLoaded", function() {
     let currentPage = window.location.pathname;
     let navLinks = document.querySelectorAll('header nav a');
-
-    console.log("mis navLinks:", navLinks);
-    console.log("mis currentPages:", currentPage);
     navLinks.forEach(link => {
         if (link.getAttribute('href') === currentPage) {
             link.classList.add('current-page');

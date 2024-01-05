@@ -299,7 +299,7 @@ header nav a:hover {
 }
 
 .current-page {
-  color: red !important;
+  opacity: .4;
 }
 
 
