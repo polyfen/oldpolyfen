@@ -1953,7 +1953,7 @@ figure.testimonial figcaption small {
 #polycookies-section .align-center {
   max-width: 500px;
   margin-inline: auto;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 #polycookies-section .iframe {
@@ -1965,9 +1965,15 @@ height: 100%;
 }
 
 @media (min-width: 768px) {
-#polycookies-section div:first-of-type {
-  flex-direction: row-reverse;
-}}
+
+  #polyatlas-section .align-center,
+  #polycookies-section .align-center {
+  margin-bottom: 80px;
+  }
+  #polycookies-section div:first-of-type {
+    flex-direction: row-reverse;
+  }
+}
 
 
 /*///////////// ABOUT END /////////////*/
