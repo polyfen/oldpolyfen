@@ -28,7 +28,7 @@
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
-    <link rel="stylesheet" href="app/css/home.css" type="text/css">
+ 
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
