@@ -173,9 +173,8 @@
 
       </div>
 
-      <!-- new Grid section for sucess thumbnails start -->
-      <?php include 'includes/sucess-thumbnails.php';?>
-      <!-- END new Grid section start -->
+      <!-- new section for portfolio thumbnails  -->
+      <?php include 'includes/portfolio-thumbnails.php';?>
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
