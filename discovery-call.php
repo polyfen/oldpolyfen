@@ -84,8 +84,8 @@
       <!-- Calendly inline widget end -->
     </div>
     <hr>
-      <!-- new section for portfolio thumbnails -->
-      <?php include 'includes/portfolio-thumbnails.php';?>
+    <!-- new section for portfolio thumbnails --->
+    <?php include 'includes/portfolio-thumbnails.php';?>
 
     <hr>
 
