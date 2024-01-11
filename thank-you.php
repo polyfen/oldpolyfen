@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <title>Thank You! | Polyfen</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
-      <?php include 'includes/head.php';?>
+    <?php include 'includes/head.php';?>
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Thank You | Polyfen"/>
-    <meta property="og:url" content="https://polyfen.com"/>
-    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth, Contact, Pricing, Message, Email, Call" />
+    <meta property="og:title" content="Thank You | Polyfen" />
+    <meta property="og:url" content="https://polyfen.com" />
+    <meta name="keywords"
+        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth, Contact, Pricing, Message, Email, Call" />
     <meta name="description" property="og:description" content="[TBD]" />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png"/>
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="1799272553516195" />
@@ -34,13 +35,13 @@
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
-  </head>
+</head>
 
-  <body id="contact" class="dark-mode">
+<body id="contact" class="dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
 
@@ -54,14 +55,14 @@
 
     <!-- CONTACT start -->
     <main id="contact">
-    <h1 class="heading-2 align-center">Thank you</h1>
+        <h1 class="heading-2 align-center">Thank you</h1>
     </main>
 
 
     <!-- INCLUDE FOOTER.PHP start -->
-      <?php include 'includes/footer.php';?>
+    <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
-  </body>
+</body>
 
 </html>
