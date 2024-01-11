@@ -150,9 +150,26 @@
             </div>
         </section>
         <hr>
-        
+
         <?php include 'includes/testimonial.php';?>
 
+        <hr>
+        <section id="lookerStudio-section" class="container">
+            <h3 class="heading-2 align-center hidden">Data Insights with Looker Studio</h3>
+            <div class="column-to-row hidden">
+                <div class="one-half hidden">
+                    <img src="imgs/about/poly-atlas-animation.gif">
+                </div>
+                <div class="one-half hidden">
+                    <p>Unlock valuable insights with our data services, powered by Looker Studio, deliver
+                        actionable information straight from your websites. Explore the potential of your data
+                        effortlessly.</p>
+                    <a href="https://polyfen.com/contact">
+                        <small>Contact Us for..</small>
+                    </a>
+                </div>
+            </div>
+        </section>
         <hr>
 
         <section id="how-we-do-charge" class="container hidden">

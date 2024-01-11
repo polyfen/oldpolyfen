@@ -1809,6 +1809,9 @@ div.column-to-row div.one-half {
 div.column-to-row div+div {
   margin-top: 40px;
 }
+#lookerStudio-section h3 {
+ margin-bottom: 50px; 
+}
 
 @media (min-width: 768px) {
   div.column-to-row {
