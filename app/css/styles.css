@@ -302,6 +302,11 @@ header nav a:hover {
   opacity: .4;
 }
 
+.current-page:hover {
+  opacity: .4;
+  color: #F2F2F2C0 !important;
+}
+
 
 @media (min-width: 768px) {
   header nav.hamburger.nav {
