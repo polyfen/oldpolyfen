@@ -76,6 +76,24 @@
         <hr>
 
         <section id="polyatlas-section" class="container">
+            <h3 class="heading-2 align-center hidden">10+ years of experience in design &amp; development</h3>
+            <div class="column-to-row hidden">
+                <div class="one-half hidden">
+                    <img src="imgs/about/poly-atlas-animation.gif">
+                </div>
+                <div class="one-half hidden">
+                    <p>A step-by-step guide to the Branding process including practical tips,
+                        case studies, template files, and many other useful resources.</p>
+                    <a href="https://boris.hr/" target="_blank">
+                        <small>boris.hr</small>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="polyatlas-section" class="container">
             <h3 class="heading-2 align-center hidden">We wrote the book on branding</h3>
             <div class="column-to-row hidden">
                 <div class="one-half hidden">
