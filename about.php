@@ -86,9 +86,9 @@
                 </div>
                 <div class="one-half hidden">
                     <ul class="hanging-list arrow-bullet" style="margin-bottom: 1rem;">
-                        <li>Coding websites since 2008 and designing brands since 2010.</li>
-                        <li>Vetted in the top 3% of designers worldwide by <a href="https://toptal.com">Toptal</a> in 2017.</li>
-                        <li>Lead high-performing teams in Marketing, Design, Engineering, and UX for businesses in Croatia, Argentina, and the US.</li>
+                        <li style="margin-bottom: 1rem;">Coding websites since 2008 and designing brands since 2010.</li>
+                        <li style="margin-bottom: 1rem;">Vetted in the top 3% of designers worldwide by <a href="https://toptal.com">Toptal</a> in 2017.</li>
+                        <li style="margin-bottom: 2rem;">Lead high-performing teams in Marketing, Design, Engineering, and UX for businesses in Croatia, Argentina, and the US.</li>
                     </ul>
                     <a href="https://boris.hr/" target="_blank">
                         <small>LinkedIn</small>
