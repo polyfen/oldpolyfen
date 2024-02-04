@@ -76,14 +76,23 @@
         <hr>
 
         <section id="polyatlas-section" class="container">
-            <h3 class="heading-2 align-center hidden">10+ years of experience in design &amp; development</h3>
+            <h3 class="heading-2 align-center hidden">10+ years of experience in design, development,  &amp; marketing</h3>
             <div class="column-to-row hidden">
                 <div class="one-half hidden">
-                    <img src="imgs/about/poly-atlas-animation.gif">
+                    <img src="imgs/about/boris-hrncic.webp" style="max-width: 200px;margin-bottom: 4px;">
+                    <h4 class="heading-4" >Boris Hrnčić</h4>
+                    <small>🇭🇷 Zagreb, Croatia<br><br></small>
+                    <h4 class="heading-5" style="opacity:0.5;">Founder &amp;<br>Art Director</h4>
                 </div>
                 <div class="one-half hidden">
-                    <p>A step-by-step guide to the Branding process including practical tips,
-                        case studies, template files, and many other useful resources.</p>
+                    <ul class="hanging-list arrow-bullet" style="margin-bottom: 1rem;">
+                        <li>Coding websites since 2008 and designing brands since 2010.</li>
+                        <li>Vetted in the top 3% of designers worldwide by <a href="https://toptal.com">Toptal</a> in 2017.</li>
+                        <li>Lead high-performing teams in Marketing, Design, Engineering, and UX for businesses in Croatia, Argentina, and the US.</li>
+                    </ul>
+                    <a href="https://boris.hr/" target="_blank">
+                        <small>LinkedIn</small>
+                    </a>
                     <a href="https://boris.hr/" target="_blank">
                         <small>boris.hr</small>
                     </a>
