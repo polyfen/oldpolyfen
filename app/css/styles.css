@@ -1048,7 +1048,7 @@ div.featured-project {
 }
 
 div.featured-project {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -1068,7 +1068,7 @@ div.project-cover {
 
 div.project-cover img {
   border-radius: 4px;
-  width: 100%;
+  width: 90%;
 }
 
 div.project-cover figure img {
@@ -1160,7 +1160,7 @@ div.project-preview {
   }
 
   div.project-description {
-    padding-top: 100px;
+    padding-top: 35px;
     margin-left: 40px;
   }
 
