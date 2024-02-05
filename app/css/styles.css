@@ -1809,6 +1809,13 @@ div.column-to-row div.one-half {
 div.column-to-row div+div {
   margin-top: 40px;
 }
+  /* founder section */
+  #founder-section div.column-to-row .one-half img {
+    vertical-align: bottom;
+  } 
+  .boris-hr-link {
+    padding-left: 10px;
+  }
 
 @media (min-width: 768px) {
   div.column-to-row {
@@ -1817,6 +1824,21 @@ div.column-to-row div+div {
     justify-content: space-between;
     align-items: center;
   }
+
+  /* founder section */
+  #founder-section div.column-to-row {
+    align-items: flex-start;
+  }
+  #founder-section div.column-to-row div.one-half:nth-child(1) {
+    width: 35%;
+  }
+  #founder-section div.column-to-row div.one-half:nth-child(2) {
+    width: 65%;
+    max-width: unset;
+  }
+
+  /* founder section end */
+
 
   div.column-to-row div.one-half {
     width: calc(50% - 12px);

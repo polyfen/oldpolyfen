@@ -75,7 +75,7 @@
 
         <hr>
 
-        <section id="polyatlas-section" class="container">
+        <section id="founder-section" class="container">
             <h3 class="heading-2 align-center hidden">10+ years of experience in design, development,  &amp; marketing</h3>
             <div class="column-to-row hidden">
                 <div class="one-half hidden">
@@ -91,9 +91,11 @@
                         <li style="margin-bottom: 2rem;">Lead high-performing teams in Marketing, Design, Engineering, and UX for businesses in Croatia, Argentina, and the US.</li>
                     </ul>
                     <a href="https://boris.hr/" target="_blank">
-                        <small>LinkedIn</small>
+                    <img src="/imgs/icons/linkedIn_icon.webp" height="20px" width="auto">
+                    <small>LinkedIn</small>
                     </a>
-                    <a href="https://boris.hr/" target="_blank">
+                    <a class="boris-hr-link" href="https://boris.hr/" target="_blank">
+                        <img src="https://thepolyfengroup.com/imgs/icons/globe.svg" height="20px" width="auto">
                         <small>boris.hr</small>
                     </a>
                 </div>
