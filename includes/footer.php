@@ -33,13 +33,13 @@
       </div>
       
       <div class="footer_2line">
-        <a href="https://wiki.thepolyfengroup.com" target="_blank"><small>Team Wiki</small></a>
+        <a href="https://thepolyfengroup.com/wiki/" target="_blank"><small>Team Wiki</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
-        <a href="https://business.thepolyfengroup.com" target="_blank"><small>Business Plan</small></a>
+        <a href="https://thepolyfengroup.com/business/" target="_blank"><small>Business Plan</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
-        <a href="https://brand.thepolyfengroup.com" target="_blank"><small>Brand Guidelines</small></a>
+        <a href="https://thepolyfengroup.com/brand/" target="_blank"><small>Brand Guidelines</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
-        <a href="https://privacy.thepolyfengroup.com" target="_blank"><small>Privacy Policy</small></a>
+        <a href="https://thepolyfengroup.com/privacy/" target="_blank"><small>Privacy Policy</small></a>
       </div>
 
     <!-- scripts location call luxon-->
