@@ -79,7 +79,7 @@
             <h3 class="heading-2 align-center hidden">10+ years of experience in design, development,  &amp; marketing</h3>
             <div class="column-to-row hidden">
                 <div class="one-half hidden">
-                    <img src="imgs/about/boris-hrncic.webp" style="max-width: 200px;margin-bottom: 4px;">
+                    <img src="imgs/about/boris-hrncic.webp" style="max-width: 200px; margin-bottom: 20px;">
                     <h4 class="heading-4" >Boris Hrnčić</h4>
                     <small>🇭🇷 Zagreb, Croatia<br><br></small>
                     <h4 class="heading-5" style="opacity:0.5;">Founder &amp;<br>Art Director</h4>

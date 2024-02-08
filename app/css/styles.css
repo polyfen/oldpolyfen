@@ -1817,6 +1817,29 @@ div.column-to-row div+div {
     padding-left: 10px;
   }
 
+
+
+  /* founder section */
+  #founder-section div.column-to-row {
+    align-items: flex-start;
+  }
+  @media (min-width: 768px) {
+    #founder-section div.column-to-row div.one-half:nth-child(1) {
+      width: 35%;
+    }
+    #founder-section div.column-to-row div.one-half:nth-child(2) {
+      width: 65%;
+      max-width: unset;
+    }
+  }
+
+  
+  #founder-section h3 {
+    max-width: unset !important;
+  }
+
+  /* founder section end */
+
 @media (min-width: 768px) {
   div.column-to-row {
     display: flex;
@@ -1824,22 +1847,6 @@ div.column-to-row div+div {
     justify-content: space-between;
     align-items: center;
   }
-
-  /* founder section */
-  #founder-section div.column-to-row {
-    align-items: flex-start;
-  }
-  #founder-section div.column-to-row div.one-half:nth-child(1) {
-    width: 35%;
-  }
-  #founder-section div.column-to-row div.one-half:nth-child(2) {
-    width: 65%;
-    max-width: unset;
-  }
-
-  /* founder section end */
-
-
   div.column-to-row div.one-half {
     width: calc(50% - 12px);
   }
@@ -1982,11 +1989,14 @@ figure.testimonial figcaption small {
   font-size: 22px;
 }
 #polyatlas-section .align-center,
-#polycookies-section .align-center {
+#polycookies-section .align-center,
+#founder-section .align-center {
   max-width: 500px;
   margin-inline: auto;
+  text-wrap: balance;
   margin-bottom: 40px;
 }
+
 
 #polycookies-section .iframe {
   aspect-ratio: 16/9;
