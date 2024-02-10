@@ -1,0 +1,20 @@
+name: 👾 Purge Cache on Cloudflare
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  purge_cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Purge Cache on Cloudflare
+        uses: jakejarvis/cloudflare-purge-action@master
+        env:
+          CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}

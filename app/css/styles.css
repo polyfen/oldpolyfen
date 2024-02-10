@@ -298,6 +298,16 @@ header nav a:hover {
   fill: white;
 }
 
+.current-page {
+  opacity: .4;
+}
+
+.current-page:hover {
+  opacity: .4;
+  color: #F2F2F2C0 !important;
+}
+
+
 @media (min-width: 768px) {
   header nav.hamburger.nav {
     display: none;
@@ -1799,6 +1809,59 @@ div.column-to-row div.one-half {
 div.column-to-row div+div {
   margin-top: 40px;
 }
+/* founder section */
+#founder-section div.column-to-row .one-half img {
+  vertical-align: bottom;
+} 
+.boris-hr-link {
+  padding-left: 10px;
+}
+
+
+
+/* founder section */
+#founder-section div.column-to-row {
+  align-items: flex-start;
+}
+
+.founder-social {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+#founder-section a img {
+  margin-right: 3px;
+  opacity: 0.5;
+}
+#founder-section .boris-hr-link:hover img,
+#founder-section .boris-in-link:hover img {
+  opacity: 1;
+}
+
+  @media (min-width: 768px) {
+    #founder-section div.column-to-row {
+      justify-content: flex-start;
+    }
+
+   #founder-section div.column-to-row div.one-half:nth-child(1) {
+    width: 35%;
+  }  
+   #founder-section div.column-to-row div.one-half:nth-child(2) {
+    width: 50%;
+    max-width: unset;
+  } 
+} 
+
+@media (max-width: 768px) {
+  #founder-section .founder-bios {
+  width: fit-content;
+  margin: 0 auto;
+}
+}
+
+
+/* founder section end */
 
 @media (min-width: 768px) {
   div.column-to-row {
@@ -1807,7 +1870,6 @@ div.column-to-row div+div {
     justify-content: space-between;
     align-items: center;
   }
-
   div.column-to-row div.one-half {
     width: calc(50% - 12px);
   }
@@ -1884,6 +1946,7 @@ figure.testimonial blockquote {
 figure.testimonial figcaption {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 figure.testimonial figcaption small {
@@ -1943,12 +2006,41 @@ figure.testimonial figcaption small {
 .active:after {
   content: "\2212";
 }
+/*Accordion end*/
 
-#polyatlas-section a {
+#polyatlas-section a, #polycookies-section a {
   font-size: 22px;
 }
+#polyatlas-section .align-center,
+#polycookies-section .align-center,
+#founder-section .align-center {
+  max-width: 500px;
+  margin-inline: auto;
+  text-wrap: balance;
+  margin-bottom: 40px;
+}
 
-/*Accordion end*/
+
+#polycookies-section .iframe {
+  aspect-ratio: 16/9;
+}
+#polycookies-section .iframe iframe {
+width: 100%;
+height: 100%;
+}
+
+@media (min-width: 768px) {
+
+  #polyatlas-section .align-center,
+  #polycookies-section .align-center,
+  #founder-section .align-center {
+  margin-bottom: 80px;
+  }
+  #polycookies-section div:first-of-type {
+    flex-direction: row-reverse;
+  }
+}
+
 
 /*///////////// ABOUT END /////////////*/
 
