@@ -78,7 +78,7 @@
         <section id="founder-section" class="container">
             <h3 class="heading-2 align-center hidden">10+ years of experience in design, development,  &amp; marketing</h3>
             <div class="column-to-row hidden">
-                <div class="one-half hidden">
+                <div class="one-half hidden founder-bios">
                     <img src="imgs/about/boris-hrncic.webp" style="max-width: 200px; margin-bottom: 20px;">
                     <h4 class="heading-4" >Boris Hrnčić</h4>
                     <small>🇭🇷 Zagreb, Croatia<br><br></small>
@@ -87,17 +87,19 @@
                 <div class="one-half hidden">
                     <ul class="hanging-list arrow-bullet" style="margin-bottom: 1rem;">
                         <li style="margin-bottom: 1rem;">Coding websites since 2008 and designing brands since 2010.</li>
-                        <li style="margin-bottom: 1rem;">Vetted in the top 3% of designers worldwide by <a href="https://toptal.com">Toptal</a> in 2017.</li>
+                        <li style="margin-bottom: 1rem;">Vetted in the top 3% of designers worldwide by <a href="https://toptal.com"><small>Toptal</small></a> in 2017.</li>
                         <li style="margin-bottom: 2rem;">Lead high-performing teams in Marketing, Design, Engineering, and UX for businesses in Croatia, Argentina, and the US.</li>
                     </ul>
-                    <a href="https://boris.hr/" target="_blank">
-                    <img src="/imgs/icons/linkedIn_icon.webp" height="20px" width="auto">
-                    <small>LinkedIn</small>
-                    </a>
-                    <a class="boris-hr-link" href="https://boris.hr/" target="_blank">
-                        <img src="https://thepolyfengroup.com/imgs/icons/globe.svg" height="20px" width="auto">
-                        <small>boris.hr</small>
-                    </a>
+                    <div class="founder-social">
+                        <a class="boris-hr-link" href="https://boris.hr/" target="_blank">
+                            <img  src="/imgs/icons/linkedin-in.svg" height="20px" width="auto">
+                            <small>LinkedIn</small>
+                        </a>
+                        <a class="boris-in-link" href="https://boris.hr/" target="_blank">
+                            <img src="/imgs/icons/globe-white.svg" height="20px" width="auto">
+                            <small>boris.hr</small>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
