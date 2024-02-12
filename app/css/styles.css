@@ -147,6 +147,8 @@ hr {
 p,
 p a,
 li,
+li a,
+li a small,
 p strong,
 p span,
 li strong {
@@ -1809,17 +1811,20 @@ div.column-to-row div.one-half {
 div.column-to-row div+div {
   margin-top: 40px;
 }
+
 /* founder section */
+
 #founder-section div.column-to-row .one-half img {
   vertical-align: bottom;
 } 
 .boris-hr-link {
   padding-left: 10px;
 }
+#founder-section li small {
+  font-size: 25px;
 
+}
 
-
-/* founder section */
 #founder-section div.column-to-row {
   align-items: flex-start;
 }
@@ -1834,6 +1839,7 @@ div.column-to-row div+div {
   margin-right: 3px;
   opacity: 0.5;
 }
+
 #founder-section .boris-hr-link:hover img,
 #founder-section .boris-in-link:hover img {
   opacity: 1;
@@ -1859,7 +1865,6 @@ div.column-to-row div+div {
   margin: 0 auto;
 }
 }
-
 
 /* founder section end */
 
@@ -2008,7 +2013,7 @@ figure.testimonial figcaption small {
 }
 /*Accordion end*/
 
-#polyatlas-section a, #polycookies-section a {
+#polyatlas-section a, #polycookies-section a, #founder-section a {
   font-size: 22px;
 }
 #polyatlas-section .align-center,
