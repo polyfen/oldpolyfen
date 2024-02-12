@@ -140,13 +140,13 @@
 
         <hr>
 
-        <section class="container-900 hidden">
-            <h3 class="heading-2 align-center">Clients featured in</h3>
+        <section class="container-900">
+            <h3 class="hidden heading-2 align-center">Clients featured in</h3>
             <div class="clients-container">
-                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60px">
-                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50px">
-                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40px">
-                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45px">
+                <img class="hidden clients-item" src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60px">
+                <img class="hidden clients-item" src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50px">
+                <img class="hidden clients-item" src="imgs/forbes-logo.svg" alt="Forbes" height="40px">
+                <img class="hidden clients-item" src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45px">
             </div>
         </section>
         <hr>
@@ -155,10 +155,10 @@
 
         <hr>
 
-        <section id="how-we-do-charge" class="container hidden">
-            <h3 class="heading-2 align-center">What you're getting</h3>
+        <section id="how-we-do-charge" class="container">
+            <h3 class="hidden heading-2 align-center">What you're getting</h3>
             <div class="container-700">
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/certificate.svg" height="32px" width="auto">
                         <h4 class="heading-3">Owner-Managed Reliability</h4>
@@ -168,7 +168,7 @@
                             projects we perform ensuring the best results for every client.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
                         <h4 class="heading-3">Cost-Efficient Business Model</h4>
@@ -178,7 +178,7 @@
                             around the world at a small fraction of the price from our competitors in the US.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/chart.svg" height="32px" width="auto">
                         <h4 class="heading-3">Transparency in Budgeting</h4>
@@ -188,7 +188,7 @@
                             practices.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/scroll.svg" height="32px" width="auto">
                         <h4 class="heading-3">Flexible Contract Options</h4>
@@ -198,7 +198,7 @@
                             agreements to align with your goals and your budget.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/diamond.svg" height="32px" width="auto">
                         <h4 class="heading-3">End-to-End Customer Service</h4>

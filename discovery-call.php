@@ -95,7 +95,7 @@
         <?php include 'includes/testimonial.php';?>
 
 
-        <div id="final-cta-container" class="align-center">
+        <div id="final-cta-container" class="hidden align-center">
             <a href="#calendly">
                 <div id="final-cta" class="opal opal-rainbow-soft">
                     <div class="opal-solid">

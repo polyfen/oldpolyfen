@@ -116,7 +116,7 @@
 
             <h3 class="heading-2 align-center">What sets us apart</h3>
             <div class="container-700">
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/globe.svg" height="32px" width="auto">
                         <h4 class="heading-3">Fully Remote since 2018</h4>
@@ -127,7 +127,7 @@
                             sustainable cost.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/dna.svg" height="32px" width="auto">
                         <h4 class="heading-3">Transparency is in our DNA</h4>
@@ -140,7 +140,7 @@
                                 href="https://github.com/orgs/thepolygroup/repositories" target="_blank">Github</a>.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/flask.svg" height="32px" width="auto">
                         <h4 class="heading-3">Innovation through R&amp;D</h4>
@@ -151,7 +151,7 @@
                             to beat the competition and never be left behind in an always moving market.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="hidden carrousel-item">
                     <div class="acc-button">
                         <img src="imgs/icons/person.svg" height="32px" width="auto">
                         <h4 class="heading-3">Our Pledge to Employee Growth</h4>

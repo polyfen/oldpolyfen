@@ -1,7 +1,7 @@
-<article id="testimonials" class="hidden container-700">
-    <h3 class="heading-2 align-center" style="margin-bottom: 8px;">Hear our success stories</h3>
+<article id="testimonials" class="container-700">
+    <h3 class="hidden heading-2 align-center" style="margin-bottom: 8px;">Hear our success stories</h3>
 
-    <figure class="testimonial">
+    <figure class="hidden testimonial-item testimonial">
         <img src="/imgs/testimonials/metas-storie.webp " height="200" width="200">
         <blockquote>
             <p>
@@ -15,7 +15,7 @@
         </blockquote>
     </figure>
 
-    <figure class="testimonial">
+    <figure class="hidden testimonial-item testimonial">
         <img src="/imgs/testimonials/bike-storie.webp" height="200" width="200">
             <blockquote>
                 <p>
@@ -30,7 +30,7 @@
             </blockquote>
     </figure>
 
-    <figure class="testimonial">
+    <figure class="hidden testimonial-item testimonial">
         <img src="/imgs/testimonials/tradeana-storie.webp" height="200" width="200">
         <blockquote>
             <p>
