@@ -75,7 +75,7 @@
 
         <hr>
 
-        <section id="founder-section" class="container">
+        <section id="founder-section" class="container-700">
             <h3 class="heading-2 align-center hidden">10+ years of experience in design, development,  &amp; marketing</h3>
             <div class="column-to-row hidden">
                 <div class="one-half hidden founder-bios">

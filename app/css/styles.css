@@ -1844,20 +1844,9 @@ div.column-to-row div+div {
 #founder-section .boris-in-link:hover img {
   opacity: 1;
 }
-
-  @media (min-width: 768px) {
-    #founder-section div.column-to-row {
-      justify-content: flex-start;
-    }
-
-   #founder-section div.column-to-row div.one-half:nth-child(1) {
-    width: 35%;
-  }  
-   #founder-section div.column-to-row div.one-half:nth-child(2) {
-    width: 50%;
-    max-width: unset;
-  } 
-} 
+ #founder-section li {
+  text-wrap: balance;
+ }
 
 @media (max-width: 768px) {
   #founder-section .founder-bios {
@@ -1865,6 +1854,7 @@ div.column-to-row div+div {
   margin: 0 auto;
 }
 }
+
 
 /* founder section end */
 
