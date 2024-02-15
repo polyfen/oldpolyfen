@@ -1868,6 +1868,12 @@ div.column-to-row div+div {
   div.column-to-row div.one-half {
     width: calc(50% - 12px);
   }
+  #founder-section .founder-bios {
+    width: 40%;
+  }
+  #founder-section .founder-list {
+    width: 60%;
+  }
 
   div.column-to-row div+div {
     margin-top: unset;
