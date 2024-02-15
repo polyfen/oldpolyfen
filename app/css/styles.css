@@ -147,6 +147,8 @@ hr {
 p,
 p a,
 li,
+li a,
+li a small,
 p strong,
 p span,
 li strong {
@@ -1810,6 +1812,52 @@ div.column-to-row div+div {
   margin-top: 40px;
 }
 
+/* founder section */
+
+#founder-section div.column-to-row .one-half img {
+  vertical-align: bottom;
+} 
+.boris-hr-link {
+  padding-left: 10px;
+}
+#founder-section li small {
+  font-size: 25px;
+
+}
+
+#founder-section div.column-to-row {
+  align-items: flex-start;
+}
+
+.founder-social {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+#founder-section a img {
+  margin-right: 3px;
+  opacity: 0.5;
+}
+
+#founder-section .boris-hr-link:hover img,
+#founder-section .boris-in-link:hover img {
+  opacity: 1;
+}
+ #founder-section li {
+  text-wrap: balance;
+ }
+
+@media (max-width: 768px) {
+  #founder-section .founder-bios {
+  width: fit-content;
+  margin: 0 auto;
+}
+}
+
+
+/* founder section end */
+
 @media (min-width: 768px) {
   div.column-to-row {
     display: flex;
@@ -1817,7 +1865,6 @@ div.column-to-row div+div {
     justify-content: space-between;
     align-items: center;
   }
-
   div.column-to-row div.one-half {
     width: calc(50% - 12px);
   }
@@ -1956,15 +2003,18 @@ figure.testimonial figcaption small {
 }
 /*Accordion end*/
 
-#polyatlas-section a, #polycookies-section a {
+#polyatlas-section a, #polycookies-section a, #founder-section a {
   font-size: 22px;
 }
 #polyatlas-section .align-center,
-#polycookies-section .align-center {
+#polycookies-section .align-center,
+#founder-section .align-center {
   max-width: 500px;
   margin-inline: auto;
+  text-wrap: balance;
   margin-bottom: 40px;
 }
+
 
 #polycookies-section .iframe {
   aspect-ratio: 16/9;
@@ -1977,7 +2027,8 @@ height: 100%;
 @media (min-width: 768px) {
 
   #polyatlas-section .align-center,
-  #polycookies-section .align-center {
+  #polycookies-section .align-center,
+  #founder-section .align-center {
   margin-bottom: 80px;
   }
   #polycookies-section div:first-of-type {
