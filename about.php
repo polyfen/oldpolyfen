@@ -90,7 +90,7 @@
                         <li style="margin-bottom: 1rem;">Coding websites since 2008 and designing brands since 2010.
                         </li>
                         <li style="margin-bottom: 1rem;">Vetted in the top 3% of designers worldwide by
-                            <a href="https://toptal.com"><small>Toptal</small></a> in 2017.
+                            <a href="https://toptal.com" target="_blank" rel="nofollow"><small>Toptal</small></a> in 2017.
                         </li>
                         <li style="margin-bottom: 2rem;">Lead high-performing teams in Marketing, Design, Engineering,
                             and UX for businesses in Croatia, Argentina, and the US.</li>
