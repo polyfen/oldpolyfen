@@ -96,11 +96,11 @@
                             and UX for businesses in Croatia, Argentina, and the US.</li>
                     </ul>
                     <div class="founder-social">
-                        <a class="boris-hr-link" href="https://boris.hr/" target="_blank">
+                        <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank">
                             <img src="/imgs/icons/linkedin-in.svg" height="25px" width="auto">
                             <small>LinkedIn</small>
                         </a>
-                        <a class="boris-in-link" href="https://boris.hr/" target="_blank">
+                        <a class="boris-hr-link" href="https://boris.hr/" target="_blank">
                             <img src="/imgs/icons/globe-white.svg" height="25px" width="auto">
                             <small>boris.hr</small>
                         </a>
