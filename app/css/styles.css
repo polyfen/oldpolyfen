@@ -1050,7 +1050,7 @@ div.featured-project {
 }
 
 div.featured-project {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -1070,7 +1070,7 @@ div.project-cover {
 
 div.project-cover img {
   border-radius: 4px;
-  width: 100%;
+  width: 90%;
 }
 
 div.project-cover figure img {
@@ -1162,7 +1162,7 @@ div.project-preview {
   }
 
   div.project-description {
-    padding-top: 100px;
+    padding-top: 35px;
     margin-left: 40px;
   }
 
@@ -1523,10 +1523,6 @@ div.bio p {
   max-width: 320px;
 }
 
-div.bio a:first-of-type {
-  margin-right: 15px;
-}
-
 div.bio p a,
 div.bio p a:first-of-type {
   font-size: 18px;
@@ -1814,12 +1810,10 @@ div.column-to-row div+div {
 
 /* founder section */
 
-#founder-section div.column-to-row .one-half img {
+.founder-social img {
   vertical-align: bottom;
 } 
-.boris-hr-link {
-  padding-left: 10px;
-}
+
 #founder-section li small {
   font-size: 25px;
 
@@ -1831,22 +1825,34 @@ div.column-to-row div+div {
 
 .founder-social {
   display: flex;
-  gap: 15px;
-  margin-left: 15px;
+  gap: 25px;
+  margin-left: 25px;
 }
 
-#founder-section a img {
+body#discovery-call .founder-social {
+  margin-left: unset;
+}
+
+.founder-social a img {
   margin-right: 3px;
   opacity: 0.5;
 }
 
-#founder-section .boris-hr-link:hover img,
-#founder-section .boris-in-link:hover img {
+.founder-social .boris-hr-link:hover img,
+.founder-social .boris-in-link:hover img {
   opacity: 1;
 }
  #founder-section li {
   text-wrap: balance;
  }
+
+  img.flag {
+  height: 20px;
+  width: auto;
+  border-radius: 2px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
 
 @media (max-width: 768px) {
   #founder-section .founder-bios {
@@ -1867,6 +1873,12 @@ div.column-to-row div+div {
   }
   div.column-to-row div.one-half {
     width: calc(50% - 12px);
+  }
+  #founder-section .founder-bios {
+    width: 40%;
+  }
+  #founder-section .founder-list {
+    width: 60%;
   }
 
   div.column-to-row div+div {
@@ -2003,7 +2015,7 @@ figure.testimonial figcaption small {
 }
 /*Accordion end*/
 
-#polyatlas-section a, #polycookies-section a, #founder-section a {
+#polyatlas-section a, #polycookies-section a, #founder-section a, .founder-social {
   font-size: 22px;
 }
 #polyatlas-section .align-center,
@@ -2040,6 +2052,14 @@ height: 100%;
 /*///////////// ABOUT END /////////////*/
 
 /*///////////// CONTACT START /////////////*/
+
+img.contact-flag {
+  height: 35px;
+  width: auto;
+  border-radius: 2px;
+  margin-right: 5px;
+  vertical-align: text-top;
+}
 
 form#contact-form {
   display: flex;

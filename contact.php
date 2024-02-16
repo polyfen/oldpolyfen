@@ -61,11 +61,11 @@
     <main id="contact">
 
         <section id="contact-intro" class="container">
-            <h1 class="caption align-center">Contact</h1>
-            <h2 class="heading-1 align-center">Let's start a Conversation</h2>
-            <h3 class="heading-2 align-center" id="message">Send a Message</h3>
+            <h1 class="hidden caption align-center">Contact</h1>
+            <h2 class="hidden heading-1 align-center">Let's start a Conversation</h2>
+            <h3 class="hidden heading-2 align-center" id="message">Send a Message</h3>
             <div class="err-msj">Verify you are human</div>
-            <form id="contact-form" method="POST">
+            <form id="contact-form" method="POST" class="hidden">
 
                 <label for="email">Email</label>
                 <input type="email" name="email" required>
@@ -90,18 +90,18 @@
         </section>
         <hr>
         <section id="call">
-            <h3 class="heading-2 align-center">Schedule a Call</h3>
+            <h3 class="hidden heading-2 align-center">Schedule a Call</h3>
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget"
+            <div class="hidden calendly-inline-widget"
                 data-url="https://calendly.com/borishr/discovery?hide_event_type_details=1&hide_gdpr_banner=1&background_color=ffffff&text_color=070924&primary_color=7537f8"
                 style="min-width:320px;height:700px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <!-- Calendly inline widget end -->
         </section>
         <hr>
-        <section class="container" id="details">
+        <section class="hidden container" id="details">
             <h3 class="heading-2 align-center">hi@polyfen.com</h3>
-            <h3 class="heading-2 align-center">🇺🇸 +1 415 800 4115</h3>
+            <h3 class="heading-2 align-center"><img src="imgs/flags/us.svg" class="contact-flag"> +1 415 800 4115</h3>
         </section>
     </main>
     <!-- process form on submit-->
