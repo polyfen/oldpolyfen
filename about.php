@@ -82,7 +82,7 @@
                 <div class="one-half hidden founder-bios">
                     <img src="imgs/about/boris-hrncic.webp" style="max-width: 200px; margin-bottom: 20px;">
                     <h4 class="heading-4">Boris Hrnčić</h4>
-                    <small>🇭🇷 Zagreb, Croatia<br><br></small>
+                    <small><img src="imgs/flags/hr.svg" class="flag"> Zagreb, Croatia<br><br></small>
                     <h4 class="heading-5" style="opacity:0.5;">Founder &amp;<br>Art Director</h4>
                 </div>
                 <div class="one-half hidden founder-list">
@@ -100,7 +100,7 @@
                             <img src="/imgs/icons/linkedin-in.svg" height="25px" width="auto">
                             <small>LinkedIn</small>
                         </a>
-                        <a class="boris-hr-link" href="https://boris.hr/" target="_blank">
+                        <a class="boris-hr-link" href="https://boris.hr/" target="_blank" rel="follow">
                             <img src="/imgs/icons/globe-white.svg" height="25px" width="auto">
                             <small>boris.hr</small>
                         </a>

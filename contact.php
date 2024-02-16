@@ -101,7 +101,7 @@
         <hr>
         <section class="hidden container" id="details">
             <h3 class="heading-2 align-center">hi@polyfen.com</h3>
-            <h3 class="heading-2 align-center">🇺🇸 +1 415 800 4115</h3>
+            <h3 class="heading-2 align-center"><img src="imgs/flags/us.svg" class="contact-flag"> +1 415 800 4115</h3>
         </section>
     </main>
     <!-- process form on submit-->
