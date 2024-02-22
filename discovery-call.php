@@ -71,8 +71,16 @@
                             Hear what we can do for you.<br>
                             No strings attached.
                         </p>
-                        <a href="https://www.linkedin.com/in/borishrncic/" target="blank"><small>LinkedIn Profile
-                                &nearr;</small></a>
+                        <div class="founder-social">
+                        <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank">
+                            <img src="/imgs/icons/linkedin-in.svg" height="25px" width="auto">
+                            <small>LinkedIn</small>
+                        </a>
+                        <a class="boris-hr-link" href="https://boris.hr/" target="_blank" rel="follow">
+                            <img src="/imgs/icons/globe-white.svg" height="25px" width="auto">
+                            <small>boris.hr</small>
+                        </a>
+                    </div>
                     </div>
                 </div>
             </div>
