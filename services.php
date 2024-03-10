@@ -170,11 +170,10 @@
                 <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/shield-chevron.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Owner-managed reliability</h4>
+                        <h4 class="heading-3">Wealth of experience</h4>
                     </div>
                     <div class="acc-panel">
-                        <p>Our agency is independently owned and our owners are involved from start to finish in all the
-                            projects we perform ensuring the best results for every client.</p>
+                        <p>Founder &amp; Art Director <a href="https://boris.hr" rel="follow" target="_blank">Boris Hrnčić</a> brings to the table 10+ years of experience in design, development, and marketing. Vetted in the top 3% of designers worldwide by <a href="https://toptal.com" rel="nofollow" target="_blank">Toptal</a> in 2017. Led high-performing teams for small start-ups and big enterprises in Croatia, Argentina, and the US.</p>
                     </div>
                 </div>
                 <div class="accordion">
