@@ -151,7 +151,7 @@
         <section id="what-sets-us-apart" class="container-1080 hidden">
 
             <h3 class="heading-2 align-center">What sets us apart</h3>
-            <div class="container-700">
+            <div class="container-700 accordions-container">
                 <div class="">
                     <div class="acc-button">
                         <img src="imgs/icons/rocket-launch.svg" height="32px" width="auto">

@@ -1772,13 +1772,15 @@ section#how-we-do-it h4 {
   margin-bottom: 12px;
 }
 
+div.accordions-container {
+  padding-top: 2rem;
+}
+
 div.acc-button {
   display: flex;
   align-items: center;
   margin-top: 1rem;
-  padding-top: 2rem;
   margin-bottom: 2rem;
-
 }
 
 div.acc-button img {

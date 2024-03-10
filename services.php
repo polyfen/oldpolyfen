@@ -157,7 +157,7 @@
 
         <section id="how-we-do-charge" class="container hidden">
             <h3 class="heading-2 align-center">What you're getting</h3>
-            <div class="container-700">
+            <div class="container-700 accordions-container">
                 <div class="">
                     <div class="acc-button">
                         <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
