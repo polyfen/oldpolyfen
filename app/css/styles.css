@@ -1776,6 +1776,11 @@ div.accordions-container {
   padding-top: 2rem;
 }
 
+div.accordion {
+  border-bottom:1px solid #7437f850;
+  margin-bottom: 32px;
+}
+
 div.acc-button {
   display: flex;
   align-items: center;

@@ -158,7 +158,7 @@
         <section id="how-we-do-charge" class="container hidden">
             <h3 class="heading-2 align-center">What you're getting</h3>
             <div class="container-700 accordions-container">
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
                         <h4 class="heading-3">Low cost, high value</h4>
@@ -167,7 +167,7 @@
                         <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals around the world at a small fraction of the price from our competitors in the US.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/shield-chevron.svg" height="32px" width="auto">
                         <h4 class="heading-3">Owner-managed reliability</h4>
@@ -177,7 +177,7 @@
                             projects we perform ensuring the best results for every client.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/crown-simple.svg" height="32px" width="auto">
                         <h4 class="heading-3">End-to-end customer service</h4>
@@ -186,7 +186,7 @@
                         <p>We've got you covered next time you encounter any new requirements in the area of business development, marketing, design, or tech. Our growing list of satisfied customers is testimony that we go above and beyond to help your business grow and to develop a long-lasting and solid partnership.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/flag-checkered.svg" height="32px" width="auto">
                         <h4 class="heading-3">Fast-track project kick-off</h4>

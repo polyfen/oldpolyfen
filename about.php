@@ -152,7 +152,7 @@
 
             <h3 class="heading-2 align-center">What sets us apart</h3>
             <div class="container-700 accordions-container">
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/rocket-launch.svg" height="32px" width="auto">
                         <h4 class="heading-3">Excellence through R&amp;D</h4>
@@ -161,7 +161,7 @@
                         <p>As a forward-thinking company we explore the latest techologies and nurture professional growth through internal Research & Development projects, like <a href="https://polyqwerty.com" target="_blank" rel="follow">Poly Qwerty</a> and <a href="https://polykit.xyz" target="_blank" rel="follow">Polykit</a>. That way, our clients count with the advantage of our top-tier talent to beat the competition and never be left behind in an always moving market.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/person.svg" height="32px" width="auto">
                         <h4 class="heading-3">Teamwork makes the dream work</h4>
@@ -170,7 +170,7 @@
                         <p>Together we can achieve much more than we ever could alone. We are heavily commited to providing our team with all the tools, resources, and support to maintain a healthy and thriving work environment.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/globe.svg" height="32px" width="auto">
                         <h4 class="heading-3">Fully remote since 2018</h4>
@@ -179,7 +179,7 @@
                         <p>We can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at a sustainable cost.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/dna.svg" height="32px" width="auto">
                         <h4 class="heading-3">Transparency is in our DNA</h4>
