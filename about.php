@@ -154,7 +154,7 @@
             <div class="container-700">
                 <div class="">
                     <div class="acc-button">
-                        <img src="imgs/icons/flask.svg" height="32px" width="auto">
+                        <img src="imgs/icons/rocket-launch.svg" height="32px" width="auto">
                         <h4 class="heading-3">Excellence through R&amp;D</h4>
                     </div>
                     <div class="acc-panel">
@@ -173,7 +173,7 @@
                 <div class="">
                     <div class="acc-button">
                         <img src="imgs/icons/globe.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Fully Remote since 2018</h4>
+                        <h4 class="heading-3">Fully remote since 2018</h4>
                     </div>
                     <div class="acc-panel">
                         <p>We can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at a sustainable cost.</p>
