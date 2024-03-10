@@ -164,7 +164,7 @@
                 <div class="">
                     <div class="acc-button">
                         <img src="imgs/icons/person.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Teamwork makes the Dream Work</h4>
+                        <h4 class="heading-3">Teamwork makes the dream work</h4>
                     </div>
                     <div class="acc-panel">
                         <p>Together we can achieve much more than we ever could alone. We are heavily commited to providing our team with all the tools, resources, and support to maintain a healthy and thriving work environment.</p>
