@@ -2008,6 +2008,7 @@ figure.testimonial figcaption small {
 
 .acc-panel {
   max-height: 0;
+  padding-left: 46px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
