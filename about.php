@@ -85,17 +85,17 @@
                     <small><img src="imgs/flags/hr.svg" class="flag"> Zagreb, Croatia<br><br></small>
                     <h4 class="heading-5" style="opacity:0.5;">Founder &amp;<br>Art Director</h4>
                 </div>
-                <div class="one-half hidden founder-list">
+                <div class="one-half founder-list">
                     <ul class="hanging-list arrow-bullet" style="margin-bottom: 1rem;">
-                        <li style="margin-bottom: 1rem;">Coding websites since 2008 and designing brands since 2010.
+                        <li class="hidden founder-subtle" style="margin-bottom: 1rem;">Coding websites since 2008 and designing brands since 2010.
                         </li>
-                        <li style="margin-bottom: 1rem;">Vetted in the top 3% of designers worldwide by
+                        <li class="hidden founder-subtle" style="margin-bottom: 1rem;">Vetted in the top 3% of designers worldwide by
                             <a href="https://toptal.com" target="_blank" rel="nofollow"><small>Toptal</small></a> in 2017.
                         </li>
-                        <li style="margin-bottom: 2rem;">Led high-performing teams in Marketing, Design, Engineering,
+                        <li class="hidden founder-subtle" style="margin-bottom: 2rem;">Led high-performing teams in Marketing, Design, Engineering,
                             and UX for businesses in Croatia, Argentina, and the US.</li>
                     </ul>
-                    <div class="founder-social">
+                    <div class="hidden founder-subtle founder-social">
                         <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank">
                             <img src="/imgs/icons/linkedin-in.svg" height="25px" width="auto">
                             <small>LinkedIn</small>
