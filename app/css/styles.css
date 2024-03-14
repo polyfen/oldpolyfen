@@ -1036,7 +1036,19 @@ footer section.times div img.country-flag {
 
 
 }
+/* footer navbar for mobile */
+.footer-navbar-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
 
+@media (min-width:768px) {
+  .footer-navbar-mobile {
+    display: none;
+  }
+}
 /*///////////// FOOTER END /////////////*/
 
 /*///////////// HOMEPAGE START /////////////*/
