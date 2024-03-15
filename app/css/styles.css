@@ -944,9 +944,10 @@ footer .footer_2line span {
 }
 
 footer div#tpg {
-  margin-top: 15px;
   width: 80px;
-  margin-bottom: -10px;
+}
+#tpg a {
+  display: flex;
 }
 
 output.caption {
