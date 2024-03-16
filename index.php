@@ -110,7 +110,7 @@
                     <h3 class="heading-2">Brand</h3>
                     <img src="imgs/services/basketball.png" height="140px" width="auto">
                     <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
-                    <h4 class="heading-3">$3,900</h4>
+                    <h4 class="heading-3">$7,600</h4>
                     <h4 class="caption" style="opacity: 0.5;">2-3 weeks</h4>
                 </div>
             </section>
