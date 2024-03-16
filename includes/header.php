@@ -2,7 +2,6 @@
   <a href="/"><img src="imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
   <nav class="desktop nav">        
     <a href="/" class="uppercase">Home</a>
-    <a href="/services" class="uppercase">Services</a>
     <a href="/about" class="uppercase">About</a>
     <a href="/contact" class="uppercase">Contact</a>
   </nav>
