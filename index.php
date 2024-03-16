@@ -99,15 +99,13 @@
         </section>
 
         <hr>
-        
-        <?php include 'includes/testimonial.php';?>
 
-        <hr>
+        <section id="build" class="container">
+        <h3 class="heading-2">Build</h3>
+        </section>
 
-        
 
         <section id="how-we-do-charge" class="container hidden">
-            <h3 class="heading-2 align-center">What you're getting</h3>
             <div class="container-700 accordions-container">
                 <div class="accordion">
                     <div class="acc-button">
@@ -143,6 +141,53 @@
                     </div>
                     <div class="acc-panel">
                         <p>Our standardized and automated workflows ensure that no time is wasted. Send us an enquiry and we'll promptly engage in understanding your requirements, proposing a solution detailed in a comprehensive agreement, and prepare for a prompt project kick-off.</p>
+                    </div>
+                </div>
+        </section>
+
+        <hr>
+
+        <section id="hire" class="container">
+        <h3 class="heading-2">Hire</h3>
+        </section>
+
+
+        <section id="how-we-do-charge" class="container hidden">
+            <div class="container-700 accordions-container">
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
+                        <h4 class="heading-3">X</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>X</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/shield-chevron.svg" height="32px" width="auto">
+                        <h4 class="heading-3">X</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>X</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/crown-simple.svg" height="32px" width="auto">
+                        <h4 class="heading-3">X</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>X</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/flag-checkered.svg" height="32px" width="auto">
+                        <h4 class="heading-3">X</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>X</p>
                     </div>
                 </div>
         </section>
