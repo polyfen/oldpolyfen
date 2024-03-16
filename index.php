@@ -185,7 +185,7 @@
         <section id="how-we-do-it" class="container-1080 hidden">
             <section class="column">
                 <div class="services-card">
-                    <h3 class="heading-2">UX Designer</h3>
+                    <h3 class="heading-2">UX<br>Designer</h3>
                     <img src="imgs/services/basketball.png" height="140px" width="auto">
                     <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
                     <h4 class="heading-3">$65</h4>
