@@ -62,7 +62,7 @@
                 <h1 class="title-1">Unleash your business<br/>full potential</h1>
 
                 <div class="container-1080">
-                    <p>We are a creative & software engineering boutique helping businesses achieve greatness since 2018.</p>
+                    <p>We are a creative & software boutique helping businesses achieve greatness since 2018.</p>
                     <small class="caption">Don't be shy</small>
                     <div style="clear:both;"></div>
 
