@@ -274,11 +274,10 @@ header nav.nav.position-fixed {
   position: fixed;
   right: 25px;
   top: 20px;
-  background: rgba(0, 0, 0, 0.6);
+  background: #070924;
   padding: 7px 8px 2px;
   border-radius: 18px;
   backdrop-filter: blur(20px);
-  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 header nav.nav.position-fixed:hover {
