@@ -2298,3 +2298,9 @@ div.clients-container img {
     margin: 0 0 2rem 0;
   }
 }
+
+/* Style for the hr element */
+hr {
+  margin: 160px auto;
+  max-width: 120px;
+}
