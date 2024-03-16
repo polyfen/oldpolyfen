@@ -126,7 +126,7 @@
             <section class="column">
             <div class="services-card">
             <h3 class="heading-2">App</h3>
-            <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
+            <img src="imgs/illustrations/#.webp" height="140px" width="auto">
             <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
             <h4 class="heading-3">$39,000</h4>
             <h4 class="caption" style="opacity: 0.5;">2-6 months</h4>
@@ -186,7 +186,7 @@
             <section class="column">
                 <div class="services-card">
                     <h3 class="heading-2">UX<br>Designer</h3>
-                    <img src="imgs/services/basketball.png" height="140px" width="auto">
+                    <img src="imgs/services/#.png" height="140px" width="auto">
                     <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
                     <h4 class="heading-3">$65</h4>
                     <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
@@ -195,7 +195,7 @@
             <section class="column">
                 <div class="services-card">
                 <h3 class="heading-2">Software Engineer</h3>
-                <img src="imgs/services/web.png" height="140px" width="auto">
+                <img src="imgs/services/#.png" height="140px" width="auto">
                 <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
                 <h4 class="heading-3">$65</h4>
                 <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
@@ -204,7 +204,7 @@
             <section class="column">
             <div class="services-card">
             <h3 class="heading-2">Marketing Consultant</h3>
-            <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
+            <img src="imgs/illustrations/#.webp" height="140px" width="auto">
             <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
             <h4 class="heading-3">$65</h4>
             <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
