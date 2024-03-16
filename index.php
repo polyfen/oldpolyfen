@@ -89,7 +89,7 @@
         <!-- COVER end -->
 
         <section class="container-900 hidden">
-            <h3 class="heading-2 align-center">Clients featured in</h3>
+            <h3 class="caption align-center">Clients featured in</h3>
             <div class="clients-container">
                 <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60px">
                 <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50px">
@@ -100,8 +100,39 @@
 
         <hr>
 
-        <section id="build" class="container">
-        <h3 class="heading-2">Build</h3>
+        <section id="build">
+        <div class="container-1080">
+            <h3 class="heading-2">Build</h3>
+        </div>
+        <section id="how-we-do-it" class="container-1080 hidden">
+            <section class="column">
+                <div class="services-card">
+                    <h3 class="heading-2">Brand</h3>
+                    <img src="imgs/services/basketball.png" height="140px" width="auto">
+                    <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+                    <h4 class="heading-3">$3,900</h4>
+                    <h4 class="caption" style="opacity: 0.5;">2-3 weeks</h4>
+                </div>
+            </section>
+            <section class="column">
+                <div class="services-card">
+                <h3 class="heading-2">Website</h3>
+                <img src="imgs/services/web.png" height="140px" width="auto">
+                <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+                <h4 class="heading-3">$7,800</h4>
+                <h4 class="caption" style="opacity: 0.5;">3-6 weeks</h4>
+                </div>
+            </section>
+            <section class="column">
+            <div class="services-card">
+            <h3 class="heading-2">App</h3>
+            <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
+            <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+            <h4 class="heading-3">$65</h4>
+            <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+            </div>
+            </section>
+            </section>
         </section>
 
 
@@ -147,8 +178,39 @@
 
         <hr>
 
-        <section id="hire" class="container">
-        <h3 class="heading-2">Hire</h3>
+        <section id="hire">
+        <div class="container-1080">
+            <h3 class="heading-2">Hire</h3>
+        </div>
+        <section id="how-we-do-it" class="container-1080 hidden">
+            <section class="column">
+                <div class="services-card">
+                    <h3 class="heading-2">UX Designer</h3>
+                    <img src="imgs/services/basketball.png" height="140px" width="auto">
+                    <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+                    <h4 class="heading-3">$65</h4>
+                    <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+                </div>
+            </section>
+            <section class="column">
+                <div class="services-card">
+                <h3 class="heading-2">Software Engineer</h3>
+                <img src="imgs/services/web.png" height="140px" width="auto">
+                <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+                <h4 class="heading-3">$65</h4>
+                <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+                </div>
+            </section>
+            <section class="column">
+            <div class="services-card">
+            <h3 class="heading-2">Marketing Consultant</h3>
+            <img src="imgs/illustrations/coin-illustration.webp" height="140px" width="auto">
+            <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+            <h4 class="heading-3">$65</h4>
+            <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+            </div>
+            </section>
+            </section>
         </section>
 
 
