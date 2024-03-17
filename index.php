@@ -254,6 +254,11 @@
                 </div>
         </section>
 
+        <hr>
+
+        <?php include 'includes/testimonial.php';?>
+
+
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->
 
