@@ -2300,7 +2300,27 @@ div.clients-container img {
 }
 
 /* Style for the hr element */
+
 hr {
-  margin: 160px auto;
+  margin: 80px auto;
   max-width: 120px;
+}
+
+
+@media (min-width: 425px) {
+  hr {
+    margin: 100px auto;
+  }
+}
+
+@media (min-width: 720px) {
+  hr {
+    margin: 120px auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  hr {
+    margin: 160px auto;
+  }
 }
