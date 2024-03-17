@@ -911,12 +911,11 @@ footer section.times {
 footer .footer_2line {
   width: 100%;
   text-align: center;
-  padding: 15px 0 25px 0;
+  padding: 0px 0 25px 0;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   grid-template-rows: auto;
   justify-content: center;
-
 }
 
 footer .footer_2line a+span:nth-of-type(2) {
@@ -945,9 +944,10 @@ footer .footer_2line span {
 }
 
 footer div#tpg {
-  margin-top: 15px;
   width: 80px;
-  margin-bottom: -10px;
+}
+#tpg a {
+  display: flex;
 }
 
 output.caption {
@@ -979,8 +979,9 @@ footer section.times div img.country-flag {
 
   footer .footer_2line {
     display: block;
+    padding: 15px 0 25px 0;
   }
-
+  
   footer section.times {
     gap: 10px;
   }
@@ -1036,7 +1037,19 @@ footer section.times div img.country-flag {
 
 
 }
+/* footer navbar for mobile */
+.footer-navbar-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
 
+@media (min-width:768px) {
+  .footer-navbar-mobile {
+    display: none;
+  }
+}
 /*///////////// FOOTER END /////////////*/
 
 /*///////////// HOMEPAGE START /////////////*/
@@ -1772,17 +1785,26 @@ section#how-we-do-it h4 {
   margin-bottom: 12px;
 }
 
+div.accordions-container {
+  padding-top: 2rem;
+}
+
+div.accordion {
+  border-bottom:1px solid #7437f850;
+  margin-bottom: 32px;
+}
+
 div.acc-button {
   display: flex;
   align-items: center;
   margin-top: 1rem;
-  padding-top: 2rem;
   margin-bottom: 2rem;
-
+  color: #ffffff4d;
 }
 
 div.acc-button img {
   margin-right: 10px;
+  margin-top: -6px;
 }
 
 .acc-button .heading-3 {
@@ -2023,6 +2045,12 @@ figure.testimonial figcaption small {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+@media (min-width: 1024px) {
+  .acc-panel {
+    padding-left: 46px;
+  }
 }
 
 .acc-button:after {

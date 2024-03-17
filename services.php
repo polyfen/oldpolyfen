@@ -157,58 +157,43 @@
 
         <section id="how-we-do-charge" class="container hidden">
             <h3 class="heading-2 align-center">What you're getting</h3>
-            <div class="container-700">
-                <div class="">
-                    <div class="acc-button">
-                        <img src="imgs/icons/certificate.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Owner-Managed Reliability</h4>
-                    </div>
-                    <div class="acc-panel">
-                        <p>Our agency is independently owned and our owners are involved from start to finish in all the
-                            projects we perform ensuring the best results for every client.</p>
-                    </div>
-                </div>
-                <div class="">
+            <div class="container-700 accordions-container">
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Cost-Efficient Business Model</h4>
+                        <h4 class="heading-3">Low cost, high value</h4>
                     </div>
                     <div class="acc-panel">
-                        <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals
-                            around the world at a small fraction of the price from our competitors in the US.</p>
+                        <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals around the world at a small fraction of the price from our competitors in the US.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/chart.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Transparency in Budgeting</h4>
+                        <img src="imgs/icons/shield-chevron.svg" height="32px" width="auto">
+                        <h4 class="heading-3">Wealth of experience</h4>
                     </div>
                     <div class="acc-panel">
-                        <p>Our transparent approach allows you to count with reliable estimates and consistent budgeting
-                            practices.</p>
+                        <p>Founder &amp; Art Director <a href="https://boris.hr" rel="follow" target="_blank">Boris Hrnčić</a> brings to the table 10+ years of experience in design, development, and marketing. Vetted in the top 3% of designers worldwide by <a href="https://toptal.com" rel="nofollow" target="_blank">Toptal</a> in 2017. Led high-performing teams for small start-ups and big enterprises in Croatia, Argentina, and the US.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/scroll.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Flexible Contract Options</h4>
+                        <img src="imgs/icons/crown-simple.svg" height="32px" width="auto">
+                        <h4 class="heading-3">End-to-end customer service</h4>
                     </div>
                     <div class="acc-panel">
-                        <p>Whether short-term or long-term, hourly or for a fixed predetermined budget, we customize
-                            agreements to align with your goals and your budget.</p>
+                        <p>We've got you covered next time you encounter any new requirements in the area of business development, marketing, design, or tech. Our growing list of satisfied customers is testimony that we go above and beyond to help your business grow and to develop a long-lasting and solid partnership.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/diamond.svg" height="32px" width="auto">
-                        <h4 class="heading-3">End-to-End Customer Service</h4>
+                        <img src="imgs/icons/flag-checkered.svg" height="32px" width="auto">
+                        <h4 class="heading-3">Fast-track project kick-off</h4>
                     </div>
                     <div class="acc-panel">
-                        <p>We've got you covered next time you encounter any new requirements in the area of business
-                            development, marketing, design, or tech. Our growing list of satisfied customers is
-                            testimony that we don't just do the bare minimum. We go above and beyond to help your
-                            business grow and to develop a long-lasting and solid partnership.</p>
+                        <p>Our standardized and automated workflows ensure that no time is wasted. Send us an enquiry and we'll promptly engage in understanding your requirements, proposing a solution detailed in a comprehensive agreement, and prepare for a prompt project kick-off.</p>
                     </div>
+                </div>
         </section>
     </main>
     <!-- SERVICES end -->

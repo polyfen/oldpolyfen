@@ -92,8 +92,7 @@
                         <li class="hidden founder-subtle" style="margin-bottom: 1rem;">Vetted in the top 3% of designers worldwide by
                             <a href="https://toptal.com" target="_blank" rel="nofollow"><small>Toptal</small></a> in 2017.
                         </li>
-                        <li class="hidden founder-subtle" style="margin-bottom: 2rem;">Led high-performing teams in Marketing, Design, Engineering,
-                            and UX for businesses in Croatia, Argentina, and the US.</li>
+                        <li style="margin-bottom: 2rem;">Led high-performing teams for small start-ups and big enterprises in Croatia, Argentina, and the US.</li>
                     </ul>
                     <div class="hidden founder-subtle founder-social">
                         <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank">
@@ -151,53 +150,44 @@
         <section id="what-sets-us-apart" class="container-1080 hidden">
 
             <h3 class="heading-2 align-center">What sets us apart</h3>
-            <div class="container-700">
-                <div class="">
+            <div class="container-700 accordions-container">
+                <div class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/globe.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Fully Remote since 2018</h4>
+                        <img src="imgs/icons/rocket-launch.svg" height="32px" width="auto">
+                        <h4 class="heading-3">Excellence through R&amp;D</h4>
                     </div>
                     <div class="acc-panel">
-                        <p>We know that we can't compete with the comp packages of big tech companies. But where we can
-                            compete and win, is in flexibility. That allows us to have the best talent in the world at a
-                            sustainable cost.</p>
+                        <p>As a forward-thinking company we explore the latest techologies and nurture professional growth through internal Research & Development projects, like <a href="https://polyqwerty.com" target="_blank" rel="follow">Poly Qwerty</a> and <a href="https://polykit.xyz" target="_blank" rel="follow">Polykit</a>. That way, our clients count with the advantage of our top-tier talent to beat the competition and never be left behind in an always moving market.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/person.svg" height="32px" width="auto">
+                        <h4 class="heading-3">Teamwork makes the dream work</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>Together we can achieve much more than we ever could alone. We are heavily commited to providing our team with all the tools, resources, and support to maintain a healthy and thriving work environment.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/globe.svg" height="32px" width="auto">
+                        <h4 class="heading-3">Fully remote since 2018</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We can't compete with the comp packages of big tech companies. But where we can compete and win, is in flexibility. That allows us to have the best talent in the world at a sustainable cost.</p>
+                    </div>
+                </div>
+                <div class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/dna.svg" height="32px" width="auto">
                         <h4 class="heading-3">Transparency is in our DNA</h4>
                     </div>
                     <div class="acc-panel">
-                        <p>Our <a href="https://business.polyfen.com" target="_blank">Business Plan</a> and <a
-                                href="https://wiki.polyfen.com" target="_blank">Team Wiki</a> are just some of the
-                            internal documentation that is publically available. We also contribute to the open-source
-                            community with public code repositories in <a
-                                href="https://github.com/orgs/thepolygroup/repositories" target="_blank">Github</a>.</p>
+                        <p>Our <a href="https://thepolyfengroup.com/business" target="_blank" rel="follow">Business Plan</a> and <a href="https://thepolyfengroup.com/wiki" target="_blank" rel="follow">Team Wiki</a> are just some of our documentation that is publically available. We also contribute to the open-source software community with public code repositories in <a href="https://github.com/polyfen" target="_blank" rel="nofollow">Github</a>. We believe that the world of business could learn a lot from the practices and culture of the open-source community.</p>
                     </div>
                 </div>
-                <div class="">
-                    <div class="acc-button">
-                        <img src="imgs/icons/flask.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Innovation through R&amp;D</h4>
-                    </div>
-                    <div class="acc-panel">
-                        <p>As a forward-thinking company we explore the latest techologies through internal Research &
-                            Development projects. That way, our clients count with the advantage of our expert know-how
-                            to beat the competition and never be left behind in an always moving market.</p>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="acc-button">
-                        <img src="imgs/icons/person.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Our Pledge to Employee Growth</h4>
-                    </div>
-                    <div class="acc-panel">
-                        <p>We invest a heavy commitment of our resources into constant education and professional growth
-                            of our team and all our team-members individually towards a purposeful and fruitfull
-                            work-life balance.</p>
-                    </div>
-                </div>
+                
             </div>
         </section>
 
