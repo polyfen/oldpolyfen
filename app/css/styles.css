@@ -274,7 +274,7 @@ header nav.nav.position-fixed {
   position: fixed;
   right: 25px;
   top: 20px;
-  background: #070924;
+  background: #070924a8;
   padding: 7px 8px 2px;
   border-radius: 18px;
   backdrop-filter: blur(20px);
