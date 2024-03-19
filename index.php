@@ -62,8 +62,8 @@
                 <h1 class="title-1">Unleash your business<br />full potential</h1>
 
                 <div class="container-1080">
-                    <p>We are a fully-remote creative & development agency helping emerging businesses revamp their
-                        brand, web, and apps since 2018.</p>
+                    <p>We are a fully-remote creative & development agency helping businesses power their solutions, 
+                        brands and apps since 2018.</p>
                     <small class="caption">Don't be shy</small>
                     <div style="clear:both;"></div>
 

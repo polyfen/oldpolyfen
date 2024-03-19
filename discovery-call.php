@@ -53,7 +53,7 @@
 
         <section class="container hidden">
             <div id="landing-page-cover">
-                <h1 class="heading-1 align-center">Book a free Discovery Call</h1>
+                <h1 class="heading-1 align-center">Book a discovery call</h1>
             </div>
         </section>
 
@@ -67,8 +67,8 @@
                     <div class="bio">
                         <h5>Boris Hrnčić</h5>
                         <p>
-                            Tell me about your project.<br>
-                            Hear what we can do for you.<br>
+                            Tell us about your project.<br>
+                            Learn what we can do for you.<br>
                             No strings attached.
                         </p>
                         <div class="founder-social">
