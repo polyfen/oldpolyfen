@@ -15,7 +15,7 @@
     <meta name="keywords"
         content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
     <meta name="description" property="og:description"
-        content="Creative & development agency. Fully remote team helping emerging businesses from the US revamp their brand, web, and app since 2018." />
+        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018." />
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -25,7 +25,7 @@
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Polyfen | Creative & Development Agency" />
     <meta name="twitter:description"
-        content="Creative & development agency. Fully remote team helping emerging businesses from the US revamp their brand, web, and app since 2018." />
+        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
