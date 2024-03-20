@@ -143,28 +143,28 @@
         <section id="how-we-do-it" class="container-1080 hidden">
             <section class="column">
                 <div class="services-card">
-                    <h3 class="heading-2">UX<br>Designer</h3>
+                    <h3 class="heading-2">Sr UX<br>Designer</h3>
                     <img src="imgs/services/#.png" height="140px" width="auto">
-                    <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
-                    <h4 class="heading-3">$65</h4>
+                    <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">at around</h4>
+                    <h4 class="heading-3">$45</h4>
                     <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
                 </div>
             </section>
             <section class="column">
                 <div class="services-card">
-                <h3 class="heading-2">Software Engineer</h3>
+                <h3 class="heading-2">Sr Software<br>Engineer</h3>
                 <img src="imgs/services/#.png" height="140px" width="auto">
-                <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
-                <h4 class="heading-3">$65</h4>
+                <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">at around</h4>
+                <h4 class="heading-3">$45</h4>
                 <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
                 </div>
             </section>
             <section class="column">
             <div class="services-card">
-            <h3 class="heading-2">Marketing Consultant</h3>
+            <h3 class="heading-2">Sr Scrum<br>Master</h3>
             <img src="imgs/illustrations/#.webp" height="140px" width="auto">
-            <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
-            <h4 class="heading-3">$65</h4>
+            <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">at around</h4>
+            <h4 class="heading-3">$35</h4>
             <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
             </div>
             </section>
