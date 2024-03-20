@@ -136,6 +136,40 @@
             </section>
         </section>
 
+        <section id="hire">
+        <div class="container-1080">
+            <h3 class="heading-2">Hire</h3>
+        </div>
+        <section id="how-we-do-it" class="container-1080 hidden">
+            <section class="column">
+                <div class="services-card">
+                    <h3 class="heading-2">UX<br>Designer</h3>
+                    <img src="imgs/services/#.png" height="140px" width="auto">
+                    <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+                    <h4 class="heading-3">$65</h4>
+                    <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+                </div>
+            </section>
+            <section class="column">
+                <div class="services-card">
+                <h3 class="heading-2">Software Engineer</h3>
+                <img src="imgs/services/#.png" height="140px" width="auto">
+                <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+                <h4 class="heading-3">$65</h4>
+                <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+                </div>
+            </section>
+            <section class="column">
+            <div class="services-card">
+            <h3 class="heading-2">Marketing Consultant</h3>
+            <img src="imgs/illustrations/#.webp" height="140px" width="auto">
+            <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+            <h4 class="heading-3">$65</h4>
+            <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+            </div>
+            </section>
+            </section>
+        </section>
 
         <section id="how-we-do-charge" class="container hidden">
             <div class="container-700 accordions-container">
@@ -173,84 +207,6 @@
                     </div>
                     <div class="acc-panel">
                         <p>Our standardized and automated workflows ensure that no time is wasted. Send us an enquiry and we'll promptly engage in understanding your requirements, proposing a solution detailed in a comprehensive agreement, and prepare for a prompt project kick-off.</p>
-                    </div>
-                </div>
-        </section>
-
-        <hr>
-
-        <section id="hire">
-        <div class="container-1080">
-            <h3 class="heading-2">Hire</h3>
-        </div>
-        <section id="how-we-do-it" class="container-1080 hidden">
-            <section class="column">
-                <div class="services-card">
-                    <h3 class="heading-2">UX<br>Designer</h3>
-                    <img src="imgs/services/#.png" height="140px" width="auto">
-                    <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
-                    <h4 class="heading-3">$65</h4>
-                    <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
-                </div>
-            </section>
-            <section class="column">
-                <div class="services-card">
-                <h3 class="heading-2">Software Engineer</h3>
-                <img src="imgs/services/#.png" height="140px" width="auto">
-                <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
-                <h4 class="heading-3">$65</h4>
-                <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
-                </div>
-            </section>
-            <section class="column">
-            <div class="services-card">
-            <h3 class="heading-2">Marketing Consultant</h3>
-            <img src="imgs/illustrations/#.webp" height="140px" width="auto">
-            <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
-            <h4 class="heading-3">$65</h4>
-            <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
-            </div>
-            </section>
-            </section>
-        </section>
-
-
-        <section id="how-we-do-charge" class="container hidden">
-            <div class="container-700 accordions-container">
-                <div class="accordion">
-                    <div class="acc-button">
-                        <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
-                        <h4 class="heading-3">X</h4>
-                    </div>
-                    <div class="acc-panel">
-                        <p>X</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <div class="acc-button">
-                        <img src="imgs/icons/shield-chevron.svg" height="32px" width="auto">
-                        <h4 class="heading-3">X</h4>
-                    </div>
-                    <div class="acc-panel">
-                        <p>X</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <div class="acc-button">
-                        <img src="imgs/icons/crown-simple.svg" height="32px" width="auto">
-                        <h4 class="heading-3">X</h4>
-                    </div>
-                    <div class="acc-panel">
-                        <p>X</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <div class="acc-button">
-                        <img src="imgs/icons/flag-checkered.svg" height="32px" width="auto">
-                        <h4 class="heading-3">X</h4>
-                    </div>
-                    <div class="acc-panel">
-                        <p>X</p>
                     </div>
                 </div>
         </section>
