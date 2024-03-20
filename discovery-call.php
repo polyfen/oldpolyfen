@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Book a free Discovery Call | Polyfen</title>
+    <title>Book a Discovery Call | Polyfen</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
@@ -10,7 +10,7 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Book a free Discovery Call with us" />
+    <meta property="og:title" content="Book a Discovery Call with us" />
     <meta property="og:url" content="https://polyfen.com/discovery-call" />
     <meta name="keywords" content="" />
     <meta name="description" property="og:description"
@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Polyfen" />
     <meta name="twitter:creator" content="@PolyfenGroup">
-    <meta name="twitter:title" content="Book a free Discovery Call with us" />
+    <meta name="twitter:title" content="Book a Discovery Call with us" />
     <meta name="twitter:description"
         content="Tell me about your project. Hear what we can do for you. No strings attached." />
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/discovery-call.png" />
@@ -116,7 +116,7 @@
         <hr>
 
         <section class="hidden">
-            <h2 class="heading-1 align-center">Give your business<br>the glow up it needs</h2>
+            <h2 class="heading-1 align-center">Give your business<br>the power-up it needs</h2>
             <div id="final-cta-container" class="align-center">
                 <a href="#calendly">
                     <div id="final-cta" class="opal opal-rainbow-soft" style="border: 2px solid #7537f8;">
