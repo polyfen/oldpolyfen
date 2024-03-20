@@ -2324,3 +2324,7 @@ hr {
     margin: 160px auto;
   }
 }
+
+#clients-featured {
+  margin-top: 3rem;
+}

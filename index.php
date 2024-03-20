@@ -89,7 +89,7 @@
         </section>
         <!-- COVER end -->
 
-        <section class="container-900 hidden">
+        <section id="clients-featured" class="container-900 hidden">
             <h3 class="caption align-center">Clients featured in</h3>
             <div class="clients-container">
                 <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60px">
