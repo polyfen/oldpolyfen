@@ -59,7 +59,7 @@
         <!-- COVER start -->
         <section class="align-center" id="cover">
             <div class="hiddenHeader">
-                <h1 class="title-1">Unleash your business<br />full potential</h1>
+                <h1 class="title-1">Unleash your business<br/>full potential</h1>
 
                 <div class="container-1080">
                     <p>We are a fully-remote creative & development agency helping businesses power their solutions, 
@@ -89,126 +89,129 @@
         </section>
         <!-- COVER end -->
 
-        <div class="container-1080">
-
-            <!-- FEATURED PROJECTS start -->
-            <section id="work">
-                <h2 class="caption">Work</h2>
-                <h3 class="heading-1">Featured projects</h3>
-
-                <!-- BIKE IN MEX start -->
-                <div class="hidden featured-project">
-                    <div id="bike-in-mex-cover" class="project-cover"
-                        onmouseover="document.getElementById('bike-in-mex-button').className='button-hover';document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
-                        onmouseout="document.getElementById('bike-in-mex-button').className='';document.getElementById('bike-in-mex-cover').className='project-cover';">
-                        <a href="/bike-in-mex">
-                            <figure>
-                                <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy"
-                                    alt="Bike in Mex flag">
-                            </figure>
-                        </a>
-                        <div class="project-preview">
-                            <a href="/bike-in-mex">
-                                <figure>
-                                    <img src="imgs/case-studies/bike-in-mex/bike-in-mex-preview.gif" loading="lazy"
-                                        alt="Bike in Mex preview">
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-description">
-                        <h4 class="heading-2">Bike in Mex</h4>
-                        <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and
-                            Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in
-                            Tulum, Mexico.</p>
-                        <a href="/bike-in-mex"
-                            onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
-                            onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
-                            <button id="bike-in-mex-button">View project</button>
-                        </a>
-                    </div>
-                </div>
-                <!-- BIKE IN MEX end -->
-
-                <!-- TRADEANA start -->
-                <div class="hidden featured-project">
-                    <div id="tradeana-cover" class="project-cover"
-                        onmouseover="document.getElementById('tradeana-button').className='button-hover';document.getElementById('tradeana-cover').className='project-cover project-cover-hover';"
-                        onmouseout="document.getElementById('tradeana-button').className='';document.getElementById('tradeana-cover').className='project-cover';">
-                        <a href="/tradeana">
-                            <figure>
-                                <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy"
-                                    alt="Tradeana">
-                            </figure>
-                        </a>
-                        <div class="project-preview">
-                            <a href="/tradeana">
-                                <figure>
-                                    <img src="imgs/case-studies/tradeana/tradeana-preview.gif" loading="lazy"
-                                        alt="Tradeana preview">
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-description">
-                        <h4 class="heading-2">Tradeana</h4>
-                        <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help
-                            them efficiently audit and manage the risk of their ForEx operations.</p>
-                        <a href="/tradeana"
-                            onmouseover="document.getElementById('tradeana-cover').className='project-cover project-cover-hover';"
-                            onmouseout="document.getElementById('tradeana-cover').className='project-cover';">
-                            <button id="tradeana-button">View project</button>
-                        </a>
-                    </div>
-                </div>
-                <!-- TRADEANA end -->
-
-                <!-- VILLA TEREZIJA start -->
-                <div class="hidden featured-project">
-                    <div id="villa-terezija-cover" class="project-cover"
-                        onmouseover="document.getElementById('villa-terezija-button').className='button-hover';document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';"
-                        onmouseout="document.getElementById('villa-terezija-button').className='';document.getElementById('villa-terezija-cover').className='project-cover';">
-                        <a href="/villa-terezija">
-                            <figure>
-                                <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy"
-                                    alt="Villa Terezija">
-                            </figure>
-                        </a>
-                        <div class="project-preview">
-                            <a href="/villa-terezija">
-                                <figure>
-                                    <img src="imgs/case-studies/villa-terezija/villa-terezija-preview.gif"
-                                        loading="lazy" alt="Villa Terezija preview">
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-description">
-                        <h4 class="heading-2">Villa Terezija</h4>
-                        <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on
-                            Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
-                        <a href="/villa-terezija"
-                            onmouseover="document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';"
-                            onmouseout="document.getElementById('villa-terezija-cover').className='project-cover';">
-                            <button id="villa-terezija-button">View project</button>
-                        </a>
-                    </div>
-                </div>
-                <!-- VILLA TEREZIJA end -->
-
-            </section>
-            <!-- FEATURED PROJECTS end -->
-
-
-            <div style="clear:both;"> </div>
-            <div class="row">
-                <div class="horizontal-separator"> </div>
+        <section id="clients-featured" class="container-900 hidden">
+            <h3 class="caption align-center">Clients featured in</h3>
+            <div class="clients-container">
+                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60px">
+                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50px">
+                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40px">
+                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45px">
             </div>
+        </section>
 
+        <hr>
+
+        <section id="build">
+        <div class="container-1080 hidden">
+            <h3 class="heading-1">Build</h3>
         </div>
+        <section id="how-we-do-it" class="container-1080 hidden">
+            <section class="column">
+                <div class="services-card">
+                    <h3 class="heading-2">Brand</h3>
+                    <img src="imgs/services/basketball.png" height="140px" width="auto">
+                    <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+                    <h4 class="heading-3">$7,600</h4>
+                    <h4 class="caption" style="opacity: 0.5;">2-3 weeks</h4>
+                </div>
+            </section>
+            <section class="column">
+                <div class="services-card">
+                <h3 class="heading-2">Website</h3>
+                <img src="imgs/services/web.png" height="140px" width="auto">
+                <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+                <h4 class="heading-3">$7,800</h4>
+                <h4 class="caption" style="opacity: 0.5;">3-6 weeks</h4>
+                </div>
+            </section>
+            <section class="column">
+            <div class="services-card">
+            <h3 class="heading-2">App</h3>
+            <img src="imgs/illustrations/smartphone-illustration.svg" height="140px" width="auto">
+            <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
+            <h4 class="heading-3">$39,000</h4>
+            <h4 class="caption" style="opacity: 0.5;">2-6 months</h4>
+            </div>
+            </section>
+            </section>
+        </section>
 
-        <!-- new section for portfolio thumbnails  -->
-        <?php include 'includes/portfolio-thumbnails.php';?>
+        <section id="hire">
+        <div class="container-1080 hidden">
+            <h3 class="heading-1">Hire</h3>
+        </div>
+        <section id="how-we-do-it" class="container-1080 hidden">
+            <section class="column">
+                <div class="services-card">
+                    <h3 class="heading-2">Sr UX<br>Designer</h3>
+                    <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">at around</h4>
+                    <h4 class="heading-3">$45</h4>
+                    <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+                </div>
+            </section>
+            <section class="column">
+                <div class="services-card">
+                <h3 class="heading-2">Sr Software<br>Engineer</h3>
+                <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">at around</h4>
+                <h4 class="heading-3">$45</h4>
+                <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+                </div>
+            </section>
+            <section class="column">
+            <div class="services-card">
+            <h3 class="heading-2">Sr Scrum<br>Master</h3>
+            <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">at around</h4>
+            <h4 class="heading-3">$35</h4>
+            <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
+            </div>
+            </section>
+            </section>
+        </section>
+
+        <section id="how-we-do-charge" class="container hidden">
+            <div class="container-700 accordions-container">
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
+                        <h4 class="heading-3">Low cost, high value</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals around the world at a small fraction of the price from our competitors in the US.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/shield-chevron.svg" height="32px" width="auto">
+                        <h4 class="heading-3">Wealth of experience</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>Founder &amp; Art Director <a href="https://boris.hr" rel="follow" target="_blank">Boris Hrnčić</a> brings to the table 10+ years of experience in design, development, and marketing. Vetted in the top 3% of designers worldwide by <a href="https://toptal.com" rel="nofollow" target="_blank">Toptal</a> in 2017. Led high-performing teams for small start-ups and big enterprises in Croatia, Argentina, and the US.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/crown-simple.svg" height="32px" width="auto">
+                        <h4 class="heading-3">End-to-end customer service</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We've got you covered next time you encounter any new requirements in the area of business development, marketing, design, or tech. Our growing list of satisfied customers is testimony that we go above and beyond to help your business grow and to develop a long-lasting and solid partnership.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="acc-button">
+                        <img src="imgs/icons/flag-checkered.svg" height="32px" width="auto">
+                        <h4 class="heading-3">Fast-track project kick-off</h4>
+                    </div>
+                    <div class="acc-panel">
+                        <p>Our standardized and automated workflows ensure that no time is wasted. Send us an enquiry and we'll promptly engage in understanding your requirements, proposing a solution detailed in a comprehensive agreement, and prepare for a prompt project kick-off.</p>
+                    </div>
+                </div>
+        </section>
+
+        <hr>
+
+        <?php include 'includes/testimonial.php';?>
+
 
     </div>
     <!-- FORCE MAX-WIDTH 100% end -->

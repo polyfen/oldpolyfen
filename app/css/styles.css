@@ -319,7 +319,7 @@ header nav a:hover {
   }
 
   nav.desktop.nav {
-    min-width: 444px;
+    min-width: 312px;
   }
 
   header .close {
@@ -414,7 +414,7 @@ div.background {
 section#cover h1 {
   z-index: 2;
   position: relative;
-  margin-top: 180px;
+  margin-top: 120px;
 }
 
 section#cover {
@@ -1954,6 +1954,24 @@ section#how-we-do-it div.grid div:nth-child(3) {
   }
 }
 /*//// Testimonials////*/
+
+@media (min-width: 768px) {
+  .testimonials-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 60px;
+    }
+
+    .testimonial {
+      width: 35%;
+    }
+    #testimonials {
+      margin-bottom: 40px;
+    }
+}
+
+
 figure.testimonial {
   display: flex;
    padding-block: 30px;
@@ -1969,6 +1987,7 @@ figure.testimonial blockquote ul {
 figure.testimonial blockquote {
   margin-bottom: 0;
   margin-top: 0;
+  margin: 0 !important;
 }
 
 figure.testimonial figcaption {
@@ -2259,7 +2278,7 @@ section#how-we-do-it {
 @media screen and (max-width: 900px) {
   section.column {
     width: 100%;
-    margin-bottom: 6rem;
+    margin-bottom: 0;
   }
 
   section#how-we-do-it {
@@ -2322,5 +2341,33 @@ hr {
 @media (min-width: 1200px) {
   hr {
     margin: 160px auto;
+  }
+}
+
+#clients-featured {
+  margin-top: 3rem;
+}
+
+section#hire {
+  margin-top: 3rem;
+}
+
+@media (max-width: 720px) {section#build h3, section#hire h3 {
+  text-align: center;
+}
+}
+
+body#home section#contact {
+  margin-top: 6rem;
+}
+
+#testimonials {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+  #testimonials {
+    padding: 0 16px;
   }
 }
