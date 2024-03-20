@@ -102,8 +102,8 @@
         <hr>
 
         <section id="build">
-        <div class="container-1080">
-            <h3 class="heading-2">Build</h3>
+        <div class="container-1080 hidden">
+            <h3 class="heading-1">Build</h3>
         </div>
         <section id="how-we-do-it" class="container-1080 hidden">
             <section class="column">
@@ -137,8 +137,8 @@
         </section>
 
         <section id="hire">
-        <div class="container-1080">
-            <h3 class="heading-2">Hire</h3>
+        <div class="container-1080 hidden">
+            <h3 class="heading-1">Hire</h3>
         </div>
         <section id="how-we-do-it" class="container-1080 hidden">
             <section class="column">

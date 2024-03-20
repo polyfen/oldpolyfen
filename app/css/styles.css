@@ -2328,3 +2328,12 @@ hr {
 #clients-featured {
   margin-top: 3rem;
 }
+
+section#hire {
+  margin-top: 3rem;
+}
+
+@media (max-width: 720px) {section#build h3, section#hire h3 {
+  text-align: center;
+}
+}
