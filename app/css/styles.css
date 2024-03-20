@@ -492,7 +492,7 @@ body#home div.container-1080 {
 }
 
 .activity-item {
-  width: min(240px,48.624%);
+  width: min(240px, 48.624%);
   border-radius: 4px;
 }
 
@@ -602,22 +602,25 @@ body#home div.container-1080 {
   }
 
 }
+
 /*//////>>> pearls & subtle animation */
 
 #pearl-11 {
   transition-property: opacity;
-  transition-duration: 1500ms; 
-  transition-delay: 400ms; 
+  transition-duration: 1500ms;
+  transition-delay: 400ms;
 }
+
 #pearl-12 {
   transition-property: opacity;
-  transition-duration: 1000ms; 
-  transition-delay: 800ms; 
+  transition-duration: 1000ms;
+  transition-delay: 800ms;
 }
+
 #pearl-13 {
   transition-property: opacity;
-  transition-duration: 700ms; 
-  transition-delay: 600ms; 
+  transition-duration: 700ms;
+  transition-delay: 600ms;
 }
 
 
@@ -945,6 +948,7 @@ footer .footer_2line span {
 footer div#tpg {
   width: 80px;
 }
+
 #tpg a {
   display: flex;
 }
@@ -980,7 +984,7 @@ footer section.times div img.country-flag {
     display: block;
     padding: 15px 0 25px 0;
   }
-  
+
   footer section.times {
     gap: 10px;
   }
@@ -1036,6 +1040,7 @@ footer section.times div img.country-flag {
 
 
 }
+
 /* footer navbar for mobile */
 .footer-navbar-mobile {
   display: flex;
@@ -1049,6 +1054,7 @@ footer section.times div img.country-flag {
     display: none;
   }
 }
+
 /*///////////// FOOTER END /////////////*/
 
 /*///////////// HOMEPAGE START /////////////*/
@@ -1313,10 +1319,12 @@ div.other-project-card p {
   margin-inline: auto;
   text-wrap: balance;
 }
+
 @supports (text-wrap: pretty) {
   .project-p {
-  text-wrap: pretty;
-  }}
+    text-wrap: pretty;
+  }
+}
 
 
 @media (min-width:576px) {
@@ -1612,10 +1620,11 @@ div.testimonial {
   max-width: 600px;
   margin-bottom: 40px;
 }
-@media (max-width:648px){
-.bio {
-  margin-bottom: 66px;
-}
+
+@media (max-width:648px) {
+  .bio {
+    margin-bottom: 66px;
+  }
 }
 
 @media (min-width:768px) {
@@ -1754,6 +1763,7 @@ button#accept-cookies-button:hover:before {
 #cookies-modal {
   transition: bottom 0.5s ease;
 }
+
 /*///////////// COOKIES MODAL END /////////////*/
 
 
@@ -1789,7 +1799,7 @@ div.accordions-container {
 }
 
 div.accordion {
-  border-bottom:1px solid #7437f850;
+  border-bottom: 1px solid #7437f850;
   margin-bottom: 32px;
 }
 
@@ -1833,7 +1843,7 @@ div.column-to-row div+div {
 
 .founder-social img {
   vertical-align: bottom;
-} 
+}
 
 #founder-section li small {
   font-size: 25px;
@@ -1863,11 +1873,12 @@ body#discovery-call .founder-social {
 .founder-social .boris-in-link:hover img {
   opacity: 1;
 }
- #founder-section li {
-  text-wrap: balance;
- }
 
-  img.flag {
+#founder-section li {
+  text-wrap: balance;
+}
+
+img.flag {
   height: 20px;
   width: auto;
   border-radius: 2px;
@@ -1877,9 +1888,9 @@ body#discovery-call .founder-social {
 
 @media (max-width: 768px) {
   #founder-section .founder-bios {
-  width: fit-content;
-  margin: 0 auto;
-}
+    width: fit-content;
+    margin: 0 auto;
+  }
 }
 
 
@@ -1892,12 +1903,15 @@ body#discovery-call .founder-social {
     justify-content: space-between;
     align-items: center;
   }
+
   div.column-to-row div.one-half {
     width: calc(50% - 12px);
   }
+
   #founder-section .founder-bios {
     width: 40%;
   }
+
   #founder-section .founder-list {
     width: 60%;
   }
@@ -1953,7 +1967,8 @@ section#how-we-do-it div.grid div:nth-child(3) {
     justify-items: start;
   }
 }
-/*//// Testimonials////*/
+
+/*//// Testimonials -successs stories compoponent- ////*/
 
 @media (min-width: 768px) {
   .testimonials-section {
@@ -1961,33 +1976,36 @@ section#how-we-do-it div.grid div:nth-child(3) {
     flex-direction: row;
     align-items: flex-start;
     gap: 60px;
-    }
+  }
 
-    .testimonial {
-      width: 35%;
-    }
-    #testimonials {
-      margin-bottom: 40px;
-    }
+  .testimonial {
+    width: 30%;
+  }
+
+  figure.testimonial blockquote {
+    margin: 0;
+  }
 }
 
+@media (max-width: 767px) {
+  figure.testimonial blockquote {
+    margin-block: 0;
+  }
+  #testimonials {
+    max-width: 600px;
+  }
+}
 
 figure.testimonial {
   display: flex;
-   padding-block: 30px;
-   align-items: center;
+  padding-block: 30px;
+  align-items: center;
 }
 
 figure.testimonial blockquote p,
 figure.testimonial blockquote ul {
   margin-bottom: 26px;
   font-size: 25px;
-}
-
-figure.testimonial blockquote {
-  margin-bottom: 0;
-  margin-top: 0;
-  margin: 0 !important;
 }
 
 figure.testimonial figcaption {
@@ -2008,6 +2026,7 @@ figure.testimonial figcaption small {
     gap: 20px;
   }
 }
+
 /*///////////// SERVICES END /////////////*/
 
 
@@ -2023,9 +2042,10 @@ figure.testimonial figcaption small {
 
 @supports (text-wrap: pretty) {
   #what-sets-us-apart p {
-  text-wrap: pretty;
-  }}
-  
+    text-wrap: pretty;
+  }
+}
+
 /*Accordion start*/
 .acc-button {
   cursor: pointer;
@@ -2059,11 +2079,16 @@ figure.testimonial figcaption small {
 .active:after {
   content: "\2212";
 }
+
 /*Accordion end*/
 
-#polyatlas-section a, #polycookies-section a, #founder-section a, .founder-social {
+#polyatlas-section a,
+#polycookies-section a,
+#founder-section a,
+.founder-social {
   font-size: 22px;
 }
+
 #polyatlas-section .align-center,
 #polycookies-section .align-center,
 #founder-section .align-center {
@@ -2077,9 +2102,10 @@ figure.testimonial figcaption small {
 #polycookies-section .iframe {
   aspect-ratio: 16/9;
 }
+
 #polycookies-section .iframe iframe {
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -2087,8 +2113,9 @@ height: 100%;
   #polyatlas-section .align-center,
   #polycookies-section .align-center,
   #founder-section .align-center {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
   }
+
   #polycookies-section div:first-of-type {
     flex-direction: row-reverse;
   }
@@ -2352,22 +2379,14 @@ section#hire {
   margin-top: 3rem;
 }
 
-@media (max-width: 720px) {section#build h3, section#hire h3 {
-  text-align: center;
-}
+@media (max-width: 900px) {
+
+  section#build h3,
+  section#hire h3 {
+    text-align: center;
+  }
 }
 
 body#home section#contact {
   margin-top: 6rem;
-}
-
-#testimonials {
-  max-width: 1080px;
-  margin: 0 auto;
-}
-
-@media (max-width: 1080px) {
-  #testimonials {
-    padding: 0 16px;
-  }
 }
