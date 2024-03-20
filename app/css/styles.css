@@ -1954,6 +1954,23 @@ section#how-we-do-it div.grid div:nth-child(3) {
   }
 }
 /*//// Testimonials////*/
+
+@media (min-width: 768px) {
+  .testimonials-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    }
+
+    .testimonial {
+      width: 35%;
+    }
+    #testimonials {
+      margin-bottom: 40px;
+    }
+}
+
+
 figure.testimonial {
   display: flex;
    padding-block: 30px;
