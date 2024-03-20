@@ -40,7 +40,6 @@
 
     <div class="footer-navbar-mobile">
         <a href="/" class="uppercase">Home</a>
-        <a href="/services" class="uppercase">Services</a>
         <a href="/about" class="uppercase">About</a>
         <a href="/contact" class="uppercase">Contact</a>
     </div>
