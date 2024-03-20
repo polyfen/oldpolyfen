@@ -2337,3 +2337,7 @@ section#hire {
   text-align: center;
 }
 }
+
+body#home section#contact {
+  margin-top: 6rem;
+}
