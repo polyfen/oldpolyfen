@@ -1960,6 +1960,7 @@ section#how-we-do-it div.grid div:nth-child(3) {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    gap: 60px;
     }
 
     .testimonial {
@@ -1986,6 +1987,7 @@ figure.testimonial blockquote ul {
 figure.testimonial blockquote {
   margin-bottom: 0;
   margin-top: 0;
+  margin: 0 !important;
 }
 
 figure.testimonial figcaption {
@@ -2357,4 +2359,15 @@ section#hire {
 
 body#home section#contact {
   margin-top: 6rem;
+}
+
+#testimonials {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+  #testimonials {
+    padding: 0 16px;
+  }
 }
