@@ -2259,7 +2259,7 @@ section#how-we-do-it {
 @media screen and (max-width: 900px) {
   section.column {
     width: 100%;
-    margin-bottom: 6rem;
+    margin-bottom: 0;
   }
 
   section#how-we-do-it {
