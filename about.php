@@ -87,7 +87,7 @@
                 </div>
                 <div class="one-half hidden founder-list">
                     <ul class="hanging-list arrow-bullet" style="margin-bottom: 1rem;">
-                        <li style="margin-bottom: 1rem;">Coding websites since 2008 and designing brands since 2010.
+                        <li style="margin-bottom: 1rem;">Coding since 2008 and designing brands since 2010.
                         </li>
                         <li style="margin-bottom: 1rem;">Vetted in the top 3% of designers worldwide by
                             <a href="https://toptal.com" target="_blank" rel="nofollow"><small>Toptal</small></a> in 2017.
