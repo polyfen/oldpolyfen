@@ -109,7 +109,7 @@
             <section class="column">
                 <div class="services-card">
                     <h3 class="heading-2">Brand</h3>
-                    <img src="imgs/services/basketball.png" height="140px" width="auto">
+                    <img src="imgs/illustrations/dudes-basketball.webp" height="140px" width="auto">
                     <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
                     <h4 class="heading-3">$7,600</h4>
                     <h4 class="caption" style="opacity: 0.5;">2-3 weeks</h4>
@@ -118,7 +118,7 @@
             <section class="column">
                 <div class="services-card">
                 <h3 class="heading-2">Website</h3>
-                <img src="imgs/services/web.png" height="140px" width="auto">
+                <img src="imgs/illustrations/dudes-laptop.webp" height="140px" width="auto">
                 <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
                 <h4 class="heading-3">$7,800</h4>
                 <h4 class="caption" style="opacity: 0.5;">3-6 weeks</h4>
@@ -127,7 +127,7 @@
             <section class="column">
             <div class="services-card">
             <h3 class="heading-2">App</h3>
-            <img src="imgs/illustrations/smartphone-illustration.svg" height="140px" width="auto">
+            <img src="imgs/illustrations/dudes-smartphone.webp" height="140px" width="auto">
             <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Starting at</h4>
             <h4 class="heading-3">$39,000</h4>
             <h4 class="caption" style="opacity: 0.5;">2-6 months</h4>
