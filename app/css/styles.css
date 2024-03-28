@@ -2074,7 +2074,7 @@ div.acc-button img {
 .acc-button:after {
   content: '\002B';
   float: right;
-  margin-left: 5px;
+  margin-left: auto;
   font-size: 2rem;
 }
 
