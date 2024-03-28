@@ -1794,33 +1794,7 @@ section#how-we-do-it h4 {
   margin-bottom: 12px;
 }
 
-div.accordions-container {
-  padding-top: 2rem;
-}
-
-div.accordion {
-  border-bottom: 1px solid #7437f850;
-  margin-bottom: 32px;
-}
-
-div.acc-button {
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  color: #ffffff4d;
-}
-
-div.acc-button img {
-  margin-right: 10px;
-  margin-top: -6px;
-}
-
-.acc-button .heading-3 {
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-top: 0;
-}
+/* here was content for accordeon, take it to accordeon section */
 
 div.column-to-row {
   display: flex;
@@ -2047,6 +2021,46 @@ figure.testimonial figcaption small {
 }
 
 /*Accordion start*/
+/**/
+div.accordions-container {
+  padding-top: 2rem;
+}
+
+div.accordion {
+  border-bottom: 1px solid #7437f850;
+  margin-bottom: 32px;
+}
+
+div.acc-button {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #ffffff4d;
+}
+
+div.acc-button img {
+  margin-right: 10px;
+  margin-top: -6px;
+}
+
+.acc-button .heading-3 {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+/**/
+.acc-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+@media (min-width: 1024px) {
+  .acc-panel {
+    padding-left: 46px;
+  }
+}
+
 .acc-button {
   cursor: pointer;
   transition: 0.4s;
@@ -2057,18 +2071,6 @@ figure.testimonial figcaption small {
   color: #7537f8
 }
 
-.acc-panel {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-@media (min-width: 1024px) {
-  .acc-panel {
-    padding-left: 46px;
-  }
-}
-
 .acc-button:after {
   content: '\002B';
   float: right;
@@ -2076,7 +2078,7 @@ figure.testimonial figcaption small {
   font-size: 2rem;
 }
 
-.active:after {
+.acc-button.active:after {
   content: "\2212";
 }
 
