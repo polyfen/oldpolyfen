@@ -324,7 +324,7 @@ header nav a:hover {
   }
 
   header nav.nav.position-fixed {
-    padding: 15px 8px 10px;
+    padding: 15px 16px 10px;
     border-radius: 200px;
   }
 }
