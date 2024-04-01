@@ -14,9 +14,9 @@
 <meta name="theme-color" content="#7537f8">
 
 <!-- CSS General -->
-<link rel="stylesheet" href="https://polykit.xyz/polynucleus/polynucleus.css" type="text/css">
+<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-1.css" type="text/css">
 <link href="app/css/opalescent.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="app/css/styles.css" type="text/css">
+<link rel="stylesheet" href="app/css/styles2.css" type="text/css">
 
 
 <!-- FONTS -->
