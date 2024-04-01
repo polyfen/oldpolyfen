@@ -278,10 +278,7 @@ header nav.nav.position-fixed {
   padding: 7px 8px 2px;
   border-radius: 18px;
   backdrop-filter: blur(20px);
-}
-
-header nav.nav.position-fixed:hover {
-  border-color: rgba(255, 255, 255, 0.35);
+  border: 1px solid #ffffff26;
 }
 
 header nav a {
