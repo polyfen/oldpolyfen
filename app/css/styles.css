@@ -283,7 +283,7 @@ header nav.nav.position-fixed {
 
 header nav a {
   color: #F2F2F2C0 !important;
-  padding: 14px 16px;
+  padding: 14px 8px;
   text-decoration: none;
 }
 
@@ -315,16 +315,12 @@ header nav a:hover {
     display: none;
   }
 
-  nav.desktop.nav {
-    min-width: 312px;
-  }
-
   header .close {
     display: none;
   }
 
   header nav.nav.position-fixed {
-    padding: 15px 16px 10px;
+    padding: 15px 24px 10px;
     border-radius: 200px;
   }
 }
