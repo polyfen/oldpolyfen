@@ -1,6 +1,6 @@
-<article id="testimonials" class="hidden container-1080">
-    <h3 class="heading-2 align-center" style="margin-bottom: 8px;">Hear our success stories</h3>
-    <section class="testimonials-section">
+<article id="testimonials" class="">
+    <h3 class="heading-2">Hear our success stories</h3>
+    <section class="testimonials-container">
         <figure class="testimonial">
             <blockquote>
                 <p>

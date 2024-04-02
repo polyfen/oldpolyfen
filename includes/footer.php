@@ -1,5 +1,5 @@
 <footer>
-    <ul>
+    <nav class="social-network">
         <li><a href="http://polyfen.com/twitter" target="_blank" title="Twitter"><i
                     class="fa-brands fa-x-twitter"></i></a></li>
         <li><a href="http://polyfen.com/instagram" target="_blank" title="Instagram"><i
@@ -8,7 +8,7 @@
                     class="fab fa-linkedin-in"></i></a></li>
         <li><a href="http://polyfen.com/github" target="_blank" title="Github" id="linkedin-icon"><i
                     class="fab fa-github"></i></a></li>
-    </ul>
+    </nav>
 
     <section class="times">
         <div data-timezone="US/Pacific">
@@ -29,23 +29,21 @@
         </div>
     </section>
 
-    <div id="tpg">
+    <figure>
         <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
-            <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo"
-                onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
-            <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none"
-                onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
+            <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo">
+            <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none">
         </a>
-    </div>
+    </figure>
 
-    <div class="footer-navbar-mobile">
-        <a href="/" class="uppercase">Home</a>
-        <a href="/about" class="uppercase">About</a>
-        <a href="/contact" class="uppercase">Contact</a>
-    </div>
+    <nav class="footer-navbar-mobile">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
 
 
-    <div class="footer_2line">
+    <nav class="footer_2line">
         <a href="https://thepolyfengroup.com/wiki/" target="_blank"><small>Team Wiki</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
         <a href="https://thepolyfengroup.com/business/" target="_blank"><small>Business Plan</small></a>
@@ -53,7 +51,7 @@
         <a href="https://thepolyfengroup.com/brand/" target="_blank"><small>Brand Guidelines</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
         <a href="https://thepolyfengroup.com/privacy/" target="_blank"><small>Privacy Policy</small></a>
-    </div>
+    </nav>
 
     <!-- scripts location call luxon-->
     <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
