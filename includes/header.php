@@ -1,9 +1,9 @@
 <header>
   <a href="/"><img src="imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
   <nav class="desktop nav">        
-    <a href="/" class="uppercase">Home</a>
-    <a href="/about" class="uppercase">About</a>
-    <a href="/contact" class="uppercase">Contact</a>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
   </nav>
 
   <nav class="hamburger nav position-fixed">
