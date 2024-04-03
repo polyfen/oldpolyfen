@@ -10,23 +10,23 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Polyfen | Creative & Development Agency" />
-    <meta property="og:url" content="https://polyfen.com" />
+    <meta property="og:title" content="Polyfen | Creative & Development Agency">
+    <meta property="og:url" content="https://polyfen.com">
     <meta name="keywords"
-        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
+        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta name="description" property="og:description"
-        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="fb:app_id" content="1799272553516195" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Polyfen" />
+        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018.">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="fb:app_id" content="1799272553516195">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Polyfen">
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Polyfen | Creative & Development Agency" />
+    <meta name="twitter:title" content="Polyfen | Creative & Development Agency">
     <meta name="twitter:description"
-        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
+        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018.">
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
@@ -56,7 +56,7 @@
     <!-- COVER start -->
     <main>
         <section>
-            <h1 class="title-1">Unleash your business<br />full potential</h1>
+            <h1 class="title-1">Unleash your business<br>full potential</h1>
             <p>We are a fully-remote creative & development agency helping businesses power their solutions,
                 brands and apps since 2018.</p>
             <small class="caption">Don't be shy</small>
@@ -76,10 +76,10 @@
         <section class="clients-featured">
             <h3 class="caption align-center">Clients featured in</h3>
             <div class="clients-container">
-                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60px">
-                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50px">
-                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40px">
-                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45px">
+                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60">
+                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50">
+                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40">
+                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45">
             </div>
         </section>
 
@@ -90,7 +90,7 @@
             <div class="cards-container">
                 <article class="services-card">
                     <h3 class="heading-2">Brand</h3>
-                    <img src="imgs/illustrations/dudes-basketball.webp" height="140px" width="auto">
+                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
                     <h4 class="heading-3">$7,600</h4>
                     <h4 class="caption">2-3 weeks</h4>
@@ -98,7 +98,7 @@
 
                 <article class="services-card">
                     <h3 class="heading-2">Website</h3>
-                    <img src="imgs/illustrations/dudes-laptop.webp" height="140px" width="auto">
+                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
                     <h4 class="heading-3">$7,800</h4>
                     <h4 class="caption">3-6 weeks</h4>
@@ -106,7 +106,7 @@
 
                 <article class="services-card">
                     <h3 class="heading-2">App</h3>
-                    <img src="imgs/illustrations/dudes-smartphone.webp" height="140px" width="auto">
+                    <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
                     <h4 class="heading-3">$39,000</h4>
                     <h4 class="caption">2-6 months</h4>
@@ -142,10 +142,11 @@
         </section>
 
         <section id="benefits">
+            <h2 class="d-none">Benefits</h2>
             <div class="accordions-container">
                 <article class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/hand-coins.svg" height="32px" width="auto">
+                        <img src="imgs/icons/hand-coins.svg" height="32" alt="">
                         <h4 class="heading-3">Low cost, high value</h4>
                     </div>
                     <div class="acc-panel">
@@ -155,7 +156,7 @@
                 </article>
                 <article class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/shield-chevron.svg" height="32px" width="auto">
+                        <img src="imgs/icons/shield-chevron.svg" height="32" alt="">
                         <h4 class="heading-3">Wealth of experience</h4>
                     </div>
                     <div class="acc-panel">
@@ -168,7 +169,7 @@
                 </article>
                 <article class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/crown-simple.svg" height="32px" width="auto">
+                        <img src="imgs/icons/crown-simple.svg" height="32" alt="">
                         <h4 class="heading-3">End-to-end customer service</h4>
                     </div>
                     <div class="acc-panel">
@@ -180,7 +181,7 @@
                 </article>
                 <article class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/flag-checkered.svg" height="32px" width="auto">
+                        <img src="imgs/icons/flag-checkered.svg" height="32" alt="">
                         <h4 class="heading-3">Fast-track project kick-off</h4>
                     </div>
                     <div class="acc-panel">

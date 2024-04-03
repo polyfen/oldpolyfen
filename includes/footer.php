@@ -1,38 +1,52 @@
 <footer>
     <nav class="social-network">
-        <li><a href="http://polyfen.com/twitter" target="_blank" title="Twitter"><i
-                    class="fa-brands fa-x-twitter"></i></a></li>
-        <li><a href="http://polyfen.com/instagram" target="_blank" title="Instagram"><i
-                    class="fab fa-instagram"></i></a></li>
-        <li><a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon"><i
-                    class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="http://polyfen.com/github" target="_blank" title="Github" id="linkedin-icon"><i
-                    class="fab fa-github"></i></a></li>
+        <ul>
+            <li>
+                <a href="http://polyfen.com/twitter" target="_blank" title="Twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://polyfen.com/instagram" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://polyfen.com/github" target="_blank" title="Github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
     </nav>
 
-    <section class="times">
+    <article class="times">
         <div data-timezone="US/Pacific">
-            <img src="imgs/flags/us.svg" class="country-flag">
+            <img src="imgs/flags/us.svg" class="country-flag" alt="">
             <small class="caption">San Francisco</small>
             <output class="caption">00:00</output>
         </div>
 
         <div data-timezone="America/Argentina/Buenos_Aires">
-            <img src="imgs/flags/ar.svg" class="country-flag">
+            <img src="imgs/flags/ar.svg" class="country-flag" alt="">
             <small class="caption">Mar del Plata</small>
             <output class="caption">00:00</output>
         </div>
         <div data-timezone="Europe/Belgrade">
-            <img src="imgs/flags/hr.svg" class="country-flag">
+            <img src="imgs/flags/hr.svg" class="country-flag" alt="">
             <small class="caption">Zagreb</small>
             <output class="caption">00:00</output>
         </div>
-    </section>
+</article>
 
     <figure>
         <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
-            <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo">
-            <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none">
+            <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt="">
+            <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt="">
         </a>
     </figure>
 
