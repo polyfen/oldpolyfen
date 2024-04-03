@@ -141,9 +141,8 @@
 
         </section>
 
-        <section id="benefits">
-            <h2 class="d-none">Benefits</h2>
-            <div class="accordions-container">
+        <section id="benefits" aria-label="Learn more about the benefits we offer">
+            <div class="accordions-container" aria-label="Accordions container of the Benefits">
                 <article class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/hand-coins.svg" height="32" alt="">

@@ -1,5 +1,5 @@
 <footer>
-    <nav class="social-network">
+    <nav aria-label="Our social network" class="social-network">
         <ul>
             <li>
                 <a href="http://polyfen.com/twitter" target="_blank" title="Twitter">
@@ -24,8 +24,7 @@
         </ul>
     </nav>
 
-    <article class="times">
-        <h2 class="d-none">Global Presence</h2>
+    <div class="times" aria-label="Information about our different time zones">
         <div data-timezone="US/Pacific">
             <img src="imgs/flags/us.svg" class="country-flag" alt="">
             <small class="caption">San Francisco</small>
@@ -42,7 +41,7 @@
             <small class="caption">Zagreb</small>
             <output class="caption">00:00</output>
         </div>
-</article>
+</div>
 
     <figure>
         <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
