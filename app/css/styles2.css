@@ -1,0 +1,96 @@
+/* font families */
+/*definir las fuentes qe van*/
+* {
+    font-family: 'BiotifMedium', helvetica, arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: biotifextrabold, helvetica, arial, sans-serif;
+}
+
+p,
+p a,
+li,
+p strong,
+p span,
+li strong,
+th,
+td {
+    font-family: freight-text-pro, serif;
+}
+
+button,
+a.button, small {
+    font-family: 'BiotifMedium', helvetica, arial, sans-serif;
+}
+
+
+
+
+body {
+    background: #070924;
+    margin: 0;
+}
+
+.hello-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+    background: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 12px solid #7537f8;
+    padding: 20px;
+}
+
+img#logo {
+    height: 50px;
+}
+
+.cover {
+    text-align: center;
+}
+
+.cover p {
+    max-width: 450px;
+    margin: 35px auto;
+    opacity: .7;
+}
+
+.caption {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cover a {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.clients-featured {
+    padding: 2rem;
+
+}
+
+.clients-featured h2 {
+    margin-bottom: 1rem;
+}
+
+.clients-container {
+    display: flex;
+    justify-content: space-between;
+}

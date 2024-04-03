@@ -55,7 +55,7 @@
 
     <!-- COVER start -->
     <main>
-        <section>
+        <section class="cover">
             <h1 class="title-1">Unleash your business<br>full potential</h1>
             <p>We are a fully-remote creative & development agency helping businesses power their solutions,
                 brands and apps since 2018.</p>
@@ -74,7 +74,7 @@
         <!-- COVER end -->
 
         <section class="clients-featured">
-            <h3 class="caption align-center">Clients featured in</h3>
+            <h2 class="caption align-center">Clients featured in</h2>
             <div class="clients-container">
                 <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60">
                 <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50">
@@ -88,62 +88,62 @@
         <section id="build">
             <h2 class="heading-1">Build</h2>
             <div class="cards-container">
-                <article class="services-card">
+                <section class="services-card">
                     <h3 class="heading-2">Brand</h3>
                     <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
                     <h4 class="heading-3">$7,600</h4>
                     <h4 class="caption">2-3 weeks</h4>
-                </article>
+                </section>
 
-                <article class="services-card">
+                <section class="services-card">
                     <h3 class="heading-2">Website</h3>
                     <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
                     <h4 class="heading-3">$7,800</h4>
                     <h4 class="caption">3-6 weeks</h4>
-                </article>
+                </section>
 
-                <article class="services-card">
+                <section class="services-card">
                     <h3 class="heading-2">App</h3>
                     <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
                     <h4 class="heading-3">$39,000</h4>
                     <h4 class="caption">2-6 months</h4>
-                </article>
+                </section>
             </div>
         </section>
 
         <section id="hire">
             <h2 class="heading-1">Hire</h2>
             <div class="cards-container">
-                <article class="services-card">
+                <section class="services-card">
                     <h3 class="heading-2">Sr UX<br>Designer</h3>
                     <h4 class="caption">at around</h4>
                     <h4 class="heading-3">$45</h4>
                     <h4 class="caption">Net 14 Billing</h4>
-                </article>
+                </section>
 
-                <article class="services-card">
+                <section class="services-card">
                     <h3 class="heading-2">Sr Software<br>Engineer</h3>
                     <h4 class="caption">at around</h4>
                     <h4 class="heading-3">$45</h4>
                     <h4 class="caption">Net 14 Billing</h4>
-                </article>
+                </section>
 
-                <article class="services-card">
+                <section class="services-card">
                     <h3 class="heading-2">Sr Scrum<br>Master</h3>
                     <h4 class="caption">at around</h4>
                     <h4 class="heading-3">$35</h4>
                     <h4 class="caption">Net 14 Billing</h4>
-                </article>
+                </section>
             </div>
 
         </section>
 
-        <section id="benefits" aria-label="Learn more about the benefits we offer">
-            <div class="accordions-container" aria-label="Accordions container of the Benefits">
-                <article class="accordion">
+        <section id="benefits" aria-label="Benefits">
+            <div class="accordions-container">
+                <section class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/hand-coins.svg" height="32" alt="">
                         <h4 class="heading-3">Low cost, high value</h4>
@@ -152,8 +152,8 @@
                         <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals
                             around the world at a small fraction of the price from our competitors in the US.</p>
                     </div>
-                </article>
-                <article class="accordion">
+                </section>
+                <section class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/shield-chevron.svg" height="32" alt="">
                         <h4 class="heading-3">Wealth of experience</h4>
@@ -165,8 +165,8 @@
                                 rel="nofollow" target="_blank">Toptal</a> in 2017. Led high-performing teams for small
                             start-ups and big enterprises in Croatia, Argentina, and the US.</p>
                     </div>
-                </article>
-                <article class="accordion">
+                </section>
+                <section class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/crown-simple.svg" height="32" alt="">
                         <h4 class="heading-3">End-to-end customer service</h4>
@@ -177,8 +177,8 @@
                             testimony that we go above and beyond to help your business grow and to develop a
                             long-lasting and solid partnership.</p>
                     </div>
-                </article>
-                <article class="accordion">
+                </section>
+                <section class="accordion">
                     <div class="acc-button">
                         <img src="imgs/icons/flag-checkered.svg" height="32" alt="">
                         <h4 class="heading-3">Fast-track project kick-off</h4>
@@ -188,7 +188,7 @@
                             and we'll promptly engage in understanding your requirements, proposing a solution detailed
                             in a comprehensive agreement, and prepare for a prompt project kick-off.</p>
                     </div>
-                </article>
+                </section>
             </div>
         </section>
 

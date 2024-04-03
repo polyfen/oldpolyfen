@@ -6,7 +6,7 @@
         <a href="/contact">Contact</a>
     </nav>
 
-    <nav class="hamburger nav position-fixed">
+    <nav class="hamburger nav position-fixed d-none">
         <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32"
             width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,7 +15,7 @@
         </svg>
     </nav>
 
-    <div class="close">
+    <div class="close d-none">
         <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24">
             <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="m16 16l-4-4m0 0L8 8m4 4l4-4m-4 4l-4 4" />

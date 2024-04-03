@@ -1,4 +1,4 @@
-<article id="testimonials" class="">
+<section id="testimonials" class="">
     <h3 class="heading-2">Hear our success stories</h3>
     <div class="testimonials-container">
         <figure class="testimonial">
@@ -44,4 +44,4 @@
         </figure>
     </div>
 
-</article>
+</section>

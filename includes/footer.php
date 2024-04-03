@@ -24,31 +24,33 @@
         </ul>
     </nav>
 
-    <div class="times" aria-label="Information about our different time zones">
-        <div data-timezone="US/Pacific">
+    <section class="times" aria-label="Information about our different time zones">
+        <section data-timezone="US/Pacific">
             <img src="imgs/flags/us.svg" class="country-flag" alt="">
             <small class="caption">San Francisco</small>
             <output class="caption">00:00</output>
-        </div>
+        </section>
 
-        <div data-timezone="America/Argentina/Buenos_Aires">
+        <section data-timezone="America/Argentina/Buenos_Aires">
             <img src="imgs/flags/ar.svg" class="country-flag" alt="">
             <small class="caption">Mar del Plata</small>
             <output class="caption">00:00</output>
-        </div>
-        <div data-timezone="Europe/Belgrade">
+        </section>
+        <section data-timezone="Europe/Belgrade">
             <img src="imgs/flags/hr.svg" class="country-flag" alt="">
             <small class="caption">Zagreb</small>
             <output class="caption">00:00</output>
-        </div>
-</div>
+        </section>
+    </section>
 
-    <figure>
-        <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
+
+    <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
+        <figure>
             <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt="">
             <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt="">
-        </a>
-    </figure>
+        </figure>
+    </a>
+
 
     <nav class="footer-navbar-mobile">
         <a href="/">Home</a>
@@ -59,11 +61,11 @@
 
     <nav class="footer_2line">
         <a href="https://thepolyfengroup.com/wiki/" target="_blank"><small>Team Wiki</small></a>
-        <span style="opacity:0.2;margin:0 5px;">&vert;</span>
+        <span>&vert;</span>
         <a href="https://thepolyfengroup.com/business/" target="_blank"><small>Business Plan</small></a>
-        <span style="opacity:0.2;margin:0 5px;">&vert;</span>
+        <span>&vert;</span>
         <a href="https://thepolyfengroup.com/brand/" target="_blank"><small>Brand Guidelines</small></a>
-        <span style="opacity:0.2;margin:0 5px;">&vert;</span>
+        <span>&vert;</span>
         <a href="https://thepolyfengroup.com/privacy/" target="_blank"><small>Privacy Policy</small></a>
     </nav>
 
