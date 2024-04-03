@@ -1,8 +1,8 @@
 <!-- META General -->
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<meta property="og:type" content="website"/>
-<meta name="author"  content="The Polyfen Group LLC"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta property="og:type" content="website">
+<meta name="author"  content="The Polyfen Group LLC">
 
 <!-- FAVICON -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -50,7 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <!-- Pinterest -->
-<meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f"/>
+<meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f">
 
 <!-- jQuery -->
 <script
@@ -116,10 +116,10 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 </script>
 
 <!-- Images preload -->
-<link rel="preload" as="image" href="imgs/thumbs-up-solid-white.svg" />
-<link rel="preload" as="image" href="imgs/icons/envelope-white.svg" />
-<link rel="preload" as="image" href="imgs/icons/phone-call-white.svg" />
-<link rel="preload" as="image" href="imgs/icons/paper-plane-white.svg" />
+<link rel="preload" as="image" href="imgs/thumbs-up-solid-white.svg">
+<link rel="preload" as="image" href="imgs/icons/envelope-white.svg">
+<link rel="preload" as="image" href="imgs/icons/phone-call-white.svg">
+<link rel="preload" as="image" href="imgs/icons/paper-plane-white.svg">
 
 <!-- Global javascript -->
 <script defer src="app/js/timezone.js"></script>

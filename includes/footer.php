@@ -25,6 +25,7 @@
     </nav>
 
     <article class="times">
+        <h2 class="d-none">Global Presence</h2>
         <div data-timezone="US/Pacific">
             <img src="imgs/flags/us.svg" class="country-flag" alt="">
             <small class="caption">San Francisco</small>
