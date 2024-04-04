@@ -20,7 +20,7 @@
                                                                 
 -->
 <head>
-    <title>Polyfen | Creative & Development Agency</title>
+    <title>Polyfen | Creative & Software Boutique</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
@@ -66,7 +66,7 @@
     <main>
         <section class="cover">
             <h1 class="title-1">Unleash your business full potential</h1>
-            <p>Creative & software boutique empowering US businesses with design, marketing, and engineering since 2018.</p>
+            <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
             <small class="caption">Don't be shy</small>
             <a class="cta-button" href="discovery-call">Let's Talk!</a>
 
