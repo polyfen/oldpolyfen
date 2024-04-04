@@ -33,7 +33,7 @@
     <meta name="keywords"
         content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta name="description" property="og:description"
-        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018.">
+        content="Creative & software boutique empowering US businesses with design, engineering, and marketing since 2018.">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -43,7 +43,7 @@
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="Polyfen | Creative & Development Agency">
     <meta name="twitter:description"
-        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018.">
+        content="Creative & software boutique empowering US businesses with design, engineering, and marketing since 2018.">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
@@ -74,9 +74,8 @@
     <!-- COVER start -->
     <main>
         <section class="cover">
-            <h1 class="title-1">Unleash your business<br>full potential</h1>
-            <p>We are a fully-remote creative & development agency helping businesses power their solutions,
-                brands and apps since 2018.</p>
+            <h1 class="title-1">Unleash your business full potential</h1>
+            <p>Creative & software boutique empowering US businesses with design, engineering, and marketing since 2018.</p>
             <small class="caption">Don't be shy</small>
             <a class="cta-button" href="discovery-call">Let's Talk!</a>
 
