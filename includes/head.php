@@ -3,6 +3,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta property="og:type" content="website">
 <meta name="author"  content="The Polyfen Group LLC">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="fb:app_id" content="1799272553516195">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Polyfen">
+<meta name="twitter:creator" content="@PolyfenAgency">
 
 <!-- FAVICON -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
