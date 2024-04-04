@@ -1,6 +1,5 @@
 <footer>
-    <nav aria-label="Our social network" class="social-network">
-        <ul>
+        <ul aria-label="Our social networks" class="social">
             <li>
                 <a href="http://polyfen.com/twitter" target="_blank" title="Twitter">
                     <i class="fa-brands fa-x-twitter"></i>
@@ -22,7 +21,6 @@
                 </a>
             </li>
         </ul>
-    </nav>
 
     <section class="times" aria-label="Information about our different time zones">
         <section data-timezone="US/Pacific">
@@ -52,14 +50,14 @@
     </a>
 
 
-    <nav class="footer-navbar-mobile">
+    <nav class="footer-navbar-mobile d-none">
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
     </nav>
 
 
-    <nav class="footer_2line">
+    <nav class="sub-brands-footer">
         <a href="https://thepolyfengroup.com/wiki/" target="_blank"><small>Team Wiki</small></a>
         <span>&vert;</span>
         <a href="https://thepolyfengroup.com/business/" target="_blank"><small>Business Plan</small></a>

@@ -1,4 +1,4 @@
-<section id="testimonials" class="">
+<section class="container-1080 testimonials">
     <h3 class="heading-2">Hear our success stories</h3>
     <div class="testimonials-container">
         <figure class="testimonial">

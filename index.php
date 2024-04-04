@@ -68,7 +68,7 @@
             <h1 class="title-1">Unleash your business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
             <small class="caption">Don't be shy</small>
-            <a class="cta-button" href="discovery-call">Let's Talk!</a>
+            <a class="button" href="discovery-call">Let's Talk!</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl hiddenHeader rotate-slower">
@@ -81,7 +81,7 @@
         </section>
         <!-- COVER end -->
 
-        <section class="clients-featured">
+        <section class="clients-featured container-900">
             <h2 class="caption align-center">Clients featured in</h2>
             <div class="clients-container">
                 <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60">
@@ -93,7 +93,7 @@
 
         <hr>
 
-        <section id="build">
+        <section class="container-1080 build">
             <h2 class="heading-1">Build</h2>
             <div class="cards-container">
                 <section class="services-card">
@@ -122,7 +122,7 @@
             </div>
         </section>
 
-        <section id="hire">
+        <section class="container-1080 hire">
             <h2 class="heading-1">Hire</h2>
             <div class="cards-container">
                 <section class="services-card">
@@ -149,7 +149,7 @@
 
         </section>
 
-        <section id="benefits" aria-label="Benefits">
+        <section class="container-700 benefits" aria-label="Benefits">
             <div class="accordions-container">
                 <section class="accordion">
                     <div class="acc-button">
