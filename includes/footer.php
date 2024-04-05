@@ -42,11 +42,12 @@
     </section>
 
     <div id="tpg" class="tpg-logo-container">
-        <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral"
-            target="_blank">
+        <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
             <figure>
-                <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt="" onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
-                <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt="" onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
+                <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt=""
+                    onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
+                <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt=""
+                    onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
             </figure>
         </a>
     </div>
@@ -60,9 +61,9 @@
 
 
     <nav class="sub-brands-footer">
-        <a href="https://thepolyfengroup.com/wiki/" target="_blank"><small>Team Wiki</small></a>
-        <span>&vert;</span>
         <a href="https://thepolyfengroup.com/business/" target="_blank"><small>Business Plan</small></a>
+        <span>&vert;</span>
+        <a href="https://thepolyfengroup.com/wiki/" target="_blank"><small>Team Wiki</small></a>
         <span>&vert;</span>
         <a href="https://thepolyfengroup.com/brand/" target="_blank"><small>Brand Guidelines</small></a>
         <span>&vert;</span>
