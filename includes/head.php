@@ -63,51 +63,6 @@ src="https://code.jquery.com/jquery-3.6.3.min.js"
 integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
 crossorigin="anonymous"></script>
 
-<!-- Navbar Scroll Script -->
-<script>
-    $(function() {
-        var nav = $(".nav");
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-            
-            if ($(window).width() > 768) { // Verifica el ancho de la ventana
-                if (scroll >= 60) {
-                    nav.removeClass('position-absolute').addClass("position-fixed");
-                } else {
-                    nav.removeClass("position-fixed").addClass('position-absolute');
-                }
-            } 
-        });
-    });
-
-    $(function() {
-        var hamburger = $(".hamburger");
-
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-
-            if ( scroll >= 60) {
-                hamburger.css('top', '18px');
-            } else {
-                hamburger.css('top', '168px');
-        }
-    });
-    });
-
-</script>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    let currentPage = window.location.pathname;
-    let navLinks = document.querySelectorAll('header nav a');
-    navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPage) {
-            link.classList.add('current-page');
-        }
-    })
-});
-</script>
-
-<!-- Navbar Scroll Script end -->
 
 <!-- Scroll to Anchor link (esto se puede resolver con css/scroll-behavior:smooth) -->
 <script>
@@ -132,3 +87,4 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 <script defer src="app/js/accordion.js"></script>
 <script defer src="app/js/modal-position.js"></script>
 <script defer src="app/js/scrollfooter.js"></script>
+<script defer src="app/js/navbar.js"></script>
