@@ -1,26 +1,26 @@
 <footer>
-        <ul aria-label="Our social networks" class="social">
-            <li>
-                <a href="http://polyfen.com/twitter" target="_blank" title="Twitter">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="http://polyfen.com/instagram" target="_blank" title="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </li>
-            <li>
-                <a href="http://polyfen.com/github" target="_blank" title="Github">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>
+    <ul aria-label="Our social networks" class="social">
+        <li>
+            <a href="http://polyfen.com/twitter" target="_blank" title="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="http://polyfen.com/instagram" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li>
+            <a href="http://polyfen.com/github" target="_blank" title="Github">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+    </ul>
 
     <section class="times" aria-label="Information about our different time zones">
         <section data-timezone="US/Pacific">
@@ -41,13 +41,15 @@
         </section>
     </section>
 
-
-    <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
-        <figure>
-            <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt="">
-            <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt="">
-        </figure>
-    </a>
+    <div id="tpg" class="tpg-logo-container">
+        <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral"
+            target="_blank">
+            <figure>
+                <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt="" onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
+                <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt="" onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
+            </figure>
+        </a>
+    </div>
 
 
     <nav class="footer-navbar-mobile d-none">

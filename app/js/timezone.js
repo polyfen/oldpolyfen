@@ -1,4 +1,4 @@
-const locations = document.querySelectorAll("section.times div")
+const locations = document.querySelectorAll("section.times section")
 
 const updateTimes = function () {
     locations.forEach(location => { ///esta funcion es la que trae la hora actual del luxon

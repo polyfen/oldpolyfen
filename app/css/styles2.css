@@ -31,11 +31,6 @@ small,
     font-family: 'BiotifMedium', helvetica, arial, sans-serif;
 }
 
-.caption {
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 0.5rem;
-}
 
 [class*="container-"] {
     width: calc(100% - 30px);
@@ -55,14 +50,171 @@ small,
 .container-700 {
     max-width: 700px;
 }
+
 /*yendo a polikit*/
 hr {
     max-width: 120px;
     margin: 160px auto;
 }
+
 /*theming */
+
+body.dark-mode * {
+    /* esto esta definido nomas algunos elementos en plkt, no todos como estaba en plnc*/
+    color: hsl(0, 0%, 100%);
+}
+
+.caption {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5rem;
+}
+
 ::selection {
     background: #7537f8;
+}
+
+/*///////////// COOKIES MODAL START 1 /////////////*/
+
+div#cookies-modal {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    width: 250px;
+    display: flex !important;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px 20px 10px;
+    border-radius: 3px;
+    backdrop-filter: blur(6px);
+    z-index: 10;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+div#cookies-title {
+    color: #000;
+    align-items: baseline;
+    gap: 6px;
+}
+
+div#cookies-title small {
+    color: #00000082;
+}
+
+div#cookies-modal-buttons {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+
+    div#cookies-modal {
+        justify-content: space-between;
+        bottom: 20px;
+    }
+
+}
+
+div#cookies-modal a {
+    color: #000;
+    border-bottom: 2px dotted #7537f8;
+}
+
+div#cookies-modal a:hover {
+    color: #000;
+    border-bottom: 2px solid #7537f8;
+}
+
+
+div#cookies-modal button {
+    padding: 7px 24px 3px;
+    border: 2px solid #fdb0bb;
+    border-radius: 4px;
+    background: #fdfdfd;
+    letter-spacing: 0;
+    color: #fdb0bb;
+    text-transform: uppercase;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+div#cookies-modal button {
+    float: right;
+    color: #000;
+    border-color: #00000052;
+    background: rgba(255, 255, 255, 0.508);
+    font-size: 0.9rem;
+    font-family: 'BiotifMedium';
+    border-width: 2px;
+}
+
+div#cookies-modal button:hover {
+    background: white;
+    color: #444444;
+    box-shadow: none;
+}
+
+div#cookies-modal button:first-child {
+    margin-left: 6px;
+}
+
+div#cookies-modal.cookies-d-none {
+    display: none !important;
+}
+
+/*///////////// COOKIES MODAL START 2 /////////////*/
+
+div#cookies-modal button {
+    color: #000 !important;
+    opacity: 0.45;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+div#cookies-modal button:first-child {
+    background: #7537f8;
+    color: white !important;
+    font-family: 'BiotifBold', helvetica, arial, sans-serif;
+    opacity: 0.9;
+    border-color: #5f27d3;
+}
+
+div#cookies-modal button:hover {
+    opacity: 1;
+}
+
+button#accept-cookies-button:before {
+    background-image: url('../../imgs/thumbs-up-regular-white.svg');
+    margin-left: -10px;
+    margin-right: 7px;
+    background-size: 20px auto;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    margin-top: -8px;
+}
+
+button#accept-cookies-button:hover:before {
+    background-image: url('../../imgs/thumbs-up-solid-white.svg');
+}
+
+#cookies-modal {
+    transition: bottom 0.5s ease;
+}
+
+/*///////////// COOKIES MODAL END /////////////*/
+
+#cookies-modal-container {
+    display: none !important;
 }
 
 /********************************************************************************/
@@ -112,7 +264,9 @@ img#logo {
 
 
 .cover a {
+    text-transform: uppercase;
     display: block;
+    
     margin-bottom: 1rem;
 }
 
@@ -244,9 +398,11 @@ div.acc-button img {
     flex-direction: column;
     align-items: flex-start;
 }
+
 .testimonial blockquote {
     margin-inline: 0;
 }
+
 .testimonial figcaption {
     display: flex;
     gap: 10px;
@@ -268,7 +424,48 @@ div.acc-button img {
     margin-top: 6rem;
 }
 
-/* Footer */
+#send-message::before,
+#schedule-call::before,
+button#nostyle::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/*  
+  #send-message::before {
+    background: url(../../imgs/icons/envelope.svg) no-repeat center center;
+    margin-top: -2px;
+  }
+
+a:hover div#send-message::before {
+    background: url(../../imgs/icons/envelope-white.svg) no-repeat center center;
+}
+*/
+
+#schedule-call::before {
+    background: url(../../imgs/icons/phone-call.svg) no-repeat center center;
+    margin-top: -2px;
+}
+  /* aca  para adaptarlo sin opal (a:hover div#schedule-call::before)*/
+a#schedule-call:hover::before {
+    background: url(../../imgs/icons/phone-call-white.svg) no-repeat center center;
+}
+/*
+button#nostyle::before {
+    background: url(../../imgs/icons/paper-plane.svg) no-repeat center center;
+    margin-top: -8px;
+}
+
+button#nostyle:hover::before {
+    background: url(../../imgs/icons/paper-plane-white.svg) no-repeat center center;
+}
+
+*/
+/* Footer starts */
 
 footer {
     display: grid;
@@ -279,44 +476,26 @@ footer {
     gap: 30px;
 }
 
-@media (min-width: 1100px) {
-footer {
-    grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: auto;
-    align-items: center;
-    gap: 10px;
-}
-}
-
 .social {
     display: flex;
     gap: 25px;
     justify-content: center;
 }
 
-
-@media (min-width: 1100px){
-.social {
-    justify-self: start;
-    margin-left: 20px;
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-    gap: 15px;
-}
+section.times .caption {
+    font-size: 11.33px
 }
 
+footer small {
+    display: unset;
+}
+
+/* watches */
 .times {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-}
-
-@media (min-width: 675px) {
-.times {
-    flex-direction: row;
-    gap: 10px;
-}
 }
 
 .times section img.country-flag {
@@ -332,6 +511,7 @@ output.caption {
     margin-inline: 5px 10px;
 }
 
+/* menu of sub-brands */
 .sub-brands-footer {
     width: 100%;
     text-align: center;
@@ -342,31 +522,14 @@ output.caption {
     justify-content: center;
 }
 
-@media (min-width: 675px) {
-.sub-brands-footer {
-    display: block;
-    padding: 15px 0 25px 0;
-}
-}
-
-@media (min-width: 1100px) {
-.sub-brands-footer {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    display: block;
-}
-}
-
-.sub-brands-footer small {
-    display: unset;
-}
 .sub-brands-footer span {
     opacity: 0.2;
     margin: 0 5px;
     color: #F9F9F9;
 }
 
-footer .sub-brands-footer a:nth-of-type(1), footer .sub-brands-footer a:nth-of-type(3) {
+footer .sub-brands-footer a:nth-of-type(1),
+footer .sub-brands-footer a:nth-of-type(3) {
     text-align: right;
     margin-right: 10px;
 }
@@ -375,9 +538,69 @@ footer .sub-brands-footer a:first-child {
     margin-bottom: 10px;
 }
 
+/*footer mediaqueries*/
 @media (min-width: 675px) {
-    footer .sub-brands-footer a:nth-of-type(1), footer .sub-brands-footer a:nth-of-type(3) {
+
+    footer .sub-brands-footer a:nth-of-type(1),
+    footer .sub-brands-footer a:nth-of-type(3) {
         text-align: unset;
         margin-right: unset;
     }
+
+    .sub-brands-footer {
+        display: block;
+        padding: 15px 0 25px 0;
     }
+
+    .times {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+/* logo TPG */
+footer .tpg-logo-container {
+    width: 80px;
+}
+
+.tpg-logo-container a {
+    display: flex;
+}
+
+.tpg-logo-container figure {
+    display: contents;
+}
+
+@media (min-width: 1100px) {
+    footer {
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .social {
+        justify-self: start;
+        margin-left: 20px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        gap: 15px;
+    }
+
+    .sub-brands-footer {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        display: block;
+    }
+
+    footer .tpg-logo-container {
+        justify-self: end;
+        margin-right: 15px;
+        margin-top: unset;
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+        align-self: normal;
+    }
+}
+
+/* END FOOTER */
