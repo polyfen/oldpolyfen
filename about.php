@@ -66,9 +66,9 @@
                     <img src="imgs/illustrations/dudes-mini-pc.webp">
                 </div>
                 <div class="one-half hidden">
-                    <p>We're a full-service creative and development agency founded in Zagreb, Croatia in 2018 with
-                        team-members working from Croatia, Spain, Argentina, and the US.</p>
-                    <p>We help businesses translate their vision into digital experiences that bring in the money.</p>
+                    <p>We're a creative and development agency founded in 2018 with a fully-remote team working for clients from the US.</p>
+                    <p>We help US businesses translate their vision into digital experiences that bring in the money.</p>
+                    <p>We're also heavily committed to R&D projects that help us grow and keep us at the cutting-edge in an always-changing environment.</p>
                 </div>
             </div>
         </section>
