@@ -94,9 +94,6 @@
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <!-- Calendly inline widget end -->
         </div>
-        <hr>
-        <!-- new section for portfolio thumbnails --->
-        <?php include 'includes/portfolio-thumbnails.php';?>
 
         <hr>
 
