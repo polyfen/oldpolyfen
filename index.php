@@ -67,7 +67,7 @@
         <section class="cover">
             <h1 class="title-1">Unleash your business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
-            <small class="caption">Don't be shy</small>
+            <small class="caption">Start Today</small>
             <a class="button" href="discovery-call">Let's Talk!</a>
 
             <div class="background">
