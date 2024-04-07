@@ -64,7 +64,7 @@
                 <div class="container-1080">
                     <p>We are a fully-remote creative & development agency helping businesses power their solutions, 
                         brands and apps since 2018.</p>
-                    <small class="caption">Don't be shy</small>
+                    <small class="caption">Start Today</small>
                     <div style="clear:both;"></div>
 
                     <a class="cta-button" href="discovery-call">
