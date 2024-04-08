@@ -199,12 +199,6 @@ RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^about$ "https\:\/\/polyfen\.com\/shared\/a\-creative\-agency\-devoted\-to\-branding\.pdf" [R=301,L]
-RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^presentation$ "https\:\/\/www\.linkedin\.com\/feed\/update\/urn\:li\:activity\:6604500414010277888\/" [R=301,L]
 RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
