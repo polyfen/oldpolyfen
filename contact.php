@@ -59,42 +59,42 @@
 
     <!-- CONTACT start -->
     <main id="contact">
+        <div class="contact-first-row container-1080">
+            <section id="contact-intro">
+                <h3 class="hidden heading-2 align-center" id="message">Send a Message</h3>
+                <div class="err-msj">Verify you are human</div>
+                <form id="contact-form" method="POST" class="hidden">
 
-        <section id="contact-intro" class="container">
-            <h1 class="hidden caption align-center">Contact</h1>
-            <h2 class="hidden heading-1 align-center">Let's start a Conversation</h2>
-            <h3 class="hidden heading-2 align-center" id="message">Send a Message</h3>
-            <div class="err-msj">Verify you are human</div>
-            <form id="contact-form" method="POST" class="hidden">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" required>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required>
 
-                <label for="name">Name</label>
-                <input type="text" name="name" required>
-
-                <label for="message">Message</label>
-                <textarea name="message" required></textarea>
-                <!-- place captcha here -->
-                <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
-                    data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
-                    data-error-callback="onRecaptchaError">
-                </div>
-                <br>
-                <div class="opal opal-rainbow-soft">
-                    <div class="opal-solid">
-                        <div class="opal-mask"><button id="nostyle" type="submit">Send Message</button></div>
+                    <label for="message">Message</label>
+                    <textarea name="message" required></textarea>
+                    <!-- place captcha here -->
+                    <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
+                        data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
+                        data-error-callback="onRecaptchaError">
                     </div>
-                </div>
-            </form>
-        </section>
-        <hr>
-        <section id="call">
-            <h3 class="hidden heading-2 align-center">Schedule a Call</h3>
-            <!-- INCLUDE CALENDLY.PHP start -->
-            <?php include 'includes/calendly.php';?>
-            <!-- INCLUDE CALENDLY.PHP end -->
-        </section>
+                    <br>
+                    <div class="opal opal-rainbow-soft">
+                        <div class="opal-solid">
+                            <div class="opal-mask"><button id="nostyle" type="submit">Send Message</button></div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <hr class="contact-hr">
+            <div style="height: 720px;vertical-align: middle;border-left: 0.8px solid #7437f850;" class="contact-vertical-line"></div>
+            <section id="call">
+                <h3 class="hidden heading-2 align-center">Schedule a Call</h3>
+                <!-- INCLUDE CALENDLY.PHP start -->
+                <?php include 'includes/calendly.php';?>
+                <!-- INCLUDE CALENDLY.PHP end -->
+            </section>
+        </div>
         <hr>
         <section class="hidden container" id="details">
             <h3 class="heading-2 align-center">hi@polyfen.com</h3>
