@@ -1958,6 +1958,7 @@ section#how-we-do-it div.grid div:nth-child(3) {
   figure.testimonial blockquote {
     margin-block: 0;
   }
+
   #testimonials {
     max-width: 600px;
   }
@@ -2042,12 +2043,14 @@ div.acc-button img {
   margin-top: 0;
   padding-top: 0;
 }
+
 /**/
 .acc-panel {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
 @media (min-width: 1024px) {
   .acc-panel {
     padding-left: 46px;
@@ -2388,11 +2391,42 @@ body#home section#contact {
 
 @media (min-width: 576px) {
 
-section#work h1.caption {
-  padding-top: 80px;
+  section#work h1.caption {
+    padding-top: 80px;
+  }
+
+  section#work h2.heading-1 {
+    margin-bottom: 120px;
+  }
 }
 
-section#work h2.heading-1 {
-  margin-bottom:120px;
+/* Alambre pre-refactoring */
+.contact-vertical-line {
+  display: none;
 }
+.contact-hr {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .contact-first-row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .contact-hr {
+    display: none;
+  }
+
+  .contact-first-row section {
+    width: 40%;
+  }
+  
+  .contact-vertical-line {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+  }
+
 }
