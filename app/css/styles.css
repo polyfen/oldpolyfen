@@ -2430,3 +2430,12 @@ body#home section#contact {
   }
 
 }
+
+figure.testimonial figcaption small {
+  line-height: 1.5;
+}
+
+figure.testimonial blockquote p {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
