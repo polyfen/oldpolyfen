@@ -31,34 +31,23 @@ small,
     font-family: 'BiotifMedium', helvetica, arial, sans-serif;
 }
 
-
-[class*="container-"] {
-    width: calc(100% - 30px);
-    margin-inline: auto;
-    margin-block: 0;
-    padding: 0 15px;
-}
-
-.container-1080 {
-    max-width: 1080px;
-}
-
-.container-900 {
-    max-width: 900px;
-}
-
-.container-700 {
-    max-width: 700px;
-}
-
 /*yendo a polikit*/
 hr {
     max-width: 120px;
-    margin: 160px auto;
+    margin: 80px auto;
+}
+
+@media (min-width: 900px) {
+    hr {
+        margin: 120px auto;
+    }
 }
 
 /*theming */
+body.dark-mode {
+    background-color: #070924;
 
+}
 body.dark-mode * {
     /* esto esta definido nomas algunos elementos en plkt, no todos como estaba en plnc*/
     color: hsl(0, 0%, 100%);
@@ -76,6 +65,9 @@ body.dark-mode * {
 
 nav {
     gap: unset;
+}
+nav button {
+    all: unset;
 }
 
 /*///////////// COOKIES MODAL START 1 /////////////*/
@@ -380,6 +372,8 @@ img#logo {
 
     .nav-links.open-nav+.nav-buttons {
         background: none;
+        backdrop-filter: unset;
+        border: none;
     }
 }
 
@@ -414,7 +408,7 @@ img#logo {
 /* clients featured section */
 
 .clients-featured {
-    margin-top: 180px;
+    margin-top: 90px;
 }
 
 .clients-featured h2 {
@@ -423,13 +417,25 @@ img#logo {
 
 .clients-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
     align-items: center;
     margin-top: 40px;
 }
 
 .clients-container img {
     opacity: 0.6;
+}
+
+@media (min-width: 900px) {
+    .clients-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .clients-featured {
+        margin-top: 180px;
+    }
 }
 
 /* services section */
@@ -550,17 +556,15 @@ div.acc-button img {
 
 
 /* testimonials section */
-.testimonials h3 {
-    text-align: center;
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
 
-@media (min-width: 768px) {
-    .testimonials-container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 60px;
-    }
+.testimonials h3 {
+    text-align: center;
 }
 
 .testimonials-container figure {
@@ -573,6 +577,7 @@ div.acc-button img {
     align-items: flex-start;
 }
 
+
 .testimonial blockquote {
     margin-inline: 0;
 }
@@ -583,9 +588,20 @@ div.acc-button img {
     align-items: center;
 }
 
+blockquote p {
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+
+/* testimonial section MediaQuery*/
 @media (min-width: 768px) {
     .testimonial {
         width: 30%;
+    }
+    .testimonials-container {
+        flex-direction: row;
+        align-items: flex-start;
     }
 }
 
@@ -595,7 +611,7 @@ div.acc-button img {
     text-align: center;
     background: #000;
     padding: 80px 0 100px;
-    margin-top: 6rem;
+    margin-block: 6rem;
 }
 
 #send-message::before,
