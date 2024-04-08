@@ -3,6 +3,7 @@
   <nav class="desktop nav">        
     <a href="/" class="uppercase">Home</a>
     <a href="/about" class="uppercase">About</a>
+    <a href="/work" class="uppercase">Work</a>
     <a href="/contact" class="uppercase">Contact</a>
   </nav>
 

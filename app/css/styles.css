@@ -2385,3 +2385,14 @@ section#hire {
 body#home section#contact {
   margin-top: 6rem;
 }
+
+@media (min-width: 576px) {
+
+section#work h1.caption {
+  padding-top: 80px;
+}
+
+section#work h2.heading-1 {
+  margin-bottom:120px;
+}
+}
