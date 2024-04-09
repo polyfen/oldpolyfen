@@ -63,7 +63,7 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- COVER start -->
-    <main>
+    <main class="home">
         <section class="cover">
             <h1 class="title-1">Unleash your business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
