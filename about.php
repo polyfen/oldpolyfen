@@ -63,7 +63,7 @@
             <h2 class="heading-1 align-center hiddenHeader">Where business &amp; creativity come together</h2>
             <div class="column-to-row">
                 <div class="one-half hidden order">
-                    <img src="imgs/illustrations/dudes-mini-pc.webp">
+                    <img src="/imgs/illustrations/dudes-mini-pc.webp">
                 </div>
                 <div class="one-half hidden">
                     <p>We're a full-service creative and development agency founded in Zagreb, Croatia in 2018 with
@@ -80,9 +80,9 @@
             </h3>
             <div class="column-to-row hidden">
                 <div class="one-half hidden founder-bios">
-                    <img src="imgs/about/boris-hrncic.webp" style="max-width: 200px; margin-bottom: 20px;">
+                    <img src="/imgs/about/boris-hrncic.webp" style="max-width: 200px; margin-bottom: 20px;">
                     <h4 class="heading-4">Boris Hrnčić</h4>
-                    <small><img src="imgs/flags/hr.svg" class="flag"> Zagreb, Croatia<br><br></small>
+                    <small><img src="/imgs/flags/hr.svg" class="flag"> Zagreb, Croatia<br><br></small>
                     <h4 class="heading-5" style="opacity:0.5;">Founder &amp;<br>Art Director</h4>
                 </div>
                 <div class="one-half hidden founder-list">
@@ -114,7 +114,7 @@
             <h3 class="heading-2 align-center hidden">We wrote the book on branding</h3>
             <div class="column-to-row hidden">
                 <div class="one-half hidden">
-                    <img src="imgs/about/poly-atlas-animation.gif">
+                    <img src="/imgs/about/poly-atlas-animation.gif">
                 </div>
                 <div class="one-half hidden">
                     <p>A step-by-step guide to the Branding process including practical tips,
@@ -153,7 +153,7 @@
             <div class="container-700 accordions-container">
                 <div class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/rocket-launch.svg" height="32px" width="auto">
+                        <img src="/imgs/icons/rocket-launch.svg" height="32px" width="auto">
                         <h4 class="heading-3">Excellence through R&amp;D</h4>
                     </div>
                     <div class="acc-panel">
@@ -162,7 +162,7 @@
                 </div>
                 <div class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/person.svg" height="32px" width="auto">
+                        <img src="/imgs/icons/person.svg" height="32px" width="auto">
                         <h4 class="heading-3">Teamwork makes the dream work</h4>
                     </div>
                     <div class="acc-panel">
@@ -171,7 +171,7 @@
                 </div>
                 <div class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/globe.svg" height="32px" width="auto">
+                        <img src="/imgs/icons/globe.svg" height="32px" width="auto">
                         <h4 class="heading-3">Fully remote since 2018</h4>
                     </div>
                     <div class="acc-panel">
@@ -180,7 +180,7 @@
                 </div>
                 <div class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/dna.svg" height="32px" width="auto">
+                        <img src="/imgs/icons/dna.svg" height="32px" width="auto">
                         <h4 class="heading-3">Transparency is in our DNA</h4>
                     </div>
                     <div class="acc-panel">

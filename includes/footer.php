@@ -24,18 +24,18 @@
 
     <section class="times" aria-label="Information about our different time zones">
         <section data-timezone="US/Pacific">
-            <img src="imgs/flags/us.svg" class="country-flag" alt="">
+            <img src="/imgs/flags/us.svg" class="country-flag" alt="">
             <small class="caption">San Francisco</small>
             <output class="caption">00:00</output>
         </section>
 
         <section data-timezone="America/Argentina/Buenos_Aires">
-            <img src="imgs/flags/ar.svg" class="country-flag" alt="">
+            <img src="/imgs/flags/ar.svg" class="country-flag" alt="">
             <small class="caption">Mar del Plata</small>
             <output class="caption">00:00</output>
         </section>
         <section data-timezone="Europe/Belgrade">
-            <img src="imgs/flags/hr.svg" class="country-flag" alt="">
+            <img src="/imgs/flags/hr.svg" class="country-flag" alt="">
             <small class="caption">Zagreb</small>
             <output class="caption">00:00</output>
         </section>
@@ -44,9 +44,9 @@
     <div id="tpg" class="tpg-logo-container">
         <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
             <figure>
-                <img src="imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt=""
+                <img src="/imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt=""
                     onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
-                <img src="imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt=""
+                <img src="/imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt=""
                     onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
             </figure>
         </a>
