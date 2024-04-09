@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: biotifextrabold, helvetica, arial, sans-serif;
+    font-family: 'BiotifBold', helvetica, arial, sans-serif;
 }
 
 p,
@@ -21,7 +21,7 @@ p span,
 li strong,
 th,
 td {
-    font-family: freight-text-pro, serif;
+    font-family: 'freight-text-pro', serif;
 }
 
 button,
@@ -43,10 +43,6 @@ hr {
     }
 }
 
-* {
-    scroll-behavior: smooth;
-}
-/* o */
 :target {
     scroll-behavior: smooth;
 }
@@ -56,6 +52,27 @@ body.dark-mode {
     background-color: #070924;
 
 }
+
+a:not(.button) {
+    text-decoration: underline #7537f8 dotted 2px;
+    text-underline-offset: 5px;
+    opacity: 0.5;
+}
+
+a:not(.button):hover {
+    text-decoration: underline #7537f8 solid 2px;
+    text-underline-offset: 5px;
+    opacity: 1;
+}
+
+.hanging-list {
+    padding-left: 25px;
+}
+
+ul.hanging-list li::before {
+    content: url(/imgs/arrow-right.svg);
+}
+
 body.dark-mode * {
     /* esto esta definido nomas algunos elementos en plkt, no todos como estaba en plnc*/
     color: hsl(0, 0%, 100%);
@@ -74,11 +91,17 @@ body.dark-mode * {
 nav {
     gap: unset;
 }
+
 nav button {
     all: unset;
 }
 
-/*///////////// COOKIES MODAL START 1 /////////////*/
+/*   ____            _    _                                 _       _  */
+/*  / ___|___   ___ | | _(_) ___  ___   _ __ ___   ___   __| | __ _| | */
+/* | |   / _ \ / _ \| |/ / |/ _ \/ __| | '_ ` _ \ / _ \ / _` |/ _` | | */
+/* | |__| (_) | (_) |   <| |  __/\__ \ | | | | | | (_) | (_| | (_| | | */
+/*  \____\___/ \___/|_|\_\_|\___||___/ |_| |_| |_|\___/ \__,_|\__,_|_| */
+/*COOKIES MODAL START  ------------------------------------------------*/
 
 div#cookies-modal {
     position: fixed;
@@ -131,7 +154,6 @@ div#cookies-modal a:hover {
     color: #000;
     border-bottom: 2px solid #7537f8;
 }
-
 
 div#cookies-modal button {
     padding: 7px 24px 3px;
@@ -249,27 +271,12 @@ img#logo {
     height: 50px;
 }
 
-/* The navigation bar ------------------ */
-
-/*reset agregado para buttons*/
-
-.hellxxo-nav button {
-    border: none;
-    /* Elimina el borde por defecto */
-    background: none;
-    /* Elimina el fondo por defecto */
-    padding: 0;
-    /* Elimina el espacio interno por defecto */
-    font: inherit;
-    /* Utiliza la fuente del elemento contenedor */
-    cursor: pointer;
-    /* Muestra el cursor como puntero */
-    outline: none;
-    /* Elimina el contorno por defecto al enfocar */
-}
-
-/* END reset agregado para buttons*/
-
+/*  _   _    ___     _____ ____    _  _____ ___ ___  _   _  */
+/* | \ | |  / \ \   / /_ _/ ___|  / \|_   _|_ _/ _ \| \ | | */
+/* |  \| | / _ \ \ / / | | |  _  / _ \ | |  | | | | |  \| | */
+/* | |\  |/ ___ \ V /  | | |_| |/ ___ \| |  | | |_| | |\  | */
+/* |_| \_/_/   \_\_/  |___\____/_/   \_\_| |___\___/|_| \_| */
+/* The navigation bar ------------------------------------- */
 
 .hello-nav div {
     text-align: right;
@@ -289,35 +296,8 @@ img#logo {
     text-decoration: none;
 }
 
-/* desktop */
-@media (min-width: 768px) {
-    .nav-buttons {
-        display: none;
-    }
-
-    .nav-links {
-        position: absolute;
-        right: 15px;
-        top: 55px;
-        padding-block: 10px;
-        display: flex;
-        gap: 15px;
-        padding: 15px 28px;
-        border-radius: 200px;
-    }
-
-    .nav-links.position-fixed {
-        top: 20px;
-    }
-}
-
-/* mobile */
+/* hello-nav mobile */
 @media (max-width: 768px) {
-    #home-cover {
-        padding-top: unset;
-
-    }
-
     .nav-links {
         display: none;
         position: fixed;
@@ -385,31 +365,58 @@ img#logo {
     }
 }
 
+/* hello-nav desktop */
+/* mediaqueries */
+@media (min-width: 768px) {
+    .nav-buttons {
+        display: none;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 15px;
+        top: 55px;
+        padding-block: 10px;
+        display: flex;
+        gap: 15px;
+        padding: 15px 28px;
+        border-radius: 200px;
+    }
+
+    .nav-links.position-fixed {
+        top: 20px;
+    }
+}
+
 /* END of navigation bar ----------------- */
 
-
+/*  _   _  ___  __  __ _____  */
+/* | | | |/ _ \|  \/  | ____| */
+/* | |_| | | | | |\/| |  _|   */
+/* |  _  | |_| | |  | | |___  */
+/* |_| |_|\___/|_|  |_|_____| */
+/* Home --------------------- */
 /* cover section */
 
-.cover {
+.home-cover {
     text-align: center;
     margin-top: 55px;
 }
 
-.cover p {
+.home-cover p {
     max-width: 450px;
     margin: 35px auto;
     opacity: .7;
 }
 
-.cover .caption {
+.home-cover .caption {
     opacity: 0.7;
 }
 
 
-.cover a {
+.home-cover a {
     text-transform: uppercase;
     display: block;
-
     margin-bottom: 1rem;
 }
 
@@ -478,12 +485,6 @@ img#logo {
 
 .hire {
     margin-top: 3rem;
-}
-
-h4.heading-3 {
-    font-family: 'BiotifMedium', helvetica, arial, sans-serif;
-    font-weight: 400;
-    line-height: 38px;
 }
 
 .services-card .caption {
@@ -607,6 +608,7 @@ blockquote p {
     .testimonial {
         width: 30%;
     }
+
     .testimonials-container {
         flex-direction: row;
         align-items: flex-start;
@@ -665,7 +667,13 @@ button#nostyle:hover::before {
 }
 
 */
-/* Footer starts */
+
+/*  _____ ___   ___ _____ _____ ____   */
+/* |  ___/ _ \ / _ \_   _| ____|  _ \  */
+/* | |_ | | | | | | || | |  _| | |_) | */
+/* |  _|| |_| | |_| || | | |___|  _ <  */
+/* |_|   \___/ \___/ |_| |_____|_| \_\ */
+/* Footer starts   --------------------*/
 
 footer {
     display: grid;
@@ -684,10 +692,6 @@ footer {
 
 section.times .caption {
     font-size: 11.33px
-}
-
-footer small {
-    display: unset;
 }
 
 /* watches */
@@ -824,3 +828,141 @@ footer .tpg-logo-container {
 }
 
 /* END FOOTER */
+
+/*     _    ____   ___  _   _ _____                           */
+/*    / \  | __ ) / _ \| | | |_   _|  _ __   __ _  __ _  ___  */
+/*   / _ \ |  _ \| | | | | | | | |   | '_ \ / _` |/ _` |/ _ \ */
+/*  / ___ \| |_) | |_| | |_| | | |   | |_) | (_| | (_| |  __/ */
+/* /_/   \_\____/ \___/ \___/  |_|   | .__/ \__,_|\__, |\___| */
+/*                                   |_|          |___/       */
+/* about page ------------------------------------------------*/
+
+.about-cover :is(h1, h2) {
+    text-align: center;
+}
+
+.column-to-row {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+body.about section h3 {
+    max-width: 500px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    body.about section h3 {
+        margin-bottom: 80px;
+    }
+}
+
+.column-to-row div.one-half {
+    width: 100%;
+    max-width: 400px;
+}
+
+.column-to-row div+div {
+    margin-top: 40px;
+}
+
+.order {
+    order: 1;
+}
+
+
+
+/* founder section */
+
+.founder-bios {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.founder-bios .founder-boris {
+    max-width: 200px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+img.flag {
+    height: 20px;
+    width: auto;
+    border-radius: 2px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    display: inline;
+}
+
+.founder-bios h5 {
+    opacity: .5;
+    margin-top: 1rem;
+}
+
+.founder-bios small {
+    margin-bottom: 1rem;
+}
+
+.founder .column-to-row {
+    align-items: flex-start;
+}
+
+.founder-social {
+    display: flex;
+    gap: 25px;
+    margin-left: 25px;
+    margin-top: 2rem;
+}
+
+body#discovery-call .founder-social {
+    margin-left: unset;
+    margin-top: unset;
+}
+
+.founder-social a img {
+    margin-right: 3px;
+    opacity: 0.5;
+    display: inline;
+    vertical-align: bottom;
+}
+
+.founder-social :is(.boris-hr-link:hover img, .boris-in-link:hover img) {
+    opacity: 1;
+}
+
+.founder li {
+    text-wrap: balance;
+}
+.iframe {
+    aspect-ratio: 16 / 9;
+}
+/* founder section end */
+
+@media (min-width: 768px) {
+    div.column-to-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div.column-to-row div.one-half {
+        width: calc(50% - 12px);
+    }
+
+    #founder-section .founder-bios {
+        width: 40%;
+    }
+
+    #founder-section .founder-list {
+        width: 60%;
+    }
+
+    div.column-to-row div+div {
+        margin-top: unset;
+    }
+}

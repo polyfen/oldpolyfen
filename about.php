@@ -40,7 +40,7 @@
 
 </head>
 
-<body id="about" class="dark-mode">
+<body class="about dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
@@ -56,15 +56,15 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- ABOUT start -->
-    <main class="about">
+    <main class="about-main">
 
-        <section id="about-cover" class="container-800">
+        <section class="about-cover container">
 
             <h1 class="caption">About</h1>
             <h2 class="heading-1">Where business &amp; creativity come together</h2>
 
             <div class="column-to-row">
-                <div class="one-half">
+                <div class="one-half order">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp">
                 </div>
                 <div class="one-half">
@@ -78,16 +78,16 @@
 
         <hr>
 
-        <section class="founder" class="container-700">
+        <section class="founder container-700">
             <h3 class="heading-2">10+ years of experience in design, development, &amp; marketing</h3>
 
             <div class="column-to-row founder">
 
                 <div class="one-half founder-bios">
-                    <img src="/imgs/about/boris-hrncic.webp">
-                    <h4 class="heading-4">Boris Hrnčić</h4>
-                    <small><img src="/imgs/flags/hr.svg" class="flag"> Zagreb, Croatia<br><br></small>
-                    <h4 class="heading-5">Founder &amp;<br>Art Director</h4>
+                    <img class="founder-boris" src="/imgs/about/boris-hrncic.webp">
+                    <h4 class="heading-3">Boris Hrnčić</h4>
+                    <img src="/imgs/flags/hr.svg" class="flag"><small>Zagreb, Croatia</small>
+                    <h5 class="heading-4">Founder &amp;<br>Art Director</h5>
                 </div>
 
                 <div class="one-half founder-list">
@@ -95,7 +95,7 @@
                         <li>Coding since 2008 and designing brands since 2010.
                         </li>
                         <li>Vetted in the top 3% of designers worldwide by
-                            <a href="https://toptal.com" target="_blank" rel="nofollow"><small>Toptal</small></a> in
+                            <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
                             2017.
                         </li>
                         <li>Led high-performing teams for small start-ups and big
@@ -119,7 +119,7 @@
 
         <hr>
 
-        <section id="plat-section" class="container-800">
+        <section id="plat-section" class="container">
             <h3 class="heading-2 ">We wrote the book on branding</h3>
             <div class="column-to-row">
                 <div class="one-half">
@@ -128,28 +128,24 @@
                 <div class="one-half">
                     <p>A step-by-step guide to the Branding process including practical tips,
                         case studies, template files, and many other useful resources.</p>
-                    <a href="https://polyatlas.wiki/" target="_blank">
-                        <small>polyatlas.wiki</small>
-                    </a>
+                    <a href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
                 </div>
             </div>
         </section>
         <hr>
-        <section id="plck-section" class="container-800">
+        <section id="plcq-section" class="container">
             <h3 class="heading-2">We made a free solution to cookies consent</h3>
             <div class="column-to-row">
-                <div class="one-half iframe">
+                <div class="one-half iframe order">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
-                <div class="one-half">
+                <div class="one-half ">
                     <p>We developed a simple open-source technology that helps websites comply with privacy protection
                         regulations like GDPR and the California Online Privacy Act.</p>
-                    <a href="https://polycookies.com/" target="_blank">
-                        <small>polycookies.com</small>
-                    </a>
+                    <a href="https://polycookies.com/" target="_blank">polycookies.com</a>
                 </div>
             </div>
         </section>
@@ -199,7 +195,7 @@
                             cost.</p>
                     </div>
                 </div>
-                
+
                 <div class="accordion">
                     <div class="acc-button">
                         <img src="/imgs/icons/dna.svg" height="32px" width="auto">

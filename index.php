@@ -47,7 +47,7 @@
 
 </head>
 
-<body id="home" class="dark-mode">
+<body class="home dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
@@ -63,8 +63,8 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- COVER start -->
-    <main class="home">
-        <section class="cover">
+    <main class="home-main">
+        <section class="home-cover">
             <h1 class="title-1">Unleash your business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
             <small class="caption">Start Today</small>

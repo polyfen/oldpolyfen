@@ -42,7 +42,7 @@
 *
 */
 -->
-<link rel="stylesheet" type="text/css" href="libs/fonts/Biotif.css">
+<link rel="stylesheet" type="text/css" href="/libs/fonts/Biotif.css">
 <link rel="stylesheet" href="https://use.typekit.net/aba8ecz.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <script src="https://kit.fontawesome.com/d00980734d.js" crossorigin="anonymous"></script>
@@ -56,10 +56,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <!-- Images preload -->
-<link rel="preload" as="image" href="imgs/thumbs-up-solid-white.svg">
-<link rel="preload" as="image" href="imgs/icons/envelope-white.svg">
-<link rel="preload" as="image" href="imgs/icons/phone-call-white.svg">
-<link rel="preload" as="image" href="imgs/icons/paper-plane-white.svg">
+<link rel="preload" as="image" href="/imgs/thumbs-up-solid-white.svg">
+<link rel="preload" as="image" href="/imgs/icons/envelope-white.svg">
+<link rel="preload" as="image" href="/imgs/icons/phone-call-white.svg">
+<link rel="preload" as="image" href="/imgs/icons/paper-plane-white.svg">
 
 <!-- Global javascript -->
 <script defer src="/app/js/timezone.js"></script>

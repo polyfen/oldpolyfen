@@ -38,6 +38,7 @@
 </head>
 
 <body id="discovery-call" class="dark-mode landing-page">
+<!-- ya hay un estilo del founder-social  que llama a este ID -->
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
