@@ -9,6 +9,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Polyfen">
 <meta name="twitter:creator" content="@PolyfenAgency">
+<meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f">
 
 <!-- FAVICON -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -53,27 +54,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-P25JFWC');</script>
 <!-- End Google Tag Manager -->
-
-<!-- Pinterest -->
-<meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f">
-
-<!-- jQuery -->
-<script
-src="https://code.jquery.com/jquery-3.6.3.min.js"
-integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-crossorigin="anonymous"></script>
-
-
-<!-- Scroll to Anchor link (esto se puede resolver con css/scroll-behavior:smooth) -->
-<script>
-$(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
-});
-</script>
 
 <!-- Images preload -->
 <link rel="preload" as="image" href="imgs/thumbs-up-solid-white.svg">

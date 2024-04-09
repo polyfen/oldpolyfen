@@ -43,6 +43,14 @@ hr {
     }
 }
 
+* {
+    scroll-behavior: smooth;
+}
+/* o */
+:target {
+    scroll-behavior: smooth;
+}
+
 /*theming */
 body.dark-mode {
     background-color: #070924;
