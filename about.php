@@ -99,7 +99,8 @@
                             enterprises in Croatia, Argentina, and the US.</li>
                     </ul>
                     <div class="founder-social">
-                        <a data-before="boris-in" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
+                        <a data-before="boris-in" href="https://www.linkedin.com/in/borishr/"
+                            target="_blank">LinkedIn</a>
                         <a data-before="boris-hr" href="https://boris.hr/" target="_blank" rel="follow">boris.hr</a>
                     </div>
                 </div>
@@ -126,8 +127,9 @@
             <h3 class="heading-2">We made a free solution to cookies consent</h3>
             <div class="column-to-row">
                 <div class="one-half">
-                    <iframe id="plcq-tutorial" width="560" height="315" src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM"
-                        title="YouTube video player" frameborder="0"
+                    <iframe id="plcq-tutorial" width="560" height="315"
+                        src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM" title="YouTube video player"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
@@ -148,8 +150,7 @@
 
                 <div class="accordion">
                     <div class="acc-button">
-                        <img src="/imgs/icons/rocket-launch.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Excellence through R&amp;D</h4>
+                        <h4 data-acc="rocket" class="heading-3">Excellence through R&amp;D</h4>
                     </div>
                     <div class="acc-panel">
                         <p>As a forward-thinking company we explore the latest techologies and nurture professional
@@ -163,8 +164,7 @@
 
                 <div class="accordion">
                     <div class="acc-button">
-                        <img src="/imgs/icons/person.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Teamwork makes the dream work</h4>
+                        <h4 data-acc="person" class="heading-3">Teamwork makes the dream work</h4>
                     </div>
                     <div class="acc-panel">
                         <p>Together we can achieve much more than we ever could alone. We are heavily commited to
@@ -175,8 +175,7 @@
 
                 <div class="accordion">
                     <div class="acc-button">
-                        <img src="/imgs/icons/globe.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Fully remote since 2018</h4>
+                        <h4 data-acc="globe" class="heading-3">Fully remote since 2018</h4>
                     </div>
                     <div class="acc-panel">
                         <p>We can't compete with the comp packages of big tech companies. But where we can compete and
@@ -187,8 +186,7 @@
 
                 <div class="accordion">
                     <div class="acc-button">
-                        <img src="/imgs/icons/dna.svg" height="32px" width="auto">
-                        <h4 class="heading-3">Transparency is in our DNA</h4>
+                        <h4 data-acc="dna" class="heading-3">Transparency is in our DNA</h4>
                     </div>
                     <div class="acc-panel">
                         <p>Our <a href="https://thepolyfengroup.com/business" target="_blank" rel="follow">Business
