@@ -76,7 +76,7 @@ ul.hanging-list li::before {
     content: url(/imgs/arrow-right.svg);
 }
 
-body.dark-mode * {
+body:where(.dark-mode) * {
     /* esto esta definido nomas algunos elementos en plkt, no todos como estaba en plnc*/
     color: hsl(0, 0%, 100%);
 }
@@ -255,11 +255,20 @@ body {
 .hello-bar {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    gap: 20px;
+    height: 90px;
+    gap: 10px;
     background: #000000;
+    z-index: 10;
+}
+@media (min-width: 750px) {
+    div.hello-bar {
+        height: 50px;
+        flex-direction: row;
+        gap: 20px;
+    }
 }
 
 header {
@@ -281,10 +290,6 @@ img#logo {
 /* |_| \_/_/   \_\_/  |___\____/_/   \_\_| |___\___/|_| \_| */
 /* The navigation bar ------------------------------------- */
 
-.hello-nav div {
-    text-align: right;
-}
-
 .nav-links.position-fixed,
 .nav-buttons {
     position: fixed;
@@ -298,8 +303,8 @@ img#logo {
 .nav-links a {
     text-decoration: none;
 }
-
-/* hello-nav mobile */
+/* hello-nav mediaqueries */
+/* mobile */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -322,7 +327,10 @@ img#logo {
         padding: 7px 8px;
         border-radius: 18px;
         right: 15px;
-        top: 55px;
+        top: 125px;
+    }
+    .nav-links.open-nav + .nav-buttons {
+    top: 18px !important;
     }
 
     .hamburger svg {
@@ -338,6 +346,9 @@ img#logo {
         font-size: 8vw;
         padding: 14px 16px;
         color: #12123a;
+    }
+    .nav-links a:not(.current-page) {
+        opacity: 1;
     }
 
     .nav-close {
@@ -369,7 +380,6 @@ img#logo {
 }
 
 /* hello-nav desktop */
-/* mediaqueries */
 @media (min-width: 768px) {
     .nav-buttons {
         display: none;

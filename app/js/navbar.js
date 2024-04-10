@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (scroll >= 60) {
             buttons.style.top = '18px';
         } else {
-            buttons.style.top = '55px';
+            buttons.style.top = '125px';
         }
     });
 });
