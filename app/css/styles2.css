@@ -861,7 +861,7 @@ body.about section h3 {
     }
 }
 
-.column-to-row div.one-half {
+.column-to-row .one-half {
     width: 100%;
     max-width: 400px;
 }
@@ -869,11 +869,6 @@ body.about section h3 {
 .column-to-row div+div {
     margin-top: 40px;
 }
-
-.order {
-    order: 1;
-}
-
 
 
 /* founder section */
@@ -937,32 +932,39 @@ body#discovery-call .founder-social {
 .founder li {
     text-wrap: balance;
 }
-.iframe {
+
+iframe#plcq-tutorial {
     aspect-ratio: 16 / 9;
+    width: 100%;
+    height: 100%;
 }
 /* founder section end */
 
 @media (min-width: 768px) {
-    div.column-to-row {
+    .column-to-row {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
 
-    div.column-to-row div.one-half {
+    section:nth-of-type(odd) .one-half:nth-of-type(odd) {
+        order: 1;
+    }
+
+    .column-to-row .one-half {
         width: calc(50% - 12px);
     }
 
-    #founder-section .founder-bios {
+    .founder .founder-bios {
         width: 40%;
     }
 
-    #founder-section .founder-list {
+    .founder .founder-list {
         width: 60%;
     }
 
-    div.column-to-row div+div {
+    .column-to-row div+div {
         margin-top: unset;
     }
 }

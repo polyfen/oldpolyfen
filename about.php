@@ -64,7 +64,7 @@
             <h2 class="heading-1">Where business &amp; creativity come together</h2>
 
             <div class="column-to-row">
-                <div class="one-half order">
+                <div class="one-half">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp">
                 </div>
                 <div class="one-half">
@@ -73,15 +73,12 @@
                     <p>We help businesses translate their vision into digital experiences that bring in the money.</p>
                 </div>
             </div>
-
         </section>
-
         <hr>
-
         <section class="founder container-700">
             <h3 class="heading-2">10+ years of experience in design, development, &amp; marketing</h3>
 
-            <div class="column-to-row founder">
+            <div class="column-to-row">
 
                 <div class="one-half founder-bios">
                     <img class="founder-boris" src="/imgs/about/boris-hrncic.webp">
@@ -116,10 +113,8 @@
             </div>
 
         </section>
-
         <hr>
-
-        <section id="plat-section" class="container">
+        <section class="plat-section container">
             <h3 class="heading-2 ">We wrote the book on branding</h3>
             <div class="column-to-row">
                 <div class="one-half">
@@ -133,11 +128,11 @@
             </div>
         </section>
         <hr>
-        <section id="plcq-section" class="container">
+        <section class="plcq-section container">
             <h3 class="heading-2">We made a free solution to cookies consent</h3>
             <div class="column-to-row">
-                <div class="one-half iframe order">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM"
+                <div class="one-half">
+                    <iframe id="plcq-tutorial" width="560" height="315" src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
@@ -152,7 +147,7 @@
 
         <hr>
 
-        <section class="what-sets-us-apart" class="container-1080 ">
+        <section class="what-sets-us-apart container-1080">
 
             <h3 class="heading-2 align-center">What sets us apart</h3>
             <div class="container-700 accordions-container">
