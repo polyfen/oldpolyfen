@@ -99,14 +99,8 @@
                             enterprises in Croatia, Argentina, and the US.</li>
                     </ul>
                     <div class="founder-social">
-                        <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank">
-                            <img src="/imgs/icons/linkedin-in.svg" height="25">
-                            <small>LinkedIn</small>
-                        </a>
-                        <a class="boris-hr-link" href="https://boris.hr/" target="_blank" rel="follow">
-                            <img src="/imgs/icons/globe-white.svg" height="25">
-                            <small>boris.hr</small>
-                        </a>
+                        <a data-before="boris-in" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
+                        <a data-before="boris-hr" href="https://boris.hr/" target="_blank" rel="follow">boris.hr</a>
                     </div>
                 </div>
 

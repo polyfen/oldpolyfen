@@ -5,12 +5,15 @@
 }
 
 h1,
-h2,
+h2 {
+    font-family: 'BiotifBold', helvetica, arial, sans-serif;
+}
+
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'BiotifBold', helvetica, arial, sans-serif;
+    font-family: 'BiotifMedium', helvetica, arial, sans-serif;
 }
 
 p,
@@ -507,12 +510,15 @@ img#logo {
 .acc-button {
     display: flex;
     cursor: pointer;
+    align-items: center;
     transition: .4s;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #ffffff4d;
 }
-
+.acc-button h4 {
+    margin: unset;
+}
 .acc-button:after {
     content: '\002B';
     float: right;
@@ -938,6 +944,7 @@ iframe#plcq-tutorial {
     width: 100%;
     height: 100%;
 }
+
 /* founder section end */
 
 @media (min-width: 768px) {
@@ -967,4 +974,25 @@ iframe#plcq-tutorial {
     .column-to-row div+div {
         margin-top: unset;
     }
+}
+
+[data-before]::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    text-decoration: none;
+    height: 25px;
+    width: 27px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+[data-before="boris-in"]::before {
+    background-image: url(/imgs/icons/linkedin-in.svg);
+}
+
+[data-before="boris-hr"]::before {
+    background-image: url(/imgs/icons/globe-white.svg);
+    width: 29px;
 }
