@@ -55,7 +55,7 @@
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <!-- ABOUT start -->
+    <!-- ABOUT page start -->
     <main class="about-main">
 
         <section class="about-cover container">

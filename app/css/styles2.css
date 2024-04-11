@@ -53,7 +53,15 @@ hr {
 
 /*theming */
 
-h1, h2, h3, h4, h5, button, a.button, a small, small {
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+a.button,
+a small,
+small {
     font-variant-ligatures: no-discretionary-ligatures;
 }
 
@@ -62,7 +70,12 @@ body.dark-mode {
 
 }
 
-a:not(.button) {
+main {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+a:not(.button, .logo-container) {
     text-decoration: underline #7537f8 dotted 2px;
     text-underline-offset: 5px;
     opacity: 0.5;
@@ -269,6 +282,7 @@ body {
     background: #000000;
     z-index: 10;
 }
+
 @media (min-width: 750px) {
     div.hello-bar {
         height: 50px;
@@ -309,6 +323,7 @@ img#logo {
 .nav-links a {
     text-decoration: none;
 }
+
 /* hello-nav mediaqueries */
 /* mobile */
 @media (max-width: 768px) {
@@ -335,8 +350,9 @@ img#logo {
         right: 15px;
         top: 125px;
     }
-    .nav-links.open-nav + .nav-buttons {
-    top: 18px !important;
+
+    .nav-links.open-nav+.nav-buttons {
+        top: 18px !important;
     }
 
     .hamburger svg {
@@ -353,6 +369,7 @@ img#logo {
         padding: 14px 16px;
         color: #12123a;
     }
+
     .nav-links a:not(.current-page) {
         opacity: 1;
     }
@@ -409,13 +426,13 @@ img#logo {
 
 /* END of navigation bar ----------------- */
 
-/*  _   _  ___  __  __ _____  */
-/* | | | |/ _ \|  \/  | ____| */
-/* | |_| | | | | |\/| |  _|   */
-/* |  _  | |_| | |  | | |___  */
-/* |_| |_|\___/|_|  |_|_____| */
-/* Home --------------------- */
-/* cover section */
+/*  _   _                                                */
+/* | | | | ___  _ __ ___   ___   _ __   __ _  __ _  ___  */
+/* | |_| |/ _ \| '_ ` _ \ / _ \ | '_ \ / _` |/ _` |/ _ \ */
+/* |  _  | (_) | | | | | |  __/ | |_) | (_| | (_| |  __/ */
+/* |_| |_|\___/|_| |_| |_|\___| | .__/ \__,_|\__, |\___| */
+/*                              |_|          |___/       */
+/* cover section ----------------------------------------*/
 
 .home-cover {
     text-align: center;
@@ -683,24 +700,22 @@ a#schedule-call:hover::before {
     background: url(../../imgs/icons/phone-call-white.svg) no-repeat center center;
 }
 
-/*
+
 button#nostyle::before {
     background: url(../../imgs/icons/paper-plane.svg) no-repeat center center;
-    margin-top: -8px;
+    margin-top: -3px;
 }
 
 button#nostyle:hover::before {
     background: url(../../imgs/icons/paper-plane-white.svg) no-repeat center center;
 }
 
-*/
-
 /*  _____ ___   ___ _____ _____ ____   */
 /* |  ___/ _ \ / _ \_   _| ____|  _ \  */
 /* | |_ | | | | | | || | |  _| | |_) | */
 /* |  _|| |_| | |_| || | | |___|  _ <  */
 /* |_|   \___/ \___/ |_| |_____|_| \_\ */
-/* Footer starts   --------------------*/
+/* Footer starts ----------------------*/
 
 footer {
     display: grid;
@@ -995,6 +1010,94 @@ iframe#plcq-tutorial {
     }
 }
 
+
+/*   ____            _             _                             */
+/*  / ___|___  _ __ | |_ __ _  ___| |_   _ __   __ _  __ _  ___  */
+/* | |   / _ \| '_ \| __/ _` |/ __| __| | '_ \ / _` |/ _` |/ _ \ */
+/* | |__| (_) | | | | || (_| | (__| |_  | |_) | (_| | (_| |  __/ */
+/*  \____\___/|_| |_|\__\__,_|\___|\__| | .__/ \__,_|\__, |\___| */
+/*                                      |_|          |___/       */
+/* Contact page -------------------------------------------------*/
+
+/* contact form styles */
+form#contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+form#contact-form input,
+form#contact-form textarea {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-family: freight-text-pro, serif;
+    padding: 8px;
+    background: #060924;
+    color: #fff;
+    border: 1px solid #7637f9;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+div.g-recaptcha {
+    margin: auto;
+}
+
+div.err-msj {
+    text-align: center;
+    color: red;
+    margin: 10px 0;
+    display: none;
+}
+
+/* end contact form styles*/
+
+.contact-main h3 {
+    text-align: center;
+}
+
+img.contact-flag {
+    display: inline;
+    height: 35px;
+    width: auto;
+    border-radius: 2px;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+
+.contact-vertical-line {
+    display: none;
+}
+
+/* contact page mediaquery */
+@media (min-width: 1000px) {
+    .message-call {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .message-call section {
+        width: 40%;
+    }
+
+    /*     
+    .contact-line-desktop {
+        display: none;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        height: 720px;
+        border-left: 0.8px solid #7437f850;
+    }
+    */
+}
+
+
+
+
 /*  ____        _              _                          */
 /* |  _ \  __ _| |_ __ _      | |_ _   _ _ __   ___  ___  */
 /* | | | |/ _` | __/ _` |_____| __| | | | '_ \ / _ \/ __| */
@@ -1015,6 +1118,7 @@ iframe#plcq-tutorial {
     background-repeat: no-repeat;
     background-position: left;
 }
+
 [data-before="boris-in"]::before {
     background-image: url(/imgs/icons/linkedin-in.svg);
 }
@@ -1037,16 +1141,18 @@ ambos content:url() o background-image funcionan igual parece ser */
     text-decoration: none;
 }
 
-[data-acc="rocket"]::before { content: url(/imgs/icons/rocket-launch.svg);}
+[data-acc="rocket"]::before {
+    content: url(/imgs/icons/rocket-launch.svg);
+}
 
-[data-acc="person"]::before { content: url(/imgs/icons/person.svg);}
+[data-acc="person"]::before {
+    content: url(/imgs/icons/person.svg);
+}
 
-[data-acc="globe"]::before { content: url(/imgs/icons/globe.svg);}
+[data-acc="globe"]::before {
+    content: url(/imgs/icons/globe.svg);
+}
 
-[data-acc="dna"]::before { content: url(/imgs/icons/dna.svg);}
-
-
-
-
-
-
+[data-acc="dna"]::before {
+    content: url(/imgs/icons/dna.svg);
+}

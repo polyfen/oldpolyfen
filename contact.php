@@ -41,11 +41,11 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
-<body id="contact" class="dark-mode">
+<body class="contact dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+            style="display:none;visibility: "></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
 
@@ -57,62 +57,51 @@
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <!-- CONTACT start -->
-    <main id="contact">
+    <!-- CONTACT page start -->
+    <main class="contact-main">
+        <section class="message-call container-1080">
+            <section class="send-a-message">
+                <h3 class="heading-2">Send a Message</h3>
+                <div class="err-msj">Verify you are human</div>
+                <form id="contact-form" method="POST" class="">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
 
-        <section id="contact-intro" class="container">
-            <h1 class="hidden caption align-center">Contact</h1>
-            <h2 class="hidden heading-1 align-center">Let's start a Conversation</h2>
-            <h3 class="hidden heading-2 align-center" id="message">Send a Message</h3>
-            <div class="err-msj">Verify you are human</div>
-            <form id="contact-form" method="POST" class="hidden">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" required>
-
-                <label for="name">Name</label>
-                <input type="text" name="name" required>
-
-                <label for="message">Message</label>
-                <textarea name="message" required></textarea>
-                <!-- place captcha here -->
-                <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
-                    data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
-                    data-error-callback="onRecaptchaError">
-                </div>
-                <br>
-                <div class="opal opal-rainbow-soft">
-                    <div class="opal-solid">
-                        <div class="opal-mask"><button id="nostyle" type="submit">Send Message</button></div>
+                    <label for="message">Message</label>
+                    <textarea name="message" required></textarea>
+                    <!-- place captcha here -->
+                    <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
+                        data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
+                        data-error-callback="onRecaptchaError">
                     </div>
-                </div>
-            </form>
+                    <br>
+                    <button id="nostyle" type="submit">Send Message</button>
+                </form>
+            </section>
+            <hr class="contact-hr-mobile">
+            <div  class="contact-line-desktop"></div>
+            <section>
+                <h3 class="heading-2">Schedule a Call</h3>
+                <!-- INCLUDE CALENDLY.PHP start -->
+                <?php include 'includes/calendly.php';?>
+                <!-- INCLUDE CALENDLY.PHP end -->
+            </section>
         </section>
         <hr>
-        <section id="call">
-            <h3 class="hidden heading-2 align-center">Schedule a Call</h3>
-            <!-- INCLUDE CALENDLY.PHP start -->
-            <?php include 'includes/calendly.php';?>
-            <!-- INCLUDE CALENDLY.PHP end -->
-        </section>
-        <hr>
-        <section class="hidden container" id="details">
+        <section class="email-phone container">
             <h3 class="heading-2 align-center">hi@polyfen.com</h3>
-            <h3 class="heading-2 align-center"><img src="imgs/flags/us.svg" class="contact-flag"> +1 415 800 4115</h3>
+            <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag"> +1 415 800 4115</h3>
         </section>
     </main>
-    <!-- process form on submit-->
-    <?php
-      /* if(isset($_POST['name'])){
-        require "process.php";  
-      } */
-    ?>
     <!-- CONTACT end -->
-
 
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
 
     <!-- contact form script start -->
     <script>
@@ -132,14 +121,11 @@
     function onRecaptchaResponseExpiry() {
         onRecaptchaError();
     }
-
     contactForm.on('submit', (e) => {
         e.preventDefault()
         const recaptchaResponse = $('#g-recaptcha-response').val()
         if (recaptchaResponse === '') onRecaptchaError()
-
         const data = contactForm.serializeArray()
-
         $.ajax({
             method: "POST",
             url: "submit.php",
@@ -148,7 +134,6 @@
             success: function(response) {
                 window.location.href = '/thank-you.php';
                 // console.log(response.message);
-
                 // Estas lineas son por si no quieren que redireccione a un thank you page
                 // contactForm.trigger('reset');
                 // grecaptcha.reset();

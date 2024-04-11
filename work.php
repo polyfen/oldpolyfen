@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="dark-mode">
+<body class="work dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"

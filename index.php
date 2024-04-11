@@ -62,7 +62,7 @@
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <!-- COVER start -->
+    <!-- Home page start -->
     <main class="home-main">
         <section class="home-cover">
             <h1 class="title-1">Unleash your business full potential</h1>
@@ -79,7 +79,6 @@
                 </div>
             </div>
         </section>
-        <!-- COVER end -->
 
         <section class="clients-featured container-900">
             <h2 class="caption align-center">Clients featured in</h2>
