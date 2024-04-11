@@ -84,7 +84,7 @@
                     <img class="founder-boris" src="/imgs/about/boris-hrncic.webp">
                     <h4 class="heading-3">Boris Hrnčić</h4>
                     <img src="/imgs/flags/hr.svg" class="flag"><small>Zagreb, Croatia</small>
-                    <h5 class="heading-4">Founder &amp;<br>Art Director</h5>
+                    <h5 class="heading-4">Founder &amp;<br>CEO</h5>
                 </div>
 
                 <div class="one-half founder-list">
