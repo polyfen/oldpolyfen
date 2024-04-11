@@ -83,7 +83,7 @@
                     <img src="imgs/about/boris-hrncic.webp" style="max-width: 200px; margin-bottom: 20px;">
                     <h4 class="heading-4">Boris Hrnčić</h4>
                     <small><img src="imgs/flags/hr.svg" class="flag"> Zagreb, Croatia<br><br></small>
-                    <h4 class="heading-5" style="opacity:0.5;">Founder &amp;<br>Art Director</h4>
+                    <h4 class="heading-5" style="opacity:0.5;">Founder &amp;<br>CEO</h4>
                 </div>
                 <div class="one-half hidden founder-list">
                     <ul class="hanging-list arrow-bullet" style="margin-bottom: 1rem;">
