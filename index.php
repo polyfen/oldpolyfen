@@ -126,21 +126,21 @@
             <div class="cards-container">
                 <section class="services-card">
                     <h3 class="heading-2">Sr UX<br>Designer</h3>
-                    <h4 class="caption">at around</h4>
+                    <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$45</h4>
                     <h4 class="caption">Net 14 Billing</h4>
                 </section>
 
                 <section class="services-card">
                     <h3 class="heading-2">Sr Software<br>Engineer</h3>
-                    <h4 class="caption">at around</h4>
+                    <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$45</h4>
                     <h4 class="caption">Net 14 Billing</h4>
                 </section>
 
                 <section class="services-card">
                     <h3 class="heading-2">Sr Scrum<br>Master</h3>
-                    <h4 class="caption">at around</h4>
+                    <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$35</h4>
                     <h4 class="caption">Net 14 Billing</h4>
                 </section>
