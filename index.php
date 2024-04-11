@@ -146,7 +146,6 @@
                     <h3 class="heading-2">Sr UX<br>Designer</h3>
                     <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Around</h4>
                     <h4 class="heading-3">$45</h4>
-                    <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
                 </div>
             </section>
             <section class="column">
@@ -154,7 +153,6 @@
                 <h3 class="heading-2">Sr Software<br>Engineer</h3>
                 <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Around</h4>
                 <h4 class="heading-3">$45</h4>
-                <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
                 </div>
             </section>
             <section class="column">
@@ -162,7 +160,6 @@
             <h3 class="heading-2">Sr Scrum<br>Master</h3>
             <h4 class="caption" style="opacity: 0.5;margin-bottom:-40px;margin-top:20px;">Around</h4>
             <h4 class="heading-3">$35</h4>
-            <h4 class="caption" style="opacity: 0.5;">Net 14 Billing</h4>
             </div>
             </section>
             </section>
