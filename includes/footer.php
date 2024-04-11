@@ -52,8 +52,6 @@
         <a href="https://thepolyfengroup.com/business/" target="_blank"><small>Business Plan</small></a>
         <span style="opacity:0.2;margin:0 5px;">&vert;</span>
         <a href="https://thepolyfengroup.com/brand/" target="_blank"><small>Brand Guidelines</small></a>
-        <span style="opacity:0.2;margin:0 5px;">&vert;</span>
-        <a href="https://thepolyfengroup.com/privacy/" target="_blank"><small>Privacy Policy</small></a>
     </div>
 
     <!-- scripts location call luxon-->
