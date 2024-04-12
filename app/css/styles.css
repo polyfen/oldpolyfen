@@ -2453,6 +2453,10 @@ div#cta-content {
   padding: 80px 0 100px;
 }
 
+div.grain-texture {
+  background: url('../../imgs/grain-texture-low-opacity.png');
+}
+
 @media (min-width: 700px) {
   div.grain-texture {
     background: url('../../imgs/grain-texture.webp');
