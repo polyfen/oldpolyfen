@@ -3,9 +3,9 @@
     <nav class="hello-nav">
         <div class="nav-links">
             <a href="/">Home</a>
-            <a href="/about/">About</a>
-            <a href="/work/">work</a>
-            <a href="/contact/">Contact</a>
+            <a href="/about">About</a>
+            <a href="/work">work</a>
+            <a href="/contact">Contact</a>
         </div>
         <div class="nav-buttons">
             <button aria-label="Open/Close navbar" class="nav-hamburger">
