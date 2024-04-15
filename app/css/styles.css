@@ -2491,6 +2491,11 @@ section#contact button {
   padding: 14px 24px 12px;
   font-family: 'BiotifBold', SANS-SERIF;
   margin-top: 20px;
+  background: #060a24b5;
+}
+
+section#contact button:hover {
+  background: #7537f8;
 }
 
 button#schedule-call::before {
