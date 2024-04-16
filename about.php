@@ -80,14 +80,14 @@
 
             <div class="column-to-row">
 
-                <div class="one-half founder-bios">
+                <div class="founder-bios">
                     <img class="founder-boris" src="/imgs/about/boris-hrncic.webp">
                     <h3 class="caption">Boris Hrnčić</h3>
                     <h4 class="caption">Founder &amp; CEO</h4>
                     <img src="/imgs/flags/hr.svg" class="flag"><small>Zagreb, Croatia</small>
                 </div>
 
-                <div class="one-half founder-list">
+                <div class="founder-list">
                     <ul class="hanging-list">
                         <li>Coding since 2008 and designing brands since 2010.
                         </li>
