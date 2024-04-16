@@ -76,7 +76,7 @@
         </section>
         <hr>
         <section class="founder container-700">
-            <h2 class="heading-2">10+ years of experience in design, development, &amp; marketing</h2>
+            <h2 class="heading-2 align-center">10+ years of experience in design, development, &amp; marketing</h2>
 
             <div class="column-to-row">
 
@@ -110,7 +110,7 @@
         </section>
         <hr>
         <section class="plat-section container">
-            <h2 class="heading-2">We wrote the book on branding</h2>
+            <h2 class="heading-2 align-center">We wrote the book on branding</h2>
             <div class="column-to-row">
                 <div class="one-half">
                     <img src="/imgs/about/poly-atlas-animation.gif">
@@ -124,7 +124,7 @@
         </section>
         <hr>
         <section class="plcq-section container">
-            <h2 class="heading-2">We made a free solution to cookies consent</h2>
+            <h2 class="heading-2 align-center">We made a free solution to cookies consent</h2>
             <div class="column-to-row">
                 <div class="one-half">
                     <iframe id="plcq-tutorial" width="560" height="315"
@@ -145,7 +145,7 @@
 
         <section class="what-sets-us-apart container-1080">
 
-            <h2 class="heading-2">What sets us apart</h2>
+            <h2 class="heading-2 align-center">What sets us apart</h2>
             <div class="container-700 accordions-container">
 
                 <div class="accordion">
