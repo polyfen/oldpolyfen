@@ -6,7 +6,7 @@
 
 h1,
 h2 {
-    font-family: 'BiotifBold', helvetica, arial, sans-serif;
+    font-family: 'BiotifExtrabold', helvetica, arial, sans-serif;
 }
 
 h3,
@@ -25,7 +25,7 @@ p span,
 li strong,
 th,
 td {
-    font-family: 'freight-text-pro', serif;
+    font-family: 'Lora', serif;
 }
 
 button,
