@@ -82,9 +82,9 @@
 
                 <div class="one-half founder-bios">
                     <img class="founder-boris" src="/imgs/about/boris-hrncic.webp">
-                    <h4 class="heading-3">Boris Hrnčić</h4>
+                    <h3 class="heading-3">Boris Hrnčić</h3>
                     <img src="/imgs/flags/hr.svg" class="flag"><small>Zagreb, Croatia</small>
-                    <h5 class="heading-4">Founder &amp; CEO</h5>
+                    <h4 class="heading-4">Founder &amp; CEO</h4>
                 </div>
 
                 <div class="one-half founder-list">
