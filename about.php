@@ -76,7 +76,7 @@
         </section>
         <hr>
         <section class="founder container-700">
-            <h3 class="heading-2">10+ years of experience in design, development, &amp; marketing</h3>
+            <h2 class="heading-2">10+ years of experience in design, development, &amp; marketing</h2>
 
             <div class="column-to-row">
 
@@ -110,7 +110,7 @@
         </section>
         <hr>
         <section class="plat-section container">
-            <h3 class="heading-2 ">We wrote the book on branding</h3>
+            <h2 class="heading-2">We wrote the book on branding</h2>
             <div class="column-to-row">
                 <div class="one-half">
                     <img src="/imgs/about/poly-atlas-animation.gif">
@@ -124,7 +124,7 @@
         </section>
         <hr>
         <section class="plcq-section container">
-            <h3 class="heading-2">We made a free solution to cookies consent</h3>
+            <h2 class="heading-2">We made a free solution to cookies consent</h2>
             <div class="column-to-row">
                 <div class="one-half">
                     <iframe id="plcq-tutorial" width="560" height="315"
@@ -145,12 +145,12 @@
 
         <section class="what-sets-us-apart container-1080">
 
-            <h3 class="heading-2 align-center">What sets us apart</h3>
+            <h2 class="heading-2">What sets us apart</h2>
             <div class="container-700 accordions-container">
 
                 <div class="accordion">
                     <div class="acc-button">
-                        <h4 data-acc="rocket" class="heading-3">Excellence through R&amp;D</h4>
+                        <h3 data-acc="rocket" class="heading-3">Excellence through R&amp;D</h3>
                     </div>
                     <div class="acc-panel">
                         <p>As a forward-thinking company we explore the latest techologies and nurture professional
@@ -164,7 +164,7 @@
 
                 <div class="accordion">
                     <div class="acc-button">
-                        <h4 data-acc="person" class="heading-3">Teamwork makes the dream work</h4>
+                        <h3 data-acc="person" class="heading-3">Teamwork makes the dream work</h3>
                     </div>
                     <div class="acc-panel">
                         <p>Together we can achieve much more than we ever could alone. We are heavily commited to
@@ -175,7 +175,7 @@
 
                 <div class="accordion">
                     <div class="acc-button">
-                        <h4 data-acc="globe" class="heading-3">Fully remote since 2018</h4>
+                        <h3 data-acc="globe" class="heading-3">Fully remote since 2018</h3>
                     </div>
                     <div class="acc-panel">
                         <p>We can't compete with the comp packages of big tech companies. But where we can compete and
@@ -186,7 +186,7 @@
 
                 <div class="accordion">
                     <div class="acc-button">
-                        <h4 data-acc="dna" class="heading-3">Transparency is in our DNA</h4>
+                        <h3 data-acc="dna" class="heading-3">Transparency is in our DNA</h3>
                     </div>
                     <div class="acc-panel">
                         <p>Our <a href="https://thepolyfengroup.com/business" target="_blank" rel="follow">Business

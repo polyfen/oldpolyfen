@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="project-description">
-                <h4 class="heading-2">Bike in Mex</h4>
+                <h3 class="heading-2">Bike in Mex</h3>
                 <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and
                     Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in
                     Tulum, Mexico.</p>
@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="project-description">
-                <h4 class="heading-2">Tradeana</h4>
+                <h3 class="heading-2">Tradeana</h3>
                 <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help
                     them efficiently audit and manage the risk of their ForEx operations.</p>
                 <a class="button" class="tradeana-button" href="/tradeana"
@@ -142,7 +142,7 @@
                 </div>
             </div>
             <div class="project-description">
-                <h4 class="heading-2">Villa Terezija</h4>
+                <h3 class="heading-2">Villa Terezija</h3>
                 <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on
                     Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
                 <a class="button" id="villa-terezija-button" href="/villa-terezija"
