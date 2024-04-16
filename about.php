@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="founder-list">
-                    <ul class="hanging-list">
+                    <ul class="hanging-list arrow-bullets">
                         <li>Coding since 2008 and designing brands since 2010.
                         </li>
                         <li>Vetted in the top 3% of designers worldwide by

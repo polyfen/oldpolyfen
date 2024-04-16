@@ -31,5 +31,9 @@ button:hover, a.button:hover, input.button:hover {
 }
 
 ::selection {
-    background: #7537f8;
+    background: #722FFF;
+}
+
+ul li::before {
+    color: #722FFF;
 }

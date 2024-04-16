@@ -46,15 +46,6 @@ a.button:hover {
     text-decoration: none;
 }
 
-
-.hanging-list {
-    padding-left: 25px;
-}
-
-ul.hanging-list li::before {
-    content: url(/imgs/arrow-right.svg);
-}
-
 body:where(.dark-mode) * {
     /* esto esta definido nomas algunos elementos en plkt, no todos como estaba en plnc*/
     color: hsl(0, 0%, 100%);
