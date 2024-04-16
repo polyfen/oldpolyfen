@@ -75,6 +75,11 @@ main:is(.about-main) {
     padding-bottom: 100px;
 }
 
+main:is(.thank-you-main) {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
 /* estilos en polykit no para <a> a secas */
 a:not(.button, .img-link) {
     text-decoration: underline #7537f8 dotted 2px;
@@ -803,17 +808,20 @@ footer .sub-brands-footer a+span:nth-of-type(2) {
     display: none;
 }
 
-footer .sub-brands-footer a:nth-of-type(1),
-footer .sub-brands-footer a:nth-of-type(3) {
+footer .sub-brands-footer a:nth-of-type(1) {
     text-align: right;
     margin-right: 10px;
 }
 
-footer .sub-brands-footer a:nth-of-type(2),
-footer .sub-brands-footer a:nth-of-type(4) {
+footer .sub-brands-footer a:nth-of-type(2) {
     text-align: left;
     margin-left: 10px;
 }
+
+footer .sub-brands-footer a:nth-of-type(3) {
+    grid-column: 1 / 4;
+    justify-self: center;
+  }
 
 footer .sub-brands-footer a:first-child {
     margin-bottom: 10px;
@@ -841,10 +849,10 @@ footer .tpg-logo-container {
         margin-right: unset;
     }
 
-    footer .sub-brands-footer a:nth-of-type(2),
-    footer .sub-brands-footer a:nth-of-type(4) {
+    footer .sub-brands-footer a:nth-of-type(2) {
         text-align: unset;
         margin-right: unset;
+        margin-left: unset;
     }
 
     .sub-brands-footer {
@@ -1269,7 +1277,74 @@ img.contact-flag {
     }
 }
 
+/*   ____                     _             _ _            */
+/*  / ___|__ _ ___  ___   ___| |_ _   _  __| (_) ___  ___  */
+/* | |   / _` / __|/ _ \ / __| __| | | |/ _` | |/ _ \/ __| */
+/* | |__| (_| \__ \  __/ \__ \ |_| |_| | (_| | |  __/\__ \ */
+/*  \____\__,_|___/\___| |___/\__|\__,_|\__,_|_|\___||___/ */
+/*case-study --------------------------------------------- */
 
+.case-study h1 {
+    text-align: center;
+}
+.project-p {
+    width: 100%;
+    max-width: 525px;
+    text-align: left;
+    margin-inline:auto;
+}
+
+div#slider-container {
+    width: calc(100% - 30px);
+    margin-inline: auto;
+}
+
+#slider-container :is(button) {
+    box-shadow: none;
+}
+
+
+ul.slick-dots {
+    display: none !important;
+}
+
+.other-projects-container h2 {
+    margin-bottom: 8px;
+}
+
+.other-project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.other-project-cards h3 {
+    margin-top: 16px;
+}
+
+div.other-project-card p {
+    width: 100%;
+    max-width: 480px
+}
+
+div.other-project-card img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 4px
+}
+
+/*media queries for case studies*/
+@media (min-width: 768px) {
+
+    div#slider-container {
+        width: unset;
+        margin-inline: unset;
+    }
+
+    .other-project-cards {
+        flex-direction: row;
+    }
+}
 
 /*  ____        _              _                          */
 /* |  _ \  __ _| |_ __ _      | |_ _   _ _ __   ___  ___  */

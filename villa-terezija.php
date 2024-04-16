@@ -44,148 +44,140 @@
 
 </head>
 
-<body class="dark-mode case-study">
+<body class="case-study dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- FORCE MAX-WIDTH 100% start -->
-    <div class="main-wrapper">
 
-        <!-- INCLUDE HELL-BAR.PHP start -->
-        <?php include 'includes/hello-bar.php';?>
-        <!-- INCLUDE HELLO-BAR.PHP end -->
 
-        <!-- INCLUDE HEADER.PHP start -->
-        <?php include 'includes/header.php';?>
-        <!-- INCLUDE HEADER.PHP end -->
+    <!-- INCLUDE HELL-BAR.PHP start -->
+    <?php include 'includes/hello-bar.php';?>
+    <!-- INCLUDE HELLO-BAR.PHP end -->
 
-        <div class="container-1080 hiddenHeader">
+    <!-- INCLUDE HEADER.PHP start -->
+    <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
-            <h1 class="heading-1 align-center">Villa Terezija</h1>
-            <p class="project-p">A touristic accommodation surrounded by a stunning rose garden in the quiet
-                town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.
-            </p>
-            <div id="slider-container">
-                <div class="slider lazy">
-
-                    <div>
-                        <picture data-lazy>
-                            <source media="(max-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/01_villa-terezija_cover-mobile.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <source media="(min-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%"
-                                height="auto" type="image/webp">
-                            <img data-lazy src="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp"
-                                width="100%" height="auto">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture data-lazy>
-                            <source media="(max-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/02_villa-terezija_intro-mobile.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <source media="(min-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%"
-                                height="auto" type="image/webp">
-                            <img data-lazy src="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp"
-                                width="100%" height="auto">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture data-lazy>
-                            <source media="(max-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts-mobile.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <source media="(min-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <img data-lazy src="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp"
-                                width="100%" height="auto">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture data-lazy>
-                            <source media="(max-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid-mobile.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <source media="(min-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%"
-                                height="auto" type="image/webp">
-                            <img data-lazy src="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp"
-                                width="100%" height="auto">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture data-lazy>
-                            <source media="(max-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual-mobile.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <source media="(min-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <img data-lazy src="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp"
-                                width="100%" height="auto">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture data-lazy>
-                            <source media="(max-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/06_villa-terezija_applications-mobile.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <source media="(min-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <img data-lazy
-                                src="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp width=" 100%"
-                                height="auto">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture data-lazy>
-                            <source media="(max-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag-mobile.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <source media="(min-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp" width="100%"
-                                height="auto" type="image/webp">
-                            <img data-lazy src="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp"
-                                width="100%" height="auto">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture data-lazy>
-                            <source media="(max-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal-mobile.webp"
-                                width="100%" height="auto" type="image/webp">
-                            <source media="(min-width: 420px)"
-                                srcset="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp" width="100%"
-                                height="auto" type="image/webp">
-                            <img data-lazy src="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp"
-                                width="100%" height="auto">
-                        </picture>
-                    </div>
+    <main class="case-study-main container-1080">
+        <h1 class="heading-1 align-center">Villa Terezija</h1>
+        <p class="project-p">A touristic accommodation surrounded by a stunning rose garden in the quiet
+            town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.
+        </p>
+        <div id="slider-container">
+            <div class="slider lazy">
+                <div>
+                    <picture data-lazy>
+                        <source media="(max-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/01_villa-terezija_cover-mobile.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <source media="(min-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <img data-lazy src="imgs/case-studies/villa-terezija/01_villa-terezija_cover.webp" width="100%"
+                            height="auto">
+                    </picture>
+                </div>
+                <div>
+                    <picture data-lazy>
+                        <source media="(max-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/02_villa-terezija_intro-mobile.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <source media="(min-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <img data-lazy src="imgs/case-studies/villa-terezija/02_villa-terezija_intro.webp" width="100%"
+                            height="auto">
+                    </picture>
+                </div>
+                <div>
+                    <picture data-lazy>
+                        <source media="(max-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts-mobile.webp"
+                            width="100%" height="auto" type="image/webp">
+                        <source media="(min-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <img data-lazy src="imgs/case-studies/villa-terezija/03_villa-terezija_logo-drafts.webp"
+                            width="100%" height="auto">
+                    </picture>
+                </div>
+                <div>
+                    <picture data-lazy>
+                        <source media="(max-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid-mobile.webp"
+                            width="100%" height="auto" type="image/webp">
+                        <source media="(min-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <img data-lazy src="imgs/case-studies/villa-terezija/04_villa-terezija_logo-grid.webp"
+                            width="100%" height="auto">
+                    </picture>
+                </div>
+                <div>
+                    <picture data-lazy>
+                        <source media="(max-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual-mobile.webp"
+                            width="100%" height="auto" type="image/webp">
+                        <source media="(min-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <img data-lazy src="imgs/case-studies/villa-terezija/05_villa-terezija_brand-manual.webp"
+                            width="100%" height="auto">
+                    </picture>
+                </div>
+                <div>
+                    <picture data-lazy>
+                        <source media="(max-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/06_villa-terezija_applications-mobile.webp"
+                            width="100%" height="auto" type="image/webp">
+                        <source media="(min-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <img data-lazy src="imgs/case-studies/villa-terezija/06_villa-terezija_applications.webp" width="
+                            100%" height="auto">
+                    </picture>
+                </div>
+                <div>
+                    <picture data-lazy>
+                        <source media="(max-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag-mobile.webp"
+                            width="100%" height="auto" type="image/webp">
+                        <source media="(min-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <img data-lazy src="imgs/case-studies/villa-terezija/07_villa-terezija_tote-bag.webp"
+                            width="100%" height="auto">
+                    </picture>
+                </div>
+                <div>
+                    <picture data-lazy>
+                        <source media="(max-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal-mobile.webp"
+                            width="100%" height="auto" type="image/webp">
+                        <source media="(min-width: 420px)"
+                            srcset="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp" width="100%"
+                            height="auto" type="image/webp">
+                        <img data-lazy src="imgs/case-studies/villa-terezija/08_villa-terezija_door-decal.webp"
+                            width="100%" height="auto">
+                    </picture>
                 </div>
             </div>
+        </div>
 
-            <div style="clear:both;">
-            </div>
-            <div class="row">
-                <div class="horizontal-separator"></div>
-            </div>
+        <hr>
 
-            <div id="other-projects-container">
-                <h2 class="caption">Other Projects</h2>
+        <section class="other-projects-container">
+            <h2 class="caption">Other Projects</h2>
+            <div class="other-project-cards">
 
-                <div id="bike-in-mex-project-navigation" class="other-project-card">
-
-                    <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='button-hover';
-            document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='';
-            document.getElementById('bike-in-mex-cover').className='project-cover';">
-                        <a href="/bike-in-mex">
+                <div class="other-project-card">
+                    <div id="bike-in-mex-cover" class="project-cover"
+                        onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover'); document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
+                        onmouseout="document.getElementById('bike-in-mex-button').classList.remove('button-hover'); document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
+                        <a class="img-link" href="/bike-in-mex">
                             <figure>
                                 <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy"
                                     alt="Bike in Mex">
@@ -196,19 +188,17 @@
                     <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental
                         shop based in Tulum, Mexico.</p>
 
-                    <a href="/bike-in-mex"
-                        onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
-                        onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
-                        <button id='bike-in-mex-button' class="">View project</button>
-                    </a>
-
+                    <a class="button" id='bike-in-mex-button' href="/bike-in-mex"
+                        onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
+                        onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
+                        View project</a>
                 </div>
 
-                <div id="tradeana-project-navigation" class="other-project-card">
-                    <div id="tradeana-cover" class="project-cover" onmouseover="document.getElementById('tradeana-button').className='button-hover';
-            document.getElementById('tradeana-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('tradeana-button').className='';
-            document.getElementById('tradeana-cover').className='project-cover';">
-                        <a href="/tradeana">
+                <div class="other-project-card">
+                    <div id="tradeana-cover" class="project-cover"
+                        onmouseover="document.getElementById('tradeana-button').classList.add('button-hover'); document.getElementById('tradeana-cover').classList.add('project-cover-hover')"
+                        onmouseout="document.getElementById('tradeana-button').classList.remove('button-hover'); document.getElementById('tradeana-cover').classList.remove('project-cover-hover')">
+                        <a class="img-link" href="/tradeana">
                             <figure>
                                 <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy"
                                     alt="Tradeana">
@@ -216,22 +206,15 @@
                         </a>
                         <h3 class="heading-2">Tradeana</h3>
                         <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-                        <a href="/tradeana">
-                            <button id="tradeana-button">View project</button>
-                        </a>
+                        <a class="button" id="tradeana-button" href="/tradeana"
+                            onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover')"
+                            onmouseout="document.getElementById('tradeana-cover').classList.remove('project-cover-hover')">
+                            View project</a>
                     </div>
                 </div>
             </div>
-
-            <div style="clear:both;">
-            </div>
-            <div class="row">
-                <div class="horizontal-separator"></div>
-            </div>
-
-        </div>
-    </div>
-    <!-- FORCE MAX-WIDTH 100% end -->
+        </section>
+    </main>
 
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
     <?php include 'includes/call-to-action.php';?>

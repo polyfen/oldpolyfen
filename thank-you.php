@@ -34,10 +34,9 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
-
 </head>
 
-<body id="contact" class="dark-mode">
+<body class="thank-you dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
@@ -53,8 +52,8 @@
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <!-- CONTACT start -->
-    <main id="contact">
+    <!-- THANK-YOU page start -->
+    <main class="thank-you-main">
         <h1 class="heading-2 align-center">Thank you</h1>
     </main>
 

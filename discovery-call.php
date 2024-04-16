@@ -52,13 +52,13 @@
         <?php include 'includes/header.php';?>
         <!-- INCLUDE HEADER.PHP end -->
 
-        <section class="container hidden">
+        <section class="container">
             <div id="landing-page-cover">
                 <h1 class="heading-1 align-center">Book a discovery call</h1>
             </div>
         </section>
 
-        <section class="container hidden" style="margin-bottom:0 !important;">
+        <section class="container">
             <div id="boris-hrncic-container">
                 <div id="boris-hrncic">
                     <div class="portrait">
@@ -87,7 +87,7 @@
             </div>
         </section>
 
-        <div id="calendly" class="hidden">
+        <div id="calendly">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget"
                 data-url="https://calendly.com/borishr/discovery?hide_event_type_details=1&hide_gdpr_banner=1&background_color=ffffff&text_color=070924&primary_color=7537f8"
@@ -95,23 +95,14 @@
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <!-- Calendly inline widget end -->
         </div>
-        <hr>
-        <!-- new section for portfolio thumbnails --->
-        <?php include 'includes/portfolio-thumbnails.php';?>
-
+        
         <hr>
 
         <?php include 'includes/testimonial.php';?>
 
 
         <div id="final-cta-container" class="align-center">
-            <a href="#calendly">
-                <div id="final-cta" class="opal opal-rainbow-soft">
-                    <div class="opal-solid">
-                        <div class="opal-mask">↑ Schedule a Call ↑</div>
-                    </div>
-                </div>
-            </a>
+            <a class="button" href="#calendly">↑ Schedule a Call ↑</a>
         </div>
 
         <hr>
@@ -119,13 +110,7 @@
         <section class="hidden">
             <h2 class="heading-1 align-center">Give your business<br>the power-up it needs</h2>
             <div id="final-cta-container" class="align-center">
-                <a href="#calendly">
-                    <div id="final-cta" class="opal opal-rainbow-soft" style="border: 2px solid #7537f8;">
-                        <div class="opal-solid">
-                            <div class="opal-mask" style="background:none;">↑ Schedule a Call ↑</div>
-                        </div>
-                    </div>
-                </a>
+                <a class="button" href="#calendly">↑ Schedule a Call ↑</a>
             </div>
         </section>
 

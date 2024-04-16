@@ -44,167 +44,151 @@
 
 </head>
 
-<body class="dark-mode case-study">
+<body class="case-study dark-mode">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- FORCE MAX-WIDTH 100% start -->
-    <div class="main-wrapper">
+    <!-- INCLUDE HELLO-BAR.PHP start -->
+    <?php include 'includes/hello-bar.php';?>
+    <!-- INCLUDE HELLO-BAR.PHP end -->
 
-        <!-- INCLUDE HELLO-BAR.PHP start -->
-        <?php include 'includes/hello-bar.php';?>
-        <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE HEADER.PHP start -->
+    <?php include 'includes/header.php';?>
+    <!-- INCLUDE HEADER.PHP end -->
 
-        <!-- INCLUDE HEADER.PHP start -->
-        <?php include 'includes/header.php';?>
-        <!-- INCLUDE HEADER.PHP end -->
+    <main class="case-study-main container-1080">
+        <h1 class="heading-1 align-center">Tradeana</h1>
+        <p class="project-p">Tradeana's patented software, Forex Risk Engine™,
+            is designed by traders for traders to help them efficiently audit and
+            manage the risk of their ForEx operations.</p>
+        <div id="slider-container">
+            <div class="slider lazy">
 
-        <div class="container-1080 hiddenHeader">
+                <picture data-lazy>
+                    <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover-mobile.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp"" width=" 100%" height="auto"
+                        type="image/webp">
+                    <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp"" width=" 100%" height="auto"
+                        type="image/webp">
+                    <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/04_tradeana_keywords-mobile.webp" width="100%" height="auto"
+                        type="image/webp">
+                    <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/04_tradeana_keywords.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%"
+                        height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept-mobile.webp" width="100%"
+                        height="auto" type="image/webp">
+                    <source media="(min-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto"
+                        type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%"
+                        height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/06_tradeana_naming-mobile.webp" width="100%" height="auto"
+                        type="image/webp">
+                    <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/06_tradeana_naming.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color-mobile.webp" width="100%"
+                        height="auto" type="image/webp">
+                    <source media="(min-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%"
+                        height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%"
+                        height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts-mobile.webp" width="100%"
+                        height="auto" type="image/webp">
+                    <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%"
+                        height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/09_tradeana_final-design-mobile.webp" width="100%"
+                        height="auto" type="image/webp">
+                    <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/09_tradeana_final-design.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/09_tradeana_final-design.webp.webp" width="100%"
+                        height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/10_tradeana_web-design-mobile.webp" width="100%"
+                        height="auto" type="image/webp">
+                    <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/10_tradeana_web-design.webp"
+                        width="100%" height="auto" type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%"
+                        height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines-mobile.webp" width="100%"
+                        height="auto" type="image/webp">
+                    <source media="(min-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto"
+                        type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%"
+                        height="auto">
+                </picture>
+                <picture data-lazy>
+                    <source media="(max-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/12_tradeana_business-cards-mobile.webp" width="100%"
+                        height="auto" type="image/webp">
+                    <source media="(min-width: 420px)"
+                        srcset="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto"
+                        type="image/webp">
+                    <img data-lazy src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%"
+                        height="auto">
+                </picture>
 
-            <h1 class="heading-1 align-center">Tradeana</h1>
-            <p class="project-p">Tradeana's patented software, Forex Risk Engine™,
-                is designed by traders for traders to help them efficiently audit and
-                manage the risk of their ForEx operations.</p>
-            <div id="slider-container">
-                <div class="slider lazy">
-
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/01_tradeana_cover-mobile.webp" width="100%" height="auto"
-                            type="image/webp">
-                        <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover.webp"
-                            width="100%" height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp"" width=" 100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro.webp"
-                            width="100%" height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp"" width=" 100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone.webp"
-                            width="100%" height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/04_tradeana_keywords-mobile.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/04_tradeana_keywords.webp"
-                            width="100%" height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept-mobile.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/06_tradeana_naming-mobile.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/06_tradeana_naming.webp"
-                            width="100%" height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color-mobile.webp"
-                            width="100%" height="auto" type="image/webp">
-                        <source media="(min-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp"
-                            width="100%" height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts-mobile.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%" height="auto"
-                            type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/09_tradeana_final-design-mobile.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/09_tradeana_final-design.webp" width="100%" height="auto"
-                            type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/09_tradeana_final-design.webp.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/10_tradeana_web-design-mobile.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%" height="auto"
-                            type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines-mobile.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%"
-                            height="auto">
-                    </picture>
-                    <picture data-lazy>
-                        <source media="(max-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/12_tradeana_business-cards-mobile.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <source media="(min-width: 420px)"
-                            srcset="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%"
-                            height="auto" type="image/webp">
-                        <img data-lazy src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%"
-                            height="auto">
-                    </picture>
-
-                </div>
             </div>
+        </div>
 
-            <div style="clear:both;">
-            </div>
-            <div class="row">
-                <div class="horizontal-separator"></div>
-            </div>
+        <hr>
 
-            <div id="other-projects-container">
-                <h2 class="caption">Other Projects</h2>
+        <section class="other-projects-container">
+            <h2 class="caption">Other Projects</h2>
+            <div class="other-project-cards">
 
-                <div id="bike-in-mex-project-navigation" class="other-project-card">
-
-                    <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').className='button-hover';
-            document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('bike-in-mex-button').className='';
-            document.getElementById('bike-in-mex-cover').className='project-cover';">
-                        <a href="/bike-in-mex">
+                <div class="other-project-card">
+                    <div id="bike-in-mex-cover" class="project-cover"
+                        onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover'); document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
+                        onmouseout="document.getElementById('bike-in-mex-button').classList.remove('button-hover'); document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
+                        <a class="img-link" href="/bike-in-mex">
                             <figure>
                                 <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy"
                                     alt="Bike in Mex">
@@ -215,19 +199,17 @@
                     <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental
                         shop based in Tulum, Mexico.</p>
 
-                    <a href="/bike-in-mex"
-                        onmouseover="document.getElementById('bike-in-mex-cover').className='project-cover project-cover-hover';"
-                        onmouseout="document.getElementById('bike-in-mex-cover').className='project-cover';">
-                        <button id='bike-in-mex-button'>View project</button>
-                    </a>
-
+                    <a class="button" id='bike-in-mex-button' href="/bike-in-mex"
+                        onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
+                        onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
+                        View project</a>
                 </div>
 
-                <div id="villa-terezija-project-navigation" class="other-project-card">
-                    <div id="villa-terezija-cover" class="project-cover" onmouseover="document.getElementById('villa-terezija-button').className='button-hover';
-            document.getElementById('villa-terezija-cover').className='project-cover project-cover-hover';" onmouseout="document.getElementById('villa-terezija-button').className='';
-            document.getElementById('villa-terezija-cover').className='project-cover';">
-                        <a href="/villa-terezija">
+                <div class="other-project-card">
+                    <div id="villa-terezija-cover" class="project-cover"
+                        onmouseover="document.getElementById('villa-terezija-button').classList.add('button-hover'); document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
+                        onmouseout="document.getElementById('villa-terezija-button').classList.remove('button-hover'); document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
+                        <a class="img-link" href="/villa-terezija">
                             <figure>
                                 <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy"
                                     alt="Villa Terezija">
@@ -235,23 +217,16 @@
                         </a>
                         <h3 class="heading-2">Villa Terezija</h3>
                         <p>A touristic accommodation surrounded by a stunning rose garden.</p>
-                        <a href="/villa-terezija">
-                            <button id="villa-terezija-button">View project</button>
-                        </a>
+
+                        <a class="button" id="villa-terezija-button" href="/villa-terezija"
+                            onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
+                            onmouseout="document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
+                            View project</a>
                     </div>
                 </div>
             </div>
-
-            <div style="clear:both;">
-            </div>
-            <div class="row">
-                <div class="horizontal-separator"></div>
-            </div>
-
-        </div>
-
-    </div>
-    <!-- FORCE MAX-WIDTH 100% end -->
+        </section>
+    </main>
 
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
     <?php include 'includes/call-to-action.php';?>
@@ -264,7 +239,7 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="libs/slick/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/libs/slick/slick/slick.min.js"></script>
 
     <script type="text/javascript">
     $('.slider').slick({
