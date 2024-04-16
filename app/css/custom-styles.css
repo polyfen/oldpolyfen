@@ -1,3 +1,5 @@
+/*     HOME PAGE       */
+
 .services-card {
     padding: 24px 16px;
 }
@@ -12,5 +14,11 @@
 }
 
 .services-card .heading-3 {
+    margin-bottom: 8px;
+}
+
+/*     ABOUT PAGE       */
+
+section.founder h4 {
     margin-bottom: 8px;
 }
