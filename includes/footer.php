@@ -43,12 +43,12 @@
 
     <div id="tpg" class="tpg-logo-container">
         <a class="img-link" href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
-            <figure>
-                <img src="/imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt=""
-                    onmouseover="document.getElementById('tpg-logo-low').className='d-none';document.getElementById('tpg-logo').className='tpg-logo';">
-                <img src="/imgs/the-polyfen-group.svg" id="tpg-logo" class="d-none" alt=""
-                    onmouseout="document.getElementById('tpg-logo').className='d-none';document.getElementById('tpg-logo-low').className='tpg-logo';">
-            </figure>
+        <figure>
+            <img src="/imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt=""
+                onmouseover="document.getElementById('tpg-logo-low').classList.add('d-none'); document.getElementById('tpg-logo').classList.remove('d-none')">
+            <img src="/imgs/the-polyfen-group.svg" id="tpg-logo" class="tpg-logo d-none" alt=""
+                onmouseout="document.getElementById('tpg-logo').classList.add('d-none'); document.getElementById('tpg-logo-low').classList.remove('d-none')">
+        </figure>
         </a>
     </div>
 
