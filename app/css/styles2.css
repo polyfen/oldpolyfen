@@ -1,41 +1,7 @@
 /* font families */
 /*definir las fuentes qe van*/
-* {
-    font-family: 'BiotifMedium', helvetica, arial, sans-serif;
-}
 
-h1,
-h2 {
-    font-family: 'BiotifExtrabold', helvetica, arial, sans-serif;
-}
-
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'BiotifMedium', helvetica, arial, sans-serif;
-}
-
-p,
-p a,
-li,
-li a,
-p strong,
-p span,
-li strong,
-th,
-td {
-    font-family: 'Lora', serif;
-}
-
-button,
-a.button,
-small,
-.caption {
-    font-family: 'BiotifMedium', helvetica, arial, sans-serif;
-}
-
-/*yendo a polikit*/
+/*yendo a polykit*/
 hr {
     max-width: 120px;
     margin: 80px auto;
