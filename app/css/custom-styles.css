@@ -19,6 +19,24 @@
 
 /*     ABOUT PAGE       */
 
+section.founder h2 {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 section.founder h4 {
     margin-bottom: 8px;
+}
+
+section.plat-section h2 {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.plck-section h2 {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }

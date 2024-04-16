@@ -123,7 +123,7 @@
             </div>
         </section>
         <hr>
-        <section class="plcq-section container">
+        <section class="plck-section container">
             <h2 class="heading-2 align-center">We made a free solution to cookies consent</h2>
             <div class="column-to-row">
                 <div class="one-half">
