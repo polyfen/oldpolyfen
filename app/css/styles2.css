@@ -570,7 +570,7 @@ div.acc-button img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 25px;
+        gap: 16px;
         max-width: unset;
     }
 }
