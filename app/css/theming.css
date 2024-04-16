@@ -1,0 +1,32 @@
+body.dark-mode {
+    background-color: #070924;
+
+}
+
+button, a.button, input.button {
+    background-image: linear-gradient(45deg,#722FFF,#4b00ae,#d12b94, #722FFF, #4b00ae);
+    background-size: 200% 200%;
+}
+
+button:hover, a.button:hover, input.button:hover {
+    box-shadow: 0 0 10px #722FFF;
+}
+
+.animated-button {
+    background-image: linear-gradient(45deg,#722FFF,#4b00ae,#d12b94, #722FFF, #4b00ae);
+    background-size: 200% 200%;
+    animation: gradient 7s infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}
+
