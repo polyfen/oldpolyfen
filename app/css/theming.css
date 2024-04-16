@@ -30,3 +30,6 @@ button:hover, a.button:hover, input.button:hover {
 	}
 }
 
+::selection {
+    background: #7537f8;
+}
