@@ -1,18 +1,6 @@
 /* font families */
 /*definir las fuentes qe van*/
 
-/*yendo a polykit*/
-hr {
-    max-width: 120px;
-    margin: 80px auto;
-}
-
-@media (min-width: 900px) {
-    hr {
-        margin: 120px auto;
-    }
-}
-
 :target {
     scroll-behavior: smooth;
 }
