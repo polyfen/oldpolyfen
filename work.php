@@ -85,7 +85,7 @@
                 <a class="button" id="bike-in-mex-button" href="/bike-in-mex"
                     onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover');">
-                    View project</a>
+                    View Project</a>
             </div>
         </div>
         <!-- BIKE IN MEX end -->
@@ -116,7 +116,7 @@
                 <a class="button" class="tradeana-button" href="/tradeana"
                 onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('tradeana-cover').classList.remove('project-cover-hover');">
-                    View project</a>
+                    View Project</a>
             </div>
         </div>
         <!-- TRADEANA end -->
@@ -148,7 +148,7 @@
                 <a class="button" id="villa-terezija-button" href="/villa-terezija"
                 onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover');">
-                    View project</a>
+                    View Project</a>
             </div>
         </div>
         <!-- VILLA TEREZIJA end -->
