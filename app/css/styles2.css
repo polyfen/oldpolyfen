@@ -607,9 +607,7 @@ blockquote p {
 
 /* cta section */
 
-.cta-content {
-    text-align: center;
-    background: #000;
+.cta-section {
     padding: 80px 0 100px;
     margin-top: 6rem;
 }

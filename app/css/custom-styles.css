@@ -1,3 +1,31 @@
+/* CTA SECTION */
+section.cta-section {
+    background: radial-gradient(ellipse at top right, #4B00AE, #4B00AE, #4B00AE, #40247F, #D12B94, #f2d0af95, #4B00AE, #40247F, #40247F);
+    backdrop-filter: blur(500px);
+    padding: 0;
+    background-attachment: fixed;
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+
+div.grain-texture {
+    background: url(../../imgs/grain-texture-low-opacity.png);
+}
+
+@media (min-width: 700px) {
+    div.grain-texture {
+        background: url('../../imgs/grain-texture.webp');
+    }
+}
+
+.cta-content {
+    background: linear-gradient(42deg, #4b00ae14, #4b00ae0e, #f8d0861d, #d12b9428, #d12b9428, #f2d0af30, #107aec48, #3f247f44, #3f247f21);
+    backdrop-filter: blur(40px);
+    padding: 80px 0 100px;
+    background-size: 200% 200%;
+    animation: gradient 20s infinite;
+}
+
 /*     HOME PAGE       */
 
 .services-card {
