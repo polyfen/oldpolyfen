@@ -37,3 +37,7 @@ button:hover, a.button:hover, input.button:hover {
 ul li::before {
     color: #722FFF;
 }
+
+body.dark-mode hr {
+    border-color: #7437f850;
+}
