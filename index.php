@@ -68,7 +68,7 @@
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
             <small class="caption">Start Today</small>
-            <a class="button animated-button" href="discovery-call">Let's Talk!</a>
+            <a class="button large-button animated-button" href="discovery-call">Let's Talk!</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl hiddenHeader rotate-slower">

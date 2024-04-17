@@ -414,13 +414,6 @@ a.current-page {
     opacity: 0.7;
 }
 
-
-.home-cover a {
-    text-transform: uppercase;
-    display: block;
-    margin-bottom: 1rem;
-}
-
 /* clients featured section */
 
 .clients-featured {
