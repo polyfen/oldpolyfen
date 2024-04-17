@@ -113,7 +113,7 @@
                 <h3 class="heading-2">Tradeana</h3>
                 <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help
                     them efficiently audit and manage the risk of their ForEx operations.</p>
-                <a class="button secondary-button margin-right-auto" class="tradeana-button" href="/tradeana"
+                <a class="button secondary-button margin-right-auto" id="tradeana-button" href="/tradeana"
                 onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('tradeana-cover').classList.remove('project-cover-hover');">
                     View Project</a>

@@ -19,6 +19,14 @@ small {
     font-variant-ligatures: no-discretionary-ligatures;
 }
 
+/*la clase para workpage para cuando hover en el cover, se va a la linea 1377 o se puede ir a theming.css*/
+.button-hover {
+    background-image: none !important;
+    box-shadow: 0 0 10px #712fff, inset 0 0 0 2px #070924 !important;
+    background-color: #712fff !important;
+}
+
+
 main:is(.about-main) {
     padding-top: 48px;
     padding-bottom: 100px;
