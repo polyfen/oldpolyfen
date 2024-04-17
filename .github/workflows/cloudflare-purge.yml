@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - master
-      - dev
-      - staging-2
 
 jobs:
   purge_cache:
