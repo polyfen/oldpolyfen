@@ -623,7 +623,7 @@ blockquote p {
     text-align: center;
     background: #000;
     padding: 80px 0 100px;
-    margin-block: 6rem;
+    margin-top: 6rem;
 }
 
 #send-message::before,
