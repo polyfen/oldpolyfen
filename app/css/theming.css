@@ -46,3 +46,9 @@ button:hover, a.button:hover, input.button:hover {
     box-shadow: 0 0 10px #712fff;
     animation: gradient 7s infinite;
 }
+
+button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
+    background-image: none !important;
+    box-shadow: 0 0 10px #712fff;
+    background-color: #712fff;
+}
