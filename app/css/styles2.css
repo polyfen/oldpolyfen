@@ -429,7 +429,7 @@ a.current-page {
     flex-direction: column;
     gap: 25px;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .clients-container img {
@@ -443,7 +443,7 @@ a.current-page {
     }
 
     .clients-featured {
-        margin-top: 180px;
+        margin-top: 80px;
     }
 }
 
