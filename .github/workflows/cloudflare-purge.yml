@@ -4,15 +4,14 @@ on:
   push:
     branches:
       - master
+      - dev
+      - staging-2
 
 jobs:
   purge_cache:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
       - name: Purge Cache on Cloudflare
         uses: jakejarvis/cloudflare-purge-action@master
         env:

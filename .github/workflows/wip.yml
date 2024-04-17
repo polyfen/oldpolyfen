@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - wip
-name: 🚀 Deploy website on push
+name: 🚀 [WIP] Deploy website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -17,3 +17,11 @@ jobs:
         server: ftp.borishrncic.com
         username: ${{ secrets.ftp_wip_username }}
         password: ${{ secrets.ftp_wip_password }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/.docker*
+          **/docker*
+          **/docker/**
+          **/Dockerfile
