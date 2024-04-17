@@ -61,11 +61,11 @@
 
 
     <nav class="sub-brands-footer">
-        <a href="https://thepolyfengroup.com/business/" target="_blank"><small>Business Plan</small></a>
+        <a href="https://thepolyfengroup.com/business/" target="_blank" class="mini">Business Plan</a>
         <span>&vert;</span>
-        <a href="https://thepolyfengroup.com/wiki/" target="_blank"><small>Team Wiki</small></a>
+        <a href="https://thepolyfengroup.com/wiki/" target="_blank" class="mini">Team Wiki</a>
         <span>&vert;</span>
-        <a href="https://thepolyfengroup.com/brand/" target="_blank"><small>Brand Guidelines</small></a>
+        <a href="https://thepolyfengroup.com/brand/" target="_blank" class="mini">Brand Guidelines</a>
     </nav>
 
     <!-- scripts location call luxon-->
