@@ -61,7 +61,7 @@
     <main class="contact-main">
         <section class="message-call container-1080">
             <section class="send-a-message">
-                <h2 class="heading-2">Send a Message</h2>
+                <h2 class="heading-2 align-center">Send a Message</h2>
                 <div class="err-msj">Verify you are human</div>
                 <form id="contact-form" method="POST" class="">
                     <label for="email">Email</label>
@@ -84,7 +84,7 @@
             <hr class="contact-hr-mobile">
             <div  class="contact-line-desktop"></div>
             <section>
-                <h2 class="heading-2">Schedule a Call</h2>
+                <h2 class="heading-2 align-center">Schedule a Call</h2>
                 <!-- INCLUDE CALENDLY.PHP start -->
                 <?php include 'includes/calendly.php';?>
                 <!-- INCLUDE CALENDLY.PHP end -->
