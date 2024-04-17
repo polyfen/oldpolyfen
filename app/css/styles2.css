@@ -636,7 +636,7 @@ a:hover div#send-message::before {
 
 #schedule-call::before {
     background: url(../../imgs/icons/phone-call.svg) no-repeat center center;
-    margin-top: -2px;
+    margin: -8px 6px -8px 0;
 }
 
 /* aca  para adaptarlo sin opal (a:hover div#schedule-call::before)*/
