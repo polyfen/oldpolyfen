@@ -6,11 +6,10 @@ body.dark-mode {
 button, a.button, input.button {
     background-image: linear-gradient(45deg,#722FFF,#4b00ae,#d12b94, #722FFF, #4b00ae);
     background-size: 200% 200%;
+    box-shadow: 0 0 2px #712fff5c;
 }
 
-button:hover, a.button:hover, input.button:hover {
-    box-shadow: 0 0 10px #722FFF;
-}
+
 
 .animated-button {
     background-image: linear-gradient(45deg,#722FFF,#4b00ae,#d12b94, #722FFF, #4b00ae);
@@ -40,4 +39,10 @@ ul li::before {
 
 body.dark-mode hr {
     border-color: #7437f850;
+}
+
+button:hover, a.button:hover, input.button:hover {
+    background-image: linear-gradient(45deg,#722FFF,#4b00ae,#d12b94, #722FFF, #4b00ae) !important;
+    box-shadow: 0 0 10px #712fff;
+    animation: gradient 7s infinite;
 }
