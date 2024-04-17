@@ -901,6 +901,8 @@ img.flag {
 
 .founder .column-to-row {
     align-items: flex-start;
+    justify-content: center;
+    gap: 52px;
 }
 
 .founder-social {
@@ -956,7 +958,6 @@ iframe#plcq-tutorial {
     }
 
     .founder-bios {
-        width: 40%;
         margin: unset;
     }
 
