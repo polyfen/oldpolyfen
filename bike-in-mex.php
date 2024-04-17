@@ -159,7 +159,7 @@
                         </a>
                         <h3 class="heading-2">Tradeana</h3>
                         <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-                        <a class="button" id="tradeana-button" href="/tradeana"
+                        <a class="button secondary-button margin-right-auto" id="tradeana-button" href="/tradeana"
                             onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover')"
                             onmouseout="document.getElementById('tradeana-cover').classList.remove('project-cover-hover')">
                             View project</a>
@@ -179,7 +179,7 @@
                         </a>
                         <h3 class="heading-2">Villa Terezija</h3>
                         <p>A touristic accommodation surrounded by a stunning rose garden.</p>
-                        <a class="button" id="villa-terezija-button" href="/villa-terezija"
+                        <a class="button secondary-button margin-right-auto" id="villa-terezija-button" href="/villa-terezija"
                             onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
                             onmouseout="document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
                             View project</a>

@@ -188,7 +188,7 @@
                     <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental
                         shop based in Tulum, Mexico.</p>
 
-                    <a class="button" id='bike-in-mex-button' href="/bike-in-mex"
+                    <a class="button secondary-button margin-right-auto" id='bike-in-mex-button' href="/bike-in-mex"
                         onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
                         View project</a>
@@ -206,7 +206,7 @@
                         </a>
                         <h3 class="heading-2">Tradeana</h3>
                         <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-                        <a class="button" id="tradeana-button" href="/tradeana"
+                        <a class="button secondary-button margin-right-auto" id="tradeana-button" href="/tradeana"
                             onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover')"
                             onmouseout="document.getElementById('tradeana-cover').classList.remove('project-cover-hover')">
                             View project</a>

@@ -199,7 +199,7 @@
                     <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental
                         shop based in Tulum, Mexico.</p>
 
-                    <a class="button" id='bike-in-mex-button' href="/bike-in-mex"
+                    <a class="button secondary-button margin-right-auto" id='bike-in-mex-button' href="/bike-in-mex"
                         onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
                         View project</a>
@@ -218,7 +218,7 @@
                         <h3 class="heading-2">Villa Terezija</h3>
                         <p>A touristic accommodation surrounded by a stunning rose garden.</p>
 
-                        <a class="button" id="villa-terezija-button" href="/villa-terezija"
+                        <a class="button secondary-button margin-right-auto" id="villa-terezija-button" href="/villa-terezija"
                             onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
                             onmouseout="document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
                             View project</a>
