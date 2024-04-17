@@ -1,5 +1,5 @@
 <footer>
-    <ul aria-label="Our social networks" class="social">
+    <ul aria-label="Our social networks" class="social no-bullets">
         <li>
             <a class="img-link" href="http://polyfen.com/twitter" target="_blank" title="Twitter">
                 <i class="fa-brands fa-x-twitter"></i>
