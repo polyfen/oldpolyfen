@@ -48,10 +48,350 @@ body:where(.dark-mode) * {
 nav {
     gap: unset;
 }
-
+/* esto es para nav'buttons no traigan los estilos de botones de plkt*/
 nav button {
     all: unset;
 }
+
+body {
+    margin: 0;
+}
+
+.hello-bar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    gap: 10px;
+    background: #000000;
+    z-index: 10;
+}
+
+@media (min-width: 750px) {
+    div.hello-bar {
+        height: 50px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 12px solid #7537f8;
+    padding: 20px;
+    z-index: 2;
+}
+
+img#logo {
+    height: 50px;
+}
+
+/*  ____                 _      */
+/* |  _ \ ___  __ _ _ __| |___  */
+/* | |_) / _ \/ _` | '__| / __| */
+/* |  __/  __/ (_| | |  | \__ \ */
+/* |_|   \___|\__,_|_|  |_|___/ */
+/* pearls ----------------------*/
+
+div.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -900px;
+    left: 0;
+    z-index: 1;
+}
+
+#pearl-11 {
+    display: block;
+    background-image: url('../../imgs/pearls/09.webp');
+    width: 400px;
+    height: 400px;
+    top: 180px;
+    right: -110px;
+}
+
+#pearl-12 {
+    display: block;
+    background-image: url('../../imgs/pearls/01.webp');
+    width: 300px;
+    height: 300px;
+    top: 360px;
+    left: -120px;
+}
+
+div.pearl {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+/*//////>>> pearls & subtle animation */
+/* #pearl-11 {
+    transition-property: opacity;
+    transition-duration: 1500ms;
+    transition-delay: 400ms;
+}
+
+#pearl-12 {
+    transition-property: opacity;
+    transition-duration: 1000ms;
+    transition-delay: 800ms;
+}
+
+#pearl-13 {
+    transition-property: opacity;
+    transition-duration: 700ms;
+    transition-delay: 600ms;
+}
+ */
+/*////subtle animation END////*/
+
+@-webkit-keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.rotate {
+    -webkit-animation: rotating 90s linear infinite !important;
+    -moz-animation: rotating 90s linear infinite !important;
+    -ms-animation: rotating 90s linear infinite !important;
+    -o-animation: rotating 90s linear infinite !important;
+    animation: rotating 90s linear infinite !important
+}
+
+.rotate-slower {
+    -webkit-animation: rotating 200s linear infinite !important;
+    -moz-animation: rotating 200s linear infinite !important;
+    -ms-animation: rotating 200s linear infinite !important;
+    -o-animation: rotating 200s linear infinite !important;
+    animation: rotating 200s linear infinite !important
+}
+
+
+@media (min-width:576px) {
+
+    #pearl-11 {
+        top: -420px;
+        right: -400px;
+        width: 900px;
+        height: 900px;
+    }
+
+    #pearl-12 {
+        width: 300px;
+        height: 300px;
+        top: 350px;
+        left: -60px;
+    }
+
+    div#pearl-13 {
+        height: 300px;
+        width: 300px;
+        display: block;
+        position: inherit;
+        margin: 0 auto;
+        right: -580px;
+        top: 650px;
+        height: 245px;
+        width: 245px;
+        display: block;
+        position: inherit;
+        background-image: url(../../imgs/pearls/13.webp);
+        margin: 0 auto;
+        right: -200px;
+        top: 525px;
+    }
+
+}
+
+@media(min-width:768px) {
+
+    #pearl-11 {
+        top: -400px;
+        right: -310px;
+        width: 900px;
+        height: 900px;
+    }
+
+    #pearl-12 {
+        width: 300px;
+        height: 300px;
+        top: 340px;
+        left: -60px;
+    }
+
+    div#pearl-13 {
+        height: 300px;
+        width: 300px;
+        display: block;
+        position: inherit;
+        background-image: url(../../imgs/pearls/13.webp);
+        margin: 0 auto;
+        right: -580px;
+        top: 650px;
+        height: 280px;
+        height: 250px;
+        width: 250px;
+        display: block;
+        position: inherit;
+        background-image: url(../../imgs/pearls/13.webp);
+        margin: 0 auto;
+        right: -320px;
+        top: 510px;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    #pearl-11 {
+        top: -450px;
+        right: 30px;
+        width: 1050px;
+        height: 1050px;
+        top: -260px;
+        right: -170px;
+        width: 900px;
+        height: 900px;
+    }
+
+    #pearl-12 {
+        width: 390px;
+        height: 390px;
+        top: 350px;
+        left: -45px;
+        width: 390px;
+        height: 390px;
+        top: 480px;
+        left: -100px;
+        width: 390px;
+        height: 390px;
+        top: 450px;
+        left: -100px;
+    }
+
+    div#pearl-13 {
+        height: 300px;
+        width: 300px;
+        display: block;
+        position: inherit;
+        background-image: url(../../imgs/pearls/13.webp);
+        margin: 0 auto;
+        right: -580px;
+        top: 650px;
+        height: 300px;
+        width: 300px;
+        display: block;
+        position: inherit;
+        margin: 0 auto;
+        right: -370px;
+        top: 695px;
+        height: 300px;
+        width: 300px;
+        display: block;
+        position: inherit;
+        background-image: url(../../imgs/pearls/13.webp);
+        margin: 0 auto;
+        right: -370px;
+        top: 730px;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+
+    #pearl-11 {
+        top: -360px;
+        right: -90px;
+        width: 1050px;
+        height: 1050px;
+    }
+
+    #pearl-12 {
+        width: 390px;
+        height: 390px;
+        top: 440px;
+        left: -105px;
+    }
+
+    div#pearl-13 {
+        height: 300px;
+        width: 300px;
+        display: block;
+        position: inherit;
+        background-image: url(../../imgs/pearls/13.webp);
+        margin: 0 auto;
+        right: -500px;
+        top: 760px;
+    }
+
+}
+
+@media(min-width:1680px) {
+
+    #pearl-11 {
+        top: -400px;
+        right: 40px;
+        width: 1050px;
+        height: 1050px;
+    }
+
+    #pearl-12 {
+        width: 450px;
+        height: 450px;
+        top: 340px;
+        left: -100px;
+    }
+
+    div#pearl-13 {
+        height: 350px;
+        width: 350px;
+        display: block;
+        position: inherit;
+        background-image: url(../../imgs/pearls/13.webp);
+        margin: 0 auto;
+        right: -580px;
+        top: 700px;
+    }
+
+}
+/* END pearls */
 
 /*   ____            _    _                                 _       _  */
 /*  / ___|___   ___ | | _(_) ___  ___   _ __ ___   ___   __| | __ _| | */
@@ -202,41 +542,7 @@ button#accept-cookies-button:hover:before {
 
 /********************************************************************************/
 
-body {
-    margin: 0;
-}
 
-.hello-bar {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    gap: 10px;
-    background: #000000;
-    z-index: 10;
-}
-
-@media (min-width: 750px) {
-    div.hello-bar {
-        height: 50px;
-        flex-direction: row;
-        gap: 20px;
-    }
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 12px solid #7537f8;
-    padding: 20px;
-}
-
-img#logo {
-    height: 50px;
-}
 
 /*  _   _    ___     _____ ____    _  _____ ___ ___  _   _  */
 /* | \ | |  / \ \   / /_ _/ ___|  / \|_   _|_ _/ _ \| \ | | */
@@ -254,6 +560,9 @@ img#logo {
     border: 1px solid #4f4f581f;
 }
 
+.nav-links {
+    z-index: 2;
+}
 
 .nav-links a {
     text-decoration: none;
@@ -364,7 +673,7 @@ a.current-page {
     .nav-links {
         position: absolute;
         right: 15px;
-        top: 86px;
+        top: 21px;
         padding-block: 10px;
         display: flex;
         gap: 15px;
@@ -401,6 +710,10 @@ a.current-page {
 .home-cover .caption {
     opacity: 0.7;
 }
+.home-cover :is(h1, p, small, a) {
+    position: relative;
+    z-index: 2;
+}
 
 /* clients featured section */
 
@@ -423,6 +736,11 @@ a.current-page {
 .clients-container img {
     opacity: 0.6;
 }
+@media (min-width: 576px) {
+    .clients-featured {
+        margin-top: -140px;
+    }
+}
 
 @media (min-width: 900px) {
     .clients-container {
@@ -431,7 +749,7 @@ a.current-page {
     }
 
     .clients-featured {
-        margin-top: 80px;
+        margin-top: -140px;
     }
 }
 
@@ -727,7 +1045,7 @@ footer .sub-brands-footer a:nth-of-type(2) {
 footer .sub-brands-footer a:nth-of-type(3) {
     grid-column: 1 / 4;
     justify-self: center;
-  }
+}
 
 footer .sub-brands-footer a:first-child {
     margin-bottom: 10px;
@@ -866,7 +1184,7 @@ img.flag {
 
 .founder-bios h4 {
     opacity: .5;
-/*     margin-top: 1rem; */
+    /*     margin-top: 1rem; */
 }
 
 .founder .column-to-row {
@@ -1091,6 +1409,7 @@ img.contact-flag {
     .featured-project {
         margin-bottom: 150px;
     }
+
     .project-description .heading-2 {
         padding-top: 0;
     }
@@ -1172,11 +1491,12 @@ img.contact-flag {
 .case-study h1 {
     text-align: center;
 }
+
 .project-p {
     width: 100%;
     max-width: 525px;
     text-align: left;
-    margin-inline:auto;
+    margin-inline: auto;
 }
 
 div#slider-container {
