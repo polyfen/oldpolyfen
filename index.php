@@ -163,7 +163,7 @@
                         <h3 class="heading-3">Wealth of experience</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Founder &amp; Art Director <a href="https://boris.hr" rel="follow" target="_blank">Boris
+                        <p>Founder &amp; CEO <a href="https://boris.hr" rel="follow" target="_blank">Boris
                                 Hrnčić</a> brings to the table 10+ years of experience in design, development, and
                             marketing. Vetted in the top 3% of designers worldwide by <a href="https://toptal.com"
                                 rel="nofollow" target="_blank">Toptal</a> in 2017. Led high-performing teams for small
