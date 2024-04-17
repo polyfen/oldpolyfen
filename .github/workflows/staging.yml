@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - staging-2
-name: 🚀 Deploy website on push
+name: 🚀 Staging Deploy website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -17,3 +17,11 @@ jobs:
         server: ftp.borishrncic.com
         username: ${{ secrets.ftp_stg_username }}
         password: ${{ secrets.ftp_stg_password }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/.docker*
+          **/docker*
+          **/docker/**
+          **/Dockerfile
