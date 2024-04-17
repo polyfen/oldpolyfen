@@ -497,7 +497,7 @@ a.current-page {
     color: #ffffff4d;
 }
 
-.acc-button h4 {
+.acc-button h3 {
     margin: unset;
     padding-left: 44px;
     padding-right: 5px;
@@ -560,10 +560,6 @@ div.acc-button img {
     display: flex;
     flex-direction: column;
     gap: 64px;
-}
-
-.testimonials h3 {
-    text-align: center;
 }
 
 .testimonials-container figure {
@@ -676,10 +672,6 @@ footer {
     justify-content: center;
 }
 
-section.times .caption {
-    font-size: 11.33px
-}
-
 /* watches */
 .times {
     display: flex;
@@ -697,7 +689,7 @@ section.times .caption {
     float: left;
 }
 
-output.caption {
+output.mini {
     margin-inline: 5px 10px;
 }
 
@@ -872,9 +864,9 @@ img.flag {
     display: inline;
 }
 
-.founder-bios h5 {
+.founder-bios h4 {
     opacity: .5;
-    margin-top: 1rem;
+/*     margin-top: 1rem; */
 }
 
 .founder .column-to-row {
@@ -991,10 +983,6 @@ div.err-msj {
 }
 
 /* end contact form styles*/
-
-.contact-main h3 {
-    text-align: center;
-}
 
 img.contact-flag {
     display: inline;
