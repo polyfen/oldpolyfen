@@ -55,3 +55,21 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
     box-shadow: 0 0 10px #712fff, inset 0 0 0 2px #070924;
     background-color: #712fff;
 }
+
+form input,
+form textarea {
+    background: #120e32;
+    color: #fff;
+    border: 1px solid #7437f850;
+}
+
+form input:focus,
+form textarea:focus,form input:focus-visible,
+form textarea:focus-visible  {
+    border-color: #7437f850;
+    background: black;
+}
+
+:focus, :focus-visible {
+    outline: #7437f8 auto 1px;
+}

@@ -962,11 +962,7 @@ form#contact-form input,
 form#contact-form textarea {
     margin-top: 2px;
     margin-bottom: 20px;
-    font-family: freight-text-pro, serif;
     padding: 8px;
-    background: #120e32;
-    color: #fff;
-    border: 1px solid #7637f9;
     border-radius: 4px;
     font-size: 1rem;
 }

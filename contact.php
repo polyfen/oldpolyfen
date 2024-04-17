@@ -78,7 +78,7 @@
                         data-error-callback="onRecaptchaError">
                     </div>
                     <br>
-                    <button id="nostyle" type="submit">Send Message</button>
+                    <button id="nostyle" type="submit" class="secondary-button">Send Message</button>
                 </form>
             </section>
             <hr class="contact-hr-mobile">
