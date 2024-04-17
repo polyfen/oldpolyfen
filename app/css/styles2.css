@@ -66,7 +66,7 @@ body {
     height: 90px;
     gap: 10px;
     background: #000000;
-    z-index: 10;
+    z-index: 4;
 }
 
 @media (min-width: 750px) {
@@ -84,7 +84,7 @@ header {
     align-items: center;
     border-top: 12px solid #7537f8;
     padding: 20px;
-    z-index: 2;
+    z-index: 5;
 }
 
 img#logo {
@@ -410,7 +410,7 @@ div#cookies-modal {
     padding: 20px 20px 10px;
     border-radius: 3px;
     backdrop-filter: blur(6px);
-    z-index: 10;
+    z-index: 4;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -556,12 +556,8 @@ button#accept-cookies-button:hover:before {
     position: fixed;
     background: #ecf0f37d;
     backdrop-filter: blur(10px);
-    z-index: 90;
+    z-index: 5;
     border: 1px solid #4f4f581f;
-}
-
-.nav-links {
-    z-index: 2;
 }
 
 .nav-links a {
@@ -597,7 +593,7 @@ a.current-page {
         padding-top: 100px;
         padding-bottom: 100vh;
         width: 100%;
-        z-index: 80;
+        z-index: 4;
         display: none;
         text-align: left;
         font-family: 'BiotifBold', helvetica, arial, sans-serif;
@@ -637,7 +633,7 @@ a.current-page {
 
 
     .nav-close {
-        z-index: 89;
+        z-index: 4;
         display: none;
     }
 
@@ -674,6 +670,7 @@ a.current-page {
         position: absolute;
         right: 15px;
         top: 21px;
+        z-index: 4;
         padding-block: 10px;
         display: flex;
         gap: 15px;
