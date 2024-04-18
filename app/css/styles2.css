@@ -119,6 +119,7 @@ div.background {
     top: -900px;
     left: 0;
     z-index: 1;
+    overflow-x: clip;
 }
 
 #pearl-11 {
@@ -415,37 +416,93 @@ div.pearl {
 /*  \____\___/ \___/|_|\_\_|\___||___/ |_| |_| |_|\___/ \__,_|\__,_|_| */
 /*COOKIES MODAL START  ------------------------------------------------*/
 
-div#cookies-modal {
-    position: fixed;
-    bottom: 16px;
-    right: 16px;
-    width: 250px;
-    display: flex !important;
-    background: rgba(255, 255, 255, 0.85);
-    padding: 20px 20px 10px;
-    border-radius: 3px;
-    backdrop-filter: blur(6px);
-    z-index: 4;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+#cookies-modal {
+display: flex;
+flex-direction: column;
+gap: 12px;
+position: fixed;
+bottom: 16px;
+right: 16px;
+background: rgba(255, 255, 255, 0.85);
+z-index: 4;
+padding: 20px 20px 10px;
+border-radius: 3px;
+backdrop-filter: blur(6px);
+width: 296px;
+transition: bottom 0.5s ease;
 }
 
-div#cookies-title {
+#cookies-modal-buttons {
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 10px;
+    text-align: center;
+}
+
+#cookies-modal-buttons button{
+    all: unset;
+}
+
+div#cookies-modal.cookies-d-none {
+    display: none !important;
+}
+
+div#cookies-modal button {
+    display: flex;
+    align-items: center;
+    padding: 3px 24px;
+    border: 2px solid #00000052;
+    border-radius: 4px;
+    letter-spacing: 0;
     color: #000;
-    align-items: baseline;
-    gap: 6px;
+    background: rgba(255, 255, 255, 0.508);
+    border-width: 2px;
+    height: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.45;
+    flex-grow: 1;
+}
+
+div#cookies-modal button:first-child {
+    margin-left: 6px;
+    background: #7537f8;
+    color: white !important;
+    border-color: #5f27d3;
+    font-weight: 700;
+    opacity: .9;
+}
+
+div#cookies-modal button:hover {
+    opacity: 1;
+    color: #444444;
+    box-shadow: none;
+    background-image: none !important;
+}
+
+button#accept-cookies-button:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    margin-left: -10px;
+    margin-right: 7px;
+    background-image: url('../../imgs/thumbs-up-regular-white.svg');
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+}
+
+button#accept-cookies-button:hover:before {
+    background-image: url('../../imgs/thumbs-up-solid-white.svg');
 }
 
 div#cookies-title small {
     color: #00000082;
 }
-
-div#cookies-modal-buttons {
-    margin-top: 15px;
-    margin-bottom: 10px;
+div#cookies-title a {
+    color: black;
 }
 
 @media (min-width: 768px) {
@@ -457,106 +514,7 @@ div#cookies-modal-buttons {
 
 }
 
-div#cookies-modal a {
-    color: #000;
-    border-bottom: 2px dotted #7537f8;
-}
-
-div#cookies-modal a:hover {
-    color: #000;
-    border-bottom: 2px solid #7537f8;
-}
-
-div#cookies-modal button {
-    padding: 7px 24px 3px;
-    border: 2px solid #fdb0bb;
-    border-radius: 4px;
-    background: #fdfdfd;
-    letter-spacing: 0;
-    color: #fdb0bb;
-    text-transform: uppercase;
-    font-size: 1rem;
-    opacity: 0.8;
-}
-
-div#cookies-modal button {
-    float: right;
-    color: #000;
-    border-color: #00000052;
-    background: rgba(255, 255, 255, 0.508);
-    font-size: 0.9rem;
-    font-family: 'BiotifMedium';
-    border-width: 2px;
-}
-
-div#cookies-modal button:hover {
-    background: white;
-    color: #444444;
-    box-shadow: none;
-}
-
-div#cookies-modal button:first-child {
-    margin-left: 6px;
-}
-
-div#cookies-modal.cookies-d-none {
-    display: none !important;
-}
-
-/*///////////// COOKIES MODAL START 2 /////////////*/
-
-div#cookies-modal button {
-    color: #000 !important;
-    opacity: 0.45;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-}
-
-div#cookies-modal button:first-child {
-    background: #7537f8;
-    color: white !important;
-    font-family: 'BiotifBold', helvetica, arial, sans-serif;
-    opacity: 0.9;
-    border-color: #5f27d3;
-}
-
-div#cookies-modal button:hover {
-    opacity: 1;
-}
-
-button#accept-cookies-button:before {
-    background-image: url('../../imgs/thumbs-up-regular-white.svg');
-    margin-left: -10px;
-    margin-right: 7px;
-    background-size: 20px auto;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    content: "";
-    margin-top: -8px;
-}
-
-button#accept-cookies-button:hover:before {
-    background-image: url('../../imgs/thumbs-up-solid-white.svg');
-}
-
-#cookies-modal {
-    transition: bottom 0.5s ease;
-}
-
 /*///////////// COOKIES MODAL END /////////////*/
-
-#cookies-modal-container {
-    display: none !important;
-}
-
-/********************************************************************************/
-
 
 
 /*  _   _    ___     _____ ____    _  _____ ___ ___  _   _  */
