@@ -65,6 +65,13 @@ body {
     margin: 0;
 }
 
+/*  _   _      _ _             _                 */
+/* | | | | ___| | | ___       | |__   __ _ _ __  */
+/* | |_| |/ _ \ | |/ _ \ _____| '_ \ / _` | '__| */
+/* |  _  |  __/ | | (_) |_____| |_) | (_| | |    */
+/* |_| |_|\___|_|_|\___/      |_.__/ \__,_|_|    */
+/* hello-bar ------------------------------------*/
+
 .hello-bar {
     position: relative;
     display: flex;
@@ -77,6 +84,10 @@ body {
     z-index: 4;
 }
 
+.hello-bar a.button {
+    margin: unset;
+}
+
 @media (min-width: 750px) {
     div.hello-bar {
         height: 50px;
@@ -84,6 +95,8 @@ body {
         gap: 20px;
     }
 }
+
+/* END hello bar */
 
 header {
     display: flex;
