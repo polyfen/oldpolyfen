@@ -33,7 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (scroll >= 60) {
             buttons.style.top = '18px';
         } else {
-            buttons.style.top = '125px';
+            if (body.classList.contains("landing-page")) {
+                buttons.style.top = '18px';
+            } else {
+                buttons.style.top = '125px';
+            }
         }
     });
 });
@@ -42,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* Current Page */
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     let currentPage = window.location.pathname;
     let navLinks = document.querySelectorAll('header nav a');
     navLinks.forEach(link => {
