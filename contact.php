@@ -81,8 +81,7 @@
                     <button id="nostyle" type="submit" class="secondary-button">Send Message</button>
                 </form>
             </section>
-            <hr class="contact-hr-mobile">
-            <div  class="contact-line-desktop"></div>
+            <hr class="vertical-hr">
             <section>
                 <h2 class="heading-2 align-center">Schedule a Call</h2>
                 <!-- INCLUDE CALENDLY.PHP start -->

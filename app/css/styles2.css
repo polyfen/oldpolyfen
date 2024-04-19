@@ -75,6 +75,11 @@ body {
     margin: 0;
 }
 
+/* el width agregado en plkt para qe en mobile tenga margenes, afecta los <hr> verticales */
+hr.vertical-hr {
+    width: unset;
+}
+
 /*  _   _      _ _             _                 */
 /* | | | | ___| | | ___       | |__   __ _ _ __  */
 /* | |_| |/ _ \ | |/ _ \ _____| '_ \ / _` | '__| */
