@@ -1,22 +1,22 @@
 <footer>
     <ul aria-label="Our social networks" class="social no-bullets">
         <li>
-            <a class="img-link" href="http://polyfen.com/twitter" target="_blank" title="Twitter">
+            <a href="http://polyfen.com/twitter" target="_blank" title="Twitter">
                 <i class="fa-brands fa-x-twitter"></i>
             </a>
         </li>
         <li>
-            <a class="img-link" href="http://polyfen.com/instagram" target="_blank" title="Instagram">
+            <a href="http://polyfen.com/instagram" target="_blank" title="Instagram">
                 <i class="fab fa-instagram"></i>
             </a>
         </li>
         <li>
-            <a class="img-link" href="http://polyfen.com/linkedin" target="_blank" title="Linkedin">
+            <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
         <li>
-            <a class="img-link" href="http://polyfen.com/github" target="_blank" title="Github">
+            <a href="http://polyfen.com/github" target="_blank" title="Github">
                 <i class="fab fa-github"></i>
             </a>
         </li>
@@ -42,7 +42,7 @@
     </section>
 
     <div id="tpg" class="tpg-logo-container">
-        <a class="img-link" href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
+        <a href="https://thepolyfengroup.com?utm_source=polyfen&utm_medium=referral" target="_blank">
         <figure>
             <img src="/imgs/the-polyfen-group-low.svg" id="tpg-logo-low" class="tpg-logo" alt=""
                 onmouseover="document.getElementById('tpg-logo-low').classList.add('d-none'); document.getElementById('tpg-logo').classList.remove('d-none')">

@@ -38,6 +38,19 @@ a.button:hover {
     text-decoration: none;
 }
 
+/* esto por qe en polykit no esta  definido los <a> a secas
+el <body> agregado para ganarle a la especificity de plkt de los "p a" ...etc
+seria igual parte del theaming o custom
+habria que ver si vuelve el opacity en .6 y en que <a> si, o si en todo si.
+capas una clase opacity-6 y qe en todos los hover de 1.  */
+body a {
+    text-decoration: underline #7537f8 dotted 2px;
+    text-underline-offset: 5px;
+}
+body a:hover {
+    text-decoration: underline #7537f8 solid 2px;
+}
+
 body:where(.dark-mode) * {
     /* esto esta definido nomas algunos elementos en plkt, no todos como estaba en plnc*/
     color: hsl(0, 0%, 100%);
@@ -537,9 +550,11 @@ div#cookies-title a {
     border: 1px solid #4f4f581f;
 }
 
-.nav-links a {
+.nav-links a,
+.nav-links a:hover {
     text-decoration: none;
 }
+
 
 a.current-page {
     opacity: .4;

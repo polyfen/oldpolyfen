@@ -188,7 +188,7 @@
                     <div id="bike-in-mex-cover" class="project-cover"
                         onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover'); document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-button').classList.remove('button-hover'); document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
-                        <a class="img-link" href="/bike-in-mex">
+                        <a href="/bike-in-mex">
                             <figure>
                                 <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy"
                                     alt="Bike in Mex">
@@ -209,7 +209,7 @@
                     <div id="villa-terezija-cover" class="project-cover"
                         onmouseover="document.getElementById('villa-terezija-button').classList.add('button-hover'); document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('villa-terezija-button').classList.remove('button-hover'); document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
-                        <a class="img-link" href="/villa-terezija">
+                        <a href="/villa-terezija">
                             <figure>
                                 <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy"
                                     alt="Villa Terezija">

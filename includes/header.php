@@ -1,5 +1,5 @@
 <header>
-    <a class="logo img-link" href="/"><img src="/imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
+    <a class="logo" href="/"><img src="/imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
     <nav class="hello-nav">
         <div class="nav-links">
             <a href="/">Home</a>
