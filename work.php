@@ -54,8 +54,8 @@
 
     <!--Work page start -->
     <main class="work-main container-1080">
-        <h1 class="caption">Work</h1>
-        <h2 class="heading-1">Featured Projects</h2>
+        <h1 class="caption align-center">Work</h1>
+        <h2 class="heading-1 align-center">Featured Projects</h2>
 
         <!-- BIKE IN MEX start -->
         <div class="bike-in-mex featured-project">
@@ -93,7 +93,7 @@
         <!-- TRADEANA start -->
         <div class="tradeana featured-project">
             <div id="tradeana-cover" class="project-cover"
-            onmouseover="document.getElementById('tradeana-button').classList.add('button-hover');document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
+                onmouseover="document.getElementById('tradeana-button').classList.add('button-hover');document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
                 onmouseout="document.getElementById('tradeana-button').classList.remove('button-hover'); document.getElementById('tradeana-cover').classList.remove('project-cover-hover');">
                 <a class="img-link" href="/tradeana">
                     <figure>
@@ -114,7 +114,7 @@
                 <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help
                     them efficiently audit and manage the risk of their ForEx operations.</p>
                 <a class="button secondary-button margin-right-auto" id="tradeana-button" href="/tradeana"
-                onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
+                    onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('tradeana-cover').classList.remove('project-cover-hover');">
                     View Project</a>
             </div>
@@ -124,7 +124,7 @@
         <!-- VILLA TEREZIJA start -->
         <div class="villa-terezija featured-project">
             <div id="villa-terezija-cover" class="project-cover"
-            onmouseover="document.getElementById('villa-terezija-button').classList.add('button-hover');document.getElementById('villa-terezija-cover').classList.add('project-cover-hover');"
+                onmouseover="document.getElementById('villa-terezija-button').classList.add('button-hover');document.getElementById('villa-terezija-cover').classList.add('project-cover-hover');"
                 onmouseout="document.getElementById('villa-terezija-button').classList.remove('button-hover'); document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover');">
                 <a class="img-link" href="/villa-terezija">
                     <figure>
@@ -146,35 +146,23 @@
                 <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on
                     Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
                 <a class="button secondary-button margin-right-auto" id="villa-terezija-button" href="/villa-terezija"
-                onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover');"
+                    onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover');">
                     View Project</a>
             </div>
         </div>
         <!-- VILLA TEREZIJA end -->
+        </main>
+        <!-- FEATURED PROJECTS end -->
 
-    </main>
-    <!-- FEATURED PROJECTS end -->
+        <!-- section for portfolio thumbnails  -->
+        <?php include 'includes/portfolio-thumbnails.php';?>
 
+        <hr>
 
+        <?php include 'includes/testimonial.php';?>
 
-    <div class="row">
-        <div class="horizontal-separator"> </div>
-    </div>
-
-    </div>
-
-    <!-- new section for portfolio thumbnails  -->
-    <?php include 'includes/portfolio-thumbnails.php';?>
-
-
-    <hr>
-
-    <?php include 'includes/testimonial.php';?>
-
-
-    </div>
-    <!-- FORCE MAX-WIDTH 100% end -->
+    
 
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
     <?php include 'includes/call-to-action.php';?>

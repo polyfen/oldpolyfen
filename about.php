@@ -60,8 +60,8 @@
 
         <section class="about-cover container">
 
-            <h1 class="caption">About</h1>
-            <h2 class="heading-1">Where business &amp; creativity come together</h2>
+            <h1 class="caption align-center">About</h1>
+            <h2 class="heading-1 align-center">Where business &amp; creativity come together</h2>
 
             <div class="column-to-row">
                 <div class="one-half">
