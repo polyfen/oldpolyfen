@@ -89,10 +89,6 @@
 
         <?php include 'includes/testimonial.php';?>
 
-        <div id="final-cta-container" class="align-center">
-            <a class="button secondary-button" href="#calendly">↑ Schedule a Call ↑</a>
-        </div>
-
         <?php include 'includes/call-to-action.php';?>
 
     </main>
