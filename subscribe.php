@@ -53,7 +53,7 @@
     <main class="discovery-main">
         <section class="subscribe-cover" style="margin-bottom: 6rem;">
             <h1 class="caption align-center">Newsletter</h1>
-            <h2 class="heading-1 align-center">Subscribe, Unlock Insights,<br>Stay Ahead</h2>
+            <h2 class="heading-1 align-center">Unlock Insights and<br>Stay Ahead</h2>
             <?php include 'includes/mailchimp-form.php';?>
         </section>
 
