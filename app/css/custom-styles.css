@@ -69,3 +69,11 @@ section.plck-section h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.past-newsletters {
+    align-items: flex-start;
+}
+
+.past-newsletters article {
+    width: calc(33% - 20px);
+}
