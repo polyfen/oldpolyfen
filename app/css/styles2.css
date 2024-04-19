@@ -1246,13 +1246,12 @@ img.flag {
 
 .founder-bios h4 {
     opacity: .5;
-    /*     margin-top: 1rem; */
 }
 
 .founder .column-to-row {
     align-items: flex-start;
     justify-content: center;
-    gap: 52px;
+    gap: 0px;
 }
 
 .founder-social {
@@ -1305,6 +1304,10 @@ iframe#plcq-tutorial {
 
     .column-to-row .one-half {
         width: calc(50% - 12px);
+    }
+
+    .founder .column-to-row {
+        gap: 52px;
     }
 
     .founder-bios {
