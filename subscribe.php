@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Subscribe to Newsletter | Polyfen</title>
+    <title>Get our Newsletter | Polyfen</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
