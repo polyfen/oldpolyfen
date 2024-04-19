@@ -644,19 +644,17 @@ a.current-page {
     }
 
     .nav-links {
-        position: absolute;
-        right: 15px;
-        top: 21px;
+        position: relative;
         z-index: 4;
-        padding-block: 10px;
         display: flex;
         gap: 15px;
-        padding: 15px 28px;
         border-radius: 200px;
     }
 
     .nav-links.position-fixed {
         top: 20px;
+        right: 15px;
+        padding: 15px 28px;
     }
 }
 

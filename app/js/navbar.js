@@ -18,7 +18,8 @@ navCloser.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", function () {
     let nav = document.querySelector(".nav-links");
     let buttons = document.querySelector(".nav-buttons");
-
+    let body = document.querySelector("body");
+    
     window.addEventListener("scroll", function () {
         let scroll = window.scrollY;
 
