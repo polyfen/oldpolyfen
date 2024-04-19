@@ -181,7 +181,7 @@
         <hr>
 
         <section class="other-projects-container">
-            <h2 class="caption">Other Projects</h2>
+            <h2 class="heading-2 align-center" style="margin-bottom:4rem;">Other Projects</h2>
             <div class="other-project-cards">
 
                 <div class="other-project-card">
@@ -202,7 +202,7 @@
                     <a class="button secondary-button margin-right-auto" id='bike-in-mex-button' href="/bike-in-mex"
                         onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
-                        View project</a>
+                        View Project ➞</a>
                 </div>
 
                 <div class="other-project-card">
@@ -221,7 +221,7 @@
                         <a class="button secondary-button margin-right-auto" id="villa-terezija-button" href="/villa-terezija"
                             onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
                             onmouseout="document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
-                            View project</a>
+                            View Project ➞</a>
                     </div>
                 </div>
             </div>
