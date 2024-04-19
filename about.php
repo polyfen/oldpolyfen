@@ -61,7 +61,7 @@
         <section class="about-cover container">
 
             <h1 class="caption align-center">About</h1>
-            <h2 class="heading-1 align-center">Where business &amp; creativity come together</h2>
+            <h2 class="heading-1 align-center">Where Business &amp; Creativity Come Together</h2>
 
             <div class="column-to-row">
                 <div class="one-half">
@@ -76,7 +76,7 @@
         </section>
         <hr>
         <section class="founder container-700">
-            <h2 class="heading-2 align-center">10+ years of experience in design, development, &amp; marketing</h2>
+            <h2 class="heading-2 align-center">10+ Years of Experience in Design, Development, &amp; Marketing</h2>
 
             <div class="column-to-row">
 
@@ -110,7 +110,7 @@
         </section>
         <hr>
         <section class="plat-section container">
-            <h2 class="heading-2 align-center">We wrote the book on branding</h2>
+            <h2 class="heading-2 align-center">We Wrote the Book on Branding</h2>
             <div class="column-to-row">
                 <div class="one-half">
                     <img src="/imgs/about/poly-atlas-animation.gif">
@@ -124,7 +124,7 @@
         </section>
         <hr>
         <section class="plck-section container">
-            <h2 class="heading-2 align-center">We made a free solution to cookies consent</h2>
+            <h2 class="heading-2 align-center">We Made a Free Solution to Cookies Consent</h2>
             <div class="column-to-row">
                 <div class="one-half">
                     <iframe id="plcq-tutorial" width="560" height="315"
@@ -145,7 +145,7 @@
 
         <section class="what-sets-us-apart container-1080">
 
-            <h2 class="heading-2 align-center">What sets us apart</h2>
+            <h2 class="heading-2 align-center">What Sets us Apart</h2>
             <div class="container-700 accordions-container">
 
                 <div class="accordion">

@@ -1,5 +1,5 @@
 <section class="container-1080 testimonials">
-    <h2 class="heading-2 align-center">Hear our success stories</h2>
+    <h2 class="heading-2 align-center">Hear our Success Stories</h2>
     <div class="testimonials-container">
         <figure class="testimonial">
             <blockquote>
