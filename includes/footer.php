@@ -52,10 +52,10 @@
         </a>
     </div>
 
-
-    <nav class="footer-navbar-mobile d-none">
+    <nav class="footer-navbar-mobile">
         <a href="/">Home</a>
         <a href="/about">About</a>
+        <a href="/work">Work</a>
         <a href="/contact">Contact</a>
     </nav>
 
