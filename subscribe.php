@@ -57,7 +57,7 @@
             <?php include 'includes/mailchimp-form.php';?>
         </section>
 
-        <section class="container">
+        <section class="container" style="margin-bottom:6rem;">
         <div class="column-to-row">
             <div class="one-half">
                 <img src="imgs/email-illustration.webp" alt="" style="max-width:260px;margin:auto;">
@@ -71,8 +71,6 @@
             </div>
         </div>
         </section>
-
-        <hr>
 
         <?php include 'includes/past-newsletters.php';?>   
 

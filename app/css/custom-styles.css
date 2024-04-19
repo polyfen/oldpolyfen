@@ -75,7 +75,10 @@ section.plck-section h2 {
 }
 
 .past-newsletters article {
-    width: calc(33% - 20px);
+    width: calc(33% - 10px);
+    background: #120e32;
+    padding: 1.5rem;
+    border-radius: 4px;
 }
 
 
