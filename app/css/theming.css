@@ -48,6 +48,7 @@ button:hover, a.button:hover, input.button:hover {
 button.secondary-button, a.button.secondary-button, input.button.secondary-button {
     border-color: #7437f8b3;
     box-shadow: none;
+    background: #120e32;
 }
 
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
