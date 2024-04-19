@@ -34,4 +34,34 @@
         <button class="secondary-button small-button margin-right-auto">Read More</button>
     </article>
 
+    <div class="lightbox d-none" id="article_1_lightbox">
+        <div class="lightbox-modal container-700">
+            <article style="width:100%;">
+                <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
+                <img src="<?php echo $art3_image; ?>" alt="">
+                <p><?php echo $art3_excerpt; ?></p>
+            </article>
+        </div>
+    </div>
+
+    <div class="lightbox d-none" id="article_2_lightbox">
+        <div class="lightbox-modal container-700">
+            <article style="width:100%;">
+                <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
+                <img src="<?php echo $art3_image; ?>" alt="">
+                <p><?php echo $art3_excerpt; ?></p>
+            </article>
+        </div>
+    </div>
+
+    <div class="lightbox d-none" id="article_3_lightbox">
+        <div class="lightbox-modal container-700">
+            <article style="width:100%;">
+                <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
+                <img src="<?php echo $art3_image; ?>" alt="">
+                <p><?php echo $art3_excerpt; ?></p>
+            </article>
+        </div>
+    </div>
+
 </section>

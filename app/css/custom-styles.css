@@ -77,3 +77,35 @@ section.plck-section h2 {
 .past-newsletters article {
     width: calc(33% - 20px);
 }
+
+
+/* */
+
+.lightbox {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 100;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.lightbox-modal {
+    background: #070924;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+#newsletter-icon-1:before {
+    content: "💎";
+}
+
+#newsletter-icon-2:before {
+    content: "🔑";
+}
+
+#newsletter-icon-3:before {
+    content: "🤝";
+}

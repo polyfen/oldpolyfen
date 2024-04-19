@@ -64,9 +64,9 @@
             </div>
             <div class="one-half">
                 <ul class="hanging-list arrow-bullets spaced-list">
-                    <li><h3 class="heading-5">All killer, no filler</h3><br>Bite-sized, high-quality content.</li>
-                    <li><h3 class="heading-5">Members-only benefits</h3><br>Insider knowledge and early access for subscribers.</li>
-                    <li><h3 class="heading-5">Active community</h3><br>Engage with our community on <a href="https://www.linkedin.com/company/polyfen" target="_blank">LinkedIn</a>.</li>
+                    <li id="newsletter-icon-1"><h3 class="heading-5">All killer, no filler</h3><br>Bite-sized, high-quality content.</li>
+                    <li id="newsletter-icon-2"><h3 class="heading-5">Members-only benefits</h3><br>Insider knowledge and early access for subscribers.</li>
+                    <li id="newsletter-icon-3"><h3 class="heading-5">Active community</h3><br>Engage with our community on <a href="https://www.linkedin.com/company/polyfen" target="_blank">LinkedIn</a>.</li>
                 </ul>
             </div>
         </div>
