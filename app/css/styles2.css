@@ -824,7 +824,8 @@ a.current-page {
 
 
 .services-card {
-    border: 1px solid #7637f9;
+    border: 1px solid #7437f850;
+    background: #120e32;
     padding: 16px;
     border-radius: 6px;
     margin-bottom: 16px;
