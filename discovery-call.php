@@ -51,7 +51,7 @@
 
     <!-- Discovery Call - Landing page start -->
     <main class="discovery-main">
-        <h1 class="heading-1 align-center">Book a discovery call</h1>
+        <h1 class="heading-1 align-center">Book a Discovery Call</h1>
 
 
         <section class="boris-container container">
