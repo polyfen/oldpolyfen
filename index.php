@@ -149,8 +149,7 @@
             <div class="accordions-container">
                 <section class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/hand-coins.svg" height="32" alt="">
-                        <h3 class="heading-3">Low cost, high value</h3>
+                        <h3 data-acc="hand-coins" class="heading-3">Low cost, high value</h3>
                     </div>
                     <div class="acc-panel">
                         <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals
@@ -159,8 +158,7 @@
                 </section>
                 <section class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/shield-chevron.svg" height="32" alt="">
-                        <h3 class="heading-3">Wealth of experience</h3>
+                        <h3 data-acc="shield" class="heading-3">Wealth of experience</h3>
                     </div>
                     <div class="acc-panel">
                         <p>Founder &amp; CEO <a href="https://boris.hr" rel="follow" target="_blank">Boris
@@ -172,8 +170,7 @@
                 </section>
                 <section class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/crown-simple.svg" height="32" alt="">
-                        <h3 class="heading-3">End-to-end customer service</h3>
+                        <h3 data-acc="crown" class="heading-3">End-to-end customer service</h3>
                     </div>
                     <div class="acc-panel">
                         <p>We've got you covered next time you encounter any new requirements in the area of business
@@ -184,8 +181,7 @@
                 </section>
                 <section class="accordion">
                     <div class="acc-button">
-                        <img src="imgs/icons/flag-checkered.svg" height="32" alt="">
-                        <h3 class="heading-3">Fast-track project kick-off</h3>
+                        <h3 data-acc="flag" class="heading-3">Fast-track project kick-off</h3>
                     </div>
                     <div class="acc-panel">
                         <p>Our standardized and automated workflows ensure that no time is wasted. Send us an enquiry

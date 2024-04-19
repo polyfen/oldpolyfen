@@ -1650,3 +1650,19 @@ ambos content:url() o background-image funcionan igual parece ser */
 [data-acc="dna"]::before {
     content: url(/imgs/icons/dna.svg);
 }
+
+[data-acc="hand-coins"]::before {
+    content: url(/imgs/icons/hand-coins.svg);
+}
+
+[data-acc="shield"]::before {
+    content: url(/imgs/icons/shield-chevron.svg);
+}
+
+[data-acc="crown"]::before {
+    content: url(/imgs/icons/crown-simple.svg);
+}
+
+[data-acc="flag"]::before {
+    content: url(/imgs/icons/flag-checkered.svg);
+}
