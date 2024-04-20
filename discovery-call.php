@@ -67,14 +67,12 @@
                     No strings attached.
                 </p>
                 <div class="founder-social">
-                    <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank">
-                        <img src="/imgs/icons/linkedin-in.svg" height="25px" width="auto" alt="">
-                        <small>LinkedIn</small>
-                    </a>
-                    <a class="boris-hr-link" href="https://boris.hr/" target="_blank" rel="follow">
-                        <img src="/imgs/icons/globe-white.svg" height="25px" width="auto" alt="">
-                        <small>boris.hr</small>
-                    </a>
+                    <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank"><img
+                            src="/imgs/icons/linkedin-in.svg" height="25px" width="auto"
+                            alt=""><small>LinkedIn</small></a>
+                    <a class="boris-hr-link" href="https://boris.hr/" target="_blank" rel="follow"><img
+                            src="/imgs/icons/globe-white.svg" height="25px" width="auto"
+                            alt=""><small>boris.hr</small></a>
                 </div>
             </div>
         </section>
