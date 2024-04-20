@@ -10,7 +10,7 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Subscribe to Newsletter">
+    <meta property="og:title" content="Get our to Newsletter">
     <meta property="og:url" content="https://polyfen.com/subscribe">
     <meta name="keywords" content="#">
     <meta name="description" property="og:description"

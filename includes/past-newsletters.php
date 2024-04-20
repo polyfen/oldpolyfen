@@ -23,53 +23,68 @@
             <h3 class="heading-5"><?php echo $art1_heading; ?></h3>
             <img src="<?php echo $art1_image; ?>" alt="">
             <p><?php echo $art1_excerpt; ?></p>
-            <button class="secondary-button small-button margin-right-auto">Read More</button>
+            <button class="secondary-button small-button margin-right-auto" onclick="openLightbox('article_1_lightbox')">Read More</button>
         </article>
 
         <article>
             <h3 class="heading-5"><?php echo $art2_heading; ?></h3>
             <img src="<?php echo $art2_image; ?>" alt="">
             <p><?php echo $art2_excerpt; ?></p>
-            <button class="secondary-button small-button margin-right-auto">Read More</button>
+            <button class="secondary-button small-button margin-right-auto" onclick="openLightbox('article_2_lightbox')">Read More</button>
         </article>
 
         <article>
             <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
             <img src="<?php echo $art3_image; ?>" alt="">
             <p><?php echo $art3_excerpt; ?></p>
-            <button class="secondary-button small-button margin-right-auto">Read More</button>
+            <button class="secondary-button small-button margin-right-auto" onclick="openLightbox('article_3_lightbox')">Read More</button>
         </article>
 
     </div>
 
-        <div class="lightbox d-none" id="article_1_lightbox">
-            <div class="lightbox-modal container-700">
-                <article style="width:100%;">
-                    <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
-                    <img src="<?php echo $art3_image; ?>" alt="">
-                    <p><?php echo $art3_excerpt; ?></p>
-                </article>
-            </div>
+    <div class="lightbox d-none" id="article_1_lightbox">
+        <div class="lightbox-modal container-700" onclick="event.stopPropagation();">
+            <button class="close-button" onclick="closeLightbox('article_1_lightbox')">Close</button>
+            <article style="width:100%;">
+                <h3 class="heading-5"><?php echo $art1_heading; ?></h3>
+                <img src="<?php echo $art1_image; ?>" alt="">
+                <p><?php echo $art1_excerpt; ?></p>
+            </article>
         </div>
+    </div>
 
-        <div class="lightbox d-none" id="article_2_lightbox">
-            <div class="lightbox-modal container-700">
-                <article style="width:100%;">
-                    <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
-                    <img src="<?php echo $art3_image; ?>" alt="">
-                    <p><?php echo $art3_excerpt; ?></p>
-                </article>
-            </div>
+    <div class="lightbox d-none" id="article_2_lightbox">
+        <div class="lightbox-modal container-700" onclick="event.stopPropagation();">
+            <button class="close-button" onclick="closeLightbox('article_2_lightbox')">Close</button>
+            <article style="width:100%;">
+                <h3 class="heading-5"><?php echo $art2_heading; ?></h3>
+                <img src="<?php echo $art2_image; ?>" alt="">
+                <p><?php echo $art2_excerpt; ?></p>
+            </article>
         </div>
+    </div>
 
-        <div class="lightbox d-none" id="article_3_lightbox">
-            <div class="lightbox-modal container-700">
-                <article style="width:100%;">
-                    <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
-                    <img src="<?php echo $art3_image; ?>" alt="">
-                    <p><?php echo $art3_excerpt; ?></p>
-                </article>
-            </div>
+    <div class="lightbox d-none" id="article_3_lightbox">
+        <div class="lightbox-modal container-700" onclick="event.stopPropagation();">
+            <button class="close-button" onclick="closeLightbox('article_3_lightbox')">Close</button>
+            <article style="width:100%;">
+                <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
+                <img src="<?php echo $art3_image; ?>" alt="">
+                <p><?php echo $art3_excerpt; ?></p>
+            </article>
         </div>
+    </div>
 
 </section>
+
+<script>
+    function openLightbox(lightboxId) {
+        var lightbox = document.getElementById(lightboxId);
+        lightbox.classList.remove('d-none');
+    }
+
+    function closeLightbox(lightboxId) {
+        var lightbox = document.getElementById(lightboxId);
+        lightbox.classList.add('d-none');
+    }
+</script>
