@@ -34,20 +34,22 @@ ul {
     padding: 0;
 }
 
+/*capas esto se puede ir por que en plkt a.button ya trae text-decoration none*/
 a.button:hover {
     text-decoration: none;
 }
 
 /* esto por qe en polykit no esta  definido los <a> a secas
 el <body> agregado para ganarle a la especificity de plkt de los "p a" ...etc
-seria igual parte del theaming o custom
-habria que ver si vuelve el opacity en .6 y en que <a> si, o si en todo si.
-capas una clase opacity-6 y qe en todos los hover de 1.  */
-body a {
+habria que ver si vuelve el opacity.6 todos los <a> o en que situaciones.
+(clase opacity-6 si no es simpre? y todos los hover de 1.  */
+body a,
+a small {
     text-decoration: underline #7537f8 dotted 2px;
     text-underline-offset: 5px;
 }
-body a:hover {
+body a:hover,
+a:hover small {
     text-decoration: underline #7537f8 solid 2px;
 }
 
