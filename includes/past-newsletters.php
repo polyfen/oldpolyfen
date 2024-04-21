@@ -44,7 +44,7 @@
 
     <div class="lightbox d-none" id="article_1_lightbox">
         <div class="lightbox-modal container-700" onclick="event.stopPropagation();">
-            <button class="close-button" onclick="closeLightbox('article_1_lightbox')">Close</button>
+            <button class="close-button secondary-button small-button" onclick="closeLightbox('article_1_lightbox')">Close</button>
             <article style="width:100%;">
                 <h3 class="heading-5"><?php echo $art1_heading; ?></h3>
                 <img src="<?php echo $art1_image; ?>" alt="">
@@ -55,7 +55,7 @@
 
     <div class="lightbox d-none" id="article_2_lightbox">
         <div class="lightbox-modal container-700" onclick="event.stopPropagation();">
-            <button class="close-button" onclick="closeLightbox('article_2_lightbox')">Close</button>
+            <button class="close-button secondary-button small-button" onclick="closeLightbox('article_2_lightbox')">Close</button>
             <article style="width:100%;">
                 <h3 class="heading-5"><?php echo $art2_heading; ?></h3>
                 <img src="<?php echo $art2_image; ?>" alt="">
@@ -66,7 +66,7 @@
 
     <div class="lightbox d-none" id="article_3_lightbox">
         <div class="lightbox-modal container-700" onclick="event.stopPropagation();">
-            <button class="close-button" onclick="closeLightbox('article_3_lightbox')">Close</button>
+            <button class="close-button secondary-button small-button" onclick="closeLightbox('article_3_lightbox')">Close</button>
             <article style="width:100%;">
                 <h3 class="heading-5"><?php echo $art3_heading; ?></h3>
                 <img src="<?php echo $art3_image; ?>" alt="">
