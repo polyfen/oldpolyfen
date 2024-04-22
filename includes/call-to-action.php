@@ -1,4 +1,4 @@
-<section class="cta-section">
+<section class="cta-section hidden">
     <div class="grain-texture">
         <div class="cta-content">
             <div class="hidden container">

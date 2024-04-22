@@ -10,23 +10,23 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="About | Polyfen" />
-    <meta property="og:url" content="https://polyfen.com" />
+    <meta property="og:title" content="About | Polyfen">
+    <meta property="og:url" content="https://polyfen.com">
     <meta name="keywords"
-        content="Creative agency, Development agency, Zagreb, Croatia, Austin, US, USA, Mar del Plata, Argentina, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI" />
+        content="Creative agency, Development agency, Zagreb, Croatia, Austin, US, USA, Mar del Plata, Argentina, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI">
     <meta name="description" property="og:description"
-        content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018." />
+        content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018.">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/about-meta.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="fb:app_id" content="1799272553516195" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Polyfen" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="fb:app_id" content="1799272553516195">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Polyfen">
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="About" />
+    <meta name="twitter:title" content="About">
     <meta name="twitter:description"
-        content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/about-meta.png" />
+        content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018.">
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/about-meta.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
@@ -58,14 +58,14 @@
     <!-- ABOUT page start -->
     <main class="about-main">
 
-        <section class="about-cover container">
+        <section class="about-cover container hidden-header">
 
             <h1 class="caption align-center">About</h1>
             <h2 class="heading-1 align-center">Where Business &amp; Creativity Come Together</h2>
 
             <div class="column-to-row">
                 <div class="one-half">
-                    <img src="/imgs/illustrations/dudes-mini-pc.webp">
+                    <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
                 </div>
                 <div class="one-half">
                 <p>We're a creative and development agency founded in 2018 with a fully-remote team working for clients from the US.</p>
@@ -75,16 +75,16 @@
             </div>
         </section>
         <hr>
-        <section class="founder container-700">
+        <section class="founder container-700 hidden">
             <h2 class="heading-2 align-center">10+ Years of Experience in Design, Development, &amp; Marketing</h2>
 
             <div class="column-to-row">
 
                 <div class="founder-bios">
-                    <img class="founder-boris" src="/imgs/about/boris-hrncic.webp">
+                    <img class="founder-boris" src="/imgs/about/boris-hrncic.webp" alt="">
                     <h3 class="caption">Boris Hrnčić</h3>
                     <h4 class="caption">Founder &amp; CEO</h4>
-                    <img src="/imgs/flags/hr.svg" class="flag"><small>Zagreb, Croatia</small>
+                    <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
                 </div>
 
                 <div class="founder-list">
@@ -109,11 +109,11 @@
 
         </section>
         <hr>
-        <section class="plat-section container">
+        <section class="plat-section container hidden">
             <h2 class="heading-2 align-center">We Wrote the Book on Branding</h2>
             <div class="column-to-row">
                 <div class="one-half">
-                    <img src="/imgs/about/poly-atlas-animation.gif">
+                    <img src="/imgs/about/poly-atlas-animation.gif" alt="">
                 </div>
                 <div class="one-half">
                     <p>A step-by-step guide to the Branding process including practical tips,
@@ -123,13 +123,12 @@
             </div>
         </section>
         <hr>
-        <section class="plck-section container">
+        <section class="plck-section container hidden">
             <h2 class="heading-2 align-center">We Made a Free Solution to Cookies Consent</h2>
             <div class="column-to-row">
                 <div class="one-half">
                     <iframe id="plcq-tutorial" width="560" height="315"
                         src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM" title="YouTube video player"
-                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
@@ -143,7 +142,7 @@
 
         <hr>
 
-        <section class="what-sets-us-apart container-1080">
+        <section class="what-sets-us-apart container-1080 hidden">
 
             <h2 class="heading-2 align-center">What Sets us Apart</h2>
             <div class="container-700 accordions-container">

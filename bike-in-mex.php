@@ -10,23 +10,23 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Bike in Mex Branding | Polyfen" />
-    <meta property="og:url" content="https://polyfen.com/bike-in-mex" />
+    <meta property="og:title" content="Bike in Mex Branding | Polyfen">
+    <meta property="og:url" content="https://polyfen.com/bike-in-mex">
     <meta name="keywords"
-        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
+        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta name="description" property="og:description"
-        content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="fb:app_id" content="1799272553516195" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Polyfeny" />
+        content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="fb:app_id" content="1799272553516195">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Polyfeny">
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Bike in Mex Brand Identity Design" />
+    <meta name="twitter:title" content="Bike in Mex Brand Identity Design">
     <meta name="twitter:description"
-        content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png" />
+        content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.">
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
@@ -64,86 +64,86 @@
 
     <main class="case-study-main container-1080">
 
-        <h1 class="heading-1">Bike in Mex</h1>
-        <p class="project-p">We designed an identity focused on geometric illustrations inspired by ancient Aztec
+        <h1 class="heading-1 hidden-header">Bike in Mex</h1>
+        <p class="project-p hidden-header">We designed an identity focused on geometric illustrations inspired by ancient Aztec
             and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop
             based in Tulum, Mexico.</p>
 
-        <div id="slider-container">
+        <div id="slider-container" class="hidden-header">
             <div class="slider lazy">
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%"
-                        height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/bike-in-mex/01_bike-in-mex_cover.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" height="auto"
+                        srcset="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%" 
                         type="image/webp">
-                    <img data-lazy src="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%"
-                        height="auto">
+                    <img alt="" data-lazy src="imgs/case-studies/bike-in-mex/02_bike-in-mex_logo-grid.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)"
                         srcset="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%"
-                        height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%"
-                        height="auto">
+                         type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/bike-in-mex/03_bike-in-mex_logo-family.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" height="auto"
+                        srcset="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%" 
                         type="image/webp">
-                    <img data-lazy src="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%"
-                        height="auto">
+                    <img alt="" data-lazy src="imgs/case-studies/bike-in-mex/04_bike-in-mex_bicycle.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%"
-                        height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/bike-in-mex/05_bike-in-mex_mural.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" height="auto"
+                        srcset="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%" 
                         type="image/webp">
-                    <img data-lazy src="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%"
-                        height="auto">
+                    <img alt="" data-lazy src="imgs/case-studies/bike-in-mex/06_bike-in-mex_tshirts.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%"
-                        height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/bike-in-mex/08_bike-in-mex_flag.webp" width="100%"
+                        >
                 </picture>
             </div>
         </div>
 
         <hr>
 
-        <section class="other-projects-container">
+        <section class="other-projects-container hidden">
             <h2 class="heading-2 align-center" style="margin-bottom:4rem;">Other Projects</h2>
 
             <div class="other-project-cards">

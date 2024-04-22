@@ -82,6 +82,33 @@ hr.vertical-hr {
     width: unset;
 }
 
+/* Subtle transitions */
+
+/*////subtle animation////*/
+
+.hidden {
+    opacity: 0;
+    /*filter: blur(1px);*/
+    transform: translateY(75px);
+    transition: all 0.65s;
+  }
+  
+  .hidden-header {
+    opacity: 0;
+    /*filter: blur(1px);*/
+    transform: translateY(75px);
+    transition: all 0.65s;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition-timing-function: ease-out;
+  }
+
 /*  _   _      _ _             _                 */
 /* | | | | ___| | | ___       | |__   __ _ _ __  */
 /* | |_| |/ _ \ | |/ _ \ _____| '_ \ / _` | '__| */
@@ -1288,6 +1315,7 @@ iframe#plcq-tutorial {
     aspect-ratio: 16 / 9;
     width: 100%;
     height: 100%;
+    border: none;
 }
 
 /* founder section end */

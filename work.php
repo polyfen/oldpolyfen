@@ -9,23 +9,23 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Work | Polyfen" />
-    <meta property="og:url" content="https://polyfen.com/portfolio" />
+    <meta property="og:title" content="Work | Polyfen">
+    <meta property="og:url" content="https://polyfen.com/portfolio">
     <meta name="keywords"
-        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
+        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta name="description" property="og:description"
-        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="fb:app_id" content="1799272553516195" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Polyfen" />
+        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018.">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="fb:app_id" content="1799272553516195">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Polyfen">
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Work | Polyfen" />
+    <meta name="twitter:title" content="Work | Polyfen">
     <meta name="twitter:description"
-        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png" />
+        content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018.">
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
@@ -54,11 +54,11 @@
 
     <!--Work page start -->
     <main class="work-main container-1080">
-        <h1 class="caption align-center">Work</h1>
-        <h2 class="heading-1 align-center">Featured Projects</h2>
+        <h1 class="caption align-center hidden-header">Work</h1>
+        <h2 class="heading-1 align-center hidden-header">Featured Projects</h2>
 
         <!-- BIKE IN MEX start -->
-        <div class="bike-in-mex featured-project">
+        <div class="bike-in-mex featured-project hidden">
             <div id="bike-in-mex-cover" class="project-cover"
                 onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover');document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover');"
                 onmouseout="document.getElementById('bike-in-mex-button').classList.remove('button-hover'); document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover');">
@@ -91,7 +91,7 @@
         <!-- BIKE IN MEX end -->
 
         <!-- TRADEANA start -->
-        <div class="tradeana featured-project">
+        <div class="tradeana featured-project hidden">
             <div id="tradeana-cover" class="project-cover"
                 onmouseover="document.getElementById('tradeana-button').classList.add('button-hover');document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
                 onmouseout="document.getElementById('tradeana-button').classList.remove('button-hover'); document.getElementById('tradeana-cover').classList.remove('project-cover-hover');">
@@ -122,7 +122,7 @@
         <!-- TRADEANA end -->
 
         <!-- VILLA TEREZIJA start -->
-        <div class="villa-terezija featured-project">
+        <div class="villa-terezija featured-project hidden">
             <div id="villa-terezija-cover" class="project-cover"
                 onmouseover="document.getElementById('villa-terezija-button').classList.add('button-hover');document.getElementById('villa-terezija-cover').classList.add('project-cover-hover');"
                 onmouseout="document.getElementById('villa-terezija-button').classList.remove('button-hover'); document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover');">

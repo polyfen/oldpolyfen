@@ -10,23 +10,23 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Tradeana Branding | Polyfen" />
-    <meta property="og:url" content="https://polyfen.com/tradeana" />
+    <meta property="og:title" content="Tradeana Branding | Polyfen">
+    <meta property="og:url" content="https://polyfen.com/tradeana">
     <meta name="keywords"
-        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth" />
+        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta name="description" property="og:description"
-        content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/tradeana-meta.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="fb:app_id" content="1799272553516195" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Polyfen" />
+        content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/tradeana-meta.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="fb:app_id" content="1799272553516195">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Polyfen">
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Tradena Brand Identity Design" />
+    <meta name="twitter:title" content="Tradena Brand Identity Design">
     <meta name="twitter:description"
-        content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/tradeana-meta.png" />
+        content="Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help them efficiently audit and manage the risk of their ForEx operations.">
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/tradeana-meta.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
@@ -60,119 +60,119 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <main class="case-study-main container-1080">
-        <h1 class="heading-1 align-center">Tradeana</h1>
-        <p class="project-p">Tradeana's patented software, Forex Risk Engine™,
+        <h1 class="heading-1 align-center hidden-header">Tradeana</h1>
+        <p class="project-p hidden-header">Tradeana's patented software, Forex Risk Engine™,
             is designed by traders for traders to help them efficiently audit and
             manage the risk of their ForEx operations.</p>
-        <div id="slider-container">
+        <div id="slider-container" class="hidden-header">
             <div class="slider lazy">
 
                 <picture data-lazy>
                     <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover-mobile.webp"
-                        width="100%" height="auto" type="image/webp">
+                        width="100%"  type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp"" width=" 100%" height="auto"
+                        srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp"" width=" 100%" 
                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp"" width=" 100%" height="auto"
+                        srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp"" width=" 100%" 
                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/04_tradeana_keywords-mobile.webp" width="100%" height="auto"
+                        srcset="imgs/case-studies/tradeana/04_tradeana_keywords-mobile.webp" width="100%" 
                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/04_tradeana_keywords.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%"
-                        height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" height="auto"
+                        srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" 
                         type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%"
-                        height="auto">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/06_tradeana_naming-mobile.webp" width="100%" height="auto"
+                        srcset="imgs/case-studies/tradeana/06_tradeana_naming-mobile.webp" width="100%" 
                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/06_tradeana_naming.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)"
                         srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%"
-                        height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%"
-                        height="auto">
+                         type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%"
-                        height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/tradeana/09_tradeana_final-design-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/09_tradeana_final-design.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/09_tradeana_final-design.webp.webp" width="100%"
-                        height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/09_tradeana_final-design.webp.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/tradeana/10_tradeana_web-design-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/10_tradeana_web-design.webp"
-                        width="100%" height="auto" type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%"
-                        height="auto">
+                        width="100%"  type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" height="auto"
+                        srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" 
                         type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%"
-                        height="auto">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%"
+                        >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
                         srcset="imgs/case-studies/tradeana/12_tradeana_business-cards-mobile.webp" width="100%"
-                        height="auto" type="image/webp">
+                         type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" height="auto"
+                        srcset="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" 
                         type="image/webp">
-                    <img data-lazy src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%"
-                        height="auto">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%"
+                        >
                 </picture>
 
             </div>
@@ -180,7 +180,7 @@
 
         <hr>
 
-        <section class="other-projects-container">
+        <section class="other-projects-container hidden">
             <h2 class="heading-2 align-center" style="margin-bottom:4rem;">Other Projects</h2>
             <div class="other-project-cards">
 

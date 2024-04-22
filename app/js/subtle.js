@@ -22,5 +22,5 @@ const observerHeader = new IntersectionObserver(entries => {
     });
 });
 
-const hiddenHeader = document.querySelectorAll('.hiddenHeader');
+const hiddenHeader = document.querySelectorAll('.hidden-header');
 hiddenHeader.forEach((el) => observerHeader.observe(el));

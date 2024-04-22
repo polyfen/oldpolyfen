@@ -51,13 +51,13 @@
 
     <!-- Discovery Call - Landing page start -->
     <main class="discovery-main">
-        <section class="subscribe-cover" style="margin-bottom: 6rem;">
+        <section class="subscribe-cover hidden-header" style="margin-bottom: 6rem;">
             <h1 class="caption align-center">Newsletter</h1>
             <h2 class="heading-1 align-center">Unlock Insights &amp;<br>Stay Ahead</h2>
             <?php include 'includes/mailchimp-form.php';?>
         </section>
 
-        <section class="container" style="margin-bottom:6rem;">
+        <section class="container hidden" style="margin-bottom:6rem;">
         <div class="column-to-row">
             <div class="one-half">
                 <img src="imgs/email-illustration.webp" alt="" style="max-width:260px;margin:auto;">

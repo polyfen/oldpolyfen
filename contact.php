@@ -10,23 +10,23 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Contact | Polyfen" />
-    <meta property="og:url" content="https://polyfen.com" />
+    <meta property="og:title" content="Contact | Polyfen">
+    <meta property="og:url" content="https://polyfen.com">
     <meta name="keywords"
-        content="Creative agency, Software development, Get in touch, Contact form, Collaboration, Customer engagement, Sales, Branding, Marketing, Design, Development, Consulting, Staff augmentation, Digital experiences, Remote business, Flexible contracts, R&D innovation, Expert solutions" />
+        content="Creative agency, Software development, Get in touch, Contact form, Collaboration, Customer engagement, Sales, Branding, Marketing, Design, Development, Consulting, Staff augmentation, Digital experiences, Remote business, Flexible contracts, R&D innovation, Expert solutions">
     <meta name="description" property="og:description"
-        content="Empower your brand with our end-to-end services. Get in touch for exceptional results." />
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/contact-meta.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="fb:app_id" content="1799272553516195" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Polyfen" />
+        content="Empower your brand with our end-to-end services. Get in touch for exceptional results.">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/contact-meta.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="fb:app_id" content="1799272553516195">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Polyfen">
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Contact" />
+    <meta name="twitter:title" content="Contact">
     <meta name="twitter:description"
-        content="Empower your brand with our end-to-end services. Get in touch for exceptional results." />
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/contact-meta.png" />
+        content="Empower your brand with our end-to-end services. Get in touch for exceptional results.">
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/contact-meta.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
 
@@ -59,7 +59,7 @@
 
     <!-- CONTACT page start -->
     <main class="contact-main">
-        <section class="message-call container-1080">
+        <section class="message-call container-1080 hidden-header">
             <section class="send-a-message">
                 <h2 class="heading-2 align-center">Send a Message</h2>
                 <div class="err-msj">Verify you are human</div>
@@ -90,7 +90,7 @@
             </section>
         </section>
         <hr>
-        <section class="email-phone container">
+        <section class="email-phone container hidden">
             <h3 class="heading-2 align-center">hi@polyfen.com</h3>
             <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag"> +1 415 610 8439</h3>
         </section>

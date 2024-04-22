@@ -51,7 +51,7 @@
 
     <!-- Discovery Call - Landing page start -->
     <main class="discovery-main">
-        <h1 class="heading-1 align-center">Book a Discovery Call</h1>
+        <h1 class="heading-1 align-center hidden-header">Book a Discovery Call</h1>
 
 
         <section class="boris-container container">
@@ -68,11 +68,9 @@
                 </p>
                 <div class="founder-social">
                     <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank"><img
-                            src="/imgs/icons/linkedin-in.svg" height="25px" width="auto"
-                            alt=""><small>LinkedIn</small></a>
+                            src="/imgs/icons/linkedin-in.svg" height="25px" alt=""><small>LinkedIn</small></a>
                     <a class="boris-hr-link" href="https://boris.hr/" target="_blank" rel="follow"><img
-                            src="/imgs/icons/globe-white.svg" height="25px" width="auto"
-                            alt=""><small>boris.hr</small></a>
+                            src="/imgs/icons/globe-white.svg" height="25px" alt=""><small>boris.hr</small></a>
                 </div>
             </div>
         </section>

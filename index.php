@@ -63,7 +63,7 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- Home page start -->
-    <main class="home-main">
+    <main class="home-main hidden-header">
         <section class="home-cover">
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
@@ -80,7 +80,7 @@
             </div>
         </section>
 
-        <section class="clients-featured container-900">
+        <section class="clients-featured container-900 hidden">
             <h2 class="caption align-center">Clients featured in</h2>
             <div class="clients-container">
                 <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60">
@@ -92,7 +92,7 @@
 
         <hr>
 
-        <section class="container-1080 build">
+        <section class="build container-1080 hidden">
             <h2 class="heading-1">Build</h2>
             <div class="cards-container">
                 <section class="services-card">
@@ -121,7 +121,7 @@
             </div>
         </section>
 
-        <section class="container-1080 hire">
+        <section class="hire container-1080 hidden">
             <h2 class="heading-1">Hire</h2>
             <div class="cards-container">
                 <section class="services-card">
@@ -145,7 +145,7 @@
 
         </section>
 
-        <section class="container-700 benefits" aria-label="Benefits">
+        <section class="benefits container-700 hidden" aria-label="Benefits">
             <div class="accordions-container">
                 <section class="accordion">
                     <div class="acc-button">

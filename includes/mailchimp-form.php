@@ -1,4 +1,4 @@
-<div id="mc_embed_shell">
+<div id="mc_embed_shell" class="hidden-header">
   
 <div id="mc_embed_signup">
     <form action="https://polyfen.us18.list-manage.com/subscribe/post?u=d962a058bcdc55253835fc75d&amp;id=e6c751b26b&amp;f_id=007c7fe1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="" style="width: fit-content; margin: 0 auto;">
