@@ -68,9 +68,9 @@
                 </p>
                 <div class="founder-social">
                     <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank"><img
-                            src="/imgs/icons/linkedin-in.svg" height="25px" alt=""><small>LinkedIn</small></a>
+                            src="/imgs/icons/linkedin-in.svg" height="25" alt=""><small>LinkedIn</small></a>
                     <a class="boris-hr-link" href="https://boris.hr/" target="_blank" rel="follow"><img
-                            src="/imgs/icons/globe-white.svg" height="25px" alt=""><small>boris.hr</small></a>
+                            src="/imgs/icons/globe-white.svg" height="25" alt=""><small>boris.hr</small></a>
                 </div>
             </div>
         </section>

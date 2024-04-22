@@ -1,4 +1,4 @@
-<section class="container-1080 activity-box">
+<section class="container-1080 activity-box" aria-label="activity box">
         <div class="activity-item hidden"><img alt="" src="imgs/activity-cads/podcasttoapp-app.webp"></div>
         <div class="activity-item hidden"><img alt="" src="imgs/activity-cads/metas-investments-business-cards.webp"></div>
         <div class="activity-item hidden"><img alt="" src="imgs/activity-cads/hemingway-distillery-whiskey-bottle.webp"></div>

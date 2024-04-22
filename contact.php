@@ -59,19 +59,19 @@
 
     <!-- CONTACT page start -->
     <main class="contact-main">
-        <section class="message-call container-1080 hidden-header">
+        <section class="message-call container-1080 hidden-header" aria-label="Contact">
             <section class="send-a-message">
                 <h2 class="heading-2 align-center">Send a Message</h2>
                 <div class="err-msj">Verify you are human</div>
                 <form id="contact-form" method="POST" class="">
                     <label for="email">Email</label>
-                    <input type="email" name="email" required>
+                    <input type="email" name="email" id="email" required>
 
                     <label for="name">Name</label>
-                    <input type="text" name="name" required>
+                    <input type="text" name="name" id="name" required>
 
                     <label for="message">Message</label>
-                    <textarea name="message" required></textarea>
+                    <textarea name="message" id="message" required></textarea>
                     <!-- place captcha here -->
                     <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
                         data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
@@ -92,7 +92,7 @@
         <hr>
         <section class="email-phone container hidden">
             <h3 class="heading-2 align-center">hi@polyfen.com</h3>
-            <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag"> +1 415 610 8439</h3>
+            <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag" alt=""> +1 415 610 8439</h3>
         </section>
     </main>
     <!-- CONTACT end -->
