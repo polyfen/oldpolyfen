@@ -37,7 +37,7 @@
 
 </head>
 
-<body class="discovery-call landing-page dark-mode">
+<body class="newsletter landing-page dark-mode">
     <!-- ya hay un estilo del founder-social  que llama a este ID -->
 
     <!-- Google Tag Manager (noscript) -->

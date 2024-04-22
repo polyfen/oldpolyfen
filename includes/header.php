@@ -5,7 +5,7 @@
             <a href="/">Home</a>
             <a href="/about">About</a>
             <a href="/work">Work</a>
-            <a href="/subscribe">Newsletter</a>
+            <a href="/newsletter">Newsletter</a>
             <a href="/contact">Contact</a>
         </div>
         <div class="nav-buttons">
