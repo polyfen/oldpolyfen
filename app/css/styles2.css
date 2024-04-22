@@ -551,10 +551,10 @@ div#cookies-title a {
 .nav-links.position-fixed,
 .nav-buttons {
     position: fixed;
-    background: #ecf0f37d;
+    background: #070924a8;;
     backdrop-filter: blur(10px);
     z-index: 5;
-    border: 1px solid #4f4f581f;
+    border: 1px solid #ffffff26;
 }
 
 .nav-links a,
@@ -597,7 +597,7 @@ a.current-page {
         text-align: left;
         font-family: 'BiotifBold', helvetica, arial, sans-serif;
         font-weight: 700;
-        background-color: #ecf0f37d;
+        background-color: #000000b8;
     }
 
     .nav-buttons {
