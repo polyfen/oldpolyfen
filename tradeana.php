@@ -76,16 +76,14 @@
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp" width=" 100%" 
-                        type="image/webp">
+                        srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp" type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro.webp"
                           type="image/webp">
                     <img alt="" data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp"  >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp" width=" 100%" 
-                        type="image/webp">
+                        srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp" type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone.webp"
                           type="image/webp">
                     <img alt="" data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp"  >
