@@ -35,9 +35,9 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- SLICK start-->
-    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick.css">
     <!--// Add the new slick-theme.css if you want the default styling //-->
-    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick-theme.css">
     <!-- SLICK end-->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
@@ -69,109 +69,109 @@
 
                 <picture data-lazy>
                     <source media="(max-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover-mobile.webp"
-                        width="100%"  type="image/webp">
+                          type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/01_tradeana_cover.webp"
-                        width="100%"  type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/01_tradeana_cover.webp" width="100%" >
+                          type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/01_tradeana_cover.webp"  >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp"" width=" 100%" 
+                        srcset="imgs/case-studies/tradeana/02_tradeana_intro-mobile.webp" width=" 100%" 
                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/02_tradeana_intro.webp"
-                        width="100%"  type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp" width="100%" >
+                          type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/02_tradeana_intro.webp"  >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp"" width=" 100%" 
+                        srcset="imgs/case-studies/tradeana/03_tradeana_tone-mobile.webp" width=" 100%" 
                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/03_tradeana_tone.webp"
-                        width="100%"  type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp" width="100%" >
+                          type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/03_tradeana_tone.webp"  >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/04_tradeana_keywords-mobile.webp" width="100%" 
+                        srcset="imgs/case-studies/tradeana/04_tradeana_keywords-mobile.webp"  
                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/04_tradeana_keywords.webp"
-                        width="100%"  type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/04_tradeana_keywords.webp" width="100%"
+                          type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/04_tradeana_keywords.webp" 
                         >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept-mobile.webp" width="100%"
+                        srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept-mobile.webp" 
                          type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%" 
+                        srcset="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp"  
                         type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" width="100%"
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/05_tradeana_creative-concept.webp" 
                         >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/06_tradeana_naming-mobile.webp" width="100%" 
+                        srcset="imgs/case-studies/tradeana/06_tradeana_naming-mobile.webp"  
                         type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/06_tradeana_naming.webp"
-                        width="100%"  type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/06_tradeana_naming.webp" width="100%" >
+                          type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/06_tradeana_naming.webp"  >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color-mobile.webp" width="100%"
+                        srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color-mobile.webp" 
                          type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%"
+                        srcset="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" 
                          type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" width="100%"
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/07_tradeana_typography-and-color.webp" 
                         >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts-mobile.webp" width="100%"
+                        srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts-mobile.webp" 
                          type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp"
-                        width="100%"  type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" width="100%"
+                          type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/08_tradeana_early-drafts.webp" 
                         >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/09_tradeana_final-design-mobile.webp" width="100%"
+                        srcset="imgs/case-studies/tradeana/09_tradeana_final-design-mobile.webp" 
                          type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/09_tradeana_final-design.webp"
-                        width="100%"  type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/09_tradeana_final-design.webp.webp" width="100%"
+                          type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/09_tradeana_final-design.webp.webp" 
                         >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/10_tradeana_web-design-mobile.webp" width="100%"
+                        srcset="imgs/case-studies/tradeana/10_tradeana_web-design-mobile.webp" 
                          type="image/webp">
                     <source media="(min-width: 420px)" srcset="imgs/case-studies/tradeana/10_tradeana_web-design.webp"
-                        width="100%"  type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" width="100%"
+                          type="image/webp">
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/10_tradeana_web-design.webp" 
                         >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines-mobile.webp" width="100%"
+                        srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines-mobile.webp" 
                          type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%" 
+                        srcset="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp"  
                         type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" width="100%"
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/11_tradeana_brand-guidelines.webp" 
                         >
                 </picture>
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/12_tradeana_business-cards-mobile.webp" width="100%"
+                        srcset="imgs/case-studies/tradeana/12_tradeana_business-cards-mobile.webp" 
                          type="image/webp">
                     <source media="(min-width: 420px)"
-                        srcset="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%" 
+                        srcset="imgs/case-studies/tradeana/12_tradeana_business-cards.webp"  
                         type="image/webp">
-                    <img alt="" data-lazy src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" width="100%"
+                    <img alt="" data-lazy src="imgs/case-studies/tradeana/12_tradeana_business-cards.webp" 
                         >
                 </picture>
 
@@ -237,11 +237,11 @@
     <!-- INCLUDE FOOTER.PHP end -->
 
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="/libs/slick/slick/slick.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/libs/slick/slick/slick.min.js"></script>
 
-    <script type="text/javascript">
+    <script>
     $('.slider').slick({
         dots: true,
         infinite: false

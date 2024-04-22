@@ -35,9 +35,9 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <!-- SLICK start-->
-    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick.css">
     <!--// Add the new slick-theme.css if you want the default styling //-->
-    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick-theme.css">
     <!-- SLICK end-->
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
@@ -198,11 +198,11 @@
     <!-- INCLUDE FOOTER.PHP end -->
 
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="libs/slick/slick/slick.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="libs/slick/slick/slick.min.js"></script>
 
-    <script type="text/javascript">
+    <script>
     $('.slider').slick({
         dots: true,
         infinite: false
